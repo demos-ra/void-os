@@ -92,11 +92,12 @@ def write_package(value):
     """distribution-package.2: the name void-os, the version, the type module, the bin entry of the void-os command
     naming src/void-os.js, the engines the Value node engine gives, the dependencies the Values javascript dependency
     server and zod give, the license, Apache-2.0 by the user's choice where the books' placeholder gives MIT (D17),
-    its files the folder src alone, and the mcpName the Value registry name gives."""
+    its files the folder src less each canon .spec.mtsv (D19), and the mcpName the Value registry name gives."""
     dependencies = dict(requirement(value[name]) for name in ("javascript dependency server", "javascript dependency zod"))
     package = {"name": "void-os", "version": value["version"], "type": "module",
                "bin": {value["void-os command"]: "src/void-os.js"}, "engines": {"node": value["node engine"]},
-               "dependencies": dependencies, "license": "Apache-2.0", "files": ["src"], "mcpName": value["registry name"]}
+               "dependencies": dependencies, "license": "Apache-2.0", "files": ["src", "!src/**/.spec.mtsv"],
+               "mcpName": value["registry name"]}
     with open(os.path.join(repository, "javascript/package.json"), "w", encoding="utf-8") as file:
         file.write(json.dumps(package, indent=2, ensure_ascii=False) + "\n")
 
