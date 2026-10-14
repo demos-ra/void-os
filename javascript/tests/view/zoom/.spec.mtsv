@@ -1,0 +1,259 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .js	zoom.test	—
+3-statements
+kind	place	holds
+ImportDeclaration	zoom.test.js#/SourceFile/0	—
+ImportDeclaration	zoom.test.js#/SourceFile/1	—
+ImportDeclaration	zoom.test.js#/SourceFile/2	—
+ImportDeclaration	zoom.test.js#/SourceFile/3	—
+ExpressionStatement	zoom.test.js#/SourceFile/4	—
+ExpressionStatement	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0	—
+ExpressionStatement	zoom.test.js#/SourceFile/5	—
+ExpressionStatement	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0	—
+ExpressionStatement	zoom.test.js#/SourceFile/6	—
+ExpressionStatement	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0	—
+ExpressionStatement	zoom.test.js#/SourceFile/7	—
+ExpressionStatement	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0	—
+ExpressionStatement	zoom.test.js#/SourceFile/8	—
+ExpressionStatement	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0	—
+4-expressions
+kind	place	holds
+ImportClause · name	zoom.test.js#/SourceFile/0/ImportClause	—
+StringLiteral	zoom.test.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	zoom.test.js#/SourceFile/1/ImportClause	—
+NamespaceImport	zoom.test.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	zoom.test.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	zoom.test.js#/SourceFile/2/ImportClause	—
+NamespaceImport	zoom.test.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	zoom.test.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	zoom.test.js#/SourceFile/3/ImportClause	—
+NamespaceImport	zoom.test.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	zoom.test.js#/SourceFile/3/ModuleSpecifier	—
+CallExpression	zoom.test.js#/SourceFile/4/Expression	—
+Identifier	zoom.test.js#/SourceFile/4/Expression/Expression	—
+StringLiteral	zoom.test.js#/SourceFile/4/Expression/Arguments/0	—
+ArrowFunction · Block	zoom.test.js#/SourceFile/4/Expression/Arguments/1	—
+—	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0	—
+Identifier	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	zoom.test.js#/SourceFile/5/Expression	—
+Identifier	zoom.test.js#/SourceFile/5/Expression/Expression	—
+StringLiteral	zoom.test.js#/SourceFile/5/Expression/Arguments/0	—
+ArrowFunction · Block	zoom.test.js#/SourceFile/5/Expression/Arguments/1	—
+—	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0	—
+Identifier	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	zoom.test.js#/SourceFile/6/Expression	—
+Identifier	zoom.test.js#/SourceFile/6/Expression/Expression	—
+StringLiteral	zoom.test.js#/SourceFile/6/Expression/Arguments/0	—
+ArrowFunction · Block	zoom.test.js#/SourceFile/6/Expression/Arguments/1	—
+—	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0	—
+Identifier	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	zoom.test.js#/SourceFile/7/Expression	—
+Identifier	zoom.test.js#/SourceFile/7/Expression/Expression	—
+StringLiteral	zoom.test.js#/SourceFile/7/Expression/Arguments/0	—
+ArrowFunction · Block	zoom.test.js#/SourceFile/7/Expression/Arguments/1	—
+—	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0	—
+Identifier	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	zoom.test.js#/SourceFile/8/Expression	—
+Identifier	zoom.test.js#/SourceFile/8/Expression/Expression	—
+StringLiteral	zoom.test.js#/SourceFile/8/Expression/Arguments/0	—
+ArrowFunction · Block	zoom.test.js#/SourceFile/8/Expression/Arguments/1	—
+—	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0	—
+Identifier	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+5-texts
+kind	place	holds
+—	zoom.test.js#/SourceFile/0/ImportClause/name/Text	test
+—	zoom.test.js#/SourceFile/0/ModuleSpecifier/Text	'node:test'
+—	zoom.test.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	relationalModel
+—	zoom.test.js#/SourceFile/1/ModuleSpecifier/Text	'../../../src/relational-model/relational-model.js'
+—	zoom.test.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	values
+—	zoom.test.js#/SourceFile/2/ModuleSpecifier/Text	'../../../src/system-generation/values/values.js'
+—	zoom.test.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	runner
+—	zoom.test.js#/SourceFile/3/ModuleSpecifier/Text	'../../system-generation/runner/runner.js'
+—	zoom.test.js#/SourceFile/4/Expression/Expression/Text	test
+—	zoom.test.js#/SourceFile/4/Expression/Arguments/0/Text	'zoom.1'
+—	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name/Text	t
+—	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'zoom.1'
+—	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	zoom.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	zoom.test.js#/SourceFile/5/Expression/Expression/Text	test
+—	zoom.test.js#/SourceFile/5/Expression/Arguments/0/Text	'zoom.2'
+—	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name/Text	t
+—	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'zoom.2'
+—	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	zoom.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	zoom.test.js#/SourceFile/6/Expression/Expression/Text	test
+—	zoom.test.js#/SourceFile/6/Expression/Arguments/0/Text	'zoom.3'
+—	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0/name/Text	t
+—	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'zoom.3'
+—	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	zoom.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	zoom.test.js#/SourceFile/7/Expression/Expression/Text	test
+—	zoom.test.js#/SourceFile/7/Expression/Arguments/0/Text	'zoom.4'
+—	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0/name/Text	t
+—	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'zoom.4'
+—	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	zoom.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	zoom.test.js#/SourceFile/8/Expression/Expression/Text	test
+—	zoom.test.js#/SourceFile/8/Expression/Arguments/0/Text	'zoom.5'
+—	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0/name/Text	t
+—	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'zoom.5'
+—	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	zoom.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values

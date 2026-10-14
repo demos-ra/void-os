@@ -1,0 +1,144 @@
+1-folders
+kind	place	holds
+—	converter	—
+—	storage	—
+—	communication	—
+2-modules
+kind	place	holds
+{{name}} · .py	__init__	—
+{{name}} · .py	test_data_bank	—
+3-statements
+kind	place	holds
+Import	test_data_bank.py#/Module/0	—
+Import	test_data_bank.py#/Module/1	—
+ImportFrom	test_data_bank.py#/Module/2	—
+ImportFrom	test_data_bank.py#/Module/3	—
+ImportFrom	test_data_bank.py#/Module/4	—
+ClassDef	test_data_bank.py#/Module/5	—
+FunctionDef	test_data_bank.py#/Module/5/body/0	—
+Expr	test_data_bank.py#/Module/5/body/0/body/0	—
+With	test_data_bank.py#/Module/5/body/0/body/1	—
+Expr	test_data_bank.py#/Module/5/body/0/body/1/body/0	—
+FunctionDef	test_data_bank.py#/Module/5/body/1	—
+Expr	test_data_bank.py#/Module/5/body/1/body/0	—
+With	test_data_bank.py#/Module/5/body/1/body/1	—
+Expr	test_data_bank.py#/Module/5/body/1/body/1/body/0	—
+4-expressions
+kind	place	holds
+—	test_data_bank.py#/Module/0/names/0	—
+—	test_data_bank.py#/Module/1/names/0	—
+—	test_data_bank.py#/Module/2/module	—
+—	test_data_bank.py#/Module/2/names/0	—
+—	test_data_bank.py#/Module/3/module	—
+—	test_data_bank.py#/Module/3/names/0	—
+—	test_data_bank.py#/Module/4/module	—
+—	test_data_bank.py#/Module/4/names/0	—
+Attribute	test_data_bank.py#/Module/5/arguments/0	—
+Name	test_data_bank.py#/Module/5/arguments/0/value	—
+arg	test_data_bank.py#/Module/5/body/0/args/0	—
+Constant	test_data_bank.py#/Module/5/body/0/body/0/value	—
+—	test_data_bank.py#/Module/5/body/0/body/1/items/0	—
+Call	test_data_bank.py#/Module/5/body/0/body/1/items/0/context_expr	—
+Attribute	test_data_bank.py#/Module/5/body/0/body/1/items/0/context_expr/func	—
+Name	test_data_bank.py#/Module/5/body/0/body/1/items/0/context_expr/func/value	—
+keyword	test_data_bank.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0	—
+Constant	test_data_bank.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0/value	—
+Call	test_data_bank.py#/Module/5/body/0/body/1/body/0/value	—
+Attribute	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/func	—
+Name	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/func/value	—
+Call	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0	—
+Attribute	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func	—
+Name	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func/value	—
+Constant	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/0	—
+Constant	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/1	—
+BinOp	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2	—
+Call	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left	—
+Attribute	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func	—
+Attribute	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value	—
+Name	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value	—
+Name	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0	—
+Add	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/op	—
+Constant	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/right	—
+Name	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/3	—
+Name	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/4	—
+List	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/1	—
+arg	test_data_bank.py#/Module/5/body/1/args/0	—
+Constant	test_data_bank.py#/Module/5/body/1/body/0/value	—
+—	test_data_bank.py#/Module/5/body/1/body/1/items/0	—
+Call	test_data_bank.py#/Module/5/body/1/body/1/items/0/context_expr	—
+Attribute	test_data_bank.py#/Module/5/body/1/body/1/items/0/context_expr/func	—
+Name	test_data_bank.py#/Module/5/body/1/body/1/items/0/context_expr/func/value	—
+keyword	test_data_bank.py#/Module/5/body/1/body/1/items/0/context_expr/arguments/0	—
+Constant	test_data_bank.py#/Module/5/body/1/body/1/items/0/context_expr/arguments/0/value	—
+Call	test_data_bank.py#/Module/5/body/1/body/1/body/0/value	—
+Attribute	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/func	—
+Name	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/func/value	—
+Call	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0	—
+Attribute	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/func	—
+Name	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/func/value	—
+Constant	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/0	—
+Constant	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/1	—
+BinOp	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2	—
+Call	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left	—
+Attribute	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func	—
+Attribute	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/value	—
+Name	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value	—
+Name	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0	—
+Add	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/op	—
+Constant	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/right	—
+Name	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/3	—
+Name	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/4	—
+List	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/1	—
+5-texts
+kind	place	holds
+—	test_data_bank.py#/Module/0/names/0/name	unittest
+—	test_data_bank.py#/Module/1/names/0/name	os
+—	test_data_bank.py#/Module/2/module/value	tests.void_os.system_generation.runner
+—	test_data_bank.py#/Module/2/names/0/name	_runner
+—	test_data_bank.py#/Module/3/module/value	void_os.relational_model
+—	test_data_bank.py#/Module/3/names/0/name	_relational_model
+—	test_data_bank.py#/Module/4/module/value	void_os.system_generation.values
+—	test_data_bank.py#/Module/4/names/0/name	_values
+—	test_data_bank.py#/Module/5/name/value	TestDataBank
+—	test_data_bank.py#/Module/5/arguments/0/value/id	unittest
+—	test_data_bank.py#/Module/5/arguments/0/attr	TestCase
+—	test_data_bank.py#/Module/5/body/0/name/value	test_data_bank_1
+—	test_data_bank.py#/Module/5/body/0/args/0/arg	self
+—	test_data_bank.py#/Module/5/body/0/body/0/value/value	"""The data bank MUST store the files the converter writes for each of its inputs, and communicate them to another system."""
+—	test_data_bank.py#/Module/5/body/0/body/1/items/0/context_expr/func/value/id	self
+—	test_data_bank.py#/Module/5/body/0/body/1/items/0/context_expr/func/attr	subTest
+—	test_data_bank.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0/arg	case
+—	test_data_bank.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0/value/value	1
+—	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/func/value/id	self
+—	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/func/attr	assertEqual
+—	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func/value/id	_runner
+—	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func/attr	run
+—	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/0/value	'data-bank.1'
+—	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/1/value	1
+—	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value/id	os
+—	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value/attr	path
+—	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/attr	dirname
+—	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0/id	__file__
+—	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/right/value	'/../../../../conformance'
+—	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/3/id	_relational_model
+—	test_data_bank.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/4/id	_values
+—	test_data_bank.py#/Module/5/body/1/name/value	test_data_bank_3
+—	test_data_bank.py#/Module/5/body/1/args/0/arg	self
+—	test_data_bank.py#/Module/5/body/1/body/0/value/value	"""The data bank MUST give the access programs of storage and communication as its own: folder, insert and stored of storage, and names, records and new of communication."""
+—	test_data_bank.py#/Module/5/body/1/body/1/items/0/context_expr/func/value/id	self
+—	test_data_bank.py#/Module/5/body/1/body/1/items/0/context_expr/func/attr	subTest
+—	test_data_bank.py#/Module/5/body/1/body/1/items/0/context_expr/arguments/0/arg	case
+—	test_data_bank.py#/Module/5/body/1/body/1/items/0/context_expr/arguments/0/value/value	1
+—	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/func/value/id	self
+—	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/func/attr	assertEqual
+—	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/func/value/id	_runner
+—	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/func/attr	run
+—	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/0/value	'data-bank.3'
+—	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/1/value	1
+—	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value/id	os
+—	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/value/attr	path
+—	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/attr	dirname
+—	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0/id	__file__
+—	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/right/value	'/../../../../conformance'
+—	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/3/id	_relational_model
+—	test_data_bank.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/4/id	_values

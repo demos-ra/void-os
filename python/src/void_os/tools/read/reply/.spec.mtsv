@@ -1,0 +1,105 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .py	__init__	—
+{{name}} · .py	_reply	—
+3-statements
+kind	place	holds
+Expr	_reply.py#/Module/0	—
+Assign	_reply.py#/Module/1	—
+Import	_reply.py#/Module/2	—
+ImportFrom	_reply.py#/Module/3	—
+FunctionDef	_reply.py#/Module/4	—
+Return	_reply.py#/Module/4/body/0	—
+4-expressions
+kind	place	holds
+Constant	_reply.py#/Module/0/value	—
+Name	_reply.py#/Module/1/targets/0	—
+List	_reply.py#/Module/1/value	—
+Constant	_reply.py#/Module/1/value/elts/0	—
+—	_reply.py#/Module/2/names/0	—
+—	_reply.py#/Module/3/module	—
+—	_reply.py#/Module/3/names/0	—
+arg	_reply.py#/Module/4/args/0	—
+Subscript	_reply.py#/Module/4/args/0/annotation	—
+Name	_reply.py#/Module/4/args/0/annotation/value	—
+Subscript	_reply.py#/Module/4/args/0/annotation/slice	—
+Name	_reply.py#/Module/4/args/0/annotation/slice/value	—
+Tuple	_reply.py#/Module/4/args/0/annotation/slice/slice	—
+Name	_reply.py#/Module/4/args/0/annotation/slice/slice/elts/0	—
+Name	_reply.py#/Module/4/args/0/annotation/slice/slice/elts/1	—
+arg	_reply.py#/Module/4/args/1	—
+Subscript	_reply.py#/Module/4/args/1/annotation	—
+Name	_reply.py#/Module/4/args/1/annotation/value	—
+Subscript	_reply.py#/Module/4/args/1/annotation/slice	—
+Name	_reply.py#/Module/4/args/1/annotation/slice/value	—
+Tuple	_reply.py#/Module/4/args/1/annotation/slice/slice	—
+Name	_reply.py#/Module/4/args/1/annotation/slice/slice/elts/0	—
+Name	_reply.py#/Module/4/args/1/annotation/slice/slice/elts/1	—
+arg	_reply.py#/Module/4/args/2	—
+Attribute	_reply.py#/Module/4/args/2/annotation	—
+Name	_reply.py#/Module/4/args/2/annotation/value	—
+Name	_reply.py#/Module/4/returns	—
+Call	_reply.py#/Module/4/body/0/value	—
+Attribute	_reply.py#/Module/4/body/0/value/func	—
+Name	_reply.py#/Module/4/body/0/value/func/value	—
+BinOp	_reply.py#/Module/4/body/0/value/arguments/0	—
+ListComp	_reply.py#/Module/4/body/0/value/arguments/0/left	—
+Name	_reply.py#/Module/4/body/0/value/arguments/0/left/elt	—
+comprehension	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/0	—
+Name	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/0/target	—
+List	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/0/iter	—
+Constant	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/0/iter/elts/0	—
+Constant	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/0/iter/elts/1	—
+Constant	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/0/iter/elts/2	—
+Constant	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/0/iter/elts/3	—
+comprehension	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/1	—
+Name	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/1/target	—
+Name	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/1/iter	—
+Compare	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/1/ifs/0	—
+Subscript	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/1/ifs/0/left	—
+Name	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/1/ifs/0/left/value	—
+Constant	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/1/ifs/0/left/slice	—
+—	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/1/ifs/0/comparators/0	—
+Eq	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/1/ifs/0/comparators/0/op	—
+Name	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/1/ifs/0/comparators/0/comparator	—
+Add	_reply.py#/Module/4/body/0/value/arguments/0/op	—
+Name	_reply.py#/Module/4/body/0/value/arguments/0/right	—
+5-texts
+kind	place	holds
+—	_reply.py#/Module/0/value/value	"""what every reply states: the report, then the map or the values"""
+—	_reply.py#/Module/1/targets/0/id	__all__
+—	_reply.py#/Module/1/value/elts/0/value	'reply'
+—	_reply.py#/Module/2/names/0/name	types
+—	_reply.py#/Module/3/module/value	typing
+—	_reply.py#/Module/3/names/0/name	Any
+—	_reply.py#/Module/4/name/value	reply
+—	_reply.py#/Module/4/args/0/arg	report
+—	_reply.py#/Module/4/args/0/annotation/value/id	list
+—	_reply.py#/Module/4/args/0/annotation/slice/value/id	dict
+—	_reply.py#/Module/4/args/0/annotation/slice/slice/elts/0/id	str
+—	_reply.py#/Module/4/args/0/annotation/slice/slice/elts/1/id	Any
+—	_reply.py#/Module/4/args/1/arg	answer
+—	_reply.py#/Module/4/args/1/annotation/value/id	list
+—	_reply.py#/Module/4/args/1/annotation/slice/value/id	dict
+—	_reply.py#/Module/4/args/1/annotation/slice/slice/elts/0/id	str
+—	_reply.py#/Module/4/args/1/annotation/slice/slice/elts/1/id	Any
+—	_reply.py#/Module/4/args/2/arg	relational_model
+—	_reply.py#/Module/4/args/2/annotation/value/id	types
+—	_reply.py#/Module/4/args/2/annotation/attr	ModuleType
+—	_reply.py#/Module/4/returns/id	str
+—	_reply.py#/Module/4/body/0/value/func/value/id	relational_model
+—	_reply.py#/Module/4/body/0/value/func/attr	dumps
+—	_reply.py#/Module/4/body/0/value/arguments/0/left/elt/id	relation
+—	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/0/target/id	name
+—	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/0/iter/elts/0/value	'file'
+—	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/0/iter/elts/1/value	'not read'
+—	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/0/iter/elts/2/value	'left behind'
+—	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/0/iter/elts/3/value	'sheets'
+—	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/1/target/id	relation
+—	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/1/iter/id	report
+—	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/1/ifs/0/left/value/id	relation
+—	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/1/ifs/0/left/slice/value	'sheet name'
+—	_reply.py#/Module/4/body/0/value/arguments/0/left/generators/1/ifs/0/comparators/0/comparator/id	name
+—	_reply.py#/Module/4/body/0/value/arguments/0/right/id	answer

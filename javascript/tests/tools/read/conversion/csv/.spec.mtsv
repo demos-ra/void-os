@@ -1,0 +1,124 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .js	csv.test	—
+3-statements
+kind	place	holds
+ImportDeclaration	csv.test.js#/SourceFile/0	—
+ImportDeclaration	csv.test.js#/SourceFile/1	—
+ImportDeclaration	csv.test.js#/SourceFile/2	—
+ImportDeclaration	csv.test.js#/SourceFile/3	—
+ExpressionStatement	csv.test.js#/SourceFile/4	—
+ExpressionStatement	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0	—
+ExpressionStatement	csv.test.js#/SourceFile/5	—
+ExpressionStatement	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0	—
+4-expressions
+kind	place	holds
+ImportClause · name	csv.test.js#/SourceFile/0/ImportClause	—
+StringLiteral	csv.test.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	csv.test.js#/SourceFile/1/ImportClause	—
+NamespaceImport	csv.test.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	csv.test.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	csv.test.js#/SourceFile/2/ImportClause	—
+NamespaceImport	csv.test.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	csv.test.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	csv.test.js#/SourceFile/3/ImportClause	—
+NamespaceImport	csv.test.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	csv.test.js#/SourceFile/3/ModuleSpecifier	—
+CallExpression	csv.test.js#/SourceFile/4/Expression	—
+Identifier	csv.test.js#/SourceFile/4/Expression/Expression	—
+StringLiteral	csv.test.js#/SourceFile/4/Expression/Arguments/0	—
+ArrowFunction · Block	csv.test.js#/SourceFile/4/Expression/Arguments/1	—
+—	csv.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0	—
+Identifier	csv.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	csv.test.js#/SourceFile/5/Expression	—
+Identifier	csv.test.js#/SourceFile/5/Expression/Expression	—
+StringLiteral	csv.test.js#/SourceFile/5/Expression/Arguments/0	—
+ArrowFunction · Block	csv.test.js#/SourceFile/5/Expression/Arguments/1	—
+—	csv.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0	—
+Identifier	csv.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+5-texts
+kind	place	holds
+—	csv.test.js#/SourceFile/0/ImportClause/name/Text	test
+—	csv.test.js#/SourceFile/0/ModuleSpecifier/Text	'node:test'
+—	csv.test.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	relationalModel
+—	csv.test.js#/SourceFile/1/ModuleSpecifier/Text	'../../../../../src/relational-model/relational-model.js'
+—	csv.test.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	values
+—	csv.test.js#/SourceFile/2/ModuleSpecifier/Text	'../../../../../src/system-generation/values/values.js'
+—	csv.test.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	runner
+—	csv.test.js#/SourceFile/3/ModuleSpecifier/Text	'../../../../system-generation/runner/runner.js'
+—	csv.test.js#/SourceFile/4/Expression/Expression/Text	test
+—	csv.test.js#/SourceFile/4/Expression/Arguments/0/Text	'csv.1'
+—	csv.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name/Text	t
+—	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'csv.1'
+—	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	csv.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	csv.test.js#/SourceFile/5/Expression/Expression/Text	test
+—	csv.test.js#/SourceFile/5/Expression/Arguments/0/Text	'csv.2'
+—	csv.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name/Text	t
+—	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'csv.2'
+—	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	csv.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values

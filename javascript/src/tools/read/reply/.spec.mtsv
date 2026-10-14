@@ -1,0 +1,72 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .js	reply	—
+3-statements
+kind	place	holds
+FunctionDeclaration · Body	reply.js#/SourceFile/0	—
+ReturnStatement	reply.js#/SourceFile/0/Body/0	—
+4-expressions
+kind	place	holds
+ExportKeyword	reply.js#/SourceFile/0/modifiers/0	—
+—	reply.js#/SourceFile/0/name	—
+—	reply.js#/SourceFile/0/Parameters/0	—
+Identifier	reply.js#/SourceFile/0/Parameters/0/name	—
+—	reply.js#/SourceFile/0/Parameters/1	—
+Identifier	reply.js#/SourceFile/0/Parameters/1/name	—
+—	reply.js#/SourceFile/0/Parameters/2	—
+Identifier	reply.js#/SourceFile/0/Parameters/2/name	—
+CallExpression	reply.js#/SourceFile/0/Body/0/Expression	—
+PropertyAccessExpression · DotToken	reply.js#/SourceFile/0/Body/0/Expression/Expression	—
+Identifier	reply.js#/SourceFile/0/Body/0/Expression/Expression/Expression	—
+Identifier	reply.js#/SourceFile/0/Body/0/Expression/Expression/name	—
+ArrayLiteralExpression	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0	—
+SpreadElement	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0	—
+CallExpression	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression	—
+PropertyAccessExpression · DotToken	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Expression	—
+ArrayLiteralExpression	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Expression/Expression	—
+StringLiteral	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Expression/Expression/Elements/0	—
+StringLiteral	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Expression/Expression/Elements/1	—
+StringLiteral	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Expression/Expression/Elements/2	—
+StringLiteral	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Expression/Expression/Elements/3	—
+Identifier	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Expression/name	—
+ArrowFunction · Expression	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Arguments/0	—
+—	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Arguments/0/Parameters/0	—
+Identifier	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Arguments/0/Parameters/0/name	—
+CallExpression	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Arguments/0/Body	—
+PropertyAccessExpression · DotToken	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Arguments/0/Body/Expression	—
+Identifier	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Arguments/0/Body/Expression/Expression	—
+Identifier	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Arguments/0/Body/Expression/name	—
+ArrowFunction · Expression	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Arguments/0/Body/Arguments/0	—
+—	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Arguments/0/Body/Arguments/0/Parameters/0	—
+Identifier	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Arguments/0/Body/Arguments/0/Parameters/0/name	—
+BinaryExpression	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Arguments/0/Body/Arguments/0/Body	—
+ElementAccessExpression	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Arguments/0/Body/Arguments/0/Body/Left	—
+Identifier	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Arguments/0/Body/Arguments/0/Body/Left/Expression	—
+StringLiteral	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Arguments/0/Body/Arguments/0/Body/Left/ArgumentExpression	—
+EqualsEqualsEqualsToken	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Arguments/0/Body/Arguments/0/Body/OperatorToken	—
+Identifier	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Arguments/0/Body/Arguments/0/Body/Right	—
+SpreadElement	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/1	—
+Identifier	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/1/Expression	—
+5-texts
+kind	place	holds
+—	reply.js#/SourceFile/0/name/Text	reply
+—	reply.js#/SourceFile/0/Parameters/0/name/Text	report
+—	reply.js#/SourceFile/0/Parameters/1/name/Text	answer
+—	reply.js#/SourceFile/0/Parameters/2/name/Text	relationalModel
+—	reply.js#/SourceFile/0/Body/0/Expression/Expression/Expression/Text	relationalModel
+—	reply.js#/SourceFile/0/Body/0/Expression/Expression/name/Text	dumps
+—	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Expression/Expression/Elements/0/Text	'file'
+—	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Expression/Expression/Elements/1/Text	'not read'
+—	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Expression/Expression/Elements/2/Text	'left behind'
+—	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Expression/Expression/Elements/3/Text	'sheets'
+—	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Expression/name/Text	flatMap
+—	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Arguments/0/Parameters/0/name/Text	name
+—	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Arguments/0/Body/Expression/Expression/Text	report
+—	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Arguments/0/Body/Expression/name/Text	filter
+—	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Arguments/0/Body/Arguments/0/Parameters/0/name/Text	relation
+—	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Arguments/0/Body/Arguments/0/Body/Left/Expression/Text	relation
+—	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Arguments/0/Body/Arguments/0/Body/Left/ArgumentExpression/Text	'sheet name'
+—	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/0/Expression/Arguments/0/Body/Arguments/0/Body/Right/Text	name
+—	reply.js#/SourceFile/0/Body/0/Expression/Arguments/0/Elements/1/Expression/Text	answer

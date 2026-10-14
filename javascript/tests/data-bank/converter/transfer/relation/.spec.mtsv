@@ -1,0 +1,889 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .js	relation.test	—
+3-statements
+kind	place	holds
+ImportDeclaration	relation.test.js#/SourceFile/0	—
+ImportDeclaration	relation.test.js#/SourceFile/1	—
+ImportDeclaration	relation.test.js#/SourceFile/2	—
+ImportDeclaration	relation.test.js#/SourceFile/3	—
+ExpressionStatement	relation.test.js#/SourceFile/4	—
+ExpressionStatement	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0	—
+ExpressionStatement	relation.test.js#/SourceFile/5	—
+ExpressionStatement	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0	—
+ExpressionStatement	relation.test.js#/SourceFile/6	—
+ExpressionStatement	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0	—
+ExpressionStatement	relation.test.js#/SourceFile/7	—
+ExpressionStatement	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0	—
+ExpressionStatement	relation.test.js#/SourceFile/8	—
+ExpressionStatement	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0	—
+ExpressionStatement	relation.test.js#/SourceFile/9	—
+ExpressionStatement	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0	—
+ExpressionStatement	relation.test.js#/SourceFile/10	—
+ExpressionStatement	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0	—
+ExpressionStatement	relation.test.js#/SourceFile/11	—
+ExpressionStatement	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0	—
+ExpressionStatement	relation.test.js#/SourceFile/12	—
+ExpressionStatement	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0	—
+ExpressionStatement	relation.test.js#/SourceFile/13	—
+ExpressionStatement	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0	—
+ExpressionStatement	relation.test.js#/SourceFile/14	—
+ExpressionStatement	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0	—
+ExpressionStatement	relation.test.js#/SourceFile/15	—
+ExpressionStatement	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0	—
+ExpressionStatement	relation.test.js#/SourceFile/16	—
+ExpressionStatement	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0	—
+ExpressionStatement	relation.test.js#/SourceFile/17	—
+ExpressionStatement	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0	—
+ExpressionStatement	relation.test.js#/SourceFile/18	—
+ExpressionStatement	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0	—
+ExpressionStatement	relation.test.js#/SourceFile/19	—
+ExpressionStatement	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0	—
+ExpressionStatement	relation.test.js#/SourceFile/20	—
+ExpressionStatement	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0	—
+ExpressionStatement	relation.test.js#/SourceFile/21	—
+ExpressionStatement	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0	—
+ExpressionStatement	relation.test.js#/SourceFile/22	—
+ExpressionStatement	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0	—
+4-expressions
+kind	place	holds
+ImportClause · name	relation.test.js#/SourceFile/0/ImportClause	—
+StringLiteral	relation.test.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	relation.test.js#/SourceFile/1/ImportClause	—
+NamespaceImport	relation.test.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	relation.test.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	relation.test.js#/SourceFile/2/ImportClause	—
+NamespaceImport	relation.test.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	relation.test.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	relation.test.js#/SourceFile/3/ImportClause	—
+NamespaceImport	relation.test.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	relation.test.js#/SourceFile/3/ModuleSpecifier	—
+CallExpression	relation.test.js#/SourceFile/4/Expression	—
+Identifier	relation.test.js#/SourceFile/4/Expression/Expression	—
+StringLiteral	relation.test.js#/SourceFile/4/Expression/Arguments/0	—
+ArrowFunction · Block	relation.test.js#/SourceFile/4/Expression/Arguments/1	—
+—	relation.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0	—
+Identifier	relation.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	relation.test.js#/SourceFile/5/Expression	—
+Identifier	relation.test.js#/SourceFile/5/Expression/Expression	—
+StringLiteral	relation.test.js#/SourceFile/5/Expression/Arguments/0	—
+ArrowFunction · Block	relation.test.js#/SourceFile/5/Expression/Arguments/1	—
+—	relation.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0	—
+Identifier	relation.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	relation.test.js#/SourceFile/6/Expression	—
+Identifier	relation.test.js#/SourceFile/6/Expression/Expression	—
+StringLiteral	relation.test.js#/SourceFile/6/Expression/Arguments/0	—
+ArrowFunction · Block	relation.test.js#/SourceFile/6/Expression/Arguments/1	—
+—	relation.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0	—
+Identifier	relation.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	relation.test.js#/SourceFile/7/Expression	—
+Identifier	relation.test.js#/SourceFile/7/Expression/Expression	—
+StringLiteral	relation.test.js#/SourceFile/7/Expression/Arguments/0	—
+ArrowFunction · Block	relation.test.js#/SourceFile/7/Expression/Arguments/1	—
+—	relation.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0	—
+Identifier	relation.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	relation.test.js#/SourceFile/8/Expression	—
+Identifier	relation.test.js#/SourceFile/8/Expression/Expression	—
+StringLiteral	relation.test.js#/SourceFile/8/Expression/Arguments/0	—
+ArrowFunction · Block	relation.test.js#/SourceFile/8/Expression/Arguments/1	—
+—	relation.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0	—
+Identifier	relation.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	relation.test.js#/SourceFile/9/Expression	—
+Identifier	relation.test.js#/SourceFile/9/Expression/Expression	—
+StringLiteral	relation.test.js#/SourceFile/9/Expression/Arguments/0	—
+ArrowFunction · Block	relation.test.js#/SourceFile/9/Expression/Arguments/1	—
+—	relation.test.js#/SourceFile/9/Expression/Arguments/1/Parameters/0	—
+Identifier	relation.test.js#/SourceFile/9/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	relation.test.js#/SourceFile/10/Expression	—
+Identifier	relation.test.js#/SourceFile/10/Expression/Expression	—
+StringLiteral	relation.test.js#/SourceFile/10/Expression/Arguments/0	—
+ArrowFunction · Block	relation.test.js#/SourceFile/10/Expression/Arguments/1	—
+—	relation.test.js#/SourceFile/10/Expression/Arguments/1/Parameters/0	—
+Identifier	relation.test.js#/SourceFile/10/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	relation.test.js#/SourceFile/11/Expression	—
+Identifier	relation.test.js#/SourceFile/11/Expression/Expression	—
+StringLiteral	relation.test.js#/SourceFile/11/Expression/Arguments/0	—
+ArrowFunction · Block	relation.test.js#/SourceFile/11/Expression/Arguments/1	—
+—	relation.test.js#/SourceFile/11/Expression/Arguments/1/Parameters/0	—
+Identifier	relation.test.js#/SourceFile/11/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	relation.test.js#/SourceFile/12/Expression	—
+Identifier	relation.test.js#/SourceFile/12/Expression/Expression	—
+StringLiteral	relation.test.js#/SourceFile/12/Expression/Arguments/0	—
+ArrowFunction · Block	relation.test.js#/SourceFile/12/Expression/Arguments/1	—
+—	relation.test.js#/SourceFile/12/Expression/Arguments/1/Parameters/0	—
+Identifier	relation.test.js#/SourceFile/12/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	relation.test.js#/SourceFile/13/Expression	—
+Identifier	relation.test.js#/SourceFile/13/Expression/Expression	—
+StringLiteral	relation.test.js#/SourceFile/13/Expression/Arguments/0	—
+ArrowFunction · Block	relation.test.js#/SourceFile/13/Expression/Arguments/1	—
+—	relation.test.js#/SourceFile/13/Expression/Arguments/1/Parameters/0	—
+Identifier	relation.test.js#/SourceFile/13/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	relation.test.js#/SourceFile/14/Expression	—
+Identifier	relation.test.js#/SourceFile/14/Expression/Expression	—
+StringLiteral	relation.test.js#/SourceFile/14/Expression/Arguments/0	—
+ArrowFunction · Block	relation.test.js#/SourceFile/14/Expression/Arguments/1	—
+—	relation.test.js#/SourceFile/14/Expression/Arguments/1/Parameters/0	—
+Identifier	relation.test.js#/SourceFile/14/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	relation.test.js#/SourceFile/15/Expression	—
+Identifier	relation.test.js#/SourceFile/15/Expression/Expression	—
+StringLiteral	relation.test.js#/SourceFile/15/Expression/Arguments/0	—
+ArrowFunction · Block	relation.test.js#/SourceFile/15/Expression/Arguments/1	—
+—	relation.test.js#/SourceFile/15/Expression/Arguments/1/Parameters/0	—
+Identifier	relation.test.js#/SourceFile/15/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	relation.test.js#/SourceFile/16/Expression	—
+Identifier	relation.test.js#/SourceFile/16/Expression/Expression	—
+StringLiteral	relation.test.js#/SourceFile/16/Expression/Arguments/0	—
+ArrowFunction · Block	relation.test.js#/SourceFile/16/Expression/Arguments/1	—
+—	relation.test.js#/SourceFile/16/Expression/Arguments/1/Parameters/0	—
+Identifier	relation.test.js#/SourceFile/16/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	relation.test.js#/SourceFile/17/Expression	—
+Identifier	relation.test.js#/SourceFile/17/Expression/Expression	—
+StringLiteral	relation.test.js#/SourceFile/17/Expression/Arguments/0	—
+ArrowFunction · Block	relation.test.js#/SourceFile/17/Expression/Arguments/1	—
+—	relation.test.js#/SourceFile/17/Expression/Arguments/1/Parameters/0	—
+Identifier	relation.test.js#/SourceFile/17/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	relation.test.js#/SourceFile/18/Expression	—
+Identifier	relation.test.js#/SourceFile/18/Expression/Expression	—
+StringLiteral	relation.test.js#/SourceFile/18/Expression/Arguments/0	—
+ArrowFunction · Block	relation.test.js#/SourceFile/18/Expression/Arguments/1	—
+—	relation.test.js#/SourceFile/18/Expression/Arguments/1/Parameters/0	—
+Identifier	relation.test.js#/SourceFile/18/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	relation.test.js#/SourceFile/19/Expression	—
+Identifier	relation.test.js#/SourceFile/19/Expression/Expression	—
+StringLiteral	relation.test.js#/SourceFile/19/Expression/Arguments/0	—
+ArrowFunction · Block	relation.test.js#/SourceFile/19/Expression/Arguments/1	—
+—	relation.test.js#/SourceFile/19/Expression/Arguments/1/Parameters/0	—
+Identifier	relation.test.js#/SourceFile/19/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	relation.test.js#/SourceFile/20/Expression	—
+Identifier	relation.test.js#/SourceFile/20/Expression/Expression	—
+StringLiteral	relation.test.js#/SourceFile/20/Expression/Arguments/0	—
+ArrowFunction · Block	relation.test.js#/SourceFile/20/Expression/Arguments/1	—
+—	relation.test.js#/SourceFile/20/Expression/Arguments/1/Parameters/0	—
+Identifier	relation.test.js#/SourceFile/20/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	relation.test.js#/SourceFile/21/Expression	—
+Identifier	relation.test.js#/SourceFile/21/Expression/Expression	—
+StringLiteral	relation.test.js#/SourceFile/21/Expression/Arguments/0	—
+ArrowFunction · Block	relation.test.js#/SourceFile/21/Expression/Arguments/1	—
+—	relation.test.js#/SourceFile/21/Expression/Arguments/1/Parameters/0	—
+Identifier	relation.test.js#/SourceFile/21/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	relation.test.js#/SourceFile/22/Expression	—
+Identifier	relation.test.js#/SourceFile/22/Expression/Expression	—
+StringLiteral	relation.test.js#/SourceFile/22/Expression/Arguments/0	—
+ArrowFunction · Block	relation.test.js#/SourceFile/22/Expression/Arguments/1	—
+—	relation.test.js#/SourceFile/22/Expression/Arguments/1/Parameters/0	—
+Identifier	relation.test.js#/SourceFile/22/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+5-texts
+kind	place	holds
+—	relation.test.js#/SourceFile/0/ImportClause/name/Text	test
+—	relation.test.js#/SourceFile/0/ModuleSpecifier/Text	'node:test'
+—	relation.test.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	relationalModel
+—	relation.test.js#/SourceFile/1/ModuleSpecifier/Text	'../../../../../src/relational-model/relational-model.js'
+—	relation.test.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	values
+—	relation.test.js#/SourceFile/2/ModuleSpecifier/Text	'../../../../../src/system-generation/values/values.js'
+—	relation.test.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	runner
+—	relation.test.js#/SourceFile/3/ModuleSpecifier/Text	'../../../../system-generation/runner/runner.js'
+—	relation.test.js#/SourceFile/4/Expression/Expression/Text	test
+—	relation.test.js#/SourceFile/4/Expression/Arguments/0/Text	'relation.1'
+—	relation.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name/Text	t
+—	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'relation.1'
+—	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	relation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	relation.test.js#/SourceFile/5/Expression/Expression/Text	test
+—	relation.test.js#/SourceFile/5/Expression/Arguments/0/Text	'relation.10'
+—	relation.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name/Text	t
+—	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'relation.10'
+—	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	relation.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	relation.test.js#/SourceFile/6/Expression/Expression/Text	test
+—	relation.test.js#/SourceFile/6/Expression/Arguments/0/Text	'relation.11'
+—	relation.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0/name/Text	t
+—	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'relation.11'
+—	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	relation.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	relation.test.js#/SourceFile/7/Expression/Expression/Text	test
+—	relation.test.js#/SourceFile/7/Expression/Arguments/0/Text	'relation.12'
+—	relation.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0/name/Text	t
+—	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'relation.12'
+—	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	relation.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	relation.test.js#/SourceFile/8/Expression/Expression/Text	test
+—	relation.test.js#/SourceFile/8/Expression/Arguments/0/Text	'relation.13'
+—	relation.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0/name/Text	t
+—	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'relation.13'
+—	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	relation.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	relation.test.js#/SourceFile/9/Expression/Expression/Text	test
+—	relation.test.js#/SourceFile/9/Expression/Arguments/0/Text	'relation.14'
+—	relation.test.js#/SourceFile/9/Expression/Arguments/1/Parameters/0/name/Text	t
+—	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'relation.14'
+—	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	relation.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	relation.test.js#/SourceFile/10/Expression/Expression/Text	test
+—	relation.test.js#/SourceFile/10/Expression/Arguments/0/Text	'relation.15'
+—	relation.test.js#/SourceFile/10/Expression/Arguments/1/Parameters/0/name/Text	t
+—	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'relation.15'
+—	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	relation.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	relation.test.js#/SourceFile/11/Expression/Expression/Text	test
+—	relation.test.js#/SourceFile/11/Expression/Arguments/0/Text	'relation.16'
+—	relation.test.js#/SourceFile/11/Expression/Arguments/1/Parameters/0/name/Text	t
+—	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'relation.16'
+—	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	relation.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	relation.test.js#/SourceFile/12/Expression/Expression/Text	test
+—	relation.test.js#/SourceFile/12/Expression/Arguments/0/Text	'relation.17'
+—	relation.test.js#/SourceFile/12/Expression/Arguments/1/Parameters/0/name/Text	t
+—	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'relation.17'
+—	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	relation.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	relation.test.js#/SourceFile/13/Expression/Expression/Text	test
+—	relation.test.js#/SourceFile/13/Expression/Arguments/0/Text	'relation.18'
+—	relation.test.js#/SourceFile/13/Expression/Arguments/1/Parameters/0/name/Text	t
+—	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'relation.18'
+—	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	relation.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	relation.test.js#/SourceFile/14/Expression/Expression/Text	test
+—	relation.test.js#/SourceFile/14/Expression/Arguments/0/Text	'relation.19'
+—	relation.test.js#/SourceFile/14/Expression/Arguments/1/Parameters/0/name/Text	t
+—	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'relation.19'
+—	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	relation.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	relation.test.js#/SourceFile/15/Expression/Expression/Text	test
+—	relation.test.js#/SourceFile/15/Expression/Arguments/0/Text	'relation.2'
+—	relation.test.js#/SourceFile/15/Expression/Arguments/1/Parameters/0/name/Text	t
+—	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'relation.2'
+—	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	relation.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	relation.test.js#/SourceFile/16/Expression/Expression/Text	test
+—	relation.test.js#/SourceFile/16/Expression/Arguments/0/Text	'relation.3'
+—	relation.test.js#/SourceFile/16/Expression/Arguments/1/Parameters/0/name/Text	t
+—	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'relation.3'
+—	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	relation.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	relation.test.js#/SourceFile/17/Expression/Expression/Text	test
+—	relation.test.js#/SourceFile/17/Expression/Arguments/0/Text	'relation.4'
+—	relation.test.js#/SourceFile/17/Expression/Arguments/1/Parameters/0/name/Text	t
+—	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'relation.4'
+—	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	relation.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	relation.test.js#/SourceFile/18/Expression/Expression/Text	test
+—	relation.test.js#/SourceFile/18/Expression/Arguments/0/Text	'relation.5'
+—	relation.test.js#/SourceFile/18/Expression/Arguments/1/Parameters/0/name/Text	t
+—	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'relation.5'
+—	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	relation.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	relation.test.js#/SourceFile/19/Expression/Expression/Text	test
+—	relation.test.js#/SourceFile/19/Expression/Arguments/0/Text	'relation.6'
+—	relation.test.js#/SourceFile/19/Expression/Arguments/1/Parameters/0/name/Text	t
+—	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'relation.6'
+—	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	relation.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	relation.test.js#/SourceFile/20/Expression/Expression/Text	test
+—	relation.test.js#/SourceFile/20/Expression/Arguments/0/Text	'relation.7'
+—	relation.test.js#/SourceFile/20/Expression/Arguments/1/Parameters/0/name/Text	t
+—	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'relation.7'
+—	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	relation.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	relation.test.js#/SourceFile/21/Expression/Expression/Text	test
+—	relation.test.js#/SourceFile/21/Expression/Arguments/0/Text	'relation.8'
+—	relation.test.js#/SourceFile/21/Expression/Arguments/1/Parameters/0/name/Text	t
+—	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'relation.8'
+—	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	relation.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	relation.test.js#/SourceFile/22/Expression/Expression/Text	test
+—	relation.test.js#/SourceFile/22/Expression/Arguments/0/Text	'relation.9'
+—	relation.test.js#/SourceFile/22/Expression/Arguments/1/Parameters/0/name/Text	t
+—	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'relation.9'
+—	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	relation.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values

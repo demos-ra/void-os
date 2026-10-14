@@ -1,0 +1,394 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .js	json-text.test	—
+3-statements
+kind	place	holds
+ImportDeclaration	json-text.test.js#/SourceFile/0	—
+ImportDeclaration	json-text.test.js#/SourceFile/1	—
+ImportDeclaration	json-text.test.js#/SourceFile/2	—
+ImportDeclaration	json-text.test.js#/SourceFile/3	—
+ExpressionStatement	json-text.test.js#/SourceFile/4	—
+ExpressionStatement	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0	—
+ExpressionStatement	json-text.test.js#/SourceFile/5	—
+ExpressionStatement	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0	—
+ExpressionStatement	json-text.test.js#/SourceFile/6	—
+ExpressionStatement	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0	—
+ExpressionStatement	json-text.test.js#/SourceFile/7	—
+ExpressionStatement	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0	—
+ExpressionStatement	json-text.test.js#/SourceFile/8	—
+ExpressionStatement	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0	—
+ExpressionStatement	json-text.test.js#/SourceFile/9	—
+ExpressionStatement	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0	—
+ExpressionStatement	json-text.test.js#/SourceFile/10	—
+ExpressionStatement	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0	—
+ExpressionStatement	json-text.test.js#/SourceFile/11	—
+ExpressionStatement	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0	—
+4-expressions
+kind	place	holds
+ImportClause · name	json-text.test.js#/SourceFile/0/ImportClause	—
+StringLiteral	json-text.test.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	json-text.test.js#/SourceFile/1/ImportClause	—
+NamespaceImport	json-text.test.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	json-text.test.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	json-text.test.js#/SourceFile/2/ImportClause	—
+NamespaceImport	json-text.test.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	json-text.test.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	json-text.test.js#/SourceFile/3/ImportClause	—
+NamespaceImport	json-text.test.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	json-text.test.js#/SourceFile/3/ModuleSpecifier	—
+CallExpression	json-text.test.js#/SourceFile/4/Expression	—
+Identifier	json-text.test.js#/SourceFile/4/Expression/Expression	—
+StringLiteral	json-text.test.js#/SourceFile/4/Expression/Arguments/0	—
+ArrowFunction · Block	json-text.test.js#/SourceFile/4/Expression/Arguments/1	—
+—	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0	—
+Identifier	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	json-text.test.js#/SourceFile/5/Expression	—
+Identifier	json-text.test.js#/SourceFile/5/Expression/Expression	—
+StringLiteral	json-text.test.js#/SourceFile/5/Expression/Arguments/0	—
+ArrowFunction · Block	json-text.test.js#/SourceFile/5/Expression/Arguments/1	—
+—	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0	—
+Identifier	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	json-text.test.js#/SourceFile/6/Expression	—
+Identifier	json-text.test.js#/SourceFile/6/Expression/Expression	—
+StringLiteral	json-text.test.js#/SourceFile/6/Expression/Arguments/0	—
+ArrowFunction · Block	json-text.test.js#/SourceFile/6/Expression/Arguments/1	—
+—	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0	—
+Identifier	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	json-text.test.js#/SourceFile/7/Expression	—
+Identifier	json-text.test.js#/SourceFile/7/Expression/Expression	—
+StringLiteral	json-text.test.js#/SourceFile/7/Expression/Arguments/0	—
+ArrowFunction · Block	json-text.test.js#/SourceFile/7/Expression/Arguments/1	—
+—	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0	—
+Identifier	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	json-text.test.js#/SourceFile/8/Expression	—
+Identifier	json-text.test.js#/SourceFile/8/Expression/Expression	—
+StringLiteral	json-text.test.js#/SourceFile/8/Expression/Arguments/0	—
+ArrowFunction · Block	json-text.test.js#/SourceFile/8/Expression/Arguments/1	—
+—	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0	—
+Identifier	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	json-text.test.js#/SourceFile/9/Expression	—
+Identifier	json-text.test.js#/SourceFile/9/Expression/Expression	—
+StringLiteral	json-text.test.js#/SourceFile/9/Expression/Arguments/0	—
+ArrowFunction · Block	json-text.test.js#/SourceFile/9/Expression/Arguments/1	—
+—	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Parameters/0	—
+Identifier	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	json-text.test.js#/SourceFile/10/Expression	—
+Identifier	json-text.test.js#/SourceFile/10/Expression/Expression	—
+StringLiteral	json-text.test.js#/SourceFile/10/Expression/Arguments/0	—
+ArrowFunction · Block	json-text.test.js#/SourceFile/10/Expression/Arguments/1	—
+—	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Parameters/0	—
+Identifier	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	json-text.test.js#/SourceFile/11/Expression	—
+Identifier	json-text.test.js#/SourceFile/11/Expression/Expression	—
+StringLiteral	json-text.test.js#/SourceFile/11/Expression/Arguments/0	—
+ArrowFunction · Block	json-text.test.js#/SourceFile/11/Expression/Arguments/1	—
+—	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Parameters/0	—
+Identifier	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+5-texts
+kind	place	holds
+—	json-text.test.js#/SourceFile/0/ImportClause/name/Text	test
+—	json-text.test.js#/SourceFile/0/ModuleSpecifier/Text	'node:test'
+—	json-text.test.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	relationalModel
+—	json-text.test.js#/SourceFile/1/ModuleSpecifier/Text	'../../../../src/relational-model/relational-model.js'
+—	json-text.test.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	values
+—	json-text.test.js#/SourceFile/2/ModuleSpecifier/Text	'../../../../src/system-generation/values/values.js'
+—	json-text.test.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	runner
+—	json-text.test.js#/SourceFile/3/ModuleSpecifier/Text	'../../../system-generation/runner/runner.js'
+—	json-text.test.js#/SourceFile/4/Expression/Expression/Text	test
+—	json-text.test.js#/SourceFile/4/Expression/Arguments/0/Text	'json-text.1'
+—	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name/Text	t
+—	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'json-text.1'
+—	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../conformance'
+—	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	json-text.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	json-text.test.js#/SourceFile/5/Expression/Expression/Text	test
+—	json-text.test.js#/SourceFile/5/Expression/Arguments/0/Text	'json-text.2'
+—	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name/Text	t
+—	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'json-text.2'
+—	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../conformance'
+—	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	json-text.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	json-text.test.js#/SourceFile/6/Expression/Expression/Text	test
+—	json-text.test.js#/SourceFile/6/Expression/Arguments/0/Text	'json-text.3'
+—	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0/name/Text	t
+—	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'json-text.3'
+—	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../conformance'
+—	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	json-text.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	json-text.test.js#/SourceFile/7/Expression/Expression/Text	test
+—	json-text.test.js#/SourceFile/7/Expression/Arguments/0/Text	'json-text.4'
+—	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0/name/Text	t
+—	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'json-text.4'
+—	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../conformance'
+—	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	json-text.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	json-text.test.js#/SourceFile/8/Expression/Expression/Text	test
+—	json-text.test.js#/SourceFile/8/Expression/Arguments/0/Text	'json-text.5'
+—	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0/name/Text	t
+—	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'json-text.5'
+—	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../conformance'
+—	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	json-text.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	json-text.test.js#/SourceFile/9/Expression/Expression/Text	test
+—	json-text.test.js#/SourceFile/9/Expression/Arguments/0/Text	'json-text.6'
+—	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Parameters/0/name/Text	t
+—	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'json-text.6'
+—	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../conformance'
+—	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	json-text.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	json-text.test.js#/SourceFile/10/Expression/Expression/Text	test
+—	json-text.test.js#/SourceFile/10/Expression/Arguments/0/Text	'json-text.7'
+—	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Parameters/0/name/Text	t
+—	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'json-text.7'
+—	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../conformance'
+—	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	json-text.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	json-text.test.js#/SourceFile/11/Expression/Expression/Text	test
+—	json-text.test.js#/SourceFile/11/Expression/Arguments/0/Text	'json-text.8'
+—	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Parameters/0/name/Text	t
+—	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'json-text.8'
+—	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../conformance'
+—	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	json-text.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values

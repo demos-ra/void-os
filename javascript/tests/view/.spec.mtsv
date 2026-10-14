@@ -1,0 +1,354 @@
+1-folders
+kind	place	holds
+—	overview	—
+—	zoom	—
+—	filter	—
+—	details	—
+—	terminal	—
+2-modules
+kind	place	holds
+{{name}} · .js	view.test	—
+3-statements
+kind	place	holds
+ImportDeclaration	view.test.js#/SourceFile/0	—
+ImportDeclaration	view.test.js#/SourceFile/1	—
+ImportDeclaration	view.test.js#/SourceFile/2	—
+ImportDeclaration	view.test.js#/SourceFile/3	—
+ExpressionStatement	view.test.js#/SourceFile/4	—
+ExpressionStatement	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0	—
+ExpressionStatement	view.test.js#/SourceFile/5	—
+ExpressionStatement	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0	—
+ExpressionStatement	view.test.js#/SourceFile/6	—
+ExpressionStatement	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0	—
+ExpressionStatement	view.test.js#/SourceFile/7	—
+ExpressionStatement	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0	—
+ExpressionStatement	view.test.js#/SourceFile/8	—
+ExpressionStatement	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0	—
+ExpressionStatement	view.test.js#/SourceFile/9	—
+ExpressionStatement	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0	—
+ExpressionStatement	view.test.js#/SourceFile/10	—
+ExpressionStatement	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0	—
+4-expressions
+kind	place	holds
+ImportClause · name	view.test.js#/SourceFile/0/ImportClause	—
+StringLiteral	view.test.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	view.test.js#/SourceFile/1/ImportClause	—
+NamespaceImport	view.test.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	view.test.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	view.test.js#/SourceFile/2/ImportClause	—
+NamespaceImport	view.test.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	view.test.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	view.test.js#/SourceFile/3/ImportClause	—
+NamespaceImport	view.test.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	view.test.js#/SourceFile/3/ModuleSpecifier	—
+CallExpression	view.test.js#/SourceFile/4/Expression	—
+Identifier	view.test.js#/SourceFile/4/Expression/Expression	—
+StringLiteral	view.test.js#/SourceFile/4/Expression/Arguments/0	—
+ArrowFunction · Block	view.test.js#/SourceFile/4/Expression/Arguments/1	—
+—	view.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0	—
+Identifier	view.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	view.test.js#/SourceFile/5/Expression	—
+Identifier	view.test.js#/SourceFile/5/Expression/Expression	—
+StringLiteral	view.test.js#/SourceFile/5/Expression/Arguments/0	—
+ArrowFunction · Block	view.test.js#/SourceFile/5/Expression/Arguments/1	—
+—	view.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0	—
+Identifier	view.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	view.test.js#/SourceFile/6/Expression	—
+Identifier	view.test.js#/SourceFile/6/Expression/Expression	—
+StringLiteral	view.test.js#/SourceFile/6/Expression/Arguments/0	—
+ArrowFunction · Block	view.test.js#/SourceFile/6/Expression/Arguments/1	—
+—	view.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0	—
+Identifier	view.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	view.test.js#/SourceFile/7/Expression	—
+Identifier	view.test.js#/SourceFile/7/Expression/Expression	—
+StringLiteral	view.test.js#/SourceFile/7/Expression/Arguments/0	—
+ArrowFunction · Block	view.test.js#/SourceFile/7/Expression/Arguments/1	—
+—	view.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0	—
+Identifier	view.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	view.test.js#/SourceFile/8/Expression	—
+Identifier	view.test.js#/SourceFile/8/Expression/Expression	—
+StringLiteral	view.test.js#/SourceFile/8/Expression/Arguments/0	—
+ArrowFunction · Block	view.test.js#/SourceFile/8/Expression/Arguments/1	—
+—	view.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0	—
+Identifier	view.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	view.test.js#/SourceFile/9/Expression	—
+Identifier	view.test.js#/SourceFile/9/Expression/Expression	—
+StringLiteral	view.test.js#/SourceFile/9/Expression/Arguments/0	—
+ArrowFunction · Block	view.test.js#/SourceFile/9/Expression/Arguments/1	—
+—	view.test.js#/SourceFile/9/Expression/Arguments/1/Parameters/0	—
+Identifier	view.test.js#/SourceFile/9/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	view.test.js#/SourceFile/10/Expression	—
+Identifier	view.test.js#/SourceFile/10/Expression/Expression	—
+StringLiteral	view.test.js#/SourceFile/10/Expression/Arguments/0	—
+ArrowFunction · Block	view.test.js#/SourceFile/10/Expression/Arguments/1	—
+—	view.test.js#/SourceFile/10/Expression/Arguments/1/Parameters/0	—
+Identifier	view.test.js#/SourceFile/10/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+5-texts
+kind	place	holds
+—	view.test.js#/SourceFile/0/ImportClause/name/Text	test
+—	view.test.js#/SourceFile/0/ModuleSpecifier/Text	'node:test'
+—	view.test.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	relationalModel
+—	view.test.js#/SourceFile/1/ModuleSpecifier/Text	'../../src/relational-model/relational-model.js'
+—	view.test.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	values
+—	view.test.js#/SourceFile/2/ModuleSpecifier/Text	'../../src/system-generation/values/values.js'
+—	view.test.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	runner
+—	view.test.js#/SourceFile/3/ModuleSpecifier/Text	'../system-generation/runner/runner.js'
+—	view.test.js#/SourceFile/4/Expression/Expression/Text	test
+—	view.test.js#/SourceFile/4/Expression/Arguments/0/Text	'view.1'
+—	view.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name/Text	t
+—	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'view.1'
+—	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../conformance'
+—	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	view.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	view.test.js#/SourceFile/5/Expression/Expression/Text	test
+—	view.test.js#/SourceFile/5/Expression/Arguments/0/Text	'view.2'
+—	view.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name/Text	t
+—	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'view.2'
+—	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../conformance'
+—	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	view.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	view.test.js#/SourceFile/6/Expression/Expression/Text	test
+—	view.test.js#/SourceFile/6/Expression/Arguments/0/Text	'view.3'
+—	view.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0/name/Text	t
+—	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'view.3'
+—	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../conformance'
+—	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	view.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	view.test.js#/SourceFile/7/Expression/Expression/Text	test
+—	view.test.js#/SourceFile/7/Expression/Arguments/0/Text	'view.5'
+—	view.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0/name/Text	t
+—	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'view.5'
+—	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../conformance'
+—	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	view.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	view.test.js#/SourceFile/8/Expression/Expression/Text	test
+—	view.test.js#/SourceFile/8/Expression/Arguments/0/Text	'view.6'
+—	view.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0/name/Text	t
+—	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'view.6'
+—	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../conformance'
+—	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	view.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	view.test.js#/SourceFile/9/Expression/Expression/Text	test
+—	view.test.js#/SourceFile/9/Expression/Arguments/0/Text	'view.8'
+—	view.test.js#/SourceFile/9/Expression/Arguments/1/Parameters/0/name/Text	t
+—	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'view.8'
+—	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../conformance'
+—	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	view.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	view.test.js#/SourceFile/10/Expression/Expression/Text	test
+—	view.test.js#/SourceFile/10/Expression/Arguments/0/Text	'view.9'
+—	view.test.js#/SourceFile/10/Expression/Arguments/1/Parameters/0/name/Text	t
+—	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'view.9'
+—	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../conformance'
+—	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	view.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values

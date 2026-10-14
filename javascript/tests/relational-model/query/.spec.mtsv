@@ -1,0 +1,263 @@
+1-folders
+kind	place	holds
+—	positions	—
+—	filter-expression	—
+—	set-operations	—
+—	operations-on-relations	—
+2-modules
+kind	place	holds
+{{name}} · .js	query.test	—
+3-statements
+kind	place	holds
+ImportDeclaration	query.test.js#/SourceFile/0	—
+ImportDeclaration	query.test.js#/SourceFile/1	—
+ImportDeclaration	query.test.js#/SourceFile/2	—
+ImportDeclaration	query.test.js#/SourceFile/3	—
+ExpressionStatement	query.test.js#/SourceFile/4	—
+ExpressionStatement	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0	—
+ExpressionStatement	query.test.js#/SourceFile/5	—
+ExpressionStatement	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0	—
+ExpressionStatement	query.test.js#/SourceFile/6	—
+ExpressionStatement	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0	—
+ExpressionStatement	query.test.js#/SourceFile/7	—
+ExpressionStatement	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0	—
+ExpressionStatement	query.test.js#/SourceFile/8	—
+ExpressionStatement	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0	—
+4-expressions
+kind	place	holds
+ImportClause · name	query.test.js#/SourceFile/0/ImportClause	—
+StringLiteral	query.test.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	query.test.js#/SourceFile/1/ImportClause	—
+NamespaceImport	query.test.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	query.test.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	query.test.js#/SourceFile/2/ImportClause	—
+NamespaceImport	query.test.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	query.test.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	query.test.js#/SourceFile/3/ImportClause	—
+NamespaceImport	query.test.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	query.test.js#/SourceFile/3/ModuleSpecifier	—
+CallExpression	query.test.js#/SourceFile/4/Expression	—
+Identifier	query.test.js#/SourceFile/4/Expression/Expression	—
+StringLiteral	query.test.js#/SourceFile/4/Expression/Arguments/0	—
+ArrowFunction · Block	query.test.js#/SourceFile/4/Expression/Arguments/1	—
+—	query.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0	—
+Identifier	query.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	query.test.js#/SourceFile/5/Expression	—
+Identifier	query.test.js#/SourceFile/5/Expression/Expression	—
+StringLiteral	query.test.js#/SourceFile/5/Expression/Arguments/0	—
+ArrowFunction · Block	query.test.js#/SourceFile/5/Expression/Arguments/1	—
+—	query.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0	—
+Identifier	query.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	query.test.js#/SourceFile/6/Expression	—
+Identifier	query.test.js#/SourceFile/6/Expression/Expression	—
+StringLiteral	query.test.js#/SourceFile/6/Expression/Arguments/0	—
+ArrowFunction · Block	query.test.js#/SourceFile/6/Expression/Arguments/1	—
+—	query.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0	—
+Identifier	query.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	query.test.js#/SourceFile/7/Expression	—
+Identifier	query.test.js#/SourceFile/7/Expression/Expression	—
+StringLiteral	query.test.js#/SourceFile/7/Expression/Arguments/0	—
+ArrowFunction · Block	query.test.js#/SourceFile/7/Expression/Arguments/1	—
+—	query.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0	—
+Identifier	query.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	query.test.js#/SourceFile/8/Expression	—
+Identifier	query.test.js#/SourceFile/8/Expression/Expression	—
+StringLiteral	query.test.js#/SourceFile/8/Expression/Arguments/0	—
+ArrowFunction · Block	query.test.js#/SourceFile/8/Expression/Arguments/1	—
+—	query.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0	—
+Identifier	query.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+5-texts
+kind	place	holds
+—	query.test.js#/SourceFile/0/ImportClause/name/Text	test
+—	query.test.js#/SourceFile/0/ModuleSpecifier/Text	'node:test'
+—	query.test.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	relationalModel
+—	query.test.js#/SourceFile/1/ModuleSpecifier/Text	'../../../src/relational-model/relational-model.js'
+—	query.test.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	values
+—	query.test.js#/SourceFile/2/ModuleSpecifier/Text	'../../../src/system-generation/values/values.js'
+—	query.test.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	runner
+—	query.test.js#/SourceFile/3/ModuleSpecifier/Text	'../../system-generation/runner/runner.js'
+—	query.test.js#/SourceFile/4/Expression/Expression/Text	test
+—	query.test.js#/SourceFile/4/Expression/Arguments/0/Text	'query.1'
+—	query.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name/Text	t
+—	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'query.1'
+—	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	query.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	query.test.js#/SourceFile/5/Expression/Expression/Text	test
+—	query.test.js#/SourceFile/5/Expression/Arguments/0/Text	'query.2'
+—	query.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name/Text	t
+—	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'query.2'
+—	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	query.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	query.test.js#/SourceFile/6/Expression/Expression/Text	test
+—	query.test.js#/SourceFile/6/Expression/Arguments/0/Text	'query.3'
+—	query.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0/name/Text	t
+—	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'query.3'
+—	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	query.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	query.test.js#/SourceFile/7/Expression/Expression/Text	test
+—	query.test.js#/SourceFile/7/Expression/Arguments/0/Text	'query.4'
+—	query.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0/name/Text	t
+—	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'query.4'
+—	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	query.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	query.test.js#/SourceFile/8/Expression/Expression/Text	test
+—	query.test.js#/SourceFile/8/Expression/Arguments/0/Text	'query.5'
+—	query.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0/name/Text	t
+—	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'query.5'
+—	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	query.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values

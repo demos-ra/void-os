@@ -1,0 +1,59 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+set-operations.1	1	set operations	union					the union gives each sheet name once, each record led by its file
+set-operations.2	1	set operations	union					sheets of one name whose headers differ are given apart
+arguments
+requirement	case	position	item	value
+set-operations.1	1	4	0	file
+set-operations.2	1	4	0	file
+fixtures
+fixture	sheet	record	field	value
+s x a s x b s z c	1	0	1	s
+s x a s x b s z c	1	1	1	x
+s x a s x b s z c	1	2	1	a
+s x a s x b s z c	2	0	1	s
+s x a s x b s z c	2	1	1	x
+s x a s x b s z c	2	2	1	b
+s x a s x b s z c	3	0	1	s
+s x a s x b s z c	3	1	1	z
+s x a s x b s z c	3	2	1	c
+three origins	1	0	1	origins
+three origins	1	1	1	sheet
+three origins	1	1	2	file
+three origins	1	2	1	1
+three origins	1	2	2	1
+three origins	1	3	1	2
+three origins	1	3	2	2
+three origins	1	4	1	3
+three origins	1	4	2	3
+three files	1	0	1	file
+three files	1	1	1	file
+three files	1	1	2	source
+three files	1	2	1	1
+three files	1	2	2	$PWD/d/1.mtsv
+three files	1	3	1	2
+three files	1	3	2	$PWD/d/2.mtsv
+three files	1	4	1	3
+three files	1	4	2	$PWD/d/3.mtsv
+union apart	1	0	1	s
+union apart	1	1	1	file
+union apart	1	1	2	x
+union apart	1	2	1	1
+union apart	1	2	2	a
+union apart	1	3	1	2
+union apart	1	3	2	b
+union apart	2	0	1	s
+union apart	2	1	1	file
+union apart	2	1	2	z
+union apart	2	2	1	3
+union apart	2	2	2	c
+placed
+requirement	case	when	pathname	fixture
+set-operations.1	1	before	argument 1	s x a then s x b
+set-operations.1	1	before	argument 2	two origins
+set-operations.1	1	before	argument 3	two files
+set-operations.1	1	after	result 1	union of x
+set-operations.2	1	before	argument 1	s x a s x b s z c
+set-operations.2	1	before	argument 2	three origins
+set-operations.2	1	before	argument 3	three files
+set-operations.2	1	after	result 1	union apart

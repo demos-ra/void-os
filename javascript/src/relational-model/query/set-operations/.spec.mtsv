@@ -1,0 +1,305 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .js	set-operations	—
+3-statements
+kind	place	holds
+FunctionDeclaration · Body	set-operations.js#/SourceFile/0	—
+VariableStatement	set-operations.js#/SourceFile/0/Body/0	—
+VariableStatement	set-operations.js#/SourceFile/0/Body/1	—
+VariableStatement	set-operations.js#/SourceFile/0/Body/2	—
+ForOfStatement	set-operations.js#/SourceFile/0/Body/3	—
+VariableStatement	set-operations.js#/SourceFile/0/Body/3/Statement/0	—
+VariableStatement	set-operations.js#/SourceFile/0/Body/3/Statement/1	—
+VariableStatement	set-operations.js#/SourceFile/0/Body/3/Statement/2	—
+IfStatement	set-operations.js#/SourceFile/0/Body/3/Statement/3	—
+ExpressionStatement	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/0	—
+ExpressionStatement	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/1	—
+ExpressionStatement	set-operations.js#/SourceFile/0/Body/3/Statement/4	—
+ReturnStatement	set-operations.js#/SourceFile/0/Body/4	—
+4-expressions
+kind	place	holds
+ExportKeyword	set-operations.js#/SourceFile/0/modifiers/0	—
+—	set-operations.js#/SourceFile/0/name	—
+—	set-operations.js#/SourceFile/0/Parameters/0	—
+Identifier	set-operations.js#/SourceFile/0/Parameters/0/name	—
+—	set-operations.js#/SourceFile/0/Parameters/1	—
+Identifier	set-operations.js#/SourceFile/0/Parameters/1/name	—
+—	set-operations.js#/SourceFile/0/Parameters/2	—
+Identifier	set-operations.js#/SourceFile/0/Parameters/2/name	—
+—	set-operations.js#/SourceFile/0/Parameters/3	—
+Identifier	set-operations.js#/SourceFile/0/Parameters/3/name	—
+ConstKeyword	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Flags/0	—
+—	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0	—
+Identifier	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/name	—
+CallExpression	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Expression/name	—
+CallExpression	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+PropertyAccessExpression · DotToken	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression	—
+PropertyAccessExpression · DotToken	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/name	—
+Identifier	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/name	—
+ArrowFunction · Expression	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0	—
+—	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Parameters/0	—
+Identifier	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Parameters/0/name	—
+ArrayLiteralExpression	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body	—
+ElementAccessExpression	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0	—
+Identifier	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Expression	—
+NumericLiteral	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/ArgumentExpression	—
+ElementAccessExpression	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1	—
+Identifier	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/Expression	—
+NumericLiteral	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/ArgumentExpression	—
+ConstKeyword	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Flags/0	—
+—	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0	—
+Identifier	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/name	—
+CallExpression	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Expression/name	—
+CallExpression	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+PropertyAccessExpression · DotToken	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression	—
+PropertyAccessExpression · DotToken	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/name	—
+Identifier	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/name	—
+ArrowFunction · Expression	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0	—
+—	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Parameters/0	—
+Identifier	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Parameters/0/name	—
+ArrayLiteralExpression	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body	—
+ElementAccessExpression	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0	—
+Identifier	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Expression	—
+NumericLiteral	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/ArgumentExpression	—
+ElementAccessExpression	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1	—
+Identifier	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/Expression	—
+NumericLiteral	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/ArgumentExpression	—
+ConstKeyword	set-operations.js#/SourceFile/0/Body/2/DeclarationList/Flags/0	—
+—	set-operations.js#/SourceFile/0/Body/2/DeclarationList/Declarations/0	—
+Identifier	set-operations.js#/SourceFile/0/Body/2/DeclarationList/Declarations/0/name	—
+ArrayLiteralExpression	set-operations.js#/SourceFile/0/Body/2/DeclarationList/Declarations/0/Initializer	—
+VariableDeclarationList	set-operations.js#/SourceFile/0/Body/3/Initializer	—
+ConstKeyword	set-operations.js#/SourceFile/0/Body/3/Initializer/Flags/0	—
+—	set-operations.js#/SourceFile/0/Body/3/Initializer/Declarations/0	—
+ArrayBindingPattern	set-operations.js#/SourceFile/0/Body/3/Initializer/Declarations/0/name	—
+—	set-operations.js#/SourceFile/0/Body/3/Initializer/Declarations/0/name/Elements/0	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Initializer/Declarations/0/name/Elements/0/name	—
+—	set-operations.js#/SourceFile/0/Body/3/Initializer/Declarations/0/name/Elements/1	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Initializer/Declarations/0/name/Elements/1/name	—
+CallExpression	set-operations.js#/SourceFile/0/Body/3/Expression	—
+PropertyAccessExpression · DotToken	set-operations.js#/SourceFile/0/Body/3/Expression/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Expression/Expression/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Expression/Expression/name	—
+ConstKeyword	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Flags/0	—
+—	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/name	—
+ConditionalExpression	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer	—
+BinaryExpression	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/Condition	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/Condition/Left	—
+EqualsEqualsEqualsToken	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/Condition/OperatorToken	—
+StringLiteral	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/Condition/Right	—
+ElementAccessExpression	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression	—
+CallExpression	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/ArgumentExpression	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/ArgumentExpression/Expression	—
+BinaryExpression	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/ArgumentExpression/Arguments/0	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/ArgumentExpression/Arguments/0/Left	—
+PlusToken	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/ArgumentExpression/Arguments/0/OperatorToken	—
+NumericLiteral	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/ArgumentExpression/Arguments/0/Right	—
+ElementAccessExpression	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression	—
+ElementAccessExpression	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/ArgumentExpression	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/ArgumentExpression/Expression	—
+CallExpression	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/ArgumentExpression/ArgumentExpression	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/ArgumentExpression/ArgumentExpression/Expression	—
+BinaryExpression	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/ArgumentExpression/ArgumentExpression/Arguments/0	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/ArgumentExpression/ArgumentExpression/Arguments/0/Left	—
+PlusToken	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/ArgumentExpression/ArgumentExpression/Arguments/0/OperatorToken	—
+NumericLiteral	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/ArgumentExpression/ArgumentExpression/Arguments/0/Right	—
+ConstKeyword	set-operations.js#/SourceFile/0/Body/3/Statement/1/DeclarationList/Flags/0	—
+—	set-operations.js#/SourceFile/0/Body/3/Statement/1/DeclarationList/Declarations/0	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/1/DeclarationList/Declarations/0/name	—
+ConditionalExpression	set-operations.js#/SourceFile/0/Body/3/Statement/1/DeclarationList/Declarations/0/Initializer	—
+BinaryExpression	set-operations.js#/SourceFile/0/Body/3/Statement/1/DeclarationList/Declarations/0/Initializer/Condition	—
+PropertyAccessExpression · DotToken	set-operations.js#/SourceFile/0/Body/3/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left/name	—
+EqualsEqualsEqualsToken	set-operations.js#/SourceFile/0/Body/3/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/OperatorToken	—
+NullLiteral	set-operations.js#/SourceFile/0/Body/3/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Right	—
+NullLiteral	set-operations.js#/SourceFile/0/Body/3/Statement/1/DeclarationList/Declarations/0/Initializer/WhenTrue	—
+ArrayLiteralExpression	set-operations.js#/SourceFile/0/Body/3/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Elements/0	—
+SpreadElement	set-operations.js#/SourceFile/0/Body/3/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Elements/1	—
+PropertyAccessExpression · DotToken	set-operations.js#/SourceFile/0/Body/3/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Elements/1/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Elements/1/Expression/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Elements/1/Expression/name	—
+LetKeyword	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Flags/0	—
+—	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/name	—
+CallExpression	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Expression/name	—
+ArrowFunction · Expression	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+—	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0/name	—
+BinaryExpression	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body	—
+BinaryExpression	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left	—
+ElementAccessExpression	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/Left	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/Left/Expression	—
+StringLiteral	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/Left/ArgumentExpression	—
+EqualsEqualsEqualsToken	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/OperatorToken	—
+ElementAccessExpression	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/Right	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/Right/Expression	—
+StringLiteral	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/Right/ArgumentExpression	—
+AmpersandAmpersandToken	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/OperatorToken	—
+BinaryExpression	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right	—
+CallExpression	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Left	—
+PropertyAccessExpression · DotToken	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Left/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Left/Expression/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Left/Expression/name	—
+PropertyAccessExpression · DotToken	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Left/Arguments/0	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Left/Arguments/0/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Left/Arguments/0/name	—
+EqualsEqualsEqualsToken	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/OperatorToken	—
+CallExpression	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Right	—
+PropertyAccessExpression · DotToken	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Right/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Right/Expression/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Right/Expression/name	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Right/Arguments/0	—
+BinaryExpression	set-operations.js#/SourceFile/0/Body/3/Statement/3/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/3/Expression/Left	—
+EqualsEqualsEqualsToken	set-operations.js#/SourceFile/0/Body/3/Statement/3/Expression/OperatorToken	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/3/Expression/Right	—
+BinaryExpression	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/0/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/0/Expression/Left	—
+EqualsToken	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/0/Expression/OperatorToken	—
+ObjectLiteralExpression	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/0/Expression/Right	—
+PropertyAssignment	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/0/Expression/Right/Properties/0	—
+StringLiteral	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/0/Expression/Right/Properties/0/name	—
+ElementAccessExpression	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/0/Expression/Right/Properties/0/Initializer	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/0/Expression/Right/Properties/0/Initializer/Expression	—
+StringLiteral	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/0/Expression/Right/Properties/0/Initializer/ArgumentExpression	—
+PropertyAssignment	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/0/Expression/Right/Properties/1	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/0/Expression/Right/Properties/1/name	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/0/Expression/Right/Properties/1/Initializer	—
+PropertyAssignment	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/0/Expression/Right/Properties/2	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/0/Expression/Right/Properties/2/name	—
+ArrayLiteralExpression	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/0/Expression/Right/Properties/2/Initializer	—
+CallExpression	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/1/Expression	—
+PropertyAccessExpression · DotToken	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/1/Expression/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/1/Expression/Expression/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/1/Expression/Expression/name	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/1/Expression/Arguments/0	—
+CallExpression	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression	—
+PropertyAccessExpression · DotToken	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Expression	—
+PropertyAccessExpression · DotToken	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Expression/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Expression/Expression/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Expression/Expression/name	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Expression/name	—
+SpreadElement	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Arguments/0	—
+CallExpression	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Arguments/0/Expression	—
+PropertyAccessExpression · DotToken	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Arguments/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Arguments/0/Expression/Expression/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Arguments/0/Expression/Expression/Expression/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Arguments/0/Expression/Expression/Expression/name	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Arguments/0/Expression/Expression/name	—
+ArrowFunction · Expression	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Arguments/0/Expression/Arguments/0	—
+—	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Arguments/0/Expression/Arguments/0/Parameters/0	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Arguments/0/Expression/Arguments/0/Parameters/0/name	—
+ArrayLiteralExpression	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Arguments/0/Expression/Arguments/0/Body	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/0	—
+SpreadElement	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/1	—
+Identifier	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/1/Expression	—
+Identifier	set-operations.js#/SourceFile/0/Body/4/Expression	—
+5-texts
+kind	place	holds
+—	set-operations.js#/SourceFile/0/name/Text	union
+—	set-operations.js#/SourceFile/0/Parameters/0/name/Text	sheets
+—	set-operations.js#/SourceFile/0/Parameters/1/name/Text	origins
+—	set-operations.js#/SourceFile/0/Parameters/2/name/Text	file
+—	set-operations.js#/SourceFile/0/Parameters/3/name/Text	lead
+—	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/name/Text	files
+—	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Text	Object
+—	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Expression/name/Text	fromEntries
+—	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/Expression/Text	origins
+—	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/name/Text	records
+—	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/name/Text	map
+—	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Parameters/0/name/Text	record
+—	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Expression/Text	record
+—	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/ArgumentExpression/Text	0
+—	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/Expression/Text	record
+—	set-operations.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/ArgumentExpression/Text	1
+—	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/name/Text	sources
+—	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Text	Object
+—	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Expression/name/Text	fromEntries
+—	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/Expression/Text	file
+—	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/name/Text	records
+—	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/name/Text	map
+—	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Parameters/0/name/Text	record
+—	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Expression/Text	record
+—	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/ArgumentExpression/Text	0
+—	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/Expression/Text	record
+—	set-operations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/ArgumentExpression/Text	1
+—	set-operations.js#/SourceFile/0/Body/2/DeclarationList/Declarations/0/name/Text	united
+—	set-operations.js#/SourceFile/0/Body/3/Initializer/Declarations/0/name/Elements/0/name/Text	index
+—	set-operations.js#/SourceFile/0/Body/3/Initializer/Declarations/0/name/Elements/1/name/Text	sheet
+—	set-operations.js#/SourceFile/0/Body/3/Expression/Expression/Expression/Text	sheets
+—	set-operations.js#/SourceFile/0/Body/3/Expression/Expression/name/Text	entries
+—	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/name/Text	led
+—	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/Condition/Left/Text	lead
+—	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/Condition/Right/Text	'file'
+—	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Text	files
+—	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/ArgumentExpression/Expression/Text	String
+—	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/ArgumentExpression/Arguments/0/Left/Text	index
+—	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/ArgumentExpression/Arguments/0/Right/Text	1
+—	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Text	sources
+—	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/ArgumentExpression/Expression/Text	files
+—	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/ArgumentExpression/ArgumentExpression/Expression/Text	String
+—	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/ArgumentExpression/ArgumentExpression/Arguments/0/Left/Text	index
+—	set-operations.js#/SourceFile/0/Body/3/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/ArgumentExpression/ArgumentExpression/Arguments/0/Right/Text	1
+—	set-operations.js#/SourceFile/0/Body/3/Statement/1/DeclarationList/Declarations/0/name/Text	header
+—	set-operations.js#/SourceFile/0/Body/3/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression/Text	sheet
+—	set-operations.js#/SourceFile/0/Body/3/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left/name/Text	header
+—	set-operations.js#/SourceFile/0/Body/3/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Elements/0/Text	lead
+—	set-operations.js#/SourceFile/0/Body/3/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Elements/1/Expression/Expression/Text	sheet
+—	set-operations.js#/SourceFile/0/Body/3/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Elements/1/Expression/name/Text	header
+—	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/name/Text	found
+—	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Expression/Expression/Text	united
+—	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Expression/name/Text	find
+—	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0/name/Text	each
+—	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/Left/Expression/Text	each
+—	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/Left/ArgumentExpression/Text	'sheet name'
+—	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/Right/Expression/Text	sheet
+—	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/Right/ArgumentExpression/Text	'sheet name'
+—	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Left/Expression/Expression/Text	JSON
+—	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Left/Expression/name/Text	stringify
+—	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Left/Arguments/0/Expression/Text	each
+—	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Left/Arguments/0/name/Text	header
+—	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Right/Expression/Expression/Text	JSON
+—	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Right/Expression/name/Text	stringify
+—	set-operations.js#/SourceFile/0/Body/3/Statement/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Right/Arguments/0/Text	header
+—	set-operations.js#/SourceFile/0/Body/3/Statement/3/Expression/Left/Text	found
+—	set-operations.js#/SourceFile/0/Body/3/Statement/3/Expression/Right/Text	undefined
+—	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/0/Expression/Left/Text	found
+—	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/0/Expression/Right/Properties/0/name/Text	'sheet name'
+—	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/0/Expression/Right/Properties/0/Initializer/Expression/Text	sheet
+—	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/0/Expression/Right/Properties/0/Initializer/ArgumentExpression/Text	'sheet name'
+—	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/0/Expression/Right/Properties/1/name/Text	header
+—	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/0/Expression/Right/Properties/1/Initializer/Text	header
+—	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/0/Expression/Right/Properties/2/name/Text	records
+—	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/1/Expression/Expression/Expression/Text	united
+—	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/1/Expression/Expression/name/Text	push
+—	set-operations.js#/SourceFile/0/Body/3/Statement/3/ThenStatement/1/Expression/Arguments/0/Text	found
+—	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Expression/Expression/Expression/Text	found
+—	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Expression/Expression/name/Text	records
+—	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Expression/name/Text	push
+—	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Arguments/0/Expression/Expression/Expression/Expression/Text	sheet
+—	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Arguments/0/Expression/Expression/Expression/name/Text	records
+—	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Arguments/0/Expression/Expression/name/Text	map
+—	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Arguments/0/Expression/Arguments/0/Parameters/0/name/Text	record
+—	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/0/Text	led
+—	set-operations.js#/SourceFile/0/Body/3/Statement/4/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/1/Expression/Text	record
+—	set-operations.js#/SourceFile/0/Body/4/Expression/Text	united

@@ -1,0 +1,304 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .js	server.test	—
+3-statements
+kind	place	holds
+ImportDeclaration	server.test.js#/SourceFile/0	—
+ImportDeclaration	server.test.js#/SourceFile/1	—
+ImportDeclaration	server.test.js#/SourceFile/2	—
+ImportDeclaration	server.test.js#/SourceFile/3	—
+ExpressionStatement	server.test.js#/SourceFile/4	—
+ExpressionStatement	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0	—
+ExpressionStatement	server.test.js#/SourceFile/5	—
+ExpressionStatement	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0	—
+ExpressionStatement	server.test.js#/SourceFile/6	—
+ExpressionStatement	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0	—
+ExpressionStatement	server.test.js#/SourceFile/7	—
+ExpressionStatement	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0	—
+ExpressionStatement	server.test.js#/SourceFile/8	—
+ExpressionStatement	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0	—
+ExpressionStatement	server.test.js#/SourceFile/9	—
+ExpressionStatement	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0	—
+4-expressions
+kind	place	holds
+ImportClause · name	server.test.js#/SourceFile/0/ImportClause	—
+StringLiteral	server.test.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	server.test.js#/SourceFile/1/ImportClause	—
+NamespaceImport	server.test.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	server.test.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	server.test.js#/SourceFile/2/ImportClause	—
+NamespaceImport	server.test.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	server.test.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	server.test.js#/SourceFile/3/ImportClause	—
+NamespaceImport	server.test.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	server.test.js#/SourceFile/3/ModuleSpecifier	—
+CallExpression	server.test.js#/SourceFile/4/Expression	—
+Identifier	server.test.js#/SourceFile/4/Expression/Expression	—
+StringLiteral	server.test.js#/SourceFile/4/Expression/Arguments/0	—
+ArrowFunction · Block	server.test.js#/SourceFile/4/Expression/Arguments/1	—
+—	server.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0	—
+Identifier	server.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	server.test.js#/SourceFile/5/Expression	—
+Identifier	server.test.js#/SourceFile/5/Expression/Expression	—
+StringLiteral	server.test.js#/SourceFile/5/Expression/Arguments/0	—
+ArrowFunction · Block	server.test.js#/SourceFile/5/Expression/Arguments/1	—
+—	server.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0	—
+Identifier	server.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	server.test.js#/SourceFile/6/Expression	—
+Identifier	server.test.js#/SourceFile/6/Expression/Expression	—
+StringLiteral	server.test.js#/SourceFile/6/Expression/Arguments/0	—
+ArrowFunction · Block	server.test.js#/SourceFile/6/Expression/Arguments/1	—
+—	server.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0	—
+Identifier	server.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	server.test.js#/SourceFile/7/Expression	—
+Identifier	server.test.js#/SourceFile/7/Expression/Expression	—
+StringLiteral	server.test.js#/SourceFile/7/Expression/Arguments/0	—
+ArrowFunction · Block	server.test.js#/SourceFile/7/Expression/Arguments/1	—
+—	server.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0	—
+Identifier	server.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	server.test.js#/SourceFile/8/Expression	—
+Identifier	server.test.js#/SourceFile/8/Expression/Expression	—
+StringLiteral	server.test.js#/SourceFile/8/Expression/Arguments/0	—
+ArrowFunction · Block	server.test.js#/SourceFile/8/Expression/Arguments/1	—
+—	server.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0	—
+Identifier	server.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	server.test.js#/SourceFile/9/Expression	—
+Identifier	server.test.js#/SourceFile/9/Expression/Expression	—
+StringLiteral	server.test.js#/SourceFile/9/Expression/Arguments/0	—
+ArrowFunction · Block	server.test.js#/SourceFile/9/Expression/Arguments/1	—
+—	server.test.js#/SourceFile/9/Expression/Arguments/1/Parameters/0	—
+Identifier	server.test.js#/SourceFile/9/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+5-texts
+kind	place	holds
+—	server.test.js#/SourceFile/0/ImportClause/name/Text	test
+—	server.test.js#/SourceFile/0/ModuleSpecifier/Text	'node:test'
+—	server.test.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	relationalModel
+—	server.test.js#/SourceFile/1/ModuleSpecifier/Text	'../../../src/relational-model/relational-model.js'
+—	server.test.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	values
+—	server.test.js#/SourceFile/2/ModuleSpecifier/Text	'../../../src/system-generation/values/values.js'
+—	server.test.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	runner
+—	server.test.js#/SourceFile/3/ModuleSpecifier/Text	'../../system-generation/runner/runner.js'
+—	server.test.js#/SourceFile/4/Expression/Expression/Text	test
+—	server.test.js#/SourceFile/4/Expression/Arguments/0/Text	'server.1'
+—	server.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name/Text	t
+—	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'server.1'
+—	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	server.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	server.test.js#/SourceFile/5/Expression/Expression/Text	test
+—	server.test.js#/SourceFile/5/Expression/Arguments/0/Text	'server.2'
+—	server.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name/Text	t
+—	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'server.2'
+—	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	server.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	server.test.js#/SourceFile/6/Expression/Expression/Text	test
+—	server.test.js#/SourceFile/6/Expression/Arguments/0/Text	'server.3'
+—	server.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0/name/Text	t
+—	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'server.3'
+—	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	server.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	server.test.js#/SourceFile/7/Expression/Expression/Text	test
+—	server.test.js#/SourceFile/7/Expression/Arguments/0/Text	'server.4'
+—	server.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0/name/Text	t
+—	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'server.4'
+—	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	server.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	server.test.js#/SourceFile/8/Expression/Expression/Text	test
+—	server.test.js#/SourceFile/8/Expression/Arguments/0/Text	'server.5'
+—	server.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0/name/Text	t
+—	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'server.5'
+—	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	server.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	server.test.js#/SourceFile/9/Expression/Expression/Text	test
+—	server.test.js#/SourceFile/9/Expression/Arguments/0/Text	'server.6'
+—	server.test.js#/SourceFile/9/Expression/Arguments/1/Parameters/0/name/Text	t
+—	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'server.6'
+—	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	server.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values

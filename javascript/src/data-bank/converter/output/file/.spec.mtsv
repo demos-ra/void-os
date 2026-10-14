@@ -1,0 +1,41 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .js	file	—
+3-statements
+kind	place	holds
+FunctionDeclaration · Body	file.js#/SourceFile/0	—
+ReturnStatement	file.js#/SourceFile/0/Body/0	—
+4-expressions
+kind	place	holds
+ExportKeyword	file.js#/SourceFile/0/modifiers/0	—
+—	file.js#/SourceFile/0/name	—
+—	file.js#/SourceFile/0/Parameters/0	—
+Identifier	file.js#/SourceFile/0/Parameters/0/name	—
+CallExpression	file.js#/SourceFile/0/Body/0/Expression	—
+PropertyAccessExpression · DotToken	file.js#/SourceFile/0/Body/0/Expression/Expression	—
+Identifier	file.js#/SourceFile/0/Body/0/Expression/Expression/Expression	—
+Identifier	file.js#/SourceFile/0/Body/0/Expression/Expression/name	—
+ArrowFunction · Expression	file.js#/SourceFile/0/Body/0/Expression/Arguments/0	—
+—	file.js#/SourceFile/0/Body/0/Expression/Arguments/0/Parameters/0	—
+Identifier	file.js#/SourceFile/0/Body/0/Expression/Arguments/0/Parameters/0/name	—
+BinaryExpression	file.js#/SourceFile/0/Body/0/Expression/Arguments/0/Body	—
+PropertyAccessExpression · DotToken	file.js#/SourceFile/0/Body/0/Expression/Arguments/0/Body/Left	—
+PropertyAccessExpression · DotToken	file.js#/SourceFile/0/Body/0/Expression/Arguments/0/Body/Left/Expression	—
+Identifier	file.js#/SourceFile/0/Body/0/Expression/Arguments/0/Body/Left/Expression/Expression	—
+Identifier	file.js#/SourceFile/0/Body/0/Expression/Arguments/0/Body/Left/Expression/name	—
+Identifier	file.js#/SourceFile/0/Body/0/Expression/Arguments/0/Body/Left/name	—
+GreaterThanToken	file.js#/SourceFile/0/Body/0/Expression/Arguments/0/Body/OperatorToken	—
+NumericLiteral	file.js#/SourceFile/0/Body/0/Expression/Arguments/0/Body/Right	—
+5-texts
+kind	place	holds
+—	file.js#/SourceFile/0/name/Text	file
+—	file.js#/SourceFile/0/Parameters/0/name/Text	sheets
+—	file.js#/SourceFile/0/Body/0/Expression/Expression/Expression/Text	sheets
+—	file.js#/SourceFile/0/Body/0/Expression/Expression/name/Text	filter
+—	file.js#/SourceFile/0/Body/0/Expression/Arguments/0/Parameters/0/name/Text	sheet
+—	file.js#/SourceFile/0/Body/0/Expression/Arguments/0/Body/Left/Expression/Expression/Text	sheet
+—	file.js#/SourceFile/0/Body/0/Expression/Arguments/0/Body/Left/Expression/name/Text	records
+—	file.js#/SourceFile/0/Body/0/Expression/Arguments/0/Body/Left/name/Text	length
+—	file.js#/SourceFile/0/Body/0/Expression/Arguments/0/Body/Right/Text	0

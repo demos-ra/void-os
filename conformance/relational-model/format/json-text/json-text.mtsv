@@ -1,0 +1,147 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+json-text.1	1	JSON text	instances	not a JSON text				a byte order mark at the start is not ignored
+json-text.8	1	JSON text	instances	not a JSON text				what is not a JSON text is rejected
+json-text.2	1	JSON text	instances					each instance is one record, the value first, its _parent and its _pointer, ~ written ~0 and / written ~1
+json-text.3	1	JSON text	instances					_type is the primitive type and _value the text: a number as written, true, empty for null
+json-text.4	1	JSON text	instances					a string that holds HT or a line break has an empty _value, its text written to runs
+json-text.5	1	JSON text	instances					a CR not followed by LF is left out, the place given as not carried
+json-text.6	1	JSON text	instances	names not unique	#			an object whose names are not all unique ends the read as names not unique
+json-text.7	1	JSON text	named					named gives the instance a JSON Pointer names
+arguments
+requirement	case	position	item	value
+json-text.1	1	1	0	﻿{}
+json-text.8	1	1	0	not json
+json-text.2	1	1	0	{"a~b": {"c/d": 1}}
+json-text.3	1	1	0	[1.50, true, null, "s"]
+json-text.4	1	1	0	["a\tb\nc"]
+json-text.5	1	1	0	["a\rb"]
+json-text.6	1	1	0	{"a": 1, "a": 2}
+json-text.7	1	2	0	/a~0b/c~1d
+fixtures
+fixture	sheet	record	field	value
+nested instances	1	0	1	instances
+nested instances	1	1	1	_instance
+nested instances	1	1	2	_parent
+nested instances	1	1	3	_pointer
+nested instances	1	1	4	_type
+nested instances	1	1	5	_value
+nested instances	1	2	1	0
+nested instances	1	2	4	object
+nested instances	1	3	1	1
+nested instances	1	3	2	0
+nested instances	1	3	3	/a~0b
+nested instances	1	3	4	object
+nested instances	1	4	1	2
+nested instances	1	4	2	1
+nested instances	1	4	3	/c~1d
+nested instances	1	4	4	number
+nested instances	1	4	5	1
+no runs	1	0	1	runs
+no runs	1	1	1	_instance
+no runs	1	1	2	_page
+no runs	1	1	3	_line
+no runs	1	1	4	_position
+no runs	1	1	5	_value
+typed instances	1	0	1	instances
+typed instances	1	1	1	_instance
+typed instances	1	1	2	_parent
+typed instances	1	1	3	_pointer
+typed instances	1	1	4	_type
+typed instances	1	1	5	_value
+typed instances	1	2	1	0
+typed instances	1	2	4	array
+typed instances	1	3	1	1
+typed instances	1	3	2	0
+typed instances	1	3	3	/0
+typed instances	1	3	4	number
+typed instances	1	3	5	1.50
+typed instances	1	4	1	2
+typed instances	1	4	2	0
+typed instances	1	4	3	/1
+typed instances	1	4	4	boolean
+typed instances	1	4	5	true
+typed instances	1	5	1	3
+typed instances	1	5	2	0
+typed instances	1	5	3	/2
+typed instances	1	5	4	null
+typed instances	1	6	1	4
+typed instances	1	6	2	0
+typed instances	1	6	3	/3
+typed instances	1	6	4	string
+typed instances	1	6	5	s
+runs string instances	1	0	1	instances
+runs string instances	1	1	1	_instance
+runs string instances	1	1	2	_parent
+runs string instances	1	1	3	_pointer
+runs string instances	1	1	4	_type
+runs string instances	1	1	5	_value
+runs string instances	1	2	1	0
+runs string instances	1	2	4	array
+runs string instances	1	3	1	1
+runs string instances	1	3	2	0
+runs string instances	1	3	3	/0
+runs string instances	1	3	4	string
+three runs	1	0	1	runs
+three runs	1	1	1	_instance
+three runs	1	1	2	_page
+three runs	1	1	3	_line
+three runs	1	1	4	_position
+three runs	1	1	5	_value
+three runs	1	2	1	1
+three runs	1	2	2	0
+three runs	1	2	3	0
+three runs	1	2	4	0
+three runs	1	2	5	a
+three runs	1	3	1	1
+three runs	1	3	2	0
+three runs	1	3	3	0
+three runs	1	3	4	1
+three runs	1	3	5	b
+three runs	1	4	1	1
+three runs	1	4	2	0
+three runs	1	4	3	1
+three runs	1	4	4	0
+three runs	1	4	5	c
+cr left out instances	1	0	1	instances
+cr left out instances	1	1	1	_instance
+cr left out instances	1	1	2	_parent
+cr left out instances	1	1	3	_pointer
+cr left out instances	1	1	4	_type
+cr left out instances	1	1	5	_value
+cr left out instances	1	2	1	0
+cr left out instances	1	2	4	array
+cr left out instances	1	3	1	1
+cr left out instances	1	3	2	0
+cr left out instances	1	3	3	/0
+cr left out instances	1	3	4	string
+cr left out instances	1	3	5	ab
+named c d	1	0	1	instances
+named c d	1	1	1	_instance
+named c d	1	1	2	_parent
+named c d	1	1	3	_pointer
+named c d	1	1	4	_type
+named c d	1	1	5	_value
+named c d	1	2	1	2
+named c d	1	2	2	1
+named c d	1	2	3	/c~1d
+named c d	1	2	4	number
+named c d	1	2	5	1
+placed
+requirement	case	when	pathname	fixture
+json-text.2	1	after	result 1	nested instances
+json-text.2	1	after	result 2	no runs
+json-text.3	1	after	result 1	typed instances
+json-text.3	1	after	result 2	no runs
+json-text.4	1	after	result 1	runs string instances
+json-text.4	1	after	result 2	three runs
+json-text.5	1	after	result 1	cr left out instances
+json-text.5	1	after	result 2	no runs
+json-text.7	1	before	argument 1	nested instances
+json-text.7	1	after	result 1	named c d
+results
+requirement	case	position	item	value
+json-text.2	1	3	0	
+json-text.3	1	3	0	
+json-text.4	1	3	0	
+json-text.5	1	3	1	/0

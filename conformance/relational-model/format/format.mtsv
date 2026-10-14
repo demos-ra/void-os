@@ -1,0 +1,14 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+format.1	1	format	loads					format gives the parser's loads as its own
+arguments
+requirement	case	position	item	value
+format.1	1	1	0	<FF>s<LF>x<LF>1<LF>
+fixtures
+fixture	sheet	record	field	value
+s x é	1	0	1	s
+s x é	1	1	1	x
+s x é	1	2	1	é
+placed
+requirement	case	when	pathname	fixture
+format.1	1	after	result 1	s x 1

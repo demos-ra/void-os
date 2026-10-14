@@ -1,0 +1,79 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .js	record.test	—
+3-statements
+kind	place	holds
+ImportDeclaration	record.test.js#/SourceFile/0	—
+ImportDeclaration	record.test.js#/SourceFile/1	—
+ImportDeclaration	record.test.js#/SourceFile/2	—
+ImportDeclaration	record.test.js#/SourceFile/3	—
+ExpressionStatement	record.test.js#/SourceFile/4	—
+ExpressionStatement	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0	—
+4-expressions
+kind	place	holds
+ImportClause · name	record.test.js#/SourceFile/0/ImportClause	—
+StringLiteral	record.test.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	record.test.js#/SourceFile/1/ImportClause	—
+NamespaceImport	record.test.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	record.test.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	record.test.js#/SourceFile/2/ImportClause	—
+NamespaceImport	record.test.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	record.test.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	record.test.js#/SourceFile/3/ImportClause	—
+NamespaceImport	record.test.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	record.test.js#/SourceFile/3/ModuleSpecifier	—
+CallExpression	record.test.js#/SourceFile/4/Expression	—
+Identifier	record.test.js#/SourceFile/4/Expression/Expression	—
+StringLiteral	record.test.js#/SourceFile/4/Expression/Arguments/0	—
+ArrowFunction · Block	record.test.js#/SourceFile/4/Expression/Arguments/1	—
+—	record.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0	—
+Identifier	record.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+5-texts
+kind	place	holds
+—	record.test.js#/SourceFile/0/ImportClause/name/Text	test
+—	record.test.js#/SourceFile/0/ModuleSpecifier/Text	'node:test'
+—	record.test.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	relationalModel
+—	record.test.js#/SourceFile/1/ModuleSpecifier/Text	'../../../../../src/relational-model/relational-model.js'
+—	record.test.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	values
+—	record.test.js#/SourceFile/2/ModuleSpecifier/Text	'../../../../../src/system-generation/values/values.js'
+—	record.test.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	runner
+—	record.test.js#/SourceFile/3/ModuleSpecifier/Text	'../../../../system-generation/runner/runner.js'
+—	record.test.js#/SourceFile/4/Expression/Expression/Text	test
+—	record.test.js#/SourceFile/4/Expression/Arguments/0/Text	'record.1'
+—	record.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name/Text	t
+—	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'record.1'
+—	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	record.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values

@@ -1,0 +1,511 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+storage.23	1	storage	folder					with no data bank variable, the data bank's folder is the user's documents folder joined with the Value data bank folder
+storage.24	1	storage	folder					the user's documents folder is as PLATFORMDIRS gives it for the platform, from the user's home folder
+storage.25	1	storage	insert					an input's name is written within the data bank's folder as name within a folder writes it: each octet not unreserved percent-encoded, a name beginning with _ written with it doubled
+storage.17	1	storage	folder					folder gives the data bank's folder
+storage.1	1	storage	insert					storage only inserts into an input's relations, never deleting or altering them
+storage.2	1	storage	insert					each input is kept as one MTSV file at its name within the data bank's folder, then .mtsv
+storage.6	1	storage	insert					a lock older than the lock timeout is taken as released, and the lock is removed after writing
+storage.13	1	storage	insert					insert converts the values from the position equal to the number the input stores, and writes the part
+storage.3	1	storage	insert					a part is written at the end of its input's file, its sheets' names repeating
+storage.18	1	storage	insert					a file replaced whole is written beside it, then renamed onto it, nothing left beside it
+storage.4	1	storage	insert					the records of a value at or after the number of records of _stored are cut before the next part is written
+storage.14	1	storage	insert					the sheets the input's schema gives are kept in _sheets.mtsv and _fields.mtsv
+storage.5	1	storage	mark communicated					_communicated is kept as _communicated.mtsv in the data bank's folder
+storage.7	1	storage	mark communicated					the number of an input's values communicated to a session and agent is kept in _communicated
+storage.8	1	storage	insert					each value stored whole has one record in _stored, its time in UTC with the offset Z, and its event
+storage.9	1	storage	insert					the value a source sends is stored as it is sent
+storage.26	1	storage	insert					the value's time and event are kept only in _stored, beside it
+storage.11	1	storage	inputs					inputs gives _inputs, each input in the order it was first stored, its _values the number of its records of _stored, and its _file
+storage.15	1	storage	names					names gives _sheets and _fields of every input stored
+storage.10	1	storage	stored					stored gives the records of _stored of the values between first and last, both included
+storage.12	1	storage	inputs	keeping failed	keeping failed			a file system failure ends the access as keeping failed
+storage.16	1	storage	insert	non-conforming	0 #			an input the converter rejects ends the insert as non-conforming, nothing being stored
+storage.19	1	storage	inputs					a file of the data bank that does not exist is read as holding no record
+storage.20	1	storage	mark communicated					a session holding HT is not kept in _communicated, nothing being marked communicated to it
+storage.21	1	storage	relations					relations gives the input's relations, the records of the values below the number of its records of _stored
+storage.22	1	storage	communicated					communicated gives the number of the input's values communicated to the session and agent
+arguments
+requirement	case	position	item	value
+storage.25	1	2	0	/work/my project:2/_x
+storage.25	1	3	1	{"a": "p"}
+storage.25	1	4	0	{"title": "hook input", "type": "object"}
+storage.25	1	5	0	Stop
+storage.1	1	2	0	$PWD
+storage.1	1	3	1	{"hook_event_name": "Stop"}
+storage.1	1	4	0	{"title": "hook input", "type": "object"}
+storage.1	1	5	0	Stop
+storage.2	1	2	0	$PWD
+storage.2	1	3	1	{"hook_event_name": "Stop"}
+storage.2	1	4	0	{"title": "hook input", "type": "object"}
+storage.2	1	5	0	Stop
+storage.6	1	2	0	$PWD
+storage.6	1	3	1	{"hook_event_name": "Stop"}
+storage.6	1	4	0	{"title": "hook input", "type": "object"}
+storage.6	1	5	0	Stop
+storage.13	1	2	0	$PWD
+storage.13	1	3	1	{"hook_event_name": "Stop"}
+storage.13	1	4	0	{"title": "hook input", "type": "object"}
+storage.13	1	5	0	Stop
+storage.3	1	2	0	$PWD
+storage.3	1	3	1	{"hook_event_name": "Stop"}
+storage.3	1	4	0	{"title": "hook input", "type": "object"}
+storage.3	1	5	0	Stop
+storage.18	1	2	0	$PWD
+storage.18	1	3	1	{"hook_event_name": "Stop"}
+storage.18	1	4	0	{"title": "hook input", "type": "object"}
+storage.18	1	5	0	Stop
+storage.4	1	2	0	$PWD
+storage.4	1	3	1	{"hook_event_name": "Stop"}
+storage.4	1	4	0	{"title": "hook input", "type": "object"}
+storage.4	1	5	0	Stop
+storage.14	1	2	0	$PWD
+storage.14	1	3	1	{"hook_event_name": "Stop"}
+storage.14	1	4	0	{"title": "hook input", "type": "object"}
+storage.14	1	5	0	Stop
+storage.5	1	2	0	$PWD
+storage.5	1	3	0	s1
+storage.5	1	4	0	
+storage.5	1	5	0	2
+storage.7	1	2	0	$PWD
+storage.7	1	3	0	s1
+storage.7	1	4	0	
+storage.7	1	5	0	3
+storage.8	1	2	0	$PWD
+storage.8	1	3	1	{"hook_event_name": "Stop"}
+storage.8	1	4	0	{"title": "hook input", "type": "object"}
+storage.8	1	5	0	Stop
+storage.9	1	2	0	$PWD
+storage.9	1	3	1	{"hook_event_name": "Stop"}
+storage.9	1	4	0	{"title": "hook input", "type": "object"}
+storage.9	1	5	0	Stop
+storage.26	1	2	0	$PWD
+storage.26	1	3	1	{"hook_event_name": "Stop"}
+storage.26	1	4	0	{"title": "hook input", "type": "object"}
+storage.26	1	5	0	Stop
+storage.10	1	2	0	$PWD
+storage.10	1	3	0	1
+storage.10	1	4	0	1
+storage.16	1	2	0	$PWD
+storage.16	1	3	1	[1]
+storage.16	1	4	0	{"title": "hook input", "type": "object"}
+storage.16	1	5	0	SessionStart
+storage.20	1	2	0	$PWD
+storage.20	1	3	0	s<TAB>1
+storage.20	1	4	0	
+storage.20	1	5	0	2
+storage.21	1	2	0	$PWD
+storage.22	1	2	0	$PWD
+storage.22	1	3	0	s2
+storage.22	1	4	0	
+environment
+requirement	case	name	value
+storage.25	1	VOID_OS_DATA_BANK	$PWD/bank
+storage.17	1	VOID_OS_DATA_BANK	$PWD/bank
+storage.1	1	VOID_OS_DATA_BANK	$PWD/bank
+storage.2	1	VOID_OS_DATA_BANK	$PWD/bank
+storage.6	1	VOID_OS_DATA_BANK	$PWD/bank
+storage.13	1	VOID_OS_DATA_BANK	$PWD/bank
+storage.3	1	VOID_OS_DATA_BANK	$PWD/bank
+storage.18	1	VOID_OS_DATA_BANK	$PWD/bank
+storage.4	1	VOID_OS_DATA_BANK	$PWD/bank
+storage.14	1	VOID_OS_DATA_BANK	$PWD/bank
+storage.5	1	VOID_OS_DATA_BANK	$PWD/bank
+storage.7	1	VOID_OS_DATA_BANK	$PWD/bank
+storage.8	1	VOID_OS_DATA_BANK	$PWD/bank
+storage.9	1	VOID_OS_DATA_BANK	$PWD/bank
+storage.26	1	VOID_OS_DATA_BANK	$PWD/bank
+storage.11	1	VOID_OS_DATA_BANK	$PWD/bank
+storage.15	1	VOID_OS_DATA_BANK	$PWD/bank
+storage.10	1	VOID_OS_DATA_BANK	$PWD/bank
+storage.12	1	VOID_OS_DATA_BANK	$PWD/bank
+storage.16	1	VOID_OS_DATA_BANK	$PWD/bank
+storage.19	1	VOID_OS_DATA_BANK	$PWD/bank
+storage.20	1	VOID_OS_DATA_BANK	$PWD/bank
+storage.21	1	VOID_OS_DATA_BANK	$PWD/bank
+storage.22	1	VOID_OS_DATA_BANK	$PWD/bank
+fixtures
+fixture	sheet	record	field	value
+two values then stop	1	0	1	hook input
+two values then stop	1	1	1	_input value
+two values then stop	1	2	1	0
+two values then stop	2	0	1	_instances
+two values then stop	2	1	1	_input value
+two values then stop	2	1	2	_instance
+two values then stop	2	1	3	_parent
+two values then stop	2	1	4	_pointer
+two values then stop	2	1	5	_type
+two values then stop	2	1	6	_value
+two values then stop	2	2	1	0
+two values then stop	2	2	2	1
+two values then stop	2	2	3	0
+two values then stop	2	2	4	/hook_event_name
+two values then stop	2	2	5	string
+two values then stop	2	2	6	SessionStart
+two values then stop	2	3	1	0
+two values then stop	2	3	2	2
+two values then stop	2	3	3	0
+two values then stop	2	3	4	/session_id
+two values then stop	2	3	5	string
+two values then stop	2	3	6	s1
+two values then stop	3	0	1	hook input
+two values then stop	3	1	1	_input value
+two values then stop	3	2	1	1
+two values then stop	4	0	1	_instances
+two values then stop	4	1	1	_input value
+two values then stop	4	1	2	_instance
+two values then stop	4	1	3	_parent
+two values then stop	4	1	4	_pointer
+two values then stop	4	1	5	_type
+two values then stop	4	1	6	_value
+two values then stop	4	2	1	1
+two values then stop	4	2	2	1
+two values then stop	4	2	3	0
+two values then stop	4	2	4	/hook_event_name
+two values then stop	4	2	5	string
+two values then stop	4	2	6	UserPromptSubmit
+two values then stop	4	3	1	1
+two values then stop	4	3	2	2
+two values then stop	4	3	3	0
+two values then stop	4	3	4	/session_id
+two values then stop	4	3	5	string
+two values then stop	4	3	6	s1
+two values then stop	4	4	1	1
+two values then stop	4	4	2	3
+two values then stop	4	4	3	0
+two values then stop	4	4	4	/prompt
+two values then stop	4	4	5	string
+two values then stop	4	4	6	hello
+two values then stop	5	0	1	hook input
+two values then stop	5	1	1	_input value
+two values then stop	5	2	1	2
+two values then stop	6	0	1	_instances
+two values then stop	6	1	1	_input value
+two values then stop	6	1	2	_instance
+two values then stop	6	1	3	_parent
+two values then stop	6	1	4	_pointer
+two values then stop	6	1	5	_type
+two values then stop	6	1	6	_value
+two values then stop	6	2	1	2
+two values then stop	6	2	2	1
+two values then stop	6	2	3	0
+two values then stop	6	2	4	/hook_event_name
+two values then stop	6	2	5	string
+two values then stop	6	2	6	Stop
+value 0 and partial 1	1	0	1	hook input
+value 0 and partial 1	1	1	1	_input value
+value 0 and partial 1	1	2	1	0
+value 0 and partial 1	2	0	1	_instances
+value 0 and partial 1	2	1	1	_input value
+value 0 and partial 1	2	1	2	_instance
+value 0 and partial 1	2	1	3	_parent
+value 0 and partial 1	2	1	4	_pointer
+value 0 and partial 1	2	1	5	_type
+value 0 and partial 1	2	1	6	_value
+value 0 and partial 1	2	2	1	0
+value 0 and partial 1	2	2	2	1
+value 0 and partial 1	2	2	3	0
+value 0 and partial 1	2	2	4	/hook_event_name
+value 0 and partial 1	2	2	5	string
+value 0 and partial 1	2	2	6	SessionStart
+value 0 and partial 1	3	0	1	hook input
+value 0 and partial 1	3	1	1	_input value
+value 0 and partial 1	3	2	1	1
+value 0 then stop at 1	1	0	1	hook input
+value 0 then stop at 1	1	1	1	_input value
+value 0 then stop at 1	1	2	1	0
+value 0 then stop at 1	2	0	1	_instances
+value 0 then stop at 1	2	1	1	_input value
+value 0 then stop at 1	2	1	2	_instance
+value 0 then stop at 1	2	1	3	_parent
+value 0 then stop at 1	2	1	4	_pointer
+value 0 then stop at 1	2	1	5	_type
+value 0 then stop at 1	2	1	6	_value
+value 0 then stop at 1	2	2	1	0
+value 0 then stop at 1	2	2	2	1
+value 0 then stop at 1	2	2	3	0
+value 0 then stop at 1	2	2	4	/hook_event_name
+value 0 then stop at 1	2	2	5	string
+value 0 then stop at 1	2	2	6	SessionStart
+value 0 then stop at 1	3	0	1	hook input
+value 0 then stop at 1	3	1	1	_input value
+value 0 then stop at 1	3	2	1	1
+value 0 then stop at 1	4	0	1	_instances
+value 0 then stop at 1	4	1	1	_input value
+value 0 then stop at 1	4	1	2	_instance
+value 0 then stop at 1	4	1	3	_parent
+value 0 then stop at 1	4	1	4	_pointer
+value 0 then stop at 1	4	1	5	_type
+value 0 then stop at 1	4	1	6	_value
+value 0 then stop at 1	4	2	1	1
+value 0 then stop at 1	4	2	2	1
+value 0 then stop at 1	4	2	3	0
+value 0 then stop at 1	4	2	4	/hook_event_name
+value 0 then stop at 1	4	2	5	string
+value 0 then stop at 1	4	2	6	Stop
+stored value 0	1	0	1	_stored
+stored value 0	1	1	1	_input
+stored value 0	1	1	2	_input value
+stored value 0	1	1	3	_time
+stored value 0	1	1	4	_event
+stored value 0	1	2	1	$PWD
+stored value 0	1	2	2	0
+stored value 0	1	2	3	2026-10-10T09:00:00Z
+stored value 0	1	2	4	SessionStart
+stored stop 0	1	0	1	_stored
+stored stop 0	1	1	1	_input
+stored stop 0	1	1	2	_input value
+stored stop 0	1	1	3	_time
+stored stop 0	1	1	4	_event
+stored stop 0	1	2	1	$PWD
+stored stop 0	1	2	2	0
+stored stop 0	1	2	3	2026-01-01T00:00:00Z
+stored stop 0	1	2	4	Stop
+segments input	1	0	1	hook input
+segments input	1	1	1	_input value
+segments input	1	2	1	0
+segments input	2	0	1	_instances
+segments input	2	1	1	_input value
+segments input	2	1	2	_instance
+segments input	2	1	3	_parent
+segments input	2	1	4	_pointer
+segments input	2	1	5	_type
+segments input	2	1	6	_value
+segments input	2	2	1	0
+segments input	2	2	2	1
+segments input	2	2	3	0
+segments input	2	2	4	/a
+segments input	2	2	5	string
+segments input	2	2	6	p
+communicated s1 1	1	0	1	_communicated
+communicated s1 1	1	1	1	_input
+communicated s1 1	1	1	2	_session
+communicated s1 1	1	1	3	_agent
+communicated s1 1	1	1	4	_values
+communicated s1 1	1	2	1	$PWD
+communicated s1 1	1	2	2	s1
+communicated s1 1	1	2	4	1
+communicated s1 2	1	0	1	_communicated
+communicated s1 2	1	1	1	_input
+communicated s1 2	1	1	2	_session
+communicated s1 2	1	1	3	_agent
+communicated s1 2	1	1	4	_values
+communicated s1 2	1	2	1	$PWD
+communicated s1 2	1	2	2	s1
+communicated s1 2	1	2	4	2
+communicated s1 3	1	0	1	_communicated
+communicated s1 3	1	1	1	_input
+communicated s1 3	1	1	2	_session
+communicated s1 3	1	1	3	_agent
+communicated s1 3	1	1	4	_values
+communicated s1 3	1	2	1	$PWD
+communicated s1 3	1	2	2	s1
+communicated s1 3	1	2	4	3
+two inputs _stored	1	0	1	_stored
+two inputs _stored	1	1	1	_input
+two inputs _stored	1	1	2	_input value
+two inputs _stored	1	1	3	_time
+two inputs _stored	1	1	4	_event
+two inputs _stored	1	2	1	/work/demo
+two inputs _stored	1	2	2	0
+two inputs _stored	1	2	3	2026-10-10T09:00:00Z
+two inputs _stored	1	2	4	SessionStart
+two inputs _stored	1	3	1	/work/demo
+two inputs _stored	1	3	2	1
+two inputs _stored	1	3	3	2026-10-10T09:05:00Z
+two inputs _stored	1	3	4	Stop
+two inputs _stored	1	4	1	/work/two
+two inputs _stored	1	4	2	0
+two inputs _stored	1	4	3	2026-10-11T08:00:00Z
+two inputs _stored	1	4	4	SessionStart
+two inputs _inputs	1	0	1	_inputs
+two inputs _inputs	1	1	1	_input
+two inputs _inputs	1	1	2	_values
+two inputs _inputs	1	1	3	_file
+two inputs _inputs	1	2	1	/work/demo
+two inputs _inputs	1	2	2	2
+two inputs _inputs	1	2	3	$PWD/bank/work/demo.mtsv
+two inputs _inputs	1	3	1	/work/two
+two inputs _inputs	1	3	2	1
+two inputs _inputs	1	3	3	$PWD/bank/work/two.mtsv
+empty _inputs	1	0	1	_inputs
+empty _inputs	1	1	1	_input
+empty _inputs	1	1	2	_values
+empty _inputs	1	1	3	_file
+sheets and fields of two values	1	0	1	_sheets
+sheets and fields of two values	1	1	1	_input
+sheets and fields of two values	1	1	2	_place
+sheets and fields of two values	1	1	3	_sheet name
+sheets and fields of two values	1	2	1	$PWD
+sheets and fields of two values	1	2	2	0
+sheets and fields of two values	1	2	3	hook input
+sheets and fields of two values	1	3	1	$PWD
+sheets and fields of two values	1	3	2	1
+sheets and fields of two values	1	3	3	_instances
+sheets and fields of two values	1	4	1	$PWD
+sheets and fields of two values	1	4	2	2
+sheets and fields of two values	1	4	3	_runs
+sheets and fields of two values	2	0	1	_fields
+sheets and fields of two values	2	1	1	_input
+sheets and fields of two values	2	1	2	_place
+sheets and fields of two values	2	1	3	_position
+sheets and fields of two values	2	1	4	_field name
+sheets and fields of two values	2	2	1	$PWD
+sheets and fields of two values	2	2	2	0
+sheets and fields of two values	2	2	3	0
+sheets and fields of two values	2	2	4	_input value
+sheets and fields of two values	2	3	1	$PWD
+sheets and fields of two values	2	3	2	1
+sheets and fields of two values	2	3	3	0
+sheets and fields of two values	2	3	4	_input value
+sheets and fields of two values	2	4	1	$PWD
+sheets and fields of two values	2	4	2	1
+sheets and fields of two values	2	4	3	1
+sheets and fields of two values	2	4	4	_instance
+sheets and fields of two values	2	5	1	$PWD
+sheets and fields of two values	2	5	2	1
+sheets and fields of two values	2	5	3	2
+sheets and fields of two values	2	5	4	_parent
+sheets and fields of two values	2	6	1	$PWD
+sheets and fields of two values	2	6	2	1
+sheets and fields of two values	2	6	3	3
+sheets and fields of two values	2	6	4	_pointer
+sheets and fields of two values	2	7	1	$PWD
+sheets and fields of two values	2	7	2	1
+sheets and fields of two values	2	7	3	4
+sheets and fields of two values	2	7	4	_type
+sheets and fields of two values	2	8	1	$PWD
+sheets and fields of two values	2	8	2	1
+sheets and fields of two values	2	8	3	5
+sheets and fields of two values	2	8	4	_value
+sheets and fields of two values	2	9	1	$PWD
+sheets and fields of two values	2	9	2	2
+sheets and fields of two values	2	9	3	0
+sheets and fields of two values	2	9	4	_input value
+sheets and fields of two values	2	10	1	$PWD
+sheets and fields of two values	2	10	2	2
+sheets and fields of two values	2	10	3	1
+sheets and fields of two values	2	10	4	_instance
+sheets and fields of two values	2	11	1	$PWD
+sheets and fields of two values	2	11	2	2
+sheets and fields of two values	2	11	3	2
+sheets and fields of two values	2	11	4	_page
+sheets and fields of two values	2	12	1	$PWD
+sheets and fields of two values	2	12	2	2
+sheets and fields of two values	2	12	3	3
+sheets and fields of two values	2	12	4	_line
+sheets and fields of two values	2	13	1	$PWD
+sheets and fields of two values	2	13	2	2
+sheets and fields of two values	2	13	3	4
+sheets and fields of two values	2	13	4	_position
+sheets and fields of two values	2	14	1	$PWD
+sheets and fields of two values	2	14	2	2
+sheets and fields of two values	2	14	3	5
+sheets and fields of two values	2	14	4	_value
+relations of value 0	1	0	1	hook input
+relations of value 0	1	1	1	_input value
+relations of value 0	1	2	1	0
+relations of value 0	2	0	1	_instances
+relations of value 0	2	1	1	_input value
+relations of value 0	2	1	2	_instance
+relations of value 0	2	1	3	_parent
+relations of value 0	2	1	4	_pointer
+relations of value 0	2	1	5	_type
+relations of value 0	2	1	6	_value
+relations of value 0	2	2	1	0
+relations of value 0	2	2	2	1
+relations of value 0	2	2	3	0
+relations of value 0	2	2	4	/hook_event_name
+relations of value 0	2	2	5	string
+relations of value 0	2	2	6	SessionStart
+relations of value 0	2	3	1	0
+relations of value 0	2	3	2	2
+relations of value 0	2	3	3	0
+relations of value 0	2	3	4	/session_id
+relations of value 0	2	3	5	string
+relations of value 0	2	3	6	s1
+stored of value 1	1	0	1	_stored
+stored of value 1	1	1	1	_input
+stored of value 1	1	1	2	_input value
+stored of value 1	1	1	3	_time
+stored of value 1	1	1	4	_event
+stored of value 1	1	2	1	$PWD
+stored of value 1	1	2	2	1
+stored of value 1	1	2	3	2026-10-11T10:30:00Z
+stored of value 1	1	2	4	UserPromptSubmit
+placed
+requirement	case	when	pathname	fixture
+storage.25	1	after	$PWD/bank/work/my%20project%3A2/__x.mtsv	segments input
+storage.1	1	before	$PWD/bank/$INPUT.mtsv	two values input
+storage.1	1	before	$PWD/bank/_stored.mtsv	two values _stored
+storage.1	1	before	$PWD/bank/_sheets.mtsv	hook input _sheets
+storage.1	1	before	$PWD/bank/_fields.mtsv	hook input _fields
+storage.1	1	after	$PWD/bank/$INPUT.mtsv	two values then stop
+storage.2	1	after	$PWD/bank/$INPUT.mtsv	stop kept
+storage.6	1	after	$PWD/bank/$INPUT.mtsv	stop kept
+storage.13	1	before	$PWD/bank/$INPUT.mtsv	two values input
+storage.13	1	before	$PWD/bank/_stored.mtsv	two values _stored
+storage.13	1	before	$PWD/bank/_sheets.mtsv	hook input _sheets
+storage.13	1	before	$PWD/bank/_fields.mtsv	hook input _fields
+storage.13	1	after	$PWD/bank/$INPUT.mtsv	two values then stop
+storage.3	1	before	$PWD/bank/$INPUT.mtsv	two values input
+storage.3	1	before	$PWD/bank/_stored.mtsv	two values _stored
+storage.3	1	before	$PWD/bank/_sheets.mtsv	hook input _sheets
+storage.3	1	before	$PWD/bank/_fields.mtsv	hook input _fields
+storage.3	1	after	$PWD/bank/$INPUT.mtsv	two values then stop
+storage.4	1	before	$PWD/bank/$INPUT.mtsv	value 0 and partial 1
+storage.4	1	before	$PWD/bank/_stored.mtsv	stored value 0
+storage.4	1	before	$PWD/bank/_sheets.mtsv	hook input _sheets
+storage.4	1	before	$PWD/bank/_fields.mtsv	hook input _fields
+storage.4	1	after	$PWD/bank/$INPUT.mtsv	value 0 then stop at 1
+storage.14	1	after	$PWD/bank/_sheets.mtsv	hook input _sheets
+storage.14	1	after	$PWD/bank/_fields.mtsv	hook input _fields
+storage.5	1	after	$PWD/bank/_communicated.mtsv	communicated s1 2
+storage.7	1	before	$PWD/bank/_communicated.mtsv	communicated s1 1
+storage.7	1	after	$PWD/bank/_communicated.mtsv	communicated s1 3
+storage.8	1	after	$PWD/bank/_stored.mtsv	stored stop 0
+storage.9	1	after	$PWD/bank/$INPUT.mtsv	stop kept
+storage.26	1	after	$PWD/bank/_stored.mtsv	stored stop 0
+storage.11	1	before	$PWD/bank/_stored.mtsv	two inputs _stored
+storage.11	1	after	result 1	two inputs _inputs
+storage.15	1	before	$PWD/bank/_stored.mtsv	two values _stored
+storage.15	1	before	$PWD/bank/_sheets.mtsv	hook input _sheets
+storage.15	1	before	$PWD/bank/_fields.mtsv	hook input _fields
+storage.15	1	after	result 1	sheets and fields of two values
+storage.10	1	before	$PWD/bank/_stored.mtsv	two values _stored
+storage.10	1	after	result 1	stored of value 1
+storage.19	1	after	result 1	empty _inputs
+storage.21	1	before	$PWD/bank/$INPUT.mtsv	two values input
+storage.21	1	before	$PWD/bank/_stored.mtsv	stored value 0
+storage.21	1	after	result 1	relations of value 0
+storage.22	1	before	$PWD/bank/_communicated.mtsv	communicated s2 1
+octets
+requirement	case	pathname	file	modified
+storage.6	1	$PWD/bank/_lock	_lock	120
+storage.12	1	$PWD/bank	not-a-folder	
+absent
+requirement	case	pathname
+storage.6	1	$PWD/bank/_lock
+storage.18	1	$PWD/bank/_sheets.mtsv.tmp
+storage.18	1	$PWD/bank/_fields.mtsv.tmp
+storage.16	1	$PWD/bank/$INPUT.mtsv
+storage.20	1	$PWD/bank/_communicated.mtsv
+results
+requirement	case	position	item	value
+storage.23	1	1	0	$HOME/Documents/void-os
+storage.24	1	1	0	$HOME/Documents/void-os
+storage.25	1	1	0	1
+storage.17	1	1	0	$PWD/bank
+storage.1	1	1	0	1
+storage.2	1	1	0	1
+storage.6	1	1	0	1
+storage.13	1	1	0	1
+storage.3	1	1	0	1
+storage.18	1	1	0	1
+storage.4	1	1	0	1
+storage.14	1	1	0	1
+storage.8	1	1	0	1
+storage.9	1	1	0	1
+storage.26	1	1	0	1
+storage.22	1	1	0	1

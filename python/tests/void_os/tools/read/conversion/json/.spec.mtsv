@@ -1,0 +1,141 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .py	__init__	—
+{{name}} · .py	test_json	—
+3-statements
+kind	place	holds
+Import	test_json.py#/Module/0	—
+Import	test_json.py#/Module/1	—
+ImportFrom	test_json.py#/Module/2	—
+ImportFrom	test_json.py#/Module/3	—
+ImportFrom	test_json.py#/Module/4	—
+ClassDef	test_json.py#/Module/5	—
+FunctionDef	test_json.py#/Module/5/body/0	—
+Expr	test_json.py#/Module/5/body/0/body/0	—
+With	test_json.py#/Module/5/body/0/body/1	—
+Expr	test_json.py#/Module/5/body/0/body/1/body/0	—
+FunctionDef	test_json.py#/Module/5/body/1	—
+Expr	test_json.py#/Module/5/body/1/body/0	—
+With	test_json.py#/Module/5/body/1/body/1	—
+Expr	test_json.py#/Module/5/body/1/body/1/body/0	—
+4-expressions
+kind	place	holds
+—	test_json.py#/Module/0/names/0	—
+—	test_json.py#/Module/1/names/0	—
+—	test_json.py#/Module/2/module	—
+—	test_json.py#/Module/2/names/0	—
+—	test_json.py#/Module/3/module	—
+—	test_json.py#/Module/3/names/0	—
+—	test_json.py#/Module/4/module	—
+—	test_json.py#/Module/4/names/0	—
+Attribute	test_json.py#/Module/5/arguments/0	—
+Name	test_json.py#/Module/5/arguments/0/value	—
+arg	test_json.py#/Module/5/body/0/args/0	—
+Constant	test_json.py#/Module/5/body/0/body/0/value	—
+—	test_json.py#/Module/5/body/0/body/1/items/0	—
+Call	test_json.py#/Module/5/body/0/body/1/items/0/context_expr	—
+Attribute	test_json.py#/Module/5/body/0/body/1/items/0/context_expr/func	—
+Name	test_json.py#/Module/5/body/0/body/1/items/0/context_expr/func/value	—
+keyword	test_json.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0	—
+Constant	test_json.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0/value	—
+Call	test_json.py#/Module/5/body/0/body/1/body/0/value	—
+Attribute	test_json.py#/Module/5/body/0/body/1/body/0/value/func	—
+Name	test_json.py#/Module/5/body/0/body/1/body/0/value/func/value	—
+Call	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0	—
+Attribute	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func	—
+Name	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func/value	—
+Constant	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/0	—
+Constant	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/1	—
+BinOp	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2	—
+Call	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left	—
+Attribute	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func	—
+Attribute	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value	—
+Name	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value	—
+Name	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0	—
+Add	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/op	—
+Constant	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/right	—
+Name	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/3	—
+Name	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/4	—
+List	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/1	—
+arg	test_json.py#/Module/5/body/1/args/0	—
+Constant	test_json.py#/Module/5/body/1/body/0/value	—
+—	test_json.py#/Module/5/body/1/body/1/items/0	—
+Call	test_json.py#/Module/5/body/1/body/1/items/0/context_expr	—
+Attribute	test_json.py#/Module/5/body/1/body/1/items/0/context_expr/func	—
+Name	test_json.py#/Module/5/body/1/body/1/items/0/context_expr/func/value	—
+keyword	test_json.py#/Module/5/body/1/body/1/items/0/context_expr/arguments/0	—
+Constant	test_json.py#/Module/5/body/1/body/1/items/0/context_expr/arguments/0/value	—
+Call	test_json.py#/Module/5/body/1/body/1/body/0/value	—
+Attribute	test_json.py#/Module/5/body/1/body/1/body/0/value/func	—
+Name	test_json.py#/Module/5/body/1/body/1/body/0/value/func/value	—
+Call	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0	—
+Attribute	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/func	—
+Name	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/func/value	—
+Constant	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/0	—
+Constant	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/1	—
+BinOp	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2	—
+Call	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left	—
+Attribute	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func	—
+Attribute	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/value	—
+Name	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value	—
+Name	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0	—
+Add	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/op	—
+Constant	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/right	—
+Name	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/3	—
+Name	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/4	—
+List	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/1	—
+5-texts
+kind	place	holds
+—	test_json.py#/Module/0/names/0/name	unittest
+—	test_json.py#/Module/1/names/0/name	os
+—	test_json.py#/Module/2/module/value	tests.void_os.system_generation.runner
+—	test_json.py#/Module/2/names/0/name	_runner
+—	test_json.py#/Module/3/module/value	void_os.relational_model
+—	test_json.py#/Module/3/names/0/name	_relational_model
+—	test_json.py#/Module/4/module/value	void_os.system_generation.values
+—	test_json.py#/Module/4/names/0/name	_values
+—	test_json.py#/Module/5/name/value	TestJson
+—	test_json.py#/Module/5/arguments/0/value/id	unittest
+—	test_json.py#/Module/5/arguments/0/attr	TestCase
+—	test_json.py#/Module/5/body/0/name/value	test_json_1
+—	test_json.py#/Module/5/body/0/args/0/arg	self
+—	test_json.py#/Module/5/body/0/body/0/value/value	"""json MUST read a JSON file, through JSON text, as sheets: its value an array of objects, each with the members sheet name, header and records, one sheet each."""
+—	test_json.py#/Module/5/body/0/body/1/items/0/context_expr/func/value/id	self
+—	test_json.py#/Module/5/body/0/body/1/items/0/context_expr/func/attr	subTest
+—	test_json.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0/arg	case
+—	test_json.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0/value/value	1
+—	test_json.py#/Module/5/body/0/body/1/body/0/value/func/value/id	self
+—	test_json.py#/Module/5/body/0/body/1/body/0/value/func/attr	assertEqual
+—	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func/value/id	_runner
+—	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func/attr	run
+—	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/0/value	'json.1'
+—	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/1/value	1
+—	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value/id	os
+—	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value/attr	path
+—	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/attr	dirname
+—	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0/id	__file__
+—	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/right/value	'/../../../../../../../conformance'
+—	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/3/id	_relational_model
+—	test_json.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/4/id	_values
+—	test_json.py#/Module/5/body/1/name/value	test_json_2
+—	test_json.py#/Module/5/body/1/args/0/arg	self
+—	test_json.py#/Module/5/body/1/body/0/value/value	"""A value that is not a string, or a field that MTSV cannot hold, or a sheet name holding HT, LF, FF or CR, MUST end the load as cannot be represented."""
+—	test_json.py#/Module/5/body/1/body/1/items/0/context_expr/func/value/id	self
+—	test_json.py#/Module/5/body/1/body/1/items/0/context_expr/func/attr	subTest
+—	test_json.py#/Module/5/body/1/body/1/items/0/context_expr/arguments/0/arg	case
+—	test_json.py#/Module/5/body/1/body/1/items/0/context_expr/arguments/0/value/value	1
+—	test_json.py#/Module/5/body/1/body/1/body/0/value/func/value/id	self
+—	test_json.py#/Module/5/body/1/body/1/body/0/value/func/attr	assertEqual
+—	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/func/value/id	_runner
+—	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/func/attr	run
+—	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/0/value	'json.2'
+—	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/1/value	1
+—	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value/id	os
+—	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/value/attr	path
+—	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/attr	dirname
+—	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0/id	__file__
+—	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/right/value	'/../../../../../../../conformance'
+—	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/3/id	_relational_model
+—	test_json.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/4/id	_values

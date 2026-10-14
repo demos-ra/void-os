@@ -1,0 +1,33 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+key.1	1	converter	convert					every record begins with its primary key
+key.2	1	converter	convert					a record of the sheet of the input values has one key column, _input value, its position in the input
+key.3	1	converter	convert					a record of a subordinate sheet begins with _input value, _instance, _parent and _pointer
+key.4	1	converter	convert					a record of the sheet of runs begins with the string's keys, then _page, _line and _position
+arguments
+requirement	case	position	item	value
+key.1	1	1	1	{"a": "x"}
+key.1	1	2	0	{"title": "t", "type": "object", "properties": {"a": {"type": "string"}}, "required": ["a"]}
+key.1	1	3	0	0
+key.2	1	1	1	{"a": "x"}
+key.2	1	1	2	{"a": "y"}
+key.2	1	2	0	{"title": "t", "type": "object", "properties": {"a": {"type": "string"}}, "required": ["a"]}
+key.2	1	3	0	0
+key.3	1	1	1	{"a": "x", "b": ["p"]}
+key.3	1	2	0	{"title": "t", "type": "object", "properties": {"a": {"type": "string"}, "b": {"type": "array", "items": {"type": "string"}}}, "required": ["a"]}
+key.3	1	3	0	0
+key.4	1	1	1	{"a": "x\ny"}
+key.4	1	2	0	{"title": "t", "type": "object", "properties": {"a": {"type": "string"}}, "required": ["a"]}
+key.4	1	3	0	0
+placed
+requirement	case	when	pathname	fixture
+key.1	1	after	result 1	t a x
+key.2	1	after	result 1	t a x y
+key.3	1	after	result 1	t and t.b
+key.4	1	after	result 1	runs of a
+results
+requirement	case	position	item	value
+key.1	1	2	0	
+key.2	1	2	0	
+key.3	1	2	0	
+key.4	1	2	0	

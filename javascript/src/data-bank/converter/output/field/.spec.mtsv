@@ -1,0 +1,166 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .js	field	—
+3-statements
+kind	place	holds
+FunctionDeclaration · Body	field.js#/SourceFile/0	—
+VariableStatement	field.js#/SourceFile/0/Body/0	—
+VariableStatement	field.js#/SourceFile/0/Body/1	—
+ReturnStatement	field.js#/SourceFile/0/Body/2	—
+4-expressions
+kind	place	holds
+ExportKeyword	field.js#/SourceFile/0/modifiers/0	—
+—	field.js#/SourceFile/0/name	—
+—	field.js#/SourceFile/0/Parameters/0	—
+Identifier	field.js#/SourceFile/0/Parameters/0/name	—
+—	field.js#/SourceFile/0/Parameters/1	—
+Identifier	field.js#/SourceFile/0/Parameters/1/name	—
+ConstKeyword	field.js#/SourceFile/0/Body/0/DeclarationList/Flags/0	—
+—	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0	—
+Identifier	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/name	—
+NewExpression	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer	—
+Identifier	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Expression	—
+CallExpression	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+PropertyAccessExpression · DotToken	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression	—
+PropertyAccessExpression · DotToken	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression	—
+ElementAccessExpression	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/Expression	—
+Identifier	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/Expression/Expression	—
+NumericLiteral	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/Expression/ArgumentExpression	—
+Identifier	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/name	—
+Identifier	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/name	—
+ArrowFunction · Expression	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0	—
+—	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Parameters/0	—
+Identifier	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Parameters/0/name	—
+ArrayLiteralExpression	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body	—
+BinaryExpression	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0	—
+BinaryExpression	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left	—
+ElementAccessExpression	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left	—
+Identifier	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Expression	—
+NumericLiteral	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/ArgumentExpression	—
+PlusToken	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/OperatorToken	—
+StringLiteral	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Right	—
+PlusToken	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/OperatorToken	—
+ElementAccessExpression	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Right	—
+Identifier	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Right/Expression	—
+NumericLiteral	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Right/ArgumentExpression	—
+Identifier	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1	—
+ConstKeyword	field.js#/SourceFile/0/Body/1/DeclarationList/Flags/0	—
+—	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0	—
+Identifier	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/name	—
+CallExpression	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Expression	—
+PropertyAccessExpression · DotToken	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression	—
+Identifier	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/name	—
+Identifier	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Expression/name	—
+ArrowFunction · Expression	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+—	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0	—
+Identifier	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0/name	—
+CallExpression	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body	—
+PropertyAccessExpression · DotToken	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Expression	—
+CallExpression	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Expression/Expression	—
+PropertyAccessExpression · DotToken	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Expression/Expression/Expression	—
+Identifier	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Expression/Expression/Expression/Expression	—
+Identifier	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Expression/Expression/Expression/name	—
+NumericLiteral	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0	—
+NumericLiteral	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Expression/Expression/Arguments/1	—
+Identifier	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Expression/name	—
+ArrayLiteralExpression	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0	—
+ElementAccessExpression	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0	—
+CallExpression	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/Expression	—
+PropertyAccessExpression · DotToken	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/Expression/Expression	—
+Identifier	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/Expression/Expression/Expression	—
+Identifier	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/Expression/Expression/name	—
+BinaryExpression	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/Expression/Arguments/0	—
+BinaryExpression	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/Expression/Arguments/0/Left	—
+ElementAccessExpression	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/Expression/Arguments/0/Left/Left	—
+Identifier	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/Expression/Arguments/0/Left/Left/Expression	—
+NumericLiteral	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/Expression/Arguments/0/Left/Left/ArgumentExpression	—
+PlusToken	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/Expression/Arguments/0/Left/OperatorToken	—
+StringLiteral	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/Expression/Arguments/0/Left/Right	—
+PlusToken	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/Expression/Arguments/0/OperatorToken	—
+ElementAccessExpression	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/Expression/Arguments/0/Right	—
+Identifier	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/Expression/Arguments/0/Right/Expression	—
+NumericLiteral	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/Expression/Arguments/0/Right/ArgumentExpression	—
+ConditionalExpression	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/ArgumentExpression	—
+BinaryExpression	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/ArgumentExpression/Condition	—
+ElementAccessExpression	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/ArgumentExpression/Condition/Left	—
+Identifier	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/ArgumentExpression/Condition/Left/Expression	—
+NumericLiteral	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/ArgumentExpression/Condition/Left/ArgumentExpression	—
+EqualsEqualsEqualsToken	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/ArgumentExpression/Condition/OperatorToken	—
+StringLiteral	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/ArgumentExpression/Condition/Right	—
+NumericLiteral	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/ArgumentExpression/WhenTrue	—
+NumericLiteral	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/ArgumentExpression/WhenFalse	—
+ArrayLiteralExpression	field.js#/SourceFile/0/Body/2/Expression	—
+ObjectLiteralExpression	field.js#/SourceFile/0/Body/2/Expression/Elements/0	—
+PropertyAssignment	field.js#/SourceFile/0/Body/2/Expression/Elements/0/Properties/0	—
+StringLiteral	field.js#/SourceFile/0/Body/2/Expression/Elements/0/Properties/0/name	—
+StringLiteral	field.js#/SourceFile/0/Body/2/Expression/Elements/0/Properties/0/Initializer	—
+PropertyAssignment	field.js#/SourceFile/0/Body/2/Expression/Elements/0/Properties/1	—
+Identifier	field.js#/SourceFile/0/Body/2/Expression/Elements/0/Properties/1/name	—
+ArrayLiteralExpression	field.js#/SourceFile/0/Body/2/Expression/Elements/0/Properties/1/Initializer	—
+StringLiteral	field.js#/SourceFile/0/Body/2/Expression/Elements/0/Properties/1/Initializer/Elements/0	—
+StringLiteral	field.js#/SourceFile/0/Body/2/Expression/Elements/0/Properties/1/Initializer/Elements/1	—
+StringLiteral	field.js#/SourceFile/0/Body/2/Expression/Elements/0/Properties/1/Initializer/Elements/2	—
+StringLiteral	field.js#/SourceFile/0/Body/2/Expression/Elements/0/Properties/1/Initializer/Elements/3	—
+StringLiteral	field.js#/SourceFile/0/Body/2/Expression/Elements/0/Properties/1/Initializer/Elements/4	—
+PropertyAssignment	field.js#/SourceFile/0/Body/2/Expression/Elements/0/Properties/2	—
+Identifier	field.js#/SourceFile/0/Body/2/Expression/Elements/0/Properties/2/name	—
+Identifier	field.js#/SourceFile/0/Body/2/Expression/Elements/0/Properties/2/Initializer	—
+ElementAccessExpression	field.js#/SourceFile/0/Body/2/Expression/Elements/1	—
+Identifier	field.js#/SourceFile/0/Body/2/Expression/Elements/1/Expression	—
+NumericLiteral	field.js#/SourceFile/0/Body/2/Expression/Elements/1/ArgumentExpression	—
+5-texts
+kind	place	holds
+—	field.js#/SourceFile/0/name/Text	fields
+—	field.js#/SourceFile/0/Parameters/0/name/Text	cells
+—	field.js#/SourceFile/0/Parameters/1/name/Text	input
+—	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/name/Text	instances
+—	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Expression/Text	Map
+—	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/Expression/Expression/Text	input
+—	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/Expression/ArgumentExpression/Text	0
+—	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/name/Text	records
+—	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/name/Text	map
+—	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Parameters/0/name/Text	record
+—	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Expression/Text	record
+—	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/ArgumentExpression/Text	0
+—	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Right/Text	'\\n'
+—	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Right/Expression/Text	record
+—	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Right/ArgumentExpression/Text	1
+—	field.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/Text	record
+—	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/name/Text	texts
+—	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Text	cells
+—	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/name/Text	records
+—	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Expression/name/Text	map
+—	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0/name/Text	record
+—	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Expression/Expression/Expression/Expression/Text	record
+—	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Expression/Expression/Expression/name/Text	slice
+—	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Text	0
+—	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Expression/Expression/Arguments/1/Text	4
+—	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Expression/name/Text	concat
+—	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/Expression/Expression/Expression/Text	instances
+—	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/Expression/Expression/name/Text	get
+—	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/Expression/Arguments/0/Left/Left/Expression/Text	record
+—	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/Expression/Arguments/0/Left/Left/ArgumentExpression/Text	1
+—	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/Expression/Arguments/0/Left/Right/Text	'\\n'
+—	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/Expression/Arguments/0/Right/Expression/Text	record
+—	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/Expression/Arguments/0/Right/ArgumentExpression/Text	4
+—	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/ArgumentExpression/Condition/Left/Expression/Text	record
+—	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/ArgumentExpression/Condition/Left/ArgumentExpression/Text	3
+—	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/ArgumentExpression/Condition/Right/Text	'_type'
+—	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/ArgumentExpression/WhenTrue/Text	4
+—	field.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Elements/0/ArgumentExpression/WhenFalse/Text	5
+—	field.js#/SourceFile/0/Body/2/Expression/Elements/0/Properties/0/name/Text	'sheet name'
+—	field.js#/SourceFile/0/Body/2/Expression/Elements/0/Properties/0/Initializer/Text	'cells'
+—	field.js#/SourceFile/0/Body/2/Expression/Elements/0/Properties/1/name/Text	header
+—	field.js#/SourceFile/0/Body/2/Expression/Elements/0/Properties/1/Initializer/Elements/0/Text	'location'
+—	field.js#/SourceFile/0/Body/2/Expression/Elements/0/Properties/1/Initializer/Elements/1/Text	'_input value'
+—	field.js#/SourceFile/0/Body/2/Expression/Elements/0/Properties/1/Initializer/Elements/2/Text	'_instance'
+—	field.js#/SourceFile/0/Body/2/Expression/Elements/0/Properties/1/Initializer/Elements/3/Text	'column'
+—	field.js#/SourceFile/0/Body/2/Expression/Elements/0/Properties/1/Initializer/Elements/4/Text	'value'
+—	field.js#/SourceFile/0/Body/2/Expression/Elements/0/Properties/2/name/Text	records
+—	field.js#/SourceFile/0/Body/2/Expression/Elements/0/Properties/2/Initializer/Text	texts
+—	field.js#/SourceFile/0/Body/2/Expression/Elements/1/Expression/Text	input
+—	field.js#/SourceFile/0/Body/2/Expression/Elements/1/ArgumentExpression/Text	1

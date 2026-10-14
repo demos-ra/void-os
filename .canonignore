@@ -1,0 +1,13 @@
+spec/
+register/
+conformance/
+.mapping.mtsv
+python/README
+python/LICENSE
+python/src/void_os/system_generation/values/values.mtsv
+javascript/README
+javascript/LICENSE
+javascript/src/system-generation/values/values.mtsv
+__pycache__/
+node_modules/
+.venv/

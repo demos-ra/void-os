@@ -1,0 +1,513 @@
+References
+Tag	Kind
+CSVW	normative
+ECMA-376-2	normative
+MCP-SDK	normative
+ODF-2	normative
+ODF-3	normative
+POSIX-XSH-READDIR	normative
+RFC4180	normative
+SQLITE-COREFUNC	normative
+SQLITE-EXPR	normative
+SQLITE-URI	normative
+XML-NAMES	normative
+Values
+Value	Module	Type	Bound	Given	Status
+server name	server	text	the server's name	void-os	placeholder
+server instructions	server	text	what the model is told the server is for; {data bank folder} stands for the data bank's folder	void-os keeps your memory in its data bank at {data bank folder}. Read it, or any file or directory, with read.	placeholder
+tool name	server	text	the tool's name	read	placeholder
+tool description	server	text	what the model is told the tool does	Read a file, a directory of files, or the data bank, as MTSV text: a tab between fields, a line break between records, a form feed before each sheet's name. Every reply begins with the report; then the field names of each sheet, or, with a selection, its values.	placeholder
+Value citations
+Value	Tag	Section	First block	Last block
+server instructions	MCP	server/discover › DiscoverResult	5	5
+Files
+Path	Module	Held from	Held path	Output of
+python/src/void_os/tools/_tools.py	tools			
+python/src/void_os/tools/read/_read.py	read			
+python/src/void_os/tools/read/input/_input.py	read › input			
+python/src/void_os/tools/read/conversion/_conversion.py	conversion			
+python/src/void_os/tools/read/conversion/package/_package.py	package			
+python/src/void_os/tools/read/conversion/csv/_csv.py	csv			
+python/src/void_os/tools/read/conversion/json/_json.py	json			
+python/src/void_os/tools/read/conversion/xlsx/_xlsx.py	xlsx			
+python/src/void_os/tools/read/conversion/ods/_ods.py	ods			
+python/src/void_os/tools/read/conversion/sqlite/_sqlite.py	sqlite			
+python/src/void_os/tools/read/reply/_reply.py	reply			
+python/src/void_os/tools/server/_server.py	server			
+javascript/src/tools/tools.js	tools			
+javascript/src/tools/read/read.js	read			
+javascript/src/tools/read/input/input.js	read › input			
+javascript/src/tools/read/conversion/conversion.js	conversion			
+javascript/src/tools/read/conversion/package/package.js	package			
+javascript/src/tools/read/conversion/csv/csv.js	csv			
+javascript/src/tools/read/conversion/json/json.js	json			
+javascript/src/tools/read/conversion/xlsx/xlsx.js	xlsx			
+javascript/src/tools/read/conversion/ods/ods.js	ods			
+javascript/src/tools/read/conversion/sqlite/sqlite.js	sqlite			
+javascript/src/tools/read/reply/reply.js	reply			
+javascript/src/tools/server/server.js	server			
+Relations
+Relation	Module	Parent	Description
+tool arguments	server	Parameters	each argument of the tool, by the parameter of read's read it is handed as, and whether the tool requires it
+not read	read	file	each file not read, and why
+nodes	conversion		each node of each XML part of a package: its part, its place, the element that holds it, its kind, its expanded name and its value
+left behind	reply	file	what each file's conversion left behind
+fields	reply	sheets	each field of each sheet chosen, by its position, and its name
+Domains
+Relation	Column	Domain	Key	References	Type	Description
+tool arguments	Module		primary	Parameters	text	the module of the access program the argument is handed to
+tool arguments	Access program		primary	Parameters	text	the access program
+tool arguments	Position		primary	Parameters	number	the parameter the argument is handed as, whose name the argument takes
+tool arguments	required				boolean	true where the tool's input schema requires the argument
+not read	file		primary	file	number	the file
+not read	status				not read status	why it was not read
+not read	reason				text	why its conversion failed: cannot be read, or the name of the error that ended it; empty otherwise
+nodes	part		primary		text	the part's name within the package
+nodes	node		primary		number	the node's place in its part in document order, from 0
+nodes	parent	node		nodes	number	the element that holds the node, empty for the document element
+nodes	kind				node kind	the node's kind
+nodes	name				text	an element's or an attribute's expanded name, its namespace in braces before its local part, empty for text
+nodes	value				text	an attribute's value or a text node's characters, empty for an element
+left behind	file		primary	file	number	the file
+left behind	what		primary		text	a thing its conversion left behind, as the format's module names it
+fields	file		primary	sheets	number	the file
+fields	sheet		primary	sheets	number	the sheet
+fields	field		primary		number	the field's position in its header, from 1
+fields	field name				text	the field's name
+Signatures
+Callable	Direction	Position	Type	Relation
+Access programs
+Module	Access program	Starts
+tools	serve	
+read	read	
+read › input	members	
+conversion	sheets	
+package	nodes	
+csv	load	
+json	load	
+xlsx	load	
+ods	load	
+sqlite	load	
+reply	reply	
+server	serve	
+Parameters
+Module	Access program	Position	Parameter	Type	Relation	Default	Description
+tools	serve	1	values	relation	Values		the Values
+read	read	1	values	relation	Values		the Values
+read	read	2	pathname	text			the absolute pathname of a file or of a directory
+read	read	3	sheet	text			which sheets of each file, empty for every sheet
+read	read	4	records	text			which records of each sheet, empty for every record
+read	read	5	fields	text			which fields of each record, empty for every field
+read	read	6	filter	text			which records to keep, empty for every record
+read	read	7	join	text			which sheets of each file to join on the columns they share, empty for none
+read › input	members	1	pathname	text			the absolute pathname of a file or of a directory
+conversion	sheets	1	source	absolute path			a regular file
+package	nodes	1	source	absolute path			a workbook or a spreadsheet document
+csv	load	1	octets	bytes			the file's octets
+json	load	1	octets	bytes			the file's octets
+xlsx	load	1	nodes	relation	nodes		the workbook's XML parts, as package reads them
+ods	load	1	nodes	relation	nodes		the spreadsheet document's XML parts, as package reads them
+sqlite	load	1	source	absolute path			the database file
+reply	reply	1	report	relations			file, not read, left behind and sheets
+reply	reply	2	answer	relations			the map, fields, or the values chosen
+server	serve	1	values	relation	Values		the Values
+Parameter relations
+Module	Access program	Position	Relation
+reply	reply	1	file
+reply	reply	1	not read
+reply	reply	1	left behind
+reply	reply	1	sheets
+reply	reply	2	fields
+Results
+Module	Access program	Position	Type	Relation	Description
+tools	serve	1	nothing		the server serving until its standard input ends
+read	read	1	text		the reply, MTSV text
+read › input	members	1	relation	file	the files the pathname names
+read › input	members	2	relation	not read	the members not read, and why
+conversion	sheets	1	relations		the file's sheets
+conversion	sheets	2	texts		what the conversion left behind
+package	nodes	1	relation	nodes	the nodes of every XML part of the package
+csv	load	1	relations		the file's sheet
+csv	load	2	texts		what is left behind
+json	load	1	relations		the file's sheets
+json	load	2	texts		what is left behind
+xlsx	load	1	relations		the workbook's sheets
+xlsx	load	2	texts		what is left behind
+ods	load	1	relations		the spreadsheet document's sheets
+ods	load	2	texts		what is left behind
+sqlite	load	1	relations		the database's sheets
+sqlite	load	2	texts		what is left behind
+reply	reply	1	text		the reply, MTSV text
+server	serve	1	nothing		nothing
+Result relations
+Module	Access program	Position	Relation
+Compositions
+Module	Part	Handed
+tools	server	relational model
+tools	server	data bank
+tools	server	read
+tools	read	relational model
+tools	read	data bank
+read	conversion	relational model
+read	reply	relational model
+conversion	json	relational model
+Connectors
+Module	Peer	Connector	Protocol	Data
+read › input	file system	shared representation	POSIX-XSH-READDIR	POSIX-XBD4
+conversion	file system	shared representation	POSIX-XSH-OPEN	MTSV-DRAFT
+package	file system	shared representation	POSIX-XSH-OPEN	ZIP-APPNOTE
+sqlite	file system	shared representation	POSIX-XSH-OPEN	SQLITE-FORMAT
+server	harness	remote procedure call	MCP	MCP
+Requirements
+Requirement	Module	Access program	Statement
+tools.1	tools	serve	The tools MUST give the access program serve of the server as their own.
+read.2	read	read	A pathname at or within the folder the data bank's access program folder gives MUST be answered by the data bank: the folder by its names, an input's file, the _file of its record of _inputs, by its records, then their records of _stored, and any other pathname within it refused, never by reading its files.
+read.4	read	read	The data bank's folder read with a selection or a filter MUST be answered by the records of every input, a sheet of one name in several inputs given as the union of their records, each record led by its _input.
+read.6	read	read	A pathname, a file, a selection or a filter refused MUST end the read as refused, with its reason.
+read.7	read	read	Every other pathname MUST be read as the files read › input's members names, each by conversion's sheets, the sheets of every file chosen by the relational model's chosen, and the reply given by reply.
+read.8	read	read	A file of a directory whose conversion ends as no format or failed MUST be named in not read, its status that error's name and its reason that error's reason, and the read go on.
+read.10	read	read	A file named directly whose conversion ends as no format or failed MUST end the read as refused, its reason that error's name, then, for failed, a colon, a space and that error's reason.
+read.9	read	read	What a file's conversion leaves behind MUST be named in left behind, one record for each thing, in order.
+read-input.1	read › input	members	The pathname MUST be absolute.
+read-input.5	read › input	members	A pathname that is not absolute MUST be refused as not absolute.
+read-input.2	read › input	members	A pathname naming a directory MUST name each regular file in it whose name does not begin with a dot, in the order of their names' code points, the directories within it not read, and each other entry named in not read as skipped.
+read-input.3	read › input	members	A pathname that names neither a directory nor a regular file, a directory that cannot be listed, and a file named directly that cannot be read MUST be refused with the reason: names neither a directory nor a regular file, cannot be listed, or cannot be read.
+read-input.4	read › input	members	The same file reached by two pathnames MUST be one file, named by its resolved pathname.
+conversion.1	conversion	sheets	A file whose name ends .mtsv MUST be read by the parser.
+conversion.2	conversion	sheets	A file whose extension names a format MUST be read by that format's module: .csv by csv, .json by json, .xlsx by xlsx and .ods by ods, each from the nodes package reads, and .sqlite by sqlite.
+conversion.3	conversion	sheets	What a file holds that MTSV does not MUST be left behind, each thing named as its format's module names it, in order.
+conversion.4	conversion	sheets	A file whose extension names no format MUST end its conversion as no format; one that cannot be read, as failed, its reason cannot be read; and one whose conversion ends with an error, as failed, its reason that error's name.
+package.1	package	nodes	A zip entry MUST be read stored or deflated, the compression methods its package's format allows.
+package.4	package	nodes	A zip entry compressed otherwise MUST end the read of its package as compression method not allowed.
+package.2	package	nodes	Each entry of a package whose name ends .xml or .rels MUST be read as XML into the relation nodes, each element, attribute and run of character data one node, each name expanded with its namespace, a namespace declaration being no node.
+package.3	package	nodes	A package that is not a zip file, or an entry it reads as XML that is not well-formed, MUST end the read of its package as failed.
+csv.1	csv	load	csv MUST read a CSV file, its octets UTF-8, as one sheet whose sheet name is empty, its first record the header.
+csv.2	csv	load	A field that MTSV cannot hold, or a sheet name holding HT, LF, FF or CR, MUST end the load as cannot be represented.
+json.1	json	load	json MUST read a JSON file, through JSON text, as sheets: its value an array of objects, each with the members sheet name, header and records, one sheet each.
+json.2	json	load	A value that is not a string, or a field that MTSV cannot hold, or a sheet name holding HT, LF, FF or CR, MUST end the load as cannot be represented.
+xlsx.1	xlsx	load	xlsx MUST read each worksheet of a workbook as one sheet, named as the worksheet, each cell's value as its text, and leave behind every type, formula and style a cell holds, each named by the cell's reference, a space, and its name in the cell: t, f or s.
+xlsx.2	xlsx	load	A cell's text that MTSV cannot hold, or a sheet name holding HT, LF, FF or CR, MUST end the load as cannot be represented.
+xlsx.3	xlsx	load	A workbook whose part a relationship it reads names is not among its nodes MUST end the load as failed.
+ods.1	ods	load	ods MUST read each table of a spreadsheet document as one sheet, named as the table, each cell's text as its value, and leave behind every type, formula and style a cell holds, each named by the cell's reference in A1 style, a space, and its attribute's name: office:value-type and the value attribute it selects, table:formula or table:style-name.
+ods.2	ods	load	A cell's text that MTSV cannot hold, or a sheet name holding HT, LF, FF or CR, MUST end the load as cannot be represented.
+ods.3	ods	load	A spreadsheet document whose nodes hold no part content.xml, or whose body holds no office:spreadsheet, MUST end the load as failed.
+sqlite.1	sqlite	load	sqlite MUST read each table of a database as one sheet, named as the table, its column names the header, each value the text CAST AS TEXT gives it and a NULL an empty field, and leave behind views, indexes, triggers and the objects whose names begin with sqlite_, each named by its type, a space, and its name, as sqlite_schema holds them.
+sqlite.2	sqlite	load	A value whose typeof is blob, or a field that MTSV cannot hold, or a sheet name holding HT, LF, FF or CR, MUST end the load as cannot be represented.
+sqlite.3	sqlite	load	A file that does not begin with the database header's magic string MUST end the load as failed.
+reply.5	reply	reply	Every reply MUST be the report, then, with a pathname alone, the map, and with a selection, the values chosen.
+reply.1	reply	reply	The report MUST be the sheets file, not read, left behind and sheets, in that order, each with its header even when it holds no record.
+reply.2	reply	reply	The map MUST be the sheet fields: the name of each field of each sheet chosen.
+reply.3	reply	reply	The reply MUST be written by the generator.
+server.1	server	serve	The server MUST speak MCP over the stdio transport, reading its standard input and writing its standard output, until its standard input ends.
+server.2	server	serve	The server MUST answer server/discover with its name the Value server name, its version the Value version, and its instructions the Value server instructions with {data bank folder} filled with the folder the data bank's access program folder gives.
+server.3	server	serve	The server MUST offer one tool, named by the Value tool name and described by the Value tool description, whose input schema is an object whose properties are the arguments tool arguments names, each a string named as the parameter of read's read it is handed as, those tool arguments marks required its required properties.
+server.6	server	serve	An argument the tool is not given MUST be handed to read as the empty text.
+server.4	server	serve	The tool's result MUST be one text content holding the reply, and no structured content.
+server.5	server	serve	A call refused, or ended as keeping failed, MUST be reported as a tool execution error whose text is the reason.
+Errors
+Module	Access program	Error	Requirement
+read	read	refused	read.6
+read	read	refused	read.10
+read	read	keeping failed	
+read › input	members	refused	read-input.5
+read › input	members	refused	read-input.3
+conversion	sheets	no format	conversion.4
+conversion	sheets	failed	conversion.4
+package	nodes	failed	package.3
+package	nodes	compression method not allowed	package.4
+csv	load	cannot be represented	csv.2
+json	load	cannot be represented	json.2
+json	load	not a JSON text	
+json	load	names not unique	
+xlsx	load	cannot be represented	xlsx.2
+xlsx	load	failed	xlsx.3
+ods	load	cannot be represented	ods.2
+ods	load	failed	ods.3
+sqlite	load	cannot be represented	sqlite.2
+sqlite	load	failed	sqlite.3
+Ended errors
+Module	Access program	Called module	Called access program	Error	Disposition	Requirement
+read	read	conversion	sheets	no format	ended	read.8
+read	read	conversion	sheets	failed	ended	read.8
+conversion	sheets	relational model	load	not MTSV	ended	conversion.4
+conversion	sheets	package	nodes	failed	ended	conversion.4
+conversion	sheets	package	nodes	compression method not allowed	ended	conversion.4
+conversion	sheets	csv	load	cannot be represented	ended	conversion.4
+conversion	sheets	json	load	cannot be represented	ended	conversion.4
+conversion	sheets	json	load	not a JSON text	ended	conversion.4
+conversion	sheets	json	load	names not unique	ended	conversion.4
+conversion	sheets	xlsx	load	cannot be represented	ended	conversion.4
+conversion	sheets	xlsx	load	failed	ended	conversion.4
+conversion	sheets	ods	load	cannot be represented	ended	conversion.4
+conversion	sheets	ods	load	failed	ended	conversion.4
+conversion	sheets	sqlite	load	cannot be represented	ended	conversion.4
+conversion	sheets	sqlite	load	failed	ended	conversion.4
+reply	reply	relational model	dumps	cannot be represented	ruled out	void-os.1
+server	serve	read	read	refused	ended	server.5
+server	serve	read	read	keeping failed	ended	server.5
+Operations
+Operation	Module	Kind	Tag	Section	First block	Last block
+is absolute	read › input	grammar	POSIX-XBD4	4.13 Pathname Resolution	2	2
+is a directory	read › input	primitive	POSIX-XSH-STAT	DESCRIPTION		
+is a regular file	read › input	primitive	POSIX-XSH-STAT	DESCRIPTION		
+list directory	read › input	primitive	POSIX-XSH-READDIR	DESCRIPTION		
+zip read	package	composite	ZIP-APPNOTE	(preamble)	86	135
+DEFLATE read	package	primitive	RFC1951	3. Detailed specification		
+XML read	package	composite	XML	5.1 Validating and Non-Validating Processors		
+expanded name	package	grammar	XML-NAMES	6 Applying Namespaces to Elements and Attributes		
+CSV read	csv	grammar	CSVW	8. Parsing Tabular Data	1	156
+SQLite URI	sqlite	grammar	SQLITE-URI	3.1. The URI Path	3	8
+open database	sqlite	primitive	SQLITE-URI	3.3. Recognized Query Parameters	7	8
+query	sqlite	primitive	SQLITE-FORMAT	2.6. Storage Of The SQL Database Schema		
+close database	sqlite	primitive	SQLITE-FORMAT	2.6. Storage Of The SQL Database Schema		
+MCP server	server	primitive	MCP	server/discover › DiscoverResult		
+MCP tool	server	primitive	MCP	server/tools › Tool		
+MCP text result	server	primitive	MCP	server/tools › Text Content		
+MCP tool error	server	primitive	MCP	server/tools › Error Handling		
+MCP serve	server	primitive	MCP	basic/transports/stdio		
+Operation inputs
+Operation	Position	Input	Type
+is a directory	1	path	absolute path
+is a regular file	1	path	absolute path
+list directory	1	path	absolute path
+DEFLATE read	1	data	bytes
+open database	1	path	absolute path
+open database	2	uri	text
+query	1	database	handle
+query	2	sql	text
+close database	1	database	handle
+MCP server	1	name	text
+MCP server	2	version	text
+MCP server	3	instructions	text
+MCP tool	1	server	handle
+MCP tool	2	name	text
+MCP tool	3	description	text
+MCP tool	4	schema	handle
+MCP tool	5	handler	handle
+MCP text result	1	text	text
+MCP tool error	1	text	text
+MCP serve	1	server	handle
+Bindings
+Operation	Notation	Code	Tag	Section	First block	Last block
+is a directory	python	{{result}} = os.path.isdir({{path}})	PY-OS-PATH	os.path --- Common pathname manipulations	66	66
+is a directory	javascript	let {{result}}; try { {{result}} = fs.statSync({{path}}).isDirectory(); } catch { {{result}} = false; }	NODE-FS	stats.isDirectory()		
+is a regular file	python	{{result}} = os.path.isfile({{path}})	PY-OS-PATH	os.path --- Common pathname manipulations	63	63
+is a regular file	javascript	let {{result}}; try { {{result}} = fs.statSync({{path}}).isFile(); } catch { {{result}} = false; }	NODE-FS	stats.isFile()		
+list directory	python	{{result}} = os.listdir(bytes({{path}}, 'utf-8'))	PY-OS	Files and Directories	121	121
+list directory	javascript	const {{result}} = fs.readdirSync({{path}}, { encoding: 'buffer' });	NODE-FS	fs.readdirSync(path[, options])		
+DEFLATE read	python	{{result}} = zlib.decompress({{data}}, wbits=-15)	PY-ZLIB	zlib --- Compression compatible with gzip	32	32
+DEFLATE read	javascript	const {{result}} = zlib.inflateRawSync({{data}});	NODE-ZLIB	zlib.inflateRawSync(buffer[, options])		
+open database	python	{{result}} = sqlite3.connect({{uri}} + '?mode=ro', uri=True)	PY-SQLITE3	How to work with SQLite URIs	3	3
+open database	javascript	const {{result}} = new DatabaseSync({{path}}, { readOnly: true });	NODE-SQLITE	new DatabaseSync(location[, options])		
+query	python	{{result}} = [list(row) for row in {{database}}.execute({{sql}}).fetchall()]	PY-SQLITE3	Connection objects	25	25
+query	javascript	const {{result}} = {{database}}.prepare({{sql}}).all().map((row) => Object.values(row));	NODE-SQLITE	statement.all([namedParameters][, ...anonymousParameters])		
+close database	python	{{database}}.close()	PY-SQLITE3	Connection objects	23	23
+close database	javascript	{{database}}.close();	NODE-SQLITE	database.close()		
+MCP server	python	{{result}} = MCPServer({{name}}, instructions={{instructions}}, version={{version}})	MCP-SDK	src/mcp/server/mcpserver/server.py		
+MCP server	javascript	const {{result}} = new McpServer({ name: {{name}}, version: {{version}} }, { instructions: {{instructions}} });	MCP-TS-SDK	createMcpHandler-D4NN8WsG.d.mts		
+MCP tool	python	{{server}}.tool(name={{name}}, description={{description}}, structured_output=False)({{handler}})	MCP-SDK	src/mcp/server/mcpserver/server.py		
+MCP tool	javascript	{{server}}.registerTool({{name}}, { description: {{description}}, inputSchema: {{schema}} }, {{handler}});	MCP-TS-SDK	createMcpHandler-D4NN8WsG.d.mts		
+MCP text result	python	return {{text}}	MCP-SDK	docs/servers/structured-output › Opting out	3	3
+MCP text result	javascript	return { content: [{ type: 'text', text: {{text}} }] };	MCP	server/tools › Text Content		
+MCP tool error	python	raise ToolError({{text}})	MCP-SDK	src/mcp/server/mcpserver/exceptions.py		
+MCP tool error	javascript	return { content: [{ type: 'text', text: {{text}} }], isError: true };	MCP	server/tools › Error Handling		
+MCP serve	python	{{server}}.run()	MCP-SDK	docs/run › mcp.run()	2	3
+MCP serve	javascript	{{server}}.connect(new StdioServerTransport());	MCP-TS-SDK	stdio.d.mts		
+Operation steps
+Operation	Position	Step	Tag	Section	First block	Last block
+zip read	1	local file header	ZIP-APPNOTE	(preamble)	93	95
+zip read	2	file data	ZIP-APPNOTE	(preamble)	96	98
+zip read	3	central directory structure	ZIP-APPNOTE	(preamble)	114	118
+zip read	4	end of central directory record	ZIP-APPNOTE	(preamble)	134	135
+XML read	1	well-formed XML documents	XML	2.1 Well-Formed XML Documents		
+XML read	2	characters	XML	2.2 Characters		
+XML read	3	common syntactic constructs	XML	2.3 Common Syntactic Constructs		
+XML read	4	character data and markup	XML	2.4 Character Data and Markup		
+XML read	5	comments	XML	2.5 Comments		
+XML read	6	processing instructions	XML	2.6 Processing Instructions		
+XML read	7	CDATA sections	XML	2.7 CDATA Sections		
+XML read	8	prolog and document type declaration	XML	2.8 Prolog and Document Type Declaration		
+XML read	9	standalone document declaration	XML	2.9 Standalone Document Declaration		
+XML read	10	white space handling	XML	2.10 White Space Handling		
+XML read	11	end-of-line handling	XML	2.11 End-of-Line Handling		
+XML read	12	start-tags, end-tags, and empty-element tags	XML	3.1 Start-Tags, End-Tags, and Empty-Element Tags		
+XML read	13	element type declarations	XML	3.2 Element Type Declarations		
+XML read	14	element content	XML	3.2.1 Element Content		
+XML read	15	mixed content	XML	3.2.2 Mixed Content		
+XML read	16	attribute-list declarations	XML	3.3 Attribute-List Declarations		
+XML read	17	attribute types	XML	3.3.1 Attribute Types		
+XML read	18	attribute defaults	XML	3.3.2 Attribute Defaults		
+XML read	19	attribute-value normalization	XML	3.3.3 Attribute-Value Normalization		
+XML read	20	character and entity references	XML	4.1 Character and Entity References		
+XML read	21	entity declarations	XML	4.2 Entity Declarations		
+XML read	22	internal entities	XML	4.2.1 Internal Entities		
+XML read	23	external entities	XML	4.2.2 External Entities		
+XML read	24	well-formed parsed entities	XML	4.3.2 Well-Formed Parsed Entities		
+XML read	25	character encoding in entities	XML	4.3.3 Character Encoding in Entities		
+XML read	26	XML processor treatment of entities and references	XML	4.4 XML Processor Treatment of Entities and References		
+XML read	27	not recognized	XML	4.4.1 Not Recognized		
+XML read	28	included	XML	4.4.2 Included		
+XML read	29	included if validating	XML	4.4.3 Included If Validating		
+XML read	30	forbidden	XML	4.4.4 Forbidden		
+XML read	31	included in literal	XML	4.4.5 Included in Literal		
+XML read	32	bypassed	XML	4.4.7 Bypassed		
+XML read	33	included as PE	XML	4.4.8 Included as PE		
+XML read	34	error	XML	4.4.9 Error		
+XML read	35	construction of entity replacement text	XML	4.5 Construction of Entity Replacement Text		
+XML read	36	predefined entities	XML	4.6 Predefined Entities		
+XML read	37	notation declarations	XML	4.7 Notation Declarations		
+Terms
+Term	Module	Source	Section
+regular file	read	POSIX-XBD4	4.6 File Hierarchy
+left behind	read		
+nodes	conversion	XML	2.1 Well-Formed XML Documents
+expanded name	conversion	XML-NAMES	2.1 Basic Concepts
+transport	server	MCP	basic/transports/stdio
+tool execution error	server	MCP	server/tools › Error Handling
+text content	server	MCP	server/tools › Text Content
+instructions	server	MCP	server/discover › DiscoverResult
+Value uses
+Requirement	Value
+server.2	server name
+server.2	version
+server.2	server instructions
+server.3	tool name
+server.3	tool description
+Operation uses
+Requirement	Operation
+read.4	union
+read-input.1	is absolute
+read-input.5	is absolute
+read-input.2	list directory
+read-input.2	UTF-8 decode
+read-input.2	is a directory
+read-input.2	is a regular file
+read-input.3	is a directory
+read-input.3	is a regular file
+read-input.3	list directory
+read-input.3	read a file
+read-input.4	resolve pathname
+conversion.1	read a file
+conversion.1	MTSV parse
+conversion.2	read a file
+conversion.4	read a file
+package.1	zip read
+package.1	DEFLATE read
+package.4	zip read
+package.2	XML read
+package.2	expanded name
+package.3	zip read
+package.3	XML read
+csv.1	CSV read
+csv.1	UTF-8 decode
+json.1	JSON-text read
+sqlite.1	SQLite URI
+sqlite.1	open database
+sqlite.1	query
+sqlite.1	close database
+sqlite.2	query
+sqlite.3	open database
+sqlite.3	query
+reply.3	MTSV generate
+server.1	MCP serve
+server.2	MCP server
+server.3	MCP tool
+server.4	MCP text result
+server.5	MCP tool error
+Access program uses
+Requirement	Module	Access program
+tools.1	server	serve
+read.2	data bank	folder
+read.2	data bank	names
+read.2	data bank	records
+read.2	data bank	stored
+read.4	data bank	records
+read.4	relational model	chosen
+read.7	read › input	members
+read.7	conversion	sheets
+read.7	relational model	chosen
+read.7	reply	reply
+conversion.1	relational model	load
+conversion.2	csv	load
+conversion.2	json	load
+conversion.2	xlsx	load
+conversion.2	ods	load
+conversion.2	sqlite	load
+conversion.2	package	nodes
+json.1	relational model	instances
+reply.3	relational model	dumps
+server.2	data bank	folder
+server.4	read	read
+Citations
+Requirement	Tag	Section	First block	Last block
+tools.1	PARNAS1985	RESTRICTED AND HIDDEN MODULES	1	1
+read.2	CODD1970	Abstract	1	1
+read.4	CODD1972	2.3.1 Traditional Set Operations	3	3
+read.6	RFC9413	5.1. Virtuous Intolerance		
+read.7	PARNAS1979	D. Designing the “Uses” Structure		
+read.10	RFC9413	5.1. Virtuous Intolerance	2	2
+read-input.1	POSIX-XBD4	4.13 Pathname Resolution		
+read-input.2	POSIX-XSH-READDIR	DESCRIPTION		
+read-input.3	POSIX-XBD4	4.13 Pathname Resolution		
+read-input.4	POSIX-XSH-REALPATH	DESCRIPTION	1	2
+conversion.1	MTSV-DRAFT	Parsers		
+conversion.4	RFC9413	5.1. Virtuous Intolerance		
+package.1	ECMA-376-2	7.3.6 ZIP package limitations	3	3
+package.1	ODF-2	2.2.1 OpenDocument Package	2	2
+package.2	XML	2.1 Well-Formed XML Documents		
+package.2	ECMA-376-2	6.2.5 XML usage	2	2
+package.2	XML-NAMES	2.1 Basic Concepts	2	2
+package.2	XML-NAMES	3 Declaring Namespaces	1	1
+package.3	ZIP-APPNOTE	(preamble)	86	86
+package.3	XML	2.1 Well-Formed XML Documents		
+csv.1	RFC4180	2. Definition of the CSV Format		
+csv.1	CSVW	7.2 Encoding	1	1
+csv.1	CSVW	8. Parsing Tabular Data	1	156
+csv.2	MTSV-DRAFT	Data Model		
+json.1	RFC8259	2. JSON Grammar		
+json.2	MTSV-DRAFT	Data Model		
+xlsx.1	ECMA-376-1	12.3.24 Worksheet Part		
+xlsx.1	ECMA-376-1	18.3.1.4 c (Cell)	9	14
+xlsx.2	MTSV-DRAFT	Data Model		
+xlsx.3	ECMA-376-1	9.2 Relationships in Office Open XML		
+ods.1	ODF-3	9.1.2 <table:table>		
+ods.1	ODF-3	9.1.4 <table:table-cell>	3	3
+ods.2	MTSV-DRAFT	Data Model		
+ods.3	ODF-3	3.1.3.2 <office:document-content>		
+ods.3	ODF-3	3.7 <office:spreadsheet>		
+sqlite.1	SQLITE-FORMAT	2.6. Storage Of The SQL Database Schema		
+sqlite.1	SQLITE-FORMAT	2.6. Storage Of The SQL Database Schema	4	5
+sqlite.1	SQLITE-EXPR	13. CAST expressions		
+sqlite.2	MTSV-DRAFT	Data Model		
+sqlite.2	SQLITE-COREFUNC	3. Descriptions of built-in scalar SQL functions		
+sqlite.3	SQLITE-FORMAT	1.3.1. Magic Header String		
+reply.5	MTSV-DRAFT	Data Model		
+reply.1	MTSV-DRAFT	Data Model		
+reply.2	MTSV-DRAFT	Data Model		
+reply.3	MTSV-DRAFT	Generators		
+server.1	MCP	basic/transports/stdio		
+server.2	MCP	server/discover › DiscoverResult	5	5
+server.3	MCP	server/tools › Tool	6	9
+server.3	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.5.3. required		
+server.4	MCP	server/tools › Tool Result		
+server.4	MCP	server/tools › Text Content		
+server.5	MCP	server/tools › Error Handling		
+Spec relations
+Requirement	Target
+read.4	read.2
+read.10	read.6
+read.9	conversion.3
+Axis rules
+Standard	Characteristic	Subcharacteristic	Requirement
+ISO25010	Interaction capability	self-descriptiveness	reply.5
+ISO25010	Compatibility	interoperability	server.1
+Requirement files
+Requirement	Path
+tool arguments
+Module	Access program	Position	required
+read	read	2	true
+read	read	3	false
+read	read	4	false
+read	read	5	false
+read	read	6	false
+read	read	7	false

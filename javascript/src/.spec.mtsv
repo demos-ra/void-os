@@ -1,0 +1,658 @@
+1-folders
+kind	place	holds
+—	relational-model	—
+—	data-bank	—
+—	tools	—
+—	hooks	—
+—	view	—
+—	system-generation	—
+2-modules
+kind	place	holds
+{{name}} · .js · HashbangComment	void-os	—
+3-statements
+kind	place	holds
+ImportDeclaration	void-os.js#/SourceFile/0	—
+ImportDeclaration	void-os.js#/SourceFile/1	—
+ImportDeclaration	void-os.js#/SourceFile/2	—
+ImportDeclaration	void-os.js#/SourceFile/3	—
+ImportDeclaration	void-os.js#/SourceFile/4	—
+ImportDeclaration	void-os.js#/SourceFile/5	—
+ImportDeclaration	void-os.js#/SourceFile/6	—
+FunctionDeclaration · Body	void-os.js#/SourceFile/7	—
+VariableStatement	void-os.js#/SourceFile/7/Body/0	—
+VariableStatement	void-os.js#/SourceFile/7/Body/1	—
+TryStatement	void-os.js#/SourceFile/7/Body/2	—
+ExpressionStatement	void-os.js#/SourceFile/7/Body/2/TryBlock/0	—
+IfStatement	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0	—
+VariableStatement	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/0	—
+ExpressionStatement	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/1	—
+ExpressionStatement	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/2	—
+ReturnStatement	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/3	—
+ThrowStatement	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/1	—
+VariableStatement	void-os.js#/SourceFile/7/Body/3	—
+IfStatement	void-os.js#/SourceFile/7/Body/4	—
+ExpressionStatement	void-os.js#/SourceFile/7/Body/4/ThenStatement/0	—
+ReturnStatement	void-os.js#/SourceFile/7/Body/4/ThenStatement/1	—
+IfStatement	void-os.js#/SourceFile/7/Body/5	—
+VariableStatement	void-os.js#/SourceFile/7/Body/5/ThenStatement/0	—
+VariableStatement	void-os.js#/SourceFile/7/Body/5/ThenStatement/1	—
+TryStatement	void-os.js#/SourceFile/7/Body/5/ThenStatement/2	—
+ExpressionStatement	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0	—
+IfStatement	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0	—
+VariableStatement	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/0	—
+ExpressionStatement	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/1	—
+ExpressionStatement	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/2	—
+ReturnStatement	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/3	—
+IfStatement	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1	—
+VariableStatement	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/0	—
+ExpressionStatement	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/1	—
+ExpressionStatement	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/2	—
+ReturnStatement	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/3	—
+ThrowStatement	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/2	—
+ReturnStatement	void-os.js#/SourceFile/7/Body/5/ThenStatement/3	—
+IfStatement	void-os.js#/SourceFile/7/Body/6	—
+VariableStatement	void-os.js#/SourceFile/7/Body/6/ThenStatement/0	—
+TryStatement	void-os.js#/SourceFile/7/Body/6/ThenStatement/1	—
+ExpressionStatement	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/TryBlock/0	—
+IfStatement	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0	—
+VariableStatement	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/0	—
+ExpressionStatement	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/1	—
+ExpressionStatement	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/2	—
+ReturnStatement	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/3	—
+IfStatement	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1	—
+VariableStatement	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/0	—
+ExpressionStatement	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/1	—
+ExpressionStatement	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/2	—
+ReturnStatement	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/3	—
+ThrowStatement	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/2	—
+ExpressionStatement	void-os.js#/SourceFile/7/Body/6/ThenStatement/2	—
+ReturnStatement	void-os.js#/SourceFile/7/Body/6/ThenStatement/3	—
+VariableStatement	void-os.js#/SourceFile/7/Body/7	—
+ExpressionStatement	void-os.js#/SourceFile/7/Body/8	—
+ExpressionStatement	void-os.js#/SourceFile/7/Body/9	—
+ReturnStatement	void-os.js#/SourceFile/7/Body/10	—
+ExpressionStatement	void-os.js#/SourceFile/8	—
+4-expressions
+kind	place	holds
+ImportClause · NamedBindings	void-os.js#/SourceFile/0/ImportClause	—
+NamespaceImport	void-os.js#/SourceFile/0/ImportClause/NamedBindings	—
+StringLiteral	void-os.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	void-os.js#/SourceFile/1/ImportClause	—
+NamespaceImport	void-os.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	void-os.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	void-os.js#/SourceFile/2/ImportClause	—
+NamespaceImport	void-os.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	void-os.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	void-os.js#/SourceFile/3/ImportClause	—
+NamespaceImport	void-os.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	void-os.js#/SourceFile/3/ModuleSpecifier	—
+ImportClause · NamedBindings	void-os.js#/SourceFile/4/ImportClause	—
+NamespaceImport	void-os.js#/SourceFile/4/ImportClause/NamedBindings	—
+StringLiteral	void-os.js#/SourceFile/4/ModuleSpecifier	—
+ImportClause · NamedBindings	void-os.js#/SourceFile/5/ImportClause	—
+NamespaceImport	void-os.js#/SourceFile/5/ImportClause/NamedBindings	—
+StringLiteral	void-os.js#/SourceFile/5/ModuleSpecifier	—
+ImportClause · NamedBindings	void-os.js#/SourceFile/6/ImportClause	—
+NamespaceImport	void-os.js#/SourceFile/6/ImportClause/NamedBindings	—
+StringLiteral	void-os.js#/SourceFile/6/ModuleSpecifier	—
+ExportKeyword	void-os.js#/SourceFile/7/modifiers/0	—
+—	void-os.js#/SourceFile/7/name	—
+ConstKeyword	void-os.js#/SourceFile/7/Body/0/DeclarationList/Flags/0	—
+—	void-os.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0	—
+Identifier	void-os.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/name	—
+CallExpression	void-os.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/name	—
+Identifier	void-os.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Expression/name	—
+NumericLiteral	void-os.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+LetKeyword	void-os.js#/SourceFile/7/Body/1/DeclarationList/Flags/0	—
+—	void-os.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0	—
+Identifier	void-os.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/name	—
+BinaryExpression	void-os.js#/SourceFile/7/Body/2/TryBlock/0/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/2/TryBlock/0/Expression/Left	—
+EqualsToken	void-os.js#/SourceFile/7/Body/2/TryBlock/0/Expression/OperatorToken	—
+CallExpression	void-os.js#/SourceFile/7/Body/2/TryBlock/0/Expression/Right	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/2/TryBlock/0/Expression/Right/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/2/TryBlock/0/Expression/Right/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/2/TryBlock/0/Expression/Right/Expression/name	—
+Identifier	void-os.js#/SourceFile/7/Body/2/TryBlock/0/Expression/Right/Arguments/0	—
+—	void-os.js#/SourceFile/7/Body/2/CatchClause/VariableDeclaration	—
+Identifier	void-os.js#/SourceFile/7/Body/2/CatchClause/VariableDeclaration/name	—
+BinaryExpression	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/Expression/Right	—
+Identifier	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/Expression/Right/name	—
+ConstKeyword	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Flags/0	—
+—	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0	—
+Identifier	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/name	—
+CallExpression	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression	—
+NewExpression	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/name	—
+BinaryExpression	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left	—
+Identifier	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/name	—
+PlusToken	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/OperatorToken	—
+StringLiteral	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Right	—
+CallExpression	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/1/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/1/Expression/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/1/Expression/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/1/Expression/Expression/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/1/Expression/Expression/Expression/name	—
+Identifier	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/1/Expression/Expression/name	—
+Identifier	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/1/Expression/Arguments/0	—
+BinaryExpression	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/2/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/2/Expression/Left	—
+Identifier	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/2/Expression/Left/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/2/Expression/Left/name	—
+EqualsToken	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/2/Expression/OperatorToken	—
+NumericLiteral	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/2/Expression/Right	—
+NumericLiteral	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/3/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/1/Expression	—
+ConstKeyword	void-os.js#/SourceFile/7/Body/3/DeclarationList/Flags/0	—
+—	void-os.js#/SourceFile/7/Body/3/DeclarationList/Declarations/0	—
+Identifier	void-os.js#/SourceFile/7/Body/3/DeclarationList/Declarations/0/name	—
+NewExpression	void-os.js#/SourceFile/7/Body/3/DeclarationList/Declarations/0/Initializer	—
+Identifier	void-os.js#/SourceFile/7/Body/3/DeclarationList/Declarations/0/Initializer/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+Identifier	void-os.js#/SourceFile/7/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/name	—
+BinaryExpression	void-os.js#/SourceFile/7/Body/4/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/4/Expression/Left	—
+Identifier	void-os.js#/SourceFile/7/Body/4/Expression/Left/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/4/Expression/Left/name	—
+EqualsEqualsEqualsToken	void-os.js#/SourceFile/7/Body/4/Expression/OperatorToken	—
+NumericLiteral	void-os.js#/SourceFile/7/Body/4/Expression/Right	—
+CallExpression	void-os.js#/SourceFile/7/Body/4/ThenStatement/0/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/4/ThenStatement/0/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/4/ThenStatement/0/Expression/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/4/ThenStatement/0/Expression/Expression/name	—
+Identifier	void-os.js#/SourceFile/7/Body/4/ThenStatement/0/Expression/Arguments/0	—
+Identifier	void-os.js#/SourceFile/7/Body/4/ThenStatement/0/Expression/Arguments/1	—
+Identifier	void-os.js#/SourceFile/7/Body/4/ThenStatement/0/Expression/Arguments/2	—
+NumericLiteral	void-os.js#/SourceFile/7/Body/4/ThenStatement/1/Expression	—
+BinaryExpression	void-os.js#/SourceFile/7/Body/5/Expression	—
+ElementAccessExpression	void-os.js#/SourceFile/7/Body/5/Expression/Left	—
+Identifier	void-os.js#/SourceFile/7/Body/5/Expression/Left/Expression	—
+NumericLiteral	void-os.js#/SourceFile/7/Body/5/Expression/Left/ArgumentExpression	—
+EqualsEqualsEqualsToken	void-os.js#/SourceFile/7/Body/5/Expression/OperatorToken	—
+CallExpression	void-os.js#/SourceFile/7/Body/5/Expression/Right	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/5/Expression/Right/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/Expression/Right/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/Expression/Right/Expression/name	—
+StringLiteral	void-os.js#/SourceFile/7/Body/5/Expression/Right/Arguments/0	—
+ConstKeyword	void-os.js#/SourceFile/7/Body/5/ThenStatement/0/DeclarationList/Flags/0	—
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/0/DeclarationList/Declarations/0	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/0/DeclarationList/Declarations/0/name	—
+CallExpression	void-os.js#/SourceFile/7/Body/5/ThenStatement/0/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/5/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/name	—
+NumericLiteral	void-os.js#/SourceFile/7/Body/5/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+ConstKeyword	void-os.js#/SourceFile/7/Body/5/ThenStatement/1/DeclarationList/Flags/0	—
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/1/DeclarationList/Declarations/0	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/1/DeclarationList/Declarations/0/name	—
+PrefixUnaryExpression	void-os.js#/SourceFile/7/Body/5/ThenStatement/1/DeclarationList/Declarations/0/Initializer	—
+MinusToken	void-os.js#/SourceFile/7/Body/5/ThenStatement/1/DeclarationList/Declarations/0/Initializer/Operator	—
+CallExpression	void-os.js#/SourceFile/7/Body/5/ThenStatement/1/DeclarationList/Declarations/0/Initializer/Operand	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/5/ThenStatement/1/DeclarationList/Declarations/0/Initializer/Operand/Expression	—
+NewExpression	void-os.js#/SourceFile/7/Body/5/ThenStatement/1/DeclarationList/Declarations/0/Initializer/Operand/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/1/DeclarationList/Declarations/0/Initializer/Operand/Expression/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/1/DeclarationList/Declarations/0/Initializer/Operand/Expression/name	—
+CallExpression	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0/Expression/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0/Expression/Expression/name	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0/Expression/Arguments/0	—
+CallExpression	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0/Expression/Arguments/1	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0/Expression/Arguments/1/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0/Expression/Arguments/1/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0/Expression/Arguments/1/Expression/name	—
+NumericLiteral	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0/Expression/Arguments/1/Arguments/0	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0/Expression/Arguments/2	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0/Expression/Arguments/3	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0/Expression/Arguments/4	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0/Expression/Arguments/5	—
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/VariableDeclaration	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/VariableDeclaration/name	—
+BinaryExpression	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/Expression/Right	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/Expression/Right/name	—
+ConstKeyword	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Flags/0	—
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/name	—
+CallExpression	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression	—
+NewExpression	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/name	—
+BinaryExpression	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/name	—
+PlusToken	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/OperatorToken	—
+StringLiteral	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Right	—
+CallExpression	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/1/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/1/Expression/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/1/Expression/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/1/Expression/Expression/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/1/Expression/Expression/Expression/name	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/1/Expression/Expression/name	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/1/Expression/Arguments/0	—
+BinaryExpression	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/2/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/2/Expression/Left	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/2/Expression/Left/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/2/Expression/Left/name	—
+EqualsToken	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/2/Expression/OperatorToken	—
+NumericLiteral	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/2/Expression/Right	—
+NumericLiteral	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/3/Expression	—
+BinaryExpression	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/Expression/Left	—
+InstanceOfKeyword	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/Expression/Right	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/Expression/Right/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/Expression/Right/name	—
+ConstKeyword	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/0/DeclarationList/Flags/0	—
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/name	—
+CallExpression	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression	—
+NewExpression	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/name	—
+BinaryExpression	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/name	—
+PlusToken	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/OperatorToken	—
+StringLiteral	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Right	—
+CallExpression	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/1/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/1/Expression/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/1/Expression/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/1/Expression/Expression/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/1/Expression/Expression/Expression/name	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/1/Expression/Expression/name	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/1/Expression/Arguments/0	—
+BinaryExpression	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/2/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/2/Expression/Left	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/2/Expression/Left/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/2/Expression/Left/name	—
+EqualsToken	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/2/Expression/OperatorToken	—
+NumericLiteral	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/2/Expression/Right	—
+NumericLiteral	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/3/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/2/Expression	—
+NumericLiteral	void-os.js#/SourceFile/7/Body/5/ThenStatement/3/Expression	—
+BinaryExpression	void-os.js#/SourceFile/7/Body/6/Expression	—
+BinaryExpression	void-os.js#/SourceFile/7/Body/6/Expression/Left	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/6/Expression/Left/Left	—
+Identifier	void-os.js#/SourceFile/7/Body/6/Expression/Left/Left/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/6/Expression/Left/Left/name	—
+EqualsEqualsEqualsToken	void-os.js#/SourceFile/7/Body/6/Expression/Left/OperatorToken	—
+NumericLiteral	void-os.js#/SourceFile/7/Body/6/Expression/Left/Right	—
+AmpersandAmpersandToken	void-os.js#/SourceFile/7/Body/6/Expression/OperatorToken	—
+CallExpression	void-os.js#/SourceFile/7/Body/6/Expression/Right	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression	—
+ArrayLiteralExpression	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression	—
+StringLiteral	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression/Elements/0	—
+StringLiteral	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression/Elements/1	—
+StringLiteral	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression/Elements/2	—
+StringLiteral	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression/Elements/3	—
+StringLiteral	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression/Elements/4	—
+StringLiteral	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression/Elements/5	—
+StringLiteral	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression/Elements/6	—
+StringLiteral	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression/Elements/7	—
+StringLiteral	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression/Elements/8	—
+StringLiteral	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression/Elements/9	—
+StringLiteral	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression/Elements/10	—
+StringLiteral	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression/Elements/11	—
+Identifier	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/name	—
+ElementAccessExpression	void-os.js#/SourceFile/7/Body/6/Expression/Right/Arguments/0	—
+Identifier	void-os.js#/SourceFile/7/Body/6/Expression/Right/Arguments/0/Expression	—
+NumericLiteral	void-os.js#/SourceFile/7/Body/6/Expression/Right/Arguments/0/ArgumentExpression	—
+ConstKeyword	void-os.js#/SourceFile/7/Body/6/ThenStatement/0/DeclarationList/Flags/0	—
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/0/DeclarationList/Declarations/0	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/0/DeclarationList/Declarations/0/name	—
+CallExpression	void-os.js#/SourceFile/7/Body/6/ThenStatement/0/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/6/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/name	—
+CallExpression	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/TryBlock/0/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/TryBlock/0/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/TryBlock/0/Expression/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/TryBlock/0/Expression/Expression/name	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/TryBlock/0/Expression/Arguments/0	—
+ElementAccessExpression	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/TryBlock/0/Expression/Arguments/1	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/TryBlock/0/Expression/Arguments/1/Expression	—
+NumericLiteral	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/TryBlock/0/Expression/Arguments/1/ArgumentExpression	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/TryBlock/0/Expression/Arguments/2	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/TryBlock/0/Expression/Arguments/3	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/TryBlock/0/Expression/Arguments/4	—
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/VariableDeclaration	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/VariableDeclaration/name	—
+BinaryExpression	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/Expression/Right	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/Expression/Right/name	—
+ConstKeyword	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/0/DeclarationList/Flags/0	—
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/name	—
+CallExpression	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression	—
+NewExpression	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/name	—
+BinaryExpression	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/name	—
+PlusToken	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/OperatorToken	—
+StringLiteral	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Right	—
+CallExpression	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/1/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/1/Expression/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/1/Expression/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/1/Expression/Expression/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/1/Expression/Expression/Expression/name	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/1/Expression/Expression/name	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/1/Expression/Arguments/0	—
+BinaryExpression	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/2/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/2/Expression/Left	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/2/Expression/Left/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/2/Expression/Left/name	—
+EqualsToken	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/2/Expression/OperatorToken	—
+NumericLiteral	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/2/Expression/Right	—
+NumericLiteral	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/3/Expression	—
+BinaryExpression	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/Expression/Left	—
+InstanceOfKeyword	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/Expression/Right	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/Expression/Right/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/Expression/Right/name	—
+ConstKeyword	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/0/DeclarationList/Flags/0	—
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/name	—
+CallExpression	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression	—
+NewExpression	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/name	—
+BinaryExpression	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/name	—
+PlusToken	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/OperatorToken	—
+StringLiteral	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Right	—
+CallExpression	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/1/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/1/Expression/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/1/Expression/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/1/Expression/Expression/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/1/Expression/Expression/Expression/name	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/1/Expression/Expression/name	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/1/Expression/Arguments/0	—
+BinaryExpression	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/2/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/2/Expression/Left	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/2/Expression/Left/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/2/Expression/Left/name	—
+EqualsToken	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/2/Expression/OperatorToken	—
+NumericLiteral	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/2/Expression/Right	—
+NumericLiteral	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/3/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/2/Expression	—
+BinaryExpression	void-os.js#/SourceFile/7/Body/6/ThenStatement/2/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/6/ThenStatement/2/Expression/Left	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/2/Expression/Left/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/6/ThenStatement/2/Expression/Left/name	—
+EqualsToken	void-os.js#/SourceFile/7/Body/6/ThenStatement/2/Expression/OperatorToken	—
+NumericLiteral	void-os.js#/SourceFile/7/Body/6/ThenStatement/2/Expression/Right	—
+NumericLiteral	void-os.js#/SourceFile/7/Body/6/ThenStatement/3/Expression	—
+ConstKeyword	void-os.js#/SourceFile/7/Body/7/DeclarationList/Flags/0	—
+—	void-os.js#/SourceFile/7/Body/7/DeclarationList/Declarations/0	—
+Identifier	void-os.js#/SourceFile/7/Body/7/DeclarationList/Declarations/0/name	—
+CallExpression	void-os.js#/SourceFile/7/Body/7/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/7/DeclarationList/Declarations/0/Initializer/Expression	—
+NewExpression	void-os.js#/SourceFile/7/Body/7/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/7/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/7/DeclarationList/Declarations/0/Initializer/Expression/name	—
+BinaryExpression	void-os.js#/SourceFile/7/Body/7/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+CallExpression	void-os.js#/SourceFile/7/Body/7/DeclarationList/Declarations/0/Initializer/Arguments/0/Left	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/7/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/7/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/7/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/Expression/name	—
+StringLiteral	void-os.js#/SourceFile/7/Body/7/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/Arguments/0	—
+PlusToken	void-os.js#/SourceFile/7/Body/7/DeclarationList/Declarations/0/Initializer/Arguments/0/OperatorToken	—
+StringLiteral	void-os.js#/SourceFile/7/Body/7/DeclarationList/Declarations/0/Initializer/Arguments/0/Right	—
+CallExpression	void-os.js#/SourceFile/7/Body/8/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/8/Expression/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/8/Expression/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/8/Expression/Expression/Expression/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/8/Expression/Expression/Expression/name	—
+Identifier	void-os.js#/SourceFile/7/Body/8/Expression/Expression/name	—
+Identifier	void-os.js#/SourceFile/7/Body/8/Expression/Arguments/0	—
+BinaryExpression	void-os.js#/SourceFile/7/Body/9/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/7/Body/9/Expression/Left	—
+Identifier	void-os.js#/SourceFile/7/Body/9/Expression/Left/Expression	—
+Identifier	void-os.js#/SourceFile/7/Body/9/Expression/Left/name	—
+EqualsToken	void-os.js#/SourceFile/7/Body/9/Expression/OperatorToken	—
+NumericLiteral	void-os.js#/SourceFile/7/Body/9/Expression/Right	—
+NumericLiteral	void-os.js#/SourceFile/7/Body/10/Expression	—
+BinaryExpression	void-os.js#/SourceFile/8/Expression	—
+PropertyAccessExpression · DotToken	void-os.js#/SourceFile/8/Expression/Left	—
+Identifier	void-os.js#/SourceFile/8/Expression/Left/Expression	—
+Identifier	void-os.js#/SourceFile/8/Expression/Left/name	—
+EqualsToken	void-os.js#/SourceFile/8/Expression/OperatorToken	—
+CallExpression	void-os.js#/SourceFile/8/Expression/Right	—
+Identifier	void-os.js#/SourceFile/8/Expression/Right/Expression	—
+5-texts
+kind	place	holds
+—	void-os.js#/SourceFile/0/ImportClause/NamedBindings/name/Text	tty
+—	void-os.js#/SourceFile/0/ModuleSpecifier/Text	'node:tty'
+—	void-os.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	dataBank
+—	void-os.js#/SourceFile/1/ModuleSpecifier/Text	'./data-bank/data-bank.js'
+—	void-os.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	hooks
+—	void-os.js#/SourceFile/2/ModuleSpecifier/Text	'./hooks/hooks.js'
+—	void-os.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	relationalModel
+—	void-os.js#/SourceFile/3/ModuleSpecifier/Text	'./relational-model/relational-model.js'
+—	void-os.js#/SourceFile/4/ImportClause/NamedBindings/name/Text	systemGeneration
+—	void-os.js#/SourceFile/4/ModuleSpecifier/Text	'./system-generation/system-generation.js'
+—	void-os.js#/SourceFile/5/ImportClause/NamedBindings/name/Text	tools
+—	void-os.js#/SourceFile/5/ModuleSpecifier/Text	'./tools/tools.js'
+—	void-os.js#/SourceFile/6/ImportClause/NamedBindings/name/Text	view
+—	void-os.js#/SourceFile/6/ModuleSpecifier/Text	'./view/view.js'
+—	void-os.js#/SourceFile/7/name/Text	voidOs
+—	void-os.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/name/Text	voidOs5Arguments
+—	void-os.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Text	process
+—	void-os.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/name/Text	argv
+—	void-os.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Expression/name/Text	slice
+—	void-os.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Text	2
+—	void-os.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/name/Text	values
+—	void-os.js#/SourceFile/7/Body/2/TryBlock/0/Expression/Left/Text	values
+—	void-os.js#/SourceFile/7/Body/2/TryBlock/0/Expression/Right/Expression/Expression/Text	systemGeneration
+—	void-os.js#/SourceFile/7/Body/2/TryBlock/0/Expression/Right/Expression/name/Text	values
+—	void-os.js#/SourceFile/7/Body/2/TryBlock/0/Expression/Right/Arguments/0/Text	relationalModel
+—	void-os.js#/SourceFile/7/Body/2/CatchClause/VariableDeclaration/name/Text	error
+—	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/Expression/Left/Text	error
+—	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/Expression/Right/Expression/Text	systemGeneration
+—	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/Expression/Right/name/Text	NotMTSVError
+—	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/name/Text	voidOs11UTF8Encode
+—	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Text	TextEncoder
+—	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/name/Text	encode
+—	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/Expression/Text	error
+—	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/name/Text	message
+—	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Right/Text	'\\n'
+—	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/1/Expression/Expression/Expression/Expression/Text	process
+—	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/1/Expression/Expression/Expression/name/Text	stderr
+—	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/1/Expression/Expression/name/Text	write
+—	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/1/Expression/Arguments/0/Text	voidOs11UTF8Encode
+—	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/2/Expression/Left/Expression/Text	process
+—	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/2/Expression/Left/name/Text	exitCode
+—	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/2/Expression/Right/Text	1
+—	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/0/ThenStatement/3/Expression/Text	1
+—	void-os.js#/SourceFile/7/Body/2/CatchClause/Block/1/Expression/Text	error
+—	void-os.js#/SourceFile/7/Body/3/DeclarationList/Declarations/0/name/Text	given
+—	void-os.js#/SourceFile/7/Body/3/DeclarationList/Declarations/0/Initializer/Expression/Text	Map
+—	void-os.js#/SourceFile/7/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Text	values
+—	void-os.js#/SourceFile/7/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/name/Text	records
+—	void-os.js#/SourceFile/7/Body/4/Expression/Left/Expression/Text	voidOs5Arguments
+—	void-os.js#/SourceFile/7/Body/4/Expression/Left/name/Text	length
+—	void-os.js#/SourceFile/7/Body/4/Expression/Right/Text	0
+—	void-os.js#/SourceFile/7/Body/4/ThenStatement/0/Expression/Expression/Expression/Text	tools
+—	void-os.js#/SourceFile/7/Body/4/ThenStatement/0/Expression/Expression/name/Text	serve
+—	void-os.js#/SourceFile/7/Body/4/ThenStatement/0/Expression/Arguments/0/Text	values
+—	void-os.js#/SourceFile/7/Body/4/ThenStatement/0/Expression/Arguments/1/Text	relationalModel
+—	void-os.js#/SourceFile/7/Body/4/ThenStatement/0/Expression/Arguments/2/Text	dataBank
+—	void-os.js#/SourceFile/7/Body/4/ThenStatement/1/Expression/Text	0
+—	void-os.js#/SourceFile/7/Body/5/Expression/Left/Expression/Text	voidOs5Arguments
+—	void-os.js#/SourceFile/7/Body/5/Expression/Left/ArgumentExpression/Text	0
+—	void-os.js#/SourceFile/7/Body/5/Expression/Right/Expression/Expression/Text	given
+—	void-os.js#/SourceFile/7/Body/5/Expression/Right/Expression/name/Text	get
+—	void-os.js#/SourceFile/7/Body/5/Expression/Right/Arguments/0/Text	'view operand'
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/0/DeclarationList/Declarations/0/name/Text	voidOs10IsATerminal
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Text	tty
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/name/Text	isatty
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Text	1
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/1/DeclarationList/Declarations/0/name/Text	voidOs10LocalOffset
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/1/DeclarationList/Declarations/0/Initializer/Operand/Expression/Expression/Expression/Text	Date
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/1/DeclarationList/Declarations/0/Initializer/Operand/Expression/name/Text	getTimezoneOffset
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0/Expression/Expression/Expression/Text	view
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0/Expression/Expression/name/Text	view
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0/Expression/Arguments/0/Text	values
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0/Expression/Arguments/1/Expression/Expression/Text	voidOs5Arguments
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0/Expression/Arguments/1/Expression/name/Text	slice
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0/Expression/Arguments/1/Arguments/0/Text	1
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0/Expression/Arguments/2/Text	voidOs10IsATerminal
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0/Expression/Arguments/3/Text	voidOs10LocalOffset
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0/Expression/Arguments/4/Text	relationalModel
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/TryBlock/0/Expression/Arguments/5/Text	dataBank
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/VariableDeclaration/name/Text	error
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/Expression/Left/Text	error
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/Expression/Right/Expression/Text	view
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/Expression/Right/name/Text	RefusedError
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/name/Text	voidOs11UTF8Encode
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Text	TextEncoder
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/name/Text	encode
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/Expression/Text	error
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/name/Text	message
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Right/Text	'\\n'
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/1/Expression/Expression/Expression/Expression/Text	process
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/1/Expression/Expression/Expression/name/Text	stderr
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/1/Expression/Expression/name/Text	write
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/1/Expression/Arguments/0/Text	voidOs11UTF8Encode
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/2/Expression/Left/Expression/Text	process
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/2/Expression/Left/name/Text	exitCode
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/2/Expression/Right/Text	1
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/0/ThenStatement/3/Expression/Text	1
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/Expression/Left/Text	error
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/Expression/Right/Expression/Text	view
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/Expression/Right/name/Text	KeepingFailedError
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/name/Text	voidOs11UTF8Encode
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Text	TextEncoder
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/name/Text	encode
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/Expression/Text	error
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/name/Text	message
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Right/Text	'\\n'
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/1/Expression/Expression/Expression/Expression/Text	process
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/1/Expression/Expression/Expression/name/Text	stderr
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/1/Expression/Expression/name/Text	write
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/1/Expression/Arguments/0/Text	voidOs11UTF8Encode
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/2/Expression/Left/Expression/Text	process
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/2/Expression/Left/name/Text	exitCode
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/2/Expression/Right/Text	1
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/1/ThenStatement/3/Expression/Text	1
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/2/CatchClause/Block/2/Expression/Text	error
+—	void-os.js#/SourceFile/7/Body/5/ThenStatement/3/Expression/Text	0
+—	void-os.js#/SourceFile/7/Body/6/Expression/Left/Left/Expression/Text	voidOs5Arguments
+—	void-os.js#/SourceFile/7/Body/6/Expression/Left/Left/name/Text	length
+—	void-os.js#/SourceFile/7/Body/6/Expression/Left/Right/Text	1
+—	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression/Elements/0/Text	'SessionStart'
+—	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression/Elements/1/Text	'SubagentStart'
+—	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression/Elements/2/Text	'UserPromptSubmit'
+—	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression/Elements/3/Text	'PostToolUse'
+—	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression/Elements/4/Text	'SubagentStop'
+—	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression/Elements/5/Text	'Stop'
+—	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression/Elements/6/Text	'sessionStart'
+—	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression/Elements/7/Text	'subagentStart'
+—	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression/Elements/8/Text	'beforeSubmitPrompt'
+—	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression/Elements/9/Text	'postToolUse'
+—	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression/Elements/10/Text	'subagentStop'
+—	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/Expression/Elements/11/Text	'stop'
+—	void-os.js#/SourceFile/7/Body/6/Expression/Right/Expression/name/Text	includes
+—	void-os.js#/SourceFile/7/Body/6/Expression/Right/Arguments/0/Expression/Text	voidOs5Arguments
+—	void-os.js#/SourceFile/7/Body/6/Expression/Right/Arguments/0/ArgumentExpression/Text	0
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/0/DeclarationList/Declarations/0/name/Text	voidOs7WorkingDirectory
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Text	process
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/name/Text	cwd
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/TryBlock/0/Expression/Expression/Expression/Text	hooks
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/TryBlock/0/Expression/Expression/name/Text	hook
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/TryBlock/0/Expression/Arguments/0/Text	values
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/TryBlock/0/Expression/Arguments/1/Expression/Text	voidOs5Arguments
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/TryBlock/0/Expression/Arguments/1/ArgumentExpression/Text	0
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/TryBlock/0/Expression/Arguments/2/Text	voidOs7WorkingDirectory
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/TryBlock/0/Expression/Arguments/3/Text	relationalModel
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/TryBlock/0/Expression/Arguments/4/Text	dataBank
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/VariableDeclaration/name/Text	error
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/Expression/Left/Text	error
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/Expression/Right/Expression/Text	hooks
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/Expression/Right/name/Text	KeepingFailedError
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/name/Text	voidOs11UTF8Encode
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Text	TextEncoder
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/name/Text	encode
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/Expression/Text	error
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/name/Text	message
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Right/Text	'\\n'
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/1/Expression/Expression/Expression/Expression/Text	process
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/1/Expression/Expression/Expression/name/Text	stderr
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/1/Expression/Expression/name/Text	write
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/1/Expression/Arguments/0/Text	voidOs11UTF8Encode
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/2/Expression/Left/Expression/Text	process
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/2/Expression/Left/name/Text	exitCode
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/2/Expression/Right/Text	1
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/0/ThenStatement/3/Expression/Text	1
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/Expression/Left/Text	error
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/Expression/Right/Expression/Text	hooks
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/Expression/Right/name/Text	NonConformingError
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/name/Text	voidOs11UTF8Encode
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Text	TextEncoder
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Expression/name/Text	encode
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/Expression/Text	error
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/name/Text	message
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Right/Text	'\\n'
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/1/Expression/Expression/Expression/Expression/Text	process
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/1/Expression/Expression/Expression/name/Text	stderr
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/1/Expression/Expression/name/Text	write
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/1/Expression/Arguments/0/Text	voidOs11UTF8Encode
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/2/Expression/Left/Expression/Text	process
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/2/Expression/Left/name/Text	exitCode
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/2/Expression/Right/Text	1
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/1/ThenStatement/3/Expression/Text	1
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/1/CatchClause/Block/2/Expression/Text	error
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/2/Expression/Left/Expression/Text	process
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/2/Expression/Left/name/Text	exitCode
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/2/Expression/Right/Text	0
+—	void-os.js#/SourceFile/7/Body/6/ThenStatement/3/Expression/Text	0
+—	void-os.js#/SourceFile/7/Body/7/DeclarationList/Declarations/0/name/Text	voidOs8UTF8Encode
+—	void-os.js#/SourceFile/7/Body/7/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Text	TextEncoder
+—	void-os.js#/SourceFile/7/Body/7/DeclarationList/Declarations/0/Initializer/Expression/name/Text	encode
+—	void-os.js#/SourceFile/7/Body/7/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/Expression/Expression/Text	given
+—	void-os.js#/SourceFile/7/Body/7/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/Expression/name/Text	get
+—	void-os.js#/SourceFile/7/Body/7/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/Arguments/0/Text	'usage message'
+—	void-os.js#/SourceFile/7/Body/7/DeclarationList/Declarations/0/Initializer/Arguments/0/Right/Text	'\\n'
+—	void-os.js#/SourceFile/7/Body/8/Expression/Expression/Expression/Expression/Text	process
+—	void-os.js#/SourceFile/7/Body/8/Expression/Expression/Expression/name/Text	stderr
+—	void-os.js#/SourceFile/7/Body/8/Expression/Expression/name/Text	write
+—	void-os.js#/SourceFile/7/Body/8/Expression/Arguments/0/Text	voidOs8UTF8Encode
+—	void-os.js#/SourceFile/7/Body/9/Expression/Left/Expression/Text	process
+—	void-os.js#/SourceFile/7/Body/9/Expression/Left/name/Text	exitCode
+—	void-os.js#/SourceFile/7/Body/9/Expression/Right/Text	1
+—	void-os.js#/SourceFile/7/Body/10/Expression/Text	1
+—	void-os.js#/SourceFile/8/Expression/Left/Expression/Text	process
+—	void-os.js#/SourceFile/8/Expression/Left/name/Text	exitCode
+—	void-os.js#/SourceFile/8/Expression/Right/Expression/Text	voidOs

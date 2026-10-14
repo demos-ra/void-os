@@ -1,0 +1,14 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+relational-model.1	1	relational model	loads					the relational model gives format's loads as its own
+arguments
+requirement	case	position	item	value
+relational-model.1	1	1	0	<FF>s<LF>x<LF>1<LF>
+fixtures
+fixture	sheet	record	field	value
+s x 1	1	0	1	s
+s x 1	1	1	1	x
+s x 1	1	2	1	1
+placed
+requirement	case	when	pathname	fixture
+relational-model.1	1	after	result 1	s x 1

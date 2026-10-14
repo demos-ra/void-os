@@ -1,0 +1,21 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+json.1	1	json	load					json reads a JSON file of objects, each with sheet name, header and records, one sheet each
+json.2	1	json	load	cannot be represented				a value that is not a string ends the load as cannot be represented
+arguments
+requirement	case	position	item	value
+json.1	1	1	0	[{"sheet name": "s", "header": ["a", "b"], "records": [["1", "2"]]}]<LF>
+json.2	1	1	0	[{"sheet name": "s", "header": ["a"], "records": [[1]]}]<LF>
+fixtures
+fixture	sheet	record	field	value
+s a b 1 2	1	0	1	s
+s a b 1 2	1	1	1	a
+s a b 1 2	1	1	2	b
+s a b 1 2	1	2	1	1
+s a b 1 2	1	2	2	2
+placed
+requirement	case	when	pathname	fixture
+json.1	1	after	result 1	s a b 1 2
+results
+requirement	case	position	item	value
+json.1	1	2	0	

@@ -1,0 +1,158 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+distribution-package.1	1							python/pyproject.toml declares the build system and the project by the Values
+distribution-package.2	1							javascript/package.json declares the package by the Values
+distribution-package.3	1							server.json names and describes the server and lists its npm and PyPI packages
+distribution-package.4	1							each README says what void-os is, how it is installed, and lays out the modules by their secrets
+distribution-package.5	1							each LICENSE is the MIT License's text with the Value copyright holders
+expected files
+requirement	case	pathname	file
+distribution-package.5	1	python/LICENSE	LICENSE
+distribution-package.5	1	javascript/LICENSE	LICENSE
+file texts
+requirement	case	pathname	position	text
+distribution-package.1	1	python/pyproject.toml	1	[build-system]
+distribution-package.1	1	python/pyproject.toml	2	requires = ["setuptools>=77"]
+distribution-package.1	1	python/pyproject.toml	3	build-backend = "setuptools.build_meta"
+distribution-package.1	1	python/pyproject.toml	4	[project]
+distribution-package.1	1	python/pyproject.toml	5	name = "void-os"
+distribution-package.1	1	python/pyproject.toml	6	version = "0.1.0"
+distribution-package.1	1	python/pyproject.toml	7	requires-python = ">=3.11"
+distribution-package.1	1	python/pyproject.toml	8	dependencies = ["mcp>=2.2.0"]
+distribution-package.1	1	python/pyproject.toml	9	license = "MIT"
+distribution-package.1	1	python/pyproject.toml	10	[project.scripts]
+distribution-package.1	1	python/pyproject.toml	11	void-os = "void_os._void_os:void_os"
+distribution-package.1	1	python/pyproject.toml	12	values.mtsv
+distribution-package.4	1	python/README	1	an operating system for language models and agents in which every datum is a relation in normal form held as MTSV text: a data bank that keeps what a harness sends, tools through which a model reads it and any other file, hooks through which a harness reaches both, and a view through which a person sees the whole of it
+distribution-package.4	1	python/README	2	pipx install void-os
+distribution-package.4	1	python/README	3	mcp-name: io.github.demos-ra/void-os
+distribution-package.4	1	python/README	4	the command: the relational model, data bank, tools, hooks, view and system generation wired into the void-os command, each handed what it needs
+distribution-package.4	1	python/README	5	what a datum is: a relation, written as text and read back, and operated on by the relational algebra
+distribution-package.4	1	python/README	6	how a relation is written as text and read back: MTSV, and JSON at void-os's edges
+distribution-package.4	1	python/README	7	how MTSV text becomes sheets
+distribution-package.4	1	python/README	8	how sheets become MTSV text
+distribution-package.4	1	python/README	9	how a JSON text becomes the relations of its instances
+distribution-package.4	1	python/README	10	which sheets, records and fields a reader names, as the relational algebra's operations, written by position and by filter
+distribution-package.4	1	python/README	11	how positions are written, 2, 1;3, 1-3 or 2-*, counted from 1, and which positions a selection names
+distribution-package.4	1	python/README	12	what a filter expression is, and which records it keeps
+distribution-package.4	1	python/README	13	the traditional set operations: the union of a sheet across files or inputs
+distribution-package.4	1	python/README	14	the less traditional operations on relations: restriction by position or filter, projection by fields, and join on shared columns
+distribution-package.4	1	python/README	15	how relations are kept and given back: converted in from JSON, inserted, and communicated
+distribution-package.4	1	python/README	16	how the JSON values a schema describes become relations, written as one MTSV file
+distribution-package.4	1	python/README	17	what the converter is given: the module specification and the input values, read through JSON text into relations
+distribution-package.4	1	python/README	18	what a module specification supplies, and how its schema is read and applied
+distribution-package.4	1	python/README	19	how each input value is read as a JSON text, and when it is rejected
+distribution-package.4	1	python/README	20	how the input's relations become relations in normal form
+distribution-package.4	1	python/README	21	which relation and column each value is written to
+distribution-package.4	1	python/README	22	how each record is identified, and how a place within a value is named
+distribution-package.4	1	python/README	23	the order of sheets, records and columns
+distribution-package.4	1	python/README	24	how the relations are written as MTSV, at its levels
+distribution-package.4	1	python/README	25	which sheets the whole input's one MTSV file holds, and in which order
+distribution-package.4	1	python/README	26	the name and the header of each sheet
+distribution-package.4	1	python/README	27	each instance as one record of its sheet
+distribution-package.4	1	python/README	28	how a value is written as a field's text
+distribution-package.4	1	python/README	29	where and how each input is kept: its folder and file, inserted only, each value whole
+distribution-package.4	1	python/README	30	what the data bank gives: names, records by their keys, and what is new
+distribution-package.4	1	python/README	31	the MCP server and the one tool it offers
+distribution-package.4	1	python/README	32	how the tool is offered and called over MCP
+distribution-package.4	1	python/README	33	how a pathname is read as MTSV: a file, a directory of files, or the data bank
+distribution-package.4	1	python/README	34	what a pathname names: a file, a directory of files, or the data bank
+distribution-package.4	1	python/README	35	how a file of another format becomes sheets, and what it leaves behind
+distribution-package.4	1	python/README	36	how a package's zip entries and XML parts are read as nodes
+distribution-package.4	1	python/README	37	how a CSV file becomes a sheet
+distribution-package.4	1	python/README	38	how a JSON file becomes sheets
+distribution-package.4	1	python/README	39	how a workbook becomes sheets
+distribution-package.4	1	python/README	40	how a spreadsheet document becomes sheets
+distribution-package.4	1	python/README	41	how a database becomes sheets
+distribution-package.4	1	python/README	42	what every reply states: the report, then the map or the values
+distribution-package.4	1	python/README	43	how a harness's hook events reach the data bank, and what they give back
+distribution-package.4	1	python/README	44	how a hook's input is inserted into the data bank
+distribution-package.4	1	python/README	45	what a hook gives the harness as context, and in which form
+distribution-package.4	1	python/README	46	how a person sees the whole data bank: overview first, zoom and filter, then details on demand
+distribution-package.4	1	python/README	47	what the whole data bank holds: each input, its values, and its days
+distribution-package.4	1	python/README	48	what one input holds: its days, then the turns of a day
+distribution-package.4	1	python/README	49	which records a level keeps, by the filter query gives
+distribution-package.4	1	python/README	50	one value in full: every record of every sheet it gives
+distribution-package.4	1	python/README	51	how a level is laid out on a terminal, and when it is written as MTSV instead
+distribution-package.4	1	python/README	52	the decisions postponed to release, and how void-os is built, described and installed
+distribution-package.4	1	python/README	53	where the Values are read from, and how values.mtsv is written
+distribution-package.4	1	python/README	54	how void-os is built, described and installed: a package on PyPI and on npm, and a server in the MCP Registry
+distribution-package.4	1	python/README	55	how a conformance case is run: found by its key, its fixtures placed, its access program called, and what it asserts compared
+distribution-package.4	1	javascript/README	1	an operating system for language models and agents in which every datum is a relation in normal form held as MTSV text: a data bank that keeps what a harness sends, tools through which a model reads it and any other file, hooks through which a harness reaches both, and a view through which a person sees the whole of it
+distribution-package.4	1	javascript/README	2	npm install --global void-os
+distribution-package.4	1	javascript/README	4	the command: the relational model, data bank, tools, hooks, view and system generation wired into the void-os command, each handed what it needs
+distribution-package.4	1	javascript/README	5	what a datum is: a relation, written as text and read back, and operated on by the relational algebra
+distribution-package.4	1	javascript/README	6	how a relation is written as text and read back: MTSV, and JSON at void-os's edges
+distribution-package.4	1	javascript/README	7	how MTSV text becomes sheets
+distribution-package.4	1	javascript/README	8	how sheets become MTSV text
+distribution-package.4	1	javascript/README	9	how a JSON text becomes the relations of its instances
+distribution-package.4	1	javascript/README	10	which sheets, records and fields a reader names, as the relational algebra's operations, written by position and by filter
+distribution-package.4	1	javascript/README	11	how positions are written, 2, 1;3, 1-3 or 2-*, counted from 1, and which positions a selection names
+distribution-package.4	1	javascript/README	12	what a filter expression is, and which records it keeps
+distribution-package.4	1	javascript/README	13	the traditional set operations: the union of a sheet across files or inputs
+distribution-package.4	1	javascript/README	14	the less traditional operations on relations: restriction by position or filter, projection by fields, and join on shared columns
+distribution-package.4	1	javascript/README	15	how relations are kept and given back: converted in from JSON, inserted, and communicated
+distribution-package.4	1	javascript/README	16	how the JSON values a schema describes become relations, written as one MTSV file
+distribution-package.4	1	javascript/README	17	what the converter is given: the module specification and the input values, read through JSON text into relations
+distribution-package.4	1	javascript/README	18	what a module specification supplies, and how its schema is read and applied
+distribution-package.4	1	javascript/README	19	how each input value is read as a JSON text, and when it is rejected
+distribution-package.4	1	javascript/README	20	how the input's relations become relations in normal form
+distribution-package.4	1	javascript/README	21	which relation and column each value is written to
+distribution-package.4	1	javascript/README	22	how each record is identified, and how a place within a value is named
+distribution-package.4	1	javascript/README	23	the order of sheets, records and columns
+distribution-package.4	1	javascript/README	24	how the relations are written as MTSV, at its levels
+distribution-package.4	1	javascript/README	25	which sheets the whole input's one MTSV file holds, and in which order
+distribution-package.4	1	javascript/README	26	the name and the header of each sheet
+distribution-package.4	1	javascript/README	27	each instance as one record of its sheet
+distribution-package.4	1	javascript/README	28	how a value is written as a field's text
+distribution-package.4	1	javascript/README	29	where and how each input is kept: its folder and file, inserted only, each value whole
+distribution-package.4	1	javascript/README	30	what the data bank gives: names, records by their keys, and what is new
+distribution-package.4	1	javascript/README	31	the MCP server and the one tool it offers
+distribution-package.4	1	javascript/README	32	how the tool is offered and called over MCP
+distribution-package.4	1	javascript/README	33	how a pathname is read as MTSV: a file, a directory of files, or the data bank
+distribution-package.4	1	javascript/README	34	what a pathname names: a file, a directory of files, or the data bank
+distribution-package.4	1	javascript/README	35	how a file of another format becomes sheets, and what it leaves behind
+distribution-package.4	1	javascript/README	36	how a package's zip entries and XML parts are read as nodes
+distribution-package.4	1	javascript/README	37	how a CSV file becomes a sheet
+distribution-package.4	1	javascript/README	38	how a JSON file becomes sheets
+distribution-package.4	1	javascript/README	39	how a workbook becomes sheets
+distribution-package.4	1	javascript/README	40	how a spreadsheet document becomes sheets
+distribution-package.4	1	javascript/README	41	how a database becomes sheets
+distribution-package.4	1	javascript/README	42	what every reply states: the report, then the map or the values
+distribution-package.4	1	javascript/README	43	how a harness's hook events reach the data bank, and what they give back
+distribution-package.4	1	javascript/README	44	how a hook's input is inserted into the data bank
+distribution-package.4	1	javascript/README	45	what a hook gives the harness as context, and in which form
+distribution-package.4	1	javascript/README	46	how a person sees the whole data bank: overview first, zoom and filter, then details on demand
+distribution-package.4	1	javascript/README	47	what the whole data bank holds: each input, its values, and its days
+distribution-package.4	1	javascript/README	48	what one input holds: its days, then the turns of a day
+distribution-package.4	1	javascript/README	49	which records a level keeps, by the filter query gives
+distribution-package.4	1	javascript/README	50	one value in full: every record of every sheet it gives
+distribution-package.4	1	javascript/README	51	how a level is laid out on a terminal, and when it is written as MTSV instead
+distribution-package.4	1	javascript/README	52	the decisions postponed to release, and how void-os is built, described and installed
+distribution-package.4	1	javascript/README	53	where the Values are read from, and how values.mtsv is written
+distribution-package.4	1	javascript/README	54	how void-os is built, described and installed: a package on PyPI and on npm, and a server in the MCP Registry
+distribution-package.4	1	javascript/README	55	how a conformance case is run: found by its key, its fixtures placed, its access program called, and what it asserts compared
+file instances
+requirement	case	pathname	pointer	type	value
+distribution-package.2	1	javascript/package.json	/name	string	void-os
+distribution-package.2	1	javascript/package.json	/version	string	0.1.0
+distribution-package.2	1	javascript/package.json	/type	string	module
+distribution-package.2	1	javascript/package.json	/bin/void-os	string	src/void-os.js
+distribution-package.2	1	javascript/package.json	/engines/node	string	>=22.13
+distribution-package.2	1	javascript/package.json	/dependencies/@modelcontextprotocol~1server	string	>=2.3.1
+distribution-package.2	1	javascript/package.json	/dependencies/zod	string	^4.2.0
+distribution-package.2	1	javascript/package.json	/license	string	MIT
+distribution-package.2	1	javascript/package.json	/files	array	
+distribution-package.2	1	javascript/package.json	/files/0	string	src
+distribution-package.2	1	javascript/package.json	/mcpName	string	io.github.demos-ra/void-os
+distribution-package.3	1	server.json	/name	string	io.github.demos-ra/void-os
+distribution-package.3	1	server.json	/description	string	Memory for AI agents: a data bank of MTSV relations, read through one tool.
+distribution-package.3	1	server.json	/version	string	0.1.0
+distribution-package.3	1	server.json	/packages/0/registryType	string	npm
+distribution-package.3	1	server.json	/packages/0/identifier	string	void-os
+distribution-package.3	1	server.json	/packages/0/version	string	0.1.0
+distribution-package.3	1	server.json	/packages/0/transport/type	string	stdio
+distribution-package.3	1	server.json	/packages/1/registryType	string	pypi
+distribution-package.3	1	server.json	/packages/1/identifier	string	void-os
+distribution-package.3	1	server.json	/packages/1/version	string	0.1.0
+distribution-package.3	1	server.json	/packages/1/transport/type	string	stdio

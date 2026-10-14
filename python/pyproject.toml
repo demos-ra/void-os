@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "void-os"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["mcp>=2.2.0"]
+license = "Apache-2.0"
+
+[project.scripts]
+void-os = "void_os._void_os:void_os"
+
+[tool.setuptools.package-data]
+"void_os.system_generation.values" = ["values.mtsv"]

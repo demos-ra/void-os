@@ -1,0 +1,29 @@
+Values
+Value	Given
+void-os command	void-os
+view operand	view
+version	0.1.0
+usage message	usage: void-os [view [--filter filter] [input [day [position]]] | hook-event]
+data bank folder	void-os
+data bank variable	VOID_OS_DATA_BANK
+lock timeout	60
+lock wait	0.05
+replace suffix	.tmp
+server name	void-os
+server instructions	void-os keeps your memory in its data bank at {data bank folder}. Read it, or any file or directory, with read.
+tool name	read
+tool description	Read a file, a directory of files, or the data bank, as MTSV text: a tab between fields, a line break between records, a form feed before each sheet's name. Every reply begins with the report; then the field names of each sheet, or, with a selection, its values.
+hook input schema	{"title": "hook input", "type": "object"}
+context limit	10000
+pager variable	PAGER
+column gap	 
+copyright holders	2026 Demos Ra
+requires-python	>=3.11
+node engine	>=22.13
+build requires	setuptools>=77
+build backend	setuptools.build_meta
+python dependency mcp	mcp>=2.2.0
+javascript dependency server	@modelcontextprotocol/server@>=2.3.1
+javascript dependency zod	zod@^4.2.0
+registry name	io.github.demos-ra/void-os
+server description	Memory for AI agents: a data bank of MTSV relations, read through one tool.

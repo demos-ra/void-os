@@ -1,0 +1,577 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .js	sheet	—
+3-statements
+kind	place	holds
+FunctionDeclaration · Body	sheet.js#/SourceFile/0	—
+VariableStatement	sheet.js#/SourceFile/0/Body/0	—
+VariableStatement	sheet.js#/SourceFile/0/Body/1	—
+VariableStatement	sheet.js#/SourceFile/0/Body/2	—
+VariableStatement	sheet.js#/SourceFile/0/Body/3	—
+ForOfStatement	sheet.js#/SourceFile/0/Body/4	—
+VariableStatement	sheet.js#/SourceFile/0/Body/4/Statement/0	—
+VariableStatement	sheet.js#/SourceFile/0/Body/4/Statement/1	—
+IfStatement · ElseStatement	sheet.js#/SourceFile/0/Body/4/Statement/2	—
+ExpressionStatement	sheet.js#/SourceFile/0/Body/4/Statement/2/ThenStatement/0	—
+IfStatement · ElseStatement	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0	—
+ExpressionStatement	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ThenStatement/0	—
+ExpressionStatement	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0	—
+VariableStatement	sheet.js#/SourceFile/0/Body/4/Statement/3	—
+VariableStatement	sheet.js#/SourceFile/0/Body/4/Statement/4	—
+VariableStatement	sheet.js#/SourceFile/0/Body/4/Statement/5	—
+ExpressionStatement	sheet.js#/SourceFile/0/Body/4/Statement/6	—
+ReturnStatement	sheet.js#/SourceFile/0/Body/5	—
+FunctionDeclaration · Body	sheet.js#/SourceFile/1	—
+ReturnStatement	sheet.js#/SourceFile/1/Body/0	—
+4-expressions
+kind	place	holds
+ExportKeyword	sheet.js#/SourceFile/0/modifiers/0	—
+—	sheet.js#/SourceFile/0/name	—
+—	sheet.js#/SourceFile/0/Parameters/0	—
+Identifier	sheet.js#/SourceFile/0/Parameters/0/name	—
+ConstKeyword	sheet.js#/SourceFile/0/Body/0/DeclarationList/Flags/0	—
+—	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0	—
+Identifier	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/name	—
+NewExpression	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer	—
+Identifier	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Expression	—
+CallExpression	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/Expression/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/Expression/ArgumentExpression	—
+Identifier	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/name	—
+Identifier	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/name	—
+ArrowFunction · Expression	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0	—
+—	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Parameters/0	—
+Identifier	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Parameters/0/name	—
+ArrayLiteralExpression	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0	—
+Identifier	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/ArgumentExpression	—
+Identifier	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1	—
+ConstKeyword	sheet.js#/SourceFile/0/Body/1/DeclarationList/Flags/0	—
+—	sheet.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0	—
+Identifier	sheet.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/name	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Expression/ArgumentExpression	—
+Identifier	sheet.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/name	—
+ConstKeyword	sheet.js#/SourceFile/0/Body/2/DeclarationList/Flags/0	—
+—	sheet.js#/SourceFile/0/Body/2/DeclarationList/Declarations/0	—
+Identifier	sheet.js#/SourceFile/0/Body/2/DeclarationList/Declarations/0/name	—
+NewExpression	sheet.js#/SourceFile/0/Body/2/DeclarationList/Declarations/0/Initializer	—
+Identifier	sheet.js#/SourceFile/0/Body/2/DeclarationList/Declarations/0/Initializer/Expression	—
+ConstKeyword	sheet.js#/SourceFile/0/Body/3/DeclarationList/Flags/0	—
+—	sheet.js#/SourceFile/0/Body/3/DeclarationList/Declarations/0	—
+Identifier	sheet.js#/SourceFile/0/Body/3/DeclarationList/Declarations/0/name	—
+ArrayLiteralExpression	sheet.js#/SourceFile/0/Body/3/DeclarationList/Declarations/0/Initializer	—
+VariableDeclarationList	sheet.js#/SourceFile/0/Body/4/Initializer	—
+ConstKeyword	sheet.js#/SourceFile/0/Body/4/Initializer/Flags/0	—
+—	sheet.js#/SourceFile/0/Body/4/Initializer/Declarations/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Initializer/Declarations/0/name	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Expression	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Expression/Expression	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Expression/Expression/Expression	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Expression/Expression/Expression/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Expression/Expression/Expression/Expression/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Expression/Expression/Expression/Expression/name	—
+ArrowFunction · Expression	sheet.js#/SourceFile/0/Body/4/Expression/Expression/Expression/Arguments/0	—
+—	sheet.js#/SourceFile/0/Body/4/Expression/Expression/Expression/Arguments/0/Parameters/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Expression/Expression/Expression/Arguments/0/Parameters/0/name	—
+BinaryExpression	sheet.js#/SourceFile/0/Body/4/Expression/Expression/Expression/Arguments/0/Body	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Expression/Expression/Expression/Arguments/0/Body/Left	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Expression/Expression/Expression/Arguments/0/Body/Left/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Expression/Expression/Expression/Arguments/0/Body/Left/ArgumentExpression	—
+EqualsEqualsEqualsToken	sheet.js#/SourceFile/0/Body/4/Expression/Expression/Expression/Arguments/0/Body/OperatorToken	—
+StringLiteral	sheet.js#/SourceFile/0/Body/4/Expression/Expression/Expression/Arguments/0/Body/Right	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Expression/Expression/name	—
+ArrowFunction · Expression	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0	—
+—	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0/Parameters/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0/Parameters/0/name	—
+—	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0/Parameters/1	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0/Parameters/1/name	—
+BinaryExpression	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0/Body	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0/Body/Left	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0/Body/Left/Expression	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0/Body/Left/Arguments/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0/Body/Left/Arguments/0/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0/Body/Left/Arguments/0/ArgumentExpression	—
+MinusToken	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0/Body/OperatorToken	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0/Body/Right	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0/Body/Right/Expression	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0/Body/Right/Arguments/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0/Body/Right/Arguments/0/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0/Body/Right/Arguments/0/ArgumentExpression	—
+ConstKeyword	sheet.js#/SourceFile/0/Body/4/Statement/0/DeclarationList/Flags/0	—
+—	sheet.js#/SourceFile/0/Body/4/Statement/0/DeclarationList/Declarations/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/0/DeclarationList/Declarations/0/name	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/name	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/ArgumentExpression	—
+ConstKeyword	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Flags/0	—
+—	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/name	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Expression	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Expression/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Expression/Expression/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Expression/Expression/ArgumentExpression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Expression/name	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/name	—
+ArrowFunction · Expression	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0	—
+—	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Parameters/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Parameters/0/name	—
+BinaryExpression	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Left	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Left/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Left/ArgumentExpression	—
+EqualsEqualsEqualsToken	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/OperatorToken	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Right	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Right/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Right/ArgumentExpression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/name	—
+ArrowFunction · Expression	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+—	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0/name	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Expression	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/ArgumentExpression	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/2/Expression	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Statement/2/Expression/Expression	—
+ArrayLiteralExpression	sheet.js#/SourceFile/0/Body/4/Statement/2/Expression/Expression/Expression	—
+StringLiteral	sheet.js#/SourceFile/0/Body/4/Statement/2/Expression/Expression/Expression/Elements/0	—
+StringLiteral	sheet.js#/SourceFile/0/Body/4/Statement/2/Expression/Expression/Expression/Elements/1	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/2/Expression/Expression/name	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/2/Expression/Arguments/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/2/Expression/Arguments/0/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/2/Expression/Arguments/0/ArgumentExpression	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/2/ThenStatement/0/Expression	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Statement/2/ThenStatement/0/Expression/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/2/ThenStatement/0/Expression/Expression/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/2/ThenStatement/0/Expression/Expression/name	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/2/ThenStatement/0/Expression/Arguments/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/2/ThenStatement/0/Expression/Arguments/0/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/2/ThenStatement/0/Expression/Arguments/0/ArgumentExpression	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/2/ThenStatement/0/Expression/Arguments/1	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/2/ThenStatement/0/Expression/Arguments/1/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/2/ThenStatement/0/Expression/Arguments/1/ArgumentExpression	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/Expression	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/Expression/Expression	—
+ArrayLiteralExpression	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/Expression/Expression/Expression	—
+StringLiteral	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/Expression/Expression/Expression/Elements/0	—
+StringLiteral	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/Expression/Expression/Expression/Elements/1	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/Expression/Expression/name	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/Expression/Arguments/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/Expression/Arguments/0/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/Expression/Arguments/0/ArgumentExpression	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ThenStatement/0/Expression	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ThenStatement/0/Expression/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ThenStatement/0/Expression/Expression/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ThenStatement/0/Expression/Expression/name	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ThenStatement/0/Expression/Arguments/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ThenStatement/0/Expression/Arguments/0/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ThenStatement/0/Expression/Arguments/0/ArgumentExpression	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ThenStatement/0/Expression/Arguments/1	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ThenStatement/0/Expression/Arguments/1/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ThenStatement/0/Expression/Arguments/1/Expression/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ThenStatement/0/Expression/Arguments/1/Expression/name	—
+StringLiteral	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ThenStatement/0/Expression/Arguments/1/Arguments/0	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Expression/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Expression/name	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/0/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/0/ArgumentExpression	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/1	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/1/Expression	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/1/Expression/Expression	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/1/Expression/Expression/Expression	—
+ArrayLiteralExpression	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/1/Expression/Expression/Expression/Expression	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/1/Expression/Expression/Expression/Expression/Elements/0	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/1/Expression/Expression/Expression/Expression/Elements/0/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/1/Expression/Expression/Expression/Expression/Elements/0/Expression/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/1/Expression/Expression/Expression/Expression/Elements/0/Expression/name	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/1/Expression/Expression/Expression/Expression/Elements/0/Arguments/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/1/Expression/Expression/Expression/Expression/Elements/0/Arguments/0/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/1/Expression/Expression/Expression/Expression/Elements/0/Arguments/0/ArgumentExpression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/1/Expression/Expression/Expression/name	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/1/Expression/Expression/Arguments/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/1/Expression/name	—
+StringLiteral	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/1/Arguments/0	—
+ConstKeyword	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Flags/0	—
+—	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/name	—
+ConditionalExpression	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer	—
+BinaryExpression	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/Condition	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/Condition/Left	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/Condition/Left/ArgumentExpression	—
+EqualsEqualsEqualsToken	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/Condition/OperatorToken	—
+StringLiteral	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/Condition/Right	—
+ArrayLiteralExpression	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenTrue	—
+StringLiteral	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenTrue/Elements/0	—
+StringLiteral	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenTrue/Elements/1	—
+StringLiteral	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenTrue/Elements/2	—
+StringLiteral	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenTrue/Elements/3	—
+StringLiteral	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenTrue/Elements/4	—
+ConditionalExpression	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenFalse	—
+BinaryExpression	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenFalse/Condition	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenFalse/Condition/Left	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenFalse/Condition/Left/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenFalse/Condition/Left/ArgumentExpression	—
+EqualsEqualsEqualsToken	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenFalse/Condition/OperatorToken	—
+StringLiteral	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenFalse/Condition/Right	—
+ArrayLiteralExpression	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenFalse/WhenTrue	—
+StringLiteral	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenFalse/WhenTrue/Elements/0	—
+ArrayLiteralExpression	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenFalse/WhenFalse	—
+StringLiteral	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenFalse/WhenFalse/Elements/0	—
+StringLiteral	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenFalse/WhenFalse/Elements/1	—
+StringLiteral	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenFalse/WhenFalse/Elements/2	—
+StringLiteral	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenFalse/WhenFalse/Elements/3	—
+ConstKeyword	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Flags/0	—
+—	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/name	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/name	—
+ArrowFunction · Expression	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0	—
+—	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Parameters/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Parameters/0/name	—
+BinaryExpression	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body	—
+BinaryExpression	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Left	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Left/Left	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Left/Left/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Left/Left/ArgumentExpression	—
+EqualsEqualsEqualsToken	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Left/OperatorToken	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Left/Right	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Left/Right/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Left/Right/ArgumentExpression	—
+AmpersandAmpersandToken	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/OperatorToken	—
+BinaryExpression	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Right	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Right/Left	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Right/Left/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Right/Left/ArgumentExpression	—
+ExclamationEqualsEqualsToken	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Right/OperatorToken	—
+StringLiteral	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Right/Right	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/name	—
+ArrowFunction · Expression	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+—	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0/name	—
+—	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/1	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/1/name	—
+BinaryExpression	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0/Body	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/Expression	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/Arguments/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/Arguments/0/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/Arguments/0/ArgumentExpression	—
+MinusToken	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/OperatorToken	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Expression	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Arguments/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Arguments/0/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Arguments/0/ArgumentExpression	—
+ConstKeyword	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Flags/0	—
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/name	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Expression/name	—
+ArrowFunction · Expression	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0/name	—
+ConditionalExpression	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Condition	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Condition/Expression	—
+ArrayLiteralExpression	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Condition/Expression/Expression	—
+StringLiteral	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Condition/Expression/Expression/Elements/0	—
+StringLiteral	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Condition/Expression/Expression/Elements/1	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Condition/Expression/name	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Condition/Arguments/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Condition/Arguments/0/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Condition/Arguments/0/ArgumentExpression	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenTrue	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenTrue/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenTrue/ArgumentExpression	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Expression	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Expression/Expression	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Expression/Expression/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Expression/Expression/Expression/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Expression/Expression/Expression/ArgumentExpression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Expression/Expression/name	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Expression/name	—
+ArrowFunction · Expression	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0	—
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Parameters/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Parameters/0/name	—
+BinaryExpression	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body	—
+BinaryExpression	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/Left	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/Left/Left	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/Left/Left/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/Left/Left/ArgumentExpression	—
+EqualsEqualsEqualsToken	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/Left/OperatorToken	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/Left/Right	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/Left/Right/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/Left/Right/ArgumentExpression	—
+AmpersandAmpersandToken	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/OperatorToken	—
+BinaryExpression	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/Right	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/Right/Left	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/Right/Left/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/Right/Left/ArgumentExpression	—
+EqualsEqualsEqualsToken	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/Right/OperatorToken	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/Right/Right	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/Right/Right/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/Right/Right/ArgumentExpression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/name	—
+ArrowFunction · Expression	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Arguments/0	—
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Arguments/0/Parameters/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Arguments/0/Parameters/0/name	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Arguments/0/Body	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Arguments/0/Body/Expression	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Arguments/0/Body/Arguments/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Arguments/0/Body/Arguments/0/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Arguments/0/Body/Arguments/0/ArgumentExpression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/name	—
+StringLiteral	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Arguments/0	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Expression/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Expression/name	—
+ObjectLiteralExpression	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0	—
+PropertyAssignment	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/0	—
+StringLiteral	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/0/name	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/0/Initializer	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/0/Initializer/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/0/Initializer/Expression/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/0/Initializer/Expression/name	—
+ElementAccessExpression	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/0/Initializer/Arguments/0	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/0/Initializer/Arguments/0/Expression	—
+NumericLiteral	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/0/Initializer/Arguments/0/ArgumentExpression	—
+PropertyAssignment	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/1	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/1/name	—
+CallExpression	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/1/Initializer	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/1/Initializer/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/1/Initializer/Expression/Expression	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/1/Initializer/Expression/name	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/1/Initializer/Arguments/0	—
+PropertyAssignment	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/2	—
+Identifier	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/2/name	—
+ArrayLiteralExpression	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/2/Initializer	—
+Identifier	sheet.js#/SourceFile/0/Body/5/Expression	—
+—	sheet.js#/SourceFile/1/name	—
+—	sheet.js#/SourceFile/1/Parameters/0	—
+Identifier	sheet.js#/SourceFile/1/Parameters/0/name	—
+ConditionalExpression	sheet.js#/SourceFile/1/Body/0/Expression	—
+CallExpression	sheet.js#/SourceFile/1/Body/0/Expression/Condition	—
+PropertyAccessExpression · DotToken	sheet.js#/SourceFile/1/Body/0/Expression/Condition/Expression	—
+Identifier	sheet.js#/SourceFile/1/Body/0/Expression/Condition/Expression/Expression	—
+Identifier	sheet.js#/SourceFile/1/Body/0/Expression/Condition/Expression/name	—
+StringLiteral	sheet.js#/SourceFile/1/Body/0/Expression/Condition/Arguments/0	—
+BinaryExpression	sheet.js#/SourceFile/1/Body/0/Expression/WhenTrue	—
+StringLiteral	sheet.js#/SourceFile/1/Body/0/Expression/WhenTrue/Left	—
+PlusToken	sheet.js#/SourceFile/1/Body/0/Expression/WhenTrue/OperatorToken	—
+Identifier	sheet.js#/SourceFile/1/Body/0/Expression/WhenTrue/Right	—
+Identifier	sheet.js#/SourceFile/1/Body/0/Expression/WhenFalse	—
+5-texts
+kind	place	holds
+—	sheet.js#/SourceFile/0/name/Text	sheets
+—	sheet.js#/SourceFile/0/Parameters/0/name/Text	layout
+—	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/name/Text	kinds
+—	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Expression/Text	Map
+—	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/Expression/Expression/Text	layout
+—	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/Expression/ArgumentExpression/Text	0
+—	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/name/Text	records
+—	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/name/Text	map
+—	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Parameters/0/name/Text	record
+—	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Expression/Text	record
+—	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/ArgumentExpression/Text	0
+—	sheet.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/Text	record
+—	sheet.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/name/Text	places
+—	sheet.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Text	layout
+—	sheet.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Expression/ArgumentExpression/Text	4
+—	sheet.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/name/Text	records
+—	sheet.js#/SourceFile/0/Body/2/DeclarationList/Declarations/0/name/Text	names
+—	sheet.js#/SourceFile/0/Body/2/DeclarationList/Declarations/0/Initializer/Expression/Text	Map
+—	sheet.js#/SourceFile/0/Body/3/DeclarationList/Declarations/0/name/Text	relations
+—	sheet.js#/SourceFile/0/Body/4/Initializer/Declarations/0/name/Text	place
+—	sheet.js#/SourceFile/0/Body/4/Expression/Expression/Expression/Expression/Expression/Text	places
+—	sheet.js#/SourceFile/0/Body/4/Expression/Expression/Expression/Expression/name/Text	filter
+—	sheet.js#/SourceFile/0/Body/4/Expression/Expression/Expression/Arguments/0/Parameters/0/name/Text	record
+—	sheet.js#/SourceFile/0/Body/4/Expression/Expression/Expression/Arguments/0/Body/Left/Expression/Text	record
+—	sheet.js#/SourceFile/0/Body/4/Expression/Expression/Expression/Arguments/0/Body/Left/ArgumentExpression/Text	1
+—	sheet.js#/SourceFile/0/Body/4/Expression/Expression/Expression/Arguments/0/Body/Right/Text	''
+—	sheet.js#/SourceFile/0/Body/4/Expression/Expression/name/Text	sort
+—	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0/Parameters/0/name/Text	one
+—	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0/Parameters/1/name/Text	other
+—	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0/Body/Left/Expression/Text	Number
+—	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0/Body/Left/Arguments/0/Expression/Text	one
+—	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0/Body/Left/Arguments/0/ArgumentExpression/Text	2
+—	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0/Body/Right/Expression/Text	Number
+—	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0/Body/Right/Arguments/0/Expression/Text	other
+—	sheet.js#/SourceFile/0/Body/4/Expression/Arguments/0/Body/Right/Arguments/0/ArgumentExpression/Text	2
+—	sheet.js#/SourceFile/0/Body/4/Statement/0/DeclarationList/Declarations/0/name/Text	relation
+—	sheet.js#/SourceFile/0/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Text	kinds
+—	sheet.js#/SourceFile/0/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/name/Text	get
+—	sheet.js#/SourceFile/0/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Text	place
+—	sheet.js#/SourceFile/0/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/ArgumentExpression/Text	0
+—	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/name/Text	parts
+—	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Expression/Expression/Expression/Text	layout
+—	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Expression/Expression/ArgumentExpression/Text	1
+—	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Expression/name/Text	records
+—	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/name/Text	filter
+—	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Parameters/0/name/Text	record
+—	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Left/Expression/Text	record
+—	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Left/ArgumentExpression/Text	0
+—	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Right/Expression/Text	place
+—	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Right/ArgumentExpression/Text	0
+—	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Expression/name/Text	map
+—	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0/name/Text	record
+—	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Expression/Text	doubled
+—	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/Expression/Text	record
+—	sheet.js#/SourceFile/0/Body/4/Statement/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Arguments/0/ArgumentExpression/Text	2
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/Expression/Expression/Expression/Elements/0/Text	'instances'
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/Expression/Expression/Expression/Elements/1/Text	'runs'
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/Expression/Expression/name/Text	includes
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/Expression/Arguments/0/Expression/Text	relation
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/Expression/Arguments/0/ArgumentExpression/Text	2
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ThenStatement/0/Expression/Expression/Expression/Text	names
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ThenStatement/0/Expression/Expression/name/Text	set
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ThenStatement/0/Expression/Arguments/0/Expression/Text	place
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ThenStatement/0/Expression/Arguments/0/ArgumentExpression/Text	0
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ThenStatement/0/Expression/Arguments/1/Expression/Text	place
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ThenStatement/0/Expression/Arguments/1/ArgumentExpression/Text	0
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/Expression/Expression/Expression/Elements/0/Text	'input values'
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/Expression/Expression/Expression/Elements/1/Text	'kind'
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/Expression/Expression/name/Text	includes
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/Expression/Arguments/0/Expression/Text	relation
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/Expression/Arguments/0/ArgumentExpression/Text	2
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ThenStatement/0/Expression/Expression/Expression/Text	names
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ThenStatement/0/Expression/Expression/name/Text	set
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ThenStatement/0/Expression/Arguments/0/Expression/Text	place
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ThenStatement/0/Expression/Arguments/0/ArgumentExpression/Text	0
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ThenStatement/0/Expression/Arguments/1/Expression/Expression/Text	parts
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ThenStatement/0/Expression/Arguments/1/Expression/name/Text	join
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ThenStatement/0/Expression/Arguments/1/Arguments/0/Text	'.'
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Expression/Expression/Text	names
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Expression/name/Text	set
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/0/Expression/Text	place
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/0/ArgumentExpression/Text	0
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/1/Expression/Expression/Expression/Expression/Elements/0/Expression/Expression/Text	names
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/1/Expression/Expression/Expression/Expression/Elements/0/Expression/name/Text	get
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/1/Expression/Expression/Expression/Expression/Elements/0/Arguments/0/Expression/Text	relation
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/1/Expression/Expression/Expression/Expression/Elements/0/Arguments/0/ArgumentExpression/Text	1
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/1/Expression/Expression/Expression/name/Text	concat
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/1/Expression/Expression/Arguments/0/Text	parts
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/1/Expression/name/Text	join
+—	sheet.js#/SourceFile/0/Body/4/Statement/2/ElseStatement/0/ElseStatement/0/Expression/Arguments/1/Arguments/0/Text	'.'
+—	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/name/Text	keys
+—	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression/Text	relation
+—	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/Condition/Left/ArgumentExpression/Text	2
+—	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/Condition/Right/Text	'runs'
+—	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenTrue/Elements/0/Text	'_input value'
+—	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenTrue/Elements/1/Text	'_instance'
+—	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenTrue/Elements/2/Text	'_page'
+—	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenTrue/Elements/3/Text	'_line'
+—	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenTrue/Elements/4/Text	'_position'
+—	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenFalse/Condition/Left/Expression/Text	relation
+—	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenFalse/Condition/Left/ArgumentExpression/Text	2
+—	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenFalse/Condition/Right/Text	'input values'
+—	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenFalse/WhenTrue/Elements/0/Text	'_input value'
+—	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenFalse/WhenFalse/Elements/0/Text	'_input value'
+—	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenFalse/WhenFalse/Elements/1/Text	'_instance'
+—	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenFalse/WhenFalse/Elements/2/Text	'_parent'
+—	sheet.js#/SourceFile/0/Body/4/Statement/3/DeclarationList/Declarations/0/Initializer/WhenFalse/WhenFalse/Elements/3/Text	'_pointer'
+—	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/name/Text	columns
+—	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Expression/Text	places
+—	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/name/Text	filter
+—	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Parameters/0/name/Text	record
+—	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Left/Left/Expression/Text	record
+—	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Left/Left/ArgumentExpression/Text	0
+—	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Left/Right/Expression/Text	place
+—	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Left/Right/ArgumentExpression/Text	0
+—	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Right/Left/Expression/Text	record
+—	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Right/Left/ArgumentExpression/Text	1
+—	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/Expression/Arguments/0/Body/Right/Right/Text	''
+—	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Expression/name/Text	sort
+—	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0/name/Text	one
+—	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/1/name/Text	other
+—	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/Expression/Text	Number
+—	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/Arguments/0/Expression/Text	one
+—	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/Arguments/0/ArgumentExpression/Text	2
+—	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Expression/Text	Number
+—	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Arguments/0/Expression/Text	other
+—	sheet.js#/SourceFile/0/Body/4/Statement/4/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Arguments/0/ArgumentExpression/Text	2
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/name/Text	labels
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Expression/Expression/Text	columns
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Expression/name/Text	map
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0/name/Text	record
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Condition/Expression/Expression/Elements/0/Text	'_type'
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Condition/Expression/Expression/Elements/1/Text	'_value'
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Condition/Expression/name/Text	includes
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Condition/Arguments/0/Expression/Text	record
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Condition/Arguments/0/ArgumentExpression/Text	1
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenTrue/Expression/Text	record
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenTrue/ArgumentExpression/Text	1
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Expression/Expression/Expression/Expression/Text	layout
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Expression/Expression/Expression/ArgumentExpression/Text	3
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Expression/Expression/name/Text	records
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Expression/name/Text	filter
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Parameters/0/name/Text	part
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/Left/Left/Expression/Text	part
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/Left/Left/ArgumentExpression/Text	0
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/Left/Right/Expression/Text	place
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/Left/Right/ArgumentExpression/Text	0
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/Right/Left/Expression/Text	part
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/Right/Left/ArgumentExpression/Text	1
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/Right/Right/Expression/Text	record
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/Expression/Arguments/0/Body/Right/Right/ArgumentExpression/Text	1
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Expression/name/Text	map
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Arguments/0/Parameters/0/name/Text	part
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Arguments/0/Body/Expression/Text	doubled
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Arguments/0/Body/Arguments/0/Expression/Text	part
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/Expression/Arguments/0/Body/Arguments/0/ArgumentExpression/Text	3
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Expression/name/Text	join
+—	sheet.js#/SourceFile/0/Body/4/Statement/5/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Arguments/0/Text	'.'
+—	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Expression/Expression/Text	relations
+—	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Expression/name/Text	push
+—	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/0/name/Text	'sheet name'
+—	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/0/Initializer/Expression/Expression/Text	names
+—	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/0/Initializer/Expression/name/Text	get
+—	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/0/Initializer/Arguments/0/Expression/Text	place
+—	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/0/Initializer/Arguments/0/ArgumentExpression/Text	0
+—	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/1/name/Text	header
+—	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/1/Initializer/Expression/Expression/Text	keys
+—	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/1/Initializer/Expression/name/Text	concat
+—	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/1/Initializer/Arguments/0/Text	labels
+—	sheet.js#/SourceFile/0/Body/4/Statement/6/Expression/Arguments/0/Properties/2/name/Text	records
+—	sheet.js#/SourceFile/0/Body/5/Expression/Text	relations
+—	sheet.js#/SourceFile/1/name/Text	doubled
+—	sheet.js#/SourceFile/1/Parameters/0/name/Text	name
+—	sheet.js#/SourceFile/1/Body/0/Expression/Condition/Expression/Expression/Text	name
+—	sheet.js#/SourceFile/1/Body/0/Expression/Condition/Expression/name/Text	startsWith
+—	sheet.js#/SourceFile/1/Body/0/Expression/Condition/Arguments/0/Text	'_'
+—	sheet.js#/SourceFile/1/Body/0/Expression/WhenTrue/Left/Text	'_'
+—	sheet.js#/SourceFile/1/Body/0/Expression/WhenTrue/Right/Text	name
+—	sheet.js#/SourceFile/1/Body/0/Expression/WhenFalse/Text	name

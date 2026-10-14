@@ -1,0 +1,314 @@
+1-folders
+kind	place	holds
+—	parser	—
+—	generator	—
+—	json-text	—
+2-modules
+kind	place	holds
+{{name}} · .js	format	—
+3-statements
+kind	place	holds
+ImportDeclaration	format.js#/SourceFile/0	—
+ImportDeclaration	format.js#/SourceFile/1	—
+ImportDeclaration	format.js#/SourceFile/2	—
+FunctionDeclaration · Body	format.js#/SourceFile/3	—
+TryStatement	format.js#/SourceFile/3/Body/0	—
+ReturnStatement	format.js#/SourceFile/3/Body/0/TryBlock/0	—
+IfStatement	format.js#/SourceFile/3/Body/0/CatchClause/Block/0	—
+ThrowStatement	format.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0	—
+ThrowStatement	format.js#/SourceFile/3/Body/0/CatchClause/Block/1	—
+FunctionDeclaration · Body	format.js#/SourceFile/4	—
+TryStatement	format.js#/SourceFile/4/Body/0	—
+ReturnStatement	format.js#/SourceFile/4/Body/0/TryBlock/0	—
+IfStatement	format.js#/SourceFile/4/Body/0/CatchClause/Block/0	—
+ThrowStatement	format.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0	—
+ThrowStatement	format.js#/SourceFile/4/Body/0/CatchClause/Block/1	—
+FunctionDeclaration · Body	format.js#/SourceFile/5	—
+TryStatement	format.js#/SourceFile/5/Body/0	—
+ReturnStatement	format.js#/SourceFile/5/Body/0/TryBlock/0	—
+IfStatement	format.js#/SourceFile/5/Body/0/CatchClause/Block/0	—
+ThrowStatement	format.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0	—
+IfStatement	format.js#/SourceFile/5/Body/0/CatchClause/Block/1	—
+ThrowStatement	format.js#/SourceFile/5/Body/0/CatchClause/Block/1/ThenStatement/0	—
+ThrowStatement	format.js#/SourceFile/5/Body/0/CatchClause/Block/2	—
+FunctionDeclaration · Body	format.js#/SourceFile/6	—
+TryStatement	format.js#/SourceFile/6/Body/0	—
+ReturnStatement	format.js#/SourceFile/6/Body/0/TryBlock/0	—
+IfStatement	format.js#/SourceFile/6/Body/0/CatchClause/Block/0	—
+ThrowStatement	format.js#/SourceFile/6/Body/0/CatchClause/Block/0/ThenStatement/0	—
+ThrowStatement	format.js#/SourceFile/6/Body/0/CatchClause/Block/1	—
+FunctionDeclaration · Body	format.js#/SourceFile/7	—
+TryStatement	format.js#/SourceFile/7/Body/0	—
+ReturnStatement	format.js#/SourceFile/7/Body/0/TryBlock/0	—
+IfStatement	format.js#/SourceFile/7/Body/0/CatchClause/Block/0	—
+ThrowStatement	format.js#/SourceFile/7/Body/0/CatchClause/Block/0/ThenStatement/0	—
+ThrowStatement	format.js#/SourceFile/7/Body/0/CatchClause/Block/1	—
+FunctionDeclaration · Body	format.js#/SourceFile/8	—
+ReturnStatement	format.js#/SourceFile/8/Body/0	—
+ClassDeclaration	format.js#/SourceFile/9	—
+ClassDeclaration	format.js#/SourceFile/10	—
+ClassDeclaration	format.js#/SourceFile/11	—
+ClassDeclaration	format.js#/SourceFile/12	—
+4-expressions
+kind	place	holds
+ImportClause · NamedBindings	format.js#/SourceFile/0/ImportClause	—
+NamespaceImport	format.js#/SourceFile/0/ImportClause/NamedBindings	—
+StringLiteral	format.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	format.js#/SourceFile/1/ImportClause	—
+NamespaceImport	format.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	format.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	format.js#/SourceFile/2/ImportClause	—
+NamespaceImport	format.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	format.js#/SourceFile/2/ModuleSpecifier	—
+ExportKeyword	format.js#/SourceFile/3/modifiers/0	—
+—	format.js#/SourceFile/3/name	—
+—	format.js#/SourceFile/3/Parameters/0	—
+Identifier	format.js#/SourceFile/3/Parameters/0/name	—
+CallExpression	format.js#/SourceFile/3/Body/0/TryBlock/0/Expression	—
+PropertyAccessExpression · DotToken	format.js#/SourceFile/3/Body/0/TryBlock/0/Expression/Expression	—
+Identifier	format.js#/SourceFile/3/Body/0/TryBlock/0/Expression/Expression/Expression	—
+Identifier	format.js#/SourceFile/3/Body/0/TryBlock/0/Expression/Expression/name	—
+Identifier	format.js#/SourceFile/3/Body/0/TryBlock/0/Expression/Arguments/0	—
+—	format.js#/SourceFile/3/Body/0/CatchClause/VariableDeclaration	—
+Identifier	format.js#/SourceFile/3/Body/0/CatchClause/VariableDeclaration/name	—
+BinaryExpression	format.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression	—
+Identifier	format.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	format.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	format.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression/Right	—
+Identifier	format.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	format.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression/Right/name	—
+NewExpression	format.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0/Expression	—
+Identifier	format.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	format.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0	—
+Identifier	format.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	format.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name	—
+Identifier	format.js#/SourceFile/3/Body/0/CatchClause/Block/1/Expression	—
+ExportKeyword	format.js#/SourceFile/4/modifiers/0	—
+—	format.js#/SourceFile/4/name	—
+—	format.js#/SourceFile/4/Parameters/0	—
+Identifier	format.js#/SourceFile/4/Parameters/0/name	—
+CallExpression	format.js#/SourceFile/4/Body/0/TryBlock/0/Expression	—
+PropertyAccessExpression · DotToken	format.js#/SourceFile/4/Body/0/TryBlock/0/Expression/Expression	—
+Identifier	format.js#/SourceFile/4/Body/0/TryBlock/0/Expression/Expression/Expression	—
+Identifier	format.js#/SourceFile/4/Body/0/TryBlock/0/Expression/Expression/name	—
+Identifier	format.js#/SourceFile/4/Body/0/TryBlock/0/Expression/Arguments/0	—
+—	format.js#/SourceFile/4/Body/0/CatchClause/VariableDeclaration	—
+Identifier	format.js#/SourceFile/4/Body/0/CatchClause/VariableDeclaration/name	—
+BinaryExpression	format.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression	—
+Identifier	format.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	format.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	format.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Right	—
+Identifier	format.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	format.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Right/name	—
+NewExpression	format.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression	—
+Identifier	format.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	format.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0	—
+Identifier	format.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	format.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name	—
+Identifier	format.js#/SourceFile/4/Body/0/CatchClause/Block/1/Expression	—
+ExportKeyword	format.js#/SourceFile/5/modifiers/0	—
+—	format.js#/SourceFile/5/name	—
+—	format.js#/SourceFile/5/Parameters/0	—
+Identifier	format.js#/SourceFile/5/Parameters/0/name	—
+CallExpression	format.js#/SourceFile/5/Body/0/TryBlock/0/Expression	—
+PropertyAccessExpression · DotToken	format.js#/SourceFile/5/Body/0/TryBlock/0/Expression/Expression	—
+Identifier	format.js#/SourceFile/5/Body/0/TryBlock/0/Expression/Expression/Expression	—
+Identifier	format.js#/SourceFile/5/Body/0/TryBlock/0/Expression/Expression/name	—
+Identifier	format.js#/SourceFile/5/Body/0/TryBlock/0/Expression/Arguments/0	—
+—	format.js#/SourceFile/5/Body/0/CatchClause/VariableDeclaration	—
+Identifier	format.js#/SourceFile/5/Body/0/CatchClause/VariableDeclaration/name	—
+BinaryExpression	format.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression	—
+Identifier	format.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	format.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	format.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression/Right	—
+Identifier	format.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	format.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression/Right/name	—
+NewExpression	format.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0/Expression	—
+Identifier	format.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	format.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0	—
+Identifier	format.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	format.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name	—
+BinaryExpression	format.js#/SourceFile/5/Body/0/CatchClause/Block/1/Expression	—
+Identifier	format.js#/SourceFile/5/Body/0/CatchClause/Block/1/Expression/Left	—
+InstanceOfKeyword	format.js#/SourceFile/5/Body/0/CatchClause/Block/1/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	format.js#/SourceFile/5/Body/0/CatchClause/Block/1/Expression/Right	—
+Identifier	format.js#/SourceFile/5/Body/0/CatchClause/Block/1/Expression/Right/Expression	—
+Identifier	format.js#/SourceFile/5/Body/0/CatchClause/Block/1/Expression/Right/name	—
+NewExpression	format.js#/SourceFile/5/Body/0/CatchClause/Block/1/ThenStatement/0/Expression	—
+Identifier	format.js#/SourceFile/5/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	format.js#/SourceFile/5/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Arguments/0	—
+Identifier	format.js#/SourceFile/5/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	format.js#/SourceFile/5/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Arguments/0/name	—
+Identifier	format.js#/SourceFile/5/Body/0/CatchClause/Block/2/Expression	—
+ExportKeyword	format.js#/SourceFile/6/modifiers/0	—
+—	format.js#/SourceFile/6/name	—
+—	format.js#/SourceFile/6/Parameters/0	—
+Identifier	format.js#/SourceFile/6/Parameters/0/name	—
+CallExpression	format.js#/SourceFile/6/Body/0/TryBlock/0/Expression	—
+PropertyAccessExpression · DotToken	format.js#/SourceFile/6/Body/0/TryBlock/0/Expression/Expression	—
+Identifier	format.js#/SourceFile/6/Body/0/TryBlock/0/Expression/Expression/Expression	—
+Identifier	format.js#/SourceFile/6/Body/0/TryBlock/0/Expression/Expression/name	—
+Identifier	format.js#/SourceFile/6/Body/0/TryBlock/0/Expression/Arguments/0	—
+—	format.js#/SourceFile/6/Body/0/CatchClause/VariableDeclaration	—
+Identifier	format.js#/SourceFile/6/Body/0/CatchClause/VariableDeclaration/name	—
+BinaryExpression	format.js#/SourceFile/6/Body/0/CatchClause/Block/0/Expression	—
+Identifier	format.js#/SourceFile/6/Body/0/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	format.js#/SourceFile/6/Body/0/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	format.js#/SourceFile/6/Body/0/CatchClause/Block/0/Expression/Right	—
+Identifier	format.js#/SourceFile/6/Body/0/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	format.js#/SourceFile/6/Body/0/CatchClause/Block/0/Expression/Right/name	—
+NewExpression	format.js#/SourceFile/6/Body/0/CatchClause/Block/0/ThenStatement/0/Expression	—
+Identifier	format.js#/SourceFile/6/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	format.js#/SourceFile/6/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0	—
+Identifier	format.js#/SourceFile/6/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	format.js#/SourceFile/6/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name	—
+Identifier	format.js#/SourceFile/6/Body/0/CatchClause/Block/1/Expression	—
+ExportKeyword	format.js#/SourceFile/7/modifiers/0	—
+—	format.js#/SourceFile/7/name	—
+—	format.js#/SourceFile/7/Parameters/0	—
+Identifier	format.js#/SourceFile/7/Parameters/0/name	—
+CallExpression	format.js#/SourceFile/7/Body/0/TryBlock/0/Expression	—
+PropertyAccessExpression · DotToken	format.js#/SourceFile/7/Body/0/TryBlock/0/Expression/Expression	—
+Identifier	format.js#/SourceFile/7/Body/0/TryBlock/0/Expression/Expression/Expression	—
+Identifier	format.js#/SourceFile/7/Body/0/TryBlock/0/Expression/Expression/name	—
+Identifier	format.js#/SourceFile/7/Body/0/TryBlock/0/Expression/Arguments/0	—
+—	format.js#/SourceFile/7/Body/0/CatchClause/VariableDeclaration	—
+Identifier	format.js#/SourceFile/7/Body/0/CatchClause/VariableDeclaration/name	—
+BinaryExpression	format.js#/SourceFile/7/Body/0/CatchClause/Block/0/Expression	—
+Identifier	format.js#/SourceFile/7/Body/0/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	format.js#/SourceFile/7/Body/0/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	format.js#/SourceFile/7/Body/0/CatchClause/Block/0/Expression/Right	—
+Identifier	format.js#/SourceFile/7/Body/0/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	format.js#/SourceFile/7/Body/0/CatchClause/Block/0/Expression/Right/name	—
+NewExpression	format.js#/SourceFile/7/Body/0/CatchClause/Block/0/ThenStatement/0/Expression	—
+Identifier	format.js#/SourceFile/7/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	format.js#/SourceFile/7/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0	—
+Identifier	format.js#/SourceFile/7/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	format.js#/SourceFile/7/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name	—
+Identifier	format.js#/SourceFile/7/Body/0/CatchClause/Block/1/Expression	—
+ExportKeyword	format.js#/SourceFile/8/modifiers/0	—
+—	format.js#/SourceFile/8/name	—
+—	format.js#/SourceFile/8/Parameters/0	—
+Identifier	format.js#/SourceFile/8/Parameters/0/name	—
+—	format.js#/SourceFile/8/Parameters/1	—
+Identifier	format.js#/SourceFile/8/Parameters/1/name	—
+CallExpression	format.js#/SourceFile/8/Body/0/Expression	—
+PropertyAccessExpression · DotToken	format.js#/SourceFile/8/Body/0/Expression/Expression	—
+Identifier	format.js#/SourceFile/8/Body/0/Expression/Expression/Expression	—
+Identifier	format.js#/SourceFile/8/Body/0/Expression/Expression/name	—
+Identifier	format.js#/SourceFile/8/Body/0/Expression/Arguments/0	—
+Identifier	format.js#/SourceFile/8/Body/0/Expression/Arguments/1	—
+ExportKeyword	format.js#/SourceFile/9/modifiers/0	—
+—	format.js#/SourceFile/9/name	—
+—	format.js#/SourceFile/9/HeritageClauses/0	—
+ExtendsKeyword	format.js#/SourceFile/9/HeritageClauses/0/Token	—
+Identifier	format.js#/SourceFile/9/HeritageClauses/0/Types/0	—
+ExportKeyword	format.js#/SourceFile/10/modifiers/0	—
+—	format.js#/SourceFile/10/name	—
+—	format.js#/SourceFile/10/HeritageClauses/0	—
+ExtendsKeyword	format.js#/SourceFile/10/HeritageClauses/0/Token	—
+Identifier	format.js#/SourceFile/10/HeritageClauses/0/Types/0	—
+ExportKeyword	format.js#/SourceFile/11/modifiers/0	—
+—	format.js#/SourceFile/11/name	—
+—	format.js#/SourceFile/11/HeritageClauses/0	—
+ExtendsKeyword	format.js#/SourceFile/11/HeritageClauses/0/Token	—
+Identifier	format.js#/SourceFile/11/HeritageClauses/0/Types/0	—
+ExportKeyword	format.js#/SourceFile/12/modifiers/0	—
+—	format.js#/SourceFile/12/name	—
+—	format.js#/SourceFile/12/HeritageClauses/0	—
+ExtendsKeyword	format.js#/SourceFile/12/HeritageClauses/0/Token	—
+Identifier	format.js#/SourceFile/12/HeritageClauses/0/Types/0	—
+5-texts
+kind	place	holds
+—	format.js#/SourceFile/0/ImportClause/NamedBindings/name/Text	generator
+—	format.js#/SourceFile/0/ModuleSpecifier/Text	'./generator/generator.js'
+—	format.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	jsonText
+—	format.js#/SourceFile/1/ModuleSpecifier/Text	'./json-text/json-text.js'
+—	format.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	parser
+—	format.js#/SourceFile/2/ModuleSpecifier/Text	'./parser/parser.js'
+—	format.js#/SourceFile/3/name/Text	dump
+—	format.js#/SourceFile/3/Parameters/0/name/Text	sheets
+—	format.js#/SourceFile/3/Body/0/TryBlock/0/Expression/Expression/Expression/Text	generator
+—	format.js#/SourceFile/3/Body/0/TryBlock/0/Expression/Expression/name/Text	dump
+—	format.js#/SourceFile/3/Body/0/TryBlock/0/Expression/Arguments/0/Text	sheets
+—	format.js#/SourceFile/3/Body/0/CatchClause/VariableDeclaration/name/Text	error
+—	format.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression/Left/Text	error
+—	format.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression/Right/Expression/Text	generator
+—	format.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression/Right/name/Text	CannotBeRepresentedError
+—	format.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression/Text	CannotBeRepresentedError
+—	format.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression/Text	error
+—	format.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name/Text	message
+—	format.js#/SourceFile/3/Body/0/CatchClause/Block/1/Expression/Text	error
+—	format.js#/SourceFile/4/name/Text	dumps
+—	format.js#/SourceFile/4/Parameters/0/name/Text	sheets
+—	format.js#/SourceFile/4/Body/0/TryBlock/0/Expression/Expression/Expression/Text	generator
+—	format.js#/SourceFile/4/Body/0/TryBlock/0/Expression/Expression/name/Text	dumps
+—	format.js#/SourceFile/4/Body/0/TryBlock/0/Expression/Arguments/0/Text	sheets
+—	format.js#/SourceFile/4/Body/0/CatchClause/VariableDeclaration/name/Text	error
+—	format.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Left/Text	error
+—	format.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Right/Expression/Text	generator
+—	format.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Right/name/Text	CannotBeRepresentedError
+—	format.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression/Text	CannotBeRepresentedError
+—	format.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression/Text	error
+—	format.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name/Text	message
+—	format.js#/SourceFile/4/Body/0/CatchClause/Block/1/Expression/Text	error
+—	format.js#/SourceFile/5/name/Text	instances
+—	format.js#/SourceFile/5/Parameters/0/name/Text	octets
+—	format.js#/SourceFile/5/Body/0/TryBlock/0/Expression/Expression/Expression/Text	jsonText
+—	format.js#/SourceFile/5/Body/0/TryBlock/0/Expression/Expression/name/Text	instances
+—	format.js#/SourceFile/5/Body/0/TryBlock/0/Expression/Arguments/0/Text	octets
+—	format.js#/SourceFile/5/Body/0/CatchClause/VariableDeclaration/name/Text	error
+—	format.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression/Left/Text	error
+—	format.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression/Right/Expression/Text	jsonText
+—	format.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression/Right/name/Text	NamesNotUniqueError
+—	format.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression/Text	NamesNotUniqueError
+—	format.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression/Text	error
+—	format.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name/Text	message
+—	format.js#/SourceFile/5/Body/0/CatchClause/Block/1/Expression/Left/Text	error
+—	format.js#/SourceFile/5/Body/0/CatchClause/Block/1/Expression/Right/Expression/Text	jsonText
+—	format.js#/SourceFile/5/Body/0/CatchClause/Block/1/Expression/Right/name/Text	NotAJSONTextError
+—	format.js#/SourceFile/5/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Expression/Text	NotAJSONTextError
+—	format.js#/SourceFile/5/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Arguments/0/Expression/Text	error
+—	format.js#/SourceFile/5/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Arguments/0/name/Text	message
+—	format.js#/SourceFile/5/Body/0/CatchClause/Block/2/Expression/Text	error
+—	format.js#/SourceFile/6/name/Text	load
+—	format.js#/SourceFile/6/Parameters/0/name/Text	octets
+—	format.js#/SourceFile/6/Body/0/TryBlock/0/Expression/Expression/Expression/Text	parser
+—	format.js#/SourceFile/6/Body/0/TryBlock/0/Expression/Expression/name/Text	load
+—	format.js#/SourceFile/6/Body/0/TryBlock/0/Expression/Arguments/0/Text	octets
+—	format.js#/SourceFile/6/Body/0/CatchClause/VariableDeclaration/name/Text	error
+—	format.js#/SourceFile/6/Body/0/CatchClause/Block/0/Expression/Left/Text	error
+—	format.js#/SourceFile/6/Body/0/CatchClause/Block/0/Expression/Right/Expression/Text	parser
+—	format.js#/SourceFile/6/Body/0/CatchClause/Block/0/Expression/Right/name/Text	NotMTSVError
+—	format.js#/SourceFile/6/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression/Text	NotMTSVError
+—	format.js#/SourceFile/6/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression/Text	error
+—	format.js#/SourceFile/6/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name/Text	message
+—	format.js#/SourceFile/6/Body/0/CatchClause/Block/1/Expression/Text	error
+—	format.js#/SourceFile/7/name/Text	loads
+—	format.js#/SourceFile/7/Parameters/0/name/Text	text
+—	format.js#/SourceFile/7/Body/0/TryBlock/0/Expression/Expression/Expression/Text	parser
+—	format.js#/SourceFile/7/Body/0/TryBlock/0/Expression/Expression/name/Text	loads
+—	format.js#/SourceFile/7/Body/0/TryBlock/0/Expression/Arguments/0/Text	text
+—	format.js#/SourceFile/7/Body/0/CatchClause/VariableDeclaration/name/Text	error
+—	format.js#/SourceFile/7/Body/0/CatchClause/Block/0/Expression/Left/Text	error
+—	format.js#/SourceFile/7/Body/0/CatchClause/Block/0/Expression/Right/Expression/Text	parser
+—	format.js#/SourceFile/7/Body/0/CatchClause/Block/0/Expression/Right/name/Text	NotMTSVError
+—	format.js#/SourceFile/7/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression/Text	NotMTSVError
+—	format.js#/SourceFile/7/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression/Text	error
+—	format.js#/SourceFile/7/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name/Text	message
+—	format.js#/SourceFile/7/Body/0/CatchClause/Block/1/Expression/Text	error
+—	format.js#/SourceFile/8/name/Text	named
+—	format.js#/SourceFile/8/Parameters/0/name/Text	instances
+—	format.js#/SourceFile/8/Parameters/1/name/Text	pointer
+—	format.js#/SourceFile/8/Body/0/Expression/Expression/Expression/Text	jsonText
+—	format.js#/SourceFile/8/Body/0/Expression/Expression/name/Text	named
+—	format.js#/SourceFile/8/Body/0/Expression/Arguments/0/Text	instances
+—	format.js#/SourceFile/8/Body/0/Expression/Arguments/1/Text	pointer
+—	format.js#/SourceFile/9/name/Text	CannotBeRepresentedError
+—	format.js#/SourceFile/9/HeritageClauses/0/Types/0/Text	Error
+—	format.js#/SourceFile/10/name/Text	NamesNotUniqueError
+—	format.js#/SourceFile/10/HeritageClauses/0/Types/0/Text	Error
+—	format.js#/SourceFile/11/name/Text	NotMTSVError
+—	format.js#/SourceFile/11/HeritageClauses/0/Types/0/Text	Error
+—	format.js#/SourceFile/12/name/Text	NotAJSONTextError
+—	format.js#/SourceFile/12/HeritageClauses/0/Types/0/Text	Error

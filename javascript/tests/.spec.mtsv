@@ -1,0 +1,535 @@
+1-folders
+kind	place	holds
+—	relational-model	—
+—	data-bank	—
+—	tools	—
+—	hooks	—
+—	view	—
+—	system-generation	—
+2-modules
+kind	place	holds
+{{name}} · .js	void-os.test	—
+3-statements
+kind	place	holds
+ImportDeclaration	void-os.test.js#/SourceFile/0	—
+ImportDeclaration	void-os.test.js#/SourceFile/1	—
+ImportDeclaration	void-os.test.js#/SourceFile/2	—
+ImportDeclaration	void-os.test.js#/SourceFile/3	—
+ExpressionStatement	void-os.test.js#/SourceFile/4	—
+ExpressionStatement	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0	—
+ExpressionStatement	void-os.test.js#/SourceFile/5	—
+ExpressionStatement	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0	—
+ExpressionStatement	void-os.test.js#/SourceFile/6	—
+ExpressionStatement	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0	—
+ExpressionStatement	void-os.test.js#/SourceFile/7	—
+ExpressionStatement	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0	—
+ExpressionStatement	void-os.test.js#/SourceFile/8	—
+ExpressionStatement	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0	—
+ExpressionStatement	void-os.test.js#/SourceFile/9	—
+ExpressionStatement	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0	—
+ExpressionStatement	void-os.test.js#/SourceFile/10	—
+ExpressionStatement	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0	—
+ExpressionStatement	void-os.test.js#/SourceFile/11	—
+ExpressionStatement	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0	—
+ExpressionStatement	void-os.test.js#/SourceFile/12	—
+ExpressionStatement	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0	—
+ExpressionStatement	void-os.test.js#/SourceFile/13	—
+ExpressionStatement	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0	—
+ExpressionStatement	void-os.test.js#/SourceFile/14	—
+ExpressionStatement	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0	—
+4-expressions
+kind	place	holds
+ImportClause · name	void-os.test.js#/SourceFile/0/ImportClause	—
+StringLiteral	void-os.test.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	void-os.test.js#/SourceFile/1/ImportClause	—
+NamespaceImport	void-os.test.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	void-os.test.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	void-os.test.js#/SourceFile/2/ImportClause	—
+NamespaceImport	void-os.test.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	void-os.test.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	void-os.test.js#/SourceFile/3/ImportClause	—
+NamespaceImport	void-os.test.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	void-os.test.js#/SourceFile/3/ModuleSpecifier	—
+CallExpression	void-os.test.js#/SourceFile/4/Expression	—
+Identifier	void-os.test.js#/SourceFile/4/Expression/Expression	—
+StringLiteral	void-os.test.js#/SourceFile/4/Expression/Arguments/0	—
+ArrowFunction · Block	void-os.test.js#/SourceFile/4/Expression/Arguments/1	—
+—	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0	—
+Identifier	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	void-os.test.js#/SourceFile/5/Expression	—
+Identifier	void-os.test.js#/SourceFile/5/Expression/Expression	—
+StringLiteral	void-os.test.js#/SourceFile/5/Expression/Arguments/0	—
+ArrowFunction · Block	void-os.test.js#/SourceFile/5/Expression/Arguments/1	—
+—	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0	—
+Identifier	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	void-os.test.js#/SourceFile/6/Expression	—
+Identifier	void-os.test.js#/SourceFile/6/Expression/Expression	—
+StringLiteral	void-os.test.js#/SourceFile/6/Expression/Arguments/0	—
+ArrowFunction · Block	void-os.test.js#/SourceFile/6/Expression/Arguments/1	—
+—	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0	—
+Identifier	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	void-os.test.js#/SourceFile/7/Expression	—
+Identifier	void-os.test.js#/SourceFile/7/Expression/Expression	—
+StringLiteral	void-os.test.js#/SourceFile/7/Expression/Arguments/0	—
+ArrowFunction · Block	void-os.test.js#/SourceFile/7/Expression/Arguments/1	—
+—	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0	—
+Identifier	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	void-os.test.js#/SourceFile/8/Expression	—
+Identifier	void-os.test.js#/SourceFile/8/Expression/Expression	—
+StringLiteral	void-os.test.js#/SourceFile/8/Expression/Arguments/0	—
+ArrowFunction · Block	void-os.test.js#/SourceFile/8/Expression/Arguments/1	—
+—	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0	—
+Identifier	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	void-os.test.js#/SourceFile/9/Expression	—
+Identifier	void-os.test.js#/SourceFile/9/Expression/Expression	—
+StringLiteral	void-os.test.js#/SourceFile/9/Expression/Arguments/0	—
+ArrowFunction · Block	void-os.test.js#/SourceFile/9/Expression/Arguments/1	—
+—	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Parameters/0	—
+Identifier	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	void-os.test.js#/SourceFile/10/Expression	—
+Identifier	void-os.test.js#/SourceFile/10/Expression/Expression	—
+StringLiteral	void-os.test.js#/SourceFile/10/Expression/Arguments/0	—
+ArrowFunction · Block	void-os.test.js#/SourceFile/10/Expression/Arguments/1	—
+—	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Parameters/0	—
+Identifier	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	void-os.test.js#/SourceFile/11/Expression	—
+Identifier	void-os.test.js#/SourceFile/11/Expression/Expression	—
+StringLiteral	void-os.test.js#/SourceFile/11/Expression/Arguments/0	—
+ArrowFunction · Block	void-os.test.js#/SourceFile/11/Expression/Arguments/1	—
+—	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Parameters/0	—
+Identifier	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	void-os.test.js#/SourceFile/12/Expression	—
+Identifier	void-os.test.js#/SourceFile/12/Expression/Expression	—
+StringLiteral	void-os.test.js#/SourceFile/12/Expression/Arguments/0	—
+ArrowFunction · Block	void-os.test.js#/SourceFile/12/Expression/Arguments/1	—
+—	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Parameters/0	—
+Identifier	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	void-os.test.js#/SourceFile/13/Expression	—
+Identifier	void-os.test.js#/SourceFile/13/Expression/Expression	—
+StringLiteral	void-os.test.js#/SourceFile/13/Expression/Arguments/0	—
+ArrowFunction · Block	void-os.test.js#/SourceFile/13/Expression/Arguments/1	—
+—	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Parameters/0	—
+Identifier	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	void-os.test.js#/SourceFile/14/Expression	—
+Identifier	void-os.test.js#/SourceFile/14/Expression/Expression	—
+StringLiteral	void-os.test.js#/SourceFile/14/Expression/Arguments/0	—
+ArrowFunction · Block	void-os.test.js#/SourceFile/14/Expression/Arguments/1	—
+—	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Parameters/0	—
+Identifier	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+5-texts
+kind	place	holds
+—	void-os.test.js#/SourceFile/0/ImportClause/name/Text	test
+—	void-os.test.js#/SourceFile/0/ModuleSpecifier/Text	'node:test'
+—	void-os.test.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	relationalModel
+—	void-os.test.js#/SourceFile/1/ModuleSpecifier/Text	'../src/relational-model/relational-model.js'
+—	void-os.test.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	values
+—	void-os.test.js#/SourceFile/2/ModuleSpecifier/Text	'../src/system-generation/values/values.js'
+—	void-os.test.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	runner
+—	void-os.test.js#/SourceFile/3/ModuleSpecifier/Text	'./system-generation/runner/runner.js'
+—	void-os.test.js#/SourceFile/4/Expression/Expression/Text	test
+—	void-os.test.js#/SourceFile/4/Expression/Arguments/0/Text	'void-os.1'
+—	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name/Text	t
+—	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'void-os.1'
+—	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../conformance'
+—	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	void-os.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	void-os.test.js#/SourceFile/5/Expression/Expression/Text	test
+—	void-os.test.js#/SourceFile/5/Expression/Arguments/0/Text	'void-os.10'
+—	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name/Text	t
+—	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'void-os.10'
+—	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../conformance'
+—	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	void-os.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	void-os.test.js#/SourceFile/6/Expression/Expression/Text	test
+—	void-os.test.js#/SourceFile/6/Expression/Arguments/0/Text	'void-os.11'
+—	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0/name/Text	t
+—	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'void-os.11'
+—	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../conformance'
+—	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	void-os.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	void-os.test.js#/SourceFile/7/Expression/Expression/Text	test
+—	void-os.test.js#/SourceFile/7/Expression/Arguments/0/Text	'void-os.2'
+—	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0/name/Text	t
+—	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'void-os.2'
+—	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../conformance'
+—	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	void-os.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	void-os.test.js#/SourceFile/8/Expression/Expression/Text	test
+—	void-os.test.js#/SourceFile/8/Expression/Arguments/0/Text	'void-os.3'
+—	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0/name/Text	t
+—	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'void-os.3'
+—	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../conformance'
+—	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	void-os.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	void-os.test.js#/SourceFile/9/Expression/Expression/Text	test
+—	void-os.test.js#/SourceFile/9/Expression/Arguments/0/Text	'void-os.4'
+—	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Parameters/0/name/Text	t
+—	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'void-os.4'
+—	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../conformance'
+—	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	void-os.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	void-os.test.js#/SourceFile/10/Expression/Expression/Text	test
+—	void-os.test.js#/SourceFile/10/Expression/Arguments/0/Text	'void-os.5'
+—	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Parameters/0/name/Text	t
+—	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'void-os.5'
+—	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../conformance'
+—	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	void-os.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	void-os.test.js#/SourceFile/11/Expression/Expression/Text	test
+—	void-os.test.js#/SourceFile/11/Expression/Arguments/0/Text	'void-os.6'
+—	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Parameters/0/name/Text	t
+—	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'void-os.6'
+—	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../conformance'
+—	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	void-os.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	void-os.test.js#/SourceFile/12/Expression/Expression/Text	test
+—	void-os.test.js#/SourceFile/12/Expression/Arguments/0/Text	'void-os.7'
+—	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Parameters/0/name/Text	t
+—	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'void-os.7'
+—	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../conformance'
+—	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	void-os.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	void-os.test.js#/SourceFile/13/Expression/Expression/Text	test
+—	void-os.test.js#/SourceFile/13/Expression/Arguments/0/Text	'void-os.8'
+—	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Parameters/0/name/Text	t
+—	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'void-os.8'
+—	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../conformance'
+—	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	void-os.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	void-os.test.js#/SourceFile/14/Expression/Expression/Text	test
+—	void-os.test.js#/SourceFile/14/Expression/Arguments/0/Text	'void-os.9'
+—	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Parameters/0/name/Text	t
+—	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'void-os.9'
+—	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../conformance'
+—	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	void-os.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values

@@ -1,0 +1,396 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+read.2	1	read	read					the data bank's folder is answered by its names, as one file, its source the folder
+read.4	1	read	read					the data bank's folder read with a selection is answered by the union of every input's records, each led by its _input
+read.6	1	read	read	refused				a selection refused ends the read as refused
+read.7	1	read	read					every other pathname is read as the files read › input's members names, each by conversion's sheets, chosen, and the reply given by reply
+read.8	1	read	read					a file of a directory whose conversion ends as no format is named in not read, its status no format, and the read goes on
+read.10	1	read	read	refused	no format			a file named directly whose conversion ends as no format ends the read as refused, its reason that error's name
+read.9	1	read	read					what a file's conversion leaves behind is named in left behind, one record for each thing, in order
+arguments
+requirement	case	position	item	value
+read.2	1	2	0	$PWD/bank
+read.2	1	3	0	
+read.2	1	4	0	
+read.2	1	5	0	
+read.2	1	6	0	
+read.2	1	7	0	
+read.4	1	2	0	$PWD/bank
+read.4	1	3	0	1
+read.4	1	4	0	1-*
+read.4	1	5	0	
+read.4	1	6	0	
+read.4	1	7	0	
+read.6	1	2	0	$PWD/d/a.mtsv
+read.6	1	3	0	
+read.6	1	4	0	x
+read.6	1	5	0	
+read.6	1	6	0	
+read.6	1	7	0	
+read.7	1	2	0	$PWD/d/a.mtsv
+read.7	1	3	0	
+read.7	1	4	0	
+read.7	1	5	0	
+read.7	1	6	0	
+read.7	1	7	0	
+read.8	1	2	0	$PWD/d
+read.8	1	3	0	
+read.8	1	4	0	
+read.8	1	5	0	
+read.8	1	6	0	
+read.8	1	7	0	
+read.10	1	2	0	$PWD/d/n.txt
+read.10	1	3	0	
+read.10	1	4	0	
+read.10	1	5	0	
+read.10	1	6	0	
+read.10	1	7	0	
+read.9	1	2	0	$PWD/d/q.sqlite
+read.9	1	3	0	
+read.9	1	4	0	
+read.9	1	5	0	
+read.9	1	6	0	
+read.9	1	7	0	
+environment
+requirement	case	name	value
+read.2	1	VOID_OS_DATA_BANK	$PWD/bank
+read.4	1	VOID_OS_DATA_BANK	$PWD/bank
+fixtures
+fixture	sheet	record	field	value
+bank folder map reply	1	0	1	file
+bank folder map reply	1	1	1	file
+bank folder map reply	1	1	2	source
+bank folder map reply	1	2	1	1
+bank folder map reply	1	2	2	$PWD/bank
+bank folder map reply	2	0	1	not read
+bank folder map reply	2	1	1	file
+bank folder map reply	2	1	2	status
+bank folder map reply	2	1	3	reason
+bank folder map reply	3	0	1	left behind
+bank folder map reply	3	1	1	file
+bank folder map reply	3	1	2	what
+bank folder map reply	4	0	1	sheets
+bank folder map reply	4	1	1	file
+bank folder map reply	4	1	2	sheet
+bank folder map reply	4	1	3	sheet name
+bank folder map reply	4	1	4	records
+bank folder map reply	4	1	5	matches
+bank folder map reply	4	1	6	positions
+bank folder map reply	4	2	1	1
+bank folder map reply	4	2	2	1
+bank folder map reply	4	2	3	_inputs
+bank folder map reply	4	2	4	1
+bank folder map reply	4	2	5	1
+bank folder map reply	4	2	6	1
+bank folder map reply	4	3	1	1
+bank folder map reply	4	3	2	2
+bank folder map reply	4	3	3	_sheets
+bank folder map reply	4	3	4	3
+bank folder map reply	4	3	5	3
+bank folder map reply	4	3	6	1-3
+bank folder map reply	4	4	1	1
+bank folder map reply	4	4	2	3
+bank folder map reply	4	4	3	_fields
+bank folder map reply	4	4	4	13
+bank folder map reply	4	4	5	13
+bank folder map reply	4	4	6	1-13
+bank folder map reply	5	0	1	fields
+bank folder map reply	5	1	1	file
+bank folder map reply	5	1	2	sheet
+bank folder map reply	5	1	3	field
+bank folder map reply	5	1	4	field name
+bank folder map reply	5	2	1	1
+bank folder map reply	5	2	2	1
+bank folder map reply	5	2	3	1
+bank folder map reply	5	2	4	_input
+bank folder map reply	5	3	1	1
+bank folder map reply	5	3	2	1
+bank folder map reply	5	3	3	2
+bank folder map reply	5	3	4	_values
+bank folder map reply	5	4	1	1
+bank folder map reply	5	4	2	1
+bank folder map reply	5	4	3	3
+bank folder map reply	5	4	4	_file
+bank folder map reply	5	5	1	1
+bank folder map reply	5	5	2	2
+bank folder map reply	5	5	3	1
+bank folder map reply	5	5	4	_input
+bank folder map reply	5	6	1	1
+bank folder map reply	5	6	2	2
+bank folder map reply	5	6	3	2
+bank folder map reply	5	6	4	_place
+bank folder map reply	5	7	1	1
+bank folder map reply	5	7	2	2
+bank folder map reply	5	7	3	3
+bank folder map reply	5	7	4	_sheet name
+bank folder map reply	5	8	1	1
+bank folder map reply	5	8	2	3
+bank folder map reply	5	8	3	1
+bank folder map reply	5	8	4	_input
+bank folder map reply	5	9	1	1
+bank folder map reply	5	9	2	3
+bank folder map reply	5	9	3	2
+bank folder map reply	5	9	4	_place
+bank folder map reply	5	10	1	1
+bank folder map reply	5	10	2	3
+bank folder map reply	5	10	3	3
+bank folder map reply	5	10	4	_position
+bank folder map reply	5	11	1	1
+bank folder map reply	5	11	2	3
+bank folder map reply	5	11	3	4
+bank folder map reply	5	11	4	_field name
+a map reply	1	0	1	file
+a map reply	1	1	1	file
+a map reply	1	1	2	source
+a map reply	1	2	1	1
+a map reply	1	2	2	$PWD/d/a.mtsv
+a map reply	2	0	1	not read
+a map reply	2	1	1	file
+a map reply	2	1	2	status
+a map reply	2	1	3	reason
+a map reply	3	0	1	left behind
+a map reply	3	1	1	file
+a map reply	3	1	2	what
+a map reply	4	0	1	sheets
+a map reply	4	1	1	file
+a map reply	4	1	2	sheet
+a map reply	4	1	3	sheet name
+a map reply	4	1	4	records
+a map reply	4	1	5	matches
+a map reply	4	1	6	positions
+a map reply	4	2	1	1
+a map reply	4	2	2	1
+a map reply	4	2	3	s
+a map reply	4	2	4	3
+a map reply	4	2	5	3
+a map reply	4	2	6	1-3
+a map reply	5	0	1	fields
+a map reply	5	1	1	file
+a map reply	5	1	2	sheet
+a map reply	5	1	3	field
+a map reply	5	1	4	field name
+a map reply	5	2	1	1
+a map reply	5	2	2	1
+a map reply	5	2	3	1
+a map reply	5	2	4	x
+a map reply	5	3	1	1
+a map reply	5	3	2	1
+a map reply	5	3	3	2
+a map reply	5	3	4	y
+demo and two _stored	1	0	1	_stored
+demo and two _stored	1	1	1	_input
+demo and two _stored	1	1	2	_input value
+demo and two _stored	1	1	3	_time
+demo and two _stored	1	1	4	_event
+demo and two _stored	1	2	1	/work/demo
+demo and two _stored	1	2	2	0
+demo and two _stored	1	2	3	2026-10-10T09:00:00Z
+demo and two _stored	1	2	4	SessionStart
+demo and two _stored	2	0	1	_stored
+demo and two _stored	2	1	1	_input
+demo and two _stored	2	1	2	_input value
+demo and two _stored	2	1	3	_time
+demo and two _stored	2	1	4	_event
+demo and two _stored	2	2	1	/work/demo
+demo and two _stored	2	2	2	1
+demo and two _stored	2	2	3	2026-10-11T10:30:00Z
+demo and two _stored	2	2	4	UserPromptSubmit
+demo and two _stored	3	0	1	_stored
+demo and two _stored	3	1	1	_input
+demo and two _stored	3	1	2	_input value
+demo and two _stored	3	1	3	_time
+demo and two _stored	3	1	4	_event
+demo and two _stored	3	2	1	/work/two
+demo and two _stored	3	2	2	0
+demo and two _stored	3	2	3	2026-10-11T11:00:00Z
+demo and two _stored	3	2	4	Stop
+two inputs _sheets	1	0	1	_sheets
+two inputs _sheets	1	1	1	_input
+two inputs _sheets	1	1	2	_place
+two inputs _sheets	1	1	3	_sheet name
+two inputs _sheets	1	2	1	/work/demo
+two inputs _sheets	1	2	2	0
+two inputs _sheets	1	2	3	hook input
+two inputs _sheets	1	3	1	/work/demo
+two inputs _sheets	1	3	2	1
+two inputs _sheets	1	3	3	_instances
+two inputs _sheets	1	4	1	/work/demo
+two inputs _sheets	1	4	2	2
+two inputs _sheets	1	4	3	_runs
+two inputs _sheets	1	5	1	/work/two
+two inputs _sheets	1	5	2	0
+two inputs _sheets	1	5	3	hook input
+two inputs _sheets	1	6	1	/work/two
+two inputs _sheets	1	6	2	1
+two inputs _sheets	1	6	3	_instances
+two inputs _sheets	1	7	1	/work/two
+two inputs _sheets	1	7	2	2
+two inputs _sheets	1	7	3	_runs
+two inputs _fields	1	0	1	_fields
+two inputs _fields	1	1	1	_input
+two inputs _fields	1	1	2	_place
+two inputs _fields	1	1	3	_position
+two inputs _fields	1	1	4	_field name
+two inputs _fields	1	2	1	/work/demo
+two inputs _fields	1	2	2	0
+two inputs _fields	1	2	3	0
+two inputs _fields	1	2	4	_input value
+two inputs _fields	1	3	1	/work/two
+two inputs _fields	1	3	2	0
+two inputs _fields	1	3	3	0
+two inputs _fields	1	3	4	_input value
+bank union reply	1	0	1	file
+bank union reply	1	1	1	file
+bank union reply	1	1	2	source
+bank union reply	1	2	1	1
+bank union reply	1	2	2	/work/demo
+bank union reply	1	3	1	2
+bank union reply	1	3	2	/work/two
+bank union reply	2	0	1	not read
+bank union reply	2	1	1	file
+bank union reply	2	1	2	status
+bank union reply	2	1	3	reason
+bank union reply	3	0	1	left behind
+bank union reply	3	1	1	file
+bank union reply	3	1	2	what
+bank union reply	4	0	1	sheets
+bank union reply	4	1	1	file
+bank union reply	4	1	2	sheet
+bank union reply	4	1	3	sheet name
+bank union reply	4	1	4	records
+bank union reply	4	1	5	matches
+bank union reply	4	1	6	positions
+bank union reply	4	2	1	1
+bank union reply	4	2	2	1
+bank union reply	4	2	3	hook input
+bank union reply	4	2	4	2
+bank union reply	4	2	5	2
+bank union reply	4	2	6	1-2
+bank union reply	4	3	1	2
+bank union reply	4	3	2	1
+bank union reply	4	3	3	hook input
+bank union reply	4	3	4	1
+bank union reply	4	3	5	1
+bank union reply	4	3	6	3
+bank union reply	5	0	1	hook input
+bank union reply	5	1	1	_input
+bank union reply	5	1	2	_input value
+bank union reply	5	2	1	/work/demo
+bank union reply	5	2	2	0
+bank union reply	5	3	1	/work/demo
+bank union reply	5	3	2	1
+bank union reply	5	4	1	/work/two
+bank union reply	5	4	2	0
+no format map reply	1	0	1	file
+no format map reply	1	1	1	file
+no format map reply	1	1	2	source
+no format map reply	1	2	1	1
+no format map reply	1	2	2	$PWD/d/a.mtsv
+no format map reply	1	3	1	2
+no format map reply	1	3	2	$PWD/d/n.txt
+no format map reply	2	0	1	not read
+no format map reply	2	1	1	file
+no format map reply	2	1	2	status
+no format map reply	2	1	3	reason
+no format map reply	2	2	1	2
+no format map reply	2	2	2	no format
+no format map reply	3	0	1	left behind
+no format map reply	3	1	1	file
+no format map reply	3	1	2	what
+no format map reply	4	0	1	sheets
+no format map reply	4	1	1	file
+no format map reply	4	1	2	sheet
+no format map reply	4	1	3	sheet name
+no format map reply	4	1	4	records
+no format map reply	4	1	5	matches
+no format map reply	4	1	6	positions
+no format map reply	4	2	1	1
+no format map reply	4	2	2	1
+no format map reply	4	2	3	s
+no format map reply	4	2	4	3
+no format map reply	4	2	5	3
+no format map reply	4	2	6	1-3
+no format map reply	5	0	1	fields
+no format map reply	5	1	1	file
+no format map reply	5	1	2	sheet
+no format map reply	5	1	3	field
+no format map reply	5	1	4	field name
+no format map reply	5	2	1	1
+no format map reply	5	2	2	1
+no format map reply	5	2	3	1
+no format map reply	5	2	4	x
+no format map reply	5	3	1	1
+no format map reply	5	3	2	1
+no format map reply	5	3	3	2
+no format map reply	5	3	4	y
+database map reply	1	0	1	file
+database map reply	1	1	1	file
+database map reply	1	1	2	source
+database map reply	1	2	1	1
+database map reply	1	2	2	$PWD/d/q.sqlite
+database map reply	2	0	1	not read
+database map reply	2	1	1	file
+database map reply	2	1	2	status
+database map reply	2	1	3	reason
+database map reply	3	0	1	left behind
+database map reply	3	1	1	file
+database map reply	3	1	2	what
+database map reply	3	2	1	1
+database map reply	3	2	2	view v
+database map reply	3	3	1	1
+database map reply	3	3	2	index i
+database map reply	4	0	1	sheets
+database map reply	4	1	1	file
+database map reply	4	1	2	sheet
+database map reply	4	1	3	sheet name
+database map reply	4	1	4	records
+database map reply	4	1	5	matches
+database map reply	4	1	6	positions
+database map reply	4	2	1	1
+database map reply	4	2	2	1
+database map reply	4	2	3	t
+database map reply	4	2	4	1
+database map reply	4	2	5	1
+database map reply	4	2	6	1
+database map reply	5	0	1	fields
+database map reply	5	1	1	file
+database map reply	5	1	2	sheet
+database map reply	5	1	3	field
+database map reply	5	1	4	field name
+database map reply	5	2	1	1
+database map reply	5	2	2	1
+database map reply	5	2	3	1
+database map reply	5	2	4	a
+database map reply	5	3	1	1
+database map reply	5	3	2	1
+database map reply	5	3	3	2
+database map reply	5	3	4	b
+placed
+requirement	case	when	pathname	fixture
+read.2	1	before	$PWD/bank/$INPUT.mtsv	two values input
+read.2	1	before	$PWD/bank/_stored.mtsv	two values _stored
+read.2	1	before	$PWD/bank/_sheets.mtsv	hook input _sheets
+read.2	1	before	$PWD/bank/_fields.mtsv	hook input _fields
+read.2	1	after	result 1	bank folder map reply
+read.4	1	before	$PWD/bank/work/demo.mtsv	two values input
+read.4	1	before	$PWD/bank/work/two.mtsv	stop kept
+read.4	1	before	$PWD/bank/_stored.mtsv	demo and two _stored
+read.4	1	before	$PWD/bank/_sheets.mtsv	two inputs _sheets
+read.4	1	before	$PWD/bank/_fields.mtsv	two inputs _fields
+read.4	1	after	result 1	bank union reply
+read.6	1	before	$PWD/d/a.mtsv	a sheet s
+read.7	1	before	$PWD/d/a.mtsv	a sheet s
+read.7	1	after	result 1	a map reply
+read.8	1	before	$PWD/d/a.mtsv	a sheet s
+read.8	1	after	result 1	no format map reply
+read.9	1	after	result 1	database map reply
+octets
+requirement	case	pathname	file	modified
+read.8	1	$PWD/d/n.txt	n.txt	
+read.10	1	$PWD/d/n.txt	n.txt	
+database statements
+requirement	case	pathname	statement	text
+read.9	1	$PWD/d/q.sqlite	1	CREATE TABLE t (a, b)
+read.9	1	$PWD/d/q.sqlite	2	CREATE VIEW v AS SELECT a FROM t
+read.9	1	$PWD/d/q.sqlite	3	CREATE INDEX i ON t (b)
+read.9	1	$PWD/d/q.sqlite	4	INSERT INTO t VALUES (1, 'x')

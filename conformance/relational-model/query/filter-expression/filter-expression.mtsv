@@ -1,0 +1,13 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+filter-expression.1	1	filter expression	kept					a filter in which @[0] is a record's first field keeps the records for which it holds
+filter-expression.2	1	filter expression	kept	refused				a filter not written so is refused
+arguments
+requirement	case	position	item	value
+filter-expression.1	1	2	0	@[0] == '3'
+filter-expression.2	1	2	0	@[0] ==
+placed
+requirement	case	when	pathname	fixture
+filter-expression.1	1	before	argument 1	a sheet s
+filter-expression.1	1	after	result 1	s record 3 4
+filter-expression.2	1	before	argument 1	a sheet s

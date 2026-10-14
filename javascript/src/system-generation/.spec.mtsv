@@ -1,0 +1,95 @@
+1-folders
+kind	place	holds
+—	values	—
+2-modules
+kind	place	holds
+{{name}} · .js	system-generation	—
+3-statements
+kind	place	holds
+ImportDeclaration	system-generation.js#/SourceFile/0	—
+ImportDeclaration	system-generation.js#/SourceFile/1	—
+FunctionDeclaration · Body	system-generation.js#/SourceFile/2	—
+VariableStatement	system-generation.js#/SourceFile/2/Body/0	—
+TryStatement	system-generation.js#/SourceFile/2/Body/1	—
+ReturnStatement	system-generation.js#/SourceFile/2/Body/1/TryBlock/0	—
+IfStatement	system-generation.js#/SourceFile/2/Body/1/CatchClause/Block/0	—
+ThrowStatement	system-generation.js#/SourceFile/2/Body/1/CatchClause/Block/0/ThenStatement/0	—
+ThrowStatement	system-generation.js#/SourceFile/2/Body/1/CatchClause/Block/1	—
+ClassDeclaration	system-generation.js#/SourceFile/3	—
+4-expressions
+kind	place	holds
+ImportClause · NamedBindings	system-generation.js#/SourceFile/0/ImportClause	—
+NamespaceImport	system-generation.js#/SourceFile/0/ImportClause/NamedBindings	—
+StringLiteral	system-generation.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	system-generation.js#/SourceFile/1/ImportClause	—
+NamespaceImport	system-generation.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	system-generation.js#/SourceFile/1/ModuleSpecifier	—
+ExportKeyword	system-generation.js#/SourceFile/2/modifiers/0	—
+—	system-generation.js#/SourceFile/2/name	—
+—	system-generation.js#/SourceFile/2/Parameters/0	—
+Identifier	system-generation.js#/SourceFile/2/Parameters/0/name	—
+ConstKeyword	system-generation.js#/SourceFile/2/Body/0/DeclarationList/Flags/0	—
+—	system-generation.js#/SourceFile/2/Body/0/DeclarationList/Declarations/0	—
+Identifier	system-generation.js#/SourceFile/2/Body/0/DeclarationList/Declarations/0/name	—
+PropertyAccessExpression · DotToken	system-generation.js#/SourceFile/2/Body/0/DeclarationList/Declarations/0/Initializer	—
+MetaProperty	system-generation.js#/SourceFile/2/Body/0/DeclarationList/Declarations/0/Initializer/Expression	—
+ImportKeyword	system-generation.js#/SourceFile/2/Body/0/DeclarationList/Declarations/0/Initializer/Expression/KeywordToken	—
+Identifier	system-generation.js#/SourceFile/2/Body/0/DeclarationList/Declarations/0/Initializer/name	—
+CallExpression	system-generation.js#/SourceFile/2/Body/1/TryBlock/0/Expression	—
+PropertyAccessExpression · DotToken	system-generation.js#/SourceFile/2/Body/1/TryBlock/0/Expression/Expression	—
+Identifier	system-generation.js#/SourceFile/2/Body/1/TryBlock/0/Expression/Expression/Expression	—
+Identifier	system-generation.js#/SourceFile/2/Body/1/TryBlock/0/Expression/Expression/name	—
+CallExpression	system-generation.js#/SourceFile/2/Body/1/TryBlock/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	system-generation.js#/SourceFile/2/Body/1/TryBlock/0/Expression/Arguments/0/Expression	—
+Identifier	system-generation.js#/SourceFile/2/Body/1/TryBlock/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	system-generation.js#/SourceFile/2/Body/1/TryBlock/0/Expression/Arguments/0/Expression/name	—
+Identifier	system-generation.js#/SourceFile/2/Body/1/TryBlock/0/Expression/Arguments/0/Arguments/0	—
+StringLiteral	system-generation.js#/SourceFile/2/Body/1/TryBlock/0/Expression/Arguments/0/Arguments/1	—
+Identifier	system-generation.js#/SourceFile/2/Body/1/TryBlock/0/Expression/Arguments/1	—
+—	system-generation.js#/SourceFile/2/Body/1/CatchClause/VariableDeclaration	—
+Identifier	system-generation.js#/SourceFile/2/Body/1/CatchClause/VariableDeclaration/name	—
+BinaryExpression	system-generation.js#/SourceFile/2/Body/1/CatchClause/Block/0/Expression	—
+Identifier	system-generation.js#/SourceFile/2/Body/1/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	system-generation.js#/SourceFile/2/Body/1/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	system-generation.js#/SourceFile/2/Body/1/CatchClause/Block/0/Expression/Right	—
+Identifier	system-generation.js#/SourceFile/2/Body/1/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	system-generation.js#/SourceFile/2/Body/1/CatchClause/Block/0/Expression/Right/name	—
+NewExpression	system-generation.js#/SourceFile/2/Body/1/CatchClause/Block/0/ThenStatement/0/Expression	—
+Identifier	system-generation.js#/SourceFile/2/Body/1/CatchClause/Block/0/ThenStatement/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	system-generation.js#/SourceFile/2/Body/1/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0	—
+Identifier	system-generation.js#/SourceFile/2/Body/1/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	system-generation.js#/SourceFile/2/Body/1/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name	—
+Identifier	system-generation.js#/SourceFile/2/Body/1/CatchClause/Block/1/Expression	—
+ExportKeyword	system-generation.js#/SourceFile/3/modifiers/0	—
+—	system-generation.js#/SourceFile/3/name	—
+—	system-generation.js#/SourceFile/3/HeritageClauses/0	—
+ExtendsKeyword	system-generation.js#/SourceFile/3/HeritageClauses/0/Token	—
+Identifier	system-generation.js#/SourceFile/3/HeritageClauses/0/Types/0	—
+5-texts
+kind	place	holds
+—	system-generation.js#/SourceFile/0/ImportClause/NamedBindings/name/Text	path
+—	system-generation.js#/SourceFile/0/ModuleSpecifier/Text	'node:path'
+—	system-generation.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	values_
+—	system-generation.js#/SourceFile/1/ModuleSpecifier/Text	'./values/values.js'
+—	system-generation.js#/SourceFile/2/name/Text	values
+—	system-generation.js#/SourceFile/2/Parameters/0/name/Text	relationalModel
+—	system-generation.js#/SourceFile/2/Body/0/DeclarationList/Declarations/0/name/Text	systemGeneration1ModuleFolder
+—	system-generation.js#/SourceFile/2/Body/0/DeclarationList/Declarations/0/Initializer/Expression/name/Text	meta
+—	system-generation.js#/SourceFile/2/Body/0/DeclarationList/Declarations/0/Initializer/name/Text	dirname
+—	system-generation.js#/SourceFile/2/Body/1/TryBlock/0/Expression/Expression/Expression/Text	values_
+—	system-generation.js#/SourceFile/2/Body/1/TryBlock/0/Expression/Expression/name/Text	values
+—	system-generation.js#/SourceFile/2/Body/1/TryBlock/0/Expression/Arguments/0/Expression/Expression/Text	path
+—	system-generation.js#/SourceFile/2/Body/1/TryBlock/0/Expression/Arguments/0/Expression/name/Text	join
+—	system-generation.js#/SourceFile/2/Body/1/TryBlock/0/Expression/Arguments/0/Arguments/0/Text	systemGeneration1ModuleFolder
+—	system-generation.js#/SourceFile/2/Body/1/TryBlock/0/Expression/Arguments/0/Arguments/1/Text	'values'
+—	system-generation.js#/SourceFile/2/Body/1/TryBlock/0/Expression/Arguments/1/Text	relationalModel
+—	system-generation.js#/SourceFile/2/Body/1/CatchClause/VariableDeclaration/name/Text	error
+—	system-generation.js#/SourceFile/2/Body/1/CatchClause/Block/0/Expression/Left/Text	error
+—	system-generation.js#/SourceFile/2/Body/1/CatchClause/Block/0/Expression/Right/Expression/Text	values_
+—	system-generation.js#/SourceFile/2/Body/1/CatchClause/Block/0/Expression/Right/name/Text	NotMTSVError
+—	system-generation.js#/SourceFile/2/Body/1/CatchClause/Block/0/ThenStatement/0/Expression/Expression/Text	NotMTSVError
+—	system-generation.js#/SourceFile/2/Body/1/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression/Text	error
+—	system-generation.js#/SourceFile/2/Body/1/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name/Text	message
+—	system-generation.js#/SourceFile/2/Body/1/CatchClause/Block/1/Expression/Text	error
+—	system-generation.js#/SourceFile/3/name/Text	NotMTSVError
+—	system-generation.js#/SourceFile/3/HeritageClauses/0/Types/0/Text	Error

@@ -1,0 +1,100 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .py	__init__	—
+{{name}} · .py	_filter	—
+3-statements
+kind	place	holds
+Expr	_filter.py#/Module/0	—
+Assign	_filter.py#/Module/1	—
+Import	_filter.py#/Module/2	—
+ImportFrom	_filter.py#/Module/3	—
+FunctionDef	_filter.py#/Module/4	—
+Try	_filter.py#/Module/4/body/0	—
+Return	_filter.py#/Module/4/body/0/body/0	—
+Raise	_filter.py#/Module/4/body/0/handlers/0/body/0	—
+ClassDef	_filter.py#/Module/5	—
+Expr	_filter.py#/Module/5/body/0	—
+4-expressions
+kind	place	holds
+Constant	_filter.py#/Module/0/value	—
+Name	_filter.py#/Module/1/targets/0	—
+List	_filter.py#/Module/1/value	—
+Constant	_filter.py#/Module/1/value/elts/0	—
+Constant	_filter.py#/Module/1/value/elts/1	—
+—	_filter.py#/Module/2/names/0	—
+—	_filter.py#/Module/3/module	—
+—	_filter.py#/Module/3/names/0	—
+arg	_filter.py#/Module/4/args/0	—
+Subscript	_filter.py#/Module/4/args/0/annotation	—
+Name	_filter.py#/Module/4/args/0/annotation/value	—
+Subscript	_filter.py#/Module/4/args/0/annotation/slice	—
+Name	_filter.py#/Module/4/args/0/annotation/slice/value	—
+Tuple	_filter.py#/Module/4/args/0/annotation/slice/slice	—
+Name	_filter.py#/Module/4/args/0/annotation/slice/slice/elts/0	—
+Name	_filter.py#/Module/4/args/0/annotation/slice/slice/elts/1	—
+arg	_filter.py#/Module/4/args/1	—
+Name	_filter.py#/Module/4/args/1/annotation	—
+arg	_filter.py#/Module/4/args/2	—
+Attribute	_filter.py#/Module/4/args/2/annotation	—
+Name	_filter.py#/Module/4/args/2/annotation/value	—
+Subscript	_filter.py#/Module/4/returns	—
+Name	_filter.py#/Module/4/returns/value	—
+Subscript	_filter.py#/Module/4/returns/slice	—
+Name	_filter.py#/Module/4/returns/slice/value	—
+Tuple	_filter.py#/Module/4/returns/slice/slice	—
+Name	_filter.py#/Module/4/returns/slice/slice/elts/0	—
+Name	_filter.py#/Module/4/returns/slice/slice/elts/1	—
+Call	_filter.py#/Module/4/body/0/body/0/value	—
+Attribute	_filter.py#/Module/4/body/0/body/0/value/func	—
+Name	_filter.py#/Module/4/body/0/body/0/value/func/value	—
+Name	_filter.py#/Module/4/body/0/body/0/value/arguments/0	—
+Name	_filter.py#/Module/4/body/0/body/0/value/arguments/1	—
+—	_filter.py#/Module/4/body/0/handlers/0	—
+Attribute	_filter.py#/Module/4/body/0/handlers/0/type	—
+Name	_filter.py#/Module/4/body/0/handlers/0/type/value	—
+Call	_filter.py#/Module/4/body/0/handlers/0/body/0/exc	—
+Name	_filter.py#/Module/4/body/0/handlers/0/body/0/exc/func	—
+Call	_filter.py#/Module/4/body/0/handlers/0/body/0/exc/arguments/0	—
+Name	_filter.py#/Module/4/body/0/handlers/0/body/0/exc/arguments/0/func	—
+Name	_filter.py#/Module/4/body/0/handlers/0/body/0/exc/arguments/0/arguments/0	—
+Name	_filter.py#/Module/5/arguments/0	—
+Constant	_filter.py#/Module/5/body/0/value	—
+5-texts
+kind	place	holds
+—	_filter.py#/Module/0/value/value	"""which records a level keeps, by the filter query gives"""
+—	_filter.py#/Module/1/targets/0/id	__all__
+—	_filter.py#/Module/1/value/elts/0/value	'kept'
+—	_filter.py#/Module/1/value/elts/1/value	'RefusedError'
+—	_filter.py#/Module/2/names/0/name	types
+—	_filter.py#/Module/3/module/value	typing
+—	_filter.py#/Module/3/names/0/name	Any
+—	_filter.py#/Module/4/name/value	kept
+—	_filter.py#/Module/4/args/0/arg	level
+—	_filter.py#/Module/4/args/0/annotation/value/id	list
+—	_filter.py#/Module/4/args/0/annotation/slice/value/id	dict
+—	_filter.py#/Module/4/args/0/annotation/slice/slice/elts/0/id	str
+—	_filter.py#/Module/4/args/0/annotation/slice/slice/elts/1/id	Any
+—	_filter.py#/Module/4/args/1/arg	filter
+—	_filter.py#/Module/4/args/1/annotation/id	str
+—	_filter.py#/Module/4/args/2/arg	relational_model
+—	_filter.py#/Module/4/args/2/annotation/value/id	types
+—	_filter.py#/Module/4/args/2/annotation/attr	ModuleType
+—	_filter.py#/Module/4/returns/value/id	list
+—	_filter.py#/Module/4/returns/slice/value/id	dict
+—	_filter.py#/Module/4/returns/slice/slice/elts/0/id	str
+—	_filter.py#/Module/4/returns/slice/slice/elts/1/id	Any
+—	_filter.py#/Module/4/body/0/body/0/value/func/value/id	relational_model
+—	_filter.py#/Module/4/body/0/body/0/value/func/attr	kept
+—	_filter.py#/Module/4/body/0/body/0/value/arguments/0/id	level
+—	_filter.py#/Module/4/body/0/body/0/value/arguments/1/id	filter
+—	_filter.py#/Module/4/body/0/handlers/0/type/value/id	relational_model
+—	_filter.py#/Module/4/body/0/handlers/0/type/attr	RefusedError
+—	_filter.py#/Module/4/body/0/handlers/0/name	error
+—	_filter.py#/Module/4/body/0/handlers/0/body/0/exc/func/id	RefusedError
+—	_filter.py#/Module/4/body/0/handlers/0/body/0/exc/arguments/0/func/id	str
+—	_filter.py#/Module/4/body/0/handlers/0/body/0/exc/arguments/0/arguments/0/id	error
+—	_filter.py#/Module/5/name/value	RefusedError
+—	_filter.py#/Module/5/arguments/0/id	Exception
+—	_filter.py#/Module/5/body/0/value/value	"""An error that ends an access program a module calls MUST end the module's access as that error, by its name, unless Ended errors names a requirement that ends it otherwise or rules it out."""

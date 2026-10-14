@@ -1,0 +1,42 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+reply.5	1	read	read					every reply is the report, then, with a pathname alone, the map
+reply.1	1	read	read					the report is the sheets file, not read, left behind and sheets, in that order, each with its header
+reply.2	1	read	read					the map is the sheet fields: the name of each field of each sheet chosen
+reply.3	1	read	read					the reply is written by the generator
+arguments
+requirement	case	position	item	value
+reply.5	1	2	0	$PWD/d/a.mtsv
+reply.5	1	3	0	
+reply.5	1	4	0	
+reply.5	1	5	0	
+reply.5	1	6	0	
+reply.5	1	7	0	
+reply.1	1	2	0	$PWD/d/a.mtsv
+reply.1	1	3	0	
+reply.1	1	4	0	
+reply.1	1	5	0	
+reply.1	1	6	0	
+reply.1	1	7	0	
+reply.2	1	2	0	$PWD/d/a.mtsv
+reply.2	1	3	0	
+reply.2	1	4	0	
+reply.2	1	5	0	
+reply.2	1	6	0	
+reply.2	1	7	0	
+reply.3	1	2	0	$PWD/d/a.mtsv
+reply.3	1	3	0	
+reply.3	1	4	0	
+reply.3	1	5	0	
+reply.3	1	6	0	
+reply.3	1	7	0	
+placed
+requirement	case	when	pathname	fixture
+reply.5	1	before	$PWD/d/a.mtsv	a sheet s
+reply.5	1	after	result 1	a map reply
+reply.1	1	before	$PWD/d/a.mtsv	a sheet s
+reply.1	1	after	result 1	a map reply
+reply.2	1	before	$PWD/d/a.mtsv	a sheet s
+reply.2	1	after	result 1	a map reply
+reply.3	1	before	$PWD/d/a.mtsv	a sheet s
+reply.3	1	after	result 1	a map reply

@@ -1,0 +1,117 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+runner.1	1	runner	run					run finds the case by its requirement and case in the file, in the folder conformance it is handed, of the requirement's module, the books read from spec beside it, and the case passes
+runner.2	1	runner	run					a case runs in an empty directory made for it, each variable of environment set: storage.23's second case
+runner.3	1	runner	run					each fixture placed before is placed at its pathname, the directories it needs made: storage.10's case
+runner.4	1	runner	run					the access program is called on the case's module, loaded from its files as the Files sheet places them, with the case's arguments: json-text.1's case
+runner.5	1	runner	run					a result of type JSON text is compared by its instances: hook-output.7's case
+runner.6	1	runner	run					$PWD is expanded in every value: storage.23's second case
+runner.7	1	runner	run					a value is read as the Written column of its type writes it, <TAB> standing for HT: storage.20's case
+runner.20	1	runner	run					a field whose column the Domains rows give the type time matches any date-time with the offset Z: storage.8's case
+runner.21	1	runner	run					a result of type JSON text that is no JSON text is read as holding no instance: hook-output.8's case
+runner.8	1	runner	run					a case of a requirement Requirement files names calls nothing, its pathnames files of the repository: distribution-package.1's case
+runner.9	1	runner	run	no case				a requirement and case that name no case end run as no case
+runner.10	1	runner	run	not MTSV				a file of conformance the parser rejects ends run as not MTSV: json-text.1's module file not MTSV, in a folder of cases in the case's own directory
+runner.11	1	runner	run					a case of the access program that starts a component runs as a child process, from the repository's files: void-os.8's case
+runner.22	1	runner	run					a started component's exit status and standard error are compared: void-os.8's case
+runner.12	1	runner	run					each file of octets is placed with its modification time set that many seconds before the call: storage.6's case
+runner.13	1	runner	run					each zip package of zip entries is written as a ZIP file, its entries in order, deflated where the method is 8: xlsx.1's case
+runner.14	1	runner	run					each database of database statements is built by running its statements in order on a new database: sqlite.1's second case
+runner.15	1	runner	run					the error the call ends with and its reason are compared: parser.3's case
+runner.16	1	runner	run					a fixture placed after at a result is compared as its sheets: storage.10's case
+runner.17	1	runner	run					a pathname of absent holds nothing after the call: storage.16's case
+runner.18	1	runner	run					each expected file holds the octets of the file beside the case's module file: distribution-package.5's case
+runner.19	1	runner	run					each text of file texts is held within one of the lines of the file it names: distribution-package.4's case
+arguments
+requirement	case	position	item	value
+runner.1	1	1	0	json-text.1
+runner.1	1	2	0	1
+runner.1	1	3	0	$REPOSITORY/conformance
+runner.2	1	1	0	storage.17
+runner.2	1	2	0	1
+runner.2	1	3	0	$REPOSITORY/conformance
+runner.3	1	1	0	storage.10
+runner.3	1	2	0	1
+runner.3	1	3	0	$REPOSITORY/conformance
+runner.4	1	1	0	json-text.1
+runner.4	1	2	0	1
+runner.4	1	3	0	$REPOSITORY/conformance
+runner.5	1	1	0	hook-output.7
+runner.5	1	2	0	1
+runner.5	1	3	0	$REPOSITORY/conformance
+runner.6	1	1	0	storage.17
+runner.6	1	2	0	1
+runner.6	1	3	0	$REPOSITORY/conformance
+runner.7	1	1	0	storage.20
+runner.7	1	2	0	1
+runner.7	1	3	0	$REPOSITORY/conformance
+runner.20	1	1	0	storage.8
+runner.20	1	2	0	1
+runner.20	1	3	0	$REPOSITORY/conformance
+runner.21	1	1	0	hook-output.8
+runner.21	1	2	0	1
+runner.21	1	3	0	$REPOSITORY/conformance
+runner.8	1	1	0	distribution-package.1
+runner.8	1	2	0	1
+runner.8	1	3	0	$REPOSITORY/conformance
+runner.9	1	1	0	no.such
+runner.9	1	2	0	1
+runner.9	1	3	0	$REPOSITORY/conformance
+runner.10	1	1	0	json-text.1
+runner.10	1	2	0	1
+runner.10	1	3	0	$PWD/c
+runner.11	1	1	0	void-os.8
+runner.11	1	2	0	1
+runner.11	1	3	0	$REPOSITORY/conformance
+runner.22	1	1	0	void-os.8
+runner.22	1	2	0	1
+runner.22	1	3	0	$REPOSITORY/conformance
+runner.12	1	1	0	storage.6
+runner.12	1	2	0	1
+runner.12	1	3	0	$REPOSITORY/conformance
+runner.13	1	1	0	xlsx.1
+runner.13	1	2	0	1
+runner.13	1	3	0	$REPOSITORY/conformance
+runner.14	1	1	0	sqlite.1
+runner.14	1	2	0	1
+runner.14	1	3	0	$REPOSITORY/conformance
+runner.15	1	1	0	parser.3
+runner.15	1	2	0	1
+runner.15	1	3	0	$REPOSITORY/conformance
+runner.16	1	1	0	storage.10
+runner.16	1	2	0	1
+runner.16	1	3	0	$REPOSITORY/conformance
+runner.17	1	1	0	storage.16
+runner.17	1	2	0	1
+runner.17	1	3	0	$REPOSITORY/conformance
+runner.18	1	1	0	distribution-package.5
+runner.18	1	2	0	1
+runner.18	1	3	0	$REPOSITORY/conformance
+runner.19	1	1	0	distribution-package.4
+runner.19	1	2	0	1
+runner.19	1	3	0	$REPOSITORY/conformance
+octets
+requirement	case	pathname	file	modified
+runner.10	1	$PWD/c/relational-model/format/json-text/json-text.mtsv	not-mtsv	
+results
+requirement	case	position	item	value
+runner.1	1	1	0	
+runner.2	1	1	0	
+runner.3	1	1	0	
+runner.4	1	1	0	
+runner.5	1	1	0	
+runner.6	1	1	0	
+runner.7	1	1	0	
+runner.20	1	1	0	
+runner.21	1	1	0	
+runner.8	1	1	0	
+runner.11	1	1	0	
+runner.22	1	1	0	
+runner.12	1	1	0	
+runner.13	1	1	0	
+runner.14	1	1	0	
+runner.15	1	1	0	
+runner.16	1	1	0	
+runner.17	1	1	0	
+runner.18	1	1	0	
+runner.19	1	1	0	

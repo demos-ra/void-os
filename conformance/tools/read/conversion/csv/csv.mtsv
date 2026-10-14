@@ -1,0 +1,14 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+csv.1	1	csv	load					csv reads a CSV file as one sheet whose sheet name is empty, its first record the header
+csv.2	1	csv	load	cannot be represented				a field MTSV cannot hold ends the load as cannot be represented
+arguments
+requirement	case	position	item	value
+csv.1	1	1	0	x,y<CR><LF>1,2<CR><LF>
+csv.2	1	1	0	x<CR><LF>"a<TAB>b"<CR><LF>
+placed
+requirement	case	when	pathname	fixture
+csv.1	1	after	result 1	b csv sheet
+results
+requirement	case	position	item	value
+csv.1	1	2	0	

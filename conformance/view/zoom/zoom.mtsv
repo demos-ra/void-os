@@ -1,0 +1,218 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+zoom.3	1	zoom	days					a day is the full date of a value's _time at the offset from UTC days is handed: 840 minutes
+zoom.1	1	zoom	days					days holds, for each day and each event of that day, the number of values stored, the days in order
+zoom.2	1	void-os	void-os			true		turns holds one record for each value stored on the day, in the order stored
+zoom.4	1	void-os	void-os			true		first line is the text up to its first line break of the first string instance that is not empty
+zoom.5	1	void-os	void-os			true		agent, session, turn and model hold the members harness members names for them
+arguments
+requirement	case	position	item	value
+zoom.3	1	2	0	/w
+zoom.3	1	3	0	840
+zoom.1	1	2	0	/w
+zoom.1	1	3	0	0
+zoom.2	1	1	0	view
+zoom.2	1	2	0	/w
+zoom.2	1	3	0	2026-10-01
+zoom.4	1	1	0	view
+zoom.4	1	2	0	/w
+zoom.4	1	3	0	2026-10-01
+zoom.5	1	1	0	view
+zoom.5	1	2	0	/w
+zoom.5	1	3	0	2026-10-01
+environment
+requirement	case	name	value
+zoom.3	1	VOID_OS_DATA_BANK	$PWD/bank
+zoom.1	1	VOID_OS_DATA_BANK	$PWD/bank
+zoom.2	1	VOID_OS_DATA_BANK	$PWD/bank
+zoom.4	1	VOID_OS_DATA_BANK	$PWD/bank
+zoom.5	1	VOID_OS_DATA_BANK	$PWD/bank
+fixtures
+fixture	sheet	record	field	value
+days three at plus 14	1	0	1	days
+days three at plus 14	1	1	1	input
+days three at plus 14	1	1	2	day
+days three at plus 14	1	1	3	event
+days three at plus 14	1	1	4	values
+days three at plus 14	1	2	1	/w
+days three at plus 14	1	2	2	2026-10-02
+days three at plus 14	1	2	3	SessionStart
+days three at plus 14	1	2	4	2
+days three at plus 14	1	3	1	/w
+days three at plus 14	1	3	2	2026-10-04
+days three at plus 14	1	3	3	Stop
+days three at plus 14	1	3	4	1
+turns three	1	0	1	turns
+turns three	1	1	1	input
+turns three	1	1	2	value
+turns three	1	1	3	time
+turns three	1	1	4	event
+turns three	1	1	5	agent
+turns three	1	1	6	session
+turns three	1	1	7	turn
+turns three	1	1	8	model
+turns three	1	1	9	first line
+turns three	1	2	1	/w
+turns three	1	2	2	0
+turns three	1	2	3	2026-10-01T10:00:00Z
+turns three	1	2	4	SessionStart
+turns three	1	2	9	SessionStart
+turns three	1	3	1	/w
+turns three	1	3	2	1
+turns three	1	3	3	2026-10-01T11:00:00Z
+turns three	1	3	4	SessionStart
+turns three	1	3	9	SessionStart
+runs input	1	0	1	hook input
+runs input	1	1	1	_input value
+runs input	1	2	1	0
+runs input	2	0	1	_instances
+runs input	2	1	1	_input value
+runs input	2	1	2	_instance
+runs input	2	1	3	_parent
+runs input	2	1	4	_pointer
+runs input	2	1	5	_type
+runs input	2	1	6	_value
+runs input	2	2	1	0
+runs input	2	2	2	1
+runs input	2	2	3	0
+runs input	2	2	4	/a
+runs input	2	2	5	string
+runs input	2	3	1	0
+runs input	2	3	2	2
+runs input	2	3	3	0
+runs input	2	3	4	/b
+runs input	2	3	5	string
+runs input	3	0	1	_runs
+runs input	3	1	1	_input value
+runs input	3	1	2	_instance
+runs input	3	1	3	_page
+runs input	3	1	4	_line
+runs input	3	1	5	_position
+runs input	3	1	6	_value
+runs input	3	2	1	0
+runs input	3	2	2	2
+runs input	3	2	3	0
+runs input	3	2	4	0
+runs input	3	2	5	0
+runs input	3	2	6	line one
+runs input	3	3	1	0
+runs input	3	3	2	2
+runs input	3	3	3	0
+runs input	3	3	4	1
+runs input	3	3	5	0
+runs input	3	3	6	line two
+agent input	1	0	1	hook input
+agent input	1	1	1	_input value
+agent input	1	2	1	0
+agent input	2	0	1	_instances
+agent input	2	1	1	_input value
+agent input	2	1	2	_instance
+agent input	2	1	3	_parent
+agent input	2	1	4	_pointer
+agent input	2	1	5	_type
+agent input	2	1	6	_value
+agent input	2	2	1	0
+agent input	2	2	2	1
+agent input	2	2	3	0
+agent input	2	2	4	/hook_event_name
+agent input	2	2	5	string
+agent input	2	2	6	SubagentStart
+agent input	2	3	1	0
+agent input	2	3	2	2
+agent input	2	3	3	0
+agent input	2	3	4	/agent_id
+agent input	2	3	5	string
+agent input	2	3	6	a1
+agent input	2	4	1	0
+agent input	2	4	2	3
+agent input	2	4	3	0
+agent input	2	4	4	/session_id
+agent input	2	4	5	string
+agent input	2	4	6	s1
+agent input	2	5	1	0
+agent input	2	5	2	4
+agent input	2	5	3	0
+agent input	2	5	4	/prompt_id
+agent input	2	5	5	string
+agent input	2	5	6	p1
+agent input	2	6	1	0
+agent input	2	6	2	5
+agent input	2	6	3	0
+agent input	2	6	4	/model
+agent input	2	6	5	string
+agent input	2	6	6	m1
+turns runs	1	0	1	turns
+turns runs	1	1	1	input
+turns runs	1	1	2	value
+turns runs	1	1	3	time
+turns runs	1	1	4	event
+turns runs	1	1	5	agent
+turns runs	1	1	6	session
+turns runs	1	1	7	turn
+turns runs	1	1	8	model
+turns runs	1	1	9	first line
+turns runs	1	2	1	/w
+turns runs	1	2	2	0
+turns runs	1	2	3	2026-10-01T10:00:00Z
+turns runs	1	2	4	SessionStart
+turns runs	1	2	9	line one
+turns agent	1	0	1	turns
+turns agent	1	1	1	input
+turns agent	1	1	2	value
+turns agent	1	1	3	time
+turns agent	1	1	4	event
+turns agent	1	1	5	agent
+turns agent	1	1	6	session
+turns agent	1	1	7	turn
+turns agent	1	1	8	model
+turns agent	1	1	9	first line
+turns agent	1	2	1	/w
+turns agent	1	2	2	0
+turns agent	1	2	3	2026-10-01T10:00:00Z
+turns agent	1	2	4	SessionStart
+turns agent	1	2	5	a1
+turns agent	1	2	6	s1
+turns agent	1	2	7	p1
+turns agent	1	2	8	m1
+turns agent	1	2	9	SubagentStart
+one _stored	1	0	1	_stored
+one _stored	1	1	1	_input
+one _stored	1	1	2	_input value
+one _stored	1	1	3	_time
+one _stored	1	1	4	_event
+one _stored	1	2	1	/w
+one _stored	1	2	2	0
+one _stored	1	2	3	2026-10-01T10:00:00Z
+one _stored	1	2	4	SessionStart
+placed
+requirement	case	when	pathname	fixture
+zoom.3	1	before	$PWD/bank/w.mtsv	three values input
+zoom.3	1	before	$PWD/bank/_stored.mtsv	three _stored
+zoom.3	1	before	$PWD/bank/_sheets.mtsv	w _sheets
+zoom.3	1	before	$PWD/bank/_fields.mtsv	w _fields
+zoom.3	1	after	result 1	days three at plus 14
+zoom.1	1	before	$PWD/bank/w.mtsv	three values input
+zoom.1	1	before	$PWD/bank/_stored.mtsv	three _stored
+zoom.1	1	before	$PWD/bank/_sheets.mtsv	w _sheets
+zoom.1	1	before	$PWD/bank/_fields.mtsv	w _fields
+zoom.1	1	after	result 1	days three
+zoom.2	1	before	$PWD/bank/w.mtsv	three values input
+zoom.2	1	before	$PWD/bank/_stored.mtsv	three _stored
+zoom.2	1	before	$PWD/bank/_sheets.mtsv	w _sheets
+zoom.2	1	before	$PWD/bank/_fields.mtsv	w _fields
+zoom.2	1	after	-	turns three
+zoom.4	1	before	$PWD/bank/w.mtsv	runs input
+zoom.4	1	before	$PWD/bank/_stored.mtsv	one _stored
+zoom.4	1	before	$PWD/bank/_sheets.mtsv	w _sheets
+zoom.4	1	before	$PWD/bank/_fields.mtsv	w _fields
+zoom.4	1	after	-	turns runs
+zoom.5	1	before	$PWD/bank/w.mtsv	agent input
+zoom.5	1	before	$PWD/bank/_stored.mtsv	one _stored
+zoom.5	1	before	$PWD/bank/_sheets.mtsv	w _sheets
+zoom.5	1	before	$PWD/bank/_fields.mtsv	w _fields
+zoom.5	1	after	-	turns agent
+results
+requirement	case	position	item	value
+zoom.2	1	1	0	0
+zoom.4	1	1	0	0
+zoom.5	1	1	0	0

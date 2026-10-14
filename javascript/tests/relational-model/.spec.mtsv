@@ -1,0 +1,81 @@
+1-folders
+kind	place	holds
+—	format	—
+—	query	—
+2-modules
+kind	place	holds
+{{name}} · .js	relational-model.test	—
+3-statements
+kind	place	holds
+ImportDeclaration	relational-model.test.js#/SourceFile/0	—
+ImportDeclaration	relational-model.test.js#/SourceFile/1	—
+ImportDeclaration	relational-model.test.js#/SourceFile/2	—
+ImportDeclaration	relational-model.test.js#/SourceFile/3	—
+ExpressionStatement	relational-model.test.js#/SourceFile/4	—
+ExpressionStatement	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0	—
+4-expressions
+kind	place	holds
+ImportClause · name	relational-model.test.js#/SourceFile/0/ImportClause	—
+StringLiteral	relational-model.test.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	relational-model.test.js#/SourceFile/1/ImportClause	—
+NamespaceImport	relational-model.test.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	relational-model.test.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	relational-model.test.js#/SourceFile/2/ImportClause	—
+NamespaceImport	relational-model.test.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	relational-model.test.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	relational-model.test.js#/SourceFile/3/ImportClause	—
+NamespaceImport	relational-model.test.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	relational-model.test.js#/SourceFile/3/ModuleSpecifier	—
+CallExpression	relational-model.test.js#/SourceFile/4/Expression	—
+Identifier	relational-model.test.js#/SourceFile/4/Expression/Expression	—
+StringLiteral	relational-model.test.js#/SourceFile/4/Expression/Arguments/0	—
+ArrowFunction · Block	relational-model.test.js#/SourceFile/4/Expression/Arguments/1	—
+—	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0	—
+Identifier	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+5-texts
+kind	place	holds
+—	relational-model.test.js#/SourceFile/0/ImportClause/name/Text	test
+—	relational-model.test.js#/SourceFile/0/ModuleSpecifier/Text	'node:test'
+—	relational-model.test.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	relationalModel
+—	relational-model.test.js#/SourceFile/1/ModuleSpecifier/Text	'../../src/relational-model/relational-model.js'
+—	relational-model.test.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	values
+—	relational-model.test.js#/SourceFile/2/ModuleSpecifier/Text	'../../src/system-generation/values/values.js'
+—	relational-model.test.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	runner
+—	relational-model.test.js#/SourceFile/3/ModuleSpecifier/Text	'../system-generation/runner/runner.js'
+—	relational-model.test.js#/SourceFile/4/Expression/Expression/Text	test
+—	relational-model.test.js#/SourceFile/4/Expression/Arguments/0/Text	'relational-model.1'
+—	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name/Text	t
+—	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'relational-model.1'
+—	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../conformance'
+—	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	relational-model.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values

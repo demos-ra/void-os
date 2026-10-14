@@ -1,0 +1,127 @@
+1-folders
+kind	place	holds
+—	converter	—
+—	storage	—
+—	communication	—
+2-modules
+kind	place	holds
+{{name}} · .js	data-bank.test	—
+3-statements
+kind	place	holds
+ImportDeclaration	data-bank.test.js#/SourceFile/0	—
+ImportDeclaration	data-bank.test.js#/SourceFile/1	—
+ImportDeclaration	data-bank.test.js#/SourceFile/2	—
+ImportDeclaration	data-bank.test.js#/SourceFile/3	—
+ExpressionStatement	data-bank.test.js#/SourceFile/4	—
+ExpressionStatement	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0	—
+ExpressionStatement	data-bank.test.js#/SourceFile/5	—
+ExpressionStatement	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0	—
+4-expressions
+kind	place	holds
+ImportClause · name	data-bank.test.js#/SourceFile/0/ImportClause	—
+StringLiteral	data-bank.test.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	data-bank.test.js#/SourceFile/1/ImportClause	—
+NamespaceImport	data-bank.test.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	data-bank.test.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	data-bank.test.js#/SourceFile/2/ImportClause	—
+NamespaceImport	data-bank.test.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	data-bank.test.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	data-bank.test.js#/SourceFile/3/ImportClause	—
+NamespaceImport	data-bank.test.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	data-bank.test.js#/SourceFile/3/ModuleSpecifier	—
+CallExpression	data-bank.test.js#/SourceFile/4/Expression	—
+Identifier	data-bank.test.js#/SourceFile/4/Expression/Expression	—
+StringLiteral	data-bank.test.js#/SourceFile/4/Expression/Arguments/0	—
+ArrowFunction · Block	data-bank.test.js#/SourceFile/4/Expression/Arguments/1	—
+—	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0	—
+Identifier	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	data-bank.test.js#/SourceFile/5/Expression	—
+Identifier	data-bank.test.js#/SourceFile/5/Expression/Expression	—
+StringLiteral	data-bank.test.js#/SourceFile/5/Expression/Arguments/0	—
+ArrowFunction · Block	data-bank.test.js#/SourceFile/5/Expression/Arguments/1	—
+—	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0	—
+Identifier	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+5-texts
+kind	place	holds
+—	data-bank.test.js#/SourceFile/0/ImportClause/name/Text	test
+—	data-bank.test.js#/SourceFile/0/ModuleSpecifier/Text	'node:test'
+—	data-bank.test.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	relationalModel
+—	data-bank.test.js#/SourceFile/1/ModuleSpecifier/Text	'../../src/relational-model/relational-model.js'
+—	data-bank.test.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	values
+—	data-bank.test.js#/SourceFile/2/ModuleSpecifier/Text	'../../src/system-generation/values/values.js'
+—	data-bank.test.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	runner
+—	data-bank.test.js#/SourceFile/3/ModuleSpecifier/Text	'../system-generation/runner/runner.js'
+—	data-bank.test.js#/SourceFile/4/Expression/Expression/Text	test
+—	data-bank.test.js#/SourceFile/4/Expression/Arguments/0/Text	'data-bank.1'
+—	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name/Text	t
+—	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'data-bank.1'
+—	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../conformance'
+—	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	data-bank.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	data-bank.test.js#/SourceFile/5/Expression/Expression/Text	test
+—	data-bank.test.js#/SourceFile/5/Expression/Arguments/0/Text	'data-bank.3'
+—	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name/Text	t
+—	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'data-bank.3'
+—	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../conformance'
+—	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	data-bank.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values

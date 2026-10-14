@@ -1,0 +1,90 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .py	__init__	—
+{{name}} · .py	test_record	—
+3-statements
+kind	place	holds
+Import	test_record.py#/Module/0	—
+Import	test_record.py#/Module/1	—
+ImportFrom	test_record.py#/Module/2	—
+ImportFrom	test_record.py#/Module/3	—
+ImportFrom	test_record.py#/Module/4	—
+ClassDef	test_record.py#/Module/5	—
+FunctionDef	test_record.py#/Module/5/body/0	—
+Expr	test_record.py#/Module/5/body/0/body/0	—
+With	test_record.py#/Module/5/body/0/body/1	—
+Expr	test_record.py#/Module/5/body/0/body/1/body/0	—
+4-expressions
+kind	place	holds
+—	test_record.py#/Module/0/names/0	—
+—	test_record.py#/Module/1/names/0	—
+—	test_record.py#/Module/2/module	—
+—	test_record.py#/Module/2/names/0	—
+—	test_record.py#/Module/3/module	—
+—	test_record.py#/Module/3/names/0	—
+—	test_record.py#/Module/4/module	—
+—	test_record.py#/Module/4/names/0	—
+Attribute	test_record.py#/Module/5/arguments/0	—
+Name	test_record.py#/Module/5/arguments/0/value	—
+arg	test_record.py#/Module/5/body/0/args/0	—
+Constant	test_record.py#/Module/5/body/0/body/0/value	—
+—	test_record.py#/Module/5/body/0/body/1/items/0	—
+Call	test_record.py#/Module/5/body/0/body/1/items/0/context_expr	—
+Attribute	test_record.py#/Module/5/body/0/body/1/items/0/context_expr/func	—
+Name	test_record.py#/Module/5/body/0/body/1/items/0/context_expr/func/value	—
+keyword	test_record.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0	—
+Constant	test_record.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0/value	—
+Call	test_record.py#/Module/5/body/0/body/1/body/0/value	—
+Attribute	test_record.py#/Module/5/body/0/body/1/body/0/value/func	—
+Name	test_record.py#/Module/5/body/0/body/1/body/0/value/func/value	—
+Call	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0	—
+Attribute	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func	—
+Name	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func/value	—
+Constant	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/0	—
+Constant	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/1	—
+BinOp	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2	—
+Call	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left	—
+Attribute	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func	—
+Attribute	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value	—
+Name	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value	—
+Name	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0	—
+Add	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/op	—
+Constant	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/right	—
+Name	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/3	—
+Name	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/4	—
+List	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/1	—
+5-texts
+kind	place	holds
+—	test_record.py#/Module/0/names/0/name	unittest
+—	test_record.py#/Module/1/names/0/name	os
+—	test_record.py#/Module/2/module/value	tests.void_os.system_generation.runner
+—	test_record.py#/Module/2/names/0/name	_runner
+—	test_record.py#/Module/3/module/value	void_os.relational_model
+—	test_record.py#/Module/3/names/0/name	_relational_model
+—	test_record.py#/Module/4/module/value	void_os.system_generation.values
+—	test_record.py#/Module/4/names/0/name	_values
+—	test_record.py#/Module/5/name/value	TestRecord
+—	test_record.py#/Module/5/arguments/0/value/id	unittest
+—	test_record.py#/Module/5/arguments/0/attr	TestCase
+—	test_record.py#/Module/5/body/0/name/value	test_record_1
+—	test_record.py#/Module/5/body/0/args/0/arg	self
+—	test_record.py#/Module/5/body/0/body/0/value/value	"""Each instance, and each run of text, that a relation holds MUST be one record of its sheet."""
+—	test_record.py#/Module/5/body/0/body/1/items/0/context_expr/func/value/id	self
+—	test_record.py#/Module/5/body/0/body/1/items/0/context_expr/func/attr	subTest
+—	test_record.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0/arg	case
+—	test_record.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0/value/value	1
+—	test_record.py#/Module/5/body/0/body/1/body/0/value/func/value/id	self
+—	test_record.py#/Module/5/body/0/body/1/body/0/value/func/attr	assertEqual
+—	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func/value/id	_runner
+—	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func/attr	run
+—	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/0/value	'record.1'
+—	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/1/value	1
+—	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value/id	os
+—	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value/attr	path
+—	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/attr	dirname
+—	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0/id	__file__
+—	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/right/value	'/../../../../../../../conformance'
+—	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/3/id	_relational_model
+—	test_record.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/4/id	_values

@@ -1,0 +1,24 @@
+1-folders
+kind	place	holds
+—	src	—
+—	tests	—
+2-modules
+kind	place	holds
+{{name}} · .json	package	—
+3-statements
+kind	place	holds
+value	package.json#/JSON-text/0	—
+4-expressions
+kind	place	holds
+object	package.json#/JSON-text/0/value	—
+member	package.json#/JSON-text/0/value/member/0	—
+—	package.json#/JSON-text/0/value/member/0/string	—
+object	package.json#/JSON-text/0/value/member/0/value	—
+member	package.json#/JSON-text/0/value/member/0/value/member/0	—
+—	package.json#/JSON-text/0/value/member/0/value/member/0/string	—
+string	package.json#/JSON-text/0/value/member/0/value/member/0/value	—
+5-texts
+kind	place	holds
+—	package.json#/JSON-text/0/value/member/0/string/char	bin
+—	package.json#/JSON-text/0/value/member/0/value/member/0/string/char	void-os
+—	package.json#/JSON-text/0/value/member/0/value/member/0/value/char	src/void-os.js

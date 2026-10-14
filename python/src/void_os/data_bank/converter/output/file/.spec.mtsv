@@ -1,0 +1,66 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .py	__init__	—
+{{name}} · .py	_file	—
+3-statements
+kind	place	holds
+Expr	_file.py#/Module/0	—
+Assign	_file.py#/Module/1	—
+ImportFrom	_file.py#/Module/2	—
+FunctionDef	_file.py#/Module/3	—
+Return	_file.py#/Module/3/body/0	—
+4-expressions
+kind	place	holds
+Constant	_file.py#/Module/0/value	—
+Name	_file.py#/Module/1/targets/0	—
+List	_file.py#/Module/1/value	—
+Constant	_file.py#/Module/1/value/elts/0	—
+—	_file.py#/Module/2/module	—
+—	_file.py#/Module/2/names/0	—
+arg	_file.py#/Module/3/args/0	—
+Subscript	_file.py#/Module/3/args/0/annotation	—
+Name	_file.py#/Module/3/args/0/annotation/value	—
+Subscript	_file.py#/Module/3/args/0/annotation/slice	—
+Name	_file.py#/Module/3/args/0/annotation/slice/value	—
+Tuple	_file.py#/Module/3/args/0/annotation/slice/slice	—
+Name	_file.py#/Module/3/args/0/annotation/slice/slice/elts/0	—
+Name	_file.py#/Module/3/args/0/annotation/slice/slice/elts/1	—
+Subscript	_file.py#/Module/3/returns	—
+Name	_file.py#/Module/3/returns/value	—
+Subscript	_file.py#/Module/3/returns/slice	—
+Name	_file.py#/Module/3/returns/slice/value	—
+Tuple	_file.py#/Module/3/returns/slice/slice	—
+Name	_file.py#/Module/3/returns/slice/slice/elts/0	—
+Name	_file.py#/Module/3/returns/slice/slice/elts/1	—
+ListComp	_file.py#/Module/3/body/0/value	—
+Name	_file.py#/Module/3/body/0/value/elt	—
+comprehension	_file.py#/Module/3/body/0/value/generators/0	—
+Name	_file.py#/Module/3/body/0/value/generators/0/target	—
+Name	_file.py#/Module/3/body/0/value/generators/0/iter	—
+Subscript	_file.py#/Module/3/body/0/value/generators/0/ifs/0	—
+Name	_file.py#/Module/3/body/0/value/generators/0/ifs/0/value	—
+Constant	_file.py#/Module/3/body/0/value/generators/0/ifs/0/slice	—
+5-texts
+kind	place	holds
+—	_file.py#/Module/0/value/value	"""which sheets the whole input's one MTSV file holds, and in which order"""
+—	_file.py#/Module/1/targets/0/id	__all__
+—	_file.py#/Module/1/value/elts/0/value	'file'
+—	_file.py#/Module/2/module/value	typing
+—	_file.py#/Module/2/names/0/name	Any
+—	_file.py#/Module/3/name/value	file
+—	_file.py#/Module/3/args/0/arg	sheets
+—	_file.py#/Module/3/args/0/annotation/value/id	list
+—	_file.py#/Module/3/args/0/annotation/slice/value/id	dict
+—	_file.py#/Module/3/args/0/annotation/slice/slice/elts/0/id	str
+—	_file.py#/Module/3/args/0/annotation/slice/slice/elts/1/id	Any
+—	_file.py#/Module/3/returns/value/id	list
+—	_file.py#/Module/3/returns/slice/value/id	dict
+—	_file.py#/Module/3/returns/slice/slice/elts/0/id	str
+—	_file.py#/Module/3/returns/slice/slice/elts/1/id	Any
+—	_file.py#/Module/3/body/0/value/elt/id	sheet
+—	_file.py#/Module/3/body/0/value/generators/0/target/id	sheet
+—	_file.py#/Module/3/body/0/value/generators/0/iter/id	sheets
+—	_file.py#/Module/3/body/0/value/generators/0/ifs/0/value/id	sheet
+—	_file.py#/Module/3/body/0/value/generators/0/ifs/0/slice/value	'records'

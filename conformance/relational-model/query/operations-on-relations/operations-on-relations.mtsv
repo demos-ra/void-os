@@ -1,0 +1,97 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+operations-on-relations.1	1	operations on relations	restrict					restriction keeps the records whose positions records names
+operations-on-relations.3	1	operations on relations	project					projection keeps the fields whose positions fields names
+operations-on-relations.4	1	operations on relations	restrict					with a filter, records counts the records the filter keeps
+operations-on-relations.2	1	operations on relations	project					a sheet left with no field comes back empty
+operations-on-relations.5	1	operations on relations	join					a join gives the natural join on the shared column, named p*q, then the other sheets
+operations-on-relations.6	1	operations on relations	join	refused				a join of sheets that share no column is refused
+arguments
+requirement	case	position	item	value
+operations-on-relations.1	1	2	0	1;3
+operations-on-relations.1	1	3	0	
+operations-on-relations.3	1	2	0	2
+operations-on-relations.4	1	2	0	1
+operations-on-relations.4	1	3	0	@[0] != '1'
+operations-on-relations.2	1	2	0	9
+operations-on-relations.5	1	3	0	1-2
+operations-on-relations.6	1	3	0	1-2
+fixtures
+fixture	sheet	record	field	value
+s field y	1	0	1	s
+s field y	1	1	1	y
+s field y	1	2	1	2
+s field y	1	3	1	4
+s field y	1	4	1	6
+s kept 3 4	1	0	1	s
+s kept 3 4	1	1	1	x
+s kept 3 4	1	1	2	y
+s kept 3 4	1	2	1	3
+s kept 3 4	1	2	2	4
+s empty	1	0	1	s
+p and r	1	0	1	p
+p and r	1	1	1	k
+p and r	1	1	2	a
+p and r	1	2	1	1
+p and r	1	2	2	x
+p and r	1	3	1	2
+p and r	1	3	2	y
+p and r	2	0	1	r
+p and r	2	1	1	c
+p and r	2	2	1	w
+p q and r	1	0	1	p
+p q and r	1	1	1	k
+p q and r	1	1	2	a
+p q and r	1	2	1	1
+p q and r	1	2	2	x
+p q and r	1	3	1	2
+p q and r	1	3	2	y
+p q and r	2	0	1	q
+p q and r	2	1	1	k
+p q and r	2	1	2	b
+p q and r	2	2	1	2
+p q and r	2	2	2	z
+p q and r	3	0	1	r
+p q and r	3	1	1	c
+p q and r	3	2	1	w
+p q and r origins	1	0	1	origins
+p q and r origins	1	1	1	sheet
+p q and r origins	1	1	2	file
+p q and r origins	1	2	1	1
+p q and r origins	1	2	2	1
+p q and r origins	1	3	1	2
+p q and r origins	1	3	2	1
+p q and r origins	1	4	1	3
+p q and r origins	1	4	2	1
+p*q then r	1	0	1	p*q
+p*q then r	1	1	1	k
+p*q then r	1	1	2	a
+p*q then r	1	1	3	b
+p*q then r	1	2	1	2
+p*q then r	1	2	2	y
+p*q then r	1	2	3	z
+p*q then r	2	0	1	r
+p*q then r	2	1	1	c
+p*q then r	2	2	1	w
+p and r origins	1	0	1	origins
+p and r origins	1	1	1	sheet
+p and r origins	1	1	2	file
+p and r origins	1	2	1	1
+p and r origins	1	2	2	1
+p and r origins	1	3	1	2
+p and r origins	1	3	2	1
+placed
+requirement	case	when	pathname	fixture
+operations-on-relations.1	1	before	argument 1	a sheet s
+operations-on-relations.1	1	after	result 1	s records 1 and 3
+operations-on-relations.3	1	before	argument 1	a sheet s
+operations-on-relations.3	1	after	result 1	s field y
+operations-on-relations.4	1	before	argument 1	a sheet s
+operations-on-relations.4	1	after	result 1	s kept 3 4
+operations-on-relations.2	1	before	argument 1	a sheet s
+operations-on-relations.2	1	after	result 1	s empty
+operations-on-relations.5	1	before	argument 1	p q and r
+operations-on-relations.5	1	before	argument 2	p q and r origins
+operations-on-relations.5	1	after	result 1	p*q then r
+operations-on-relations.6	1	before	argument 1	p and r
+operations-on-relations.6	1	before	argument 2	p and r origins

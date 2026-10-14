@@ -1,0 +1,975 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .js	operations-on-relations	—
+3-statements
+kind	place	holds
+FunctionDeclaration · Body	operations-on-relations.js#/SourceFile/0	—
+IfStatement	operations-on-relations.js#/SourceFile/0/Body/0	—
+ReturnStatement	operations-on-relations.js#/SourceFile/0/Body/0/ThenStatement/0	—
+VariableStatement	operations-on-relations.js#/SourceFile/0/Body/1	—
+VariableStatement	operations-on-relations.js#/SourceFile/0/Body/2	—
+ForOfStatement	operations-on-relations.js#/SourceFile/0/Body/3	—
+IfStatement	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0	—
+ExpressionStatement	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/ThenStatement/0	—
+ExpressionStatement	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1	—
+VariableStatement	operations-on-relations.js#/SourceFile/0/Body/4	—
+TryStatement	operations-on-relations.js#/SourceFile/0/Body/5	—
+ForOfStatement	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0	—
+VariableStatement	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0	—
+IfStatement	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1	—
+ExpressionStatement	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1/ThenStatement/0	—
+ExpressionStatement	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2	—
+IfStatement	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/Block/0	—
+ThrowStatement	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/Block/0/ThenStatement/0	—
+ThrowStatement	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/Block/1	—
+ReturnStatement	operations-on-relations.js#/SourceFile/0/Body/6	—
+FunctionDeclaration · Body	operations-on-relations.js#/SourceFile/1	—
+TryStatement	operations-on-relations.js#/SourceFile/1/Body/0	—
+ReturnStatement	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0	—
+IfStatement	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/Block/0	—
+ThrowStatement	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/Block/0/ThenStatement/0	—
+ThrowStatement	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/Block/1	—
+FunctionDeclaration · Body	operations-on-relations.js#/SourceFile/2	—
+TryStatement	operations-on-relations.js#/SourceFile/2/Body/0	—
+VariableStatement	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/0	—
+ReturnStatement	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1	—
+IfStatement	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/0	—
+ThrowStatement	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/0/ThenStatement/0	—
+IfStatement	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/1	—
+ThrowStatement	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/1/ThenStatement/0	—
+ThrowStatement	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/2	—
+ClassDeclaration	operations-on-relations.js#/SourceFile/3	—
+FunctionDeclaration · Body	operations-on-relations.js#/SourceFile/4	—
+VariableStatement	operations-on-relations.js#/SourceFile/4/Body/0	—
+IfStatement	operations-on-relations.js#/SourceFile/4/Body/1	—
+ThrowStatement	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0	—
+VariableStatement	operations-on-relations.js#/SourceFile/4/Body/2	—
+ReturnStatement	operations-on-relations.js#/SourceFile/4/Body/3	—
+FunctionDeclaration · Body	operations-on-relations.js#/SourceFile/5	—
+IfStatement	operations-on-relations.js#/SourceFile/5/Body/0	—
+ReturnStatement	operations-on-relations.js#/SourceFile/5/Body/0/ThenStatement/0	—
+ReturnStatement	operations-on-relations.js#/SourceFile/5/Body/1	—
+4-expressions
+kind	place	holds
+ExportKeyword	operations-on-relations.js#/SourceFile/0/modifiers/0	—
+—	operations-on-relations.js#/SourceFile/0/name	—
+—	operations-on-relations.js#/SourceFile/0/Parameters/0	—
+Identifier	operations-on-relations.js#/SourceFile/0/Parameters/0/name	—
+—	operations-on-relations.js#/SourceFile/0/Parameters/1	—
+Identifier	operations-on-relations.js#/SourceFile/0/Parameters/1/name	—
+—	operations-on-relations.js#/SourceFile/0/Parameters/2	—
+Identifier	operations-on-relations.js#/SourceFile/0/Parameters/2/name	—
+—	operations-on-relations.js#/SourceFile/0/Parameters/3	—
+Identifier	operations-on-relations.js#/SourceFile/0/Parameters/3/name	—
+—	operations-on-relations.js#/SourceFile/0/Parameters/4	—
+Identifier	operations-on-relations.js#/SourceFile/0/Parameters/4/name	—
+PrefixUnaryExpression	operations-on-relations.js#/SourceFile/0/Body/0/Expression	—
+ExclamationToken	operations-on-relations.js#/SourceFile/0/Body/0/Expression/Operator	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/0/Expression/Operand	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/0/ThenStatement/0/Expression	—
+ConstKeyword	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Flags/0	—
+—	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/name	—
+CallExpression	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Expression/name	—
+CallExpression	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/name	—
+ArrowFunction · Expression	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0	—
+—	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Parameters/0	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Parameters/0/name	—
+ArrayLiteralExpression	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body	—
+ElementAccessExpression	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Expression	—
+NumericLiteral	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/ArgumentExpression	—
+ElementAccessExpression	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/Expression	—
+NumericLiteral	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/ArgumentExpression	—
+ConstKeyword	operations-on-relations.js#/SourceFile/0/Body/2/DeclarationList/Flags/0	—
+—	operations-on-relations.js#/SourceFile/0/Body/2/DeclarationList/Declarations/0	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/2/DeclarationList/Declarations/0/name	—
+NewExpression	operations-on-relations.js#/SourceFile/0/Body/2/DeclarationList/Declarations/0/Initializer	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/2/DeclarationList/Declarations/0/Initializer/Expression	—
+VariableDeclarationList	operations-on-relations.js#/SourceFile/0/Body/3/Initializer	—
+ConstKeyword	operations-on-relations.js#/SourceFile/0/Body/3/Initializer/Flags/0	—
+—	operations-on-relations.js#/SourceFile/0/Body/3/Initializer/Declarations/0	—
+ArrayBindingPattern	operations-on-relations.js#/SourceFile/0/Body/3/Initializer/Declarations/0/name	—
+—	operations-on-relations.js#/SourceFile/0/Body/3/Initializer/Declarations/0/name/Elements/0	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/3/Initializer/Declarations/0/name/Elements/0/name	—
+—	operations-on-relations.js#/SourceFile/0/Body/3/Initializer/Declarations/0/name/Elements/1	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/3/Initializer/Declarations/0/name/Elements/1/name	—
+CallExpression	operations-on-relations.js#/SourceFile/0/Body/3/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/0/Body/3/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/3/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/3/Expression/Expression/name	—
+PrefixUnaryExpression	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/Expression	—
+ExclamationToken	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/Expression/Operator	—
+CallExpression	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/Expression/Operand	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/Expression/Operand/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/Expression/Operand/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/Expression/Operand/Expression/name	—
+ElementAccessExpression	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/Expression/Operand/Arguments/0	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/Expression/Operand/Arguments/0/Expression	—
+CallExpression	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/Expression/Operand/Arguments/0/ArgumentExpression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/Expression/Operand/Arguments/0/ArgumentExpression/Expression	—
+BinaryExpression	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/Expression/Operand/Arguments/0/ArgumentExpression/Arguments/0	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/Expression/Operand/Arguments/0/ArgumentExpression/Arguments/0/Left	—
+PlusToken	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/Expression/Operand/Arguments/0/ArgumentExpression/Arguments/0/OperatorToken	—
+NumericLiteral	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/Expression/Operand/Arguments/0/ArgumentExpression/Arguments/0/Right	—
+CallExpression	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/ThenStatement/0/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/ThenStatement/0/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/ThenStatement/0/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/ThenStatement/0/Expression/Expression/name	—
+ElementAccessExpression	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/ThenStatement/0/Expression/Arguments/0	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/ThenStatement/0/Expression/Arguments/0/Expression	—
+CallExpression	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/ThenStatement/0/Expression/Arguments/0/ArgumentExpression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/ThenStatement/0/Expression/Arguments/0/ArgumentExpression/Expression	—
+BinaryExpression	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/ThenStatement/0/Expression/Arguments/0/ArgumentExpression/Arguments/0	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/ThenStatement/0/Expression/Arguments/0/ArgumentExpression/Arguments/0/Left	—
+PlusToken	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/ThenStatement/0/Expression/Arguments/0/ArgumentExpression/Arguments/0/OperatorToken	—
+NumericLiteral	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/ThenStatement/0/Expression/Arguments/0/ArgumentExpression/Arguments/0/Right	—
+ArrayLiteralExpression	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/ThenStatement/0/Expression/Arguments/1	—
+CallExpression	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1/Expression/Expression	—
+CallExpression	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1/Expression/Expression/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1/Expression/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1/Expression/Expression/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1/Expression/Expression/Expression/Expression/name	—
+ElementAccessExpression	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1/Expression/Expression/Expression/Arguments/0	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1/Expression/Expression/Expression/Arguments/0/Expression	—
+CallExpression	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1/Expression/Expression/Expression/Arguments/0/ArgumentExpression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1/Expression/Expression/Expression/Arguments/0/ArgumentExpression/Expression	—
+BinaryExpression	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1/Expression/Expression/Expression/Arguments/0/ArgumentExpression/Arguments/0	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1/Expression/Expression/Expression/Arguments/0/ArgumentExpression/Arguments/0/Left	—
+PlusToken	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1/Expression/Expression/Expression/Arguments/0/ArgumentExpression/Arguments/0/OperatorToken	—
+NumericLiteral	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1/Expression/Expression/Expression/Arguments/0/ArgumentExpression/Arguments/0/Right	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1/Expression/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1/Expression/Arguments/0	—
+ConstKeyword	operations-on-relations.js#/SourceFile/0/Body/4/DeclarationList/Flags/0	—
+—	operations-on-relations.js#/SourceFile/0/Body/4/DeclarationList/Declarations/0	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/4/DeclarationList/Declarations/0/name	—
+ArrayLiteralExpression	operations-on-relations.js#/SourceFile/0/Body/4/DeclarationList/Declarations/0/Initializer	—
+VariableDeclarationList	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Initializer	—
+ConstKeyword	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Initializer/Flags/0	—
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Initializer/Declarations/0	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Initializer/Declarations/0/name	—
+CallExpression	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Expression/Expression/name	—
+ConstKeyword	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Flags/0	—
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/name	—
+CallExpression	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+CallExpression	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Arguments/1	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Arguments/1/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Arguments/1/name	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/name	—
+ArrowFunction · Expression	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0/name	—
+ElementAccessExpression	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Expression	—
+BinaryExpression	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/ArgumentExpression	—
+CallExpression	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/ArgumentExpression/Left	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/ArgumentExpression/Left/Expression	—
+ElementAccessExpression	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/ArgumentExpression/Left/Arguments/0	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/ArgumentExpression/Left/Arguments/0/Expression	—
+NumericLiteral	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/ArgumentExpression/Left/Arguments/0/ArgumentExpression	—
+MinusToken	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/ArgumentExpression/OperatorToken	—
+NumericLiteral	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/ArgumentExpression/Right	—
+BinaryExpression	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1/Expression/Left	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1/Expression/Left/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1/Expression/Left/name	—
+GreaterThanToken	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1/Expression/OperatorToken	—
+NumericLiteral	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1/Expression/Right	—
+CallExpression	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1/ThenStatement/0/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1/ThenStatement/0/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1/ThenStatement/0/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1/ThenStatement/0/Expression/Expression/name	—
+CallExpression	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1/ThenStatement/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1/ThenStatement/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1/ThenStatement/0/Expression/Arguments/0/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1/ThenStatement/0/Expression/Arguments/0/Arguments/0	—
+CallExpression	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Expression/name	—
+SpreadElement	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Arguments/0	—
+CallExpression	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Arguments/0/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Arguments/0/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Arguments/0/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Arguments/0/Expression/Expression/name	—
+ArrowFunction · Expression	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Arguments/0/Expression/Arguments/0	—
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Arguments/0/Expression/Arguments/0/Parameters/0	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Arguments/0/Expression/Arguments/0/Parameters/0/name	—
+PrefixUnaryExpression	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Arguments/0/Expression/Arguments/0/Body	—
+ExclamationToken	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Arguments/0/Expression/Arguments/0/Body/Operator	—
+CallExpression	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Arguments/0/Expression/Arguments/0/Body/Operand	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Arguments/0/Expression/Arguments/0/Body/Operand/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Arguments/0/Expression/Arguments/0/Body/Operand/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Arguments/0/Expression/Arguments/0/Body/Operand/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Arguments/0/Expression/Arguments/0/Body/Operand/Arguments/0	—
+—	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/VariableDeclaration	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/VariableDeclaration/name	—
+BinaryExpression	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/Block/0/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/Block/0/Expression/Right	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/Block/0/Expression/Right/name	—
+NewExpression	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/Block/0/ThenStatement/0/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/Block/0/ThenStatement/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/Block/1/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/0/Body/6/Expression	—
+ExportKeyword	operations-on-relations.js#/SourceFile/1/modifiers/0	—
+—	operations-on-relations.js#/SourceFile/1/name	—
+—	operations-on-relations.js#/SourceFile/1/Parameters/0	—
+Identifier	operations-on-relations.js#/SourceFile/1/Parameters/0/name	—
+—	operations-on-relations.js#/SourceFile/1/Parameters/1	—
+Identifier	operations-on-relations.js#/SourceFile/1/Parameters/1/name	—
+—	operations-on-relations.js#/SourceFile/1/Parameters/2	—
+Identifier	operations-on-relations.js#/SourceFile/1/Parameters/2/name	—
+—	operations-on-relations.js#/SourceFile/1/Parameters/3	—
+Identifier	operations-on-relations.js#/SourceFile/1/Parameters/3/name	—
+CallExpression	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Expression/name	—
+ArrowFunction · Expression	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0	—
+—	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Parameters/0	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Parameters/0/name	—
+ConditionalExpression	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body	—
+BinaryExpression	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/Condition	—
+PrefixUnaryExpression	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/Condition/Left	—
+ExclamationToken	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/Condition/Left/Operator	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/Condition/Left/Operand	—
+BarBarToken	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/Condition/OperatorToken	—
+BinaryExpression	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/Condition/Right	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/Condition/Right/Left	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/Condition/Right/Left/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/Condition/Right/Left/name	—
+EqualsEqualsEqualsToken	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/Condition/Right/OperatorToken	—
+NullLiteral	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/Condition/Right/Right	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenTrue	—
+CallExpression	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/0	—
+CallExpression	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Expression/Expression	—
+CallExpression	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Expression/Expression/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Expression/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Expression/Expression/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Expression/Expression/Expression/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Expression/Expression/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Expression/Expression/Expression/Arguments/1	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Expression/Expression/Expression/Arguments/1/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Expression/Expression/Expression/Arguments/1/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Expression/Expression/Expression/Arguments/1/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Expression/Expression/Expression/Arguments/1/name	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Expression/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Expression/name	—
+ArrowFunction · Expression	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Arguments/0	—
+—	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Arguments/0/Parameters/0	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Arguments/0/Parameters/0/name	—
+BinaryExpression	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Arguments/0/Body	—
+CallExpression	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Arguments/0/Body/Left	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Arguments/0/Body/Left/Expression	—
+ElementAccessExpression	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Arguments/0/Body/Left/Arguments/0	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Arguments/0/Body/Left/Arguments/0/Expression	—
+NumericLiteral	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Arguments/0/Body/Left/Arguments/0/ArgumentExpression	—
+MinusToken	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Arguments/0/Body/OperatorToken	—
+NumericLiteral	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Arguments/0/Body/Right	—
+—	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/VariableDeclaration	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/VariableDeclaration/name	—
+BinaryExpression	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/Block/0/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/Block/0/Expression/Right	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/Block/0/Expression/Right/name	—
+NewExpression	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/Block/0/ThenStatement/0/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name	—
+Identifier	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/Block/1/Expression	—
+ExportKeyword	operations-on-relations.js#/SourceFile/2/modifiers/0	—
+—	operations-on-relations.js#/SourceFile/2/name	—
+—	operations-on-relations.js#/SourceFile/2/Parameters/0	—
+Identifier	operations-on-relations.js#/SourceFile/2/Parameters/0/name	—
+—	operations-on-relations.js#/SourceFile/2/Parameters/1	—
+Identifier	operations-on-relations.js#/SourceFile/2/Parameters/1/name	—
+—	operations-on-relations.js#/SourceFile/2/Parameters/2	—
+Identifier	operations-on-relations.js#/SourceFile/2/Parameters/2/name	—
+—	operations-on-relations.js#/SourceFile/2/Parameters/3	—
+Identifier	operations-on-relations.js#/SourceFile/2/Parameters/3/name	—
+—	operations-on-relations.js#/SourceFile/2/Parameters/4	—
+Identifier	operations-on-relations.js#/SourceFile/2/Parameters/4/name	—
+ConstKeyword	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/0/DeclarationList/Flags/0	—
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/0/DeclarationList/Declarations/0	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/0/DeclarationList/Declarations/0/name	—
+ConditionalExpression	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Condition	—
+CallExpression	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/WhenTrue	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/1	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/WhenFalse	—
+CallExpression	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Expression/name	—
+ArrowFunction · Expression	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0	—
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Parameters/0	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Parameters/0/name	—
+ParenthesizedExpression	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body	—
+ObjectLiteralExpression	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression	—
+PropertyAssignment	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/0	—
+StringLiteral	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/0/name	—
+ElementAccessExpression	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/0/Initializer	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/0/Initializer/Expression	—
+StringLiteral	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/0/Initializer/ArgumentExpression	—
+PropertyAssignment	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/1	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/1/name	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/1/Initializer	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/1/Initializer/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/1/Initializer/name	—
+PropertyAssignment	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/name	—
+ConditionalExpression	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/Condition	—
+CallExpression	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Expression/Expression	—
+CallExpression	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Expression/Expression/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Expression/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Expression/Expression/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Expression/Expression/Expression/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/1	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/1/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/1/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/1/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/1/name	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Expression/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Expression/name	—
+ArrowFunction · Expression	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Arguments/0	—
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Arguments/0/Parameters/0	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Arguments/0/Parameters/0/name	—
+ElementAccessExpression	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Arguments/0/Body	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Arguments/0/Body/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Arguments/0/Body/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Arguments/0/Body/Expression/name	—
+BinaryExpression	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Arguments/0/Body/ArgumentExpression	—
+CallExpression	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Arguments/0/Body/ArgumentExpression/Left	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Arguments/0/Body/ArgumentExpression/Left/Expression	—
+ElementAccessExpression	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Arguments/0/Body/ArgumentExpression/Left/Arguments/0	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Arguments/0/Body/ArgumentExpression/Left/Arguments/0/Expression	—
+NumericLiteral	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Arguments/0/Body/ArgumentExpression/Left/Arguments/0/ArgumentExpression	—
+MinusToken	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Arguments/0/Body/ArgumentExpression/OperatorToken	—
+NumericLiteral	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Arguments/0/Body/ArgumentExpression/Right	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenFalse	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenFalse/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenFalse/name	—
+—	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/VariableDeclaration	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/VariableDeclaration/name	—
+BinaryExpression	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/0/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/0/Expression/Right	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/0/Expression/Right/name	—
+NewExpression	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name	—
+BinaryExpression	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/1/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/1/Expression/Left	—
+InstanceOfKeyword	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/1/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/1/Expression/Right	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/1/Expression/Right/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/1/Expression/Right/name	—
+NewExpression	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Arguments/0	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Arguments/0/name	—
+Identifier	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/2/Expression	—
+ExportKeyword	operations-on-relations.js#/SourceFile/3/modifiers/0	—
+—	operations-on-relations.js#/SourceFile/3/name	—
+—	operations-on-relations.js#/SourceFile/3/HeritageClauses/0	—
+ExtendsKeyword	operations-on-relations.js#/SourceFile/3/HeritageClauses/0/Token	—
+Identifier	operations-on-relations.js#/SourceFile/3/HeritageClauses/0/Types/0	—
+—	operations-on-relations.js#/SourceFile/4/name	—
+—	operations-on-relations.js#/SourceFile/4/Parameters/0	—
+Identifier	operations-on-relations.js#/SourceFile/4/Parameters/0/name	—
+—	operations-on-relations.js#/SourceFile/4/Parameters/1	—
+Identifier	operations-on-relations.js#/SourceFile/4/Parameters/1/name	—
+ConstKeyword	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Flags/0	—
+—	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/name	—
+ConditionalExpression	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer	—
+BinaryExpression	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/Condition	—
+BinaryExpression	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/Condition/Left	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/Condition/Left/Left	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/Condition/Left/Left/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/Condition/Left/Left/name	—
+EqualsEqualsEqualsToken	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/Condition/Left/OperatorToken	—
+NullLiteral	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/Condition/Left/Right	—
+BarBarToken	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/Condition/OperatorToken	—
+BinaryExpression	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/Condition/Right	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/Condition/Right/Left	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/Condition/Right/Left/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/Condition/Right/Left/name	—
+EqualsEqualsEqualsToken	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/Condition/Right/OperatorToken	—
+NullLiteral	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/Condition/Right/Right	—
+ArrayLiteralExpression	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenTrue	—
+CallExpression	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenFalse	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/name	—
+ArrowFunction · Expression	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0	—
+—	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Parameters/0	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Parameters/0/name	—
+CallExpression	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Expression/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Arguments/0	—
+BinaryExpression	operations-on-relations.js#/SourceFile/4/Body/1/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/4/Body/1/Expression/Left	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/1/Expression/Left/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/1/Expression/Left/name	—
+EqualsEqualsEqualsToken	operations-on-relations.js#/SourceFile/4/Body/1/Expression/OperatorToken	—
+NumericLiteral	operations-on-relations.js#/SourceFile/4/Body/1/Expression/Right	—
+NewExpression	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Expression	—
+BinaryExpression	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Arguments/0	—
+BinaryExpression	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Arguments/0/Left	—
+BinaryExpression	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Arguments/0/Left/Left	—
+BinaryExpression	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Arguments/0/Left/Left/Left	—
+StringLiteral	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Arguments/0/Left/Left/Left/Left	—
+PlusToken	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Arguments/0/Left/Left/Left/OperatorToken	—
+ElementAccessExpression	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Arguments/0/Left/Left/Left/Right	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Arguments/0/Left/Left/Left/Right/Expression	—
+StringLiteral	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Arguments/0/Left/Left/Left/Right/ArgumentExpression	—
+PlusToken	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Arguments/0/Left/Left/OperatorToken	—
+StringLiteral	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Arguments/0/Left/Left/Right	—
+PlusToken	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Arguments/0/Left/OperatorToken	—
+ElementAccessExpression	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Arguments/0/Left/Right	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Arguments/0/Left/Right/Expression	—
+StringLiteral	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Arguments/0/Left/Right/ArgumentExpression	—
+PlusToken	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Arguments/0/OperatorToken	—
+StringLiteral	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Arguments/0/Right	—
+ConstKeyword	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Flags/0	—
+—	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/name	—
+CallExpression	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Expression/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Expression/name	—
+ArrowFunction · Expression	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+—	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0/name	—
+—	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/1	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/1/name	—
+ConditionalExpression	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body	—
+CallExpression	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Condition	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Condition/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Condition/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Condition/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Condition/Arguments/0	—
+ArrayLiteralExpression	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenTrue	—
+ArrayLiteralExpression	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Elements/0	—
+ObjectLiteralExpression	operations-on-relations.js#/SourceFile/4/Body/3/Expression	—
+PropertyAssignment	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/0	—
+StringLiteral	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/0/name	—
+BinaryExpression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/0/Initializer	—
+BinaryExpression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/0/Initializer/Left	—
+ElementAccessExpression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/0/Initializer/Left/Left	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/0/Initializer/Left/Left/Expression	—
+StringLiteral	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/0/Initializer/Left/Left/ArgumentExpression	—
+PlusToken	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/0/Initializer/Left/OperatorToken	—
+StringLiteral	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/0/Initializer/Left/Right	—
+PlusToken	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/0/Initializer/OperatorToken	—
+ElementAccessExpression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/0/Initializer/Right	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/0/Initializer/Right/Expression	—
+StringLiteral	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/0/Initializer/Right/ArgumentExpression	—
+PropertyAssignment	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/name	—
+ArrayLiteralExpression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer	—
+SpreadElement	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/0	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/0/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/0/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/0/Expression/name	—
+SpreadElement	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/1	—
+CallExpression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/1/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/1/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/1/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/1/Expression/Expression/name	—
+ArrowFunction · Expression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/1/Expression/Arguments/0	—
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/1/Expression/Arguments/0/Parameters/0	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/1/Expression/Arguments/0/Parameters/0/name	—
+ElementAccessExpression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/1/Expression/Arguments/0/Body	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/1/Expression/Arguments/0/Body/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/1/Expression/Arguments/0/Body/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/1/Expression/Arguments/0/Body/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/1/Expression/Arguments/0/Body/ArgumentExpression	—
+PropertyAssignment	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/name	—
+CallExpression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Expression/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Expression/name	—
+ArrowFunction · Expression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0	—
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Parameters/0	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Parameters/0/name	—
+CallExpression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression	—
+CallExpression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Expression/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Expression/name	—
+ArrowFunction · Expression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0	—
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Parameters/0	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Parameters/0/name	—
+CallExpression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Expression/name	—
+ArrowFunction · Expression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0	—
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Parameters/0	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Parameters/0/name	—
+BinaryExpression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body	—
+ElementAccessExpression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Left	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Left/Expression	—
+CallExpression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Left/ArgumentExpression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Left/ArgumentExpression/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Left/ArgumentExpression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Left/ArgumentExpression/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Left/ArgumentExpression/Expression/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Left/ArgumentExpression/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Left/ArgumentExpression/Arguments/0	—
+EqualsEqualsEqualsToken	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/OperatorToken	—
+ElementAccessExpression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Right	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Right/Expression	—
+CallExpression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Right/ArgumentExpression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Right/ArgumentExpression/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Right/ArgumentExpression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Right/ArgumentExpression/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Right/ArgumentExpression/Expression/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Right/ArgumentExpression/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Right/ArgumentExpression/Arguments/0	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/name	—
+ArrowFunction · Expression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0	—
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Parameters/0	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Parameters/0/name	—
+ArrayLiteralExpression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body	—
+SpreadElement	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/0	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/0/Expression	—
+SpreadElement	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/1	—
+CallExpression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/1/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/1/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/1/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/1/Expression/Expression/name	—
+ArrowFunction · Expression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/1/Expression/Arguments/0	—
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/1/Expression/Arguments/0/Parameters/0	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/1/Expression/Arguments/0/Parameters/0/name	—
+ElementAccessExpression	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/1/Expression/Arguments/0/Body	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/1/Expression/Arguments/0/Body/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/1/Expression/Arguments/0/Body/ArgumentExpression	—
+—	operations-on-relations.js#/SourceFile/5/name	—
+—	operations-on-relations.js#/SourceFile/5/Parameters/0	—
+Identifier	operations-on-relations.js#/SourceFile/5/Parameters/0/name	—
+—	operations-on-relations.js#/SourceFile/5/Parameters/1	—
+Identifier	operations-on-relations.js#/SourceFile/5/Parameters/1/name	—
+BinaryExpression	operations-on-relations.js#/SourceFile/5/Body/0/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/5/Body/0/Expression/Left	—
+Identifier	operations-on-relations.js#/SourceFile/5/Body/0/Expression/Left/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/5/Body/0/Expression/Left/name	—
+EqualsEqualsEqualsToken	operations-on-relations.js#/SourceFile/5/Body/0/Expression/OperatorToken	—
+NumericLiteral	operations-on-relations.js#/SourceFile/5/Body/0/Expression/Right	—
+ObjectLiteralExpression	operations-on-relations.js#/SourceFile/5/Body/0/ThenStatement/0/Expression	—
+PropertyAssignment	operations-on-relations.js#/SourceFile/5/Body/0/ThenStatement/0/Expression/Properties/0	—
+StringLiteral	operations-on-relations.js#/SourceFile/5/Body/0/ThenStatement/0/Expression/Properties/0/name	—
+ElementAccessExpression	operations-on-relations.js#/SourceFile/5/Body/0/ThenStatement/0/Expression/Properties/0/Initializer	—
+Identifier	operations-on-relations.js#/SourceFile/5/Body/0/ThenStatement/0/Expression/Properties/0/Initializer/Expression	—
+StringLiteral	operations-on-relations.js#/SourceFile/5/Body/0/ThenStatement/0/Expression/Properties/0/Initializer/ArgumentExpression	—
+PropertyAssignment	operations-on-relations.js#/SourceFile/5/Body/0/ThenStatement/0/Expression/Properties/1	—
+Identifier	operations-on-relations.js#/SourceFile/5/Body/0/ThenStatement/0/Expression/Properties/1/name	—
+NullLiteral	operations-on-relations.js#/SourceFile/5/Body/0/ThenStatement/0/Expression/Properties/1/Initializer	—
+PropertyAssignment	operations-on-relations.js#/SourceFile/5/Body/0/ThenStatement/0/Expression/Properties/2	—
+Identifier	operations-on-relations.js#/SourceFile/5/Body/0/ThenStatement/0/Expression/Properties/2/name	—
+ArrayLiteralExpression	operations-on-relations.js#/SourceFile/5/Body/0/ThenStatement/0/Expression/Properties/2/Initializer	—
+ObjectLiteralExpression	operations-on-relations.js#/SourceFile/5/Body/1/Expression	—
+PropertyAssignment	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/0	—
+StringLiteral	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/0/name	—
+ElementAccessExpression	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/0/Initializer	—
+Identifier	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/0/Initializer/Expression	—
+StringLiteral	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/0/Initializer/ArgumentExpression	—
+PropertyAssignment	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/1	—
+Identifier	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/1/name	—
+CallExpression	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/1/Initializer	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/1/Initializer/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/1/Initializer/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/1/Initializer/Expression/name	—
+ArrowFunction · Expression	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/1/Initializer/Arguments/0	—
+—	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/1/Initializer/Arguments/0/Parameters/0	—
+Identifier	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/1/Initializer/Arguments/0/Parameters/0/name	—
+ElementAccessExpression	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/1/Initializer/Arguments/0/Body	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/1/Initializer/Arguments/0/Body/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/1/Initializer/Arguments/0/Body/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/1/Initializer/Arguments/0/Body/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/1/Initializer/Arguments/0/Body/ArgumentExpression	—
+PropertyAssignment	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2	—
+Identifier	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/name	—
+CallExpression	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Expression	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Expression/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Expression/Expression/name	—
+Identifier	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Expression/name	—
+ArrowFunction · Expression	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Arguments/0	—
+—	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Arguments/0/Parameters/0	—
+Identifier	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Arguments/0/Parameters/0/name	—
+CallExpression	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Arguments/0/Body	—
+PropertyAccessExpression · DotToken	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Arguments/0/Body/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/name	—
+ArrowFunction · Expression	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0	—
+—	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Parameters/0	—
+Identifier	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Parameters/0/name	—
+ElementAccessExpression	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body	—
+Identifier	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Expression	—
+Identifier	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/ArgumentExpression	—
+5-texts
+kind	place	holds
+—	operations-on-relations.js#/SourceFile/0/name/Text	join
+—	operations-on-relations.js#/SourceFile/0/Parameters/0/name/Text	sheets
+—	operations-on-relations.js#/SourceFile/0/Parameters/1/name/Text	origins
+—	operations-on-relations.js#/SourceFile/0/Parameters/2/name/Text	join
+—	operations-on-relations.js#/SourceFile/0/Parameters/3/name/Text	positions
+—	operations-on-relations.js#/SourceFile/0/Parameters/4/name/Text	filterExpression
+—	operations-on-relations.js#/SourceFile/0/Body/0/Expression/Operand/Text	join
+—	operations-on-relations.js#/SourceFile/0/Body/0/ThenStatement/0/Expression/Text	sheets
+—	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/name/Text	of
+—	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Text	Object
+—	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Expression/name/Text	fromEntries
+—	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/Expression/Text	origins
+—	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/name/Text	records
+—	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/name/Text	map
+—	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Parameters/0/name/Text	record
+—	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Expression/Text	record
+—	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/ArgumentExpression/Text	0
+—	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/Expression/Text	record
+—	operations-on-relations.js#/SourceFile/0/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/ArgumentExpression/Text	1
+—	operations-on-relations.js#/SourceFile/0/Body/2/DeclarationList/Declarations/0/name/Text	grouped
+—	operations-on-relations.js#/SourceFile/0/Body/2/DeclarationList/Declarations/0/Initializer/Expression/Text	Map
+—	operations-on-relations.js#/SourceFile/0/Body/3/Initializer/Declarations/0/name/Elements/0/name/Text	index
+—	operations-on-relations.js#/SourceFile/0/Body/3/Initializer/Declarations/0/name/Elements/1/name/Text	sheet
+—	operations-on-relations.js#/SourceFile/0/Body/3/Expression/Expression/Expression/Text	sheets
+—	operations-on-relations.js#/SourceFile/0/Body/3/Expression/Expression/name/Text	entries
+—	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/Expression/Operand/Expression/Expression/Text	grouped
+—	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/Expression/Operand/Expression/name/Text	has
+—	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/Expression/Operand/Arguments/0/Expression/Text	of
+—	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/Expression/Operand/Arguments/0/ArgumentExpression/Expression/Text	String
+—	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/Expression/Operand/Arguments/0/ArgumentExpression/Arguments/0/Left/Text	index
+—	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/Expression/Operand/Arguments/0/ArgumentExpression/Arguments/0/Right/Text	1
+—	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/ThenStatement/0/Expression/Expression/Expression/Text	grouped
+—	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/ThenStatement/0/Expression/Expression/name/Text	set
+—	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/ThenStatement/0/Expression/Arguments/0/Expression/Text	of
+—	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/ThenStatement/0/Expression/Arguments/0/ArgumentExpression/Expression/Text	String
+—	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/ThenStatement/0/Expression/Arguments/0/ArgumentExpression/Arguments/0/Left/Text	index
+—	operations-on-relations.js#/SourceFile/0/Body/3/Statement/0/ThenStatement/0/Expression/Arguments/0/ArgumentExpression/Arguments/0/Right/Text	1
+—	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1/Expression/Expression/Expression/Expression/Expression/Text	grouped
+—	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1/Expression/Expression/Expression/Expression/name/Text	get
+—	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1/Expression/Expression/Expression/Arguments/0/Expression/Text	of
+—	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1/Expression/Expression/Expression/Arguments/0/ArgumentExpression/Expression/Text	String
+—	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1/Expression/Expression/Expression/Arguments/0/ArgumentExpression/Arguments/0/Left/Text	index
+—	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1/Expression/Expression/Expression/Arguments/0/ArgumentExpression/Arguments/0/Right/Text	1
+—	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1/Expression/Expression/name/Text	push
+—	operations-on-relations.js#/SourceFile/0/Body/3/Statement/1/Expression/Arguments/0/Text	sheet
+—	operations-on-relations.js#/SourceFile/0/Body/4/DeclarationList/Declarations/0/name/Text	given
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Initializer/Declarations/0/name/Text	each
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Expression/Expression/Expression/Text	grouped
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Expression/Expression/name/Text	values
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/name/Text	named
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Expression/Expression/Text	positions
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Expression/name/Text	named
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Arguments/0/Text	join
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Arguments/1/Expression/Text	each
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Arguments/1/name/Text	length
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/name/Text	records
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/name/Text	map
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0/name/Text	found
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Expression/Text	each
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/ArgumentExpression/Left/Expression/Text	Number
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/ArgumentExpression/Left/Arguments/0/Expression/Text	found
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/ArgumentExpression/Left/Arguments/0/ArgumentExpression/Text	0
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/ArgumentExpression/Right/Text	1
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1/Expression/Left/Expression/Text	named
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1/Expression/Left/name/Text	length
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1/Expression/Right/Text	0
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1/ThenStatement/0/Expression/Expression/Expression/Text	given
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1/ThenStatement/0/Expression/Expression/name/Text	push
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1/ThenStatement/0/Expression/Arguments/0/Expression/Expression/Text	named
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1/ThenStatement/0/Expression/Arguments/0/Expression/name/Text	reduce
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/1/ThenStatement/0/Expression/Arguments/0/Arguments/0/Text	joined
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Expression/Expression/Text	given
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Expression/name/Text	push
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Arguments/0/Expression/Expression/Expression/Text	each
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Arguments/0/Expression/Expression/name/Text	filter
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Arguments/0/Expression/Arguments/0/Parameters/0/name/Text	sheet
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Arguments/0/Expression/Arguments/0/Body/Operand/Expression/Expression/Text	named
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Arguments/0/Expression/Arguments/0/Body/Operand/Expression/name/Text	includes
+—	operations-on-relations.js#/SourceFile/0/Body/5/TryBlock/0/Statement/2/Expression/Arguments/0/Expression/Arguments/0/Body/Operand/Arguments/0/Text	sheet
+—	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/VariableDeclaration/name/Text	error
+—	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/Block/0/Expression/Left/Text	error
+—	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/Block/0/Expression/Right/Expression/Text	positions
+—	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/Block/0/Expression/Right/name/Text	RefusedError
+—	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/Block/0/ThenStatement/0/Expression/Expression/Text	RefusedError
+—	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression/Text	error
+—	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name/Text	message
+—	operations-on-relations.js#/SourceFile/0/Body/5/CatchClause/Block/1/Expression/Text	error
+—	operations-on-relations.js#/SourceFile/0/Body/6/Expression/Text	given
+—	operations-on-relations.js#/SourceFile/1/name/Text	project
+—	operations-on-relations.js#/SourceFile/1/Parameters/0/name/Text	sheets
+—	operations-on-relations.js#/SourceFile/1/Parameters/1/name/Text	fields
+—	operations-on-relations.js#/SourceFile/1/Parameters/2/name/Text	positions
+—	operations-on-relations.js#/SourceFile/1/Parameters/3/name/Text	filterExpression
+—	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Expression/Expression/Text	sheets
+—	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Expression/name/Text	map
+—	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Parameters/0/name/Text	sheet
+—	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/Condition/Left/Operand/Text	fields
+—	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/Condition/Right/Left/Expression/Text	sheet
+—	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/Condition/Right/Left/name/Text	header
+—	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenTrue/Text	sheet
+—	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Expression/Text	projected
+—	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/0/Text	sheet
+—	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Expression/Expression/Expression/Expression/Expression/Text	positions
+—	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Expression/Expression/Expression/Expression/name/Text	named
+—	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Expression/Expression/Expression/Arguments/0/Text	fields
+—	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Expression/Expression/Expression/Arguments/1/Expression/Expression/Text	sheet
+—	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Expression/Expression/Expression/Arguments/1/Expression/name/Text	header
+—	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Expression/Expression/Expression/Arguments/1/name/Text	length
+—	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Expression/Expression/name/Text	records
+—	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Expression/name/Text	map
+—	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Arguments/0/Parameters/0/name/Text	found
+—	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Arguments/0/Body/Left/Expression/Text	Number
+—	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Arguments/0/Body/Left/Arguments/0/Expression/Text	found
+—	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Arguments/0/Body/Left/Arguments/0/ArgumentExpression/Text	0
+—	operations-on-relations.js#/SourceFile/1/Body/0/TryBlock/0/Expression/Arguments/0/Body/WhenFalse/Arguments/1/Arguments/0/Body/Right/Text	1
+—	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/VariableDeclaration/name/Text	error
+—	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/Block/0/Expression/Left/Text	error
+—	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/Block/0/Expression/Right/Expression/Text	positions
+—	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/Block/0/Expression/Right/name/Text	RefusedError
+—	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression/Text	RefusedError
+—	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression/Text	error
+—	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name/Text	message
+—	operations-on-relations.js#/SourceFile/1/Body/0/CatchClause/Block/1/Expression/Text	error
+—	operations-on-relations.js#/SourceFile/2/name/Text	restrict
+—	operations-on-relations.js#/SourceFile/2/Parameters/0/name/Text	sheets
+—	operations-on-relations.js#/SourceFile/2/Parameters/1/name/Text	records
+—	operations-on-relations.js#/SourceFile/2/Parameters/2/name/Text	filter
+—	operations-on-relations.js#/SourceFile/2/Parameters/3/name/Text	positions
+—	operations-on-relations.js#/SourceFile/2/Parameters/4/name/Text	filterExpression
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/0/DeclarationList/Declarations/0/name/Text	kept
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Condition/Text	filter
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Text	filterExpression
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/name/Text	kept
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Text	sheets
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/1/Text	filter
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Text	sheets
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Expression/Expression/Text	kept
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Expression/name/Text	map
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Parameters/0/name/Text	sheet
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/0/name/Text	'sheet name'
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/0/Initializer/Expression/Text	sheet
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/0/Initializer/ArgumentExpression/Text	'sheet name'
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/1/name/Text	header
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/1/Initializer/Expression/Text	sheet
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/1/Initializer/name/Text	header
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/name/Text	records
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/Condition/Text	records
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Expression/Expression/Expression/Expression/Expression/Text	positions
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Expression/Expression/Expression/Expression/name/Text	named
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/0/Text	records
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/1/Expression/Expression/Text	sheet
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/1/Expression/name/Text	records
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/1/name/Text	length
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Expression/Expression/name/Text	records
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Expression/name/Text	map
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Arguments/0/Parameters/0/name/Text	found
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Arguments/0/Body/Expression/Expression/Text	sheet
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Arguments/0/Body/Expression/name/Text	records
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Arguments/0/Body/ArgumentExpression/Left/Expression/Text	Number
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Arguments/0/Body/ArgumentExpression/Left/Arguments/0/Expression/Text	found
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Arguments/0/Body/ArgumentExpression/Left/Arguments/0/ArgumentExpression/Text	0
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenTrue/Arguments/0/Body/ArgumentExpression/Right/Text	1
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenFalse/Expression/Text	sheet
+—	operations-on-relations.js#/SourceFile/2/Body/0/TryBlock/1/Expression/Arguments/0/Body/Expression/Properties/2/Initializer/WhenFalse/name/Text	records
+—	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/VariableDeclaration/name/Text	error
+—	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/0/Expression/Left/Text	error
+—	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/0/Expression/Right/Expression/Text	filterExpression
+—	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/0/Expression/Right/name/Text	RefusedError
+—	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression/Text	RefusedError
+—	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression/Text	error
+—	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name/Text	message
+—	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/1/Expression/Left/Text	error
+—	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/1/Expression/Right/Expression/Text	positions
+—	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/1/Expression/Right/name/Text	RefusedError
+—	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Expression/Text	RefusedError
+—	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Arguments/0/Expression/Text	error
+—	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Arguments/0/name/Text	message
+—	operations-on-relations.js#/SourceFile/2/Body/0/CatchClause/Block/2/Expression/Text	error
+—	operations-on-relations.js#/SourceFile/3/name/Text	RefusedError
+—	operations-on-relations.js#/SourceFile/3/HeritageClauses/0/Types/0/Text	Error
+—	operations-on-relations.js#/SourceFile/4/name/Text	joined
+—	operations-on-relations.js#/SourceFile/4/Parameters/0/name/Text	left
+—	operations-on-relations.js#/SourceFile/4/Parameters/1/name/Text	right
+—	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/name/Text	shared
+—	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/Condition/Left/Left/Expression/Text	left
+—	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/Condition/Left/Left/name/Text	header
+—	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/Condition/Right/Left/Expression/Text	right
+—	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/Condition/Right/Left/name/Text	header
+—	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Expression/Text	left
+—	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/name/Text	header
+—	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/name/Text	filter
+—	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Parameters/0/name/Text	name
+—	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Expression/Expression/Expression/Text	right
+—	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Expression/Expression/name/Text	header
+—	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Expression/name/Text	includes
+—	operations-on-relations.js#/SourceFile/4/Body/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Arguments/0/Text	name
+—	operations-on-relations.js#/SourceFile/4/Body/1/Expression/Left/Expression/Text	shared
+—	operations-on-relations.js#/SourceFile/4/Body/1/Expression/Left/name/Text	length
+—	operations-on-relations.js#/SourceFile/4/Body/1/Expression/Right/Text	0
+—	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Expression/Text	RefusedError
+—	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Arguments/0/Left/Left/Left/Left/Text	'the sheets '
+—	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Arguments/0/Left/Left/Left/Right/Expression/Text	left
+—	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Arguments/0/Left/Left/Left/Right/ArgumentExpression/Text	'sheet name'
+—	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Arguments/0/Left/Left/Right/Text	' and '
+—	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Arguments/0/Left/Right/Expression/Text	right
+—	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Arguments/0/Left/Right/ArgumentExpression/Text	'sheet name'
+—	operations-on-relations.js#/SourceFile/4/Body/1/ThenStatement/0/Expression/Arguments/0/Right/Text	' share no column'
+—	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/name/Text	others
+—	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Text	right
+—	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Expression/Expression/name/Text	header
+—	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Expression/name/Text	flatMap
+—	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0/name/Text	name
+—	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/1/name/Text	index
+—	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Condition/Expression/Expression/Text	shared
+—	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Condition/Expression/name/Text	includes
+—	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Condition/Arguments/0/Text	name
+—	operations-on-relations.js#/SourceFile/4/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/WhenFalse/Elements/0/Text	index
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/0/name/Text	'sheet name'
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/0/Initializer/Left/Left/Expression/Text	left
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/0/Initializer/Left/Left/ArgumentExpression/Text	'sheet name'
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/0/Initializer/Left/Right/Text	'*'
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/0/Initializer/Right/Expression/Text	right
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/0/Initializer/Right/ArgumentExpression/Text	'sheet name'
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/name/Text	header
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/0/Expression/Expression/Text	left
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/0/Expression/name/Text	header
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/1/Expression/Expression/Expression/Text	others
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/1/Expression/Expression/name/Text	map
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/1/Expression/Arguments/0/Parameters/0/name/Text	index
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/1/Expression/Arguments/0/Body/Expression/Expression/Text	right
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/1/Expression/Arguments/0/Body/Expression/name/Text	header
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/1/Initializer/Elements/1/Expression/Arguments/0/Body/ArgumentExpression/Text	index
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/name/Text	records
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Expression/Expression/Expression/Text	left
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Expression/Expression/name/Text	records
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Expression/name/Text	flatMap
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Parameters/0/name/Text	first
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Expression/Expression/Expression/Text	right
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Expression/Expression/name/Text	records
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Expression/name/Text	filter
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Parameters/0/name/Text	second
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Expression/Expression/Text	shared
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Expression/name/Text	every
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Parameters/0/name/Text	name
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Left/Expression/Text	first
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Left/ArgumentExpression/Expression/Expression/Expression/Text	left
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Left/ArgumentExpression/Expression/Expression/name/Text	header
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Left/ArgumentExpression/Expression/name/Text	indexOf
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Left/ArgumentExpression/Arguments/0/Text	name
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Right/Expression/Text	second
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Right/ArgumentExpression/Expression/Expression/Expression/Text	right
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Right/ArgumentExpression/Expression/Expression/name/Text	header
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Right/ArgumentExpression/Expression/name/Text	indexOf
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Arguments/0/Body/Arguments/0/Body/Right/ArgumentExpression/Arguments/0/Text	name
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/name/Text	map
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Parameters/0/name/Text	second
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/0/Expression/Text	first
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/1/Expression/Expression/Expression/Text	others
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/1/Expression/Expression/name/Text	map
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/1/Expression/Arguments/0/Parameters/0/name/Text	index
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/1/Expression/Arguments/0/Body/Expression/Text	second
+—	operations-on-relations.js#/SourceFile/4/Body/3/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/1/Expression/Arguments/0/Body/ArgumentExpression/Text	index
+—	operations-on-relations.js#/SourceFile/5/name/Text	projected
+—	operations-on-relations.js#/SourceFile/5/Parameters/0/name/Text	sheet
+—	operations-on-relations.js#/SourceFile/5/Parameters/1/name/Text	kept
+—	operations-on-relations.js#/SourceFile/5/Body/0/Expression/Left/Expression/Text	kept
+—	operations-on-relations.js#/SourceFile/5/Body/0/Expression/Left/name/Text	length
+—	operations-on-relations.js#/SourceFile/5/Body/0/Expression/Right/Text	0
+—	operations-on-relations.js#/SourceFile/5/Body/0/ThenStatement/0/Expression/Properties/0/name/Text	'sheet name'
+—	operations-on-relations.js#/SourceFile/5/Body/0/ThenStatement/0/Expression/Properties/0/Initializer/Expression/Text	sheet
+—	operations-on-relations.js#/SourceFile/5/Body/0/ThenStatement/0/Expression/Properties/0/Initializer/ArgumentExpression/Text	'sheet name'
+—	operations-on-relations.js#/SourceFile/5/Body/0/ThenStatement/0/Expression/Properties/1/name/Text	header
+—	operations-on-relations.js#/SourceFile/5/Body/0/ThenStatement/0/Expression/Properties/2/name/Text	records
+—	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/0/name/Text	'sheet name'
+—	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/0/Initializer/Expression/Text	sheet
+—	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/0/Initializer/ArgumentExpression/Text	'sheet name'
+—	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/1/name/Text	header
+—	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/1/Initializer/Expression/Expression/Text	kept
+—	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/1/Initializer/Expression/name/Text	map
+—	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/1/Initializer/Arguments/0/Parameters/0/name/Text	index
+—	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/1/Initializer/Arguments/0/Body/Expression/Expression/Text	sheet
+—	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/1/Initializer/Arguments/0/Body/Expression/name/Text	header
+—	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/1/Initializer/Arguments/0/Body/ArgumentExpression/Text	index
+—	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/name/Text	records
+—	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Expression/Expression/Expression/Text	sheet
+—	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Expression/Expression/name/Text	records
+—	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Expression/name/Text	map
+—	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Arguments/0/Parameters/0/name/Text	record
+—	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Text	kept
+—	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Arguments/0/Body/Expression/name/Text	map
+—	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Parameters/0/name/Text	index
+—	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Expression/Text	record
+—	operations-on-relations.js#/SourceFile/5/Body/1/Expression/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/ArgumentExpression/Text	index

@@ -1,0 +1,169 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .js	sqlite.test	—
+3-statements
+kind	place	holds
+ImportDeclaration	sqlite.test.js#/SourceFile/0	—
+ImportDeclaration	sqlite.test.js#/SourceFile/1	—
+ImportDeclaration	sqlite.test.js#/SourceFile/2	—
+ImportDeclaration	sqlite.test.js#/SourceFile/3	—
+ExpressionStatement	sqlite.test.js#/SourceFile/4	—
+ExpressionStatement	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0	—
+ExpressionStatement	sqlite.test.js#/SourceFile/5	—
+ExpressionStatement	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0	—
+ExpressionStatement	sqlite.test.js#/SourceFile/6	—
+ExpressionStatement	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0	—
+4-expressions
+kind	place	holds
+ImportClause · name	sqlite.test.js#/SourceFile/0/ImportClause	—
+StringLiteral	sqlite.test.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	sqlite.test.js#/SourceFile/1/ImportClause	—
+NamespaceImport	sqlite.test.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	sqlite.test.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	sqlite.test.js#/SourceFile/2/ImportClause	—
+NamespaceImport	sqlite.test.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	sqlite.test.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	sqlite.test.js#/SourceFile/3/ImportClause	—
+NamespaceImport	sqlite.test.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	sqlite.test.js#/SourceFile/3/ModuleSpecifier	—
+CallExpression	sqlite.test.js#/SourceFile/4/Expression	—
+Identifier	sqlite.test.js#/SourceFile/4/Expression/Expression	—
+StringLiteral	sqlite.test.js#/SourceFile/4/Expression/Arguments/0	—
+ArrowFunction · Block	sqlite.test.js#/SourceFile/4/Expression/Arguments/1	—
+—	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0	—
+Identifier	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	sqlite.test.js#/SourceFile/5/Expression	—
+Identifier	sqlite.test.js#/SourceFile/5/Expression/Expression	—
+StringLiteral	sqlite.test.js#/SourceFile/5/Expression/Arguments/0	—
+ArrowFunction · Block	sqlite.test.js#/SourceFile/5/Expression/Arguments/1	—
+—	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0	—
+Identifier	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	sqlite.test.js#/SourceFile/6/Expression	—
+Identifier	sqlite.test.js#/SourceFile/6/Expression/Expression	—
+StringLiteral	sqlite.test.js#/SourceFile/6/Expression/Arguments/0	—
+ArrowFunction · Block	sqlite.test.js#/SourceFile/6/Expression/Arguments/1	—
+—	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0	—
+Identifier	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+5-texts
+kind	place	holds
+—	sqlite.test.js#/SourceFile/0/ImportClause/name/Text	test
+—	sqlite.test.js#/SourceFile/0/ModuleSpecifier/Text	'node:test'
+—	sqlite.test.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	relationalModel
+—	sqlite.test.js#/SourceFile/1/ModuleSpecifier/Text	'../../../../../src/relational-model/relational-model.js'
+—	sqlite.test.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	values
+—	sqlite.test.js#/SourceFile/2/ModuleSpecifier/Text	'../../../../../src/system-generation/values/values.js'
+—	sqlite.test.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	runner
+—	sqlite.test.js#/SourceFile/3/ModuleSpecifier/Text	'../../../../system-generation/runner/runner.js'
+—	sqlite.test.js#/SourceFile/4/Expression/Expression/Text	test
+—	sqlite.test.js#/SourceFile/4/Expression/Arguments/0/Text	'sqlite.1'
+—	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name/Text	t
+—	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'sqlite.1'
+—	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	sqlite.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	sqlite.test.js#/SourceFile/5/Expression/Expression/Text	test
+—	sqlite.test.js#/SourceFile/5/Expression/Arguments/0/Text	'sqlite.2'
+—	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name/Text	t
+—	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'sqlite.2'
+—	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	sqlite.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	sqlite.test.js#/SourceFile/6/Expression/Expression/Text	test
+—	sqlite.test.js#/SourceFile/6/Expression/Arguments/0/Text	'sqlite.3'
+—	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0/name/Text	t
+—	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'sqlite.3'
+—	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	sqlite.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values

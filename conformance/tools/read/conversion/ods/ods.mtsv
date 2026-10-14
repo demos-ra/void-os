@@ -1,0 +1,30 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+ods.1	1	conversion	sheets					each table is one sheet named as the table, each cell's text its value, each type left behind named by its cell's A1 reference and attribute
+ods.2	1	conversion	sheets	failed	cannot be represented			a cell's text MTSV cannot hold ends the load as cannot be represented, the conversion failed
+ods.3	1	conversion	sheets	failed	failed			a spreadsheet document whose nodes hold no part content.xml ends the load as failed, the conversion failed
+arguments
+requirement	case	position	item	value
+ods.1	1	1	0	$PWD/d/t.ods
+ods.2	1	1	0	$PWD/d/t.ods
+ods.3	1	1	0	$PWD/d/t.ods
+placed
+requirement	case	when	pathname	fixture
+ods.1	1	after	result 1	table T
+zip entries
+requirement	case	pathname	entry	name	method	text
+ods.1	1	$PWD/d/t.ods	1	mimetype	0	application/vnd.oasis.opendocument.spreadsheet
+ods.1	1	$PWD/d/t.ods	2	META-INF/manifest.xml	8	<?xml version="1.0" encoding="UTF-8"?><LF><manifest:manifest xmlns:manifest="urn:oasis:names:tc:opendocument:xmlns:manifest:1.0" manifest:version="1.3"><manifest:file-entry manifest:full-path="/" manifest:media-type="application/vnd.oasis.opendocument.spreadsheet"/><manifest:file-entry manifest:full-path="content.xml" manifest:media-type="text/xml"/></manifest:manifest>
+ods.1	1	$PWD/d/t.ods	3	content.xml	8	<?xml version="1.0" encoding="UTF-8"?><LF><office:document-content xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" office:version="1.3"><office:body><office:spreadsheet><table:table table:name="T"><table:table-row><table:table-cell office:value-type="string"><text:p>x</text:p></table:table-cell><table:table-cell office:value-type="string"><text:p>y</text:p></table:table-cell></table:table-row><table:table-row><table:table-cell office:value-type="string"><text:p>v</text:p></table:table-cell><table:table-cell office:value-type="float" office:value="2"><text:p>2</text:p></table:table-cell></table:table-row></table:table></office:spreadsheet></office:body></office:document-content>
+ods.2	1	$PWD/d/t.ods	1	mimetype	0	application/vnd.oasis.opendocument.spreadsheet
+ods.2	1	$PWD/d/t.ods	2	META-INF/manifest.xml	8	<?xml version="1.0" encoding="UTF-8"?><LF><manifest:manifest xmlns:manifest="urn:oasis:names:tc:opendocument:xmlns:manifest:1.0" manifest:version="1.3"><manifest:file-entry manifest:full-path="/" manifest:media-type="application/vnd.oasis.opendocument.spreadsheet"/><manifest:file-entry manifest:full-path="content.xml" manifest:media-type="text/xml"/></manifest:manifest>
+ods.2	1	$PWD/d/t.ods	3	content.xml	8	<?xml version="1.0" encoding="UTF-8"?><LF><office:document-content xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" office:version="1.3"><office:body><office:spreadsheet><table:table table:name="T"><table:table-row><table:table-cell office:value-type="string"><text:p>x</text:p></table:table-cell><table:table-cell office:value-type="string"><text:p>y</text:p></table:table-cell></table:table-row><table:table-row><table:table-cell office:value-type="string"><text:p>a<text:tab/>b</text:p></table:table-cell><table:table-cell office:value-type="float" office:value="2"><text:p>2</text:p></table:table-cell></table:table-row></table:table></office:spreadsheet></office:body></office:document-content>
+ods.3	1	$PWD/d/t.ods	1	mimetype	0	application/vnd.oasis.opendocument.spreadsheet
+ods.3	1	$PWD/d/t.ods	2	META-INF/manifest.xml	8	<?xml version="1.0" encoding="UTF-8"?><LF><manifest:manifest xmlns:manifest="urn:oasis:names:tc:opendocument:xmlns:manifest:1.0" manifest:version="1.3"><manifest:file-entry manifest:full-path="/" manifest:media-type="application/vnd.oasis.opendocument.spreadsheet"/></manifest:manifest>
+results
+requirement	case	position	item	value
+ods.1	1	2	1	A1 office:value-type
+ods.1	1	2	2	B1 office:value-type
+ods.1	1	2	3	A2 office:value-type
+ods.1	1	2	4	B2 office:value-type
+ods.1	1	2	5	B2 office:value

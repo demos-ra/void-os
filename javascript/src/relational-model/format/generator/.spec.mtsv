@@ -1,0 +1,523 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .js	generator	—
+3-statements
+kind	place	holds
+FunctionDeclaration · Body	generator.js#/SourceFile/0	—
+VariableStatement	generator.js#/SourceFile/0/Body/0	—
+ReturnStatement	generator.js#/SourceFile/0/Body/1	—
+FunctionDeclaration · Body	generator.js#/SourceFile/1	—
+ReturnStatement	generator.js#/SourceFile/1/Body/0	—
+ClassDeclaration	generator.js#/SourceFile/2	—
+FunctionDeclaration · Body	generator.js#/SourceFile/3	—
+FunctionDeclaration · Body	generator.js#/SourceFile/3/Body/0	—
+VariableStatement	generator.js#/SourceFile/3/Body/0/Body/0	—
+ForOfStatement	generator.js#/SourceFile/3/Body/0/Body/1	—
+ExpressionStatement	generator.js#/SourceFile/3/Body/0/Body/1/Statement/0	—
+ReturnStatement	generator.js#/SourceFile/3/Body/0/Body/2	—
+FunctionDeclaration · Body	generator.js#/SourceFile/3/Body/1	—
+ReturnStatement	generator.js#/SourceFile/3/Body/1/Body/0	—
+FunctionDeclaration · Body	generator.js#/SourceFile/3/Body/2	—
+IfStatement	generator.js#/SourceFile/3/Body/2/Body/0	—
+IfStatement	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/0	—
+ThrowStatement	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/0/ThenStatement/0	—
+ReturnStatement	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/1	—
+VariableStatement	generator.js#/SourceFile/3/Body/2/Body/1	—
+ForOfStatement	generator.js#/SourceFile/3/Body/2/Body/2	—
+IfStatement	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0	—
+ThrowStatement	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0	—
+ExpressionStatement	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1	—
+ReturnStatement	generator.js#/SourceFile/3/Body/2/Body/3	—
+FunctionDeclaration · Body	generator.js#/SourceFile/3/Body/3	—
+ReturnStatement	generator.js#/SourceFile/3/Body/3/Body/0	—
+FunctionDeclaration · Body	generator.js#/SourceFile/3/Body/4	—
+IfStatement	generator.js#/SourceFile/3/Body/4/Body/0	—
+ThrowStatement	generator.js#/SourceFile/3/Body/4/Body/0/ThenStatement/0	—
+VariableStatement	generator.js#/SourceFile/3/Body/4/Body/1	—
+ForOfStatement	generator.js#/SourceFile/3/Body/4/Body/2	—
+ExpressionStatement	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0	—
+ReturnStatement	generator.js#/SourceFile/3/Body/4/Body/3	—
+FunctionDeclaration · Body	generator.js#/SourceFile/3/Body/5	—
+ForOfStatement	generator.js#/SourceFile/3/Body/5/Body/0	—
+IfStatement	generator.js#/SourceFile/3/Body/5/Body/0/Statement/0	—
+ThrowStatement	generator.js#/SourceFile/3/Body/5/Body/0/Statement/0/ThenStatement/0	—
+ReturnStatement	generator.js#/SourceFile/3/Body/5/Body/1	—
+FunctionDeclaration · Body	generator.js#/SourceFile/3/Body/6	—
+ReturnStatement	generator.js#/SourceFile/3/Body/6/Body/0	—
+FunctionDeclaration · Body	generator.js#/SourceFile/3/Body/7	—
+ReturnStatement	generator.js#/SourceFile/3/Body/7/Body/0	—
+FunctionDeclaration · Body	generator.js#/SourceFile/3/Body/8	—
+ReturnStatement	generator.js#/SourceFile/3/Body/8/Body/0	—
+FunctionDeclaration · Body	generator.js#/SourceFile/3/Body/9	—
+ReturnStatement	generator.js#/SourceFile/3/Body/9/Body/0	—
+ReturnStatement	generator.js#/SourceFile/3/Body/10	—
+4-expressions
+kind	place	holds
+ExportKeyword	generator.js#/SourceFile/0/modifiers/0	—
+—	generator.js#/SourceFile/0/name	—
+—	generator.js#/SourceFile/0/Parameters/0	—
+Identifier	generator.js#/SourceFile/0/Parameters/0/name	—
+ConstKeyword	generator.js#/SourceFile/0/Body/0/DeclarationList/Flags/0	—
+—	generator.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0	—
+Identifier	generator.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/name	—
+CallExpression	generator.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	generator.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Expression	—
+NewExpression	generator.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	generator.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression	—
+Identifier	generator.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Expression/name	—
+CallExpression	generator.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+Identifier	generator.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression	—
+Identifier	generator.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0	—
+Identifier	generator.js#/SourceFile/0/Body/1/Expression	—
+ExportKeyword	generator.js#/SourceFile/1/modifiers/0	—
+—	generator.js#/SourceFile/1/name	—
+—	generator.js#/SourceFile/1/Parameters/0	—
+Identifier	generator.js#/SourceFile/1/Parameters/0/name	—
+CallExpression	generator.js#/SourceFile/1/Body/0/Expression	—
+Identifier	generator.js#/SourceFile/1/Body/0/Expression/Expression	—
+Identifier	generator.js#/SourceFile/1/Body/0/Expression/Arguments/0	—
+ExportKeyword	generator.js#/SourceFile/2/modifiers/0	—
+—	generator.js#/SourceFile/2/name	—
+—	generator.js#/SourceFile/2/HeritageClauses/0	—
+ExtendsKeyword	generator.js#/SourceFile/2/HeritageClauses/0/Token	—
+Identifier	generator.js#/SourceFile/2/HeritageClauses/0/Types/0	—
+—	generator.js#/SourceFile/3/name	—
+—	generator.js#/SourceFile/3/Parameters/0	—
+Identifier	generator.js#/SourceFile/3/Parameters/0/name	—
+—	generator.js#/SourceFile/3/Body/0/name	—
+ConstKeyword	generator.js#/SourceFile/3/Body/0/Body/0/DeclarationList/Flags/0	—
+—	generator.js#/SourceFile/3/Body/0/Body/0/DeclarationList/Declarations/0	—
+Identifier	generator.js#/SourceFile/3/Body/0/Body/0/DeclarationList/Declarations/0/name	—
+ArrayLiteralExpression	generator.js#/SourceFile/3/Body/0/Body/0/DeclarationList/Declarations/0/Initializer	—
+VariableDeclarationList	generator.js#/SourceFile/3/Body/0/Body/1/Initializer	—
+ConstKeyword	generator.js#/SourceFile/3/Body/0/Body/1/Initializer/Flags/0	—
+—	generator.js#/SourceFile/3/Body/0/Body/1/Initializer/Declarations/0	—
+ArrayBindingPattern	generator.js#/SourceFile/3/Body/0/Body/1/Initializer/Declarations/0/name	—
+—	generator.js#/SourceFile/3/Body/0/Body/1/Initializer/Declarations/0/name/Elements/0	—
+Identifier	generator.js#/SourceFile/3/Body/0/Body/1/Initializer/Declarations/0/name/Elements/0/name	—
+—	generator.js#/SourceFile/3/Body/0/Body/1/Initializer/Declarations/0/name/Elements/1	—
+Identifier	generator.js#/SourceFile/3/Body/0/Body/1/Initializer/Declarations/0/name/Elements/1/name	—
+CallExpression	generator.js#/SourceFile/3/Body/0/Body/1/Expression	—
+PropertyAccessExpression · DotToken	generator.js#/SourceFile/3/Body/0/Body/1/Expression/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/0/Body/1/Expression/Expression/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/0/Body/1/Expression/Expression/name	—
+CallExpression	generator.js#/SourceFile/3/Body/0/Body/1/Statement/0/Expression	—
+PropertyAccessExpression · DotToken	generator.js#/SourceFile/3/Body/0/Body/1/Statement/0/Expression/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/0/Body/1/Statement/0/Expression/Expression/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/0/Body/1/Statement/0/Expression/Expression/name	—
+CallExpression	generator.js#/SourceFile/3/Body/0/Body/1/Statement/0/Expression/Arguments/0	—
+Identifier	generator.js#/SourceFile/3/Body/0/Body/1/Statement/0/Expression/Arguments/0/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/0/Body/1/Statement/0/Expression/Arguments/0/Arguments/0	—
+CallExpression	generator.js#/SourceFile/3/Body/0/Body/1/Statement/0/Expression/Arguments/0/Arguments/1	—
+Identifier	generator.js#/SourceFile/3/Body/0/Body/1/Statement/0/Expression/Arguments/0/Arguments/1/Expression	—
+BinaryExpression	generator.js#/SourceFile/3/Body/0/Body/1/Statement/0/Expression/Arguments/0/Arguments/1/Arguments/0	—
+Identifier	generator.js#/SourceFile/3/Body/0/Body/1/Statement/0/Expression/Arguments/0/Arguments/1/Arguments/0/Left	—
+PlusToken	generator.js#/SourceFile/3/Body/0/Body/1/Statement/0/Expression/Arguments/0/Arguments/1/Arguments/0/OperatorToken	—
+NumericLiteral	generator.js#/SourceFile/3/Body/0/Body/1/Statement/0/Expression/Arguments/0/Arguments/1/Arguments/0/Right	—
+CallExpression	generator.js#/SourceFile/3/Body/0/Body/2/Expression	—
+PropertyAccessExpression · DotToken	generator.js#/SourceFile/3/Body/0/Body/2/Expression/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/0/Body/2/Expression/Expression/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/0/Body/2/Expression/Expression/name	—
+StringLiteral	generator.js#/SourceFile/3/Body/0/Body/2/Expression/Arguments/0	—
+—	generator.js#/SourceFile/3/Body/1/name	—
+—	generator.js#/SourceFile/3/Body/1/Parameters/0	—
+Identifier	generator.js#/SourceFile/3/Body/1/Parameters/0/name	—
+—	generator.js#/SourceFile/3/Body/1/Parameters/1	—
+Identifier	generator.js#/SourceFile/3/Body/1/Parameters/1/name	—
+BinaryExpression	generator.js#/SourceFile/3/Body/1/Body/0/Expression	—
+BinaryExpression	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Left	—
+BinaryExpression	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Left/Left	—
+CallExpression	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Left/Left/Left	—
+Identifier	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Left/Left/Left/Expression	—
+PlusToken	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Left/Left/OperatorToken	—
+CallExpression	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Left/Left/Right	—
+Identifier	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Left/Left/Right/Expression	—
+ElementAccessExpression	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Left/Left/Right/Arguments/0	—
+Identifier	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Left/Left/Right/Arguments/0/Expression	—
+StringLiteral	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Left/Left/Right/Arguments/0/ArgumentExpression	—
+BinaryExpression	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Left/Left/Right/Arguments/1	—
+Identifier	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Left/Left/Right/Arguments/1/Left	—
+PlusToken	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Left/Left/Right/Arguments/1/OperatorToken	—
+StringLiteral	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Left/Left/Right/Arguments/1/Right	—
+PlusToken	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Left/OperatorToken	—
+CallExpression	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Left/Right	—
+Identifier	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Left/Right/Expression	—
+PlusToken	generator.js#/SourceFile/3/Body/1/Body/0/Expression/OperatorToken	—
+CallExpression	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Right	—
+Identifier	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Right/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Right/Arguments/0	—
+Identifier	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Right/Arguments/1	—
+—	generator.js#/SourceFile/3/Body/2/name	—
+—	generator.js#/SourceFile/3/Body/2/Parameters/0	—
+Identifier	generator.js#/SourceFile/3/Body/2/Parameters/0/name	—
+—	generator.js#/SourceFile/3/Body/2/Parameters/1	—
+Identifier	generator.js#/SourceFile/3/Body/2/Parameters/1/name	—
+BinaryExpression	generator.js#/SourceFile/3/Body/2/Body/0/Expression	—
+PropertyAccessExpression · DotToken	generator.js#/SourceFile/3/Body/2/Body/0/Expression/Left	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/0/Expression/Left/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/0/Expression/Left/name	—
+EqualsEqualsEqualsToken	generator.js#/SourceFile/3/Body/2/Body/0/Expression/OperatorToken	—
+NullLiteral	generator.js#/SourceFile/3/Body/2/Body/0/Expression/Right	—
+BinaryExpression	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/0/Expression	—
+PropertyAccessExpression · DotToken	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/0/Expression/Left	—
+PropertyAccessExpression · DotToken	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/0/Expression/Left/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/0/Expression/Left/Expression/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/0/Expression/Left/Expression/name	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/0/Expression/Left/name	—
+GreaterThanToken	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/0/Expression/OperatorToken	—
+NumericLiteral	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/0/Expression/Right	—
+NewExpression	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/0/ThenStatement/0/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/0/ThenStatement/0/Expression/Expression	—
+BinaryExpression	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/0/ThenStatement/0/Expression/Arguments/0	—
+StringLiteral	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/0/ThenStatement/0/Expression/Arguments/0/Left	—
+PlusToken	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/0/ThenStatement/0/Expression/Arguments/0/OperatorToken	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/0/ThenStatement/0/Expression/Arguments/0/Right	—
+StringLiteral	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/1/Expression	—
+ConstKeyword	generator.js#/SourceFile/3/Body/2/Body/1/DeclarationList/Flags/0	—
+—	generator.js#/SourceFile/3/Body/2/Body/1/DeclarationList/Declarations/0	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/1/DeclarationList/Declarations/0/name	—
+ArrayLiteralExpression	generator.js#/SourceFile/3/Body/2/Body/1/DeclarationList/Declarations/0/Initializer	—
+CallExpression	generator.js#/SourceFile/3/Body/2/Body/1/DeclarationList/Declarations/0/Initializer/Elements/0	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/1/DeclarationList/Declarations/0/Initializer/Elements/0/Expression	—
+PropertyAccessExpression · DotToken	generator.js#/SourceFile/3/Body/2/Body/1/DeclarationList/Declarations/0/Initializer/Elements/0/Arguments/0	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/1/DeclarationList/Declarations/0/Initializer/Elements/0/Arguments/0/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/1/DeclarationList/Declarations/0/Initializer/Elements/0/Arguments/0/name	—
+BinaryExpression	generator.js#/SourceFile/3/Body/2/Body/1/DeclarationList/Declarations/0/Initializer/Elements/0/Arguments/1	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/1/DeclarationList/Declarations/0/Initializer/Elements/0/Arguments/1/Left	—
+PlusToken	generator.js#/SourceFile/3/Body/2/Body/1/DeclarationList/Declarations/0/Initializer/Elements/0/Arguments/1/OperatorToken	—
+StringLiteral	generator.js#/SourceFile/3/Body/2/Body/1/DeclarationList/Declarations/0/Initializer/Elements/0/Arguments/1/Right	—
+VariableDeclarationList	generator.js#/SourceFile/3/Body/2/Body/2/Initializer	—
+ConstKeyword	generator.js#/SourceFile/3/Body/2/Body/2/Initializer/Flags/0	—
+—	generator.js#/SourceFile/3/Body/2/Body/2/Initializer/Declarations/0	—
+ArrayBindingPattern	generator.js#/SourceFile/3/Body/2/Body/2/Initializer/Declarations/0/name	—
+—	generator.js#/SourceFile/3/Body/2/Body/2/Initializer/Declarations/0/name/Elements/0	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/2/Initializer/Declarations/0/name/Elements/0/name	—
+—	generator.js#/SourceFile/3/Body/2/Body/2/Initializer/Declarations/0/name/Elements/1	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/2/Initializer/Declarations/0/name/Elements/1/name	—
+CallExpression	generator.js#/SourceFile/3/Body/2/Body/2/Expression	—
+PropertyAccessExpression · DotToken	generator.js#/SourceFile/3/Body/2/Body/2/Expression/Expression	—
+PropertyAccessExpression · DotToken	generator.js#/SourceFile/3/Body/2/Body/2/Expression/Expression/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/2/Expression/Expression/Expression/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/2/Expression/Expression/Expression/name	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/2/Expression/Expression/name	—
+BinaryExpression	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/Expression	—
+PropertyAccessExpression · DotToken	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/Expression/Left	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/Expression/Left/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/Expression/Left/name	—
+ExclamationEqualsEqualsToken	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/Expression/Right	—
+PropertyAccessExpression · DotToken	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/Expression/Right/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/Expression/Right/Expression/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/Expression/Right/Expression/name	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/Expression/Right/name	—
+NewExpression	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0/Expression/Expression	—
+BinaryExpression	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0/Expression/Arguments/0	—
+BinaryExpression	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0/Expression/Arguments/0/Left	—
+BinaryExpression	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0/Expression/Arguments/0/Left/Left	—
+StringLiteral	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0/Expression/Arguments/0/Left/Left/Left	—
+PlusToken	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0/Expression/Arguments/0/Left/Left/OperatorToken	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0/Expression/Arguments/0/Left/Left/Right	—
+PlusToken	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0/Expression/Arguments/0/Left/OperatorToken	—
+StringLiteral	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0/Expression/Arguments/0/Left/Right	—
+PlusToken	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0/Expression/Arguments/0/OperatorToken	—
+CallExpression	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0/Expression/Arguments/0/Right	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0/Expression/Arguments/0/Right/Expression	—
+BinaryExpression	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0/Expression/Arguments/0/Right/Arguments/0	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0/Expression/Arguments/0/Right/Arguments/0/Left	—
+PlusToken	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0/Expression/Arguments/0/Right/Arguments/0/OperatorToken	—
+NumericLiteral	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0/Expression/Arguments/0/Right/Arguments/0/Right	—
+CallExpression	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression	—
+PropertyAccessExpression · DotToken	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Expression/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Expression/name	—
+CallExpression	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Arguments/0	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Arguments/0/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Arguments/0/Arguments/0	—
+BinaryExpression	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Arguments/0/Arguments/1/Left	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Arguments/0/Arguments/1/Left/Left	—
+PlusToken	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Arguments/0/Arguments/1/Left/OperatorToken	—
+StringLiteral	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Arguments/0/Arguments/1/Left/Right	—
+PlusToken	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Arguments/0/Arguments/1/OperatorToken	—
+CallExpression	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Arguments/0/Arguments/1/Right	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Arguments/0/Arguments/1/Right/Expression	—
+BinaryExpression	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Arguments/0/Arguments/1/Right/Arguments/0	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Arguments/0/Arguments/1/Right/Arguments/0/Left	—
+PlusToken	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Arguments/0/Arguments/1/Right/Arguments/0/OperatorToken	—
+NumericLiteral	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Arguments/0/Arguments/1/Right/Arguments/0/Right	—
+CallExpression	generator.js#/SourceFile/3/Body/2/Body/3/Expression	—
+PropertyAccessExpression · DotToken	generator.js#/SourceFile/3/Body/2/Body/3/Expression/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/3/Expression/Expression/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/2/Body/3/Expression/Expression/name	—
+StringLiteral	generator.js#/SourceFile/3/Body/2/Body/3/Expression/Arguments/0	—
+—	generator.js#/SourceFile/3/Body/3/name	—
+—	generator.js#/SourceFile/3/Body/3/Parameters/0	—
+Identifier	generator.js#/SourceFile/3/Body/3/Parameters/0/name	—
+—	generator.js#/SourceFile/3/Body/3/Parameters/1	—
+Identifier	generator.js#/SourceFile/3/Body/3/Parameters/1/name	—
+CallExpression	generator.js#/SourceFile/3/Body/3/Body/0/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/3/Body/0/Expression/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/3/Body/0/Expression/Arguments/0	—
+Identifier	generator.js#/SourceFile/3/Body/3/Body/0/Expression/Arguments/1	—
+—	generator.js#/SourceFile/3/Body/4/name	—
+—	generator.js#/SourceFile/3/Body/4/Parameters/0	—
+Identifier	generator.js#/SourceFile/3/Body/4/Parameters/0/name	—
+—	generator.js#/SourceFile/3/Body/4/Parameters/1	—
+Identifier	generator.js#/SourceFile/3/Body/4/Parameters/1/name	—
+BinaryExpression	generator.js#/SourceFile/3/Body/4/Body/0/Expression	—
+PropertyAccessExpression · DotToken	generator.js#/SourceFile/3/Body/4/Body/0/Expression/Left	—
+Identifier	generator.js#/SourceFile/3/Body/4/Body/0/Expression/Left/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/4/Body/0/Expression/Left/name	—
+EqualsEqualsEqualsToken	generator.js#/SourceFile/3/Body/4/Body/0/Expression/OperatorToken	—
+NumericLiteral	generator.js#/SourceFile/3/Body/4/Body/0/Expression/Right	—
+NewExpression	generator.js#/SourceFile/3/Body/4/Body/0/ThenStatement/0/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/4/Body/0/ThenStatement/0/Expression/Expression	—
+BinaryExpression	generator.js#/SourceFile/3/Body/4/Body/0/ThenStatement/0/Expression/Arguments/0	—
+StringLiteral	generator.js#/SourceFile/3/Body/4/Body/0/ThenStatement/0/Expression/Arguments/0/Left	—
+PlusToken	generator.js#/SourceFile/3/Body/4/Body/0/ThenStatement/0/Expression/Arguments/0/OperatorToken	—
+Identifier	generator.js#/SourceFile/3/Body/4/Body/0/ThenStatement/0/Expression/Arguments/0/Right	—
+ConstKeyword	generator.js#/SourceFile/3/Body/4/Body/1/DeclarationList/Flags/0	—
+—	generator.js#/SourceFile/3/Body/4/Body/1/DeclarationList/Declarations/0	—
+Identifier	generator.js#/SourceFile/3/Body/4/Body/1/DeclarationList/Declarations/0/name	—
+ArrayLiteralExpression	generator.js#/SourceFile/3/Body/4/Body/1/DeclarationList/Declarations/0/Initializer	—
+VariableDeclarationList	generator.js#/SourceFile/3/Body/4/Body/2/Initializer	—
+ConstKeyword	generator.js#/SourceFile/3/Body/4/Body/2/Initializer/Flags/0	—
+—	generator.js#/SourceFile/3/Body/4/Body/2/Initializer/Declarations/0	—
+ArrayBindingPattern	generator.js#/SourceFile/3/Body/4/Body/2/Initializer/Declarations/0/name	—
+—	generator.js#/SourceFile/3/Body/4/Body/2/Initializer/Declarations/0/name/Elements/0	—
+Identifier	generator.js#/SourceFile/3/Body/4/Body/2/Initializer/Declarations/0/name/Elements/0/name	—
+—	generator.js#/SourceFile/3/Body/4/Body/2/Initializer/Declarations/0/name/Elements/1	—
+Identifier	generator.js#/SourceFile/3/Body/4/Body/2/Initializer/Declarations/0/name/Elements/1/name	—
+CallExpression	generator.js#/SourceFile/3/Body/4/Body/2/Expression	—
+PropertyAccessExpression · DotToken	generator.js#/SourceFile/3/Body/4/Body/2/Expression/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/4/Body/2/Expression/Expression/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/4/Body/2/Expression/Expression/name	—
+CallExpression	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression	—
+PropertyAccessExpression · DotToken	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Expression/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Expression/name	—
+CallExpression	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Arguments/0	—
+Identifier	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Arguments/0/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Arguments/0/Arguments/0	—
+BinaryExpression	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Arguments/0/Arguments/1/Left	—
+Identifier	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Arguments/0/Arguments/1/Left/Left	—
+PlusToken	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Arguments/0/Arguments/1/Left/OperatorToken	—
+StringLiteral	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Arguments/0/Arguments/1/Left/Right	—
+PlusToken	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Arguments/0/Arguments/1/OperatorToken	—
+CallExpression	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Arguments/0/Arguments/1/Right	—
+Identifier	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Arguments/0/Arguments/1/Right/Expression	—
+BinaryExpression	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Arguments/0/Arguments/1/Right/Arguments/0	—
+Identifier	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Arguments/0/Arguments/1/Right/Arguments/0/Left	—
+PlusToken	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Arguments/0/Arguments/1/Right/Arguments/0/OperatorToken	—
+NumericLiteral	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Arguments/0/Arguments/1/Right/Arguments/0/Right	—
+BinaryExpression	generator.js#/SourceFile/3/Body/4/Body/3/Expression	—
+CallExpression	generator.js#/SourceFile/3/Body/4/Body/3/Expression/Left	—
+PropertyAccessExpression · DotToken	generator.js#/SourceFile/3/Body/4/Body/3/Expression/Left/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/4/Body/3/Expression/Left/Expression/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/4/Body/3/Expression/Left/Expression/name	—
+StringLiteral	generator.js#/SourceFile/3/Body/4/Body/3/Expression/Left/Arguments/0	—
+PlusToken	generator.js#/SourceFile/3/Body/4/Body/3/Expression/OperatorToken	—
+CallExpression	generator.js#/SourceFile/3/Body/4/Body/3/Expression/Right	—
+Identifier	generator.js#/SourceFile/3/Body/4/Body/3/Expression/Right/Expression	—
+—	generator.js#/SourceFile/3/Body/5/name	—
+—	generator.js#/SourceFile/3/Body/5/Parameters/0	—
+Identifier	generator.js#/SourceFile/3/Body/5/Parameters/0/name	—
+—	generator.js#/SourceFile/3/Body/5/Parameters/1	—
+Identifier	generator.js#/SourceFile/3/Body/5/Parameters/1/name	—
+VariableDeclarationList	generator.js#/SourceFile/3/Body/5/Body/0/Initializer	—
+ConstKeyword	generator.js#/SourceFile/3/Body/5/Body/0/Initializer/Flags/0	—
+—	generator.js#/SourceFile/3/Body/5/Body/0/Initializer/Declarations/0	—
+Identifier	generator.js#/SourceFile/3/Body/5/Body/0/Initializer/Declarations/0/name	—
+Identifier	generator.js#/SourceFile/3/Body/5/Body/0/Expression	—
+PrefixUnaryExpression	generator.js#/SourceFile/3/Body/5/Body/0/Statement/0/Expression	—
+ExclamationToken	generator.js#/SourceFile/3/Body/5/Body/0/Statement/0/Expression/Operator	—
+CallExpression	generator.js#/SourceFile/3/Body/5/Body/0/Statement/0/Expression/Operand	—
+Identifier	generator.js#/SourceFile/3/Body/5/Body/0/Statement/0/Expression/Operand/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/5/Body/0/Statement/0/Expression/Operand/Arguments/0	—
+NewExpression	generator.js#/SourceFile/3/Body/5/Body/0/Statement/0/ThenStatement/0/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/5/Body/0/Statement/0/ThenStatement/0/Expression/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/5/Body/0/Statement/0/ThenStatement/0/Expression/Arguments/0	—
+Identifier	generator.js#/SourceFile/3/Body/5/Body/1/Expression	—
+—	generator.js#/SourceFile/3/Body/6/name	—
+—	generator.js#/SourceFile/3/Body/6/Parameters/0	—
+Identifier	generator.js#/SourceFile/3/Body/6/Parameters/0/name	—
+—	generator.js#/SourceFile/3/Body/6/Parameters/1	—
+Identifier	generator.js#/SourceFile/3/Body/6/Parameters/1/name	—
+CallExpression	generator.js#/SourceFile/3/Body/6/Body/0/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/6/Body/0/Expression/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/6/Body/0/Expression/Arguments/0	—
+Identifier	generator.js#/SourceFile/3/Body/6/Body/0/Expression/Arguments/1	—
+—	generator.js#/SourceFile/3/Body/7/name	—
+—	generator.js#/SourceFile/3/Body/7/Parameters/0	—
+Identifier	generator.js#/SourceFile/3/Body/7/Parameters/0/name	—
+PrefixUnaryExpression	generator.js#/SourceFile/3/Body/7/Body/0/Expression	—
+ExclamationToken	generator.js#/SourceFile/3/Body/7/Body/0/Expression/Operator	—
+CallExpression	generator.js#/SourceFile/3/Body/7/Body/0/Expression/Operand	—
+PropertyAccessExpression · DotToken	generator.js#/SourceFile/3/Body/7/Body/0/Expression/Operand/Expression	—
+StringLiteral	generator.js#/SourceFile/3/Body/7/Body/0/Expression/Operand/Expression/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/7/Body/0/Expression/Operand/Expression/name	—
+Identifier	generator.js#/SourceFile/3/Body/7/Body/0/Expression/Operand/Arguments/0	—
+—	generator.js#/SourceFile/3/Body/8/name	—
+StringLiteral	generator.js#/SourceFile/3/Body/8/Body/0/Expression	—
+—	generator.js#/SourceFile/3/Body/9/name	—
+StringLiteral	generator.js#/SourceFile/3/Body/9/Body/0/Expression	—
+CallExpression	generator.js#/SourceFile/3/Body/10/Expression	—
+Identifier	generator.js#/SourceFile/3/Body/10/Expression/Expression	—
+5-texts
+kind	place	holds
+—	generator.js#/SourceFile/0/name/Text	dump
+—	generator.js#/SourceFile/0/Parameters/0/name/Text	sheets
+—	generator.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/name/Text	generator3UTF8Encode
+—	generator.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Expression/Text	TextEncoder
+—	generator.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Expression/name/Text	encode
+—	generator.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Text	dumps
+—	generator.js#/SourceFile/0/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Text	sheets
+—	generator.js#/SourceFile/0/Body/1/Expression/Text	generator3UTF8Encode
+—	generator.js#/SourceFile/1/name/Text	dumps
+—	generator.js#/SourceFile/1/Parameters/0/name/Text	sheets
+—	generator.js#/SourceFile/1/Body/0/Expression/Expression/Text	generate
+—	generator.js#/SourceFile/1/Body/0/Expression/Arguments/0/Text	sheets
+—	generator.js#/SourceFile/2/name/Text	CannotBeRepresentedError
+—	generator.js#/SourceFile/2/HeritageClauses/0/Types/0/Text	Error
+—	generator.js#/SourceFile/3/name/Text	generate
+—	generator.js#/SourceFile/3/Parameters/0/name/Text	sheets
+—	generator.js#/SourceFile/3/Body/0/name/Text	mtsvFile
+—	generator.js#/SourceFile/3/Body/0/Body/0/DeclarationList/Declarations/0/name/Text	texts
+—	generator.js#/SourceFile/3/Body/0/Body/1/Initializer/Declarations/0/name/Elements/0/name/Text	number
+—	generator.js#/SourceFile/3/Body/0/Body/1/Initializer/Declarations/0/name/Elements/1/name/Text	sheet
+—	generator.js#/SourceFile/3/Body/0/Body/1/Expression/Expression/Expression/Text	sheets
+—	generator.js#/SourceFile/3/Body/0/Body/1/Expression/Expression/name/Text	entries
+—	generator.js#/SourceFile/3/Body/0/Body/1/Statement/0/Expression/Expression/Expression/Text	texts
+—	generator.js#/SourceFile/3/Body/0/Body/1/Statement/0/Expression/Expression/name/Text	push
+—	generator.js#/SourceFile/3/Body/0/Body/1/Statement/0/Expression/Arguments/0/Expression/Text	namedSheet
+—	generator.js#/SourceFile/3/Body/0/Body/1/Statement/0/Expression/Arguments/0/Arguments/0/Text	sheet
+—	generator.js#/SourceFile/3/Body/0/Body/1/Statement/0/Expression/Arguments/0/Arguments/1/Expression/Text	String
+—	generator.js#/SourceFile/3/Body/0/Body/1/Statement/0/Expression/Arguments/0/Arguments/1/Arguments/0/Left/Text	number
+—	generator.js#/SourceFile/3/Body/0/Body/1/Statement/0/Expression/Arguments/0/Arguments/1/Arguments/0/Right/Text	1
+—	generator.js#/SourceFile/3/Body/0/Body/2/Expression/Expression/Expression/Text	texts
+—	generator.js#/SourceFile/3/Body/0/Body/2/Expression/Expression/name/Text	join
+—	generator.js#/SourceFile/3/Body/0/Body/2/Expression/Arguments/0/Text	''
+—	generator.js#/SourceFile/3/Body/1/name/Text	namedSheet
+—	generator.js#/SourceFile/3/Body/1/Parameters/0/name/Text	sheet
+—	generator.js#/SourceFile/3/Body/1/Parameters/1/name/Text	place
+—	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Left/Left/Left/Expression/Text	ff
+—	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Left/Left/Right/Expression/Text	sheetName
+—	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Left/Left/Right/Arguments/0/Expression/Text	sheet
+—	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Left/Left/Right/Arguments/0/ArgumentExpression/Text	'sheet name'
+—	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Left/Left/Right/Arguments/1/Left/Text	place
+—	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Left/Left/Right/Arguments/1/Right/Text	' 0 1'
+—	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Left/Right/Expression/Text	eol
+—	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Right/Expression/Text	sheetBody
+—	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Right/Arguments/0/Text	sheet
+—	generator.js#/SourceFile/3/Body/1/Body/0/Expression/Right/Arguments/1/Text	place
+—	generator.js#/SourceFile/3/Body/2/name/Text	sheetBody
+—	generator.js#/SourceFile/3/Body/2/Parameters/0/name/Text	sheet
+—	generator.js#/SourceFile/3/Body/2/Parameters/1/name/Text	place
+—	generator.js#/SourceFile/3/Body/2/Body/0/Expression/Left/Expression/Text	sheet
+—	generator.js#/SourceFile/3/Body/2/Body/0/Expression/Left/name/Text	header
+—	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/0/Expression/Left/Expression/Expression/Text	sheet
+—	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/0/Expression/Left/Expression/name/Text	records
+—	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/0/Expression/Left/name/Text	length
+—	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/0/Expression/Right/Text	0
+—	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/0/ThenStatement/0/Expression/Expression/Text	CannotBeRepresentedError
+—	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/0/ThenStatement/0/Expression/Arguments/0/Left/Text	'records without a header cannot be represented: '
+—	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/0/ThenStatement/0/Expression/Arguments/0/Right/Text	place
+—	generator.js#/SourceFile/3/Body/2/Body/0/ThenStatement/1/Expression/Text	''
+—	generator.js#/SourceFile/3/Body/2/Body/1/DeclarationList/Declarations/0/name/Text	texts
+—	generator.js#/SourceFile/3/Body/2/Body/1/DeclarationList/Declarations/0/Initializer/Elements/0/Expression/Text	header
+—	generator.js#/SourceFile/3/Body/2/Body/1/DeclarationList/Declarations/0/Initializer/Elements/0/Arguments/0/Expression/Text	sheet
+—	generator.js#/SourceFile/3/Body/2/Body/1/DeclarationList/Declarations/0/Initializer/Elements/0/Arguments/0/name/Text	header
+—	generator.js#/SourceFile/3/Body/2/Body/1/DeclarationList/Declarations/0/Initializer/Elements/0/Arguments/1/Left/Text	place
+—	generator.js#/SourceFile/3/Body/2/Body/1/DeclarationList/Declarations/0/Initializer/Elements/0/Arguments/1/Right/Text	' 1'
+—	generator.js#/SourceFile/3/Body/2/Body/2/Initializer/Declarations/0/name/Elements/0/name/Text	number
+—	generator.js#/SourceFile/3/Body/2/Body/2/Initializer/Declarations/0/name/Elements/1/name/Text	fields
+—	generator.js#/SourceFile/3/Body/2/Body/2/Expression/Expression/Expression/Expression/Text	sheet
+—	generator.js#/SourceFile/3/Body/2/Body/2/Expression/Expression/Expression/name/Text	records
+—	generator.js#/SourceFile/3/Body/2/Body/2/Expression/Expression/name/Text	entries
+—	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/Expression/Left/Expression/Text	fields
+—	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/Expression/Left/name/Text	length
+—	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/Expression/Right/Expression/Expression/Text	sheet
+—	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/Expression/Right/Expression/name/Text	header
+—	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/Expression/Right/name/Text	length
+—	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0/Expression/Expression/Text	CannotBeRepresentedError
+—	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0/Expression/Arguments/0/Left/Left/Left/Text	'a record must have as many fields as its header: '
+—	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0/Expression/Arguments/0/Left/Left/Right/Text	place
+—	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0/Expression/Arguments/0/Left/Right/Text	' '
+—	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0/Expression/Arguments/0/Right/Expression/Text	String
+—	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0/Expression/Arguments/0/Right/Arguments/0/Left/Text	number
+—	generator.js#/SourceFile/3/Body/2/Body/2/Statement/0/ThenStatement/0/Expression/Arguments/0/Right/Arguments/0/Right/Text	2
+—	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Expression/Expression/Text	texts
+—	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Expression/name/Text	push
+—	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Arguments/0/Expression/Text	record
+—	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Arguments/0/Arguments/0/Text	fields
+—	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Arguments/0/Arguments/1/Left/Left/Text	place
+—	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Arguments/0/Arguments/1/Left/Right/Text	' '
+—	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Arguments/0/Arguments/1/Right/Expression/Text	String
+—	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Arguments/0/Arguments/1/Right/Arguments/0/Left/Text	number
+—	generator.js#/SourceFile/3/Body/2/Body/2/Statement/1/Expression/Arguments/0/Arguments/1/Right/Arguments/0/Right/Text	2
+—	generator.js#/SourceFile/3/Body/2/Body/3/Expression/Expression/Expression/Text	texts
+—	generator.js#/SourceFile/3/Body/2/Body/3/Expression/Expression/name/Text	join
+—	generator.js#/SourceFile/3/Body/2/Body/3/Expression/Arguments/0/Text	''
+—	generator.js#/SourceFile/3/Body/3/name/Text	header
+—	generator.js#/SourceFile/3/Body/3/Parameters/0/name/Text	fields
+—	generator.js#/SourceFile/3/Body/3/Parameters/1/name/Text	place
+—	generator.js#/SourceFile/3/Body/3/Body/0/Expression/Expression/Text	record
+—	generator.js#/SourceFile/3/Body/3/Body/0/Expression/Arguments/0/Text	fields
+—	generator.js#/SourceFile/3/Body/3/Body/0/Expression/Arguments/1/Text	place
+—	generator.js#/SourceFile/3/Body/4/name/Text	record
+—	generator.js#/SourceFile/3/Body/4/Parameters/0/name/Text	fields
+—	generator.js#/SourceFile/3/Body/4/Parameters/1/name/Text	place
+—	generator.js#/SourceFile/3/Body/4/Body/0/Expression/Left/Expression/Text	fields
+—	generator.js#/SourceFile/3/Body/4/Body/0/Expression/Left/name/Text	length
+—	generator.js#/SourceFile/3/Body/4/Body/0/Expression/Right/Text	0
+—	generator.js#/SourceFile/3/Body/4/Body/0/ThenStatement/0/Expression/Expression/Text	CannotBeRepresentedError
+—	generator.js#/SourceFile/3/Body/4/Body/0/ThenStatement/0/Expression/Arguments/0/Left/Text	'a record must have a field: '
+—	generator.js#/SourceFile/3/Body/4/Body/0/ThenStatement/0/Expression/Arguments/0/Right/Text	place
+—	generator.js#/SourceFile/3/Body/4/Body/1/DeclarationList/Declarations/0/name/Text	texts
+—	generator.js#/SourceFile/3/Body/4/Body/2/Initializer/Declarations/0/name/Elements/0/name/Text	number
+—	generator.js#/SourceFile/3/Body/4/Body/2/Initializer/Declarations/0/name/Elements/1/name/Text	value
+—	generator.js#/SourceFile/3/Body/4/Body/2/Expression/Expression/Expression/Text	fields
+—	generator.js#/SourceFile/3/Body/4/Body/2/Expression/Expression/name/Text	entries
+—	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Expression/Expression/Text	texts
+—	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Expression/name/Text	push
+—	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Arguments/0/Expression/Text	field
+—	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Arguments/0/Arguments/0/Text	value
+—	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Arguments/0/Arguments/1/Left/Left/Text	place
+—	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Arguments/0/Arguments/1/Left/Right/Text	' '
+—	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Arguments/0/Arguments/1/Right/Expression/Text	String
+—	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Arguments/0/Arguments/1/Right/Arguments/0/Left/Text	number
+—	generator.js#/SourceFile/3/Body/4/Body/2/Statement/0/Expression/Arguments/0/Arguments/1/Right/Arguments/0/Right/Text	1
+—	generator.js#/SourceFile/3/Body/4/Body/3/Expression/Left/Expression/Expression/Text	texts
+—	generator.js#/SourceFile/3/Body/4/Body/3/Expression/Left/Expression/name/Text	join
+—	generator.js#/SourceFile/3/Body/4/Body/3/Expression/Left/Arguments/0/Text	'\\t'
+—	generator.js#/SourceFile/3/Body/4/Body/3/Expression/Right/Expression/Text	eol
+—	generator.js#/SourceFile/3/Body/5/name/Text	field
+—	generator.js#/SourceFile/3/Body/5/Parameters/0/name/Text	value
+—	generator.js#/SourceFile/3/Body/5/Parameters/1/name/Text	place
+—	generator.js#/SourceFile/3/Body/5/Body/0/Initializer/Declarations/0/name/Text	character
+—	generator.js#/SourceFile/3/Body/5/Body/0/Expression/Text	value
+—	generator.js#/SourceFile/3/Body/5/Body/0/Statement/0/Expression/Operand/Expression/Text	fieldChar
+—	generator.js#/SourceFile/3/Body/5/Body/0/Statement/0/Expression/Operand/Arguments/0/Text	character
+—	generator.js#/SourceFile/3/Body/5/Body/0/Statement/0/ThenStatement/0/Expression/Expression/Text	CannotBeRepresentedError
+—	generator.js#/SourceFile/3/Body/5/Body/0/Statement/0/ThenStatement/0/Expression/Arguments/0/Text	place
+—	generator.js#/SourceFile/3/Body/5/Body/1/Expression/Text	value
+—	generator.js#/SourceFile/3/Body/6/name/Text	sheetName
+—	generator.js#/SourceFile/3/Body/6/Parameters/0/name/Text	value
+—	generator.js#/SourceFile/3/Body/6/Parameters/1/name/Text	place
+—	generator.js#/SourceFile/3/Body/6/Body/0/Expression/Expression/Text	field
+—	generator.js#/SourceFile/3/Body/6/Body/0/Expression/Arguments/0/Text	value
+—	generator.js#/SourceFile/3/Body/6/Body/0/Expression/Arguments/1/Text	place
+—	generator.js#/SourceFile/3/Body/7/name/Text	fieldChar
+—	generator.js#/SourceFile/3/Body/7/Parameters/0/name/Text	character
+—	generator.js#/SourceFile/3/Body/7/Body/0/Expression/Operand/Expression/Expression/Text	'\\t\\n\\f\\r'
+—	generator.js#/SourceFile/3/Body/7/Body/0/Expression/Operand/Expression/name/Text	includes
+—	generator.js#/SourceFile/3/Body/7/Body/0/Expression/Operand/Arguments/0/Text	character
+—	generator.js#/SourceFile/3/Body/8/name/Text	ff
+—	generator.js#/SourceFile/3/Body/8/Body/0/Expression/Text	'\\f'
+—	generator.js#/SourceFile/3/Body/9/name/Text	eol
+—	generator.js#/SourceFile/3/Body/9/Body/0/Expression/Text	'\\n'
+—	generator.js#/SourceFile/3/Body/10/Expression/Expression/Text	mtsvFile

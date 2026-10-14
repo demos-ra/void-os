@@ -1,0 +1,136 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .py	__init__	—
+{{name}} · .py	_details	—
+3-statements
+kind	place	holds
+Expr	_details.py#/Module/0	—
+Assign	_details.py#/Module/1	—
+Import	_details.py#/Module/2	—
+ImportFrom	_details.py#/Module/3	—
+FunctionDef	_details.py#/Module/4	—
+Try	_details.py#/Module/4/body/0	—
+Return	_details.py#/Module/4/body/0/body/0	—
+Raise	_details.py#/Module/4/body/0/handlers/0/body/0	—
+ClassDef	_details.py#/Module/5	—
+Expr	_details.py#/Module/5/body/0	—
+4-expressions
+kind	place	holds
+Constant	_details.py#/Module/0/value	—
+Name	_details.py#/Module/1/targets/0	—
+List	_details.py#/Module/1/value	—
+Constant	_details.py#/Module/1/value/elts/0	—
+Constant	_details.py#/Module/1/value/elts/1	—
+—	_details.py#/Module/2/names/0	—
+—	_details.py#/Module/3/module	—
+—	_details.py#/Module/3/names/0	—
+arg	_details.py#/Module/4/args/0	—
+Subscript	_details.py#/Module/4/args/0/annotation	—
+Name	_details.py#/Module/4/args/0/annotation/value	—
+Tuple	_details.py#/Module/4/args/0/annotation/slice	—
+Name	_details.py#/Module/4/args/0/annotation/slice/elts/0	—
+Name	_details.py#/Module/4/args/0/annotation/slice/elts/1	—
+arg	_details.py#/Module/4/args/1	—
+Name	_details.py#/Module/4/args/1/annotation	—
+arg	_details.py#/Module/4/args/2	—
+BinOp	_details.py#/Module/4/args/2/annotation	—
+Name	_details.py#/Module/4/args/2/annotation/left	—
+BitOr	_details.py#/Module/4/args/2/annotation/op	—
+Name	_details.py#/Module/4/args/2/annotation/right	—
+arg	_details.py#/Module/4/args/3	—
+Attribute	_details.py#/Module/4/args/3/annotation	—
+Name	_details.py#/Module/4/args/3/annotation/value	—
+arg	_details.py#/Module/4/args/4	—
+Attribute	_details.py#/Module/4/args/4/annotation	—
+Name	_details.py#/Module/4/args/4/annotation/value	—
+Subscript	_details.py#/Module/4/returns	—
+Name	_details.py#/Module/4/returns/value	—
+Subscript	_details.py#/Module/4/returns/slice	—
+Name	_details.py#/Module/4/returns/slice/value	—
+Tuple	_details.py#/Module/4/returns/slice/slice	—
+Name	_details.py#/Module/4/returns/slice/slice/elts/0	—
+Name	_details.py#/Module/4/returns/slice/slice/elts/1	—
+BinOp	_details.py#/Module/4/body/0/body/0/value	—
+Call	_details.py#/Module/4/body/0/body/0/value/left	—
+Attribute	_details.py#/Module/4/body/0/body/0/value/left/func	—
+Name	_details.py#/Module/4/body/0/body/0/value/left/func/value	—
+Name	_details.py#/Module/4/body/0/body/0/value/left/arguments/0	—
+Name	_details.py#/Module/4/body/0/body/0/value/left/arguments/1	—
+Name	_details.py#/Module/4/body/0/body/0/value/left/arguments/2	—
+Name	_details.py#/Module/4/body/0/body/0/value/left/arguments/3	—
+List	_details.py#/Module/4/body/0/body/0/value/left/arguments/4	—
+Name	_details.py#/Module/4/body/0/body/0/value/left/arguments/5	—
+Add	_details.py#/Module/4/body/0/body/0/value/op	—
+List	_details.py#/Module/4/body/0/body/0/value/right	—
+Call	_details.py#/Module/4/body/0/body/0/value/right/elts/0	—
+Attribute	_details.py#/Module/4/body/0/body/0/value/right/elts/0/func	—
+Name	_details.py#/Module/4/body/0/body/0/value/right/elts/0/func/value	—
+Name	_details.py#/Module/4/body/0/body/0/value/right/elts/0/arguments/0	—
+Name	_details.py#/Module/4/body/0/body/0/value/right/elts/0/arguments/1	—
+Name	_details.py#/Module/4/body/0/body/0/value/right/elts/0/arguments/2	—
+Name	_details.py#/Module/4/body/0/body/0/value/right/elts/0/arguments/3	—
+Name	_details.py#/Module/4/body/0/body/0/value/right/elts/0/arguments/4	—
+—	_details.py#/Module/4/body/0/handlers/0	—
+Attribute	_details.py#/Module/4/body/0/handlers/0/type	—
+Name	_details.py#/Module/4/body/0/handlers/0/type/value	—
+Call	_details.py#/Module/4/body/0/handlers/0/body/0/exc	—
+Name	_details.py#/Module/4/body/0/handlers/0/body/0/exc/func	—
+Call	_details.py#/Module/4/body/0/handlers/0/body/0/exc/arguments/0	—
+Name	_details.py#/Module/4/body/0/handlers/0/body/0/exc/arguments/0/func	—
+Name	_details.py#/Module/4/body/0/handlers/0/body/0/exc/arguments/0/arguments/0	—
+Name	_details.py#/Module/5/arguments/0	—
+Constant	_details.py#/Module/5/body/0/value	—
+5-texts
+kind	place	holds
+—	_details.py#/Module/0/value/value	"""one value in full: every record of every sheet it gives"""
+—	_details.py#/Module/1/targets/0/id	__all__
+—	_details.py#/Module/1/value/elts/0/value	'details'
+—	_details.py#/Module/1/value/elts/1/value	'KeepingFailedError'
+—	_details.py#/Module/2/names/0/name	types
+—	_details.py#/Module/3/module/value	typing
+—	_details.py#/Module/3/names/0/name	Any
+—	_details.py#/Module/4/name/value	details
+—	_details.py#/Module/4/args/0/arg	values
+—	_details.py#/Module/4/args/0/annotation/value/id	dict
+—	_details.py#/Module/4/args/0/annotation/slice/elts/0/id	str
+—	_details.py#/Module/4/args/0/annotation/slice/elts/1/id	Any
+—	_details.py#/Module/4/args/1/arg	input_name
+—	_details.py#/Module/4/args/1/annotation/id	str
+—	_details.py#/Module/4/args/2/arg	position
+—	_details.py#/Module/4/args/2/annotation/left/id	int
+—	_details.py#/Module/4/args/2/annotation/right/id	float
+—	_details.py#/Module/4/args/3/arg	relational_model
+—	_details.py#/Module/4/args/3/annotation/value/id	types
+—	_details.py#/Module/4/args/3/annotation/attr	ModuleType
+—	_details.py#/Module/4/args/4/arg	data_bank
+—	_details.py#/Module/4/args/4/annotation/value/id	types
+—	_details.py#/Module/4/args/4/annotation/attr	ModuleType
+—	_details.py#/Module/4/returns/value/id	list
+—	_details.py#/Module/4/returns/slice/value/id	dict
+—	_details.py#/Module/4/returns/slice/slice/elts/0/id	str
+—	_details.py#/Module/4/returns/slice/slice/elts/1/id	Any
+—	_details.py#/Module/4/body/0/body/0/value/left/func/value/id	data_bank
+—	_details.py#/Module/4/body/0/body/0/value/left/func/attr	records
+—	_details.py#/Module/4/body/0/body/0/value/left/arguments/0/id	values
+—	_details.py#/Module/4/body/0/body/0/value/left/arguments/1/id	input_name
+—	_details.py#/Module/4/body/0/body/0/value/left/arguments/2/id	position
+—	_details.py#/Module/4/body/0/body/0/value/left/arguments/3/id	position
+—	_details.py#/Module/4/body/0/body/0/value/left/arguments/5/id	relational_model
+—	_details.py#/Module/4/body/0/body/0/value/right/elts/0/func/value/id	data_bank
+—	_details.py#/Module/4/body/0/body/0/value/right/elts/0/func/attr	stored
+—	_details.py#/Module/4/body/0/body/0/value/right/elts/0/arguments/0/id	values
+—	_details.py#/Module/4/body/0/body/0/value/right/elts/0/arguments/1/id	input_name
+—	_details.py#/Module/4/body/0/body/0/value/right/elts/0/arguments/2/id	position
+—	_details.py#/Module/4/body/0/body/0/value/right/elts/0/arguments/3/id	position
+—	_details.py#/Module/4/body/0/body/0/value/right/elts/0/arguments/4/id	relational_model
+—	_details.py#/Module/4/body/0/handlers/0/type/value/id	data_bank
+—	_details.py#/Module/4/body/0/handlers/0/type/attr	KeepingFailedError
+—	_details.py#/Module/4/body/0/handlers/0/name	error
+—	_details.py#/Module/4/body/0/handlers/0/body/0/exc/func/id	KeepingFailedError
+—	_details.py#/Module/4/body/0/handlers/0/body/0/exc/arguments/0/func/id	str
+—	_details.py#/Module/4/body/0/handlers/0/body/0/exc/arguments/0/arguments/0/id	error
+—	_details.py#/Module/5/name/value	KeepingFailedError
+—	_details.py#/Module/5/arguments/0/id	Exception
+—	_details.py#/Module/5/body/0/value/value	"""An error that ends an access program a module calls MUST end the module's access as that error, by its name, unless Ended errors names a requirement that ends it otherwise or rules it out."""

@@ -1,0 +1,141 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .py	__init__	—
+{{name}} · .py	test_set_operations	—
+3-statements
+kind	place	holds
+Import	test_set_operations.py#/Module/0	—
+Import	test_set_operations.py#/Module/1	—
+ImportFrom	test_set_operations.py#/Module/2	—
+ImportFrom	test_set_operations.py#/Module/3	—
+ImportFrom	test_set_operations.py#/Module/4	—
+ClassDef	test_set_operations.py#/Module/5	—
+FunctionDef	test_set_operations.py#/Module/5/body/0	—
+Expr	test_set_operations.py#/Module/5/body/0/body/0	—
+With	test_set_operations.py#/Module/5/body/0/body/1	—
+Expr	test_set_operations.py#/Module/5/body/0/body/1/body/0	—
+FunctionDef	test_set_operations.py#/Module/5/body/1	—
+Expr	test_set_operations.py#/Module/5/body/1/body/0	—
+With	test_set_operations.py#/Module/5/body/1/body/1	—
+Expr	test_set_operations.py#/Module/5/body/1/body/1/body/0	—
+4-expressions
+kind	place	holds
+—	test_set_operations.py#/Module/0/names/0	—
+—	test_set_operations.py#/Module/1/names/0	—
+—	test_set_operations.py#/Module/2/module	—
+—	test_set_operations.py#/Module/2/names/0	—
+—	test_set_operations.py#/Module/3/module	—
+—	test_set_operations.py#/Module/3/names/0	—
+—	test_set_operations.py#/Module/4/module	—
+—	test_set_operations.py#/Module/4/names/0	—
+Attribute	test_set_operations.py#/Module/5/arguments/0	—
+Name	test_set_operations.py#/Module/5/arguments/0/value	—
+arg	test_set_operations.py#/Module/5/body/0/args/0	—
+Constant	test_set_operations.py#/Module/5/body/0/body/0/value	—
+—	test_set_operations.py#/Module/5/body/0/body/1/items/0	—
+Call	test_set_operations.py#/Module/5/body/0/body/1/items/0/context_expr	—
+Attribute	test_set_operations.py#/Module/5/body/0/body/1/items/0/context_expr/func	—
+Name	test_set_operations.py#/Module/5/body/0/body/1/items/0/context_expr/func/value	—
+keyword	test_set_operations.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0	—
+Constant	test_set_operations.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0/value	—
+Call	test_set_operations.py#/Module/5/body/0/body/1/body/0/value	—
+Attribute	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/func	—
+Name	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/func/value	—
+Call	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0	—
+Attribute	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func	—
+Name	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func/value	—
+Constant	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/0	—
+Constant	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/1	—
+BinOp	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2	—
+Call	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left	—
+Attribute	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func	—
+Attribute	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value	—
+Name	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value	—
+Name	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0	—
+Add	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/op	—
+Constant	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/right	—
+Name	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/3	—
+Name	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/4	—
+List	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/1	—
+arg	test_set_operations.py#/Module/5/body/1/args/0	—
+Constant	test_set_operations.py#/Module/5/body/1/body/0/value	—
+—	test_set_operations.py#/Module/5/body/1/body/1/items/0	—
+Call	test_set_operations.py#/Module/5/body/1/body/1/items/0/context_expr	—
+Attribute	test_set_operations.py#/Module/5/body/1/body/1/items/0/context_expr/func	—
+Name	test_set_operations.py#/Module/5/body/1/body/1/items/0/context_expr/func/value	—
+keyword	test_set_operations.py#/Module/5/body/1/body/1/items/0/context_expr/arguments/0	—
+Constant	test_set_operations.py#/Module/5/body/1/body/1/items/0/context_expr/arguments/0/value	—
+Call	test_set_operations.py#/Module/5/body/1/body/1/body/0/value	—
+Attribute	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/func	—
+Name	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/func/value	—
+Call	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0	—
+Attribute	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/func	—
+Name	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/func/value	—
+Constant	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/0	—
+Constant	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/1	—
+BinOp	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2	—
+Call	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left	—
+Attribute	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func	—
+Attribute	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/value	—
+Name	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value	—
+Name	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0	—
+Add	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/op	—
+Constant	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/right	—
+Name	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/3	—
+Name	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/4	—
+List	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/1	—
+5-texts
+kind	place	holds
+—	test_set_operations.py#/Module/0/names/0/name	unittest
+—	test_set_operations.py#/Module/1/names/0/name	os
+—	test_set_operations.py#/Module/2/module/value	tests.void_os.system_generation.runner
+—	test_set_operations.py#/Module/2/names/0/name	_runner
+—	test_set_operations.py#/Module/3/module/value	void_os.relational_model
+—	test_set_operations.py#/Module/3/names/0/name	_relational_model
+—	test_set_operations.py#/Module/4/module/value	void_os.system_generation.values
+—	test_set_operations.py#/Module/4/names/0/name	_values
+—	test_set_operations.py#/Module/5/name/value	TestSetOperations
+—	test_set_operations.py#/Module/5/arguments/0/value/id	unittest
+—	test_set_operations.py#/Module/5/arguments/0/attr	TestCase
+—	test_set_operations.py#/Module/5/body/0/name/value	test_set_operations_1
+—	test_set_operations.py#/Module/5/body/0/args/0/arg	self
+—	test_set_operations.py#/Module/5/body/0/body/0/value/value	"""The union MUST give each sheet name once, its records those of every sheet of that name in the files or inputs read, in their order, each record led by the file or the _input it came from."""
+—	test_set_operations.py#/Module/5/body/0/body/1/items/0/context_expr/func/value/id	self
+—	test_set_operations.py#/Module/5/body/0/body/1/items/0/context_expr/func/attr	subTest
+—	test_set_operations.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0/arg	case
+—	test_set_operations.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0/value/value	1
+—	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/func/value/id	self
+—	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/func/attr	assertEqual
+—	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func/value/id	_runner
+—	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func/attr	run
+—	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/0/value	'set-operations.1'
+—	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/1/value	1
+—	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value/id	os
+—	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value/attr	path
+—	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/attr	dirname
+—	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0/id	__file__
+—	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/right/value	'/../../../../../../conformance'
+—	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/3/id	_relational_model
+—	test_set_operations.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/4/id	_values
+—	test_set_operations.py#/Module/5/body/1/name/value	test_set_operations_2
+—	test_set_operations.py#/Module/5/body/1/args/0/arg	self
+—	test_set_operations.py#/Module/5/body/1/body/0/value/value	"""Sheets of one name whose headers differ MUST be given apart by the union."""
+—	test_set_operations.py#/Module/5/body/1/body/1/items/0/context_expr/func/value/id	self
+—	test_set_operations.py#/Module/5/body/1/body/1/items/0/context_expr/func/attr	subTest
+—	test_set_operations.py#/Module/5/body/1/body/1/items/0/context_expr/arguments/0/arg	case
+—	test_set_operations.py#/Module/5/body/1/body/1/items/0/context_expr/arguments/0/value/value	1
+—	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/func/value/id	self
+—	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/func/attr	assertEqual
+—	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/func/value/id	_runner
+—	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/func/attr	run
+—	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/0/value	'set-operations.2'
+—	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/1/value	1
+—	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value/id	os
+—	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/value/attr	path
+—	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/attr	dirname
+—	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0/id	__file__
+—	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/right/value	'/../../../../../../conformance'
+—	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/3/id	_relational_model
+—	test_set_operations.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/4/id	_values

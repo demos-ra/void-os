@@ -1,0 +1,396 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .js	server	—
+3-statements
+kind	place	holds
+ImportDeclaration	server.js#/SourceFile/0	—
+ImportDeclaration	server.js#/SourceFile/1	—
+ImportDeclaration	server.js#/SourceFile/2	—
+FunctionDeclaration · Body	server.js#/SourceFile/3	—
+VariableStatement	server.js#/SourceFile/3/Body/0	—
+VariableStatement	server.js#/SourceFile/3/Body/1	—
+ExpressionStatement	server.js#/SourceFile/3/Body/2	—
+TryStatement	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0	—
+ReturnStatement	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0	—
+IfStatement	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0	—
+ReturnStatement	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/ThenStatement/0	—
+IfStatement	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1	—
+ReturnStatement	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/ThenStatement/0	—
+ThrowStatement	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/2	—
+ExpressionStatement	server.js#/SourceFile/3/Body/3	—
+4-expressions
+kind	place	holds
+ImportClause · NamedBindings	server.js#/SourceFile/0/ImportClause	—
+NamedImports	server.js#/SourceFile/0/ImportClause/NamedBindings	—
+—	server.js#/SourceFile/0/ImportClause/NamedBindings/Elements/0	—
+StringLiteral	server.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	server.js#/SourceFile/1/ImportClause	—
+NamedImports	server.js#/SourceFile/1/ImportClause/NamedBindings	—
+—	server.js#/SourceFile/1/ImportClause/NamedBindings/Elements/0	—
+StringLiteral	server.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	server.js#/SourceFile/2/ImportClause	—
+NamespaceImport	server.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	server.js#/SourceFile/2/ModuleSpecifier	—
+ExportKeyword	server.js#/SourceFile/3/modifiers/0	—
+—	server.js#/SourceFile/3/name	—
+—	server.js#/SourceFile/3/Parameters/0	—
+Identifier	server.js#/SourceFile/3/Parameters/0/name	—
+—	server.js#/SourceFile/3/Parameters/1	—
+Identifier	server.js#/SourceFile/3/Parameters/1/name	—
+—	server.js#/SourceFile/3/Parameters/2	—
+Identifier	server.js#/SourceFile/3/Parameters/2/name	—
+—	server.js#/SourceFile/3/Parameters/3	—
+Identifier	server.js#/SourceFile/3/Parameters/3/name	—
+ConstKeyword	server.js#/SourceFile/3/Body/0/DeclarationList/Flags/0	—
+—	server.js#/SourceFile/3/Body/0/DeclarationList/Declarations/0	—
+Identifier	server.js#/SourceFile/3/Body/0/DeclarationList/Declarations/0/name	—
+NewExpression	server.js#/SourceFile/3/Body/0/DeclarationList/Declarations/0/Initializer	—
+Identifier	server.js#/SourceFile/3/Body/0/DeclarationList/Declarations/0/Initializer/Expression	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+Identifier	server.js#/SourceFile/3/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression	—
+Identifier	server.js#/SourceFile/3/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/name	—
+ConstKeyword	server.js#/SourceFile/3/Body/1/DeclarationList/Flags/0	—
+—	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0	—
+Identifier	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/name	—
+NewExpression	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer	—
+Identifier	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Expression	—
+ObjectLiteralExpression	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+PropertyAssignment	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Properties/0	—
+Identifier	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Properties/0/name	—
+CallExpression	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Properties/0/Initializer	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Properties/0/Initializer/Expression	—
+Identifier	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Properties/0/Initializer/Expression/Expression	—
+Identifier	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Properties/0/Initializer/Expression/name	—
+StringLiteral	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Properties/0/Initializer/Arguments/0	—
+PropertyAssignment	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Properties/1	—
+Identifier	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Properties/1/name	—
+CallExpression	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Properties/1/Initializer	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Properties/1/Initializer/Expression	—
+Identifier	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Properties/1/Initializer/Expression/Expression	—
+Identifier	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Properties/1/Initializer/Expression/name	—
+StringLiteral	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Properties/1/Initializer/Arguments/0	—
+ObjectLiteralExpression	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1	—
+PropertyAssignment	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0	—
+Identifier	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/name	—
+CallExpression	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/Initializer	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/Initializer/Expression	—
+CallExpression	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/Initializer/Expression/Expression	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/Initializer/Expression/Expression/Expression	—
+Identifier	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/Initializer/Expression/Expression/Expression/Expression	—
+Identifier	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/Initializer/Expression/Expression/Expression/name	—
+StringLiteral	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/Initializer/Expression/Expression/Arguments/0	—
+Identifier	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/Initializer/Expression/name	—
+StringLiteral	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/Initializer/Arguments/0	—
+CallExpression	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/Initializer/Arguments/1	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/Initializer/Arguments/1/Expression	—
+Identifier	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/Initializer/Arguments/1/Expression/Expression	—
+Identifier	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/Initializer/Arguments/1/Expression/name	—
+Identifier	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/Initializer/Arguments/1/Arguments/0	—
+Identifier	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/Initializer/Arguments/1/Arguments/1	—
+CallExpression	server.js#/SourceFile/3/Body/2/Expression	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Expression/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Expression/name	—
+CallExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/0/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/0/Expression/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/0/Expression/name	—
+StringLiteral	server.js#/SourceFile/3/Body/2/Expression/Arguments/0/Arguments/0	—
+ObjectLiteralExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/1	—
+PropertyAssignment	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/0	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/0/name	—
+CallExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/0/Initializer	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/0/Initializer/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/0/Initializer/Expression/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/0/Initializer/Expression/name	—
+StringLiteral	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/0/Initializer/Arguments/0	—
+PropertyAssignment	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/name	—
+CallExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Expression/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Expression/name	—
+ObjectLiteralExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0	—
+PropertyAssignment	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/0	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/0/name	—
+CallExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/0/Initializer	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/0/Initializer/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/0/Initializer/Expression/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/0/Initializer/Expression/name	—
+PropertyAssignment	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/1	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/1/name	—
+CallExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/1/Initializer	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/1/Initializer/Expression	—
+CallExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/1/Initializer/Expression/Expression	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/1/Initializer/Expression/Expression/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/1/Initializer/Expression/Expression/Expression/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/1/Initializer/Expression/Expression/Expression/name	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/1/Initializer/Expression/name	—
+PropertyAssignment	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/2	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/2/name	—
+CallExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/2/Initializer	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/2/Initializer/Expression	—
+CallExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/2/Initializer/Expression/Expression	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/2/Initializer/Expression/Expression/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/2/Initializer/Expression/Expression/Expression/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/2/Initializer/Expression/Expression/Expression/name	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/2/Initializer/Expression/name	—
+PropertyAssignment	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/3	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/3/name	—
+CallExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/3/Initializer	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/3/Initializer/Expression	—
+CallExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/3/Initializer/Expression/Expression	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/3/Initializer/Expression/Expression/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/3/Initializer/Expression/Expression/Expression/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/3/Initializer/Expression/Expression/Expression/name	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/3/Initializer/Expression/name	—
+PropertyAssignment	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/4	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/4/name	—
+CallExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/4/Initializer	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/4/Initializer/Expression	—
+CallExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/4/Initializer/Expression/Expression	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/4/Initializer/Expression/Expression/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/4/Initializer/Expression/Expression/Expression/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/4/Initializer/Expression/Expression/Expression/name	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/4/Initializer/Expression/name	—
+PropertyAssignment	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/5	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/5/name	—
+CallExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/5/Initializer	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/5/Initializer/Expression	—
+CallExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/5/Initializer/Expression/Expression	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/5/Initializer/Expression/Expression/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/5/Initializer/Expression/Expression/Expression/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/5/Initializer/Expression/Expression/Expression/name	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/5/Initializer/Expression/name	—
+ArrowFunction · Block	server.js#/SourceFile/3/Body/2/Expression/Arguments/2	—
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Parameters/0	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Parameters/0/name	—
+ObjectLiteralExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression	—
+PropertyAssignment	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/name	—
+ArrayLiteralExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer	—
+ObjectLiteralExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0	—
+PropertyAssignment	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/0	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/0/name	—
+StringLiteral	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/0/Initializer	—
+PropertyAssignment	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/name	—
+CallExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Expression/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Expression/name	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/0	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/1	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/1/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/1/name	—
+BinaryExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/2	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/2/Left	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/2/Left/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/2/Left/name	—
+QuestionQuestionToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/2/OperatorToken	—
+StringLiteral	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/2/Right	—
+BinaryExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/3	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/3/Left	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/3/Left/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/3/Left/name	—
+QuestionQuestionToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/3/OperatorToken	—
+StringLiteral	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/3/Right	—
+BinaryExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/4	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/4/Left	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/4/Left/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/4/Left/name	—
+QuestionQuestionToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/4/OperatorToken	—
+StringLiteral	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/4/Right	—
+BinaryExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/5	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/5/Left	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/5/Left/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/5/Left/name	—
+QuestionQuestionToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/5/OperatorToken	—
+StringLiteral	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/5/Right	—
+BinaryExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/6	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/6/Left	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/6/Left/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/6/Left/name	—
+QuestionQuestionToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/6/OperatorToken	—
+StringLiteral	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/6/Right	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/7	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/8	—
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/VariableDeclaration	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/VariableDeclaration/name	—
+BinaryExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/Expression/Right	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/Expression/Right/name	—
+ObjectLiteralExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression	—
+PropertyAssignment	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Properties/0	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Properties/0/name	—
+ArrayLiteralExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Properties/0/Initializer	—
+ObjectLiteralExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0	—
+PropertyAssignment	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/0	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/0/name	—
+StringLiteral	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/0/Initializer	—
+PropertyAssignment	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/1	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/name	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/name	—
+PropertyAssignment	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Properties/1	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Properties/1/name	—
+TrueLiteral	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Properties/1/Initializer	—
+BinaryExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/Expression/Left	—
+InstanceOfKeyword	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/Expression/Right	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/Expression/Right/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/Expression/Right/name	—
+ObjectLiteralExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression	—
+PropertyAssignment	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Properties/0	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Properties/0/name	—
+ArrayLiteralExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Properties/0/Initializer	—
+ObjectLiteralExpression	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0	—
+PropertyAssignment	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/0	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/0/name	—
+StringLiteral	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/0/Initializer	—
+PropertyAssignment	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/1	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/name	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Expression	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/name	—
+PropertyAssignment	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Properties/1	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Properties/1/name	—
+TrueLiteral	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Properties/1/Initializer	—
+Identifier	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/2/Expression	—
+CallExpression	server.js#/SourceFile/3/Body/3/Expression	—
+PropertyAccessExpression · DotToken	server.js#/SourceFile/3/Body/3/Expression/Expression	—
+Identifier	server.js#/SourceFile/3/Body/3/Expression/Expression/Expression	—
+Identifier	server.js#/SourceFile/3/Body/3/Expression/Expression/name	—
+NewExpression	server.js#/SourceFile/3/Body/3/Expression/Arguments/0	—
+Identifier	server.js#/SourceFile/3/Body/3/Expression/Arguments/0/Expression	—
+5-texts
+kind	place	holds
+—	server.js#/SourceFile/0/ImportClause/NamedBindings/Elements/0/name/Text	McpServer
+—	server.js#/SourceFile/0/ModuleSpecifier/Text	'@modelcontextprotocol/server'
+—	server.js#/SourceFile/1/ImportClause/NamedBindings/Elements/0/name/Text	StdioServerTransport
+—	server.js#/SourceFile/1/ModuleSpecifier/Text	'@modelcontextprotocol/server/stdio'
+—	server.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	z
+—	server.js#/SourceFile/2/ModuleSpecifier/Text	'zod/v4'
+—	server.js#/SourceFile/3/name/Text	serve
+—	server.js#/SourceFile/3/Parameters/0/name/Text	values
+—	server.js#/SourceFile/3/Parameters/1/name/Text	relationalModel
+—	server.js#/SourceFile/3/Parameters/2/name/Text	dataBank
+—	server.js#/SourceFile/3/Parameters/3/name/Text	read
+—	server.js#/SourceFile/3/Body/0/DeclarationList/Declarations/0/name/Text	given
+—	server.js#/SourceFile/3/Body/0/DeclarationList/Declarations/0/Initializer/Expression/Text	Map
+—	server.js#/SourceFile/3/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Text	values
+—	server.js#/SourceFile/3/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/name/Text	records
+—	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/name/Text	server
+—	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Expression/Text	McpServer
+—	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Properties/0/name/Text	name
+—	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Properties/0/Initializer/Expression/Expression/Text	given
+—	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Properties/0/Initializer/Expression/name/Text	get
+—	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Properties/0/Initializer/Arguments/0/Text	'server name'
+—	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Properties/1/name/Text	version
+—	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Properties/1/Initializer/Expression/Expression/Text	given
+—	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Properties/1/Initializer/Expression/name/Text	get
+—	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Properties/1/Initializer/Arguments/0/Text	'version'
+—	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/name/Text	instructions
+—	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/Initializer/Expression/Expression/Expression/Expression/Text	given
+—	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/Initializer/Expression/Expression/Expression/name/Text	get
+—	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/Initializer/Expression/Expression/Arguments/0/Text	'server instructions'
+—	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/Initializer/Expression/name/Text	replace
+—	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/Initializer/Arguments/0/Text	'{data bank folder}'
+—	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/Initializer/Arguments/1/Expression/Expression/Text	dataBank
+—	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/Initializer/Arguments/1/Expression/name/Text	folder
+—	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/Initializer/Arguments/1/Arguments/0/Text	values
+—	server.js#/SourceFile/3/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Properties/0/Initializer/Arguments/1/Arguments/1/Text	relationalModel
+—	server.js#/SourceFile/3/Body/2/Expression/Expression/Expression/Text	server
+—	server.js#/SourceFile/3/Body/2/Expression/Expression/name/Text	registerTool
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/0/Expression/Expression/Text	given
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/0/Expression/name/Text	get
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/0/Arguments/0/Text	'tool name'
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/0/name/Text	description
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/0/Initializer/Expression/Expression/Text	given
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/0/Initializer/Expression/name/Text	get
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/0/Initializer/Arguments/0/Text	'tool description'
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/name/Text	inputSchema
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Expression/Expression/Text	z
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Expression/name/Text	object
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/0/name/Text	pathname
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/0/Initializer/Expression/Expression/Text	z
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/0/Initializer/Expression/name/Text	string
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/1/name/Text	sheet
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/1/Initializer/Expression/Expression/Expression/Expression/Text	z
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/1/Initializer/Expression/Expression/Expression/name/Text	string
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/1/Initializer/Expression/name/Text	optional
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/2/name/Text	records
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/2/Initializer/Expression/Expression/Expression/Expression/Text	z
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/2/Initializer/Expression/Expression/Expression/name/Text	string
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/2/Initializer/Expression/name/Text	optional
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/3/name/Text	fields
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/3/Initializer/Expression/Expression/Expression/Expression/Text	z
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/3/Initializer/Expression/Expression/Expression/name/Text	string
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/3/Initializer/Expression/name/Text	optional
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/4/name/Text	filter
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/4/Initializer/Expression/Expression/Expression/Expression/Text	z
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/4/Initializer/Expression/Expression/Expression/name/Text	string
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/4/Initializer/Expression/name/Text	optional
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/5/name/Text	join
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/5/Initializer/Expression/Expression/Expression/Expression/Text	z
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/5/Initializer/Expression/Expression/Expression/name/Text	string
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/1/Properties/1/Initializer/Arguments/0/Properties/5/Initializer/Expression/name/Text	optional
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Parameters/0/name/Text	input
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/name/Text	content
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/0/name/Text	type
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/0/Initializer/Text	'text'
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/name/Text	text
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Expression/Expression/Text	read
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Expression/name/Text	read
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/0/Text	values
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/1/Expression/Text	input
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/1/name/Text	pathname
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/2/Left/Expression/Text	input
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/2/Left/name/Text	sheet
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/2/Right/Text	''
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/3/Left/Expression/Text	input
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/3/Left/name/Text	records
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/3/Right/Text	''
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/4/Left/Expression/Text	input
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/4/Left/name/Text	fields
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/4/Right/Text	''
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/5/Left/Expression/Text	input
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/5/Left/name/Text	filter
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/5/Right/Text	''
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/6/Left/Expression/Text	input
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/6/Left/name/Text	join
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/6/Right/Text	''
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/7/Text	relationalModel
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/TryBlock/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Arguments/8/Text	dataBank
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/VariableDeclaration/name/Text	error
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/Expression/Left/Text	error
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/Expression/Right/Expression/Text	read
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/Expression/Right/name/Text	RefusedError
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Properties/0/name/Text	content
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/0/name/Text	type
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/0/Initializer/Text	'text'
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/name/Text	text
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Expression/Text	error
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/name/Text	message
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Properties/1/name/Text	isError
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/Expression/Left/Text	error
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/Expression/Right/Expression/Text	read
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/Expression/Right/name/Text	KeepingFailedError
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Properties/0/name/Text	content
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/0/name/Text	type
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/0/Initializer/Text	'text'
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/name/Text	text
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/Expression/Text	error
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Properties/0/Initializer/Elements/0/Properties/1/Initializer/name/Text	message
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Properties/1/name/Text	isError
+—	server.js#/SourceFile/3/Body/2/Expression/Arguments/2/Body/0/CatchClause/Block/2/Expression/Text	error
+—	server.js#/SourceFile/3/Body/3/Expression/Expression/Expression/Text	server
+—	server.js#/SourceFile/3/Body/3/Expression/Expression/name/Text	connect
+—	server.js#/SourceFile/3/Body/3/Expression/Arguments/0/Expression/Text	StdioServerTransport

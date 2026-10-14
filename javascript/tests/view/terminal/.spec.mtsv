@@ -1,0 +1,349 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .js	terminal.test	—
+3-statements
+kind	place	holds
+ImportDeclaration	terminal.test.js#/SourceFile/0	—
+ImportDeclaration	terminal.test.js#/SourceFile/1	—
+ImportDeclaration	terminal.test.js#/SourceFile/2	—
+ImportDeclaration	terminal.test.js#/SourceFile/3	—
+ExpressionStatement	terminal.test.js#/SourceFile/4	—
+ExpressionStatement	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0	—
+ExpressionStatement	terminal.test.js#/SourceFile/5	—
+ExpressionStatement	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0	—
+ExpressionStatement	terminal.test.js#/SourceFile/6	—
+ExpressionStatement	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0	—
+ExpressionStatement	terminal.test.js#/SourceFile/7	—
+ExpressionStatement	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0	—
+ExpressionStatement	terminal.test.js#/SourceFile/8	—
+ExpressionStatement	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0	—
+ExpressionStatement	terminal.test.js#/SourceFile/9	—
+ExpressionStatement	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0	—
+ExpressionStatement	terminal.test.js#/SourceFile/10	—
+ExpressionStatement	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0	—
+4-expressions
+kind	place	holds
+ImportClause · name	terminal.test.js#/SourceFile/0/ImportClause	—
+StringLiteral	terminal.test.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	terminal.test.js#/SourceFile/1/ImportClause	—
+NamespaceImport	terminal.test.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	terminal.test.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	terminal.test.js#/SourceFile/2/ImportClause	—
+NamespaceImport	terminal.test.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	terminal.test.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	terminal.test.js#/SourceFile/3/ImportClause	—
+NamespaceImport	terminal.test.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	terminal.test.js#/SourceFile/3/ModuleSpecifier	—
+CallExpression	terminal.test.js#/SourceFile/4/Expression	—
+Identifier	terminal.test.js#/SourceFile/4/Expression/Expression	—
+StringLiteral	terminal.test.js#/SourceFile/4/Expression/Arguments/0	—
+ArrowFunction · Block	terminal.test.js#/SourceFile/4/Expression/Arguments/1	—
+—	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0	—
+Identifier	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	terminal.test.js#/SourceFile/5/Expression	—
+Identifier	terminal.test.js#/SourceFile/5/Expression/Expression	—
+StringLiteral	terminal.test.js#/SourceFile/5/Expression/Arguments/0	—
+ArrowFunction · Block	terminal.test.js#/SourceFile/5/Expression/Arguments/1	—
+—	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0	—
+Identifier	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	terminal.test.js#/SourceFile/6/Expression	—
+Identifier	terminal.test.js#/SourceFile/6/Expression/Expression	—
+StringLiteral	terminal.test.js#/SourceFile/6/Expression/Arguments/0	—
+ArrowFunction · Block	terminal.test.js#/SourceFile/6/Expression/Arguments/1	—
+—	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0	—
+Identifier	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	terminal.test.js#/SourceFile/7/Expression	—
+Identifier	terminal.test.js#/SourceFile/7/Expression/Expression	—
+StringLiteral	terminal.test.js#/SourceFile/7/Expression/Arguments/0	—
+ArrowFunction · Block	terminal.test.js#/SourceFile/7/Expression/Arguments/1	—
+—	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0	—
+Identifier	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	terminal.test.js#/SourceFile/8/Expression	—
+Identifier	terminal.test.js#/SourceFile/8/Expression/Expression	—
+StringLiteral	terminal.test.js#/SourceFile/8/Expression/Arguments/0	—
+ArrowFunction · Block	terminal.test.js#/SourceFile/8/Expression/Arguments/1	—
+—	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0	—
+Identifier	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	terminal.test.js#/SourceFile/9/Expression	—
+Identifier	terminal.test.js#/SourceFile/9/Expression/Expression	—
+StringLiteral	terminal.test.js#/SourceFile/9/Expression/Arguments/0	—
+ArrowFunction · Block	terminal.test.js#/SourceFile/9/Expression/Arguments/1	—
+—	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Parameters/0	—
+Identifier	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	terminal.test.js#/SourceFile/10/Expression	—
+Identifier	terminal.test.js#/SourceFile/10/Expression/Expression	—
+StringLiteral	terminal.test.js#/SourceFile/10/Expression/Arguments/0	—
+ArrowFunction · Block	terminal.test.js#/SourceFile/10/Expression/Arguments/1	—
+—	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Parameters/0	—
+Identifier	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+5-texts
+kind	place	holds
+—	terminal.test.js#/SourceFile/0/ImportClause/name/Text	test
+—	terminal.test.js#/SourceFile/0/ModuleSpecifier/Text	'node:test'
+—	terminal.test.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	relationalModel
+—	terminal.test.js#/SourceFile/1/ModuleSpecifier/Text	'../../../src/relational-model/relational-model.js'
+—	terminal.test.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	values
+—	terminal.test.js#/SourceFile/2/ModuleSpecifier/Text	'../../../src/system-generation/values/values.js'
+—	terminal.test.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	runner
+—	terminal.test.js#/SourceFile/3/ModuleSpecifier/Text	'../../system-generation/runner/runner.js'
+—	terminal.test.js#/SourceFile/4/Expression/Expression/Text	test
+—	terminal.test.js#/SourceFile/4/Expression/Arguments/0/Text	'terminal.1'
+—	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name/Text	t
+—	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'terminal.1'
+—	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	terminal.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	terminal.test.js#/SourceFile/5/Expression/Expression/Text	test
+—	terminal.test.js#/SourceFile/5/Expression/Arguments/0/Text	'terminal.2'
+—	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name/Text	t
+—	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'terminal.2'
+—	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	terminal.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	terminal.test.js#/SourceFile/6/Expression/Expression/Text	test
+—	terminal.test.js#/SourceFile/6/Expression/Arguments/0/Text	'terminal.3'
+—	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0/name/Text	t
+—	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'terminal.3'
+—	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	terminal.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	terminal.test.js#/SourceFile/7/Expression/Expression/Text	test
+—	terminal.test.js#/SourceFile/7/Expression/Arguments/0/Text	'terminal.4'
+—	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0/name/Text	t
+—	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'terminal.4'
+—	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	terminal.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	terminal.test.js#/SourceFile/8/Expression/Expression/Text	test
+—	terminal.test.js#/SourceFile/8/Expression/Arguments/0/Text	'terminal.5'
+—	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0/name/Text	t
+—	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'terminal.5'
+—	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	terminal.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	terminal.test.js#/SourceFile/9/Expression/Expression/Text	test
+—	terminal.test.js#/SourceFile/9/Expression/Arguments/0/Text	'terminal.6'
+—	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Parameters/0/name/Text	t
+—	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'terminal.6'
+—	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	terminal.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	terminal.test.js#/SourceFile/10/Expression/Expression/Text	test
+—	terminal.test.js#/SourceFile/10/Expression/Arguments/0/Text	'terminal.7'
+—	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Parameters/0/name/Text	t
+—	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'terminal.7'
+—	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	terminal.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values

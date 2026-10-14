@@ -1,0 +1,21 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+generator.1	1	generator	dumps					the generator writes an FF line before every sheet, the first included, and a line break after every record
+generator.2	1	generator	dumps	cannot be represented	1 2 1			a field that holds HT raises cannot be represented
+generator.3	1	generator	dump					dump encodes the MTSV text in UTF-8: é written as its two UTF-8 octets
+fixtures
+fixture	sheet	record	field	value
+unnamed x one	1	1	1	x
+unnamed x one	1	2	1	1
+tab in a field	1	0	1	s
+tab in a field	1	1	1	x
+tab in a field	1	2	1	a<TAB>b
+placed
+requirement	case	when	pathname	fixture
+generator.1	1	before	argument 1	unnamed x one
+generator.2	1	before	argument 1	tab in a field
+generator.3	1	before	argument 1	s x é
+results
+requirement	case	position	item	value
+generator.1	1	1	0	<FF><LF>x<LF>1<LF>
+generator.3	1	1	0	<FF>s<LF>x<LF>é<LF>

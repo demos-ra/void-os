@@ -1,0 +1,77 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+terminal.1	1	terminal	lay out					where lay out is handed that standard output is not a terminal, a level is written as MTSV text by the generator
+terminal.2	1	terminal	lay out					where standard output is a terminal, each sheet begins on a page of its own, its header in bold, each field padded to its column's widest, joined by the column gap
+terminal.3	1	terminal	lay out					a wide or fullwidth character takes two columns
+terminal.4	1	terminal	lay out					bold is set and reset by select graphic rendition, with the parameters 1 and 0
+terminal.5	1	terminal	lay out					a control character in a field is written as its control picture
+terminal.6	1	void-os	void-os			true		the text is written on standard output in UTF-8, the activity's blocks among it
+terminal.7	1	terminal	page					the text is piped, in UTF-8, through the command the pager variable holds, run as the command string of sh -c
+arguments
+requirement	case	position	item	value
+terminal.1	1	3	0	false
+terminal.2	1	3	0	true
+terminal.3	1	3	0	true
+terminal.4	1	3	0	true
+terminal.5	1	3	0	true
+terminal.6	1	1	0	view
+terminal.7	1	2	0	café<LF>
+environment
+requirement	case	name	value
+terminal.6	1	VOID_OS_DATA_BANK	$PWD/bank
+terminal.7	1	PAGER	cat > $PWD/paged
+fixtures
+fixture	sheet	record	field	value
+turns cjk	1	0	1	turns
+turns cjk	1	1	1	input
+turns cjk	1	1	2	value
+turns cjk	1	1	3	time
+turns cjk	1	1	4	event
+turns cjk	1	1	5	agent
+turns cjk	1	1	6	session
+turns cjk	1	1	7	turn
+turns cjk	1	1	8	model
+turns cjk	1	1	9	first line
+turns cjk	1	2	1	/w
+turns cjk	1	2	2	0
+turns cjk	1	2	3	2026-10-01T10:00:00Z
+turns cjk	1	2	4	SessionStart
+turns cjk	1	2	9	日本語
+turns bel	1	0	1	turns
+turns bel	1	1	1	input
+turns bel	1	1	2	value
+turns bel	1	1	3	time
+turns bel	1	1	4	event
+turns bel	1	1	5	agent
+turns bel	1	1	6	session
+turns bel	1	1	7	turn
+turns bel	1	1	8	model
+turns bel	1	1	9	first line
+turns bel	1	2	1	/w
+turns bel	1	2	2	0
+turns bel	1	2	3	2026-10-01T10:00:00Z
+turns bel	1	2	4	SessionStart
+turns bel	1	2	9	a<BEL>b
+placed
+requirement	case	when	pathname	fixture
+terminal.1	1	before	argument 2	overview w
+terminal.1	1	after	result 1	overview w
+terminal.2	1	before	argument 2	overview w
+terminal.3	1	before	argument 2	turns cjk
+terminal.4	1	before	argument 2	overview w
+terminal.5	1	before	argument 2	turns bel
+terminal.6	1	before	$PWD/bank/w.mtsv	two values input
+terminal.6	1	before	$PWD/bank/_stored.mtsv	w _stored
+terminal.6	1	before	$PWD/bank/_sheets.mtsv	w _sheets
+terminal.6	1	before	$PWD/bank/_fields.mtsv	w _fields
+terminal.6	1	after	-	overview w
+results
+requirement	case	position	item	value
+terminal.2	1	1	0	<FF>overview<LF><ESC>[1minput values first      last       activity<ESC>[0m<LF>/w    2      2026-10-10 2026-10-11 ██      <LF>
+terminal.3	1	1	0	<FF>turns<LF><ESC>[1minput value time                 event        agent session turn model first line<ESC>[0m<LF>/w    0     2026-10-01T10:00:00Z SessionStart                          日本語    <LF>
+terminal.4	1	1	0	<FF>overview<LF><ESC>[1minput values first      last       activity<ESC>[0m<LF>/w    2      2026-10-10 2026-10-11 ██      <LF>
+terminal.5	1	1	0	<FF>turns<LF><ESC>[1minput value time                 event        agent session turn model first line<ESC>[0m<LF>/w    0     2026-10-01T10:00:00Z SessionStart                          a␇b       <LF>
+terminal.6	1	1	0	0
+file texts
+requirement	case	pathname	position	text
+terminal.7	1	$PWD/paged	1	café

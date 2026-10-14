@@ -1,0 +1,280 @@
+References
+Tag	Kind
+ECMA-48	normative
+POSIX-XCU-MAN	normative
+POSIX-XCU-MORE	normative
+UAX11	normative
+UCD-EAW	normative
+UNICODE-CONTROL-PICTURES	normative
+XPATH-FUNCTIONS	normative
+Values
+Value	Module	Type	Bound	Given	Status
+pager variable	terminal	text	the environment variable naming the person's pager	PAGER	placeholder
+column gap	terminal	text	the text between two fields of a line on a terminal	 	placeholder
+Value citations
+Value	Tag	Section	First block	Last block
+pager variable	POSIX-XCU-MAN	ENVIRONMENT VARIABLES	12	13
+Files
+Path	Module	Held from	Held path	Output of
+python/src/void_os/view/_view.py	view			
+python/src/void_os/view/overview/_overview.py	overview			
+python/src/void_os/view/zoom/_zoom.py	zoom			
+python/src/void_os/view/filter/_filter.py	filter			
+python/src/void_os/view/details/_details.py	details			
+python/src/void_os/view/terminal/_terminal.py	terminal			
+javascript/src/view/view.js	view			
+javascript/src/view/overview/overview.js	overview			
+javascript/src/view/zoom/zoom.js	zoom			
+javascript/src/view/filter/filter.js	filter			
+javascript/src/view/details/details.js	details			
+javascript/src/view/terminal/terminal.js	terminal			
+Relations
+Relation	Module	Parent	Description
+overview	overview		each input the data bank holds: its values, its first and last day, and its activity day by day
+days	view	overview	each day of one input, and the values stored that day on each event
+turns	zoom	overview	each value of one input stored on one day: when, on which event, and its first line
+Domains
+Relation	Column	Domain	Key	References	Type	Description
+overview	input	_input	primary	_inputs	text	the input's name
+overview	values				number	the number of the input's values stored
+overview	first				text	the day of its first value, as RFC 3339 writes a full date
+overview	last				text	the day of its last value, as RFC 3339 writes a full date
+overview	activity				text	one character a day, from first to last, its height the day's values against the most of any day
+days	input		primary	overview	text	the input
+days	day		primary		text	a day, as RFC 3339 writes a full date
+days	event		primary		hook event	an event
+days	values				number	the values stored that day on that event
+turns	input		primary	overview	text	the input
+turns	value	_input value	primary	_stored	number	the value's position in the input
+turns	time				time	when it was generated, stored
+turns	event				hook event	the event it was stored on
+turns	agent				text	the agent the value's activity was associated with, empty for the agent the session began with
+turns	session				text	the session the value was generated in
+turns	turn				text	the turn the value was generated in
+turns	model				text	the model in use
+turns	first line				text	the first line of the value's first string instance that is not empty
+Signatures
+Callable	Direction	Position	Type	Relation
+Access programs
+Module	Access program	Starts
+view	view	
+overview	overview	
+zoom	days	
+zoom	turns	
+filter	kept	
+details	details	
+terminal	lay out	
+terminal	write	
+terminal	page	
+Parameters
+Module	Access program	Position	Parameter	Type	Relation	Default	Description
+view	view	1	values	relation	Values		the Values
+view	view	2	operands	arguments			the operands after the view operand: --filter and its filter, then an input, a day, a position
+view	view	3	is_a_terminal	boolean			true where standard output is a terminal
+view	view	4	offset	number			the machine's offset from UTC, in minutes
+overview	overview	1	names	relation	_inputs		each input the data bank holds, and its values stored
+overview	overview	2	days	relation	days		the days of every input
+zoom	days	1	values	relation	Values		the Values
+zoom	days	2	input_name	text			the input's name, an absolute path
+zoom	days	3	offset	number			the offset from UTC a day is taken at, in minutes
+zoom	turns	1	values	relation	Values		the Values
+zoom	turns	2	input_name	text			the input's name, an absolute path
+zoom	turns	3	day	text			a full date
+zoom	turns	4	offset	number			the offset from UTC a day is taken at, in minutes
+filter	kept	1	level	relations			the level's sheets
+filter	kept	2	filter	text			the option --filter
+details	details	1	values	relation	Values		the Values
+details	details	2	input_name	text			the input's name, an absolute path
+details	details	3	position	number			the value's position in the input
+terminal	lay out	1	values	relation	Values		the Values
+terminal	lay out	2	sheets	relations			the level's sheets
+terminal	lay out	3	is_a_terminal	boolean			true where standard output is a terminal
+terminal	write	1	text	text			the level laid out
+terminal	page	1	values	relation	Values		the Values
+terminal	page	2	text	text			the level laid out
+Parameter relations
+Module	Access program	Position	Relation
+Results
+Module	Access program	Position	Type	Relation	Description
+view	view	1	nothing		the level written
+overview	overview	1	relation	overview	one record for each input the data bank holds
+zoom	days	1	relation	days	each day of the input, and the values stored that day on each event
+zoom	turns	1	relation	turns	each value of the input stored on the day
+filter	kept	1	relations		the level's records for which the filter holds
+details	details	1	relations		every record of the value, in every sheet it gives, then its record of _stored
+terminal	lay out	1	text		the sheets laid out for a terminal, or MTSV text
+terminal	write	1	nothing		the text written on standard output
+terminal	page	1	nothing		the text piped through the pager
+Result relations
+Module	Access program	Position	Relation
+details	details	1	_stored
+Compositions
+Module	Part	Handed
+view	zoom	relational model
+view	zoom	data bank
+view	filter	relational model
+view	details	relational model
+view	details	data bank
+view	terminal	relational model
+Connectors
+Module	Peer	Connector	Protocol	Data
+terminal	pager	data stream	POSIX-XCU-MAN	ECMA-48
+Requirements
+Requirement	Module	Access program	Statement
+view.1	view	view	The view MUST give, with no operand, the overview of every input the data bank holds, handing overview the data bank's _inputs and one relation days holding each input's days as zoom gives them.
+view.2	view	view	The view MUST give, with an input's name as its one operand, that input's days, and with a day as its second operand, the turns of that day.
+view.3	view	view	The view MUST give, with a position as its third operand, the details of that value, a position being that of a value stored on the day given.
+view.5	view	view	The view MUST read the data bank only through its names, records and stored.
+view.6	view	view	An input, day or position that does not exist MUST be refused with the reason no input, no day or no position, a space, and the operand.
+view.9	view	view	More than three operands MUST be refused as too many operands.
+view.8	view	view	The view MUST keep each level by filter's kept where --filter is given, lay it out by terminal's lay out, handing it whether standard output is a terminal as the view is handed it, and give it by terminal's page where standard output is a terminal and by terminal's write where it is not, and handing zoom the offset from UTC the view is handed.
+overview.1	overview	overview	The overview MUST hold one record for each input of _inputs, in its order, its values as _inputs gives them, and its first, last and activity from that input's days.
+overview.2	overview	overview	activity MUST hold one character for each day from first to last: for a day of n values, the block of the eight lower blocks from U+2581 to U+2588 whose rank is 8n divided by m, rounded up, m the most values of any day; and a space for a day with none.
+zoom.3	zoom		A day MUST be the full date of a value's _time at the offset from UTC days and turns are handed.
+zoom.1	zoom	days	days MUST hold, for each day an input has values and each event of that day, the number of values stored, the days in order.
+zoom.2	zoom	turns	turns MUST hold one record for each value stored on the day, in the order stored.
+zoom.4	zoom	turns	first line MUST be the text, up to its first line break, of the first instance of the value whose type is string and whose text is not empty, in the order the instances are written.
+zoom.5	zoom	turns	agent, session, turn and model MUST each hold the text of the value's member that harness members names for that column, the first the value holds in that relation's order, and be empty where the value holds none.
+filter.1	filter	kept	The option --filter MUST keep, at every level, the records for which the filter holds, as query decides.
+details.1	details	details	details MUST give every record of the value in every sheet it gives, then its record of _stored, each sheet in its place in the order.
+terminal.1	terminal	lay out	Where lay out is handed that standard output is not a terminal, a level MUST be written as MTSV text, by the generator.
+terminal.2	terminal	lay out	Where lay out is handed that standard output is a terminal, each sheet MUST begin on a page of its own, FF before it, its sheet name on the first line, its header in bold, then its records, each field of the header and of the records padded to the width of its column's widest field, the fields of a line joined by the Value column gap.
+terminal.3	terminal	lay out	A field's width MUST be the sum of its characters' widths, a wide or fullwidth character taking two columns and every other character one.
+terminal.4	terminal	lay out	Bold MUST be set and reset by the select graphic rendition control function, with the parameters 1 and 0.
+terminal.5	terminal	lay out	A control character in a field or sheet name MUST be written as its control picture, so that no field moves the cursor or changes the terminal.
+terminal.6	terminal	write	The text MUST be written on standard output in UTF-8.
+terminal.7	terminal	page	The text MUST be piped, in UTF-8, through the command the environment variable the Value pager variable names holds, run as the command string of sh -c, and through more where it is null or not set.
+Errors
+Module	Access program	Error	Requirement
+view	view	refused	view.6
+view	view	refused	view.9
+view	view	keeping failed	
+zoom	days	keeping failed	
+zoom	turns	keeping failed	
+filter	kept	refused	
+details	details	keeping failed	
+Ended errors
+Module	Access program	Called module	Called access program	Error	Disposition	Requirement
+terminal	lay out	relational model	dumps	cannot be represented	ruled out	void-os.1
+Operations
+Operation	Module	Kind	Tag	Section	First block	Last block
+max	overview	primitive	XPATH-FUNCTIONS	14.4.3 fn:max		
+full-date at offset	zoom	primitive	RFC3339	4.2. Local Offsets		
+page	terminal	primitive	POSIX-XCU-MAN	ENVIRONMENT VARIABLES	12	13
+East Asian Width	terminal	grammar	UCD-EAW	EastAsianWidth.txt		
+select graphic rendition	terminal	grammar	ECMA-48	8.3.117 SGR - SELECT GRAPHIC RENDITION	1	2
+control picture	terminal	grammar	UNICODE-CONTROL-PICTURES	(preamble)	16	31
+Operation inputs
+Operation	Position	Input	Type
+max	1	items	numbers
+full-date at offset	1	time	time
+full-date at offset	2	offset	number
+page	1	command	text
+page	2	data	bytes
+Bindings
+Operation	Notation	Code	Tag	Section	First block	Last block
+max	python	{{result}} = max({{items}}, default=0)	PY-FUNCTIONS	Built-in Functions	227	227
+max	javascript	const {{result}} = Math.max(0, ...{{items}});	ECMA-262	21.3.2.25 Math.max ( ...args )		
+full-date at offset	python	{{result}} = (datetime.fromisoformat({{time}}) + timedelta(minutes={{offset}})).date().isoformat()	PY-DATETIME	.datetime Objects	54	54
+full-date at offset	javascript	const {{result}} = new Date(Date.parse({{time}}) + {{offset}} * 60000).toISOString().slice(0, 10);	ECMA-262	21.4.3.2 Date.parse ( string )		
+page	python	subprocess.run({{command}}, shell=True, input={{data}})	PY-SUBPROCESS	Using the subprocess Module	2	2
+page	javascript	child_process.spawnSync({{command}}, { shell: true, input: {{data}}, stdio: ['pipe', 'inherit', 'inherit'] });	NODE-CHILD-PROCESS	child_process.spawnSync(command[, args][, options])		
+Operation steps
+Operation	Position	Step	Tag	Section	First block	Last block
+Terms
+Term	Module	Source	Section
+overview	view	SHNEIDERMAN1996	3. Task by Data Type Taxonomy
+zoom	view	SHNEIDERMAN1996	3. Task by Data Type Taxonomy
+filter	view	SHNEIDERMAN1996	3. Task by Data Type Taxonomy
+details	view	SHNEIDERMAN1996	3. Task by Data Type Taxonomy
+full date	view	RFC3339	5.6. Internet Date/Time Format
+pager	terminal	POSIX-XCU-MORE	DESCRIPTION
+select graphic rendition	terminal	ECMA-48	8.3.117 SGR - SELECT GRAPHIC RENDITION
+control function	terminal	ECMA-48	4.2.24 Control function
+East Asian Width	terminal	UAX11	4 Definitions
+Value uses
+Requirement	Value
+terminal.2	column gap
+terminal.7	pager variable
+Operation uses
+Requirement	Operation
+overview.2	aggregate
+overview.2	max
+zoom.3	full-date at offset
+zoom.1	aggregate
+zoom.5	JSON Pointer evaluation
+terminal.1	MTSV generate
+terminal.2	select graphic rendition
+terminal.3	East Asian Width
+terminal.4	select graphic rendition
+terminal.5	control picture
+terminal.6	write standard output
+terminal.6	UTF-8 encode
+terminal.7	UTF-8 encode
+terminal.7	environment variable
+terminal.7	page
+Access program uses
+Requirement	Module	Access program
+view.1	data bank	names
+view.1	zoom	days
+view.1	overview	overview
+view.2	zoom	days
+view.2	zoom	turns
+view.3	details	details
+view.8	filter	kept
+view.8	terminal	lay out
+view.8	terminal	write
+view.8	terminal	page
+zoom.1	data bank	names
+zoom.1	data bank	stored
+zoom.2	data bank	stored
+zoom.4	data bank	records
+zoom.5	data bank	records
+zoom.5	relational model	named
+filter.1	relational model	kept
+details.1	data bank	records
+details.1	data bank	stored
+terminal.1	relational model	dumps
+Citations
+Requirement	Tag	Section	First block	Last block
+view.1	SHNEIDERMAN1996	Abstract	1	1
+view.1	SHNEIDERMAN1996	3. Task by Data Type Taxonomy	28	28
+view.2	SHNEIDERMAN1996	3. Task by Data Type Taxonomy	29	29
+view.2	SHNEIDERMAN1996	3. Task by Data Type Taxonomy	17	18
+view.3	SHNEIDERMAN1996	3. Task by Data Type Taxonomy	32	32
+view.5	PARNAS1985	DESIGN PRINCIPLE	1	1
+view.5	CODD1970	Abstract	1	1
+view.6	RFC9413	5.1. Virtuous Intolerance		
+view.8	POSIX-XSH-ISATTY	DESCRIPTION		
+overview.1	SHNEIDERMAN1996	3. Task by Data Type Taxonomy	28	28
+overview.2	SHNEIDERMAN1996	3. Task by Data Type Taxonomy	17	18
+zoom.3	RFC3339	4.2. Local Offsets		
+zoom.1	PROV-DM	5.1.2 Activity		
+zoom.2	MTSV-DRAFT	Data Model		
+zoom.4	POSIX-XBD3	3.206 Line	1	1
+zoom.5	PROV-DM	5.3.1 Agent	1	1
+zoom.5	PROV-DM	5.1.2 Activity	1	1
+zoom.5	PROV-DM	5.3.3 Association	1	1
+filter.1	SHNEIDERMAN1996	3. Task by Data Type Taxonomy	30	30
+details.1	SHNEIDERMAN1996	3. Task by Data Type Taxonomy	32	32
+terminal.1	MTSV-DRAFT	Generators		
+terminal.2	RFC20	5.2 Control Characters	13	13
+terminal.2	ECMA-48	4.2.24 Control function		
+terminal.2	ECMA-48	8.3.51 FF - FORM FEED	1	2
+terminal.3	UAX11	4 Definitions	5	9
+terminal.4	ECMA-48	8.3.117 SGR - SELECT GRAPHIC RENDITION	3	4
+terminal.5	UNICODE-CONTROL-PICTURES	(preamble)		
+terminal.5	ECMA-48	4.2.24 Control function		
+terminal.6	POSIX-XCU1	1.4 Utility Description Defaults		
+terminal.7	POSIX-XCU-MAN	ENVIRONMENT VARIABLES		
+Spec relations
+Requirement	Target
+zoom.1	zoom.3
+Axis rules
+Standard	Characteristic	Subcharacteristic	Requirement
+ISO25010	Interaction capability	self-descriptiveness	view.1
+ISO25010	Interaction capability	operability	view.2
+ISO25019	Acceptability	trustworthiness	view.5
+ISO25010	Security	integrity	terminal.5
+Requirement files
+Requirement	Path

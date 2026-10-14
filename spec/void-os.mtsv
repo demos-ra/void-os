@@ -1,0 +1,785 @@
+Scope
+Id	Statement
+scope.1	This specification defines void-os, an operating system for language models and agents in which every datum is a relation in normal form held as MTSV text: a data bank that keeps what a harness sends, tools through which a model reads it and any other file, hooks through which a harness reaches both, and a view through which a person sees the whole of it.
+scope.2	void-os is six groups, the relational model, the data bank, the tools, the hooks, the view, and system generation, which holds the decisions postponed to release and how void-os is built, described and installed; the relational model writes every datum as a relation and operates on it, the data bank keeps relations, and the tools, the hooks and the view stand on both; the Modules sheet gives each and its secret.
+scope.3	The classes of products are the components of the Components sheet whose Product is true.
+scope.4	void-os runs on the machine of the person who installs it, for that person alone, and is the same product in each of its two implementations, in Python and in JavaScript.
+scope.5	Out of scope: a remote server, accounts, sharing between persons, and any harness's own configuration format, which each harness documents.
+References
+Tag	Kind
+BCP14	normative
+CLAUDE-CODE	normative
+CODD1970	normative
+CODD1972	normative
+CODEX	normative
+CURSOR	normative
+ECMA-262	normative
+ECMA-376-1	normative
+FIELDING2000	normative
+ISO25010	normative
+ISO25019	normative
+JSON-SCHEMA-07	normative
+MCP	normative
+MCP-TS-SDK	normative
+MTSV-DRAFT	normative
+NASA-SE-HANDBOOK-C	normative
+NODE-CHILD-PROCESS	normative
+NODE-FS	normative
+NODE-OS	normative
+NODE-PROCESS	normative
+NODE-SQLITE	normative
+NODE-TTY	normative
+NODE-ZLIB	normative
+NPM-PACKAGE-JSON	normative
+PARNAS1979	normative
+PARNAS1985	normative
+PEP484	normative
+PLATFORMDIRS	normative
+POSIX-XBD12	normative
+POSIX-XBD3	normative
+POSIX-XBD4	normative
+POSIX-XBD8	normative
+POSIX-XCU1	normative
+POSIX-XSH-GETCWD	normative
+POSIX-XSH-ISATTY	normative
+POSIX-XSH-MKDIR	normative
+POSIX-XSH-OPEN	normative
+POSIX-XSH-REALPATH	normative
+POSIX-XSH-STAT	normative
+PROV-DM	normative
+PY-DATETIME	normative
+PY-FUNCTIONS	normative
+PY-OS	normative
+PY-OS-PATH	normative
+PY-SQLITE3	normative
+PY-SUBPROCESS	normative
+PY-SYS	normative
+PY-ZLIB	normative
+PYPA-PYPROJECT	normative
+QAFRAME	normative
+REQIF	normative
+RFC1951	normative
+RFC20	normative
+RFC3339	normative
+RFC3629	normative
+RFC3986	normative
+RFC6901	normative
+RFC7111	normative
+RFC8089	normative
+RFC8259	normative
+RFC9413	normative
+RFC9535	normative
+SHNEIDERMAN1996	normative
+SQLITE-FORMAT	normative
+WHATWG-ENCODING	normative
+WICKHAM2014	normative
+XML	normative
+ZIP-APPNOTE	normative
+Clause
+Id	Statement
+clause.1	This specification defines void-os: the components of the Components sheet whose Product is true, each a class of products, labelled by its Component as a conforming void-os, conforming when it meets every requirement of the module whose access program starts it, of every module that access program reaches, and of void-os, the root.
+clause.2	The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and "OPTIONAL" in this specification are to be interpreted as described in BCP 14 when, and only when, they appear in all capitals, as shown here.
+clause.3	Every sheet of this specification is normative but Scope, which is informative.
+clause.12	This specification's books follow the register rows their References name, and .mapping.mtsv the register rows of the sources of each notation it writes the books in, Python, JavaScript, JSON and TOML; the register reaches void-os through these two only, and nothing generated from them reads it.
+clause.15	This specification defines no optional feature and deprecates none; its one extension is a format, added under conversion in the Modules sheet.
+clause.26	void-os is carried out twice, in Python and in JavaScript, each implementation a conforming void-os on its own, the two passing the same conformance cases.
+clause.27	Every requirement of this specification states one requirement: one thought, one subject and one predicate, and one key word.
+Clause citations
+Id	Tag	Section	First block	Last block
+clause.1	QAFRAME	Requirement 3: Identify who and/or what will implement the specification.	1	1
+clause.1	QAFRAME	Requirement 6: Create conformance labels for each part of the conformance model.	1	1
+clause.2	BCP14	RFC 8174 › 2. Clarifying Capitalization of Key Words	6	9
+clause.3	QAFRAME	Good Practice 2: Specify in the conformance clause how to distinguish normative from informative content.	1	1
+clause.15	QAFRAME	Good Practice 16: Clearly identify optional features.	1	1
+clause.15	QAFRAME	Requirement 11: Address extensibility.	1	1
+clause.15	PARNAS1979	B. Information Hiding: Interface and Module Definition	2	4
+clause.27	NASA-SE-HANDBOOK-C	Clarity	3	4
+Axes
+Standard	Characteristic	Subcharacteristic	Note
+ISO25010	Functional suitability		met by every requirement
+ISO25010	Functional suitability	functional completeness	
+ISO25010	Functional suitability	functional correctness	
+ISO25010	Functional suitability	functional appropriateness	
+ISO25010	Performance efficiency		
+ISO25010	Compatibility		
+ISO25010	Compatibility	co-existence	
+ISO25010	Compatibility	interoperability	
+ISO25010	Interaction capability		
+ISO25010	Interaction capability	operability	
+ISO25010	Interaction capability	user error protection	
+ISO25010	Interaction capability	self-descriptiveness	
+ISO25010	Reliability		
+ISO25010	Reliability	faultlessness	
+ISO25010	Reliability	fault tolerance	
+ISO25010	Reliability	recoverability	
+ISO25010	Security		
+ISO25010	Security	confidentiality	
+ISO25010	Security	integrity	
+ISO25010	Maintainability		
+ISO25010	Maintainability	modularity	
+ISO25010	Maintainability	testability	
+ISO25010	Flexibility		
+ISO25010	Flexibility	installability	
+ISO25010	Flexibility	replaceability	
+ISO25010	Safety		
+ISO25010	Safety	fail safe	
+ISO25019	Acceptability		
+ISO25019	Acceptability	trustworthiness	
+Types
+Type	Item type	Structured type	Definition	Source	Written
+nothing			no value: the access program gives none		nothing: no record is written
+text			the value of a field	MTSV-DRAFT	the field's text, each control character written as its name between < and >: HT as <TAB> and FF as <FF>, as MTSV names them, and every other as RFC 20 names it, <LF>, <CR>, <ESC> and <DEL> among them
+texts	text	array	an array of text	MTSV-DRAFT	one record for each item, from item 1, each as text is written; one record of item 0 with an empty value for no item
+number			a JSON number	RFC8259	as a JSON text writes the number
+boolean			true or false	RFC8259	true or false
+bytes			octets, UTF-8 where they hold text	RFC8259	the text the octets hold in UTF-8, as text is written
+bytes array	bytes	array	an array of bytes, each a JSON text as UTF-8 bytes	RFC8259	one record for each item, from item 1, each as bytes is written; one record of item 0 with an empty value for no item
+relation			a sheet of the relation the Relation column beside it names: its sheet name, its header, and its records	MTSV-DRAFT	the fixture placed at it
+relations	relation	array	an array of relations, a file's sheets in order	MTSV-DRAFT	the fixture placed at it, its sheets in order; for no sheet, one record of item 0 with an empty value and no fixture placed
+arguments	text	array	a utility's arguments	POSIX-XBD12	one record for each item, from item 1, each as text is written; one record of item 0 with an empty value for no item
+absolute path			a pathname that begins with the root of the file system	POSIX-XBD4	as text is written
+key			whether a column is part of its relation's primary key	CODD1970	one of its Enumerations, as written there
+reference kind			whether a source is normative or informative	QAFRAME	one of its Enumerations, as written there
+value status			whether a Value's Given is a placeholder or yet to be set		one of its Enumerations, as written there
+connector			the kind of a connector	FIELDING2000	one of its Enumerations, as written there
+signature direction			whether a type is an argument's or the return's	PEP484	one of its Enumerations, as written there
+structured type			whether a type's items are an array's elements or an object's members by name	RFC8259	one of its Enumerations, as written there
+hook event			the event a hook is run on	CLAUDE-CODE	one of its Enumerations, as written there
+time			a date and time with its offset from UTC	RFC3339	as RFC 3339 writes a date and time
+operation kind			how an operation becomes code		one of its Enumerations, as written there
+disposition			what a requirement does with an error of an access program a module calls		one of its Enumerations, as written there
+JSON text			a JSON text, compared as the value it holds	RFC8259	its instances in result instances, each by its JSON Pointer, type and value, as JSON text gives them; where the access program gives nothing, one record of results with item 0 and an empty value
+JSON type			the primitive type of a JSON instance	JSON-SCHEMA-07	one of its Enumerations, as written there
+handle			a value void-os hands a library, or a library hands void-os, and that void-os never reads: a server, a database, a tool's handler or input schema		never written: no case hands or expects one
+mapping			names each with a text, as an object of the notation	RFC8259	never written: no case hands or expects one
+numbers	number	array	an array of numbers	RFC8259	one record for each item, from item 1, each as number is written; one record of item 0 with an empty value for no item
+relation kind			what gives a relation the converter writes		one of its Enumerations, as written there
+not read status			why a file named was not read		one of its Enumerations, as written there
+node kind			the kind of a node of an XML part	XML	one of its Enumerations, as written there
+harness column			what a member of a hook input holds for void-os: the place, or a column of a value's provenance		one of its Enumerations, as written there
+Enumerations
+Type	Enumeration	Description
+key	primary	part of the primary key
+reference kind	normative	
+reference kind	informative	
+value status	placeholder	a placeholder until it is tuned
+value status	to set	to be set at release
+connector	shared representation	
+connector	remote procedure call	
+connector	data stream	
+signature direction	argument	
+signature direction	return	
+structured type	array	the items are an array's elements
+structured type	object	the items are an object's members, by name
+hook event	SessionStart	when a session begins or resumes, as Claude Code and Codex name it
+hook event	SubagentStart	when a subagent is spawned, as Claude Code and Codex name it
+hook event	UserPromptSubmit	when a prompt is submitted, before the model processes it, as Claude Code and Codex name it
+hook event	PostToolUse	after a tool call succeeds, as Claude Code and Codex name it
+hook event	SubagentStop	when a subagent finishes, as Claude Code and Codex name it
+hook event	Stop	when the model finishes responding, as Claude Code and Codex name it
+hook event	sessionStart	when a session begins, as Cursor names it
+hook event	subagentStart	when a subagent is spawned, as Cursor names it
+hook event	beforeSubmitPrompt	when a prompt is submitted, as Cursor names it
+hook event	postToolUse	after a tool call succeeds, as Cursor names it
+hook event	subagentStop	when a subagent finishes, as Cursor names it
+hook event	stop	when the agent finishes, as Cursor names it
+operation kind	primitive	a construct of each notation's library carries it out (Bindings)
+operation kind	grammar	its source defines it by a grammar or a formula, written as code rule by rule
+operation kind	composite	its source defines it by rules in prose; its decomposition into operations is the specification's to give
+disposition	ended	the requirement, of the calling module, ends the error by its statement
+disposition	ruled out	the requirement leaves no input on which the error arises; nothing ends it
+JSON type	null	
+JSON type	boolean	
+JSON type	object	
+JSON type	array	
+JSON type	number	
+JSON type	string	
+relation kind	input values	the sheet of the input values
+relation kind	kind	a kind's one sheet
+relation kind	property	a property's sheet
+relation kind	keyword	the sheet of items, additionalItems, a pattern of patternProperties, or additionalProperties
+relation kind	branch	the sheet of a subschema anyOf, oneOf, if, then, else or a dependency applies
+relation kind	instances	the sheet of instances
+relation kind	runs	the sheet of runs
+not read status	skipped	an entry of a directory that is neither a directory nor a regular file whose name does not begin with a dot
+not read status	no format	a file whose extension names no format
+not read status	failed	a file that cannot be read or converted
+node kind	element	an element
+node kind	attribute	an attribute
+node kind	text	a run of character data
+harness column	place	the place the harness reports
+harness column	agent	the agent
+harness column	session	the session
+harness column	turn	the turn
+harness column	model	the model
+Modules
+Module	Parent	Secret
+void-os		the command: the relational model, data bank, tools, hooks, view and system generation wired into the void-os command, each handed what it needs
+relational model	void-os	what a datum is: a relation, written as text and read back, and operated on by the relational algebra
+format	relational model	how a relation is written as text and read back: MTSV, and JSON at void-os's edges
+parser	format	how MTSV text becomes sheets
+generator	format	how sheets become MTSV text
+JSON text	format	how a JSON text becomes the relations of its instances
+query	relational model	which sheets, records and fields a reader names, as the relational algebra's operations, written by position and by filter
+positions	query	how positions are written, 2, 1;3, 1-3 or 2-*, counted from 1, and which positions a selection names
+filter expression	query	what a filter expression is, and which records it keeps
+set operations	query	the traditional set operations: the union of a sheet across files or inputs
+operations on relations	query	the less traditional operations on relations: restriction by position or filter, projection by fields, and join on shared columns
+data bank	void-os	how relations are kept and given back: converted in from JSON, inserted, and communicated
+converter	data bank	how the JSON values a schema describes become relations, written as one MTSV file
+converter › input	converter	what the converter is given: the module specification and the input values, read through JSON text into relations
+schema	converter › input	what a module specification supplies, and how its schema is read and applied
+value	converter › input	how each input value is read as a JSON text, and when it is rejected
+transfer	converter	how the input's relations become relations in normal form
+relation	transfer	which relation and column each value is written to
+key	transfer	how each record is identified, and how a place within a value is named
+order	transfer	the order of sheets, records and columns
+output	converter	how the relations are written as MTSV, at its levels
+file	output	which sheets the whole input's one MTSV file holds, and in which order
+sheet	output	the name and the header of each sheet
+record	output	each instance as one record of its sheet
+field	output	how a value is written as a field's text
+storage	data bank	where and how each input is kept: its folder and file, inserted only, each value whole
+communication	data bank	what the data bank gives: names, records by their keys, and what is new
+tools	void-os	the MCP server and the one tool it offers
+read	tools	how a pathname is read as MTSV: a file, a directory of files, or the data bank
+read › input	read	what a pathname names: a file, a directory of files, or the data bank
+conversion	read	how a file of another format becomes sheets, and what it leaves behind
+package	conversion	how a package's zip entries and XML parts are read as nodes
+csv	conversion	how a CSV file becomes a sheet
+json	conversion	how a JSON file becomes sheets
+xlsx	conversion	how a workbook becomes sheets
+ods	conversion	how a spreadsheet document becomes sheets
+sqlite	conversion	how a database becomes sheets
+reply	read	what every reply states: the report, then the map or the values
+server	tools	how the tool is offered and called over MCP
+hooks	void-os	how a harness's hook events reach the data bank, and what they give back
+hook input	hooks	how a hook's input is inserted into the data bank
+hook output	hooks	what a hook gives the harness as context, and in which form
+view	void-os	how a person sees the whole data bank: overview first, zoom and filter, then details on demand
+overview	view	what the whole data bank holds: each input, its values, and its days
+zoom	view	what one input holds: its days, then the turns of a day
+filter	view	which records a level keeps, by the filter query gives
+details	view	one value in full: every record of every sheet it gives
+terminal	view	how a level is laid out on a terminal, and when it is written as MTSV instead
+system generation	void-os	the decisions postponed to release, and how void-os is built, described and installed
+values	system generation	where the Values are read from, and how values.mtsv is written
+distribution package	system generation	how void-os is built, described and installed: a package on PyPI and on npm, and a server in the MCP Registry
+runner	system generation	how a conformance case is run: found by its key, its fixtures placed, its access program called, and what it asserts compared
+Values
+Value	Module	Type	Bound	Given	Status
+void-os command	void-os	text	the name a person and a harness run the void-os component by	void-os	placeholder
+view operand	void-os	text	the operand that runs the view	view	placeholder
+version	void-os	text	a public version identifier	0.1.0	placeholder
+usage message	void-os	text	the command's synopsis, as a utility's synopsis writes its operands	usage: void-os [view [--filter filter] [input [day [position]]] | hook-event]	placeholder
+Value citations
+Value	Tag	Section	First block	Last block
+view operand	SHNEIDERMAN1996	2. Visual Information Seeking Mantra	4	5
+version	PYPA-PYPROJECT	version		
+usage message	POSIX-XBD12	12.1 Utility Argument Syntax		
+Components
+Component	Product	Command
+void-os	true	void-os command
+harness	false	
+pager	false	
+file system	false	
+Claude Code	false	
+Codex	false	
+Cursor	false	
+Files
+Path	Module	Held from	Held path	Output of
+python/src/void_os/_void_os.py	void-os			
+javascript/src/void-os.js	void-os			
+Relations
+Relation	Module	Parent	Description
+Scope	void-os		what void-os is, its classes of products, and what is out of scope; informative
+References	void-os		every source the specification names, each in the book of the one group whose rows name it, and at the root one the root's rows or two groups' rows name
+Clause	void-os		the conformance clause: what conforms, how this specification is read, and the register it follows
+Clause citations	void-os	Clause	the sources a statement of the clause follows
+Axes	void-os		the quality characteristics and subcharacteristics, the higher-level requirements
+Types	void-os		the types domains, parameters and results take
+Enumerations	void-os	Types	the values a type allows, where it allows only some
+Modules	void-os		the module tree: each node, its parent and its secret
+Values	void-os	Modules	the decisions postponed to release, each typed and bounded, at the lowest node whose rows use it
+Value citations	void-os	Values	the sources a Value follows
+Components	void-os		the run-time components, those that are classes of products, and the command that starts each
+Files	void-os	Modules	every file a module is carried out in, and how it is made, at the place its kind gives: code a package carries under its implementation's src, at the module's place in the tree, and data it carries beside that code; code run only where void-os is built and checked under the implementation's tests, at the same place; a package's own description, its manifest, README and LICENSE, at the implementation's root; and the repository's own files at the repository's root, or in the folder they describe
+Relations	void-os	Modules	every relation, each in the lowest group, by the uses structure, among the modules whose access programs give or take it, at the lowest node there above them all; data a book holds that two groups need, and the specification's own sheets, at the root; each book's sheets in this sheet's order, a group's own after them; the specification's own sheets named with a capital, every other relation in lowercase; in every sheet, the rows in the order of the rows that contain them, each after the rows it uses, as their keys and uses rows record them, an order otherwise carrying no meaning
+Domains	void-os	Relations	each relation's columns: domain, key, the relation it references, and type
+Signatures	void-os	Types	the argument and return types of each callable type
+Access programs	void-os	Modules	each module's access programs, and the component each one starts
+Parameters	void-os	Access programs	each access program's parameters, in order
+Parameter relations	void-os	Parameters	each named relation a parameter of type relations carries, beside any other sheets it carries
+Results	void-os	Access programs	each access program's results, in order
+Result relations	void-os	Results	each named relation a result of type relations carries, beside any other sheets it carries
+Compositions	void-os	Modules	the modules each node's part is handed where it is called: by the node, or, for a part no access program calls, by the tests that call it; the Modules sheet alone giving which parts a node composes
+Connectors	void-os	Modules	what a module exchanges with another component: the connector, the source of its protocol and of its data
+Requirements	void-os	Modules	every requirement on a class of products or a module's work, carried out in one module, each checked by a conformance case
+Errors	void-os	Access programs	the errors each access program raises: its own, and each error of an access program it calls that no requirement ends or rules out, by that error's name
+Ended errors	void-os	Access programs	each error of an access program a module calls that a requirement of the module, or of a node above, ends or rules out, so that the module does not raise it
+Operations	void-os	Modules	every operation a requirement names, its kind, and the source that governs it, at the module that carries it out, or, where each module that names it carries it out itself, at the lowest node whose rows use it
+Operation inputs	void-os	Operations	each value a primitive operation is handed, in order, by the name its Bindings write it
+Bindings	void-os	Operations	each primitive operation's construct in each notation, by the source of that notation's library
+Operation steps	void-os	Operations	each composite operation's steps, in order, each by the source blocks that govern it
+Control words	void-os		each word that orders a body, and how it orders the work
+Terms	void-os	Modules	every name, defined by its source, at the lowest node whose rows use it
+Value uses	void-os	Requirements	the Values each requirement uses, of its own node or a node above
+Operation uses	void-os	Requirements	the operations each requirement names
+Access program uses	void-os	Requirements	the access programs of other modules each requirement calls, by their names, an operation it names held at another module among them
+Citations	void-os	Requirements	the source blocks each requirement follows
+Spec relations	void-os	Requirements	the requirements each requirement follows, of its own node or a node above
+Axis rules	void-os	Requirements	the characteristics and subcharacteristics each requirement meets
+Requirement files	void-os	Requirements	each file of the repository whose content a requirement states, its cases checking that file
+harness members	void-os		each member of a hook input that holds a place or a column of a value's provenance, as each harness names it
+Domains
+Relation	Column	Domain	Key	References	Type	Description
+Scope	Id		primary		text	a scope statement's identifier: scope, a full stop, and its number
+Scope	Statement				text	what the statement says
+References	Tag		primary		text	a source's tag, as the register holds it
+References	Kind				reference kind	normative or informative
+Clause	Id		primary		text	a statement's identifier: clause, a full stop, and its number; never altered nor reused
+Clause	Statement				text	what the statement says
+Clause citations	Id		primary	Clause	text	the statement
+Clause citations	Tag		primary	References	text	a source the statement follows
+Clause citations	Section		primary		text	its section, empty for the whole source
+Clause citations	First block		primary		number	its first block, empty for the whole section
+Clause citations	Last block				number	its last block
+Axes	Standard	Tag	primary	References	text	the quality standard
+Axes	Characteristic		primary		text	a characteristic
+Axes	Subcharacteristic		primary		text	a subcharacteristic, empty for the characteristic itself
+Axes	Note				text	a note
+Types	Type		primary		text	a type
+Types	Item type	Type		Types	text	the type of each item of an array, or of each member of an object by name; empty otherwise
+Types	Structured type				structured type	array or object, for a type whose Item type is given; empty otherwise
+Types	Definition				text	what the type is
+Types	Source	Tag		References	text	the source that defines it
+Types	Written				text	how a value of the type is written in a field of a conformance case
+Enumerations	Type		primary	Types	text	the type
+Enumerations	Enumeration		primary		text	a value the type allows
+Enumerations	Description				text	what the value means
+Modules	Module		primary		text	a node of the module tree
+Modules	Parent	Module		Modules	text	the node it is part of, empty for the root
+Modules	Secret				text	the decision the node hides
+Values	Value		primary		text	a decision postponed to release
+Values	Module			Modules	text	the lowest node whose rows use the Value
+Values	Type			Types	text	the Value's type
+Values	Bound				text	what the Value may be, within its type
+Values	Given				text	the Value's value, empty until it is set
+Values	Status				value status	placeholder, or to set
+Value citations	Value		primary	Values	text	the Value
+Value citations	Tag		primary	References	text	a source the Value follows
+Value citations	Section		primary		text	its section, empty for the whole source
+Value citations	First block		primary		number	its first block, empty for the whole section
+Value citations	Last block				number	its last block
+Components	Component		primary		text	a run-time component
+Components	Product				boolean	true for a class of products, false for a component outside void-os
+Components	Command	Value		Values	text	the Value naming the command that starts it, empty for none
+Files	Path		primary		text	the file's path in the repository, at the place its kind gives
+Files	Module			Modules	text	the module the file carries out
+Files	Held from	Tag		References	text	the source the file is copied from, empty for none
+Files	Held path				text	the file's path within that source
+Files	Output of				text	the file whose rows this file is written from, empty for none
+Relations	Relation		primary		text	a relation: a sheet of the specification, or one void-os keeps or passes
+Relations	Module			Modules	text	the lowest node above every module whose access programs give or take the relation, in the lowest group among them by the uses structure; the root for data a book holds that two groups need, and for a sheet of the specification
+Relations	Parent	Relation		Relations	text	the relation its records hang from, empty for none
+Relations	Description				text	what its records are: its one job
+Domains	Relation		primary	Relations	text	the relation
+Domains	Column		primary		text	a column of the relation: a domain's name, or a role name
+Domains	Domain				text	the primary key column of the referenced relation a role name stands for, empty where the column's own name is that column's
+Domains	Key				key	primary for a column of the relation's primary key
+Domains	References	Relation		Relations	text	the relation whose primary key the column holds, empty for none
+Domains	Type			Types	text	the column's type
+Domains	Description				text	what the column holds
+Signatures	Callable	Type	primary	Types	text	a callable type
+Signatures	Direction		primary		signature direction	argument or return
+Signatures	Position		primary		number	the position, from 1
+Signatures	Type			Types	text	its type
+Signatures	Relation			Relations	text	the relation a relation type names, empty for none
+Access programs	Module		primary	Modules	text	the module
+Access programs	Access program		primary		text	an access program of the module
+Access programs	Starts	Component		Components	text	the component the access program starts, empty for none
+Parameters	Module		primary	Access programs	text	the access program's module
+Parameters	Access program		primary	Access programs	text	the access program
+Parameters	Position		primary		number	the parameter's position, from 1
+Parameters	Parameter				text	its name
+Parameters	Type			Types	text	its type
+Parameters	Relation			Relations	text	the relation a relation type names, empty for none
+Parameters	Default				text	its default, empty for none
+Parameters	Description				text	what it holds
+Parameter relations	Module		primary	Parameters	text	the access program's module
+Parameter relations	Access program		primary	Parameters	text	the access program
+Parameter relations	Position		primary	Parameters	number	the parameter's position
+Parameter relations	Relation		primary	Relations	text	a relation the parameter carries
+Results	Module		primary	Access programs	text	the access program's module
+Results	Access program		primary	Access programs	text	the access program
+Results	Position		primary		number	the result's position, from 1
+Results	Type			Types	text	its type
+Results	Relation			Relations	text	the relation a relation type names, empty for none
+Results	Description				text	what it holds
+Result relations	Module		primary	Results	text	the access program's module
+Result relations	Access program		primary	Results	text	the access program
+Result relations	Position		primary	Results	number	the result's position
+Result relations	Relation		primary	Relations	text	a relation the result carries
+Compositions	Module		primary	Modules	text	the node whose part it is
+Compositions	Part	Module	primary	Modules	text	a part of the node, one of its children
+Compositions	Handed	Module	primary	Modules	text	a module below the node, or handed to it, whose access programs the part calls, every module the handed module is handed being handed to the part with it
+Connectors	Module		primary	Modules	text	the module at void-os's end
+Connectors	Peer	Component	primary	Components	text	the component at the other end
+Connectors	Connector				connector	the kind of connector
+Connectors	Protocol	Tag		References	text	the source of the protocol
+Connectors	Data	Tag		References	text	the source the data's form follows
+Requirements	Requirement		primary		text	a requirement's identifier: its module as the Modules sheet names it, lowercase, each space a hyphen and a part named with › written parent-child, a full stop, and its number within the module; never altered nor reused
+Requirements	Module			Modules	text	the module that carries it out
+Requirements	Access program			Access programs	text	the access program whose body carries it out, empty where the module carries it in a detail its access programs share, or where it states a file's content, as Requirement files names it
+Requirements	Statement				text	what it requires, as clause.27 states one requirement
+Errors	Module		primary	Access programs	text	the access program's module
+Errors	Access program		primary	Access programs	text	the access program
+Errors	Error		primary		text	an error it raises, its own or one of an access program it calls
+Errors	Requirement		primary	Requirements	text	a requirement whose statement raises the error, one row each; empty where the error only passes up by its name, as void-os.3 passes it
+Ended errors	Module		primary	Access programs	text	the module that calls
+Ended errors	Access program		primary	Access programs	text	its access program that calls
+Ended errors	Called module	Module	primary	Access programs	text	the module of the access program called
+Ended errors	Called access program	Access program	primary	Access programs	text	the access program called
+Ended errors	Error		primary	Errors	text	an error the access program called raises
+Ended errors	Disposition				disposition	ended or ruled out
+Ended errors	Requirement			Requirements	text	the requirement that ends the error or rules it out
+Operations	Operation		primary		text	an operation: what a requirement makes a module do
+Operations	Module			Modules	text	the module that carries it out, every module whose rows use it being handed that module; or, where each such module carries it out itself, the lowest node whose rows use it
+Operations	Kind				operation kind	primitive, grammar or composite
+Operations	Tag			References	text	the source that governs it
+Operations	Section				text	its section, empty for the whole source
+Operations	First block				number	its first block, empty for the whole section
+Operations	Last block				number	its last block
+Operation inputs	Operation		primary	Operations	text	a primitive operation
+Operation inputs	Position		primary		number	the value's place, from 1
+Operation inputs	Input				text	the value's name, as its Bindings write it between {{ and }}
+Operation inputs	Type			Types	text	the value's type
+Bindings	Operation		primary	Operations	text	a primitive operation
+Bindings	Notation		primary		text	a notation void-os is carried out in, as clause.26 names them: python or javascript
+Bindings	Code				text	the code that carries it out in that notation, on one line in the notation's grammar, of the constructs of that notation's library: each value it is handed written as its Input between {{ and }}, and the value it gives assigned to {{result}}, none where it gives none
+Bindings	Tag			References	text	the source of that library
+Bindings	Section				text	its section, empty for the whole source
+Bindings	First block				number	its first block, empty for the whole section
+Bindings	Last block				number	its last block
+Operation steps	Operation		primary	Operations	text	a composite operation
+Operation steps	Position		primary		number	the step's place, from 1
+Operation steps	Step				text	the step: a module, a requirement, an operation or a keyword, as void-os names it
+Operation steps	Tag			References	text	the source that governs it
+Operation steps	Section				text	its section
+Operation steps	First block				number	its first block, empty for the whole section
+Operation steps	Last block				number	its last block
+Control words	Word		primary		text	a word of a requirement that orders a body
+Control words	Description				text	how the word orders the work
+Terms	Term		primary		text	a name the specification uses
+Terms	Module		primary	Modules	text	the lowest node whose rows use the name
+Terms	Source	Tag		References	text	the source that defines the name
+Terms	Section				text	the section that defines it, empty for the whole source
+Value uses	Requirement		primary	Requirements	text	the requirement
+Value uses	Value		primary	Values	text	a Value it uses, of its own node or a node above
+Operation uses	Requirement		primary	Requirements	text	the requirement
+Operation uses	Operation		primary	Operations	text	an operation it names
+Access program uses	Requirement		primary	Requirements	text	the requirement
+Access program uses	Module		primary	Access programs	text	the module of an access program it calls: a part of its own module, or a module its module is handed
+Access program uses	Access program		primary	Access programs	text	the access program it calls, by its name
+Citations	Requirement		primary	Requirements	text	the requirement
+Citations	Tag		primary	References	text	a source the requirement follows
+Citations	Section		primary		text	its section, empty for the whole source
+Citations	First block		primary		number	its first block, empty for the whole section
+Citations	Last block				number	its last block
+Spec relations	Requirement		primary	Requirements	text	the requirement
+Spec relations	Target	Requirement	primary	Requirements	text	a requirement it follows, of its own node or a node above
+Axis rules	Standard		primary	Axes	text	the standard
+Axis rules	Characteristic		primary	Axes	text	the characteristic
+Axis rules	Subcharacteristic		primary	Axes	text	the subcharacteristic, empty for the characteristic itself
+Axis rules	Requirement		primary	Requirements	text	the requirement that meets it
+Requirement files	Requirement		primary	Requirements	text	the requirement
+Requirement files	Path		primary	Files	text	a file whose content it states
+harness members	column		primary		harness column	what the member holds
+harness members	pointer		primary		text	the JSON Pointer of a hook input's member that holds it
+harness members	harness	Component	primary	Components	text	the harness that names the member
+harness members	Tag			References	text	the harness's source
+harness members	Section				text	its section
+harness members	First block				number	its block
+Signatures
+Callable	Direction	Position	Type	Relation
+Access programs
+Module	Access program	Starts
+void-os	void-os	void-os
+Parameters
+Module	Access program	Position	Parameter	Type	Relation	Default	Description
+Parameter relations
+Module	Access program	Position	Relation
+Results
+Module	Access program	Position	Type	Relation	Description
+void-os	void-os	1	number		the exit status
+Result relations
+Module	Access program	Position	Relation
+Compositions
+Module	Part	Handed
+void-os	data bank	relational model
+void-os	tools	relational model
+void-os	tools	data bank
+void-os	hooks	relational model
+void-os	hooks	data bank
+void-os	view	relational model
+void-os	view	data bank
+void-os	system generation	relational model
+Connectors
+Module	Peer	Connector	Protocol	Data
+Requirements
+Requirement	Module	Access program	Statement
+void-os.1	void-os		Every datum void-os keeps or gives MUST be a relation in normal form, an MTSV sheet, each record beginning with its primary key, each field holding one value, and all its records distinct.
+void-os.2	void-os		void-os MUST be relationally complete: query giving restriction, projection, join and union, and the data bank's access program new giving difference, what is new being the values stored less those communicated to the session and agent it is asked for.
+void-os.3	void-os		An error that ends an access program a module calls MUST end the module's access as that error, by its name, unless Ended errors names a requirement that ends it otherwise or rules it out.
+void-os.4	void-os		A name void-os takes from outside that begins with _ MUST be written with that _ doubled, so that a name beginning with one _ is always one void-os fixes.
+void-os.5	void-os	void-os	The void-os component MUST be started by the command the Value void-os command names, its operands its arguments.
+void-os.6	void-os	void-os	The command run with no operand MUST start the server, over the standard streams, until its standard input ends.
+void-os.7	void-os	void-os	The command run with one operand that is a hook event MUST run the hook of that event, handing it the working directory the command is run in, and end with exit status 0 where the hook ends without an error.
+void-os.8	void-os	void-os	The command run with any other operands MUST write the Value usage message, then LF, on standard error and end with exit status 1.
+void-os.9	void-os	void-os	Every exit status the command gives other than 0 MUST be 1, as an exit status of 2 blocks a harness and erases a submitted prompt.
+void-os.10	void-os	void-os	The command run with the Value view operand as its first operand MUST run the view, its other operands and its option --filter the view's, handing it whether standard output is a terminal and the machine's offset from UTC, as local offset gives it.
+void-os.11	void-os	void-os	An error that ends an access program the command calls MUST be written, by its reason, then LF, on standard error, the command ending with exit status 1.
+Errors
+Module	Access program	Error	Requirement
+Ended errors
+Module	Access program	Called module	Called access program	Error	Disposition	Requirement
+void-os	void-os	hooks	hook	keeping failed	ended	void-os.11
+void-os	void-os	hooks	hook	non-conforming	ended	void-os.11
+void-os	void-os	view	view	refused	ended	void-os.11
+void-os	void-os	view	view	keeping failed	ended	void-os.11
+void-os	void-os	system generation	values	not MTSV	ended	void-os.11
+Operations
+Operation	Module	Kind	Tag	Section	First block	Last block
+read a file	void-os	primitive	POSIX-XSH-OPEN	DESCRIPTION	8	9
+write a file	void-os	primitive	POSIX-XSH-OPEN	DESCRIPTION		
+make directory	void-os	primitive	POSIX-XSH-MKDIR	DESCRIPTION		
+resolve pathname	void-os	primitive	POSIX-XSH-REALPATH	DESCRIPTION	1	2
+environment variable	void-os	primitive	POSIX-XBD8	8.1 Environment Variable Definition		
+write standard output	void-os	primitive	POSIX-XCU1	1.4 Utility Description Defaults		
+write standard error	void-os	primitive	POSIX-XCU1	1.4 Utility Description Defaults		
+exit status	void-os	primitive	POSIX-XCU1	1.4 Utility Description Defaults		
+arguments	void-os	primitive	POSIX-XBD12	12.1 Utility Argument Syntax		
+UTF-8 decode	void-os	primitive	RFC3629	3. UTF-8 definition		
+UTF-8 encode	void-os	primitive	RFC3629	3. UTF-8 definition		
+count	void-os	primitive	WICKHAM2014	4.1. Manipulation	4	4
+aggregate	void-os	composite	WICKHAM2014	4.1. Manipulation	4	8
+JSON Pointer	void-os	grammar	RFC6901	3. Syntax		
+percent-encoding	void-os	grammar	RFC3986	2.1. Percent-Encoding	1	3
+home folder	void-os	primitive	PLATFORMDIRS	Directories not covered	1	2
+platform	void-os	primitive	PLATFORMDIRS	Platform details	1	1
+user documents folder	void-os	grammar	PLATFORMDIRS	user_documents_dir	3	10
+file URI path	void-os	grammar	RFC8089	E.2. DOS and Windows Drive Letters	2	3
+name within a folder	void-os	composite	RFC8089	E.2. DOS and Windows Drive Letters	2	7
+working directory	void-os	primitive	POSIX-XSH-GETCWD	DESCRIPTION		
+is a terminal	void-os	primitive	POSIX-XSH-ISATTY	DESCRIPTION		
+local offset	void-os	primitive	RFC3339	4.2. Local Offsets		
+Operation inputs
+Operation	Position	Input	Type
+read a file	1	path	absolute path
+write a file	1	path	absolute path
+write a file	2	data	bytes
+make directory	1	path	absolute path
+resolve pathname	1	path	text
+environment variable	1	name	text
+write standard output	1	data	bytes
+write standard error	1	data	bytes
+exit status	1	status	number
+UTF-8 decode	1	data	bytes
+UTF-8 encode	1	text	text
+count	1	items	relation
+Bindings
+Operation	Notation	Code	Tag	Section	First block	Last block
+read a file	python	with open({{path}}, 'rb') as file: {{result}} = file.read()	PY-FUNCTIONS	Built-in Functions	254	254
+read a file	javascript	const {{result}} = fs.readFileSync({{path}});	NODE-FS	fs.readFileSync(path[, options])		
+write a file	python	with open({{path}}, 'wb') as file: file.write({{data}})	PY-FUNCTIONS	Built-in Functions	254	254
+write a file	javascript	fs.writeFileSync({{path}}, {{data}});	NODE-FS	fs.writeFileSync(file, data[, options])		
+make directory	python	os.makedirs({{path}}, exist_ok=True)	PY-OS	Files and Directories	152	152
+make directory	javascript	fs.mkdirSync({{path}}, { recursive: true });	NODE-FS	fs.mkdirSync(path[, options])		
+resolve pathname	python	{{result}} = os.path.realpath({{path}}, strict=True)	PY-OS-PATH	os.path --- Common pathname manipulations	87	87
+resolve pathname	javascript	const {{result}} = fs.realpathSync({{path}});	NODE-FS	fs.realpathSync(path[, options])		
+environment variable	python	{{result}} = os.environ.get({{name}})	PY-OS	Process Parameters	5	5
+environment variable	javascript	const {{result}} = process.env[{{name}}];	NODE-PROCESS	process.env		
+write standard output	python	sys.stdout.buffer.write({{data}})	PY-SYS	sys --- System-specific parameters and functions	492	492
+write standard output	javascript	process.stdout.write({{data}});	NODE-PROCESS	process.stdout		
+write standard error	python	sys.stderr.buffer.write({{data}})	PY-SYS	sys --- System-specific parameters and functions	492	492
+write standard error	javascript	process.stderr.write({{data}});	NODE-PROCESS	process.stderr		
+exit status	python	sys.exit({{status}})	PY-SYS	sys --- System-specific parameters and functions	123	123
+exit status	javascript	process.exitCode = {{status}};	NODE-PROCESS	process.exitCode		
+arguments	python	{{result}} = sys.argv[1:]	PY-SYS	sys --- System-specific parameters and functions	18	18
+arguments	javascript	const {{result}} = process.argv.slice(2);	NODE-PROCESS	process.argv		
+UTF-8 decode	python	{{result}} = str({{data}}, 'utf-8')	PY-FUNCTIONS	Built-in Functions	380	380
+UTF-8 decode	javascript	const {{result}} = new TextDecoder('utf-8', { fatal: true, ignoreBOM: true }).decode({{data}});	WHATWG-ENCODING	7.2. Interface TextDecoder		
+UTF-8 encode	python	{{result}} = bytes({{text}}, 'utf-8')	PY-FUNCTIONS	Built-in Functions	46	46
+UTF-8 encode	javascript	const {{result}} = new TextEncoder().encode({{text}});	WHATWG-ENCODING	7.4. Interface TextEncoder		
+count	python	{{result}} = len({{items}})	PY-FUNCTIONS	Built-in Functions	217	217
+count	javascript	const {{result}} = {{items}}.length;	ECMA-262	23.1.4.1 length		
+home folder	python	{{result}} = os.path.expanduser('~')	PY-OS-PATH	os.path --- Common pathname manipulations	38	38
+home folder	javascript	const {{result}} = os.homedir();	NODE-OS	os.homedir()		
+platform	python	{{result}} = sys.platform	PY-SYS	sys --- System-specific parameters and functions	393	393
+platform	javascript	const {{result}} = process.platform;	NODE-PROCESS	process.platform		
+working directory	python	{{result}} = os.getcwd()	PY-OS	Files and Directories	92	92
+working directory	javascript	const {{result}} = process.cwd();	NODE-PROCESS	process.cwd()		
+is a terminal	python	{{result}} = os.isatty(1)	PY-OS	File Descriptor Operations	71	71
+is a terminal	javascript	const {{result}} = tty.isatty(1);	NODE-TTY	tty.isatty(fd)		
+local offset	python	{{result}} = datetime.now().astimezone().utcoffset() // timedelta(minutes=1)	PY-DATETIME	.datetime Objects	128	128
+local offset	javascript	const {{result}} = -new Date().getTimezoneOffset();	ECMA-262	21.4.4.11 Date.prototype.getTimezoneOffset ( )		
+Operation steps
+Operation	Position	Step	Tag	Section	First block	Last block
+aggregate	1	by group	WICKHAM2014	4.1. Manipulation	8	8
+aggregate	2	count	WICKHAM2014	4.1. Manipulation	4	4
+name within a folder	1	file URI path	RFC8089	E.2. DOS and Windows Drive Letters	2	3
+name within a folder	2	UTF-8 encode	RFC3986	2.5. Identifying Data	6	6
+name within a folder	3	percent-encoding	RFC3986	2.3. Unreserved Characters	2	2
+name within a folder	4	void-os.4				
+Control words
+Word	Description
+where	the work that follows is done only where its condition holds
+for each	the work that follows is done once for each item, in order
+until	the work that follows is done again until its condition holds
+refused	the access ends with the error named, its reason given
+give	the access ends, giving the value named
+end the access	an error that ends an access program called is handled as the requirement says
+Terms
+Term	Module	Source	Section
+void-os	void-os	PYPA-PYPROJECT	name
+module	void-os	PARNAS1985	THREE IMPORTANT SOFTWARE STRUCTURES
+secret	void-os	PARNAS1985	DESIGN PRINCIPLE
+access program	void-os	PARNAS1985	DESIGN PRINCIPLE
+uses	void-os	PARNAS1979	D. Designing the “Uses” Structure
+extension	void-os	QAFRAME	7. Glossary
+class of products	void-os	QAFRAME	7. Glossary
+informative	void-os	QAFRAME	7. Glossary
+normative	void-os	QAFRAME	7. Glossary
+conformance clause	void-os	QAFRAME	7. Glossary
+key words	void-os	BCP14	
+requirement	void-os	REQIF	4 Terms and Definitions
+component	void-os	FIELDING2000	1.2.1 Components
+connector	void-os	FIELDING2000	1.2.2 Connectors
+datum	void-os	FIELDING2000	1.2.3 Data
+protocol	void-os	FIELDING2000	1.2.2 Connectors
+field	void-os	MTSV-DRAFT	Conventions and Definitions
+record	void-os	MTSV-DRAFT	Conventions and Definitions
+header	void-os	MTSV-DRAFT	Conventions and Definitions
+sheet	void-os	MTSV-DRAFT	Conventions and Definitions
+sheet name	void-os	MTSV-DRAFT	Conventions and Definitions
+MTSV file	void-os	MTSV-DRAFT	Conventions and Definitions
+parser	void-os	MTSV-DRAFT	Conventions and Definitions
+generator	void-os	MTSV-DRAFT	Conventions and Definitions
+instance	void-os	JSON-SCHEMA-07	draft-handrews-json-schema-01 › 4.2. Instance
+JSON Pointer	void-os	RFC6901	3. Syntax
+data bank	void-os	CODD1970	Abstract
+relation	void-os	CODD1970	1.3. A Relational View of Data
+domain	void-os	CODD1970	1.3. A Relational View of Data
+primary key	void-os	CODD1970	1.3. A Relational View of Data
+normal form	void-os	CODD1970	1.4. Normal Form
+role name	void-os	CODD1970	1.3. A Relational View of Data
+relationally complete	void-os	CODD1972	3.4 Relational Completeness
+utility	void-os	POSIX-XBD12	12.1 Utility Argument Syntax
+operand	void-os	POSIX-XBD12	12.1 Utility Argument Syntax
+argument	void-os	POSIX-XBD12	12.1 Utility Argument Syntax
+standard input	void-os	POSIX-XCU1	1.4 Utility Description Defaults
+standard output	void-os	POSIX-XCU1	1.4 Utility Description Defaults
+standard error	void-os	POSIX-XCU1	1.4 Utility Description Defaults
+exit status	void-os	POSIX-XCU1	1.4 Utility Description Defaults
+pathname	void-os	POSIX-XBD4	4.13 Pathname Resolution
+hook	void-os	CLAUDE-CODE	hooks › Hooks reference
+harness	void-os	CLAUDE-CODE	hooks › Hooks reference
+server	void-os	MCP	architecture › Servers
+tool	void-os	MCP	server/tools
+package	void-os	NPM-PACKAGE-JSON	name
+callable	void-os	PEP484	Callable
+characteristic	void-os	ISO25010	
+subcharacteristic	void-os	ISO25010	
+converter	void-os		
+module specification	void-os		
+input	void-os		
+schema	void-os	JSON-SCHEMA-07	draft-handrews-json-schema-01 › 4.3. JSON Schema Documents
+value	void-os	PROV-DM	5.1.1 Entity
+time	void-os	PROV-DM	5.1.3 Generation
+event	void-os	CLAUDE-CODE	hooks › Hook lifecycle
+agent	void-os	PROV-DM	5.3.1 Agent
+session	void-os	CLAUDE-CODE	hooks › Common input fields
+turn	void-os	CODEX	Common input fields
+model	void-os	CLAUDE-CODE	hooks › SessionStart input
+place	void-os		
+run of text	void-os	ECMA-376-1	
+filter	void-os	RFC9535	2.3.5. Filter Selector
+directory	void-os	POSIX-XBD4	4.6 File Hierarchy
+resolved pathname	void-os	POSIX-XSH-REALPATH	DESCRIPTION
+working directory	void-os	POSIX-XSH-GETCWD	DESCRIPTION
+user's documents folder	void-os	PLATFORMDIRS	user_documents_dir
+terminal	void-os	POSIX-XSH-ISATTY	DESCRIPTION
+hook input	void-os	CLAUDE-CODE	hooks › Hook input and output
+Value uses
+Requirement	Value
+void-os.5	void-os command
+void-os.8	usage message
+void-os.10	view operand
+Operation uses
+Requirement	Operation
+void-os.5	arguments
+void-os.7	exit status
+void-os.7	working directory
+void-os.8	write standard error
+void-os.8	UTF-8 encode
+void-os.8	exit status
+void-os.10	is a terminal
+void-os.10	local offset
+void-os.11	write standard error
+void-os.11	UTF-8 encode
+void-os.11	exit status
+Access program uses
+Requirement	Module	Access program
+void-os.6	tools	serve
+void-os.6	system generation	values
+void-os.7	hooks	hook
+void-os.7	system generation	values
+void-os.8	system generation	values
+void-os.10	view	view
+void-os.10	system generation	values
+Citations
+Requirement	Tag	Section	First block	Last block
+void-os.1	CODD1970	1.3. A Relational View of Data	30	30
+void-os.1	CODD1970	1.4. Normal Form	1	1
+void-os.1	CODD1970	1.4. Normal Form	4	4
+void-os.1	MTSV-DRAFT	Data Model		
+void-os.2	CODD1972	3.4 Relational Completeness	1	1
+void-os.2	CODD1972	2.3.1 Traditional Set Operations	3	3
+void-os.3	PARNAS1985	DESIGN PRINCIPLE	1	1
+void-os.5	POSIX-XBD12	12.1 Utility Argument Syntax		
+void-os.6	MCP	basic/transports/stdio		
+void-os.7	CLAUDE-CODE	hooks › Hook input and output		
+void-os.8	POSIX-XCU1	1.4 Utility Description Defaults		
+void-os.9	CLAUDE-CODE	hooks › Exit code 2		
+void-os.9	CLAUDE-CODE	hooks › Other exit codes		
+void-os.9	CODEX	UserPromptSubmit	12	12
+void-os.9	CURSOR	Command-Based Hooks	5	6
+void-os.10	SHNEIDERMAN1996	2. Visual Information Seeking Mantra	4	5
+void-os.10	RFC3339	4.2. Local Offsets		
+void-os.10	POSIX-XBD12	12.1 Utility Argument Syntax		
+void-os.10	POSIX-XSH-ISATTY	DESCRIPTION		
+void-os.11	POSIX-XCU1	1.4 Utility Description Defaults	80	83
+Spec relations
+Requirement	Target
+Axis rules
+Standard	Characteristic	Subcharacteristic	Requirement
+ISO25010	Reliability	fault tolerance	void-os.9
+ISO25010	Safety	fail safe	void-os.9
+Requirement files
+Requirement	Path
+harness members
+column	pointer	harness	Tag	Section	First block
+place	/cwd	Codex	CODEX	Common input fields	6
+place	/workspace_roots/0	Cursor	CURSOR	Input (all hooks)	11
+agent	/agent_id	Claude Code	CLAUDE-CODE	hooks › Common input fields	13
+agent	/agent_id	Codex	CODEX	SubagentStart	5
+agent	/subagent_id	Cursor	CURSOR	subagentStart	4
+session	/session_id	Claude Code	CLAUDE-CODE	hooks › Common input fields	3
+session	/session_id	Codex	CODEX	Common input fields	4
+session	/conversation_id	Cursor	CURSOR	Input (all hooks)	4
+turn	/prompt_id	Claude Code	CLAUDE-CODE	hooks › Common input fields	4
+turn	/turn_id	Codex	CODEX	Common input fields	9
+turn	/generation_id	Cursor	CURSOR	Input (all hooks)	5
+model	/model	Claude Code	CLAUDE-CODE	hooks › SessionStart input	4
+model	/model	Codex	CODEX	Common input fields	8
+model	/model	Cursor	CURSOR	Input (all hooks)	6

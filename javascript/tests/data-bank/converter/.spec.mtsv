@@ -1,0 +1,127 @@
+1-folders
+kind	place	holds
+—	input	—
+—	transfer	—
+—	output	—
+2-modules
+kind	place	holds
+{{name}} · .js	converter.test	—
+3-statements
+kind	place	holds
+ImportDeclaration	converter.test.js#/SourceFile/0	—
+ImportDeclaration	converter.test.js#/SourceFile/1	—
+ImportDeclaration	converter.test.js#/SourceFile/2	—
+ImportDeclaration	converter.test.js#/SourceFile/3	—
+ExpressionStatement	converter.test.js#/SourceFile/4	—
+ExpressionStatement	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0	—
+ExpressionStatement	converter.test.js#/SourceFile/5	—
+ExpressionStatement	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0	—
+4-expressions
+kind	place	holds
+ImportClause · name	converter.test.js#/SourceFile/0/ImportClause	—
+StringLiteral	converter.test.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	converter.test.js#/SourceFile/1/ImportClause	—
+NamespaceImport	converter.test.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	converter.test.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	converter.test.js#/SourceFile/2/ImportClause	—
+NamespaceImport	converter.test.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	converter.test.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	converter.test.js#/SourceFile/3/ImportClause	—
+NamespaceImport	converter.test.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	converter.test.js#/SourceFile/3/ModuleSpecifier	—
+CallExpression	converter.test.js#/SourceFile/4/Expression	—
+Identifier	converter.test.js#/SourceFile/4/Expression/Expression	—
+StringLiteral	converter.test.js#/SourceFile/4/Expression/Arguments/0	—
+ArrowFunction · Block	converter.test.js#/SourceFile/4/Expression/Arguments/1	—
+—	converter.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0	—
+Identifier	converter.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	converter.test.js#/SourceFile/5/Expression	—
+Identifier	converter.test.js#/SourceFile/5/Expression/Expression	—
+StringLiteral	converter.test.js#/SourceFile/5/Expression/Arguments/0	—
+ArrowFunction · Block	converter.test.js#/SourceFile/5/Expression/Arguments/1	—
+—	converter.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0	—
+Identifier	converter.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+5-texts
+kind	place	holds
+—	converter.test.js#/SourceFile/0/ImportClause/name/Text	test
+—	converter.test.js#/SourceFile/0/ModuleSpecifier/Text	'node:test'
+—	converter.test.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	relationalModel
+—	converter.test.js#/SourceFile/1/ModuleSpecifier/Text	'../../../src/relational-model/relational-model.js'
+—	converter.test.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	values
+—	converter.test.js#/SourceFile/2/ModuleSpecifier/Text	'../../../src/system-generation/values/values.js'
+—	converter.test.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	runner
+—	converter.test.js#/SourceFile/3/ModuleSpecifier/Text	'../../system-generation/runner/runner.js'
+—	converter.test.js#/SourceFile/4/Expression/Expression/Text	test
+—	converter.test.js#/SourceFile/4/Expression/Arguments/0/Text	'converter.1'
+—	converter.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name/Text	t
+—	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'converter.1'
+—	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	converter.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	converter.test.js#/SourceFile/5/Expression/Expression/Text	test
+—	converter.test.js#/SourceFile/5/Expression/Arguments/0/Text	'converter.5'
+—	converter.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name/Text	t
+—	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'converter.5'
+—	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	converter.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values

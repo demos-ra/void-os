@@ -1,0 +1,271 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+void-os.1	1	void-os	void-os			false	false	a hook's input is kept as relations in normal form, each record beginning with its primary key
+void-os.2	1	void-os	void-os			true	false	what is new is the values stored less those communicated to the session and agent it is asked for
+void-os.3	1	void-os	void-os		keeping failed<LF>	false	true	an error that ends an access program a module calls ends the module's access as that error: keeping failed from storage ends the view, and the command
+void-os.4	1	void-os	void-os			false	false	a name taken from outside that begins with _ is written with that _ doubled: the input's file
+void-os.5	1	void-os	void-os				false	the command takes its operands as its arguments
+void-os.6	1	void-os	void-os			true	false	with no operand the command serves MCP over the standard streams until its standard input ends
+void-os.7	1	void-os	void-os			false	false	a hook event as the one operand runs that hook, handed the working directory, and ends with exit status 0
+void-os.8	1	void-os	void-os		usage: void-os [view [--filter filter] [input [day [position]]] | hook-event]<LF>	false	true	other operands write the usage message, then LF, on standard error and end with exit status 1
+void-os.9	1	void-os	void-os				true	a hook that fails ends with exit status 1, never 2
+void-os.10	1	void-os	void-os			true	false	view as the first operand runs the view, handed whether standard output is a terminal
+void-os.11	1	void-os	void-os		no input /no/such<LF>		true	an error the view raises is written by its reason, then LF, on standard error and ends with exit status 1
+arguments
+requirement	case	position	item	value
+void-os.1	1	1	0	Stop
+void-os.2	1	1	0	UserPromptSubmit
+void-os.3	1	1	0	view
+void-os.4	1	1	0	Stop
+void-os.5	1	1	0	Stop
+void-os.7	1	1	0	Stop
+void-os.8	1	1	0	SessionStart
+void-os.8	1	2	0	Stop
+void-os.9	1	1	0	SessionStart
+void-os.10	1	1	0	view
+void-os.11	1	1	0	view
+void-os.11	1	2	0	/no/such
+environment
+requirement	case	name	value
+void-os.1	1	VOID_OS_DATA_BANK	$PWD/bank
+void-os.2	1	VOID_OS_DATA_BANK	$PWD/bank
+void-os.3	1	VOID_OS_DATA_BANK	$PWD/bank
+void-os.4	1	VOID_OS_DATA_BANK	$PWD/bank
+void-os.4	1	CLAUDE_PROJECT_DIR	$PWD/_p
+void-os.5	1	VOID_OS_DATA_BANK	$PWD/bank
+void-os.7	1	VOID_OS_DATA_BANK	$PWD/bank
+void-os.9	1	VOID_OS_DATA_BANK	$PWD/bank
+void-os.10	1	VOID_OS_DATA_BANK	$PWD/bank
+void-os.11	1	VOID_OS_DATA_BANK	$PWD/bank
+stdin
+requirement	case	line	text
+void-os.1	1	1	{"hook_event_name": "Stop"}
+void-os.2	1	1	{"hook_event_name": "UserPromptSubmit", "session_id": "s2", "prompt": "again"}
+void-os.4	1	1	{"hook_event_name": "Stop"}
+void-os.5	1	1	{"hook_event_name": "Stop"}
+void-os.6	1	1	{"jsonrpc": "2.0", "id": 1, "method": "server/discover", "params": {"_meta": {"io.modelcontextprotocol/protocolVersion": "2026-07-28", "io.modelcontextprotocol/clientInfo": {"name": "conformance", "version": "1"}, "io.modelcontextprotocol/clientCapabilities": {}}}}
+void-os.7	1	1	{"hook_event_name": "Stop"}
+void-os.9	1	1	not a JSON text
+fixtures
+fixture	sheet	record	field	value
+two values input	1	0	1	hook input
+two values input	1	1	1	_input value
+two values input	1	2	1	0
+two values input	2	0	1	_instances
+two values input	2	1	1	_input value
+two values input	2	1	2	_instance
+two values input	2	1	3	_parent
+two values input	2	1	4	_pointer
+two values input	2	1	5	_type
+two values input	2	1	6	_value
+two values input	2	2	1	0
+two values input	2	2	2	1
+two values input	2	2	3	0
+two values input	2	2	4	/hook_event_name
+two values input	2	2	5	string
+two values input	2	2	6	SessionStart
+two values input	2	3	1	0
+two values input	2	3	2	2
+two values input	2	3	3	0
+two values input	2	3	4	/session_id
+two values input	2	3	5	string
+two values input	2	3	6	s1
+two values input	3	0	1	hook input
+two values input	3	1	1	_input value
+two values input	3	2	1	1
+two values input	4	0	1	_instances
+two values input	4	1	1	_input value
+two values input	4	1	2	_instance
+two values input	4	1	3	_parent
+two values input	4	1	4	_pointer
+two values input	4	1	5	_type
+two values input	4	1	6	_value
+two values input	4	2	1	1
+two values input	4	2	2	1
+two values input	4	2	3	0
+two values input	4	2	4	/hook_event_name
+two values input	4	2	5	string
+two values input	4	2	6	UserPromptSubmit
+two values input	4	3	1	1
+two values input	4	3	2	2
+two values input	4	3	3	0
+two values input	4	3	4	/session_id
+two values input	4	3	5	string
+two values input	4	3	6	s1
+two values input	4	4	1	1
+two values input	4	4	2	3
+two values input	4	4	3	0
+two values input	4	4	4	/prompt
+two values input	4	4	5	string
+two values input	4	4	6	hello
+two values _stored	1	0	1	_stored
+two values _stored	1	1	1	_input
+two values _stored	1	1	2	_input value
+two values _stored	1	1	3	_time
+two values _stored	1	1	4	_event
+two values _stored	1	2	1	$PWD
+two values _stored	1	2	2	0
+two values _stored	1	2	3	2026-10-10T09:00:00Z
+two values _stored	1	2	4	SessionStart
+two values _stored	2	0	1	_stored
+two values _stored	2	1	1	_input
+two values _stored	2	1	2	_input value
+two values _stored	2	1	3	_time
+two values _stored	2	1	4	_event
+two values _stored	2	2	1	$PWD
+two values _stored	2	2	2	1
+two values _stored	2	2	3	2026-10-11T10:30:00Z
+two values _stored	2	2	4	UserPromptSubmit
+hook input _sheets	1	0	1	_sheets
+hook input _sheets	1	1	1	_input
+hook input _sheets	1	1	2	_place
+hook input _sheets	1	1	3	_sheet name
+hook input _sheets	1	2	1	$PWD
+hook input _sheets	1	2	2	0
+hook input _sheets	1	2	3	hook input
+hook input _sheets	1	3	1	$PWD
+hook input _sheets	1	3	2	1
+hook input _sheets	1	3	3	_instances
+hook input _sheets	1	4	1	$PWD
+hook input _sheets	1	4	2	2
+hook input _sheets	1	4	3	_runs
+hook input _fields	1	0	1	_fields
+hook input _fields	1	1	1	_input
+hook input _fields	1	1	2	_place
+hook input _fields	1	1	3	_position
+hook input _fields	1	1	4	_field name
+hook input _fields	1	2	1	$PWD
+hook input _fields	1	2	2	0
+hook input _fields	1	2	3	0
+hook input _fields	1	2	4	_input value
+hook input _fields	1	3	1	$PWD
+hook input _fields	1	3	2	1
+hook input _fields	1	3	3	0
+hook input _fields	1	3	4	_input value
+hook input _fields	1	4	1	$PWD
+hook input _fields	1	4	2	1
+hook input _fields	1	4	3	1
+hook input _fields	1	4	4	_instance
+hook input _fields	1	5	1	$PWD
+hook input _fields	1	5	2	1
+hook input _fields	1	5	3	2
+hook input _fields	1	5	4	_parent
+hook input _fields	1	6	1	$PWD
+hook input _fields	1	6	2	1
+hook input _fields	1	6	3	3
+hook input _fields	1	6	4	_pointer
+hook input _fields	1	7	1	$PWD
+hook input _fields	1	7	2	1
+hook input _fields	1	7	3	4
+hook input _fields	1	7	4	_type
+hook input _fields	1	8	1	$PWD
+hook input _fields	1	8	2	1
+hook input _fields	1	8	3	5
+hook input _fields	1	8	4	_value
+hook input _fields	1	9	1	$PWD
+hook input _fields	1	9	2	2
+hook input _fields	1	9	3	0
+hook input _fields	1	9	4	_input value
+hook input _fields	1	10	1	$PWD
+hook input _fields	1	10	2	2
+hook input _fields	1	10	3	1
+hook input _fields	1	10	4	_instance
+hook input _fields	1	11	1	$PWD
+hook input _fields	1	11	2	2
+hook input _fields	1	11	3	2
+hook input _fields	1	11	4	_page
+hook input _fields	1	12	1	$PWD
+hook input _fields	1	12	2	2
+hook input _fields	1	12	3	3
+hook input _fields	1	12	4	_line
+hook input _fields	1	13	1	$PWD
+hook input _fields	1	13	2	2
+hook input _fields	1	13	3	4
+hook input _fields	1	13	4	_position
+hook input _fields	1	14	1	$PWD
+hook input _fields	1	14	2	2
+hook input _fields	1	14	3	5
+hook input _fields	1	14	4	_value
+stop kept	1	0	1	hook input
+stop kept	1	1	1	_input value
+stop kept	1	2	1	0
+stop kept	2	0	1	_instances
+stop kept	2	1	1	_input value
+stop kept	2	1	2	_instance
+stop kept	2	1	3	_parent
+stop kept	2	1	4	_pointer
+stop kept	2	1	5	_type
+stop kept	2	1	6	_value
+stop kept	2	2	1	0
+stop kept	2	2	2	1
+stop kept	2	2	3	0
+stop kept	2	2	4	/hook_event_name
+stop kept	2	2	5	string
+stop kept	2	2	6	Stop
+communicated s2 1	1	0	1	_communicated
+communicated s2 1	1	1	1	_input
+communicated s2 1	1	1	2	_session
+communicated s2 1	1	1	3	_agent
+communicated s2 1	1	1	4	_values
+communicated s2 1	1	2	1	$PWD
+communicated s2 1	1	2	2	s2
+communicated s2 1	1	2	4	1
+communicated s2 2	1	0	1	_communicated
+communicated s2 2	1	1	1	_input
+communicated s2 2	1	1	2	_session
+communicated s2 2	1	1	3	_agent
+communicated s2 2	1	1	4	_values
+communicated s2 2	1	2	1	$PWD
+communicated s2 2	1	2	2	s2
+communicated s2 2	1	2	4	2
+a sheet s	1	0	1	s
+a sheet s	1	1	1	x
+a sheet s	1	1	2	y
+a sheet s	1	2	1	1
+a sheet s	1	2	2	2
+a sheet s	1	3	1	3
+a sheet s	1	3	2	4
+a sheet s	1	4	1	5
+a sheet s	1	4	2	6
+overview empty	1	0	1	overview
+overview empty	1	1	1	input
+overview empty	1	1	2	values
+overview empty	1	1	3	first
+overview empty	1	1	4	last
+overview empty	1	1	5	activity
+placed
+requirement	case	when	pathname	fixture
+void-os.1	1	after	$PWD/bank/$INPUT.mtsv	stop kept
+void-os.2	1	before	$PWD/bank/$INPUT.mtsv	two values input
+void-os.2	1	before	$PWD/bank/_stored.mtsv	two values _stored
+void-os.2	1	before	$PWD/bank/_sheets.mtsv	hook input _sheets
+void-os.2	1	before	$PWD/bank/_fields.mtsv	hook input _fields
+void-os.2	1	before	$PWD/bank/_communicated.mtsv	communicated s2 1
+void-os.2	1	after	$PWD/bank/_communicated.mtsv	communicated s2 2
+void-os.4	1	before	$PWD/_p/a.mtsv	a sheet s
+void-os.4	1	after	$PWD/bank/$INPUT/__p.mtsv	stop kept
+void-os.7	1	after	$PWD/bank/$INPUT.mtsv	stop kept
+void-os.10	1	after	-	overview empty
+octets
+requirement	case	pathname	file	modified
+void-os.3	1	$PWD/bank	not-a-folder	
+results
+requirement	case	position	item	value
+void-os.1	1	1	0	0
+void-os.2	1	1	0	0
+void-os.3	1	1	0	1
+void-os.4	1	1	0	0
+void-os.5	1	1	0	0
+void-os.6	1	1	0	0
+void-os.7	1	1	0	0
+void-os.8	1	1	0	1
+void-os.9	1	1	0	1
+void-os.10	1	1	0	0
+void-os.11	1	1	0	1
+stdout lines
+requirement	case	line	pointer	type	value
+void-os.2	1	1	/hookSpecificOutput/hookEventName	string	UserPromptSubmit
+void-os.2	1	1	/hookSpecificOutput/additionalContext	string	<FF>hook input<LF>_input value<LF>1<LF><FF>_instances<LF>_input value<TAB>_instance<TAB>_parent<TAB>_pointer<TAB>_type<TAB>_value<LF>1<TAB>1<TAB>0<TAB>/hook_event_name<TAB>string<TAB>UserPromptSubmit<LF>1<TAB>2<TAB>0<TAB>/session_id<TAB>string<TAB>s1<LF>1<TAB>3<TAB>0<TAB>/prompt<TAB>string<TAB>hello<LF><FF>_stored<LF>_input<TAB>_input value<TAB>_time<TAB>_event<LF>$PWD<TAB>1<TAB>2026-10-11T10:30:00Z<TAB>UserPromptSubmit<LF>
+void-os.6	1	1	/jsonrpc	string	2.0
+void-os.6	1	1	/id	number	1
+void-os.6	1	1	/result	object	

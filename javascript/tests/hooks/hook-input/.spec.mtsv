@@ -1,0 +1,79 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .js	hook-input.test	—
+3-statements
+kind	place	holds
+ImportDeclaration	hook-input.test.js#/SourceFile/0	—
+ImportDeclaration	hook-input.test.js#/SourceFile/1	—
+ImportDeclaration	hook-input.test.js#/SourceFile/2	—
+ImportDeclaration	hook-input.test.js#/SourceFile/3	—
+ExpressionStatement	hook-input.test.js#/SourceFile/4	—
+ExpressionStatement	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0	—
+4-expressions
+kind	place	holds
+ImportClause · name	hook-input.test.js#/SourceFile/0/ImportClause	—
+StringLiteral	hook-input.test.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	hook-input.test.js#/SourceFile/1/ImportClause	—
+NamespaceImport	hook-input.test.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	hook-input.test.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	hook-input.test.js#/SourceFile/2/ImportClause	—
+NamespaceImport	hook-input.test.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	hook-input.test.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	hook-input.test.js#/SourceFile/3/ImportClause	—
+NamespaceImport	hook-input.test.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	hook-input.test.js#/SourceFile/3/ModuleSpecifier	—
+CallExpression	hook-input.test.js#/SourceFile/4/Expression	—
+Identifier	hook-input.test.js#/SourceFile/4/Expression/Expression	—
+StringLiteral	hook-input.test.js#/SourceFile/4/Expression/Arguments/0	—
+ArrowFunction · Block	hook-input.test.js#/SourceFile/4/Expression/Arguments/1	—
+—	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0	—
+Identifier	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+5-texts
+kind	place	holds
+—	hook-input.test.js#/SourceFile/0/ImportClause/name/Text	test
+—	hook-input.test.js#/SourceFile/0/ModuleSpecifier/Text	'node:test'
+—	hook-input.test.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	relationalModel
+—	hook-input.test.js#/SourceFile/1/ModuleSpecifier/Text	'../../../src/relational-model/relational-model.js'
+—	hook-input.test.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	values
+—	hook-input.test.js#/SourceFile/2/ModuleSpecifier/Text	'../../../src/system-generation/values/values.js'
+—	hook-input.test.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	runner
+—	hook-input.test.js#/SourceFile/3/ModuleSpecifier/Text	'../../system-generation/runner/runner.js'
+—	hook-input.test.js#/SourceFile/4/Expression/Expression/Text	test
+—	hook-input.test.js#/SourceFile/4/Expression/Arguments/0/Text	'hook-input.2'
+—	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name/Text	t
+—	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'hook-input.2'
+—	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	hook-input.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values

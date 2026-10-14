@@ -1,0 +1,224 @@
+1-folders
+relation	column	kind	place	holds	rationale
+Files	Path	—	each folder of the path, in its parent folder's .spec.mtsv	—	canon 2-sources: a FOLDER's PLACE is its parent's 1-folders row; PARNAS1985 GOALS: the tree
+Files	Path	—	tests, beside src, with the folders under src mirrored	—	PYPA-SRC-LAYOUT: tests beside src; PY-UNITTEST: test discovery by folder; NODE-TEST: test files found by name
+2-modules
+relation	column	notation	kind	place	holds	rationale
+Files	Path	—	—	canon writes a Files row only when its kind is a generated kind of canon and it has no Held from and no Output of; every other Files row is listed in .canonignore	—	canon 3-generation: the generator writes every GENERATED FILE the walk reaches and nothing else; the spec's Held from and Output of columns
+Files	Path	python	{{name}} · .py	the file name less .py; the module's <interface file>, the one Files row of its module whose path ends .py	—	canon 1-modules
+Files	Path	python	{{name}} · .py	__init__, empty, in each folder under src that holds a module's package and each folder under tests: a module is reached by its <interface file>, from its package (3-statements, Modules Parent)	—	PY-IMPORT Regular packages: each package folder holds one; PY-UNITTEST Test Discovery: test folders are regular packages
+Files	Path	javascript	{{name}} · .js	the file name less .js; the module's <interface file>, the one Files row of its module whose path ends .js	—	canon 1-modules
+Files	Path	json	{{name}} · .json	the file name less .json: package and server	—	canon 1-modules; NPM-PACKAGE-JSON and MCP-REGISTRY: the names are fixed
+Files	Path	toml	{{name}} · .toml	pyproject	—	canon 1-modules; PYPA-PYPROJECT: the name is fixed
+Requirements	Module	python	{{name}} · .py	test_ and the module, as 6-naming conventions writes a package; in the folder of the module's <interface file>, python/src replaced by python/tests, or, for a module with none, in its parent's test folder, the module as 6-naming conventions writes a package	—	PY-UNITTEST: discovery pattern test*.py; one test file per module (PARNAS1985: the module is the unit)
+Requirements	Module	javascript	{{name}} · .js	the module, as 6-naming conventions writes a file, then .test; in the folder of the module's <interface file>, javascript/src replaced by javascript/tests, or, for a module with none, in its parent's test folder, the module as 6-naming conventions writes a folder	—	NODE-TEST: files whose names end .test.js are run; one test file per module (PARNAS1985: the module is the unit)
+Components	Component	javascript	{{name}} · .js · HashbangComment	the file the bin entry names, as 6-naming conventions writes a file	—	NPM-PACKAGE-JSON bin: the file must begin #!/usr/bin/env node; ECMA-262 12.5 Hashbang Comments: outside the syntactic grammar, so characters of the FILE's template
+3-statements
+relation	column	notation	kind	place	holds	rationale
+Modules	Secret	python	Expr	<interface file>#/Module/0	—	PEP257: the module docstring comes first
+Access programs	Access program	python	Assign	<interface file>#/Module/1	—	PEP8 Module Level Dunder Names: __all__ after the docstring, before imports
+Modules	Module	python	the module's order of its statements	1 docstring · 2 __all__ · 3 imports · 4 access programs · 5 errors · 6 details; each statement's position is its place along this order	—	PEP8 Module Level Dunder Names and Imports; WIRTH1971 7: the whole before the details; the parent gives the order
+Access programs	Access program	python	FunctionDef	<interface file>#/Module/<n>: group 4, in key order	—	PARNAS1985: access programs; WIRTH1971 7: the whole before the details
+Modules	Module	python	the order within group 3	the standard library, then third parties, then void-os's own modules; within each, Import statements by module, then ImportFrom statements by module	—	PEP8 Imports: the three groups; the parent gives the order
+Modules	Module	python	the order within group 6	a detail after the details it uses as the module is loaded; otherwise by name	—	PY-EXECUTION-MODEL Resolution of names: a name is bound before it is used; WIRTH1971 7; the parent gives the order: key order, as in groups 4 and 5
+Types	Type	python	ImportFrom typing Any	group 3, in a file whose annotations name Any	—	PEP484 The Any type; PEP8 Imports
+Compositions	Handed	python	Import types	group 3, in a file whose annotations name types.ModuleType	—	PY-TYPES Standard Interpreter Types; PEP8 Imports
+Signatures	Type	python	Import collections.abc	group 3, in a file whose annotations name a Callable	—	PEP484 Callable; PEP8 Imports
+Modules	Parent	python	ImportFrom	group 3, in the file of the parent: for each part whose access program one of the parent's calls, or that the parent hands another part, from the part's package, its module	—	PARNAS1979 D: a program uses only what it calls; Compositions: what a part is handed; PEP8 Imports: absolute imports
+Errors	Error	python	ClassDef	<interface file>#/Module/<n>: group 5, one for each Error the module's Errors rows name, once, in key order	—	PEP8 Exception Names; WIRTH1971 7; Errors: one row per requirement that raises the error, one class per name
+Errors	Error	python	Expr	<class>/body/0: its docstring	—	PEP257: a class docstring
+Relations	Relation	python	Assign	<interface file>#/Module/<n>: group 6, in the file of each module one of whose requirements' Statements names the relation, for each relation 7-relations lands as a table: the detail, as 6-naming conventions writes a detail, assigned the table	—	PARNAS1985: a table the module's details hold is its secondary secret; PY-SIMPLE-STMTS Assignment statements
+Requirements	Module	python	the test file's order of its statements	1 imports · 2 the test class · 3 details, ordered as group 6 of a module orders them; group 1: import unittest, then the rest as group 3 of a module orders them	—	PY-UNITTEST; PEP8 Imports; WIRTH1971 7: the parent gives the order
+Requirements	Requirement	python	Import	test file: group 1, first	—	PY-UNITTEST: import unittest
+Requirements	Requirement	python	ImportFrom	test file: group 1, after unittest: the runner, from its package, and each module Compositions hands the runner, from its package, each once	—	PY-UNITTEST Organizing test code: the module under test reached by its import; runner.4: the case's module loaded from its files by the runner; Compositions: the modules the tests hand the runner
+Requirements	Module	python	ClassDef	test file: group 2	—	PY-UNITTEST: one TestCase subclass
+Requirements	Requirement	python	FunctionDef	<test class>/body/<n>, in key order	—	QAFRAME Good Practice 12; PY-UNITTEST: a test method per assertion
+Requirements	Requirement	python	With	<test method>/body/<n>: after the docstring, one for each case of the requirement in its module's file of conformance, in key order: self.subTest, its keyword case the case	—	register Code › Tests, small variations: subTest (PY-UNITTEST Distinguishing test iterations using subtests, block 2): each case a variation of its requirement's test; NPR-7150-2D 3.12: the verification traced
+Requirements	Requirement	python	Expr	<with>/body/0: self.assertEqual, called with the runner's run, handed by the positions of its Parameters rows the requirement, the case and the repository's folder conformance, then each module Compositions hands the runner, then the empty list; the folder conformance the test file's folder, as module folder gives it, then /.. for each folder between it and the repository's root, then /conformance	—	PY-UNITTEST Organizing test code; runner.15: run gives each comparison that does not hold, none where the case passes; runner run folder: as the test hands it; QAFRAME Good Practice 12
+Access program uses	Access program	python	Return	<function>/body: in an access program of the node whose requirement uses an access program of a part of the same name and the same Parameters rows, the one statement: that access program called, the node's parameters passed on in Position order, then what the part is handed	—	PARNAS1985 RESTRICTED AND HIDDEN MODULES: a part's access program given as the node's own
+Ended errors	Error	python	Try	<function>/body: in the access program the row names, around the call of the called access program, where Disposition is ended: an ExceptHandler of the called module's error, its body the Requirement's ending; where Disposition is ruled out, no statement	—	void-os.3: Ended errors names the requirement that ends the error or rules it out; 8-control words: end the access
+Errors	Error	python	Try	<function>/body: around each call of another module's access program that raises an error no Ended errors row names for that call: an ExceptHandler of the called module's error, raising the module's own error of that name with the same reason	—	void-os.3: an error that ends a called access program ends the module's access as that error, by its name; 8-control words: end the access
+Operations	Operation	python	the statements of a grammar	the body of each access program that carries it, or of the detail those access programs share: of the module the Operations row names, the access programs whose requirements name it; where that is a node above the module of a requirement that names it, each such module carrying it itself, the access program of that requirement's module its requirement names: the source's rules, from First block to Last block, each one statement or more, in the source's order	—	QAFRAME Good Practice 10: a grammar written rule by rule; PARNAS1985: the module that carries an operation hides it
+Bindings	Code	python	the statements the Code parses to	<function>/body/<n>: in the access program the requirement's Access program names, or the detail its module's access programs share where that is empty, for each Operation uses row whose operation is primitive, at the place of that use: the Code parsed by the notation's grammar, each {{Input}} the value handed at that Operation inputs Position, and {{result}} the use's value, as 6-naming conventions writes a value	—	PY-SIMPLE-STMTS and PY-COMPOUND-STMTS: a line holds simple statements, or a compound statement whose suite is on that line; Bindings Code: one line in the notation's grammar, each value handed written between {{ and }}; PARNAS1985: each use is in the body that carries the requirement out
+Bindings	Code	python	Import or ImportFrom	group 3, in each file one of whose bodies holds the Code: for each name the Code reads that it does not bind, no {{Input}} or {{result}} stands for and that is no built-in: Import of the name where the Bindings row's source documents it as a module, otherwise ImportFrom the module the source documents it in, each name once	—	PY-IMPORT; PEP8 Imports: absolute imports; Bindings Tag and Section: the source of the library the Code is written in
+Operation steps	Step	python	the statements of a composite	the body of each access program that carries the composite, as a grammar's, or of the detail they share: each step one statement or more, in Position order, a step that names a requirement carried as that requirement is, one that names an operation as that operation is, one that names a module as the call of that module's access program the carrying requirement's Access program uses rows name, and one that names a keyword as the source section the step cites gives it	—	PARNAS1985: a composite's decomposition is the specification's to give; Operation steps Step: a module, a requirement, an operation or a keyword; WIRTH1971 7: the parent gives the order
+Control words	Word	python	the statement 8-control words gives the word	in a body, where a Statement orders the work by the word	—	8-control words
+Modules	Module	javascript	the module's order of its statements	1 imports · 2 access programs · 3 errors · 4 details; each statement's position is its place along this order	—	ECMA-262: a module's import declarations; WIRTH1971 7: the whole before the details; the parent gives the order
+Modules	Parent	javascript	ImportDeclaration	<interface file>#/SourceFile/<n>: group 1, in the file of the parent: for each part whose access program one of the parent's calls, or that the parent hands another part, the part's file imported whole, as a namespace	—	PARNAS1979 D: a program uses only what it calls; Compositions: what a part is handed, whole; ECMA-262: a NameSpaceImport binds a module namespace object
+Modules	Module	javascript	the order within group 1	the Node built-in modules, then third parties, then void-os's own modules; within each, by module specifier	—	NODE-PACKAGES: built-in, package and relative specifiers; the parent gives the order
+Access programs	Access program	javascript	FunctionDeclaration · Body	<interface file>#/SourceFile/<n>: group 2, in key order, its modifiers export, but for an access program whose name is a ReservedWord	—	PARNAS1985: access programs; ECMA-262: an exported function declaration
+Access programs	Access program	javascript	ExportDeclaration · ExportClause	<interface file>#/SourceFile/<n>: group 2, after the function, for an access program whose name is a ReservedWord: one ExportSpecifier, the function's name as its PropertyName and the access program's name as its name	—	ECMA-262 12.7.2: a ReservedWord is not an Identifier; ECMA-262 16.2.3: an exported name is any IdentifierName
+Errors	Error	javascript	ClassDeclaration	<interface file>#/SourceFile/<n>: group 3, one for each Error the module's Errors rows name, once, in key order, its modifiers export	—	ECMA-262: a class extending Error
+Modules	Module	javascript	the order within group 4	a detail after the details it uses as the module is evaluated; otherwise by name	—	ECMA-262: a binding is initialized before it is used; WIRTH1971 7
+Relations	Relation	javascript	VariableStatement	<interface file>#/SourceFile/<n>: group 4, as python's: the detail, as 6-naming conventions writes a detail, declared const and initialized with the table	—	PARNAS1985; ECMA-262 14.3.1 Let and Const Declarations
+Requirements	Module	javascript	the test file's order of its statements	1 imports · 2 one test per requirement, in key order	—	NODE-TEST; WIRTH1971 7: the parent gives the order
+Requirements	Requirement	javascript	ImportDeclaration	test file: group 1, first: test from node:test; then, as group 1 of a module orders them, the runner's file and the file of each module Compositions hands the runner, each once, imported whole, as a namespace	—	NODE-TEST: import test from node:test; Compositions: the modules the tests hand the runner
+Requirements	Requirement	javascript	ExpressionStatement	test file: group 2, in key order: a CallExpression of test	—	NODE-TEST: a test per assertion; QAFRAME Good Practice 12
+Requirements	Requirement	javascript	ExpressionStatement	<test statement>/Expression/Arguments/1/Body/<n>: one for each case of the requirement in its module's file of conformance, in key order: t.assert.deepStrictEqual, called with the runner's run, handed as python's, then the empty array	—	NODE-TEST: the test context's assert; runner.15: run gives each comparison that does not hold, none where the case passes; runner run folder; NPR-7150-2D 3.12
+Components	Component	javascript	ExpressionStatement	the bin file's last statement: the Bindings Code of exit status, its status the starting access program's result	—	NPM-PACKAGE-JSON bin: the file is run as the command; Bindings: exit status
+Access program uses	Access program	javascript	ReturnStatement	<function>/Body: as python's	—	PARNAS1985 RESTRICTED AND HIDDEN MODULES
+Ended errors	Error	javascript	TryStatement	<function>/Body: as python's, a CatchClause whose Block tests the error's class by instanceof	—	void-os.3; ECMA-262 14.15 The try Statement
+Errors	Error	javascript	TryStatement	<function>/Body: as python's, a CatchClause whose Block tests the error's class by instanceof and throws the module's own error of that name with the same message	—	void-os.3; ECMA-262 14.15 The try Statement
+Operations	Operation	javascript	the statements of a grammar	as python's	—	QAFRAME Good Practice 10; PARNAS1985
+Bindings	Code	javascript	the statements the Code parses to	as python's	—	ECMA-262 14 ECMAScript Language: Statements and Declarations; Bindings Code: one line in the notation's grammar; PARNAS1985
+Bindings	Code	javascript	ImportDeclaration	group 1, as python's, a name no global object property holds: a Node built-in module imported whole, as a namespace, by node: and its name; any other name imported by name from the specifier the source documents it at	—	NODE-PACKAGES: built-in and package specifiers; ECMA-262: a NameSpaceImport binds a module namespace object, an ImportSpecifier a name
+Operation steps	Step	javascript	the statements of a composite	as python's	—	PARNAS1985; WIRTH1971 7
+Control words	Word	javascript	the statement 8-control words gives the word	as python's	—	8-control words
+Components	Component	toml	std-table	pyproject.toml#/toml/<n>: the table project.scripts, before its keyvals	—	TOML-ABNF std-table; PYPA-ENTRY-POINTS: [project.scripts]; the parent gives the order
+Components	Command	toml	keyval	pyproject.toml#/toml/<n>: under its std-table project.scripts, in key order	—	PYPA-ENTRY-POINTS; TOML-ABNF keyval
+Components	Command	json	value	package.json#/JSON-text: the member bin of the package's object	—	NPM-PACKAGE-JSON: bin; RFC8259 object
+4-expressions
+relation	column	notation	kind	place	holds	rationale
+Parameters	Parameter	python	arg	<function>/args/<Position - 1>	—	PEP484; canon python: args is one flat sequence (python.gram parameters)
+Parameters	Type	python	the Types row's annotation	<function>/args/<Position - 1>/annotation	—	PEP484: annotations
+Results	Type	python	the Types row's annotation; tuple[...] for more than one result	<function>/returns	—	PEP484: return annotation and tuple
+Compositions	Handed	python	arg	<function>/args/<last + n>, for each function of the part	—	PARNAS1979 D: handed, not imported; PEP484
+Compositions	Handed	python	Attribute types.ModuleType	<function>/args/<last + n>/annotation	—	PY-TYPES Standard Interpreter Types: a module handed as a value
+Signatures	Type	python	Subscript collections.abc.Callable[[arguments], return]	the annotation of a parameter of that type	—	PEP484 Callable
+Errors	Error	python	Name Exception	<class>/arguments/0	—	PEP8 Exception Names: derived from Exception
+Requirements	Module	python	Attribute unittest.TestCase	<test class>/arguments/0	—	PY-UNITTEST: a TestCase subclass
+Requirements	Requirement	python	arg	<test method>/args/0	—	PY-UNITTEST: a method of the TestCase instance
+Types	Type	python	Name str	annotation of text	—	CPY-JSON: string → str
+Types	Type	python	Subscript list[str]	annotation of texts and of arguments	—	PEP484 Generics
+Types	Type	python	BinOp int | float	annotation of number	—	CPY-JSON: number → int or float
+Types	Type	python	Name bool	annotation of boolean	—	CPY-JSON: true/false → bool
+Types	Type	python	Name bytes	annotation of bytes	—	RFC8259: UTF-8 octets
+Types	Type	python	Subscript list[bytes]	annotation of bytes array	—	PEP484 Generics
+Types	Type	python	Constant None	annotation of nothing	—	PEP484: None for no value
+Types	Type	python	Name str	annotation of absolute path	—	POSIX-XBD4: a pathname is a string
+Types	Type	python	Subscript dict[str, Any]	annotation of relation	—	PEP484 Generics: a relation, its sheet name, header and records, as a dict
+Types	Type	python	Subscript list[dict[str, Any]]	annotation of relations	—	PEP484 Generics: a list of relations
+Types	Type	python	Name str	annotation of hook event	—	CLAUDE-CODE: an event's name
+Types	Type	python	Name str	annotation of JSON text	—	RFC8259: a JSON text is a sequence of characters; CPY-JSON: dumps gives a str
+Parameters	Default	python	Constant	<function>/args/<Position - 1>/default	—	PEP484 and PY-COMPOUND-STMTS Function definitions: a default is part of the signature
+Operations	Operation	python	Call	the callee of a use of a grammar or a composite held at the requirement's module, or at a node above it that each module naming it carries itself: the access program or detail of the requirement's module that carries it	—	QAFRAME Good Practice 10; Operations Module: the module that carries it out, or the lowest node where each module carries it out itself
+Operation uses	Operation	python	Call	<function>/body: in the access program the requirement's Access program names, or the detail its module's access programs share where that is empty, one call of each grammar or composite operation the requirement uses held at its module or a node above, its callee as Operations gives it; a primitive's use is its Bindings Code (3-statements); one held at another module is the call of the Access program uses row whose access program reaches the access program that carries it	—	PARNAS1985: each use is a call in the body that carries the requirement out
+Access program uses	Access program	python	Call	<function>/body: in the access program the requirement's Access program names, or the detail its module's access programs share where that is empty, one call of the access program the row names: of a part, through its import (Modules Parent); of a module the node is handed, through the parameter it is handed as (Compositions Handed)	—	PARNAS1985 DESIGN PRINCIPLE: another module is reached only through its access programs; PARNAS1979 D: the uses structure
+Relations	Relation	python	List of Dict	the value of the table's Assign: one Dict for each record of the relation's sheet, in the sheet's order, its keys the columns before Tag, each value a Constant: a string for a text or a type of Enumerations, True or False for a boolean, a number for a number	—	void-os.1: a relation; PY-LEXICAL Literals; Tag and the columns after it trace the source, no code
+Parameters	Parameter	javascript	Parameter	<function>/Parameters/<Position - 1>	—	ECMA-262: FormalParameters
+Compositions	Handed	javascript	Parameter	<function>/Parameters/<last + n>, for each function of the part	—	PARNAS1979 D: handed, not imported
+Parameters	Default	javascript	Parameter's Initializer	<function>/Parameters/<Position - 1>/Initializer	—	ECMA-262: a default parameter value
+Errors	Error	javascript	HeritageClause	<class>/HeritageClauses/0: extends Error	—	ECMA-262: a class extending Error
+Requirements	Requirement	javascript	CallExpression	<test statement>/Expression: test, its arguments the requirement's identifier and an ArrowFunction · Block whose one Parameter is t, the test context	—	NODE-TEST: test(name, fn), fn handed the test context
+Operations	Operation	javascript	CallExpression	as python's	—	QAFRAME Good Practice 10; PARNAS1985 DESIGN PRINCIPLE
+Operation uses	Operation	javascript	CallExpression	as python's	—	PARNAS1985
+Access program uses	Access program	javascript	CallExpression	as python's: a part through its namespace import, a handed module through its Parameter	—	PARNAS1985 DESIGN PRINCIPLE; PARNAS1979 D
+Relations	Relation	javascript	ArrayLiteralExpression of ObjectLiteralExpression	the initializer of the table's VariableStatement: one ObjectLiteralExpression for each record, its properties the columns before Tag, as python's	—	void-os.1; ECMA-262 13.2.4 Array Initializer and 13.2.5 Object Initializer
+5-texts
+relation	column	notation	place	holds	rationale
+Modules	Secret	python	<interface file>#/Module/0/value/value	the Secret, triple-quoted as the printer writes a docstring	PEP257; PARNAS1985: described by its secret
+Access programs	Access program	python	<interface file>#/Module/1/value/elts/<n>/value	each access program and error, as 6-naming conventions writes it, single-quoted	PEP8 Public and Internal Interfaces
+Access programs	Access program	python	<function>/name/value	as 6-naming conventions writes a function	PEP8 Function and Variable Names
+Parameters	Parameter	python	<function>/args/<n>/arg	the Parameter	PEP8 Function and Variable Names
+Parameters	Default	python	<function>/args/<n>/default/value	the Default as a Python literal	PY-LEXICAL Literals
+Compositions	Handed	python	<function>/args/<last + n>/arg	as 6-naming conventions writes a package	PARNAS1979 D
+Errors	Error	python	<class>/name/value	as 6-naming conventions writes an exception	PEP8 Exception Names
+Errors	Requirement	python	<class>/body/0/value/value	the Statement of each Requirement the module's Errors rows of the error name, each once, in key order, a blank line between; where every such row's Requirement is empty, the error only passing up by its name, the Statement of void-os.3; triple-quoted	PEP257; NPR-7150-2D 3.12: traced; Errors Requirement: the requirement whose statement raises the error
+Relations	Relation	python	<interface file>#/Module/<n>/targets/0/id	the table's relation, as 6-naming conventions writes a detail	PEP8 Public and Internal Interfaces
+Relations	Relation	python	<Dict>/items/<n>/key/value	the column, single-quoted	PY-LEXICAL Literals
+Relations	Relation	python	<Dict>/items/<n>/value/value	the field, as a Python literal: single-quoted for a text or a type of Enumerations, True or False for a boolean, as written for a number	PY-LEXICAL Literals
+Modules	Parent	python	<ImportFrom>/module/value	the part's package: the folders of its <interface file> from the implementation's src, or, for a file under tests, from the implementation's folder, joined by full stops	PY-IMPORT; PEP8 Imports: absolute imports; PY-UNITTEST Test Discovery: a test package imported from the top-level directory
+Modules	Parent	python	<ImportFrom>/names/0/name	the part's <interface file> name less .py	PY-IMPORT
+Access program uses	Module	python	<Call>/func/value/id	in the call the row gives: the name the part is imported by, or the parameter the handed module is handed as	PARNAS1985 DESIGN PRINCIPLE
+Access program uses	Access program	python	<Call>/func/attr	in the call the row gives: the access program, as 6-naming conventions writes a function	PEP8 Function and Variable Names
+Requirements	Module	python	<test class>/name/value	as 6-naming conventions writes a test class	PY-UNITTEST
+Requirements	Requirement	python	<test method>/args/0/arg	self	PY-UNITTEST
+Requirements	Requirement	python	<test method>/name/value	as 6-naming conventions writes a test method	PY-UNITTEST
+Requirements	Statement	python	<test method>/body/0/value/value	the Statement, triple-quoted	QAFRAME Good Practice 12: the assertion's text
+Access programs	Access program	javascript	<function>/name/Text	as 6-naming conventions writes a function	ECMA-262: a function's BindingIdentifier
+Access programs	Access program	javascript	<ExportSpecifier>/PropertyName/Text	the function's name, as 6-naming conventions writes a function	ECMA-262 16.2.3
+Access programs	Access program	javascript	<ExportSpecifier>/name/Text	the access program's name, its words as 6-naming conventions writes a function, a ReservedWord left as it is	ECMA-262 16.2.3: an exported name is any IdentifierName
+Parameters	Parameter	javascript	<function>/Parameters/<n>/name/Text	as 6-naming conventions writes a parameter	ECMA-262: a BindingIdentifier
+Parameters	Default	javascript	<function>/Parameters/<n>/Initializer/Text	the Default as a JavaScript literal	ECMA-262: literals
+Compositions	Handed	javascript	<function>/Parameters/<last + n>/name/Text	as 6-naming conventions writes a parameter	PARNAS1979 D
+Errors	Error	javascript	<class>/name/Text	as 6-naming conventions writes an error	ECMA-262: the NativeError constructors' names
+Requirements	Requirement	javascript	<test statement>/Expression/Arguments/0/Text	the requirement's identifier, single-quoted	NODE-TEST: the test's name
+Requirements	Requirement	javascript	<test statement>/Expression/Arguments/1/Parameters/0/name/Text	t	NODE-TEST: the test context
+Relations	Relation	javascript	<interface file>#/SourceFile/<n>/DeclarationList/Declarations/0/name/Text	the table's relation, as 6-naming conventions writes a detail	ECMA-262: a BindingIdentifier
+Relations	Relation	javascript	<ObjectLiteralExpression>/Properties/<n>/name/Text	the column, single-quoted	ECMA-262 13.2.5 Object Initializer
+Relations	Relation	javascript	<ObjectLiteralExpression>/Properties/<n>/Initializer/Text	the field, as a JavaScript literal: single-quoted for a text or a type of Enumerations, true or false for a boolean, as written for a number	ECMA-262: literals
+Modules	Parent	javascript	<ImportDeclaration>/ModuleSpecifier/Text	./, the path of the part's <interface file> from the parent's folder, single-quoted	NODE-PACKAGES: a relative specifier names the file with its extension
+Modules	Parent	javascript	<ImportDeclaration>/ImportClause/NamedBindings/name/Text	the part, as 6-naming conventions writes a parameter	ECMA-262: a NameSpaceImport's BindingIdentifier
+Access program uses	Module	javascript	<CallExpression>/Expression/Expression/Text	in the call the row gives: the part's namespace, or the Parameter the handed module is handed as	PARNAS1985 DESIGN PRINCIPLE
+Access program uses	Access program	javascript	<CallExpression>/Expression/name/Text	in the call the row gives: the access program's exported name, a ReservedWord left as it is	ECMA-262: a property's IdentifierName, a ReservedWord among them
+Requirements	Statement	javascript	—	no landing: JavaScript has no docstring in canon's templates	—
+Modules	Secret	javascript	—	no landing: canon's javascript templates hold no comment	—
+Errors	Error	javascript	—	no landing: canon's javascript templates hold no comment	—
+Components	Command	toml	<keyval>/key/value	the Given of the Value the Command names	PYPA-ENTRY-POINTS
+Components	Component	toml	<keyval>/val/value	the starting access program's module path, dotted, : and its function name	PYPA-ENTRY-POINTS: object reference
+Components	Command	json	package.json#/JSON-text/member bin/<member>/string	the Given of the Value the Command names, then the path of the starting access program's file	NPM-PACKAGE-JSON: bin
+6-naming conventions
+notation	applies to	rule	rationale
+python	package (folder)	lowercase; spaces and hyphens as underscores; a module named with ›, its name after the last ›	PEP8 Package and Module Names; Files: a module written with › in the folder of its parent
+python	function	lowercase; spaces and hyphens as underscores; a keyword, then _	PEP8 Function and Variable Names; PEP8 Function and Method Arguments: a trailing underscore for a name that clashes with a reserved keyword
+python	parameter	as the Parameter column writes it	PEP8 Function and Variable Names
+python	exception	the words, split at each space and hyphen, each capitalized, joined, then Error	PEP8 Exception Names; Class Names
+python	test class	Test, then the module, its name after the last ›, as an exception's words without Error	PY-UNITTEST Basic example; PEP8 Class Names
+python	test method	test_, then the requirement's identifier, hyphens and full stops as underscores	PY-UNITTEST: methods whose names start with test
+python	detail	_, then the name as PEP8 writes its kind	PEP8 Public and Internal Interfaces
+python	value	the requirement's identifier, then the operation, each word lowercase, spaces, hyphens and full stops as underscores, joined by _	PEP8 Function and Variable Names; Operation uses: a use is keyed by its requirement and operation, so each use's value has one name in its body
+javascript	folder and file	lowercase; spaces as hyphens; a module named with ›, its name after the last ›	NPM-PACKAGE-JSON: a name lowercase and URL-safe; Files: a module written with › in the folder of its parent
+javascript	function	the words, split at each space, hyphen and underscore: the first lowercase, each later one capitalized, joined; a ReservedWord, then _, its local name only, the export keeping the access program's name (3-statements, ExportDeclaration)	ECMA-262: the built-in functions' names, as parseInt and getOwnPropertyNames; ECMA-262 12.7.2: a ReservedWord is not an Identifier; ECMA-262 16.2.3: the export under its own name
+javascript	parameter	as a function	ECMA-262: as the built-ins' parameters
+javascript	error	each word capitalized, joined, then Error	ECMA-262: the NativeError constructors, as TypeError and RangeError
+javascript	detail	as a function, and not exported	ECMA-262 16.2.3 Exports: a binding a module does not export is reached by none other
+javascript	value	the requirement's identifier, then the operation, as a function, a full stop also splitting words	ECMA-262 14.3.1: a const declaration binds a name once in its block; Operation uses: a use is keyed by its requirement and operation
+7-relations
+relation	lands in	rationale
+Scope	—	QAFRAME Good Practice 2: informative; no code
+Clause	—	QAFRAME Requirement 1: the conformance clause; normative, read, no code
+Clause citations	—	NPR-7150-2D 3.12: traced, no code
+References	—	RFC7322 4.8.6: the references section; no code
+Axes	—	ISO25010: higher-level requirements; traced, no code
+Types	3-statements, 4-expressions	PEP484: a type is an annotation; JavaScript has none in canon's templates; Written: how a conformance case writes a value of the type, read by the runner from its cases, no code of its own
+Enumerations	—	PARNAS1985 MODULE DESCRIPTION: values a body uses are its secondary secret
+Modules	3-statements, 5-texts	PEP257 and GNU 5.2: the module docstring says what the file is for; PARNAS1985: a module is described by its secret; PARNAS1979 D: a parent imports each of its parts
+Values	—	PARNAS1985 B:3.4: read by name at run time from values.mtsv
+Value citations	—	NPR-7150-2D 3.12: traced, no code
+Components	2-modules, 3-statements, 5-texts	PYPA-ENTRY-POINTS and NPM-PACKAGE-JSON: each started component is a [project.scripts] entry and a bin entry
+Files	1-folders, 2-modules	canon 1-structure: FOLDER and MODULE; PARNAS1985: containment is a tree
+Relations	3-statements, 4-expressions, 5-texts	PARNAS1985: the relations a body reads and writes are its secondary secret, no code of their own; a relation whose records its book holds as a sheet, other than the specification's own sheets, is data the bodies use, compiled as Enumerations are into each module whose requirements name it (PARNAS1985 MODULE DESCRIPTION), a detail of that module, handed by no Parameters row
+Domains	—	PARNAS1985: as Relations
+Signatures	3-statements, 4-expressions	PEP484 Callable: a callable type's arguments and return
+Access programs	3-statements, 5-texts	PARNAS1985 DESIGN PRINCIPLE: a module is reached only through its access programs
+Parameters	4-expressions, 5-texts	PEP484 and ECMA-262: a parameter
+Parameter relations	—	PARNAS1985: the relations a parameter carries are its body's secondary secret; the annotation is the relations Type's; traced, no code
+Results	4-expressions	PEP484: the return annotation; JavaScript has none in canon's templates
+Result relations	—	PARNAS1985: as Parameter relations; traced, no code
+Errors	3-statements, 4-expressions, 5-texts	PEP8 Exception Names and ECMA-262: an error class in each module that raises it, as its interface states it (PARNAS1985); void-os.3: a called error no requirement ends passes up by its name
+Ended errors	3-statements	void-os.3: an error a requirement ends is a handler that carries that requirement out; one ruled out is no statement
+Compositions	3-statements, 4-expressions, 5-texts	PARNAS1979 D: a part reaches another module only through what its parent hands it
+Connectors	—	FIELDING2000 1.2.2: architecture; traced, no code
+Requirements	2-modules, 3-statements, 4-expressions, 5-texts	QAFRAME Good Practice 12: a test assertion per requirement
+Operations	3-statements, 4-expressions	QAFRAME Good Practice 10, the register's rule for an operation a requirement names: a primitive is its Bindings Code; a grammar is written rule by rule as statements; a composite as its Operation steps
+Operation inputs	3-statements	Bindings Code: each Input the placeholder between {{ and }} the value handed at its Position fills; its Type traced, no annotation, the Code having none
+Bindings	3-statements	Bindings Code: one line in the notation's grammar, the statements it parses to, and the imports of the names it reads (PY-IMPORT; NODE-PACKAGES)
+Operation steps	3-statements	each step a statement of the composite operation's body, in Position order
+Control words	3-statements	8-control words: each word the statement its notation's grammar gives it
+Terms	—	QAFRAME Good Practice 10: definitions; traced, no code
+Value uses	—	NPR-7150-2D 3.12: traced, no code
+Operation uses	4-expressions	PARNAS1985: each use is a call in the body of the access program that carries the requirement out
+Access program uses	3-statements, 4-expressions, 5-texts	PARNAS1985 DESIGN PRINCIPLE: each use is a call of another module's access program; one of a part's of the same name and Parameters gives it as the node's own (RESTRICTED AND HIDDEN MODULES)
+Citations	—	NPR-7150-2D 3.12: traced, no code
+Spec relations	—	NPR-7150-2D 3.12: traced, no code
+Axis rules	—	NPR-7150-2D 3.12: traced, no code
+Requirement files	—	NPR-7150-2D 3.12: a repository file a requirement states, checked by its cases; traced, no code
+harness members	3-statements, 4-expressions, 5-texts	Relations: compiled into hooks (hooks.2), hook output (hook-output.1) and zoom (zoom.5), a detail of each; Tag, Section and First block traced, no code
+harness variables	3-statements, 4-expressions, 5-texts	Relations: compiled into hooks (hooks.2), a detail; Tag, Section and First block traced, no code
+context members	3-statements, 4-expressions, 5-texts	Relations: compiled into hook output (hooks.4, hook-output.1), a detail; Tag, Section and First block traced, no code
+answer members	3-statements, 4-expressions, 5-texts	Relations: compiled into hook output (hook-output.7), a detail; Tag, Section and First block traced, no code
+tool arguments	3-statements, 4-expressions, 5-texts	Relations: compiled into server (server.3, server.6), a detail
+8-control words
+word	notation	kind	rationale
+where	python	If	PY-COMPOUND-STMTS The if statement: the statement of that grammar; canon .templates.mtsv 4-statements holds python If
+where	javascript	IfStatement	ECMA-262 14.6 The if Statement: the statement of that grammar; canon .templates.mtsv 4-statements holds javascript IfStatement
+for each	python	For	PY-COMPOUND-STMTS The for statement: the statement of that grammar; canon .templates.mtsv 4-statements holds python For
+for each	javascript	ForOfStatement	ECMA-262 14.7.5 The for-in, for-of, and for-await-of Statements: the statement of that grammar; canon .templates.mtsv 4-statements holds javascript ForOfStatement
+until	python	While	PY-COMPOUND-STMTS The while statement: the statement of that grammar; canon .templates.mtsv 4-statements holds python While
+until	javascript	WhileStatement	ECMA-262 14.7.3 The while Statement: the statement of that grammar; canon .templates.mtsv 4-statements holds javascript WhileStatement
+refused	python	Raise	PY-SIMPLE-STMTS The raise statement: the statement of that grammar; canon .templates.mtsv 4-statements holds python Raise
+refused	javascript	ThrowStatement	ECMA-262 14.14 The throw Statement: the statement of that grammar; canon .templates.mtsv 4-statements holds javascript ThrowStatement
+give	python	Return	PY-SIMPLE-STMTS The return statement: the statement of that grammar; canon .templates.mtsv 4-statements holds python Return
+give	javascript	ReturnStatement	ECMA-262 14.10 The return Statement: the statement of that grammar; canon .templates.mtsv 4-statements holds javascript ReturnStatement
+end the access	python	Try	PY-COMPOUND-STMTS The try statement: the statement of that grammar; canon .templates.mtsv 4-statements holds python Try
+end the access	javascript	TryStatement	ECMA-262 14.15 The try Statement: the statement of that grammar; canon .templates.mtsv 4-statements holds javascript TryStatement

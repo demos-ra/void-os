@@ -1,0 +1,143 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+query.1	1	query	kept					query gives filter expression's kept as its own
+query.2	1	query	chosen					a selection gives restriction by records and projection by fields
+query.3	1	query	chosen					chosen takes each sheet's file from origins and leads each record of a union by its file
+query.4	1	query	chosen					sheets gives each sheet chosen of each file: its records, the records the filter keeps, and the positions of those named
+query.5	1	query	chosen	refused				a selection refused ends chosen as refused
+arguments
+requirement	case	position	item	value
+query.1	1	2	0	@[0] == '3'
+query.2	1	4	0	file
+query.2	1	5	0	
+query.2	1	6	0	1;3
+query.2	1	7	0	2
+query.2	1	8	0	
+query.2	1	9	0	
+query.3	1	4	0	file
+query.3	1	5	0	
+query.3	1	6	0	
+query.3	1	7	0	
+query.3	1	8	0	
+query.3	1	9	0	
+query.4	1	4	0	file
+query.4	1	5	0	
+query.4	1	6	0	1;3
+query.4	1	7	0	2
+query.4	1	8	0	
+query.4	1	9	0	
+query.5	1	4	0	file
+query.5	1	5	0	
+query.5	1	6	0	x
+query.5	1	7	0	
+query.5	1	8	0	
+query.5	1	9	0	
+fixtures
+fixture	sheet	record	field	value
+one origin	1	0	1	origins
+one origin	1	1	1	sheet
+one origin	1	1	2	file
+one origin	1	2	1	1
+one origin	1	2	2	1
+one file	1	0	1	file
+one file	1	1	1	file
+one file	1	1	2	source
+one file	1	2	1	1
+one file	1	2	2	$PWD/d/a.mtsv
+s records 1 and 3	1	0	1	s
+s records 1 and 3	1	1	1	x
+s records 1 and 3	1	1	2	y
+s records 1 and 3	1	2	1	1
+s records 1 and 3	1	2	2	2
+s records 1 and 3	1	3	1	5
+s records 1 and 3	1	3	2	6
+s x a then s x b	1	0	1	s
+s x a then s x b	1	1	1	x
+s x a then s x b	1	2	1	a
+s x a then s x b	2	0	1	s
+s x a then s x b	2	1	1	x
+s x a then s x b	2	2	1	b
+two origins	1	0	1	origins
+two origins	1	1	1	sheet
+two origins	1	1	2	file
+two origins	1	2	1	1
+two origins	1	2	2	1
+two origins	1	3	1	2
+two origins	1	3	2	2
+two files	1	0	1	file
+two files	1	1	1	file
+two files	1	1	2	source
+two files	1	2	1	1
+two files	1	2	2	$PWD/d/1.mtsv
+two files	1	3	1	2
+two files	1	3	2	$PWD/d/2.mtsv
+y of 1 and 3	1	0	1	s
+y of 1 and 3	1	1	1	y
+y of 1 and 3	1	2	1	2
+y of 1 and 3	1	3	1	6
+report 1 and 3	1	0	1	sheets
+report 1 and 3	1	1	1	file
+report 1 and 3	1	1	2	sheet
+report 1 and 3	1	1	3	sheet name
+report 1 and 3	1	1	4	records
+report 1 and 3	1	1	5	matches
+report 1 and 3	1	1	6	positions
+report 1 and 3	1	2	1	1
+report 1 and 3	1	2	2	1
+report 1 and 3	1	2	3	s
+report 1 and 3	1	2	4	3
+report 1 and 3	1	2	5	3
+report 1 and 3	1	2	6	1;3
+union of x	1	0	1	s
+union of x	1	1	1	file
+union of x	1	1	2	x
+union of x	1	2	1	1
+union of x	1	2	2	a
+union of x	1	3	1	2
+union of x	1	3	2	b
+report of union	1	0	1	sheets
+report of union	1	1	1	file
+report of union	1	1	2	sheet
+report of union	1	1	3	sheet name
+report of union	1	1	4	records
+report of union	1	1	5	matches
+report of union	1	1	6	positions
+report of union	1	2	1	1
+report of union	1	2	2	1
+report of union	1	2	3	s
+report of union	1	2	4	1
+report of union	1	2	5	1
+report of union	1	2	6	1
+report of union	1	3	1	2
+report of union	1	3	2	1
+report of union	1	3	3	s
+report of union	1	3	4	1
+report of union	1	3	5	1
+report of union	1	3	6	2
+s record 3 4	1	0	1	s
+s record 3 4	1	1	1	x
+s record 3 4	1	1	2	y
+s record 3 4	1	2	1	3
+s record 3 4	1	2	2	4
+placed
+requirement	case	when	pathname	fixture
+query.1	1	before	argument 1	a sheet s
+query.1	1	after	result 1	s record 3 4
+query.2	1	before	argument 1	a sheet s
+query.2	1	before	argument 2	one origin
+query.2	1	before	argument 3	one file
+query.2	1	after	result 1	y of 1 and 3
+query.2	1	after	result 2	report 1 and 3
+query.3	1	before	argument 1	s x a then s x b
+query.3	1	before	argument 2	two origins
+query.3	1	before	argument 3	two files
+query.3	1	after	result 1	union of x
+query.3	1	after	result 2	report of union
+query.4	1	before	argument 1	a sheet s
+query.4	1	before	argument 2	one origin
+query.4	1	before	argument 3	one file
+query.4	1	after	result 1	y of 1 and 3
+query.4	1	after	result 2	report 1 and 3
+query.5	1	before	argument 1	a sheet s
+query.5	1	before	argument 2	one origin
+query.5	1	before	argument 3	one file

@@ -1,0 +1,153 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .py	__init__	—
+{{name}} · .py	_hook_input	—
+3-statements
+kind	place	holds
+Expr	_hook_input.py#/Module/0	—
+Assign	_hook_input.py#/Module/1	—
+Import	_hook_input.py#/Module/2	—
+ImportFrom	_hook_input.py#/Module/3	—
+FunctionDef	_hook_input.py#/Module/4	—
+Try	_hook_input.py#/Module/4/body/0	—
+Return	_hook_input.py#/Module/4/body/0/body/0	—
+Raise	_hook_input.py#/Module/4/body/0/handlers/0/body/0	—
+Raise	_hook_input.py#/Module/4/body/0/handlers/1/body/0	—
+ClassDef	_hook_input.py#/Module/5	—
+Expr	_hook_input.py#/Module/5/body/0	—
+ClassDef	_hook_input.py#/Module/6	—
+Expr	_hook_input.py#/Module/6/body/0	—
+4-expressions
+kind	place	holds
+Constant	_hook_input.py#/Module/0/value	—
+Name	_hook_input.py#/Module/1/targets/0	—
+List	_hook_input.py#/Module/1/value	—
+Constant	_hook_input.py#/Module/1/value/elts/0	—
+Constant	_hook_input.py#/Module/1/value/elts/1	—
+Constant	_hook_input.py#/Module/1/value/elts/2	—
+—	_hook_input.py#/Module/2/names/0	—
+—	_hook_input.py#/Module/3/module	—
+—	_hook_input.py#/Module/3/names/0	—
+arg	_hook_input.py#/Module/4/args/0	—
+Subscript	_hook_input.py#/Module/4/args/0/annotation	—
+Name	_hook_input.py#/Module/4/args/0/annotation/value	—
+Tuple	_hook_input.py#/Module/4/args/0/annotation/slice	—
+Name	_hook_input.py#/Module/4/args/0/annotation/slice/elts/0	—
+Name	_hook_input.py#/Module/4/args/0/annotation/slice/elts/1	—
+arg	_hook_input.py#/Module/4/args/1	—
+Name	_hook_input.py#/Module/4/args/1/annotation	—
+arg	_hook_input.py#/Module/4/args/2	—
+Name	_hook_input.py#/Module/4/args/2/annotation	—
+arg	_hook_input.py#/Module/4/args/3	—
+Name	_hook_input.py#/Module/4/args/3/annotation	—
+arg	_hook_input.py#/Module/4/args/4	—
+Attribute	_hook_input.py#/Module/4/args/4/annotation	—
+Name	_hook_input.py#/Module/4/args/4/annotation/value	—
+arg	_hook_input.py#/Module/4/args/5	—
+Attribute	_hook_input.py#/Module/4/args/5/annotation	—
+Name	_hook_input.py#/Module/4/args/5/annotation/value	—
+BinOp	_hook_input.py#/Module/4/returns	—
+Name	_hook_input.py#/Module/4/returns/left	—
+BitOr	_hook_input.py#/Module/4/returns/op	—
+Name	_hook_input.py#/Module/4/returns/right	—
+Call	_hook_input.py#/Module/4/body/0/body/0/value	—
+Attribute	_hook_input.py#/Module/4/body/0/body/0/value/func	—
+Name	_hook_input.py#/Module/4/body/0/body/0/value/func/value	—
+Name	_hook_input.py#/Module/4/body/0/body/0/value/arguments/0	—
+Name	_hook_input.py#/Module/4/body/0/body/0/value/arguments/1	—
+List	_hook_input.py#/Module/4/body/0/body/0/value/arguments/2	—
+Name	_hook_input.py#/Module/4/body/0/body/0/value/arguments/2/elts/0	—
+Call	_hook_input.py#/Module/4/body/0/body/0/value/arguments/3	—
+Name	_hook_input.py#/Module/4/body/0/body/0/value/arguments/3/func	—
+Subscript	_hook_input.py#/Module/4/body/0/body/0/value/arguments/3/arguments/0	—
+Call	_hook_input.py#/Module/4/body/0/body/0/value/arguments/3/arguments/0/value	—
+Name	_hook_input.py#/Module/4/body/0/body/0/value/arguments/3/arguments/0/value/func	—
+Subscript	_hook_input.py#/Module/4/body/0/body/0/value/arguments/3/arguments/0/value/arguments/0	—
+Name	_hook_input.py#/Module/4/body/0/body/0/value/arguments/3/arguments/0/value/arguments/0/value	—
+Constant	_hook_input.py#/Module/4/body/0/body/0/value/arguments/3/arguments/0/value/arguments/0/slice	—
+Constant	_hook_input.py#/Module/4/body/0/body/0/value/arguments/3/arguments/0/slice	—
+Constant	_hook_input.py#/Module/4/body/0/body/0/value/arguments/3/arguments/1	—
+Name	_hook_input.py#/Module/4/body/0/body/0/value/arguments/4	—
+Name	_hook_input.py#/Module/4/body/0/body/0/value/arguments/5	—
+—	_hook_input.py#/Module/4/body/0/handlers/0	—
+Attribute	_hook_input.py#/Module/4/body/0/handlers/0/type	—
+Name	_hook_input.py#/Module/4/body/0/handlers/0/type/value	—
+Call	_hook_input.py#/Module/4/body/0/handlers/0/body/0/exc	—
+Name	_hook_input.py#/Module/4/body/0/handlers/0/body/0/exc/func	—
+Call	_hook_input.py#/Module/4/body/0/handlers/0/body/0/exc/arguments/0	—
+Name	_hook_input.py#/Module/4/body/0/handlers/0/body/0/exc/arguments/0/func	—
+Name	_hook_input.py#/Module/4/body/0/handlers/0/body/0/exc/arguments/0/arguments/0	—
+—	_hook_input.py#/Module/4/body/0/handlers/1	—
+Attribute	_hook_input.py#/Module/4/body/0/handlers/1/type	—
+Name	_hook_input.py#/Module/4/body/0/handlers/1/type/value	—
+Call	_hook_input.py#/Module/4/body/0/handlers/1/body/0/exc	—
+Name	_hook_input.py#/Module/4/body/0/handlers/1/body/0/exc/func	—
+Call	_hook_input.py#/Module/4/body/0/handlers/1/body/0/exc/arguments/0	—
+Name	_hook_input.py#/Module/4/body/0/handlers/1/body/0/exc/arguments/0/func	—
+Name	_hook_input.py#/Module/4/body/0/handlers/1/body/0/exc/arguments/0/arguments/0	—
+Name	_hook_input.py#/Module/5/arguments/0	—
+Constant	_hook_input.py#/Module/5/body/0/value	—
+Name	_hook_input.py#/Module/6/arguments/0	—
+Constant	_hook_input.py#/Module/6/body/0/value	—
+5-texts
+kind	place	holds
+—	_hook_input.py#/Module/0/value/value	"""how a hook's input is inserted into the data bank"""
+—	_hook_input.py#/Module/1/targets/0/id	__all__
+—	_hook_input.py#/Module/1/value/elts/0/value	'insert'
+—	_hook_input.py#/Module/1/value/elts/1/value	'KeepingFailedError'
+—	_hook_input.py#/Module/1/value/elts/2/value	'NonConformingError'
+—	_hook_input.py#/Module/2/names/0/name	types
+—	_hook_input.py#/Module/3/module/value	typing
+—	_hook_input.py#/Module/3/names/0/name	Any
+—	_hook_input.py#/Module/4/name/value	insert
+—	_hook_input.py#/Module/4/args/0/arg	values
+—	_hook_input.py#/Module/4/args/0/annotation/value/id	dict
+—	_hook_input.py#/Module/4/args/0/annotation/slice/elts/0/id	str
+—	_hook_input.py#/Module/4/args/0/annotation/slice/elts/1/id	Any
+—	_hook_input.py#/Module/4/args/1/arg	input_name
+—	_hook_input.py#/Module/4/args/1/annotation/id	str
+—	_hook_input.py#/Module/4/args/2/arg	event
+—	_hook_input.py#/Module/4/args/2/annotation/id	str
+—	_hook_input.py#/Module/4/args/3/arg	hook_input
+—	_hook_input.py#/Module/4/args/3/annotation/id	bytes
+—	_hook_input.py#/Module/4/args/4/arg	relational_model
+—	_hook_input.py#/Module/4/args/4/annotation/value/id	types
+—	_hook_input.py#/Module/4/args/4/annotation/attr	ModuleType
+—	_hook_input.py#/Module/4/args/5/arg	data_bank
+—	_hook_input.py#/Module/4/args/5/annotation/value/id	types
+—	_hook_input.py#/Module/4/args/5/annotation/attr	ModuleType
+—	_hook_input.py#/Module/4/returns/left/id	int
+—	_hook_input.py#/Module/4/returns/right/id	float
+—	_hook_input.py#/Module/4/body/0/body/0/value/func/attr	insert
+—	_hook_input.py#/Module/4/body/0/body/0/value/func/value/id	data_bank
+—	_hook_input.py#/Module/4/body/0/body/0/value/arguments/0/id	values
+—	_hook_input.py#/Module/4/body/0/body/0/value/arguments/1/id	input_name
+—	_hook_input.py#/Module/4/body/0/body/0/value/arguments/2/elts/0/id	hook_input
+—	_hook_input.py#/Module/4/body/0/body/0/value/arguments/3/func/id	bytes
+—	_hook_input.py#/Module/4/body/0/body/0/value/arguments/3/arguments/0/value/func/id	dict
+—	_hook_input.py#/Module/4/body/0/body/0/value/arguments/3/arguments/0/value/arguments/0/value/id	values
+—	_hook_input.py#/Module/4/body/0/body/0/value/arguments/3/arguments/0/value/arguments/0/slice/value	'records'
+—	_hook_input.py#/Module/4/body/0/body/0/value/arguments/3/arguments/0/slice/value	'hook input schema'
+—	_hook_input.py#/Module/4/body/0/body/0/value/arguments/3/arguments/1/value	'utf-8'
+—	_hook_input.py#/Module/4/body/0/body/0/value/arguments/4/id	event
+—	_hook_input.py#/Module/4/body/0/body/0/value/arguments/5/id	relational_model
+—	_hook_input.py#/Module/4/body/0/handlers/0/type/value/id	data_bank
+—	_hook_input.py#/Module/4/body/0/handlers/0/type/attr	KeepingFailedError
+—	_hook_input.py#/Module/4/body/0/handlers/0/name	error
+—	_hook_input.py#/Module/4/body/0/handlers/0/body/0/exc/func/id	KeepingFailedError
+—	_hook_input.py#/Module/4/body/0/handlers/0/body/0/exc/arguments/0/func/id	str
+—	_hook_input.py#/Module/4/body/0/handlers/0/body/0/exc/arguments/0/arguments/0/id	error
+—	_hook_input.py#/Module/4/body/0/handlers/1/type/value/id	data_bank
+—	_hook_input.py#/Module/4/body/0/handlers/1/type/attr	NonConformingError
+—	_hook_input.py#/Module/4/body/0/handlers/1/name	error
+—	_hook_input.py#/Module/4/body/0/handlers/1/body/0/exc/func/id	NonConformingError
+—	_hook_input.py#/Module/4/body/0/handlers/1/body/0/exc/arguments/0/func/id	str
+—	_hook_input.py#/Module/4/body/0/handlers/1/body/0/exc/arguments/0/arguments/0/id	error
+—	_hook_input.py#/Module/5/name/value	KeepingFailedError
+—	_hook_input.py#/Module/5/arguments/0/id	Exception
+—	_hook_input.py#/Module/5/body/0/value/value	"""An error that ends an access program a module calls MUST end the module's access as that error, by its name, unless Ended errors names a requirement that ends it otherwise or rules it out."""
+—	_hook_input.py#/Module/6/name/value	NonConformingError
+—	_hook_input.py#/Module/6/arguments/0/id	Exception
+—	_hook_input.py#/Module/6/body/0/value/value	"""An error that ends an access program a module calls MUST end the module's access as that error, by its name, unless Ended errors names a requirement that ends it otherwise or rules it out."""

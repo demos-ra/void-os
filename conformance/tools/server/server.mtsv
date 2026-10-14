@@ -1,0 +1,55 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+server.1	1	void-os	void-os			true	false	the server speaks MCP over stdio, reading standard input and writing standard output until standard input ends
+server.2	1	void-os	void-os			true	false	server/discover answers with the server's name, version and instructions, the data bank's folder filled in
+server.3	1	void-os	void-os			true	false	the server offers one tool, named and described by the Values, its input pathname, required, and five optional strings
+server.6	1	void-os	void-os			true	false	arguments not given are handed to read as the empty text: the whole file read
+server.4	1	void-os	void-os			true	false	the tool's result is one text content holding the reply
+server.5	1	void-os	void-os			true	false	a call refused is reported as a tool execution error whose text is the reason
+environment
+requirement	case	name	value
+server.2	1	VOID_OS_DATA_BANK	$PWD/bank
+stdin
+requirement	case	line	text
+server.1	1	1	{"jsonrpc": "2.0", "id": 1, "method": "server/discover", "params": {"_meta": {"io.modelcontextprotocol/protocolVersion": "2026-07-28", "io.modelcontextprotocol/clientInfo": {"name": "conformance", "version": "1"}, "io.modelcontextprotocol/clientCapabilities": {}}}}
+server.2	1	1	{"jsonrpc": "2.0", "id": 1, "method": "server/discover", "params": {"_meta": {"io.modelcontextprotocol/protocolVersion": "2026-07-28", "io.modelcontextprotocol/clientInfo": {"name": "conformance", "version": "1"}, "io.modelcontextprotocol/clientCapabilities": {}}}}
+server.3	1	1	{"jsonrpc": "2.0", "id": 1, "method": "tools/list", "params": {"_meta": {"io.modelcontextprotocol/protocolVersion": "2026-07-28", "io.modelcontextprotocol/clientInfo": {"name": "conformance", "version": "1"}, "io.modelcontextprotocol/clientCapabilities": {}}}}
+server.6	1	1	{"jsonrpc": "2.0", "id": 1, "method": "tools/call", "params": {"name": "read", "arguments": {"pathname": "$PWD/d/a.mtsv"}, "_meta": {"io.modelcontextprotocol/protocolVersion": "2026-07-28", "io.modelcontextprotocol/clientInfo": {"name": "conformance", "version": "1"}, "io.modelcontextprotocol/clientCapabilities": {}}}}
+server.4	1	1	{"jsonrpc": "2.0", "id": 1, "method": "tools/call", "params": {"name": "read", "arguments": {"pathname": "$PWD/d/a.mtsv"}, "_meta": {"io.modelcontextprotocol/protocolVersion": "2026-07-28", "io.modelcontextprotocol/clientInfo": {"name": "conformance", "version": "1"}, "io.modelcontextprotocol/clientCapabilities": {}}}}
+server.5	1	1	{"jsonrpc": "2.0", "id": 1, "method": "tools/call", "params": {"name": "read", "arguments": {"pathname": "d/a.mtsv"}, "_meta": {"io.modelcontextprotocol/protocolVersion": "2026-07-28", "io.modelcontextprotocol/clientInfo": {"name": "conformance", "version": "1"}, "io.modelcontextprotocol/clientCapabilities": {}}}}
+placed
+requirement	case	when	pathname	fixture
+server.6	1	before	$PWD/d/a.mtsv	a sheet s
+server.4	1	before	$PWD/d/a.mtsv	a sheet s
+server.5	1	before	$PWD/d/a.mtsv	a sheet s
+results
+requirement	case	position	item	value
+server.1	1	1	0	0
+server.2	1	1	0	0
+server.3	1	1	0	0
+server.6	1	1	0	0
+server.4	1	1	0	0
+server.5	1	1	0	0
+stdout lines
+requirement	case	line	pointer	type	value
+server.1	1	1	/jsonrpc	string	2.0
+server.1	1	1	/id	number	1
+server.2	1	1	/result/_meta/io.modelcontextprotocol~1serverInfo/name	string	void-os
+server.2	1	1	/result/_meta/io.modelcontextprotocol~1serverInfo/version	string	0.1.0
+server.2	1	1	/result/instructions	string	void-os keeps your memory in its data bank at $PWD/bank. Read it, or any file or directory, with read.
+server.3	1	1	/result/tools/0/name	string	read
+server.3	1	1	/result/tools/0/description	string	Read a file, a directory of files, or the data bank, as MTSV text: a tab between fields, a line break between records, a form feed before each sheet's name. Every reply begins with the report; then the field names of each sheet, or, with a selection, its values.
+server.3	1	1	/result/tools/0/inputSchema/required/0	string	pathname
+server.3	1	1	/result/tools/0/inputSchema/properties/pathname/type	string	string
+server.3	1	1	/result/tools/0/inputSchema/properties/sheet/type	string	string
+server.3	1	1	/result/tools/0/inputSchema/properties/records/type	string	string
+server.3	1	1	/result/tools/0/inputSchema/properties/fields/type	string	string
+server.3	1	1	/result/tools/0/inputSchema/properties/filter/type	string	string
+server.3	1	1	/result/tools/0/inputSchema/properties/join/type	string	string
+server.6	1	1	/result/content/0/type	string	text
+server.6	1	1	/result/content/0/text	string	<FF>file<LF>file<TAB>source<LF>1<TAB>$PWD/d/a.mtsv<LF><FF>not read<LF>file<TAB>status<TAB>reason<LF><FF>left behind<LF>file<TAB>what<LF><FF>sheets<LF>file<TAB>sheet<TAB>sheet name<TAB>records<TAB>matches<TAB>positions<LF>1<TAB>1<TAB>s<TAB>3<TAB>3<TAB>1-3<LF><FF>fields<LF>file<TAB>sheet<TAB>field<TAB>field name<LF>1<TAB>1<TAB>1<TAB>x<LF>1<TAB>1<TAB>2<TAB>y<LF>
+server.4	1	1	/result/content/0/type	string	text
+server.4	1	1	/result/content/0/text	string	<FF>file<LF>file<TAB>source<LF>1<TAB>$PWD/d/a.mtsv<LF><FF>not read<LF>file<TAB>status<TAB>reason<LF><FF>left behind<LF>file<TAB>what<LF><FF>sheets<LF>file<TAB>sheet<TAB>sheet name<TAB>records<TAB>matches<TAB>positions<LF>1<TAB>1<TAB>s<TAB>3<TAB>3<TAB>1-3<LF><FF>fields<LF>file<TAB>sheet<TAB>field<TAB>field name<LF>1<TAB>1<TAB>1<TAB>x<LF>1<TAB>1<TAB>2<TAB>y<LF>
+server.5	1	1	/result/isError	boolean	true
+server.5	1	1	/result/content/0/type	string	text
+server.5	1	1	/result/content/0/text	string	not absolute

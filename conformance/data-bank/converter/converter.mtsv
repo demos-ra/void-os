@@ -1,0 +1,189 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+converter.1	1	converter	convert					the converter reads the input values a module specification describes and writes the whole input as one MTSV file
+converter.5	1	converter	sheets					sheets gives _sheets and _fields: every sheet the schema gives, by its place, and the fields of its header
+arguments
+requirement	case	position	item	value
+converter.1	1	1	1	{"a": "x"}
+converter.1	1	1	2	{"a": "y"}
+converter.1	1	2	0	{"title": "t", "type": "object", "properties": {"a": {"type": "string"}}, "required": ["a"]}
+converter.1	1	3	0	0
+converter.5	1	1	0	{"title": "t", "type": "object", "properties": {"a": {"type": "string"}}, "required": ["a"]}
+converter.5	1	2	0	/i
+fixtures
+fixture	sheet	record	field	value
+t a x	1	0	1	t
+t a x	1	1	1	_input value
+t a x	1	1	2	a
+t a x	1	2	1	0
+t a x	1	2	2	x
+t a x y	1	0	1	t
+t a x y	1	1	1	_input value
+t a x y	1	1	2	a
+t a x y	1	2	1	0
+t a x y	1	2	2	x
+t a x y	1	3	1	1
+t a x y	1	3	2	y
+t and t.b	1	0	1	t
+t and t.b	1	1	1	_input value
+t and t.b	1	1	2	a
+t and t.b	1	2	1	0
+t and t.b	1	2	2	x
+t and t.b	2	0	1	t.b
+t and t.b	2	1	1	_input value
+t and t.b	2	1	2	_instance
+t and t.b	2	1	3	_parent
+t and t.b	2	1	4	_pointer
+t and t.b	2	1	5	_value
+t and t.b	2	2	1	0
+t and t.b	2	2	2	3
+t and t.b	2	2	3	0
+t and t.b	2	2	4	/b/0
+t and t.b	2	2	5	p
+t and kind k	1	0	1	t
+t and kind k	1	1	1	_input value
+t and kind k	1	2	1	0
+t and kind k	2	0	1	k
+t and kind k	2	1	1	_input value
+t and kind k	2	1	2	_instance
+t and kind k	2	1	3	_parent
+t and kind k	2	1	4	_pointer
+t and kind k	2	1	5	v
+t and kind k	2	2	1	0
+t and kind k	2	2	2	1
+t and kind k	2	2	3	0
+t and kind k	2	2	4	/p
+t and kind k	2	2	5	x
+t a b then a	1	0	1	t
+t a b then a	1	1	1	_input value
+t a b then a	1	1	2	a
+t a b then a	1	2	1	0
+t a b then a	1	2	2	b
+t a b then a	1	3	1	1
+t a b then a	1	3	2	a
+runs of a	1	0	1	t
+runs of a	1	1	1	_input value
+runs of a	1	1	2	a
+runs of a	1	2	1	0
+runs of a	2	0	1	_runs
+runs of a	2	1	1	_input value
+runs of a	2	1	2	_instance
+runs of a	2	1	3	_page
+runs of a	2	1	4	_line
+runs of a	2	1	5	_position
+runs of a	2	1	6	_value
+runs of a	2	2	1	0
+runs of a	2	2	2	1
+runs of a	2	2	3	0
+runs of a	2	2	4	0
+runs of a	2	2	5	0
+runs of a	2	2	6	x
+runs of a	2	3	1	0
+runs of a	2	3	2	1
+runs of a	2	3	3	0
+runs of a	2	3	4	1
+runs of a	2	3	5	0
+runs of a	2	3	6	y
+molten array	1	0	1	_instances
+molten array	1	1	1	_input value
+molten array	1	1	2	_instance
+molten array	1	1	3	_parent
+molten array	1	1	4	_pointer
+molten array	1	1	5	_type
+molten array	1	1	6	_value
+molten array	1	2	1	0
+molten array	1	2	2	0
+molten array	1	2	5	array
+molten array	1	3	1	0
+molten array	1	3	2	1
+molten array	1	3	3	0
+molten array	1	3	4	/0
+molten array	1	3	5	number
+molten array	1	3	6	1
+o.v column	1	0	1	t
+o.v column	1	1	1	_input value
+o.v column	1	1	2	o.v
+o.v column	1	2	1	0
+o.v column	1	2	2	x
+sheets of t	1	0	1	_sheets
+sheets of t	1	1	1	_input
+sheets of t	1	1	2	_place
+sheets of t	1	1	3	_sheet name
+sheets of t	1	2	1	/i
+sheets of t	1	2	2	0
+sheets of t	1	2	3	t
+sheets of t	1	3	1	/i
+sheets of t	1	3	2	1
+sheets of t	1	3	3	_instances
+sheets of t	1	4	1	/i
+sheets of t	1	4	2	2
+sheets of t	1	4	3	_runs
+fields of t	1	0	1	_fields
+fields of t	1	1	1	_input
+fields of t	1	1	2	_place
+fields of t	1	1	3	_position
+fields of t	1	1	4	_field name
+fields of t	1	2	1	/i
+fields of t	1	2	2	0
+fields of t	1	2	3	0
+fields of t	1	2	4	_input value
+fields of t	1	3	1	/i
+fields of t	1	3	2	0
+fields of t	1	3	3	1
+fields of t	1	3	4	a
+fields of t	1	4	1	/i
+fields of t	1	4	2	1
+fields of t	1	4	3	0
+fields of t	1	4	4	_input value
+fields of t	1	5	1	/i
+fields of t	1	5	2	1
+fields of t	1	5	3	1
+fields of t	1	5	4	_instance
+fields of t	1	6	1	/i
+fields of t	1	6	2	1
+fields of t	1	6	3	2
+fields of t	1	6	4	_parent
+fields of t	1	7	1	/i
+fields of t	1	7	2	1
+fields of t	1	7	3	3
+fields of t	1	7	4	_pointer
+fields of t	1	8	1	/i
+fields of t	1	8	2	1
+fields of t	1	8	3	4
+fields of t	1	8	4	_type
+fields of t	1	9	1	/i
+fields of t	1	9	2	1
+fields of t	1	9	3	5
+fields of t	1	9	4	_value
+fields of t	1	10	1	/i
+fields of t	1	10	2	2
+fields of t	1	10	3	0
+fields of t	1	10	4	_input value
+fields of t	1	11	1	/i
+fields of t	1	11	2	2
+fields of t	1	11	3	1
+fields of t	1	11	4	_instance
+fields of t	1	12	1	/i
+fields of t	1	12	2	2
+fields of t	1	12	3	2
+fields of t	1	12	4	_page
+fields of t	1	13	1	/i
+fields of t	1	13	2	2
+fields of t	1	13	3	3
+fields of t	1	13	4	_line
+fields of t	1	14	1	/i
+fields of t	1	14	2	2
+fields of t	1	14	3	4
+fields of t	1	14	4	_position
+fields of t	1	15	1	/i
+fields of t	1	15	2	2
+fields of t	1	15	3	5
+fields of t	1	15	4	_value
+placed
+requirement	case	when	pathname	fixture
+converter.1	1	after	result 1	t a x y
+converter.5	1	after	result 1	sheets of t
+converter.5	1	after	result 2	fields of t
+results
+requirement	case	position	item	value
+converter.1	1	2	0	

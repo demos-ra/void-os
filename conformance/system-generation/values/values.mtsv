@@ -1,0 +1,18 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+values.1	1	values	values					values reads the Values from values.mtsv in the folder it is handed, by the header Value and Given
+values.2	1							values.mtsv is the Values sheet's Value and Given columns, written as the generator writes a sheet
+values.3	1	values	values	not MTSV				a values.mtsv the parser rejects ends values as not MTSV
+arguments
+requirement	case	position	item	value
+values.1	1	1	0	$PWD/v
+values.3	1	1	0	$PWD/v
+placed
+requirement	case	when	pathname	fixture
+values.1	1	before	$PWD/v/values.mtsv	values sheet
+values.1	1	after	result 1	values sheet
+values.2	1	after	python/src/void_os/system_generation/values/values.mtsv	values sheet
+values.2	1	after	javascript/src/system-generation/values/values.mtsv	values sheet
+octets
+requirement	case	pathname	file	modified
+values.3	1	$PWD/v/values.mtsv	not-mtsv	

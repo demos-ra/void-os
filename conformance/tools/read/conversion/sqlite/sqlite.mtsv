@@ -1,0 +1,28 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+sqlite.1	1	sqlite	load					each table is one sheet named as the table, its column names the header, views and indexes left behind by type and name
+sqlite.2	1	sqlite	load	cannot be represented				a value whose typeof is blob ends the load as cannot be represented
+sqlite.3	1	sqlite	load	failed				a file that does not begin with the database header's magic string ends the load as failed
+arguments
+requirement	case	position	item	value
+sqlite.1	1	1	0	$PWD/d/q.sqlite
+sqlite.2	1	1	0	$PWD/d/b.sqlite
+sqlite.3	1	1	0	$PWD/d/n.sqlite
+placed
+requirement	case	when	pathname	fixture
+sqlite.1	1	after	result 1	database t
+octets
+requirement	case	pathname	file	modified
+sqlite.3	1	$PWD/d/n.sqlite	n.txt	
+database statements
+requirement	case	pathname	statement	text
+sqlite.1	1	$PWD/d/q.sqlite	1	CREATE TABLE t (a, b)
+sqlite.1	1	$PWD/d/q.sqlite	2	CREATE VIEW v AS SELECT a FROM t
+sqlite.1	1	$PWD/d/q.sqlite	3	CREATE INDEX i ON t (b)
+sqlite.1	1	$PWD/d/q.sqlite	4	INSERT INTO t VALUES (1, 'x')
+sqlite.2	1	$PWD/d/b.sqlite	1	CREATE TABLE t (a)
+sqlite.2	1	$PWD/d/b.sqlite	2	INSERT INTO t VALUES (x'0001')
+results
+requirement	case	position	item	value
+sqlite.1	1	2	1	view v
+sqlite.1	1	2	2	index i

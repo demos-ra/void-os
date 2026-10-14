@@ -1,0 +1,248 @@
+References
+Tag	Kind
+CPY-JSON-311	normative
+Values
+Value	Module	Type	Bound	Given	Status
+hook input schema	hook input	text	the module specification of a hook's input, a JSON text: a draft-07 schema whose root title names the input values' sheet	{"title": "hook input", "type": "object"}	placeholder
+context limit	hook output	number	the most characters a hook's context holds, each a Unicode code point as RFC 8259 counts a string's characters	10000	placeholder
+Value citations
+Value	Tag	Section	First block	Last block
+hook input schema	JSON-SCHEMA-07			
+context limit	CLAUDE-CODE	hooks › JSON output	4	4
+context limit	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.3.1. maxLength	3	3
+context limit	RFC8259	1. Introduction	3	3
+Files
+Path	Module	Held from	Held path	Output of
+python/src/void_os/hooks/_hooks.py	hooks			
+python/src/void_os/hooks/hook_input/_hook_input.py	hook input			
+python/src/void_os/hooks/hook_output/_hook_output.py	hook output			
+javascript/src/hooks/hooks.js	hooks			
+javascript/src/hooks/hook-input/hook-input.js	hook input			
+javascript/src/hooks/hook-output/hook-output.js	hook output			
+Relations
+Relation	Module	Parent	Description
+hook input	hook input		each hook input inserted, by its position in the input
+harness variables	hooks		each environment variable a harness sets on a hook that names a place, as each harness names it
+context members	hook output		each event on which a harness adds a hook's answer as context: the member of the answer that holds it, and whether the event begins the context of a session and agent
+answer members	hook output		each other member a harness takes in a hook's answer on an event, and its value
+Domains
+Relation	Column	Domain	Key	References	Type	Description
+hook input	_input value		primary		number	the zero-based position of the hook input in the input
+harness variables	column		primary		harness column	what the variable names: place
+harness variables	variable		primary		text	the environment variable's name
+harness variables	harness	Component	primary	Components	text	the harness that sets it
+harness variables	Tag			References	text	the harness's source
+harness variables	Section				text	its section
+harness variables	First block				number	its block
+context members	event		primary		hook event	an event, as the harness names it
+context members	harness	Component	primary	Components	text	the harness that names the event
+context members	pointer				text	the JSON Pointer within the answer of the member that holds the context
+context members	begins				boolean	true where the event begins the context of a session and agent
+context members	Tag			References	text	the harness's source
+context members	Section				text	its section
+context members	First block				number	its block
+answer members	event		primary		hook event	an event, as the harness names it
+answer members	harness	Component	primary	Components	text	the harness that names the event
+answer members	pointer		primary		text	the JSON Pointer within the answer of the member
+answer members	value				text	the member's value, a JSON text
+answer members	Tag			References	text	the harness's source
+answer members	Section				text	its section
+answer members	First block				number	its block
+Signatures
+Callable	Direction	Position	Type	Relation
+Access programs
+Module	Access program	Starts
+hooks	hook	
+hook input	insert	
+hook output	context	
+Parameters
+Module	Access program	Position	Parameter	Type	Relation	Default	Description
+hooks	hook	1	values	relation	Values		the Values
+hooks	hook	2	event	hook event			the operand the command is run with
+hooks	hook	3	working_directory	absolute path			the working directory the command is run in
+hook input	insert	1	values	relation	Values		the Values
+hook input	insert	2	input_name	text			the input's name, the resolved pathname of the place the harness reports
+hook input	insert	3	event	hook event			the event the values are inserted on
+hook input	insert	4	hook_input	bytes			the hook input, a JSON text as UTF-8 bytes
+hook output	context	1	values	relation	Values		the Values
+hook output	context	2	event	hook event			the event the command is run with
+hook output	context	3	input_name	text			the input's name, the resolved pathname of the place the harness reports
+hook output	context	4	hook_input	relation	instances		the hook input's instances, as JSON text gives them
+Parameter relations
+Module	Access program	Position	Relation
+Results
+Module	Access program	Position	Type	Relation	Description
+hooks	hook	1	nothing		the answer written on standard output
+hook input	insert	1	number		the number of values this insert stores whole
+hook output	context	1	JSON text		the answer: one JSON object of the members the event's harness takes, or nothing
+Result relations
+Module	Access program	Position	Relation
+Compositions
+Module	Part	Handed
+hooks	hook input	relational model
+hooks	hook input	data bank
+hooks	hook output	relational model
+hooks	hook output	data bank
+Connectors
+Module	Peer	Connector	Protocol	Data
+hooks	Claude Code	data stream	CLAUDE-CODE	RFC8259
+hooks	Codex	data stream	CODEX	RFC8259
+hooks	Cursor	data stream	CURSOR	RFC8259
+Requirements
+Requirement	Module	Access program	Statement
+hooks.1	hooks	hook	Each hook event MUST be run by a harness's command hook as the void-os command with the event, as that harness names it, as its operand: a session's start, a subagent's start, a prompt submitted, a tool call succeeded, a subagent's finish, and the model's finish.
+hooks.2	hooks	hook	The input's name MUST be the resolved pathname of the place the harness reports: the environment variable harness variables names for place, where it is set; else the first member harness members names for place, in that relation's order, that the hook input holds; else the working directory the hook is handed.
+hooks.3	hooks	hook	The context MUST be composed before the hook input is inserted, so that a hook never gives back its own input.
+hooks.5	hooks	hook	A hook input that JSON text rejects, or that the converter rejects, MUST end the hook as non-conforming, nothing being written on standard output.
+hooks.6	hooks	hook	A data bank that cannot keep or give what it stores MUST end the hook as keeping failed, nothing being written on standard output.
+hooks.7	hooks	hook	The hook input MUST be read whole from standard input as one JSON text, before the context is composed.
+hooks.8	hooks	hook	The answer hook output's context gives MUST be written on standard output in UTF-8, and nothing where it gives nothing.
+hook-input.2	hook input	insert	The hook input MUST be inserted into the data bank as one value of the input, its module specification the Value hook input schema, on the event the command is run with.
+hook-output.7	hook output	context	An event answer members or context members gives MUST be answered as one JSON object holding, at each pointer answer members gives that event, its value, and at the pointer context members gives it, the context.
+hook-output.8	hook output	context	An event neither answer members nor context members gives MUST be answered by nothing.
+hook-output.1	hook output	context	On an event context members gives, the context MUST be, where the event begins the context, the data bank's names, then what is new of the input to the session and agent the hook input names, each by the first member harness members names for it, in that relation's order, that the hook input holds, less the values whose hook input names the same session and agent, each value then its records of _stored, as many whole values as the Value context limit holds.
+hook-output.4	hook output	context	What is new beyond the Value context limit MUST be cut to the last whole values it holds, every value still being marked communicated and remaining readable through the data bank.
+hook-output.5	hook output	context	On every other event, the context MUST be empty.
+hook-output.6	hook output	context	The context MUST be MTSV text written by the generator.
+Errors
+Module	Access program	Error	Requirement
+hooks	hook	keeping failed	hooks.6
+hooks	hook	non-conforming	hooks.5
+hook input	insert	keeping failed	
+hook input	insert	non-conforming	
+hook output	context	keeping failed	
+Ended errors
+Module	Access program	Called module	Called access program	Error	Disposition	Requirement
+hooks	hook	relational model	instances	not a JSON text	ended	hooks.5
+hooks	hook	relational model	instances	names not unique	ended	hooks.5
+hook output	context	relational model	dumps	cannot be represented	ruled out	void-os.1
+hook output	context	relational model	instances	not a JSON text	ruled out	hook-output.7
+hook output	context	relational model	instances	names not unique	ruled out	hook-output.7
+Operations
+Operation	Module	Kind	Tag	Section	First block	Last block
+read standard input	hooks	primitive	POSIX-XCU1	1.4 Utility Description Defaults		
+JSON-text write	hook output	primitive	RFC8259	2. JSON Grammar		
+Operation inputs
+Operation	Position	Input	Type
+JSON-text write	1	value	text
+Bindings
+Operation	Notation	Code	Tag	Section	First block	Last block
+read standard input	python	{{result}} = sys.stdin.buffer.read()	PY-SYS	sys --- System-specific parameters and functions	492	492
+read standard input	javascript	const {{result}} = fs.readFileSync(0);	NODE-FS	fs.readFileSync(path[, options])		
+JSON-text write	python	{{result}} = json.dumps({{value}}, ensure_ascii=False, separators=(',', ':'))	CPY-JSON-311	json/__init__.py › dumps		
+JSON-text write	javascript	const {{result}} = JSON.stringify({{value}});	ECMA-262	25.5.4 JSON.stringify ( value [ , replacer [ , space ] ] )		
+Operation steps
+Operation	Position	Step	Tag	Section	First block	Last block
+Terms
+Term	Module	Source	Section
+command hook	hooks	CLAUDE-CODE	hooks › Command hook fields
+subagent	hooks	CLAUDE-CODE	hooks › Hook lifecycle
+context	hooks	CLAUDE-CODE	hooks › Add context for Claude
+Value uses
+Requirement	Value
+hook-input.2	hook input schema
+hook-output.1	context limit
+hook-output.4	context limit
+Operation uses
+Requirement	Operation
+hooks.2	environment variable
+hooks.2	JSON-text read
+hooks.2	JSON Pointer evaluation
+hooks.2	resolve pathname
+hooks.7	read standard input
+hooks.8	write standard output
+hooks.8	UTF-8 encode
+hook-input.2	UTF-8 encode
+hook-output.7	JSON-text write
+hook-output.7	JSON Pointer
+hook-output.7	JSON-text read
+hook-output.1	MTSV generate
+hook-output.1	JSON Pointer evaluation
+hook-output.6	MTSV generate
+Access program uses
+Requirement	Module	Access program
+hooks.2	relational model	instances
+hooks.2	relational model	named
+hooks.3	hook output	context
+hooks.3	hook input	insert
+hooks.8	hook output	context
+hook-input.2	data bank	insert
+hook-output.7	relational model	instances
+hook-output.1	data bank	names
+hook-output.1	data bank	new
+hook-output.1	relational model	named
+hook-output.1	relational model	dumps
+hook-output.6	relational model	dumps
+Citations
+Requirement	Tag	Section	First block	Last block
+hooks.1	CLAUDE-CODE	hooks › Hook lifecycle		
+hooks.1	CLAUDE-CODE	hooks › Command hook fields		
+hooks.1	CODEX	Matcher patterns	5	14
+hooks.1	CURSOR	Hook categories	3	11
+hooks.2	CLAUDE-CODE	hooks › Common input fields		
+hooks.2	CLAUDE-CODE	hooks › Reference scripts by path	2	2
+hooks.2	CODEX	Common input fields	6	6
+hooks.2	CURSOR	Input (all hooks)	11	11
+hooks.2	POSIX-XSH-REALPATH	DESCRIPTION	1	2
+hooks.5	CLAUDE-CODE	hooks › Other exit codes		
+hooks.6	CLAUDE-CODE	hooks › Other exit codes		
+hooks.7	CLAUDE-CODE	hooks › Hook input and output		
+hooks.7	CODEX	Common input fields	1	1
+hooks.7	CURSOR	Command-Based Hooks	1	1
+hooks.8	CLAUDE-CODE	hooks › Exit code 0	3	4
+hook-input.2	JSON-SCHEMA-07			
+hook-input.2	CLAUDE-CODE	hooks › Common input fields		
+hook-output.7	CLAUDE-CODE	hooks › Exit code 0	3	4
+hook-output.7	CLAUDE-CODE	hooks › Add context for Claude	2	2
+hook-output.7	CODEX	SessionStart	6	7
+hook-output.7	CODEX	UserPromptSubmit	8	8
+hook-output.7	CODEX	SubagentStart	9	10
+hook-output.7	CURSOR	Command-Based Hooks	4	4
+hook-output.7	CURSOR	sessionStart	10	10
+hook-output.7	CURSOR	postToolUse	8	8
+hook-output.7	CURSOR	beforeSubmitPrompt	4	4
+hook-output.7	CURSOR	subagentStart	13	13
+hook-output.1	CLAUDE-CODE	hooks › Decision control	14	14
+hook-output.1	CLAUDE-CODE	hooks › UserPromptSubmit decision control	10	10
+hook-output.1	CODEX	SessionStart	8	8
+hook-output.1	CODEX	SubagentStart	11	11
+hook-output.1	CODEX	UserPromptSubmit	8	8
+hook-output.1	CURSOR	sessionStart	10	10
+hook-output.1	CURSOR	postToolUse	8	8
+hook-output.4	CLAUDE-CODE	hooks › Add context for Claude		
+hook-output.5	CLAUDE-CODE	hooks › Exit code 0	2	2
+hook-output.6	MTSV-DRAFT	Generators		
+Spec relations
+Requirement	Target
+hooks.1	void-os.7
+Axis rules
+Standard	Characteristic	Subcharacteristic	Requirement
+ISO25010	Compatibility	interoperability	hooks.1
+ISO25019	Acceptability	trustworthiness	hooks.3
+ISO25010	Reliability	fault tolerance	hooks.5
+ISO25010	Compatibility	interoperability	hook-output.7
+Requirement files
+Requirement	Path
+harness variables
+column	variable	harness	Tag	Section	First block
+place	CLAUDE_PROJECT_DIR	Claude Code	CLAUDE-CODE	hooks › Reference scripts by path	2
+context members
+event	harness	pointer	begins	Tag	Section	First block
+SessionStart	Claude Code	/hookSpecificOutput/additionalContext	true	CLAUDE-CODE	hooks › SessionStart decision control	3
+SessionStart	Codex	/hookSpecificOutput/additionalContext	true	CODEX	SessionStart	7
+SubagentStart	Claude Code	/hookSpecificOutput/additionalContext	true	CLAUDE-CODE	hooks › SubagentStart input	5
+SubagentStart	Codex	/hookSpecificOutput/additionalContext	true	CODEX	SubagentStart	10
+UserPromptSubmit	Claude Code	/hookSpecificOutput/additionalContext	false	CLAUDE-CODE	hooks › UserPromptSubmit decision control	10
+UserPromptSubmit	Codex	/hookSpecificOutput/additionalContext	false	CODEX	UserPromptSubmit	8
+sessionStart	Cursor	/additional_context	true	CURSOR	sessionStart	10
+postToolUse	Cursor	/additional_context	false	CURSOR	postToolUse	8
+answer members
+event	harness	pointer	value	Tag	Section	First block
+SessionStart	Claude Code	/hookSpecificOutput/hookEventName	"SessionStart"	CLAUDE-CODE	hooks › Add context for Claude	2
+SessionStart	Codex	/hookSpecificOutput/hookEventName	"SessionStart"	CODEX	SessionStart	7
+SubagentStart	Claude Code	/hookSpecificOutput/hookEventName	"SubagentStart"	CLAUDE-CODE	hooks › Add context for Claude	2
+SubagentStart	Codex	/hookSpecificOutput/hookEventName	"SubagentStart"	CODEX	SubagentStart	10
+UserPromptSubmit	Claude Code	/hookSpecificOutput/hookEventName	"UserPromptSubmit"	CLAUDE-CODE	hooks › Add context for Claude	2
+UserPromptSubmit	Codex	/hookSpecificOutput/hookEventName	"UserPromptSubmit"	CODEX	UserPromptSubmit	8
+subagentStart	Cursor	/permission	"allow"	CURSOR	subagentStart	13
+beforeSubmitPrompt	Cursor	/continue	true	CURSOR	beforeSubmitPrompt	4

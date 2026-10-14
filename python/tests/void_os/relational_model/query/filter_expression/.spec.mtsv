@@ -1,0 +1,141 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .py	__init__	—
+{{name}} · .py	test_filter_expression	—
+3-statements
+kind	place	holds
+Import	test_filter_expression.py#/Module/0	—
+Import	test_filter_expression.py#/Module/1	—
+ImportFrom	test_filter_expression.py#/Module/2	—
+ImportFrom	test_filter_expression.py#/Module/3	—
+ImportFrom	test_filter_expression.py#/Module/4	—
+ClassDef	test_filter_expression.py#/Module/5	—
+FunctionDef	test_filter_expression.py#/Module/5/body/0	—
+Expr	test_filter_expression.py#/Module/5/body/0/body/0	—
+With	test_filter_expression.py#/Module/5/body/0/body/1	—
+Expr	test_filter_expression.py#/Module/5/body/0/body/1/body/0	—
+FunctionDef	test_filter_expression.py#/Module/5/body/1	—
+Expr	test_filter_expression.py#/Module/5/body/1/body/0	—
+With	test_filter_expression.py#/Module/5/body/1/body/1	—
+Expr	test_filter_expression.py#/Module/5/body/1/body/1/body/0	—
+4-expressions
+kind	place	holds
+—	test_filter_expression.py#/Module/0/names/0	—
+—	test_filter_expression.py#/Module/1/names/0	—
+—	test_filter_expression.py#/Module/2/module	—
+—	test_filter_expression.py#/Module/2/names/0	—
+—	test_filter_expression.py#/Module/3/module	—
+—	test_filter_expression.py#/Module/3/names/0	—
+—	test_filter_expression.py#/Module/4/module	—
+—	test_filter_expression.py#/Module/4/names/0	—
+Attribute	test_filter_expression.py#/Module/5/arguments/0	—
+Name	test_filter_expression.py#/Module/5/arguments/0/value	—
+arg	test_filter_expression.py#/Module/5/body/0/args/0	—
+Constant	test_filter_expression.py#/Module/5/body/0/body/0/value	—
+—	test_filter_expression.py#/Module/5/body/0/body/1/items/0	—
+Call	test_filter_expression.py#/Module/5/body/0/body/1/items/0/context_expr	—
+Attribute	test_filter_expression.py#/Module/5/body/0/body/1/items/0/context_expr/func	—
+Name	test_filter_expression.py#/Module/5/body/0/body/1/items/0/context_expr/func/value	—
+keyword	test_filter_expression.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0	—
+Constant	test_filter_expression.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0/value	—
+Call	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value	—
+Attribute	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/func	—
+Name	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/func/value	—
+Call	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0	—
+Attribute	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func	—
+Name	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func/value	—
+Constant	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/0	—
+Constant	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/1	—
+BinOp	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2	—
+Call	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left	—
+Attribute	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func	—
+Attribute	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value	—
+Name	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value	—
+Name	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0	—
+Add	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/op	—
+Constant	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/right	—
+Name	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/3	—
+Name	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/4	—
+List	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/1	—
+arg	test_filter_expression.py#/Module/5/body/1/args/0	—
+Constant	test_filter_expression.py#/Module/5/body/1/body/0/value	—
+—	test_filter_expression.py#/Module/5/body/1/body/1/items/0	—
+Call	test_filter_expression.py#/Module/5/body/1/body/1/items/0/context_expr	—
+Attribute	test_filter_expression.py#/Module/5/body/1/body/1/items/0/context_expr/func	—
+Name	test_filter_expression.py#/Module/5/body/1/body/1/items/0/context_expr/func/value	—
+keyword	test_filter_expression.py#/Module/5/body/1/body/1/items/0/context_expr/arguments/0	—
+Constant	test_filter_expression.py#/Module/5/body/1/body/1/items/0/context_expr/arguments/0/value	—
+Call	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value	—
+Attribute	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/func	—
+Name	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/func/value	—
+Call	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0	—
+Attribute	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/func	—
+Name	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/func/value	—
+Constant	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/0	—
+Constant	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/1	—
+BinOp	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2	—
+Call	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left	—
+Attribute	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func	—
+Attribute	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/value	—
+Name	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value	—
+Name	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0	—
+Add	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/op	—
+Constant	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/right	—
+Name	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/3	—
+Name	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/4	—
+List	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/1	—
+5-texts
+kind	place	holds
+—	test_filter_expression.py#/Module/0/names/0/name	unittest
+—	test_filter_expression.py#/Module/1/names/0/name	os
+—	test_filter_expression.py#/Module/2/module/value	tests.void_os.system_generation.runner
+—	test_filter_expression.py#/Module/2/names/0/name	_runner
+—	test_filter_expression.py#/Module/3/module/value	void_os.relational_model
+—	test_filter_expression.py#/Module/3/names/0/name	_relational_model
+—	test_filter_expression.py#/Module/4/module/value	void_os.system_generation.values
+—	test_filter_expression.py#/Module/4/names/0/name	_values
+—	test_filter_expression.py#/Module/5/name/value	TestFilterExpression
+—	test_filter_expression.py#/Module/5/arguments/0/value/id	unittest
+—	test_filter_expression.py#/Module/5/arguments/0/attr	TestCase
+—	test_filter_expression.py#/Module/5/body/0/name/value	test_filter_expression_1
+—	test_filter_expression.py#/Module/5/body/0/args/0/arg	self
+—	test_filter_expression.py#/Module/5/body/0/body/0/value/value	"""filter MUST be a filter expression in which @[0] is a record's first field, and keep the records for which it holds."""
+—	test_filter_expression.py#/Module/5/body/0/body/1/items/0/context_expr/func/value/id	self
+—	test_filter_expression.py#/Module/5/body/0/body/1/items/0/context_expr/func/attr	subTest
+—	test_filter_expression.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0/arg	case
+—	test_filter_expression.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0/value/value	1
+—	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/func/value/id	self
+—	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/func/attr	assertEqual
+—	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func/value/id	_runner
+—	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func/attr	run
+—	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/0/value	'filter-expression.1'
+—	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/1/value	1
+—	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value/id	os
+—	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value/attr	path
+—	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/attr	dirname
+—	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0/id	__file__
+—	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/right/value	'/../../../../../../conformance'
+—	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/3/id	_relational_model
+—	test_filter_expression.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/4/id	_values
+—	test_filter_expression.py#/Module/5/body/1/name/value	test_filter_expression_2
+—	test_filter_expression.py#/Module/5/body/1/args/0/arg	self
+—	test_filter_expression.py#/Module/5/body/1/body/0/value/value	"""A filter not written as filter-expression.1 writes it MUST be refused."""
+—	test_filter_expression.py#/Module/5/body/1/body/1/items/0/context_expr/func/value/id	self
+—	test_filter_expression.py#/Module/5/body/1/body/1/items/0/context_expr/func/attr	subTest
+—	test_filter_expression.py#/Module/5/body/1/body/1/items/0/context_expr/arguments/0/arg	case
+—	test_filter_expression.py#/Module/5/body/1/body/1/items/0/context_expr/arguments/0/value/value	1
+—	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/func/value/id	self
+—	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/func/attr	assertEqual
+—	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/func/value/id	_runner
+—	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/func/attr	run
+—	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/0/value	'filter-expression.2'
+—	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/1/value	1
+—	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value/id	os
+—	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/value/attr	path
+—	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/attr	dirname
+—	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0/id	__file__
+—	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/right/value	'/../../../../../../conformance'
+—	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/3/id	_relational_model
+—	test_filter_expression.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/4/id	_values

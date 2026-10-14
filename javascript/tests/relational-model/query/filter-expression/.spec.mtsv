@@ -1,0 +1,124 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .js	filter-expression.test	—
+3-statements
+kind	place	holds
+ImportDeclaration	filter-expression.test.js#/SourceFile/0	—
+ImportDeclaration	filter-expression.test.js#/SourceFile/1	—
+ImportDeclaration	filter-expression.test.js#/SourceFile/2	—
+ImportDeclaration	filter-expression.test.js#/SourceFile/3	—
+ExpressionStatement	filter-expression.test.js#/SourceFile/4	—
+ExpressionStatement	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0	—
+ExpressionStatement	filter-expression.test.js#/SourceFile/5	—
+ExpressionStatement	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0	—
+4-expressions
+kind	place	holds
+ImportClause · name	filter-expression.test.js#/SourceFile/0/ImportClause	—
+StringLiteral	filter-expression.test.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	filter-expression.test.js#/SourceFile/1/ImportClause	—
+NamespaceImport	filter-expression.test.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	filter-expression.test.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	filter-expression.test.js#/SourceFile/2/ImportClause	—
+NamespaceImport	filter-expression.test.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	filter-expression.test.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	filter-expression.test.js#/SourceFile/3/ImportClause	—
+NamespaceImport	filter-expression.test.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	filter-expression.test.js#/SourceFile/3/ModuleSpecifier	—
+CallExpression	filter-expression.test.js#/SourceFile/4/Expression	—
+Identifier	filter-expression.test.js#/SourceFile/4/Expression/Expression	—
+StringLiteral	filter-expression.test.js#/SourceFile/4/Expression/Arguments/0	—
+ArrowFunction · Block	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1	—
+—	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0	—
+Identifier	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	filter-expression.test.js#/SourceFile/5/Expression	—
+Identifier	filter-expression.test.js#/SourceFile/5/Expression/Expression	—
+StringLiteral	filter-expression.test.js#/SourceFile/5/Expression/Arguments/0	—
+ArrowFunction · Block	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1	—
+—	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0	—
+Identifier	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+5-texts
+kind	place	holds
+—	filter-expression.test.js#/SourceFile/0/ImportClause/name/Text	test
+—	filter-expression.test.js#/SourceFile/0/ModuleSpecifier/Text	'node:test'
+—	filter-expression.test.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	relationalModel
+—	filter-expression.test.js#/SourceFile/1/ModuleSpecifier/Text	'../../../../src/relational-model/relational-model.js'
+—	filter-expression.test.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	values
+—	filter-expression.test.js#/SourceFile/2/ModuleSpecifier/Text	'../../../../src/system-generation/values/values.js'
+—	filter-expression.test.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	runner
+—	filter-expression.test.js#/SourceFile/3/ModuleSpecifier/Text	'../../../system-generation/runner/runner.js'
+—	filter-expression.test.js#/SourceFile/4/Expression/Expression/Text	test
+—	filter-expression.test.js#/SourceFile/4/Expression/Arguments/0/Text	'filter-expression.1'
+—	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name/Text	t
+—	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'filter-expression.1'
+—	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../conformance'
+—	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	filter-expression.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	filter-expression.test.js#/SourceFile/5/Expression/Expression/Text	test
+—	filter-expression.test.js#/SourceFile/5/Expression/Arguments/0/Text	'filter-expression.2'
+—	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name/Text	t
+—	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'filter-expression.2'
+—	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../conformance'
+—	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	filter-expression.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values

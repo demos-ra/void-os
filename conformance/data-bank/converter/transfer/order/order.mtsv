@@ -1,0 +1,36 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+order.1	1	converter	convert					sheets are written in the order of the schema's tree, the sheet of instances last
+order.2	1	converter	convert					records are written in the order the input holds them, never sorted
+order.3	1	converter	convert					the key columns come first, then the simple domains in the order the schema writes them
+arguments
+requirement	case	position	item	value
+order.1	1	1	1	{"a": "x", "b": ["p"], "c": 1}
+order.1	1	2	0	{"title": "t", "type": "object", "properties": {"a": {"type": "string"}, "b": {"type": "array", "items": {"type": "string"}}, "c": {}}, "required": ["a", "c"]}
+order.1	1	3	0	0
+order.2	1	1	1	{"a": "b"}
+order.2	1	1	2	{"a": "a"}
+order.2	1	2	0	{"title": "t", "type": "object", "properties": {"a": {"type": "string"}}, "required": ["a"]}
+order.2	1	3	0	0
+order.3	1	1	1	{"a": "x", "b": "y"}
+order.3	1	2	0	{"title": "t", "type": "object", "properties": {"b": {"type": "string"}, "a": {"type": "string"}}, "required": ["a", "b"]}
+order.3	1	3	0	0
+fixtures
+fixture	sheet	record	field	value
+t b then a	1	0	1	t
+t b then a	1	1	1	_input value
+t b then a	1	1	2	b
+t b then a	1	1	3	a
+t b then a	1	2	1	0
+t b then a	1	2	2	y
+t b then a	1	2	3	x
+placed
+requirement	case	when	pathname	fixture
+order.1	1	after	result 1	three places
+order.2	1	after	result 1	t a b then a
+order.3	1	after	result 1	t b then a
+results
+requirement	case	position	item	value
+order.1	1	2	0	
+order.2	1	2	0	
+order.3	1	2	0	

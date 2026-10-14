@@ -1,0 +1,51 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+conversion.1	1	conversion	sheets					a file whose name ends .mtsv is read by the parser
+conversion.2	1	conversion	sheets					a file whose extension names a format is read by that format's module: .csv by csv
+conversion.3	1	conversion	sheets					what a file holds that MTSV does not is left behind, each thing named as its format's module names it, in order
+conversion.4	1	conversion	sheets	no format				a file whose extension names no format ends its conversion as no format
+arguments
+requirement	case	position	item	value
+conversion.1	1	1	0	$PWD/d/a.mtsv
+conversion.2	1	1	0	$PWD/d/b.csv
+conversion.3	1	1	0	$PWD/d/q.sqlite
+conversion.4	1	1	0	$PWD/d/n.txt
+fixtures
+fixture	sheet	record	field	value
+b csv sheet	1	0	1	
+b csv sheet	1	1	1	x
+b csv sheet	1	1	2	y
+b csv sheet	1	2	1	1
+b csv sheet	1	2	2	2
+database t	1	0	1	t
+database t	1	1	1	a
+database t	1	1	2	b
+database t	1	2	1	1
+database t	1	2	2	x
+table T	1	0	1	T
+table T	1	1	1	x
+table T	1	1	2	y
+table T	1	2	1	v
+table T	1	2	2	2
+placed
+requirement	case	when	pathname	fixture
+conversion.1	1	before	$PWD/d/a.mtsv	a sheet s
+conversion.1	1	after	result 1	a sheet s
+conversion.2	1	after	result 1	b csv sheet
+conversion.3	1	after	result 1	database t
+octets
+requirement	case	pathname	file	modified
+conversion.2	1	$PWD/d/b.csv	b.csv	
+conversion.4	1	$PWD/d/n.txt	n.txt	
+database statements
+requirement	case	pathname	statement	text
+conversion.3	1	$PWD/d/q.sqlite	1	CREATE TABLE t (a, b)
+conversion.3	1	$PWD/d/q.sqlite	2	CREATE VIEW v AS SELECT a FROM t
+conversion.3	1	$PWD/d/q.sqlite	3	CREATE INDEX i ON t (b)
+conversion.3	1	$PWD/d/q.sqlite	4	INSERT INTO t VALUES (1, 'x')
+results
+requirement	case	position	item	value
+conversion.1	1	2	0	
+conversion.2	1	2	0	
+conversion.3	1	2	1	view v
+conversion.3	1	2	2	index i

@@ -1,0 +1,444 @@
+1-folders
+kind	place	holds
+—	format	—
+—	query	—
+2-modules
+kind	place	holds
+{{name}} · .js	relational-model	—
+3-statements
+kind	place	holds
+ImportDeclaration	relational-model.js#/SourceFile/0	—
+ImportDeclaration	relational-model.js#/SourceFile/1	—
+FunctionDeclaration · Body	relational-model.js#/SourceFile/2	—
+TryStatement	relational-model.js#/SourceFile/2/Body/0	—
+ReturnStatement	relational-model.js#/SourceFile/2/Body/0/TryBlock/0	—
+IfStatement	relational-model.js#/SourceFile/2/Body/0/CatchClause/Block/0	—
+ThrowStatement	relational-model.js#/SourceFile/2/Body/0/CatchClause/Block/0/ThenStatement/0	—
+ThrowStatement	relational-model.js#/SourceFile/2/Body/0/CatchClause/Block/1	—
+FunctionDeclaration · Body	relational-model.js#/SourceFile/3	—
+TryStatement	relational-model.js#/SourceFile/3/Body/0	—
+ReturnStatement	relational-model.js#/SourceFile/3/Body/0/TryBlock/0	—
+IfStatement	relational-model.js#/SourceFile/3/Body/0/CatchClause/Block/0	—
+ThrowStatement	relational-model.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0	—
+ThrowStatement	relational-model.js#/SourceFile/3/Body/0/CatchClause/Block/1	—
+FunctionDeclaration · Body	relational-model.js#/SourceFile/4	—
+TryStatement	relational-model.js#/SourceFile/4/Body/0	—
+ReturnStatement	relational-model.js#/SourceFile/4/Body/0/TryBlock/0	—
+IfStatement	relational-model.js#/SourceFile/4/Body/0/CatchClause/Block/0	—
+ThrowStatement	relational-model.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0	—
+ThrowStatement	relational-model.js#/SourceFile/4/Body/0/CatchClause/Block/1	—
+FunctionDeclaration · Body	relational-model.js#/SourceFile/5	—
+TryStatement	relational-model.js#/SourceFile/5/Body/0	—
+ReturnStatement	relational-model.js#/SourceFile/5/Body/0/TryBlock/0	—
+IfStatement	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/0	—
+ThrowStatement	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0	—
+IfStatement	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/1	—
+ThrowStatement	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/1/ThenStatement/0	—
+ThrowStatement	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/2	—
+FunctionDeclaration · Body	relational-model.js#/SourceFile/6	—
+TryStatement	relational-model.js#/SourceFile/6/Body/0	—
+ReturnStatement	relational-model.js#/SourceFile/6/Body/0/TryBlock/0	—
+IfStatement	relational-model.js#/SourceFile/6/Body/0/CatchClause/Block/0	—
+ThrowStatement	relational-model.js#/SourceFile/6/Body/0/CatchClause/Block/0/ThenStatement/0	—
+ThrowStatement	relational-model.js#/SourceFile/6/Body/0/CatchClause/Block/1	—
+FunctionDeclaration · Body	relational-model.js#/SourceFile/7	—
+TryStatement	relational-model.js#/SourceFile/7/Body/0	—
+ReturnStatement	relational-model.js#/SourceFile/7/Body/0/TryBlock/0	—
+IfStatement	relational-model.js#/SourceFile/7/Body/0/CatchClause/Block/0	—
+ThrowStatement	relational-model.js#/SourceFile/7/Body/0/CatchClause/Block/0/ThenStatement/0	—
+ThrowStatement	relational-model.js#/SourceFile/7/Body/0/CatchClause/Block/1	—
+FunctionDeclaration · Body	relational-model.js#/SourceFile/8	—
+TryStatement	relational-model.js#/SourceFile/8/Body/0	—
+ReturnStatement	relational-model.js#/SourceFile/8/Body/0/TryBlock/0	—
+IfStatement	relational-model.js#/SourceFile/8/Body/0/CatchClause/Block/0	—
+ThrowStatement	relational-model.js#/SourceFile/8/Body/0/CatchClause/Block/0/ThenStatement/0	—
+ThrowStatement	relational-model.js#/SourceFile/8/Body/0/CatchClause/Block/1	—
+FunctionDeclaration · Body	relational-model.js#/SourceFile/9	—
+ReturnStatement	relational-model.js#/SourceFile/9/Body/0	—
+ClassDeclaration	relational-model.js#/SourceFile/10	—
+ClassDeclaration	relational-model.js#/SourceFile/11	—
+ClassDeclaration	relational-model.js#/SourceFile/12	—
+ClassDeclaration	relational-model.js#/SourceFile/13	—
+ClassDeclaration	relational-model.js#/SourceFile/14	—
+4-expressions
+kind	place	holds
+ImportClause · NamedBindings	relational-model.js#/SourceFile/0/ImportClause	—
+NamespaceImport	relational-model.js#/SourceFile/0/ImportClause/NamedBindings	—
+StringLiteral	relational-model.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	relational-model.js#/SourceFile/1/ImportClause	—
+NamespaceImport	relational-model.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	relational-model.js#/SourceFile/1/ModuleSpecifier	—
+ExportKeyword	relational-model.js#/SourceFile/2/modifiers/0	—
+—	relational-model.js#/SourceFile/2/name	—
+—	relational-model.js#/SourceFile/2/Parameters/0	—
+Identifier	relational-model.js#/SourceFile/2/Parameters/0/name	—
+—	relational-model.js#/SourceFile/2/Parameters/1	—
+Identifier	relational-model.js#/SourceFile/2/Parameters/1/name	—
+—	relational-model.js#/SourceFile/2/Parameters/2	—
+Identifier	relational-model.js#/SourceFile/2/Parameters/2/name	—
+—	relational-model.js#/SourceFile/2/Parameters/3	—
+Identifier	relational-model.js#/SourceFile/2/Parameters/3/name	—
+—	relational-model.js#/SourceFile/2/Parameters/4	—
+Identifier	relational-model.js#/SourceFile/2/Parameters/4/name	—
+—	relational-model.js#/SourceFile/2/Parameters/5	—
+Identifier	relational-model.js#/SourceFile/2/Parameters/5/name	—
+—	relational-model.js#/SourceFile/2/Parameters/6	—
+Identifier	relational-model.js#/SourceFile/2/Parameters/6/name	—
+—	relational-model.js#/SourceFile/2/Parameters/7	—
+Identifier	relational-model.js#/SourceFile/2/Parameters/7/name	—
+—	relational-model.js#/SourceFile/2/Parameters/8	—
+Identifier	relational-model.js#/SourceFile/2/Parameters/8/name	—
+CallExpression	relational-model.js#/SourceFile/2/Body/0/TryBlock/0/Expression	—
+PropertyAccessExpression · DotToken	relational-model.js#/SourceFile/2/Body/0/TryBlock/0/Expression/Expression	—
+Identifier	relational-model.js#/SourceFile/2/Body/0/TryBlock/0/Expression/Expression/Expression	—
+Identifier	relational-model.js#/SourceFile/2/Body/0/TryBlock/0/Expression/Expression/name	—
+Identifier	relational-model.js#/SourceFile/2/Body/0/TryBlock/0/Expression/Arguments/0	—
+Identifier	relational-model.js#/SourceFile/2/Body/0/TryBlock/0/Expression/Arguments/1	—
+Identifier	relational-model.js#/SourceFile/2/Body/0/TryBlock/0/Expression/Arguments/2	—
+Identifier	relational-model.js#/SourceFile/2/Body/0/TryBlock/0/Expression/Arguments/3	—
+Identifier	relational-model.js#/SourceFile/2/Body/0/TryBlock/0/Expression/Arguments/4	—
+Identifier	relational-model.js#/SourceFile/2/Body/0/TryBlock/0/Expression/Arguments/5	—
+Identifier	relational-model.js#/SourceFile/2/Body/0/TryBlock/0/Expression/Arguments/6	—
+Identifier	relational-model.js#/SourceFile/2/Body/0/TryBlock/0/Expression/Arguments/7	—
+Identifier	relational-model.js#/SourceFile/2/Body/0/TryBlock/0/Expression/Arguments/8	—
+—	relational-model.js#/SourceFile/2/Body/0/CatchClause/VariableDeclaration	—
+Identifier	relational-model.js#/SourceFile/2/Body/0/CatchClause/VariableDeclaration/name	—
+BinaryExpression	relational-model.js#/SourceFile/2/Body/0/CatchClause/Block/0/Expression	—
+Identifier	relational-model.js#/SourceFile/2/Body/0/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	relational-model.js#/SourceFile/2/Body/0/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	relational-model.js#/SourceFile/2/Body/0/CatchClause/Block/0/Expression/Right	—
+Identifier	relational-model.js#/SourceFile/2/Body/0/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	relational-model.js#/SourceFile/2/Body/0/CatchClause/Block/0/Expression/Right/name	—
+NewExpression	relational-model.js#/SourceFile/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression	—
+Identifier	relational-model.js#/SourceFile/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relational-model.js#/SourceFile/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0	—
+Identifier	relational-model.js#/SourceFile/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	relational-model.js#/SourceFile/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name	—
+Identifier	relational-model.js#/SourceFile/2/Body/0/CatchClause/Block/1/Expression	—
+ExportKeyword	relational-model.js#/SourceFile/3/modifiers/0	—
+—	relational-model.js#/SourceFile/3/name	—
+—	relational-model.js#/SourceFile/3/Parameters/0	—
+Identifier	relational-model.js#/SourceFile/3/Parameters/0/name	—
+CallExpression	relational-model.js#/SourceFile/3/Body/0/TryBlock/0/Expression	—
+PropertyAccessExpression · DotToken	relational-model.js#/SourceFile/3/Body/0/TryBlock/0/Expression/Expression	—
+Identifier	relational-model.js#/SourceFile/3/Body/0/TryBlock/0/Expression/Expression/Expression	—
+Identifier	relational-model.js#/SourceFile/3/Body/0/TryBlock/0/Expression/Expression/name	—
+Identifier	relational-model.js#/SourceFile/3/Body/0/TryBlock/0/Expression/Arguments/0	—
+—	relational-model.js#/SourceFile/3/Body/0/CatchClause/VariableDeclaration	—
+Identifier	relational-model.js#/SourceFile/3/Body/0/CatchClause/VariableDeclaration/name	—
+BinaryExpression	relational-model.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression	—
+Identifier	relational-model.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	relational-model.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	relational-model.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression/Right	—
+Identifier	relational-model.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	relational-model.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression/Right/name	—
+NewExpression	relational-model.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0/Expression	—
+Identifier	relational-model.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relational-model.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0	—
+Identifier	relational-model.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	relational-model.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name	—
+Identifier	relational-model.js#/SourceFile/3/Body/0/CatchClause/Block/1/Expression	—
+ExportKeyword	relational-model.js#/SourceFile/4/modifiers/0	—
+—	relational-model.js#/SourceFile/4/name	—
+—	relational-model.js#/SourceFile/4/Parameters/0	—
+Identifier	relational-model.js#/SourceFile/4/Parameters/0/name	—
+CallExpression	relational-model.js#/SourceFile/4/Body/0/TryBlock/0/Expression	—
+PropertyAccessExpression · DotToken	relational-model.js#/SourceFile/4/Body/0/TryBlock/0/Expression/Expression	—
+Identifier	relational-model.js#/SourceFile/4/Body/0/TryBlock/0/Expression/Expression/Expression	—
+Identifier	relational-model.js#/SourceFile/4/Body/0/TryBlock/0/Expression/Expression/name	—
+Identifier	relational-model.js#/SourceFile/4/Body/0/TryBlock/0/Expression/Arguments/0	—
+—	relational-model.js#/SourceFile/4/Body/0/CatchClause/VariableDeclaration	—
+Identifier	relational-model.js#/SourceFile/4/Body/0/CatchClause/VariableDeclaration/name	—
+BinaryExpression	relational-model.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression	—
+Identifier	relational-model.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	relational-model.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	relational-model.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Right	—
+Identifier	relational-model.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	relational-model.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Right/name	—
+NewExpression	relational-model.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression	—
+Identifier	relational-model.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relational-model.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0	—
+Identifier	relational-model.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	relational-model.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name	—
+Identifier	relational-model.js#/SourceFile/4/Body/0/CatchClause/Block/1/Expression	—
+ExportKeyword	relational-model.js#/SourceFile/5/modifiers/0	—
+—	relational-model.js#/SourceFile/5/name	—
+—	relational-model.js#/SourceFile/5/Parameters/0	—
+Identifier	relational-model.js#/SourceFile/5/Parameters/0/name	—
+CallExpression	relational-model.js#/SourceFile/5/Body/0/TryBlock/0/Expression	—
+PropertyAccessExpression · DotToken	relational-model.js#/SourceFile/5/Body/0/TryBlock/0/Expression/Expression	—
+Identifier	relational-model.js#/SourceFile/5/Body/0/TryBlock/0/Expression/Expression/Expression	—
+Identifier	relational-model.js#/SourceFile/5/Body/0/TryBlock/0/Expression/Expression/name	—
+Identifier	relational-model.js#/SourceFile/5/Body/0/TryBlock/0/Expression/Arguments/0	—
+—	relational-model.js#/SourceFile/5/Body/0/CatchClause/VariableDeclaration	—
+Identifier	relational-model.js#/SourceFile/5/Body/0/CatchClause/VariableDeclaration/name	—
+BinaryExpression	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression	—
+Identifier	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression/Right	—
+Identifier	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression/Right/name	—
+NewExpression	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0/Expression	—
+Identifier	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0	—
+Identifier	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name	—
+BinaryExpression	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/1/Expression	—
+Identifier	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/1/Expression/Left	—
+InstanceOfKeyword	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/1/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/1/Expression/Right	—
+Identifier	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/1/Expression/Right/Expression	—
+Identifier	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/1/Expression/Right/name	—
+NewExpression	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/1/ThenStatement/0/Expression	—
+Identifier	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Arguments/0	—
+Identifier	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Arguments/0/name	—
+Identifier	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/2/Expression	—
+ExportKeyword	relational-model.js#/SourceFile/6/modifiers/0	—
+—	relational-model.js#/SourceFile/6/name	—
+—	relational-model.js#/SourceFile/6/Parameters/0	—
+Identifier	relational-model.js#/SourceFile/6/Parameters/0/name	—
+—	relational-model.js#/SourceFile/6/Parameters/1	—
+Identifier	relational-model.js#/SourceFile/6/Parameters/1/name	—
+CallExpression	relational-model.js#/SourceFile/6/Body/0/TryBlock/0/Expression	—
+PropertyAccessExpression · DotToken	relational-model.js#/SourceFile/6/Body/0/TryBlock/0/Expression/Expression	—
+Identifier	relational-model.js#/SourceFile/6/Body/0/TryBlock/0/Expression/Expression/Expression	—
+Identifier	relational-model.js#/SourceFile/6/Body/0/TryBlock/0/Expression/Expression/name	—
+Identifier	relational-model.js#/SourceFile/6/Body/0/TryBlock/0/Expression/Arguments/0	—
+Identifier	relational-model.js#/SourceFile/6/Body/0/TryBlock/0/Expression/Arguments/1	—
+—	relational-model.js#/SourceFile/6/Body/0/CatchClause/VariableDeclaration	—
+Identifier	relational-model.js#/SourceFile/6/Body/0/CatchClause/VariableDeclaration/name	—
+BinaryExpression	relational-model.js#/SourceFile/6/Body/0/CatchClause/Block/0/Expression	—
+Identifier	relational-model.js#/SourceFile/6/Body/0/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	relational-model.js#/SourceFile/6/Body/0/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	relational-model.js#/SourceFile/6/Body/0/CatchClause/Block/0/Expression/Right	—
+Identifier	relational-model.js#/SourceFile/6/Body/0/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	relational-model.js#/SourceFile/6/Body/0/CatchClause/Block/0/Expression/Right/name	—
+NewExpression	relational-model.js#/SourceFile/6/Body/0/CatchClause/Block/0/ThenStatement/0/Expression	—
+Identifier	relational-model.js#/SourceFile/6/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relational-model.js#/SourceFile/6/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0	—
+Identifier	relational-model.js#/SourceFile/6/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	relational-model.js#/SourceFile/6/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name	—
+Identifier	relational-model.js#/SourceFile/6/Body/0/CatchClause/Block/1/Expression	—
+ExportKeyword	relational-model.js#/SourceFile/7/modifiers/0	—
+—	relational-model.js#/SourceFile/7/name	—
+—	relational-model.js#/SourceFile/7/Parameters/0	—
+Identifier	relational-model.js#/SourceFile/7/Parameters/0/name	—
+CallExpression	relational-model.js#/SourceFile/7/Body/0/TryBlock/0/Expression	—
+PropertyAccessExpression · DotToken	relational-model.js#/SourceFile/7/Body/0/TryBlock/0/Expression/Expression	—
+Identifier	relational-model.js#/SourceFile/7/Body/0/TryBlock/0/Expression/Expression/Expression	—
+Identifier	relational-model.js#/SourceFile/7/Body/0/TryBlock/0/Expression/Expression/name	—
+Identifier	relational-model.js#/SourceFile/7/Body/0/TryBlock/0/Expression/Arguments/0	—
+—	relational-model.js#/SourceFile/7/Body/0/CatchClause/VariableDeclaration	—
+Identifier	relational-model.js#/SourceFile/7/Body/0/CatchClause/VariableDeclaration/name	—
+BinaryExpression	relational-model.js#/SourceFile/7/Body/0/CatchClause/Block/0/Expression	—
+Identifier	relational-model.js#/SourceFile/7/Body/0/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	relational-model.js#/SourceFile/7/Body/0/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	relational-model.js#/SourceFile/7/Body/0/CatchClause/Block/0/Expression/Right	—
+Identifier	relational-model.js#/SourceFile/7/Body/0/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	relational-model.js#/SourceFile/7/Body/0/CatchClause/Block/0/Expression/Right/name	—
+NewExpression	relational-model.js#/SourceFile/7/Body/0/CatchClause/Block/0/ThenStatement/0/Expression	—
+Identifier	relational-model.js#/SourceFile/7/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relational-model.js#/SourceFile/7/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0	—
+Identifier	relational-model.js#/SourceFile/7/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	relational-model.js#/SourceFile/7/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name	—
+Identifier	relational-model.js#/SourceFile/7/Body/0/CatchClause/Block/1/Expression	—
+ExportKeyword	relational-model.js#/SourceFile/8/modifiers/0	—
+—	relational-model.js#/SourceFile/8/name	—
+—	relational-model.js#/SourceFile/8/Parameters/0	—
+Identifier	relational-model.js#/SourceFile/8/Parameters/0/name	—
+CallExpression	relational-model.js#/SourceFile/8/Body/0/TryBlock/0/Expression	—
+PropertyAccessExpression · DotToken	relational-model.js#/SourceFile/8/Body/0/TryBlock/0/Expression/Expression	—
+Identifier	relational-model.js#/SourceFile/8/Body/0/TryBlock/0/Expression/Expression/Expression	—
+Identifier	relational-model.js#/SourceFile/8/Body/0/TryBlock/0/Expression/Expression/name	—
+Identifier	relational-model.js#/SourceFile/8/Body/0/TryBlock/0/Expression/Arguments/0	—
+—	relational-model.js#/SourceFile/8/Body/0/CatchClause/VariableDeclaration	—
+Identifier	relational-model.js#/SourceFile/8/Body/0/CatchClause/VariableDeclaration/name	—
+BinaryExpression	relational-model.js#/SourceFile/8/Body/0/CatchClause/Block/0/Expression	—
+Identifier	relational-model.js#/SourceFile/8/Body/0/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	relational-model.js#/SourceFile/8/Body/0/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	relational-model.js#/SourceFile/8/Body/0/CatchClause/Block/0/Expression/Right	—
+Identifier	relational-model.js#/SourceFile/8/Body/0/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	relational-model.js#/SourceFile/8/Body/0/CatchClause/Block/0/Expression/Right/name	—
+NewExpression	relational-model.js#/SourceFile/8/Body/0/CatchClause/Block/0/ThenStatement/0/Expression	—
+Identifier	relational-model.js#/SourceFile/8/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	relational-model.js#/SourceFile/8/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0	—
+Identifier	relational-model.js#/SourceFile/8/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	relational-model.js#/SourceFile/8/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name	—
+Identifier	relational-model.js#/SourceFile/8/Body/0/CatchClause/Block/1/Expression	—
+ExportKeyword	relational-model.js#/SourceFile/9/modifiers/0	—
+—	relational-model.js#/SourceFile/9/name	—
+—	relational-model.js#/SourceFile/9/Parameters/0	—
+Identifier	relational-model.js#/SourceFile/9/Parameters/0/name	—
+—	relational-model.js#/SourceFile/9/Parameters/1	—
+Identifier	relational-model.js#/SourceFile/9/Parameters/1/name	—
+CallExpression	relational-model.js#/SourceFile/9/Body/0/Expression	—
+PropertyAccessExpression · DotToken	relational-model.js#/SourceFile/9/Body/0/Expression/Expression	—
+Identifier	relational-model.js#/SourceFile/9/Body/0/Expression/Expression/Expression	—
+Identifier	relational-model.js#/SourceFile/9/Body/0/Expression/Expression/name	—
+Identifier	relational-model.js#/SourceFile/9/Body/0/Expression/Arguments/0	—
+Identifier	relational-model.js#/SourceFile/9/Body/0/Expression/Arguments/1	—
+ExportKeyword	relational-model.js#/SourceFile/10/modifiers/0	—
+—	relational-model.js#/SourceFile/10/name	—
+—	relational-model.js#/SourceFile/10/HeritageClauses/0	—
+ExtendsKeyword	relational-model.js#/SourceFile/10/HeritageClauses/0/Token	—
+Identifier	relational-model.js#/SourceFile/10/HeritageClauses/0/Types/0	—
+ExportKeyword	relational-model.js#/SourceFile/11/modifiers/0	—
+—	relational-model.js#/SourceFile/11/name	—
+—	relational-model.js#/SourceFile/11/HeritageClauses/0	—
+ExtendsKeyword	relational-model.js#/SourceFile/11/HeritageClauses/0/Token	—
+Identifier	relational-model.js#/SourceFile/11/HeritageClauses/0/Types/0	—
+ExportKeyword	relational-model.js#/SourceFile/12/modifiers/0	—
+—	relational-model.js#/SourceFile/12/name	—
+—	relational-model.js#/SourceFile/12/HeritageClauses/0	—
+ExtendsKeyword	relational-model.js#/SourceFile/12/HeritageClauses/0/Token	—
+Identifier	relational-model.js#/SourceFile/12/HeritageClauses/0/Types/0	—
+ExportKeyword	relational-model.js#/SourceFile/13/modifiers/0	—
+—	relational-model.js#/SourceFile/13/name	—
+—	relational-model.js#/SourceFile/13/HeritageClauses/0	—
+ExtendsKeyword	relational-model.js#/SourceFile/13/HeritageClauses/0/Token	—
+Identifier	relational-model.js#/SourceFile/13/HeritageClauses/0/Types/0	—
+ExportKeyword	relational-model.js#/SourceFile/14/modifiers/0	—
+—	relational-model.js#/SourceFile/14/name	—
+—	relational-model.js#/SourceFile/14/HeritageClauses/0	—
+ExtendsKeyword	relational-model.js#/SourceFile/14/HeritageClauses/0/Token	—
+Identifier	relational-model.js#/SourceFile/14/HeritageClauses/0/Types/0	—
+5-texts
+kind	place	holds
+—	relational-model.js#/SourceFile/0/ImportClause/NamedBindings/name/Text	format
+—	relational-model.js#/SourceFile/0/ModuleSpecifier/Text	'./format/format.js'
+—	relational-model.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	query
+—	relational-model.js#/SourceFile/1/ModuleSpecifier/Text	'./query/query.js'
+—	relational-model.js#/SourceFile/2/name/Text	chosen
+—	relational-model.js#/SourceFile/2/Parameters/0/name/Text	sheets
+—	relational-model.js#/SourceFile/2/Parameters/1/name/Text	origins
+—	relational-model.js#/SourceFile/2/Parameters/2/name/Text	file
+—	relational-model.js#/SourceFile/2/Parameters/3/name/Text	lead
+—	relational-model.js#/SourceFile/2/Parameters/4/name/Text	sheet
+—	relational-model.js#/SourceFile/2/Parameters/5/name/Text	records
+—	relational-model.js#/SourceFile/2/Parameters/6/name/Text	fields
+—	relational-model.js#/SourceFile/2/Parameters/7/name/Text	filter
+—	relational-model.js#/SourceFile/2/Parameters/8/name/Text	join
+—	relational-model.js#/SourceFile/2/Body/0/TryBlock/0/Expression/Expression/Expression/Text	query
+—	relational-model.js#/SourceFile/2/Body/0/TryBlock/0/Expression/Expression/name/Text	chosen
+—	relational-model.js#/SourceFile/2/Body/0/TryBlock/0/Expression/Arguments/0/Text	sheets
+—	relational-model.js#/SourceFile/2/Body/0/TryBlock/0/Expression/Arguments/1/Text	origins
+—	relational-model.js#/SourceFile/2/Body/0/TryBlock/0/Expression/Arguments/2/Text	file
+—	relational-model.js#/SourceFile/2/Body/0/TryBlock/0/Expression/Arguments/3/Text	lead
+—	relational-model.js#/SourceFile/2/Body/0/TryBlock/0/Expression/Arguments/4/Text	sheet
+—	relational-model.js#/SourceFile/2/Body/0/TryBlock/0/Expression/Arguments/5/Text	records
+—	relational-model.js#/SourceFile/2/Body/0/TryBlock/0/Expression/Arguments/6/Text	fields
+—	relational-model.js#/SourceFile/2/Body/0/TryBlock/0/Expression/Arguments/7/Text	filter
+—	relational-model.js#/SourceFile/2/Body/0/TryBlock/0/Expression/Arguments/8/Text	join
+—	relational-model.js#/SourceFile/2/Body/0/CatchClause/VariableDeclaration/name/Text	error
+—	relational-model.js#/SourceFile/2/Body/0/CatchClause/Block/0/Expression/Left/Text	error
+—	relational-model.js#/SourceFile/2/Body/0/CatchClause/Block/0/Expression/Right/Expression/Text	query
+—	relational-model.js#/SourceFile/2/Body/0/CatchClause/Block/0/Expression/Right/name/Text	RefusedError
+—	relational-model.js#/SourceFile/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression/Text	RefusedError
+—	relational-model.js#/SourceFile/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression/Text	error
+—	relational-model.js#/SourceFile/2/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name/Text	message
+—	relational-model.js#/SourceFile/2/Body/0/CatchClause/Block/1/Expression/Text	error
+—	relational-model.js#/SourceFile/3/name/Text	dump
+—	relational-model.js#/SourceFile/3/Parameters/0/name/Text	sheets
+—	relational-model.js#/SourceFile/3/Body/0/TryBlock/0/Expression/Expression/Expression/Text	format
+—	relational-model.js#/SourceFile/3/Body/0/TryBlock/0/Expression/Expression/name/Text	dump
+—	relational-model.js#/SourceFile/3/Body/0/TryBlock/0/Expression/Arguments/0/Text	sheets
+—	relational-model.js#/SourceFile/3/Body/0/CatchClause/VariableDeclaration/name/Text	error
+—	relational-model.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression/Left/Text	error
+—	relational-model.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression/Right/Expression/Text	format
+—	relational-model.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression/Right/name/Text	CannotBeRepresentedError
+—	relational-model.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression/Text	CannotBeRepresentedError
+—	relational-model.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression/Text	error
+—	relational-model.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name/Text	message
+—	relational-model.js#/SourceFile/3/Body/0/CatchClause/Block/1/Expression/Text	error
+—	relational-model.js#/SourceFile/4/name/Text	dumps
+—	relational-model.js#/SourceFile/4/Parameters/0/name/Text	sheets
+—	relational-model.js#/SourceFile/4/Body/0/TryBlock/0/Expression/Expression/Expression/Text	format
+—	relational-model.js#/SourceFile/4/Body/0/TryBlock/0/Expression/Expression/name/Text	dumps
+—	relational-model.js#/SourceFile/4/Body/0/TryBlock/0/Expression/Arguments/0/Text	sheets
+—	relational-model.js#/SourceFile/4/Body/0/CatchClause/VariableDeclaration/name/Text	error
+—	relational-model.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Left/Text	error
+—	relational-model.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Right/Expression/Text	format
+—	relational-model.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Right/name/Text	CannotBeRepresentedError
+—	relational-model.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression/Text	CannotBeRepresentedError
+—	relational-model.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression/Text	error
+—	relational-model.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name/Text	message
+—	relational-model.js#/SourceFile/4/Body/0/CatchClause/Block/1/Expression/Text	error
+—	relational-model.js#/SourceFile/5/name/Text	instances
+—	relational-model.js#/SourceFile/5/Parameters/0/name/Text	octets
+—	relational-model.js#/SourceFile/5/Body/0/TryBlock/0/Expression/Expression/Expression/Text	format
+—	relational-model.js#/SourceFile/5/Body/0/TryBlock/0/Expression/Expression/name/Text	instances
+—	relational-model.js#/SourceFile/5/Body/0/TryBlock/0/Expression/Arguments/0/Text	octets
+—	relational-model.js#/SourceFile/5/Body/0/CatchClause/VariableDeclaration/name/Text	error
+—	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression/Left/Text	error
+—	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression/Right/Expression/Text	format
+—	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression/Right/name/Text	NamesNotUniqueError
+—	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression/Text	NamesNotUniqueError
+—	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression/Text	error
+—	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name/Text	message
+—	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/1/Expression/Left/Text	error
+—	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/1/Expression/Right/Expression/Text	format
+—	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/1/Expression/Right/name/Text	NotAJSONTextError
+—	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Expression/Text	NotAJSONTextError
+—	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Arguments/0/Expression/Text	error
+—	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Arguments/0/name/Text	message
+—	relational-model.js#/SourceFile/5/Body/0/CatchClause/Block/2/Expression/Text	error
+—	relational-model.js#/SourceFile/6/name/Text	kept
+—	relational-model.js#/SourceFile/6/Parameters/0/name/Text	sheets
+—	relational-model.js#/SourceFile/6/Parameters/1/name/Text	filter
+—	relational-model.js#/SourceFile/6/Body/0/TryBlock/0/Expression/Expression/Expression/Text	query
+—	relational-model.js#/SourceFile/6/Body/0/TryBlock/0/Expression/Expression/name/Text	kept
+—	relational-model.js#/SourceFile/6/Body/0/TryBlock/0/Expression/Arguments/0/Text	sheets
+—	relational-model.js#/SourceFile/6/Body/0/TryBlock/0/Expression/Arguments/1/Text	filter
+—	relational-model.js#/SourceFile/6/Body/0/CatchClause/VariableDeclaration/name/Text	error
+—	relational-model.js#/SourceFile/6/Body/0/CatchClause/Block/0/Expression/Left/Text	error
+—	relational-model.js#/SourceFile/6/Body/0/CatchClause/Block/0/Expression/Right/Expression/Text	query
+—	relational-model.js#/SourceFile/6/Body/0/CatchClause/Block/0/Expression/Right/name/Text	RefusedError
+—	relational-model.js#/SourceFile/6/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression/Text	RefusedError
+—	relational-model.js#/SourceFile/6/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression/Text	error
+—	relational-model.js#/SourceFile/6/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name/Text	message
+—	relational-model.js#/SourceFile/6/Body/0/CatchClause/Block/1/Expression/Text	error
+—	relational-model.js#/SourceFile/7/name/Text	load
+—	relational-model.js#/SourceFile/7/Parameters/0/name/Text	octets
+—	relational-model.js#/SourceFile/7/Body/0/TryBlock/0/Expression/Expression/Expression/Text	format
+—	relational-model.js#/SourceFile/7/Body/0/TryBlock/0/Expression/Expression/name/Text	load
+—	relational-model.js#/SourceFile/7/Body/0/TryBlock/0/Expression/Arguments/0/Text	octets
+—	relational-model.js#/SourceFile/7/Body/0/CatchClause/VariableDeclaration/name/Text	error
+—	relational-model.js#/SourceFile/7/Body/0/CatchClause/Block/0/Expression/Left/Text	error
+—	relational-model.js#/SourceFile/7/Body/0/CatchClause/Block/0/Expression/Right/Expression/Text	format
+—	relational-model.js#/SourceFile/7/Body/0/CatchClause/Block/0/Expression/Right/name/Text	NotMTSVError
+—	relational-model.js#/SourceFile/7/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression/Text	NotMTSVError
+—	relational-model.js#/SourceFile/7/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression/Text	error
+—	relational-model.js#/SourceFile/7/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name/Text	message
+—	relational-model.js#/SourceFile/7/Body/0/CatchClause/Block/1/Expression/Text	error
+—	relational-model.js#/SourceFile/8/name/Text	loads
+—	relational-model.js#/SourceFile/8/Parameters/0/name/Text	text
+—	relational-model.js#/SourceFile/8/Body/0/TryBlock/0/Expression/Expression/Expression/Text	format
+—	relational-model.js#/SourceFile/8/Body/0/TryBlock/0/Expression/Expression/name/Text	loads
+—	relational-model.js#/SourceFile/8/Body/0/TryBlock/0/Expression/Arguments/0/Text	text
+—	relational-model.js#/SourceFile/8/Body/0/CatchClause/VariableDeclaration/name/Text	error
+—	relational-model.js#/SourceFile/8/Body/0/CatchClause/Block/0/Expression/Left/Text	error
+—	relational-model.js#/SourceFile/8/Body/0/CatchClause/Block/0/Expression/Right/Expression/Text	format
+—	relational-model.js#/SourceFile/8/Body/0/CatchClause/Block/0/Expression/Right/name/Text	NotMTSVError
+—	relational-model.js#/SourceFile/8/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression/Text	NotMTSVError
+—	relational-model.js#/SourceFile/8/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression/Text	error
+—	relational-model.js#/SourceFile/8/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name/Text	message
+—	relational-model.js#/SourceFile/8/Body/0/CatchClause/Block/1/Expression/Text	error
+—	relational-model.js#/SourceFile/9/name/Text	named
+—	relational-model.js#/SourceFile/9/Parameters/0/name/Text	instances
+—	relational-model.js#/SourceFile/9/Parameters/1/name/Text	pointer
+—	relational-model.js#/SourceFile/9/Body/0/Expression/Expression/Expression/Text	format
+—	relational-model.js#/SourceFile/9/Body/0/Expression/Expression/name/Text	named
+—	relational-model.js#/SourceFile/9/Body/0/Expression/Arguments/0/Text	instances
+—	relational-model.js#/SourceFile/9/Body/0/Expression/Arguments/1/Text	pointer
+—	relational-model.js#/SourceFile/10/name/Text	CannotBeRepresentedError
+—	relational-model.js#/SourceFile/10/HeritageClauses/0/Types/0/Text	Error
+—	relational-model.js#/SourceFile/11/name/Text	NamesNotUniqueError
+—	relational-model.js#/SourceFile/11/HeritageClauses/0/Types/0/Text	Error
+—	relational-model.js#/SourceFile/12/name/Text	NotMTSVError
+—	relational-model.js#/SourceFile/12/HeritageClauses/0/Types/0/Text	Error
+—	relational-model.js#/SourceFile/13/name/Text	NotAJSONTextError
+—	relational-model.js#/SourceFile/13/HeritageClauses/0/Types/0/Text	Error
+—	relational-model.js#/SourceFile/14/name/Text	RefusedError
+—	relational-model.js#/SourceFile/14/HeritageClauses/0/Types/0/Text	Error

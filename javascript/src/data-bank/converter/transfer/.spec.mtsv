@@ -1,0 +1,100 @@
+1-folders
+kind	place	holds
+—	relation	—
+—	key	—
+—	order	—
+2-modules
+kind	place	holds
+{{name}} · .js	transfer	—
+3-statements
+kind	place	holds
+ImportDeclaration	transfer.js#/SourceFile/0	—
+ImportDeclaration	transfer.js#/SourceFile/1	—
+ImportDeclaration	transfer.js#/SourceFile/2	—
+FunctionDeclaration · Body	transfer.js#/SourceFile/3	—
+VariableStatement	transfer.js#/SourceFile/3/Body/0	—
+ReturnStatement	transfer.js#/SourceFile/3/Body/1	—
+4-expressions
+kind	place	holds
+ImportClause · NamedBindings	transfer.js#/SourceFile/0/ImportClause	—
+NamespaceImport	transfer.js#/SourceFile/0/ImportClause/NamedBindings	—
+StringLiteral	transfer.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	transfer.js#/SourceFile/1/ImportClause	—
+NamespaceImport	transfer.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	transfer.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	transfer.js#/SourceFile/2/ImportClause	—
+NamespaceImport	transfer.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	transfer.js#/SourceFile/2/ModuleSpecifier	—
+ExportKeyword	transfer.js#/SourceFile/3/modifiers/0	—
+—	transfer.js#/SourceFile/3/name	—
+—	transfer.js#/SourceFile/3/Parameters/0	—
+Identifier	transfer.js#/SourceFile/3/Parameters/0/name	—
+—	transfer.js#/SourceFile/3/Parameters/1	—
+Identifier	transfer.js#/SourceFile/3/Parameters/1/name	—
+ConstKeyword	transfer.js#/SourceFile/3/Body/0/DeclarationList/Flags/0	—
+—	transfer.js#/SourceFile/3/Body/0/DeclarationList/Declarations/0	—
+Identifier	transfer.js#/SourceFile/3/Body/0/DeclarationList/Declarations/0/name	—
+CallExpression	transfer.js#/SourceFile/3/Body/0/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	transfer.js#/SourceFile/3/Body/0/DeclarationList/Declarations/0/Initializer/Expression	—
+Identifier	transfer.js#/SourceFile/3/Body/0/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	transfer.js#/SourceFile/3/Body/0/DeclarationList/Declarations/0/Initializer/Expression/name	—
+Identifier	transfer.js#/SourceFile/3/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+Identifier	transfer.js#/SourceFile/3/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/1	—
+CallExpression	transfer.js#/SourceFile/3/Body/1/Expression	—
+PropertyAccessExpression · DotToken	transfer.js#/SourceFile/3/Body/1/Expression/Expression	—
+Identifier	transfer.js#/SourceFile/3/Body/1/Expression/Expression/Expression	—
+Identifier	transfer.js#/SourceFile/3/Body/1/Expression/Expression/name	—
+ArrayLiteralExpression	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0	—
+CallExpression	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/0	—
+PropertyAccessExpression · DotToken	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/0/Expression	—
+Identifier	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/0/Expression/Expression	—
+Identifier	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/0/Expression/name	—
+ElementAccessExpression	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/0/Arguments/0	—
+Identifier	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/0/Arguments/0/Expression	—
+NumericLiteral	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/0/Arguments/0/ArgumentExpression	—
+ElementAccessExpression	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/0/Arguments/1	—
+Identifier	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/0/Arguments/1/Expression	—
+NumericLiteral	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/0/Arguments/1/ArgumentExpression	—
+CallExpression	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/1	—
+PropertyAccessExpression · DotToken	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/1/Expression	—
+Identifier	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/1/Expression/Expression	—
+Identifier	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/1/Expression/name	—
+Identifier	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/1/Arguments/0	—
+ArrayLiteralExpression	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/1/Arguments/1	—
+ElementAccessExpression	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/1/Arguments/1/Elements/0	—
+Identifier	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/1/Arguments/1/Elements/0/Expression	—
+NumericLiteral	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/1/Arguments/1/Elements/0/ArgumentExpression	—
+ElementAccessExpression	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/1/Arguments/1/Elements/1	—
+Identifier	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/1/Arguments/1/Elements/1/Expression	—
+NumericLiteral	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/1/Arguments/1/Elements/1/ArgumentExpression	—
+5-texts
+kind	place	holds
+—	transfer.js#/SourceFile/0/ImportClause/NamedBindings/name/Text	key
+—	transfer.js#/SourceFile/0/ModuleSpecifier/Text	'./key/key.js'
+—	transfer.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	order
+—	transfer.js#/SourceFile/1/ModuleSpecifier/Text	'./order/order.js'
+—	transfer.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	relation
+—	transfer.js#/SourceFile/2/ModuleSpecifier/Text	'./relation/relation.js'
+—	transfer.js#/SourceFile/3/name/Text	transfer
+—	transfer.js#/SourceFile/3/Parameters/0/name/Text	schema
+—	transfer.js#/SourceFile/3/Parameters/1/name/Text	input
+—	transfer.js#/SourceFile/3/Body/0/DeclarationList/Declarations/0/name/Text	layout
+—	transfer.js#/SourceFile/3/Body/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Text	relation
+—	transfer.js#/SourceFile/3/Body/0/DeclarationList/Declarations/0/Initializer/Expression/name/Text	relations
+—	transfer.js#/SourceFile/3/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Text	schema
+—	transfer.js#/SourceFile/3/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/1/Text	input
+—	transfer.js#/SourceFile/3/Body/1/Expression/Expression/Expression/Text	layout
+—	transfer.js#/SourceFile/3/Body/1/Expression/Expression/name/Text	concat
+—	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/0/Expression/Expression/Text	key
+—	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/0/Expression/name/Text	keys
+—	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/0/Arguments/0/Expression/Text	layout
+—	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/0/Arguments/0/ArgumentExpression/Text	4
+—	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/0/Arguments/1/Expression/Text	input
+—	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/0/Arguments/1/ArgumentExpression/Text	0
+—	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/1/Expression/Expression/Text	order
+—	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/1/Expression/name/Text	order
+—	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/1/Arguments/0/Text	schema
+—	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/1/Arguments/1/Elements/0/Expression/Text	layout
+—	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/1/Arguments/1/Elements/0/ArgumentExpression/Text	0
+—	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/1/Arguments/1/Elements/1/Expression/Text	layout
+—	transfer.js#/SourceFile/3/Body/1/Expression/Arguments/0/Elements/1/Arguments/1/Elements/1/ArgumentExpression/Text	2

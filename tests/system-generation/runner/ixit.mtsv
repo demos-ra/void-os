@@ -1,0 +1,900 @@
+notations
+notation
+python
+javascript
+modules
+module
+void-os
+relational model
+format
+parser
+generator
+JSON text
+query
+positions
+filter expression
+set operations
+operations on relations
+data bank
+converter
+converter › input
+schema
+value
+transfer
+relation
+key
+order
+output
+file
+sheet
+record
+field
+storage
+communication
+tools
+read
+read › input
+conversion
+package
+csv
+json
+xlsx
+ods
+sqlite
+reply
+server
+hooks
+hook input
+hook output
+view
+overview
+zoom
+filter
+details
+terminal
+system generation
+values
+distribution package
+runner
+access programs
+module	access program
+void-os	void-os
+relational model	loads
+relational model	load
+relational model	dumps
+relational model	dump
+relational model	instances
+relational model	named
+relational model	chosen
+relational model	kept
+format	loads
+format	load
+format	dumps
+format	dump
+format	instances
+format	named
+parser	loads
+parser	load
+generator	dumps
+generator	dump
+JSON text	instances
+JSON text	named
+query	chosen
+query	kept
+positions	named
+positions	written
+filter expression	kept
+set operations	union
+operations on relations	restrict
+operations on relations	project
+operations on relations	join
+data bank	folder
+data bank	insert
+data bank	names
+data bank	records
+data bank	new
+data bank	stored
+converter	convert
+converter	sheets
+converter › input	read
+schema	schema
+schema	validate
+value	values
+transfer	transfer
+relation	relations
+key	keys
+order	order
+output	write
+output	sheets
+file	file
+sheet	sheets
+record	records
+field	fields
+storage	folder
+storage	insert
+storage	inputs
+storage	names
+storage	relations
+storage	stored
+storage	communicated
+storage	mark communicated
+communication	names
+communication	records
+communication	new
+tools	serve
+read	read
+read › input	members
+conversion	sheets
+package	nodes
+csv	load
+json	load
+xlsx	load
+ods	load
+sqlite	load
+reply	reply
+server	serve
+hooks	hook
+hook input	insert
+hook output	context
+view	view
+overview	overview
+zoom	days
+zoom	turns
+filter	kept
+details	details
+terminal	lay out
+terminal	write
+terminal	page
+system generation	values
+values	values
+runner	run
+types
+type	form	item
+nothing	none	
+text	text	
+texts	list	text
+number	number	
+boolean	boolean	
+bytes	bytes	
+bytes array	list	bytes
+relation	relation	
+relations	relations	relation
+arguments	list	text
+absolute path	text	
+key	text	
+reference kind	text	
+value status	text	
+connector	text	
+signature direction	text	
+structured type	text	
+hook event	text	
+time	text	
+operation kind	text	
+disposition	text	
+JSON text	json	
+JSON type	text	
+handle	none	
+mapping	none	
+numbers	list	number
+relation kind	text	
+not read status	text	
+node kind	text	
+harness column	text	
+errors
+error
+not MTSV
+cannot be represented
+not a JSON text
+names not unique
+refused
+keeping failed
+non-conforming
+no format
+failed
+compression method not allowed
+no case
+providers
+provider	module	access program
+values	values	values
+module files
+module	notation	file
+void-os	python	python/src/void_os/_void_os.py
+void-os	javascript	javascript/src/void-os.js
+relational model	python	python/src/void_os/relational_model/_relational_model.py
+relational model	javascript	javascript/src/relational-model/relational-model.js
+format	python	python/src/void_os/relational_model/format/_format.py
+format	javascript	javascript/src/relational-model/format/format.js
+parser	python	python/src/void_os/relational_model/format/parser/_parser.py
+parser	javascript	javascript/src/relational-model/format/parser/parser.js
+generator	python	python/src/void_os/relational_model/format/generator/_generator.py
+generator	javascript	javascript/src/relational-model/format/generator/generator.js
+JSON text	python	python/src/void_os/relational_model/format/json_text/_json_text.py
+JSON text	javascript	javascript/src/relational-model/format/json-text/json-text.js
+query	python	python/src/void_os/relational_model/query/_query.py
+query	javascript	javascript/src/relational-model/query/query.js
+positions	python	python/src/void_os/relational_model/query/positions/_positions.py
+positions	javascript	javascript/src/relational-model/query/positions/positions.js
+filter expression	python	python/src/void_os/relational_model/query/filter_expression/_filter_expression.py
+filter expression	javascript	javascript/src/relational-model/query/filter-expression/filter-expression.js
+set operations	python	python/src/void_os/relational_model/query/set_operations/_set_operations.py
+set operations	javascript	javascript/src/relational-model/query/set-operations/set-operations.js
+operations on relations	python	python/src/void_os/relational_model/query/operations_on_relations/_operations_on_relations.py
+operations on relations	javascript	javascript/src/relational-model/query/operations-on-relations/operations-on-relations.js
+data bank	python	python/src/void_os/data_bank/_data_bank.py
+data bank	javascript	javascript/src/data-bank/data-bank.js
+converter	python	python/src/void_os/data_bank/converter/_converter.py
+converter	javascript	javascript/src/data-bank/converter/converter.js
+converter › input	python	python/src/void_os/data_bank/converter/input/_input.py
+converter › input	javascript	javascript/src/data-bank/converter/input/input.js
+schema	python	python/src/void_os/data_bank/converter/input/schema/_schema.py
+schema	javascript	javascript/src/data-bank/converter/input/schema/schema.js
+value	python	python/src/void_os/data_bank/converter/input/value/_value.py
+value	javascript	javascript/src/data-bank/converter/input/value/value.js
+transfer	python	python/src/void_os/data_bank/converter/transfer/_transfer.py
+transfer	javascript	javascript/src/data-bank/converter/transfer/transfer.js
+relation	python	python/src/void_os/data_bank/converter/transfer/relation/_relation.py
+relation	javascript	javascript/src/data-bank/converter/transfer/relation/relation.js
+key	python	python/src/void_os/data_bank/converter/transfer/key/_key.py
+key	javascript	javascript/src/data-bank/converter/transfer/key/key.js
+order	python	python/src/void_os/data_bank/converter/transfer/order/_order.py
+order	javascript	javascript/src/data-bank/converter/transfer/order/order.js
+output	python	python/src/void_os/data_bank/converter/output/_output.py
+output	javascript	javascript/src/data-bank/converter/output/output.js
+file	python	python/src/void_os/data_bank/converter/output/file/_file.py
+file	javascript	javascript/src/data-bank/converter/output/file/file.js
+sheet	python	python/src/void_os/data_bank/converter/output/sheet/_sheet.py
+sheet	javascript	javascript/src/data-bank/converter/output/sheet/sheet.js
+record	python	python/src/void_os/data_bank/converter/output/record/_record.py
+record	javascript	javascript/src/data-bank/converter/output/record/record.js
+field	python	python/src/void_os/data_bank/converter/output/field/_field.py
+field	javascript	javascript/src/data-bank/converter/output/field/field.js
+storage	python	python/src/void_os/data_bank/storage/_storage.py
+storage	javascript	javascript/src/data-bank/storage/storage.js
+communication	python	python/src/void_os/data_bank/communication/_communication.py
+communication	javascript	javascript/src/data-bank/communication/communication.js
+tools	python	python/src/void_os/tools/_tools.py
+tools	javascript	javascript/src/tools/tools.js
+read	python	python/src/void_os/tools/read/_read.py
+read	javascript	javascript/src/tools/read/read.js
+read › input	python	python/src/void_os/tools/read/input/_input.py
+read › input	javascript	javascript/src/tools/read/input/input.js
+conversion	python	python/src/void_os/tools/read/conversion/_conversion.py
+conversion	javascript	javascript/src/tools/read/conversion/conversion.js
+package	python	python/src/void_os/tools/read/conversion/package/_package.py
+package	javascript	javascript/src/tools/read/conversion/package/package.js
+csv	python	python/src/void_os/tools/read/conversion/csv/_csv.py
+csv	javascript	javascript/src/tools/read/conversion/csv/csv.js
+json	python	python/src/void_os/tools/read/conversion/json/_json.py
+json	javascript	javascript/src/tools/read/conversion/json/json.js
+xlsx	python	python/src/void_os/tools/read/conversion/xlsx/_xlsx.py
+xlsx	javascript	javascript/src/tools/read/conversion/xlsx/xlsx.js
+ods	python	python/src/void_os/tools/read/conversion/ods/_ods.py
+ods	javascript	javascript/src/tools/read/conversion/ods/ods.js
+sqlite	python	python/src/void_os/tools/read/conversion/sqlite/_sqlite.py
+sqlite	javascript	javascript/src/tools/read/conversion/sqlite/sqlite.js
+reply	python	python/src/void_os/tools/read/reply/_reply.py
+reply	javascript	javascript/src/tools/read/reply/reply.js
+server	python	python/src/void_os/tools/server/_server.py
+server	javascript	javascript/src/tools/server/server.js
+hooks	python	python/src/void_os/hooks/_hooks.py
+hooks	javascript	javascript/src/hooks/hooks.js
+hook input	python	python/src/void_os/hooks/hook_input/_hook_input.py
+hook input	javascript	javascript/src/hooks/hook-input/hook-input.js
+hook output	python	python/src/void_os/hooks/hook_output/_hook_output.py
+hook output	javascript	javascript/src/hooks/hook-output/hook-output.js
+view	python	python/src/void_os/view/_view.py
+view	javascript	javascript/src/view/view.js
+overview	python	python/src/void_os/view/overview/_overview.py
+overview	javascript	javascript/src/view/overview/overview.js
+zoom	python	python/src/void_os/view/zoom/_zoom.py
+zoom	javascript	javascript/src/view/zoom/zoom.js
+filter	python	python/src/void_os/view/filter/_filter.py
+filter	javascript	javascript/src/view/filter/filter.js
+details	python	python/src/void_os/view/details/_details.py
+details	javascript	javascript/src/view/details/details.js
+terminal	python	python/src/void_os/view/terminal/_terminal.py
+terminal	javascript	javascript/src/view/terminal/terminal.js
+system generation	python	python/src/void_os/system_generation/_system_generation.py
+system generation	javascript	javascript/src/system-generation/system-generation.js
+values	python	python/src/void_os/system_generation/values/_values.py
+values	javascript	javascript/src/system-generation/values/values.js
+runner	python	python/tests/void_os/system_generation/runner/_runner.py
+runner	javascript	javascript/tests/system-generation/runner/runner.js
+functions
+module	access program	notation	function
+void-os	void-os	python	void_os
+void-os	void-os	javascript	voidOs
+relational model	loads	python	loads
+relational model	loads	javascript	loads
+relational model	load	python	load
+relational model	load	javascript	load
+relational model	dumps	python	dumps
+relational model	dumps	javascript	dumps
+relational model	dump	python	dump
+relational model	dump	javascript	dump
+relational model	instances	python	instances
+relational model	instances	javascript	instances
+relational model	named	python	named
+relational model	named	javascript	named
+relational model	chosen	python	chosen
+relational model	chosen	javascript	chosen
+relational model	kept	python	kept
+relational model	kept	javascript	kept
+format	loads	python	loads
+format	loads	javascript	loads
+format	load	python	load
+format	load	javascript	load
+format	dumps	python	dumps
+format	dumps	javascript	dumps
+format	dump	python	dump
+format	dump	javascript	dump
+format	instances	python	instances
+format	instances	javascript	instances
+format	named	python	named
+format	named	javascript	named
+parser	loads	python	loads
+parser	loads	javascript	loads
+parser	load	python	load
+parser	load	javascript	load
+generator	dumps	python	dumps
+generator	dumps	javascript	dumps
+generator	dump	python	dump
+generator	dump	javascript	dump
+JSON text	instances	python	instances
+JSON text	instances	javascript	instances
+JSON text	named	python	named
+JSON text	named	javascript	named
+query	chosen	python	chosen
+query	chosen	javascript	chosen
+query	kept	python	kept
+query	kept	javascript	kept
+positions	named	python	named
+positions	named	javascript	named
+positions	written	python	written
+positions	written	javascript	written
+filter expression	kept	python	kept
+filter expression	kept	javascript	kept
+set operations	union	python	union
+set operations	union	javascript	union
+operations on relations	restrict	python	restrict
+operations on relations	restrict	javascript	restrict
+operations on relations	project	python	project
+operations on relations	project	javascript	project
+operations on relations	join	python	join
+operations on relations	join	javascript	join
+data bank	folder	python	folder
+data bank	folder	javascript	folder
+data bank	insert	python	insert
+data bank	insert	javascript	insert
+data bank	names	python	names
+data bank	names	javascript	names
+data bank	records	python	records
+data bank	records	javascript	records
+data bank	new	python	new
+data bank	new	javascript	new
+data bank	stored	python	stored
+data bank	stored	javascript	stored
+converter	convert	python	convert
+converter	convert	javascript	convert
+converter	sheets	python	sheets
+converter	sheets	javascript	sheets
+converter › input	read	python	read
+converter › input	read	javascript	read
+schema	schema	python	schema
+schema	schema	javascript	schema
+schema	validate	python	validate
+schema	validate	javascript	validate
+value	values	python	values
+value	values	javascript	values
+transfer	transfer	python	transfer
+transfer	transfer	javascript	transfer
+relation	relations	python	relations
+relation	relations	javascript	relations
+key	keys	python	keys
+key	keys	javascript	keys
+order	order	python	order
+order	order	javascript	order
+output	write	python	write
+output	write	javascript	write
+output	sheets	python	sheets
+output	sheets	javascript	sheets
+file	file	python	file
+file	file	javascript	file
+sheet	sheets	python	sheets
+sheet	sheets	javascript	sheets
+record	records	python	records
+record	records	javascript	records
+field	fields	python	fields
+field	fields	javascript	fields
+storage	folder	python	folder
+storage	folder	javascript	folder
+storage	insert	python	insert
+storage	insert	javascript	insert
+storage	inputs	python	inputs
+storage	inputs	javascript	inputs
+storage	names	python	names
+storage	names	javascript	names
+storage	relations	python	relations
+storage	relations	javascript	relations
+storage	stored	python	stored
+storage	stored	javascript	stored
+storage	communicated	python	communicated
+storage	communicated	javascript	communicated
+storage	mark communicated	python	mark_communicated
+storage	mark communicated	javascript	markCommunicated
+communication	names	python	names
+communication	names	javascript	names
+communication	records	python	records
+communication	records	javascript	records
+communication	new	python	new
+communication	new	javascript	new
+tools	serve	python	serve
+tools	serve	javascript	serve
+read	read	python	read
+read	read	javascript	read
+read › input	members	python	members
+read › input	members	javascript	members
+conversion	sheets	python	sheets
+conversion	sheets	javascript	sheets
+package	nodes	python	nodes
+package	nodes	javascript	nodes
+csv	load	python	load
+csv	load	javascript	load
+json	load	python	load
+json	load	javascript	load
+xlsx	load	python	load
+xlsx	load	javascript	load
+ods	load	python	load
+ods	load	javascript	load
+sqlite	load	python	load
+sqlite	load	javascript	load
+reply	reply	python	reply
+reply	reply	javascript	reply
+server	serve	python	serve
+server	serve	javascript	serve
+hooks	hook	python	hook
+hooks	hook	javascript	hook
+hook input	insert	python	insert
+hook input	insert	javascript	insert
+hook output	context	python	context
+hook output	context	javascript	context
+view	view	python	view
+view	view	javascript	view
+overview	overview	python	overview
+overview	overview	javascript	overview
+zoom	days	python	days
+zoom	days	javascript	days
+zoom	turns	python	turns
+zoom	turns	javascript	turns
+filter	kept	python	kept
+filter	kept	javascript	kept
+details	details	python	details
+details	details	javascript	details
+terminal	lay out	python	lay_out
+terminal	lay out	javascript	layOut
+terminal	write	python	write
+terminal	write	javascript	write
+terminal	page	python	page
+terminal	page	javascript	page
+system generation	values	python	values
+system generation	values	javascript	values
+values	values	python	values
+values	values	javascript	values
+runner	run	python	run
+runner	run	javascript	run
+parameters
+module	access program	position	type	provided
+relational model	loads	1	text	
+relational model	load	1	bytes	
+relational model	dumps	1	relations	
+relational model	dump	1	relations	
+relational model	instances	1	bytes	
+relational model	named	1	relation	
+relational model	named	2	text	
+relational model	chosen	1	relations	
+relational model	chosen	2	relation	
+relational model	chosen	3	relation	
+relational model	chosen	4	text	
+relational model	chosen	5	text	
+relational model	chosen	6	text	
+relational model	chosen	7	text	
+relational model	chosen	8	text	
+relational model	chosen	9	text	
+relational model	kept	1	relations	
+relational model	kept	2	text	
+format	loads	1	text	
+format	load	1	bytes	
+format	dumps	1	relations	
+format	dump	1	relations	
+format	instances	1	bytes	
+format	named	1	relation	
+format	named	2	text	
+parser	loads	1	text	
+parser	load	1	bytes	
+generator	dumps	1	relations	
+generator	dump	1	relations	
+JSON text	instances	1	bytes	
+JSON text	named	1	relation	
+JSON text	named	2	text	
+query	chosen	1	relations	
+query	chosen	2	relation	
+query	chosen	3	relation	
+query	chosen	4	text	
+query	chosen	5	text	
+query	chosen	6	text	
+query	chosen	7	text	
+query	chosen	8	text	
+query	chosen	9	text	
+query	kept	1	relations	
+query	kept	2	text	
+positions	named	1	text	
+positions	named	2	number	
+positions	written	1	relation	
+filter expression	kept	1	relations	
+filter expression	kept	2	text	
+set operations	union	1	relations	
+set operations	union	2	relation	
+set operations	union	3	relation	
+set operations	union	4	text	
+operations on relations	restrict	1	relations	
+operations on relations	restrict	2	text	
+operations on relations	restrict	3	text	
+operations on relations	project	1	relations	
+operations on relations	project	2	text	
+operations on relations	join	1	relations	
+operations on relations	join	2	relation	
+operations on relations	join	3	text	
+data bank	folder	1	relation	values
+data bank	insert	1	relation	values
+data bank	insert	2	text	
+data bank	insert	3	bytes array	
+data bank	insert	4	bytes	
+data bank	insert	5	hook event	
+data bank	names	1	relation	values
+data bank	records	1	relation	values
+data bank	records	2	text	
+data bank	records	3	number	
+data bank	records	4	number	
+data bank	records	5	texts	
+data bank	new	1	relation	values
+data bank	new	2	text	
+data bank	new	3	text	
+data bank	new	4	text	
+data bank	new	5	texts	
+data bank	stored	1	relation	values
+data bank	stored	2	text	
+data bank	stored	3	number	
+data bank	stored	4	number	
+converter	convert	1	bytes array	
+converter	convert	2	bytes	
+converter	convert	3	number	
+converter	sheets	1	bytes	
+converter	sheets	2	text	
+converter › input	read	1	bytes	
+converter › input	read	2	bytes array	
+converter › input	read	3	number	
+schema	schema	1	bytes	
+schema	validate	1	relations	
+schema	validate	2	relations	
+value	values	1	bytes array	
+value	values	2	number	
+transfer	transfer	1	relations	
+transfer	transfer	2	relations	
+relation	relations	1	relations	
+relation	relations	2	relations	
+key	keys	1	relation	
+key	keys	2	relation	
+order	order	1	relations	
+order	order	2	relations	
+output	write	1	relations	
+output	write	2	relations	
+output	sheets	1	relations	
+file	file	1	relations	
+sheet	sheets	1	relations	
+record	records	1	relations	
+field	fields	1	relation	
+field	fields	2	relations	
+storage	folder	1	relation	values
+storage	insert	1	relation	values
+storage	insert	2	text	
+storage	insert	3	bytes array	
+storage	insert	4	bytes	
+storage	insert	5	hook event	
+storage	inputs	1	relation	values
+storage	names	1	relation	values
+storage	relations	1	relation	values
+storage	relations	2	text	
+storage	stored	1	relation	values
+storage	stored	2	text	
+storage	stored	3	number	
+storage	stored	4	number	
+storage	communicated	1	relation	values
+storage	communicated	2	text	
+storage	communicated	3	text	
+storage	communicated	4	text	
+storage	mark communicated	1	relation	values
+storage	mark communicated	2	text	
+storage	mark communicated	3	text	
+storage	mark communicated	4	text	
+storage	mark communicated	5	number	
+communication	names	1	relation	values
+communication	records	1	relation	values
+communication	records	2	text	
+communication	records	3	number	
+communication	records	4	number	
+communication	records	5	texts	
+communication	new	1	relation	values
+communication	new	2	text	
+communication	new	3	text	
+communication	new	4	text	
+communication	new	5	texts	
+tools	serve	1	relation	values
+read	read	1	relation	values
+read	read	2	text	
+read	read	3	text	
+read	read	4	text	
+read	read	5	text	
+read	read	6	text	
+read	read	7	text	
+read › input	members	1	text	
+conversion	sheets	1	absolute path	
+package	nodes	1	absolute path	
+csv	load	1	bytes	
+json	load	1	bytes	
+xlsx	load	1	relation	
+ods	load	1	relation	
+sqlite	load	1	absolute path	
+reply	reply	1	relations	
+reply	reply	2	relations	
+server	serve	1	relation	values
+hooks	hook	1	relation	values
+hooks	hook	2	hook event	
+hooks	hook	3	absolute path	
+hook input	insert	1	relation	values
+hook input	insert	2	text	
+hook input	insert	3	hook event	
+hook input	insert	4	bytes	
+hook output	context	1	relation	values
+hook output	context	2	hook event	
+hook output	context	3	text	
+hook output	context	4	relation	
+view	view	1	relation	values
+view	view	2	arguments	
+view	view	3	boolean	
+view	view	4	number	
+overview	overview	1	relation	
+overview	overview	2	relation	
+zoom	days	1	relation	values
+zoom	days	2	text	
+zoom	days	3	number	
+zoom	turns	1	relation	values
+zoom	turns	2	text	
+zoom	turns	3	text	
+zoom	turns	4	number	
+filter	kept	1	relations	
+filter	kept	2	text	
+details	details	1	relation	values
+details	details	2	text	
+details	details	3	number	
+terminal	lay out	1	relation	values
+terminal	lay out	2	relations	
+terminal	lay out	3	boolean	
+terminal	write	1	text	
+terminal	page	1	relation	values
+terminal	page	2	text	
+values	values	1	absolute path	
+runner	run	1	text	
+runner	run	2	number	
+runner	run	3	absolute path	
+results
+module	access program	position	type
+void-os	void-os	1	number
+relational model	loads	1	relations
+relational model	load	1	relations
+relational model	dumps	1	text
+relational model	dump	1	bytes
+relational model	instances	1	relation
+relational model	instances	2	relation
+relational model	instances	3	texts
+relational model	named	1	relation
+relational model	chosen	1	relations
+relational model	chosen	2	relation
+relational model	kept	1	relations
+format	loads	1	relations
+format	load	1	relations
+format	dumps	1	text
+format	dump	1	bytes
+format	instances	1	relation
+format	instances	2	relation
+format	instances	3	texts
+format	named	1	relation
+parser	loads	1	relations
+parser	load	1	relations
+generator	dumps	1	text
+generator	dump	1	bytes
+JSON text	instances	1	relation
+JSON text	instances	2	relation
+JSON text	instances	3	texts
+JSON text	named	1	relation
+query	chosen	1	relations
+query	chosen	2	relation
+query	kept	1	relations
+positions	named	1	relation
+positions	written	1	text
+filter expression	kept	1	relations
+set operations	union	1	relations
+operations on relations	restrict	1	relations
+operations on relations	project	1	relations
+operations on relations	join	1	relations
+data bank	folder	1	absolute path
+data bank	insert	1	number
+data bank	names	1	relations
+data bank	records	1	relations
+data bank	new	1	relations
+data bank	stored	1	relation
+converter	convert	1	text
+converter	convert	2	texts
+converter	sheets	1	relation
+converter	sheets	2	relation
+converter › input	read	1	relations
+converter › input	read	2	relations
+converter › input	read	3	texts
+schema	schema	1	relations
+schema	validate	1	relation
+value	values	1	relations
+value	values	2	texts
+transfer	transfer	1	relations
+relation	relations	1	relations
+key	keys	1	relation
+order	order	1	relation
+output	write	1	text
+output	sheets	1	relations
+file	file	1	relations
+sheet	sheets	1	relations
+record	records	1	relations
+field	fields	1	relations
+storage	folder	1	absolute path
+storage	insert	1	number
+storage	inputs	1	relation
+storage	names	1	relations
+storage	relations	1	relations
+storage	stored	1	relation
+storage	communicated	1	number
+storage	mark communicated	1	nothing
+communication	names	1	relations
+communication	records	1	relations
+communication	new	1	relations
+tools	serve	1	nothing
+read	read	1	text
+read › input	members	1	relation
+read › input	members	2	relation
+conversion	sheets	1	relations
+conversion	sheets	2	texts
+package	nodes	1	relation
+csv	load	1	relations
+csv	load	2	texts
+json	load	1	relations
+json	load	2	texts
+xlsx	load	1	relations
+xlsx	load	2	texts
+ods	load	1	relations
+ods	load	2	texts
+sqlite	load	1	relations
+sqlite	load	2	texts
+reply	reply	1	text
+server	serve	1	nothing
+hooks	hook	1	nothing
+hook input	insert	1	number
+hook output	context	1	JSON text
+view	view	1	nothing
+overview	overview	1	relation
+zoom	days	1	relation
+zoom	turns	1	relation
+filter	kept	1	relations
+details	details	1	relations
+terminal	lay out	1	text
+terminal	write	1	nothing
+terminal	page	1	nothing
+system generation	values	1	relation
+values	values	1	relation
+runner	run	1	texts
+handed
+module	position	handed
+data bank	1	relational model
+tools	1	relational model
+tools	2	data bank
+hooks	1	relational model
+hooks	2	data bank
+view	1	relational model
+view	2	data bank
+system generation	1	relational model
+operations on relations	1	positions
+operations on relations	2	filter expression
+converter	1	relational model
+storage	1	relational model
+storage	2	converter
+communication	1	relational model
+communication	2	converter
+communication	3	storage
+converter › input	1	relational model
+output	1	relational model
+schema	1	relational model
+value	1	relational model
+server	1	relational model
+server	2	data bank
+server	3	read
+read	1	relational model
+read	2	data bank
+conversion	1	relational model
+reply	1	relational model
+json	1	relational model
+hook input	1	relational model
+hook input	2	data bank
+hook output	1	relational model
+hook output	2	data bank
+zoom	1	relational model
+zoom	2	data bank
+filter	1	relational model
+details	1	relational model
+details	2	data bank
+terminal	1	relational model
+values	1	relational model
+runner	1	relational model
+runner	2	values
+error names
+error	notation	name
+not MTSV	python	NotMTSVError
+not MTSV	javascript	NotMTSVError
+cannot be represented	python	CannotBeRepresentedError
+cannot be represented	javascript	CannotBeRepresentedError
+not a JSON text	python	NotAJSONTextError
+not a JSON text	javascript	NotAJSONTextError
+names not unique	python	NamesNotUniqueError
+names not unique	javascript	NamesNotUniqueError
+refused	python	RefusedError
+refused	javascript	RefusedError
+keeping failed	python	KeepingFailedError
+keeping failed	javascript	KeepingFailedError
+non-conforming	python	NonConformingError
+non-conforming	javascript	NonConformingError
+no format	python	NoFormatError
+no format	javascript	NoFormatError
+failed	python	FailedError
+failed	javascript	FailedError
+compression method not allowed	python	CompressionMethodNotAllowedError
+compression method not allowed	javascript	CompressionMethodNotAllowedError
+no case	python	NoCaseError
+no case	javascript	NoCaseError
+provider arguments
+provider	notation	position	argument
+values	python	1	$REPOSITORY/python/src/void_os/system_generation/values
+values	javascript	1	$REPOSITORY/javascript/src/system-generation/values
+commands
+module	access program	notation	position	argument
+void-os	void-os	python	1	python3
+void-os	void-os	python	2	-c
+void-os	void-os	python	3	import sys; sys.path.insert(0, '$REPOSITORY/python/src'); from void_os._void_os import void_os as start; sys.exit(start())
+void-os	void-os	javascript	1	node
+void-os	void-os	javascript	2	$REPOSITORY/javascript/src/void-os.js
+time columns
+relation	column
+_stored	_time
+turns	time
+sheets
+direction	module	access program
+load	relational model	load
+dump	relational model	dump
+expansion steps
+name	position	step	argument
+INPUT	1	from	PWD
+INPUT	2	file URI path	
+INPUT	3	segments	
+INPUT	4	percent-encode	
+INPUT	5	double leading	_
+INPUT	6	join	/
+drivers
+notation	position	argument
+python	1	python3
+python	2	$REPOSITORY/python/tests/void_os/system_generation/runner/driver.py
+javascript	1	node
+javascript	2	$REPOSITORY/javascript/tests/system-generation/runner/driver.mjs

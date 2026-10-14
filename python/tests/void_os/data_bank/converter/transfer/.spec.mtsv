@@ -1,0 +1,144 @@
+1-folders
+kind	place	holds
+—	relation	—
+—	key	—
+—	order	—
+2-modules
+kind	place	holds
+{{name}} · .py	__init__	—
+{{name}} · .py	test_transfer	—
+3-statements
+kind	place	holds
+Import	test_transfer.py#/Module/0	—
+Import	test_transfer.py#/Module/1	—
+ImportFrom	test_transfer.py#/Module/2	—
+ImportFrom	test_transfer.py#/Module/3	—
+ImportFrom	test_transfer.py#/Module/4	—
+ClassDef	test_transfer.py#/Module/5	—
+FunctionDef	test_transfer.py#/Module/5/body/0	—
+Expr	test_transfer.py#/Module/5/body/0/body/0	—
+With	test_transfer.py#/Module/5/body/0/body/1	—
+Expr	test_transfer.py#/Module/5/body/0/body/1/body/0	—
+FunctionDef	test_transfer.py#/Module/5/body/1	—
+Expr	test_transfer.py#/Module/5/body/1/body/0	—
+With	test_transfer.py#/Module/5/body/1/body/1	—
+Expr	test_transfer.py#/Module/5/body/1/body/1/body/0	—
+4-expressions
+kind	place	holds
+—	test_transfer.py#/Module/0/names/0	—
+—	test_transfer.py#/Module/1/names/0	—
+—	test_transfer.py#/Module/2/module	—
+—	test_transfer.py#/Module/2/names/0	—
+—	test_transfer.py#/Module/3/module	—
+—	test_transfer.py#/Module/3/names/0	—
+—	test_transfer.py#/Module/4/module	—
+—	test_transfer.py#/Module/4/names/0	—
+Attribute	test_transfer.py#/Module/5/arguments/0	—
+Name	test_transfer.py#/Module/5/arguments/0/value	—
+arg	test_transfer.py#/Module/5/body/0/args/0	—
+Constant	test_transfer.py#/Module/5/body/0/body/0/value	—
+—	test_transfer.py#/Module/5/body/0/body/1/items/0	—
+Call	test_transfer.py#/Module/5/body/0/body/1/items/0/context_expr	—
+Attribute	test_transfer.py#/Module/5/body/0/body/1/items/0/context_expr/func	—
+Name	test_transfer.py#/Module/5/body/0/body/1/items/0/context_expr/func/value	—
+keyword	test_transfer.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0	—
+Constant	test_transfer.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0/value	—
+Call	test_transfer.py#/Module/5/body/0/body/1/body/0/value	—
+Attribute	test_transfer.py#/Module/5/body/0/body/1/body/0/value/func	—
+Name	test_transfer.py#/Module/5/body/0/body/1/body/0/value/func/value	—
+Call	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0	—
+Attribute	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func	—
+Name	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func/value	—
+Constant	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/0	—
+Constant	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/1	—
+BinOp	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2	—
+Call	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left	—
+Attribute	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func	—
+Attribute	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value	—
+Name	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value	—
+Name	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0	—
+Add	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/op	—
+Constant	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/right	—
+Name	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/3	—
+Name	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/4	—
+List	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/1	—
+arg	test_transfer.py#/Module/5/body/1/args/0	—
+Constant	test_transfer.py#/Module/5/body/1/body/0/value	—
+—	test_transfer.py#/Module/5/body/1/body/1/items/0	—
+Call	test_transfer.py#/Module/5/body/1/body/1/items/0/context_expr	—
+Attribute	test_transfer.py#/Module/5/body/1/body/1/items/0/context_expr/func	—
+Name	test_transfer.py#/Module/5/body/1/body/1/items/0/context_expr/func/value	—
+keyword	test_transfer.py#/Module/5/body/1/body/1/items/0/context_expr/arguments/0	—
+Constant	test_transfer.py#/Module/5/body/1/body/1/items/0/context_expr/arguments/0/value	—
+Call	test_transfer.py#/Module/5/body/1/body/1/body/0/value	—
+Attribute	test_transfer.py#/Module/5/body/1/body/1/body/0/value/func	—
+Name	test_transfer.py#/Module/5/body/1/body/1/body/0/value/func/value	—
+Call	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0	—
+Attribute	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/func	—
+Name	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/func/value	—
+Constant	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/0	—
+Constant	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/1	—
+BinOp	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2	—
+Call	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left	—
+Attribute	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func	—
+Attribute	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/value	—
+Name	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value	—
+Name	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0	—
+Add	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/op	—
+Constant	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/right	—
+Name	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/3	—
+Name	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/4	—
+List	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/1	—
+5-texts
+kind	place	holds
+—	test_transfer.py#/Module/0/names/0/name	unittest
+—	test_transfer.py#/Module/1/names/0/name	os
+—	test_transfer.py#/Module/2/module/value	tests.void_os.system_generation.runner
+—	test_transfer.py#/Module/2/names/0/name	_runner
+—	test_transfer.py#/Module/3/module/value	void_os.relational_model
+—	test_transfer.py#/Module/3/names/0/name	_relational_model
+—	test_transfer.py#/Module/4/module/value	void_os.system_generation.values
+—	test_transfer.py#/Module/4/names/0/name	_values
+—	test_transfer.py#/Module/5/name/value	TestTransfer
+—	test_transfer.py#/Module/5/arguments/0/value/id	unittest
+—	test_transfer.py#/Module/5/arguments/0/attr	TestCase
+—	test_transfer.py#/Module/5/body/0/name/value	test_transfer_1
+—	test_transfer.py#/Module/5/body/0/args/0/arg	self
+—	test_transfer.py#/Module/5/body/0/body/0/value/value	"""The transfer MUST take the input's tree to relations in normal form, each subordinate relation taking its parent's primary key as a foreign key; where a kind is referred to from several places or holds itself, a foreign key refers to the kind's one relation."""
+—	test_transfer.py#/Module/5/body/0/body/1/items/0/context_expr/func/value/id	self
+—	test_transfer.py#/Module/5/body/0/body/1/items/0/context_expr/func/attr	subTest
+—	test_transfer.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0/arg	case
+—	test_transfer.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0/value/value	1
+—	test_transfer.py#/Module/5/body/0/body/1/body/0/value/func/value/id	self
+—	test_transfer.py#/Module/5/body/0/body/1/body/0/value/func/attr	assertEqual
+—	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func/value/id	_runner
+—	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func/attr	run
+—	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/0/value	'transfer.1'
+—	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/1/value	1
+—	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value/id	os
+—	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value/attr	path
+—	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/attr	dirname
+—	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0/id	__file__
+—	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/right/value	'/../../../../../../conformance'
+—	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/3/id	_relational_model
+—	test_transfer.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/4/id	_values
+—	test_transfer.py#/Module/5/body/1/name/value	test_transfer_2
+—	test_transfer.py#/Module/5/body/1/args/0/arg	self
+—	test_transfer.py#/Module/5/body/1/body/0/value/value	"""A schema's subschemas MUST be taken from its keywords in the order items, additionalItems, properties, patternProperties, additionalProperties, dependencies, if, then, else, allOf, anyOf and oneOf, and within a keyword in the order the schema writes them: the order of the subschemas."""
+—	test_transfer.py#/Module/5/body/1/body/1/items/0/context_expr/func/value/id	self
+—	test_transfer.py#/Module/5/body/1/body/1/items/0/context_expr/func/attr	subTest
+—	test_transfer.py#/Module/5/body/1/body/1/items/0/context_expr/arguments/0/arg	case
+—	test_transfer.py#/Module/5/body/1/body/1/items/0/context_expr/arguments/0/value/value	1
+—	test_transfer.py#/Module/5/body/1/body/1/body/0/value/func/value/id	self
+—	test_transfer.py#/Module/5/body/1/body/1/body/0/value/func/attr	assertEqual
+—	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/func/value/id	_runner
+—	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/func/attr	run
+—	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/0/value	'transfer.2'
+—	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/1/value	1
+—	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value/id	os
+—	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/value/attr	path
+—	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/func/attr	dirname
+—	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0/id	__file__
+—	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/2/right/value	'/../../../../../../conformance'
+—	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/3/id	_relational_model
+—	test_transfer.py#/Module/5/body/1/body/1/body/0/value/arguments/0/arguments/4/id	_values

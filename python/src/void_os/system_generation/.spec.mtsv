@@ -1,0 +1,110 @@
+1-folders
+kind	place	holds
+—	values	—
+2-modules
+kind	place	holds
+{{name}} · .py	__init__	—
+{{name}} · .py	_system_generation	—
+3-statements
+kind	place	holds
+Expr	_system_generation.py#/Module/0	—
+Assign	_system_generation.py#/Module/1	—
+Import	_system_generation.py#/Module/2	—
+Import	_system_generation.py#/Module/3	—
+ImportFrom	_system_generation.py#/Module/4	—
+ImportFrom	_system_generation.py#/Module/5	—
+FunctionDef	_system_generation.py#/Module/6	—
+Assign	_system_generation.py#/Module/6/body/0	—
+Try	_system_generation.py#/Module/6/body/1	—
+Return	_system_generation.py#/Module/6/body/1/body/0	—
+Raise	_system_generation.py#/Module/6/body/1/handlers/0/body/0	—
+ClassDef	_system_generation.py#/Module/7	—
+Expr	_system_generation.py#/Module/7/body/0	—
+4-expressions
+kind	place	holds
+Constant	_system_generation.py#/Module/0/value	—
+Name	_system_generation.py#/Module/1/targets/0	—
+List	_system_generation.py#/Module/1/value	—
+Constant	_system_generation.py#/Module/1/value/elts/0	—
+Constant	_system_generation.py#/Module/1/value/elts/1	—
+—	_system_generation.py#/Module/2/names/0	—
+—	_system_generation.py#/Module/3/names/0	—
+—	_system_generation.py#/Module/4/module	—
+—	_system_generation.py#/Module/4/names/0	—
+—	_system_generation.py#/Module/5/module	—
+—	_system_generation.py#/Module/5/names/0	—
+arg	_system_generation.py#/Module/6/args/0	—
+Attribute	_system_generation.py#/Module/6/args/0/annotation	—
+Name	_system_generation.py#/Module/6/args/0/annotation/value	—
+Subscript	_system_generation.py#/Module/6/returns	—
+Name	_system_generation.py#/Module/6/returns/value	—
+Tuple	_system_generation.py#/Module/6/returns/slice	—
+Name	_system_generation.py#/Module/6/returns/slice/elts/0	—
+Name	_system_generation.py#/Module/6/returns/slice/elts/1	—
+Name	_system_generation.py#/Module/6/body/0/targets/0	—
+Call	_system_generation.py#/Module/6/body/0/value	—
+Attribute	_system_generation.py#/Module/6/body/0/value/func	—
+Attribute	_system_generation.py#/Module/6/body/0/value/func/value	—
+Name	_system_generation.py#/Module/6/body/0/value/func/value/value	—
+Name	_system_generation.py#/Module/6/body/0/value/arguments/0	—
+Call	_system_generation.py#/Module/6/body/1/body/0/value	—
+Attribute	_system_generation.py#/Module/6/body/1/body/0/value/func	—
+Name	_system_generation.py#/Module/6/body/1/body/0/value/func/value	—
+Call	_system_generation.py#/Module/6/body/1/body/0/value/arguments/0	—
+Attribute	_system_generation.py#/Module/6/body/1/body/0/value/arguments/0/func	—
+Attribute	_system_generation.py#/Module/6/body/1/body/0/value/arguments/0/func/value	—
+Name	_system_generation.py#/Module/6/body/1/body/0/value/arguments/0/func/value/value	—
+Name	_system_generation.py#/Module/6/body/1/body/0/value/arguments/0/arguments/0	—
+Constant	_system_generation.py#/Module/6/body/1/body/0/value/arguments/0/arguments/1	—
+Name	_system_generation.py#/Module/6/body/1/body/0/value/arguments/1	—
+—	_system_generation.py#/Module/6/body/1/handlers/0	—
+Attribute	_system_generation.py#/Module/6/body/1/handlers/0/type	—
+Name	_system_generation.py#/Module/6/body/1/handlers/0/type/value	—
+Call	_system_generation.py#/Module/6/body/1/handlers/0/body/0/exc	—
+Name	_system_generation.py#/Module/6/body/1/handlers/0/body/0/exc/func	—
+Call	_system_generation.py#/Module/6/body/1/handlers/0/body/0/exc/arguments/0	—
+Name	_system_generation.py#/Module/6/body/1/handlers/0/body/0/exc/arguments/0/func	—
+Name	_system_generation.py#/Module/6/body/1/handlers/0/body/0/exc/arguments/0/arguments/0	—
+Name	_system_generation.py#/Module/7/arguments/0	—
+Constant	_system_generation.py#/Module/7/body/0/value	—
+5-texts
+kind	place	holds
+—	_system_generation.py#/Module/0/value/value	"""the decisions postponed to release, and how void-os is built, described and installed"""
+—	_system_generation.py#/Module/1/targets/0/id	__all__
+—	_system_generation.py#/Module/1/value/elts/0/value	'values'
+—	_system_generation.py#/Module/1/value/elts/1/value	'NotMTSVError'
+—	_system_generation.py#/Module/2/names/0/name	os
+—	_system_generation.py#/Module/3/names/0/name	types
+—	_system_generation.py#/Module/4/module/value	typing
+—	_system_generation.py#/Module/4/names/0/name	Any
+—	_system_generation.py#/Module/5/module/value	void_os.system_generation.values
+—	_system_generation.py#/Module/5/names/0/name	_values
+—	_system_generation.py#/Module/6/name/value	values
+—	_system_generation.py#/Module/6/args/0/arg	relational_model
+—	_system_generation.py#/Module/6/args/0/annotation/value/id	types
+—	_system_generation.py#/Module/6/args/0/annotation/attr	ModuleType
+—	_system_generation.py#/Module/6/returns/value/id	dict
+—	_system_generation.py#/Module/6/returns/slice/elts/0/id	str
+—	_system_generation.py#/Module/6/returns/slice/elts/1/id	Any
+—	_system_generation.py#/Module/6/body/0/targets/0/id	system_generation_1_module_folder
+—	_system_generation.py#/Module/6/body/0/value/func/value/value/id	os
+—	_system_generation.py#/Module/6/body/0/value/func/value/attr	path
+—	_system_generation.py#/Module/6/body/0/value/func/attr	dirname
+—	_system_generation.py#/Module/6/body/0/value/arguments/0/id	__file__
+—	_system_generation.py#/Module/6/body/1/body/0/value/func/value/id	_values
+—	_system_generation.py#/Module/6/body/1/body/0/value/func/attr	values
+—	_system_generation.py#/Module/6/body/1/body/0/value/arguments/0/func/value/value/id	os
+—	_system_generation.py#/Module/6/body/1/body/0/value/arguments/0/func/value/attr	path
+—	_system_generation.py#/Module/6/body/1/body/0/value/arguments/0/func/attr	join
+—	_system_generation.py#/Module/6/body/1/body/0/value/arguments/0/arguments/0/id	system_generation_1_module_folder
+—	_system_generation.py#/Module/6/body/1/body/0/value/arguments/0/arguments/1/value	'values'
+—	_system_generation.py#/Module/6/body/1/body/0/value/arguments/1/id	relational_model
+—	_system_generation.py#/Module/6/body/1/handlers/0/type/value/id	_values
+—	_system_generation.py#/Module/6/body/1/handlers/0/type/attr	NotMTSVError
+—	_system_generation.py#/Module/6/body/1/handlers/0/name	error
+—	_system_generation.py#/Module/6/body/1/handlers/0/body/0/exc/func/id	NotMTSVError
+—	_system_generation.py#/Module/6/body/1/handlers/0/body/0/exc/arguments/0/func/id	str
+—	_system_generation.py#/Module/6/body/1/handlers/0/body/0/exc/arguments/0/arguments/0/id	error
+—	_system_generation.py#/Module/7/name/value	NotMTSVError
+—	_system_generation.py#/Module/7/arguments/0/id	Exception
+—	_system_generation.py#/Module/7/body/0/value/value	"""An error that ends an access program a module calls MUST end the module's access as that error, by its name, unless Ended errors names a requirement that ends it otherwise or rules it out."""

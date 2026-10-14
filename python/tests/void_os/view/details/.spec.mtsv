@@ -1,0 +1,90 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .py	__init__	—
+{{name}} · .py	test_details	—
+3-statements
+kind	place	holds
+Import	test_details.py#/Module/0	—
+Import	test_details.py#/Module/1	—
+ImportFrom	test_details.py#/Module/2	—
+ImportFrom	test_details.py#/Module/3	—
+ImportFrom	test_details.py#/Module/4	—
+ClassDef	test_details.py#/Module/5	—
+FunctionDef	test_details.py#/Module/5/body/0	—
+Expr	test_details.py#/Module/5/body/0/body/0	—
+With	test_details.py#/Module/5/body/0/body/1	—
+Expr	test_details.py#/Module/5/body/0/body/1/body/0	—
+4-expressions
+kind	place	holds
+—	test_details.py#/Module/0/names/0	—
+—	test_details.py#/Module/1/names/0	—
+—	test_details.py#/Module/2/module	—
+—	test_details.py#/Module/2/names/0	—
+—	test_details.py#/Module/3/module	—
+—	test_details.py#/Module/3/names/0	—
+—	test_details.py#/Module/4/module	—
+—	test_details.py#/Module/4/names/0	—
+Attribute	test_details.py#/Module/5/arguments/0	—
+Name	test_details.py#/Module/5/arguments/0/value	—
+arg	test_details.py#/Module/5/body/0/args/0	—
+Constant	test_details.py#/Module/5/body/0/body/0/value	—
+—	test_details.py#/Module/5/body/0/body/1/items/0	—
+Call	test_details.py#/Module/5/body/0/body/1/items/0/context_expr	—
+Attribute	test_details.py#/Module/5/body/0/body/1/items/0/context_expr/func	—
+Name	test_details.py#/Module/5/body/0/body/1/items/0/context_expr/func/value	—
+keyword	test_details.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0	—
+Constant	test_details.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0/value	—
+Call	test_details.py#/Module/5/body/0/body/1/body/0/value	—
+Attribute	test_details.py#/Module/5/body/0/body/1/body/0/value/func	—
+Name	test_details.py#/Module/5/body/0/body/1/body/0/value/func/value	—
+Call	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0	—
+Attribute	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func	—
+Name	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func/value	—
+Constant	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/0	—
+Constant	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/1	—
+BinOp	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2	—
+Call	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left	—
+Attribute	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func	—
+Attribute	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value	—
+Name	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value	—
+Name	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0	—
+Add	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/op	—
+Constant	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/right	—
+Name	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/3	—
+Name	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/4	—
+List	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/1	—
+5-texts
+kind	place	holds
+—	test_details.py#/Module/0/names/0/name	unittest
+—	test_details.py#/Module/1/names/0/name	os
+—	test_details.py#/Module/2/module/value	tests.void_os.system_generation.runner
+—	test_details.py#/Module/2/names/0/name	_runner
+—	test_details.py#/Module/3/module/value	void_os.relational_model
+—	test_details.py#/Module/3/names/0/name	_relational_model
+—	test_details.py#/Module/4/module/value	void_os.system_generation.values
+—	test_details.py#/Module/4/names/0/name	_values
+—	test_details.py#/Module/5/name/value	TestDetails
+—	test_details.py#/Module/5/arguments/0/value/id	unittest
+—	test_details.py#/Module/5/arguments/0/attr	TestCase
+—	test_details.py#/Module/5/body/0/name/value	test_details_1
+—	test_details.py#/Module/5/body/0/args/0/arg	self
+—	test_details.py#/Module/5/body/0/body/0/value/value	"""details MUST give every record of the value in every sheet it gives, then its record of _stored, each sheet in its place in the order."""
+—	test_details.py#/Module/5/body/0/body/1/items/0/context_expr/func/value/id	self
+—	test_details.py#/Module/5/body/0/body/1/items/0/context_expr/func/attr	subTest
+—	test_details.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0/arg	case
+—	test_details.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0/value/value	1
+—	test_details.py#/Module/5/body/0/body/1/body/0/value/func/value/id	self
+—	test_details.py#/Module/5/body/0/body/1/body/0/value/func/attr	assertEqual
+—	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func/value/id	_runner
+—	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func/attr	run
+—	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/0/value	'details.1'
+—	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/1/value	1
+—	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value/id	os
+—	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value/attr	path
+—	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/attr	dirname
+—	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0/id	__file__
+—	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/right/value	'/../../../../../conformance'
+—	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/3/id	_relational_model
+—	test_details.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/4/id	_values

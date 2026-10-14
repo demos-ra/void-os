@@ -1,0 +1,434 @@
+1-folders
+kind	place	holds
+—	file	—
+—	sheet	—
+—	record	—
+—	field	—
+2-modules
+kind	place	holds
+{{name}} · .js	output	—
+3-statements
+kind	place	holds
+ImportDeclaration	output.js#/SourceFile/0	—
+ImportDeclaration	output.js#/SourceFile/1	—
+ImportDeclaration	output.js#/SourceFile/2	—
+ImportDeclaration	output.js#/SourceFile/3	—
+FunctionDeclaration · Body	output.js#/SourceFile/4	—
+ReturnStatement	output.js#/SourceFile/4/Body/0	—
+FunctionDeclaration · Body	output.js#/SourceFile/5	—
+VariableStatement	output.js#/SourceFile/5/Body/0	—
+VariableStatement	output.js#/SourceFile/5/Body/1	—
+VariableStatement	output.js#/SourceFile/5/Body/2	—
+VariableStatement	output.js#/SourceFile/5/Body/3	—
+ForOfStatement	output.js#/SourceFile/5/Body/4	—
+VariableStatement	output.js#/SourceFile/5/Body/4/Statement/0	—
+ExpressionStatement	output.js#/SourceFile/5/Body/4/Statement/1	—
+ForOfStatement	output.js#/SourceFile/5/Body/5	—
+ExpressionStatement	output.js#/SourceFile/5/Body/5/Statement/0	—
+ReturnStatement	output.js#/SourceFile/5/Body/6	—
+4-expressions
+kind	place	holds
+ImportClause · NamedBindings	output.js#/SourceFile/0/ImportClause	—
+NamespaceImport	output.js#/SourceFile/0/ImportClause/NamedBindings	—
+StringLiteral	output.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	output.js#/SourceFile/1/ImportClause	—
+NamespaceImport	output.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	output.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	output.js#/SourceFile/2/ImportClause	—
+NamespaceImport	output.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	output.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	output.js#/SourceFile/3/ImportClause	—
+NamespaceImport	output.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	output.js#/SourceFile/3/ModuleSpecifier	—
+ExportKeyword	output.js#/SourceFile/4/modifiers/0	—
+—	output.js#/SourceFile/4/name	—
+—	output.js#/SourceFile/4/Parameters/0	—
+Identifier	output.js#/SourceFile/4/Parameters/0/name	—
+—	output.js#/SourceFile/4/Parameters/1	—
+Identifier	output.js#/SourceFile/4/Parameters/1/name	—
+CallExpression	output.js#/SourceFile/4/Body/0/Expression	—
+PropertyAccessExpression · DotToken	output.js#/SourceFile/4/Body/0/Expression/Expression	—
+Identifier	output.js#/SourceFile/4/Body/0/Expression/Expression/Expression	—
+Identifier	output.js#/SourceFile/4/Body/0/Expression/Expression/name	—
+Identifier	output.js#/SourceFile/4/Body/0/Expression/Arguments/0	—
+ExportKeyword	output.js#/SourceFile/5/modifiers/0	—
+—	output.js#/SourceFile/5/name	—
+—	output.js#/SourceFile/5/Parameters/0	—
+Identifier	output.js#/SourceFile/5/Parameters/0/name	—
+—	output.js#/SourceFile/5/Parameters/1	—
+Identifier	output.js#/SourceFile/5/Parameters/1/name	—
+—	output.js#/SourceFile/5/Parameters/2	—
+Identifier	output.js#/SourceFile/5/Parameters/2/name	—
+ConstKeyword	output.js#/SourceFile/5/Body/0/DeclarationList/Flags/0	—
+—	output.js#/SourceFile/5/Body/0/DeclarationList/Declarations/0	—
+Identifier	output.js#/SourceFile/5/Body/0/DeclarationList/Declarations/0/name	—
+CallExpression	output.js#/SourceFile/5/Body/0/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	output.js#/SourceFile/5/Body/0/DeclarationList/Declarations/0/Initializer/Expression	—
+Identifier	output.js#/SourceFile/5/Body/0/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	output.js#/SourceFile/5/Body/0/DeclarationList/Declarations/0/Initializer/Expression/name	—
+ElementAccessExpression	output.js#/SourceFile/5/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+Identifier	output.js#/SourceFile/5/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression	—
+NumericLiteral	output.js#/SourceFile/5/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/ArgumentExpression	—
+Identifier	output.js#/SourceFile/5/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/1	—
+ConstKeyword	output.js#/SourceFile/5/Body/1/DeclarationList/Flags/0	—
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0	—
+Identifier	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/name	—
+NewExpression	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer	—
+Identifier	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Expression	—
+CallExpression	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+PropertyAccessExpression · DotToken	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression	—
+PropertyAccessExpression · DotToken	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression	—
+ElementAccessExpression	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/Expression	—
+Identifier	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/Expression/Expression	—
+NumericLiteral	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/Expression/ArgumentExpression	—
+Identifier	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/name	—
+Identifier	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/name	—
+ArrowFunction · Expression	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0	—
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Parameters/0	—
+Identifier	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Parameters/0/name	—
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Parameters/1	—
+Identifier	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Parameters/1/name	—
+ArrayLiteralExpression	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body	—
+BinaryExpression	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0	—
+BinaryExpression	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left	—
+BinaryExpression	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left	—
+BinaryExpression	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Left	—
+BinaryExpression	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Left/Left	—
+BinaryExpression	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Left/Left/Left	—
+ElementAccessExpression	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Left/Left/Left/Left	—
+Identifier	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Left/Left/Left/Left/Expression	—
+NumericLiteral	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Left/Left/Left/Left/ArgumentExpression	—
+PlusToken	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Left/Left/Left/OperatorToken	—
+StringLiteral	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Left/Left/Left/Right	—
+PlusToken	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Left/Left/OperatorToken	—
+ElementAccessExpression	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Left/Left/Right	—
+Identifier	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Left/Left/Right/Expression	—
+NumericLiteral	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Left/Left/Right/ArgumentExpression	—
+PlusToken	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Left/OperatorToken	—
+StringLiteral	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Left/Right	—
+PlusToken	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/OperatorToken	—
+ElementAccessExpression	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Right	—
+Identifier	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Right/Expression	—
+NumericLiteral	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Right/ArgumentExpression	—
+PlusToken	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/OperatorToken	—
+StringLiteral	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Right	—
+PlusToken	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/OperatorToken	—
+ElementAccessExpression	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Right	—
+Identifier	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Right/Expression	—
+NumericLiteral	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Right/ArgumentExpression	—
+ElementAccessExpression	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1	—
+ElementAccessExpression	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/Expression	—
+PropertyAccessExpression · DotToken	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/Expression/Expression	—
+ElementAccessExpression	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/Expression/Expression/Expression	—
+Identifier	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/Expression/Expression/Expression/Expression	—
+NumericLiteral	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/Expression/Expression/Expression/ArgumentExpression	—
+Identifier	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/Expression/Expression/name	—
+Identifier	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/Expression/ArgumentExpression	—
+NumericLiteral	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/ArgumentExpression	—
+ConstKeyword	output.js#/SourceFile/5/Body/2/DeclarationList/Flags/0	—
+—	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0	—
+Identifier	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/name	—
+CallExpression	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Expression	—
+Identifier	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Expression/name	—
+ArrayLiteralExpression	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+ElementAccessExpression	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/0	—
+Identifier	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/0/Expression	—
+NumericLiteral	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/0/ArgumentExpression	—
+ElementAccessExpression	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/1	—
+Identifier	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/1/Expression	—
+NumericLiteral	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/1/ArgumentExpression	—
+ElementAccessExpression	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/2	—
+Identifier	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/2/Expression	—
+NumericLiteral	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/2/ArgumentExpression	—
+ElementAccessExpression	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/3	—
+Identifier	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/3/Expression	—
+NumericLiteral	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/3/ArgumentExpression	—
+ConstKeyword	output.js#/SourceFile/5/Body/3/DeclarationList/Flags/0	—
+—	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0	—
+Identifier	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/name	—
+CallExpression	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Expression	—
+Identifier	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Expression/name	—
+ArrayLiteralExpression	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+ElementAccessExpression	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/0	—
+Identifier	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/0/Expression	—
+NumericLiteral	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/0/ArgumentExpression	—
+ElementAccessExpression	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/1	—
+Identifier	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/1/Expression	—
+NumericLiteral	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/1/ArgumentExpression	—
+ElementAccessExpression	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/2	—
+Identifier	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/2/Expression	—
+NumericLiteral	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/2/ArgumentExpression	—
+ElementAccessExpression	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/3	—
+Identifier	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/3/Expression	—
+NumericLiteral	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/3/ArgumentExpression	—
+ElementAccessExpression	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/4	—
+Identifier	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/4/Expression	—
+NumericLiteral	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/4/ArgumentExpression	—
+VariableDeclarationList	output.js#/SourceFile/5/Body/4/Initializer	—
+ConstKeyword	output.js#/SourceFile/5/Body/4/Initializer/Flags/0	—
+—	output.js#/SourceFile/5/Body/4/Initializer/Declarations/0	—
+ArrayBindingPattern	output.js#/SourceFile/5/Body/4/Initializer/Declarations/0/name	—
+—	output.js#/SourceFile/5/Body/4/Initializer/Declarations/0/name/Elements/0	—
+Identifier	output.js#/SourceFile/5/Body/4/Initializer/Declarations/0/name/Elements/0/name	—
+—	output.js#/SourceFile/5/Body/4/Initializer/Declarations/0/name/Elements/1	—
+Identifier	output.js#/SourceFile/5/Body/4/Initializer/Declarations/0/name/Elements/1/name	—
+CallExpression	output.js#/SourceFile/5/Body/4/Expression	—
+PropertyAccessExpression · DotToken	output.js#/SourceFile/5/Body/4/Expression/Expression	—
+Identifier	output.js#/SourceFile/5/Body/4/Expression/Expression/Expression	—
+Identifier	output.js#/SourceFile/5/Body/4/Expression/Expression/name	—
+ConstKeyword	output.js#/SourceFile/5/Body/4/Statement/0/DeclarationList/Flags/0	—
+—	output.js#/SourceFile/5/Body/4/Statement/0/DeclarationList/Declarations/0	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/0/DeclarationList/Declarations/0/name	—
+ConditionalExpression	output.js#/SourceFile/5/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer	—
+BinaryExpression	output.js#/SourceFile/5/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/Condition	—
+ElementAccessExpression	output.js#/SourceFile/5/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/Condition/Left	—
+PropertyAccessExpression · DotToken	output.js#/SourceFile/5/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression/Expression	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression/name	—
+NumericLiteral	output.js#/SourceFile/5/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/Condition/Left/ArgumentExpression	—
+EqualsEqualsEqualsToken	output.js#/SourceFile/5/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/Condition/OperatorToken	—
+StringLiteral	output.js#/SourceFile/5/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/Condition/Right	—
+NumericLiteral	output.js#/SourceFile/5/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue	—
+NumericLiteral	output.js#/SourceFile/5/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse	—
+BinaryExpression	output.js#/SourceFile/5/Body/4/Statement/1/Expression	—
+PropertyAccessExpression · DotToken	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Left	—
+ElementAccessExpression	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Left/Expression	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Left/Expression/Expression	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Left/Expression/ArgumentExpression	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Left/name	—
+EqualsToken	output.js#/SourceFile/5/Body/4/Statement/1/Expression/OperatorToken	—
+CallExpression	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right	—
+PropertyAccessExpression · DotToken	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Expression	—
+PropertyAccessExpression · DotToken	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Expression/Expression	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Expression/Expression/Expression	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Expression/Expression/name	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Expression/name	—
+ArrowFunction · Expression	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0	—
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Parameters/0	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Parameters/0/name	—
+CallExpression	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body	—
+PropertyAccessExpression · DotToken	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Expression	—
+CallExpression	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Expression/Expression	—
+PropertyAccessExpression · DotToken	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Expression/Expression/Expression	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Expression/Expression/Expression/Expression	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Expression/Expression/Expression/name	—
+NumericLiteral	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Expression/Expression/Arguments/0	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Expression/Expression/Arguments/1	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Expression/name	—
+CallExpression	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0	—
+PropertyAccessExpression · DotToken	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Expression	—
+CallExpression	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Expression/Expression/Expression	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Expression/Expression/Expression/Expression	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Expression/Expression/Expression/name	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Expression/Expression/Arguments/0	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Expression/name	—
+ArrowFunction · Expression	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0	—
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Parameters/0	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Parameters/0/name	—
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Parameters/1	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Parameters/1/name	—
+BinaryExpression	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body	—
+CallExpression	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left	—
+PropertyAccessExpression · DotToken	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Expression	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Expression/Expression	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Expression/name	—
+BinaryExpression	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0	—
+BinaryExpression	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left	—
+BinaryExpression	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Left	—
+BinaryExpression	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Left/Left	—
+BinaryExpression	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Left/Left/Left	—
+BinaryExpression	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Left/Left/Left/Left	—
+ElementAccessExpression	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Left/Left/Left/Left/Left	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Left/Left/Left/Left/Left/Expression	—
+StringLiteral	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Left/Left/Left/Left/Left/ArgumentExpression	—
+PlusToken	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Left/Left/Left/Left/OperatorToken	—
+StringLiteral	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Left/Left/Left/Left/Right	—
+PlusToken	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Left/Left/Left/OperatorToken	—
+ElementAccessExpression	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Left/Left/Left/Right	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Left/Left/Left/Right/Expression	—
+NumericLiteral	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Left/Left/Left/Right/ArgumentExpression	—
+PlusToken	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Left/Left/OperatorToken	—
+StringLiteral	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Left/Left/Right	—
+PlusToken	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Left/OperatorToken	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Left/Right	—
+PlusToken	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/OperatorToken	—
+StringLiteral	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Right	—
+PlusToken	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/OperatorToken	—
+ElementAccessExpression	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Right	—
+PropertyAccessExpression · DotToken	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Right/Expression	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Right/Expression/Expression	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Right/Expression/name	—
+BinaryExpression	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Right/ArgumentExpression	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Right/ArgumentExpression/Left	—
+PlusToken	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Right/ArgumentExpression/OperatorToken	—
+Identifier	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Right/ArgumentExpression/Right	—
+QuestionQuestionToken	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/OperatorToken	—
+StringLiteral	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Right	—
+VariableDeclarationList	output.js#/SourceFile/5/Body/5/Initializer	—
+ConstKeyword	output.js#/SourceFile/5/Body/5/Initializer/Flags/0	—
+—	output.js#/SourceFile/5/Body/5/Initializer/Declarations/0	—
+Identifier	output.js#/SourceFile/5/Body/5/Initializer/Declarations/0/name	—
+CallExpression	output.js#/SourceFile/5/Body/5/Expression	—
+PropertyAccessExpression · DotToken	output.js#/SourceFile/5/Body/5/Expression/Expression	—
+Identifier	output.js#/SourceFile/5/Body/5/Expression/Expression/Expression	—
+Identifier	output.js#/SourceFile/5/Body/5/Expression/Expression/name	—
+PropertyAccessExpression · DotToken	output.js#/SourceFile/5/Body/5/Expression/Arguments/0	—
+Identifier	output.js#/SourceFile/5/Body/5/Expression/Arguments/0/Expression	—
+Identifier	output.js#/SourceFile/5/Body/5/Expression/Arguments/0/name	—
+BinaryExpression	output.js#/SourceFile/5/Body/5/Statement/0/Expression	—
+PropertyAccessExpression · DotToken	output.js#/SourceFile/5/Body/5/Statement/0/Expression/Left	—
+Identifier	output.js#/SourceFile/5/Body/5/Statement/0/Expression/Left/Expression	—
+Identifier	output.js#/SourceFile/5/Body/5/Statement/0/Expression/Left/name	—
+EqualsToken	output.js#/SourceFile/5/Body/5/Statement/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	output.js#/SourceFile/5/Body/5/Statement/0/Expression/Right	—
+ElementAccessExpression	output.js#/SourceFile/5/Body/5/Statement/0/Expression/Right/Expression	—
+Identifier	output.js#/SourceFile/5/Body/5/Statement/0/Expression/Right/Expression/Expression	—
+NumericLiteral	output.js#/SourceFile/5/Body/5/Statement/0/Expression/Right/Expression/ArgumentExpression	—
+Identifier	output.js#/SourceFile/5/Body/5/Statement/0/Expression/Right/name	—
+CallExpression	output.js#/SourceFile/5/Body/6/Expression	—
+PropertyAccessExpression · DotToken	output.js#/SourceFile/5/Body/6/Expression/Expression	—
+Identifier	output.js#/SourceFile/5/Body/6/Expression/Expression/Expression	—
+Identifier	output.js#/SourceFile/5/Body/6/Expression/Expression/name	—
+CallExpression	output.js#/SourceFile/5/Body/6/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	output.js#/SourceFile/5/Body/6/Expression/Arguments/0/Expression	—
+Identifier	output.js#/SourceFile/5/Body/6/Expression/Arguments/0/Expression/Expression	—
+Identifier	output.js#/SourceFile/5/Body/6/Expression/Arguments/0/Expression/name	—
+Identifier	output.js#/SourceFile/5/Body/6/Expression/Arguments/0/Arguments/0	—
+5-texts
+kind	place	holds
+—	output.js#/SourceFile/0/ImportClause/NamedBindings/name/Text	field
+—	output.js#/SourceFile/0/ModuleSpecifier/Text	'./field/field.js'
+—	output.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	file
+—	output.js#/SourceFile/1/ModuleSpecifier/Text	'./file/file.js'
+—	output.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	record
+—	output.js#/SourceFile/2/ModuleSpecifier/Text	'./record/record.js'
+—	output.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	sheet
+—	output.js#/SourceFile/3/ModuleSpecifier/Text	'./sheet/sheet.js'
+—	output.js#/SourceFile/4/name/Text	sheets
+—	output.js#/SourceFile/4/Parameters/0/name/Text	layout
+—	output.js#/SourceFile/4/Parameters/1/name/Text	relationalModel
+—	output.js#/SourceFile/4/Body/0/Expression/Expression/Expression/Text	sheet
+—	output.js#/SourceFile/4/Body/0/Expression/Expression/name/Text	sheets
+—	output.js#/SourceFile/4/Body/0/Expression/Arguments/0/Text	layout
+—	output.js#/SourceFile/5/name/Text	write
+—	output.js#/SourceFile/5/Parameters/0/name/Text	transferred
+—	output.js#/SourceFile/5/Parameters/1/name/Text	input
+—	output.js#/SourceFile/5/Parameters/2/name/Text	relationalModel
+—	output.js#/SourceFile/5/Body/0/DeclarationList/Declarations/0/name/Text	fields
+—	output.js#/SourceFile/5/Body/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Text	field
+—	output.js#/SourceFile/5/Body/0/DeclarationList/Declarations/0/Initializer/Expression/name/Text	fields
+—	output.js#/SourceFile/5/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Text	transferred
+—	output.js#/SourceFile/5/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/ArgumentExpression/Text	5
+—	output.js#/SourceFile/5/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/1/Text	input
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/name/Text	texts
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Expression/Text	Map
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/Expression/Expression/Text	transferred
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/Expression/ArgumentExpression/Text	5
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/name/Text	records
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/name/Text	map
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Parameters/0/name/Text	cell
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Parameters/1/name/Text	index
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Left/Left/Left/Left/Expression/Text	cell
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Left/Left/Left/Left/ArgumentExpression/Text	0
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Left/Left/Left/Right/Text	'\\n'
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Left/Left/Right/Expression/Text	cell
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Left/Left/Right/ArgumentExpression/Text	1
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Left/Right/Text	'\\n'
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Right/Expression/Text	cell
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Left/Right/ArgumentExpression/Text	4
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Left/Right/Text	'\\n'
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Right/Expression/Text	cell
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Right/ArgumentExpression/Text	3
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/Expression/Expression/Expression/Expression/Text	fields
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/Expression/Expression/Expression/ArgumentExpression/Text	0
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/Expression/Expression/name/Text	records
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/Expression/ArgumentExpression/Text	index
+—	output.js#/SourceFile/5/Body/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/ArgumentExpression/Text	4
+—	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/name/Text	held
+—	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Expression/Expression/Text	record
+—	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Expression/name/Text	records
+—	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/0/Expression/Text	transferred
+—	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/0/ArgumentExpression/Text	4
+—	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/1/Expression/Text	transferred
+—	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/1/ArgumentExpression/Text	5
+—	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/2/Expression/Text	transferred
+—	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/2/ArgumentExpression/Text	6
+—	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/3/Expression/Text	transferred
+—	output.js#/SourceFile/5/Body/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/3/ArgumentExpression/Text	7
+—	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/name/Text	sheets
+—	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Expression/Expression/Text	sheet
+—	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Expression/name/Text	sheets
+—	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/0/Expression/Text	transferred
+—	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/0/ArgumentExpression/Text	0
+—	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/1/Expression/Text	transferred
+—	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/1/ArgumentExpression/Text	1
+—	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/2/Expression/Text	transferred
+—	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/2/ArgumentExpression/Text	2
+—	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/3/Expression/Text	transferred
+—	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/3/ArgumentExpression/Text	3
+—	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/4/Expression/Text	transferred
+—	output.js#/SourceFile/5/Body/3/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/4/ArgumentExpression/Text	7
+—	output.js#/SourceFile/5/Body/4/Initializer/Declarations/0/name/Elements/0/name/Text	index
+—	output.js#/SourceFile/5/Body/4/Initializer/Declarations/0/name/Elements/1/name/Text	relation
+—	output.js#/SourceFile/5/Body/4/Expression/Expression/Expression/Text	held
+—	output.js#/SourceFile/5/Body/4/Expression/Expression/name/Text	entries
+—	output.js#/SourceFile/5/Body/4/Statement/0/DeclarationList/Declarations/0/name/Text	count
+—	output.js#/SourceFile/5/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression/Expression/Text	relation
+—	output.js#/SourceFile/5/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression/name/Text	header
+—	output.js#/SourceFile/5/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/Condition/Left/ArgumentExpression/Text	1
+—	output.js#/SourceFile/5/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/Condition/Right/Text	'_instance'
+—	output.js#/SourceFile/5/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Text	4
+—	output.js#/SourceFile/5/Body/4/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Text	1
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Left/Expression/Expression/Text	sheets
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Left/Expression/ArgumentExpression/Text	index
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Left/name/Text	records
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Expression/Expression/Expression/Text	relation
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Expression/Expression/name/Text	records
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Expression/name/Text	map
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Parameters/0/name/Text	row
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Expression/Expression/Expression/Expression/Text	row
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Expression/Expression/Expression/name/Text	slice
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Expression/Expression/Arguments/0/Text	0
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Expression/Expression/Arguments/1/Text	count
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Expression/name/Text	concat
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Expression/Expression/Expression/Expression/Text	row
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Expression/Expression/Expression/name/Text	slice
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Expression/Expression/Arguments/0/Text	count
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Expression/name/Text	map
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Parameters/0/name/Text	value
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Parameters/1/name/Text	position
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Expression/Expression/Text	texts
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Expression/name/Text	get
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Left/Left/Left/Left/Left/Expression/Text	relation
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Left/Left/Left/Left/Left/ArgumentExpression/Text	'sheet name'
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Left/Left/Left/Left/Right/Text	'\\n'
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Left/Left/Left/Right/Expression/Text	row
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Left/Left/Left/Right/ArgumentExpression/Text	0
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Left/Left/Right/Text	'\\n'
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Left/Right/Text	value
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Left/Right/Text	'\\n'
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Right/Expression/Expression/Text	relation
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Right/Expression/name/Text	header
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Right/ArgumentExpression/Left/Text	count
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Left/Arguments/0/Right/ArgumentExpression/Right/Text	position
+—	output.js#/SourceFile/5/Body/4/Statement/1/Expression/Right/Arguments/0/Body/Arguments/0/Arguments/0/Body/Right/Text	''
+—	output.js#/SourceFile/5/Body/5/Initializer/Declarations/0/name/Text	named
+—	output.js#/SourceFile/5/Body/5/Expression/Expression/Expression/Text	sheets
+—	output.js#/SourceFile/5/Body/5/Expression/Expression/name/Text	slice
+—	output.js#/SourceFile/5/Body/5/Expression/Arguments/0/Expression/Text	held
+—	output.js#/SourceFile/5/Body/5/Expression/Arguments/0/name/Text	length
+—	output.js#/SourceFile/5/Body/5/Statement/0/Expression/Left/Expression/Text	named
+—	output.js#/SourceFile/5/Body/5/Statement/0/Expression/Left/name/Text	records
+—	output.js#/SourceFile/5/Body/5/Statement/0/Expression/Right/Expression/Expression/Text	fields
+—	output.js#/SourceFile/5/Body/5/Statement/0/Expression/Right/Expression/ArgumentExpression/Text	1
+—	output.js#/SourceFile/5/Body/5/Statement/0/Expression/Right/name/Text	records
+—	output.js#/SourceFile/5/Body/6/Expression/Expression/Expression/Text	relationalModel
+—	output.js#/SourceFile/5/Body/6/Expression/Expression/name/Text	dumps
+—	output.js#/SourceFile/5/Body/6/Expression/Arguments/0/Expression/Expression/Text	file
+—	output.js#/SourceFile/5/Body/6/Expression/Arguments/0/Expression/name/Text	file
+—	output.js#/SourceFile/5/Body/6/Expression/Arguments/0/Arguments/0/Text	sheets

@@ -1,0 +1,41 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+overview.1	1	void-os	void-os			true		the overview holds one record for each input of _inputs, its values as _inputs gives them, and its first, last and activity from its days
+overview.2	1	void-os	void-os			true		activity holds one block a day from first to last, its rank 8n divided by m, rounded up, and a space for a day with none
+arguments
+requirement	case	position	item	value
+overview.1	1	1	0	view
+overview.2	1	1	0	view
+environment
+requirement	case	name	value
+overview.1	1	VOID_OS_DATA_BANK	$PWD/bank
+overview.2	1	VOID_OS_DATA_BANK	$PWD/bank
+fixtures
+fixture	sheet	record	field	value
+overview three	1	0	1	overview
+overview three	1	1	1	input
+overview three	1	1	2	values
+overview three	1	1	3	first
+overview three	1	1	4	last
+overview three	1	1	5	activity
+overview three	1	2	1	/w
+overview three	1	2	2	3
+overview three	1	2	3	2026-10-01
+overview three	1	2	4	2026-10-03
+overview three	1	2	5	█ ▄
+placed
+requirement	case	when	pathname	fixture
+overview.1	1	before	$PWD/bank/w.mtsv	two values input
+overview.1	1	before	$PWD/bank/_stored.mtsv	w _stored
+overview.1	1	before	$PWD/bank/_sheets.mtsv	w _sheets
+overview.1	1	before	$PWD/bank/_fields.mtsv	w _fields
+overview.1	1	after	-	overview w
+overview.2	1	before	$PWD/bank/w.mtsv	three values input
+overview.2	1	before	$PWD/bank/_stored.mtsv	three _stored
+overview.2	1	before	$PWD/bank/_sheets.mtsv	w _sheets
+overview.2	1	before	$PWD/bank/_fields.mtsv	w _fields
+overview.2	1	after	-	overview three
+results
+requirement	case	position	item	value
+overview.1	1	1	0	0
+overview.2	1	1	0	0

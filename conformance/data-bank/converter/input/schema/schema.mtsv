@@ -1,0 +1,71 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+schema.1	1	converter	convert	non-conforming				a schema not valid against the draft-07 metaschema is rejected
+schema.2	1	converter	convert	non-conforming	0 #/a			an input value that fails an assertion is rejected
+schema.3	1	converter	convert	non-conforming				a root schema with no title is rejected
+schema.4	1	converter	convert	non-conforming				a name that holds HT is rejected
+schema.5	1	converter	convert	non-conforming				a regular expression beyond the tokens schema authors should limit themselves to is rejected
+schema.17	1	converter	convert					schema gives each $ref with the schema it references, its fragment percent-decoded: the kind a%20b names is written to its own sheet
+schema.6	1	converter	convert	non-conforming				a $ref outside the supplied schema is rejected
+schema.7	1	converter	convert	non-conforming				a $ref whose fragment is not a JSON Pointer is rejected
+schema.8	1	converter	convert	non-conforming				a $ref that reaches again, at the same location, a schema it is applied from is rejected
+schema.9	1	converter	convert	non-conforming				a module specification that breaks the schema rules is rejected
+schema.11	1	converter	convert	non-conforming	0 #/p			a $ref is applied as the schema it references: a value that schema rejects is rejected
+schema.13	1	converter	convert	non-conforming	0 #/a			every assertion of the schema is applied in validation
+schema.16	1	converter	convert					format is not asserted
+arguments
+requirement	case	position	item	value
+schema.1	1	1	0	
+schema.1	1	2	0	{"title": "t", "type": "objekt"}
+schema.1	1	3	0	0
+schema.2	1	1	1	{"a": 1}
+schema.2	1	2	0	{"title": "t", "type": "object", "properties": {"a": {"type": "string"}}, "required": ["a"]}
+schema.2	1	3	0	0
+schema.3	1	1	0	
+schema.3	1	2	0	{"type": "object"}
+schema.3	1	3	0	0
+schema.4	1	1	0	
+schema.4	1	2	0	{"title": "t\tx", "type": "object"}
+schema.4	1	3	0	0
+schema.5	1	1	0	
+schema.5	1	2	0	{"title": "t", "type": "object", "properties": {"a": {"type": "string", "pattern": "(?=x)"}}}
+schema.5	1	3	0	0
+schema.17	1	1	1	{"p": {"v": "x"}}
+schema.17	1	2	0	{"title": "t", "type": "object", "definitions": {"a b": {"title": "k", "type": "object", "properties": {"v": {"type": "string"}}, "required": ["v"]}}, "properties": {"p": {"$ref": "#/definitions/a%20b"}}, "required": ["p"]}
+schema.17	1	3	0	0
+schema.6	1	1	0	
+schema.6	1	2	0	{"title": "t", "$ref": "other.json"}
+schema.6	1	3	0	0
+schema.7	1	1	0	
+schema.7	1	2	0	{"title": "t", "definitions": {"d": {"type": "string"}}, "$ref": "#d"}
+schema.7	1	3	0	0
+schema.8	1	1	0	
+schema.8	1	2	0	{"title": "t", "allOf": [{"$ref": "#"}]}
+schema.8	1	3	0	0
+schema.9	1	1	0	
+schema.9	1	2	0	{"title": 1}
+schema.9	1	3	0	0
+schema.11	1	1	1	{"p": 1}
+schema.11	1	2	0	{"title": "t", "type": "object", "definitions": {"a b": {"type": "string"}}, "properties": {"p": {"$ref": "#/definitions/a%20b"}}, "required": ["p"]}
+schema.11	1	3	0	0
+schema.13	1	1	1	{"a": "x"}
+schema.13	1	2	0	{"title": "t", "type": "object", "properties": {"a": {"type": "string", "minLength": 2}}, "required": ["a"]}
+schema.13	1	3	0	0
+schema.16	1	1	1	{"a": "not an email"}
+schema.16	1	2	0	{"title": "t", "type": "object", "properties": {"a": {"type": "string", "format": "email"}}, "required": ["a"]}
+schema.16	1	3	0	0
+fixtures
+fixture	sheet	record	field	value
+t a not an email	1	0	1	t
+t a not an email	1	1	1	_input value
+t a not an email	1	1	2	a
+t a not an email	1	2	1	0
+t a not an email	1	2	2	not an email
+placed
+requirement	case	when	pathname	fixture
+schema.17	1	after	result 1	t and kind k
+schema.16	1	after	result 1	t a not an email
+results
+requirement	case	position	item	value
+schema.17	1	2	0	
+schema.16	1	2	0	

@@ -1,0 +1,24 @@
+1-folders
+kind	place	holds
+—	src	—
+—	tests	—
+2-modules
+kind	place	holds
+{{name}} · .toml	pyproject	—
+3-statements
+kind	place	holds
+std-table	pyproject.toml#/toml/0	—
+keyval	pyproject.toml#/toml/1	—
+4-expressions
+kind	place	holds
+dotted-key	pyproject.toml#/toml/0/key	—
+unquoted-key	pyproject.toml#/toml/0/key/keys/0	—
+unquoted-key	pyproject.toml#/toml/0/key/keys/1	—
+unquoted-key	pyproject.toml#/toml/1/key	—
+basic-string	pyproject.toml#/toml/1/val	—
+5-texts
+kind	place	holds
+—	pyproject.toml#/toml/0/key/keys/0/value	project
+—	pyproject.toml#/toml/0/key/keys/1/value	scripts
+—	pyproject.toml#/toml/1/key/value	void-os
+—	pyproject.toml#/toml/1/val/value	void_os._void_os:void_os

@@ -1,0 +1,619 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .js	schema.test	—
+3-statements
+kind	place	holds
+ImportDeclaration	schema.test.js#/SourceFile/0	—
+ImportDeclaration	schema.test.js#/SourceFile/1	—
+ImportDeclaration	schema.test.js#/SourceFile/2	—
+ImportDeclaration	schema.test.js#/SourceFile/3	—
+ExpressionStatement	schema.test.js#/SourceFile/4	—
+ExpressionStatement	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0	—
+ExpressionStatement	schema.test.js#/SourceFile/5	—
+ExpressionStatement	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0	—
+ExpressionStatement	schema.test.js#/SourceFile/6	—
+ExpressionStatement	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0	—
+ExpressionStatement	schema.test.js#/SourceFile/7	—
+ExpressionStatement	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0	—
+ExpressionStatement	schema.test.js#/SourceFile/8	—
+ExpressionStatement	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0	—
+ExpressionStatement	schema.test.js#/SourceFile/9	—
+ExpressionStatement	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0	—
+ExpressionStatement	schema.test.js#/SourceFile/10	—
+ExpressionStatement	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0	—
+ExpressionStatement	schema.test.js#/SourceFile/11	—
+ExpressionStatement	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0	—
+ExpressionStatement	schema.test.js#/SourceFile/12	—
+ExpressionStatement	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0	—
+ExpressionStatement	schema.test.js#/SourceFile/13	—
+ExpressionStatement	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0	—
+ExpressionStatement	schema.test.js#/SourceFile/14	—
+ExpressionStatement	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0	—
+ExpressionStatement	schema.test.js#/SourceFile/15	—
+ExpressionStatement	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0	—
+ExpressionStatement	schema.test.js#/SourceFile/16	—
+ExpressionStatement	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0	—
+4-expressions
+kind	place	holds
+ImportClause · name	schema.test.js#/SourceFile/0/ImportClause	—
+StringLiteral	schema.test.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	schema.test.js#/SourceFile/1/ImportClause	—
+NamespaceImport	schema.test.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	schema.test.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	schema.test.js#/SourceFile/2/ImportClause	—
+NamespaceImport	schema.test.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	schema.test.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	schema.test.js#/SourceFile/3/ImportClause	—
+NamespaceImport	schema.test.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	schema.test.js#/SourceFile/3/ModuleSpecifier	—
+CallExpression	schema.test.js#/SourceFile/4/Expression	—
+Identifier	schema.test.js#/SourceFile/4/Expression/Expression	—
+StringLiteral	schema.test.js#/SourceFile/4/Expression/Arguments/0	—
+ArrowFunction · Block	schema.test.js#/SourceFile/4/Expression/Arguments/1	—
+—	schema.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0	—
+Identifier	schema.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	schema.test.js#/SourceFile/5/Expression	—
+Identifier	schema.test.js#/SourceFile/5/Expression/Expression	—
+StringLiteral	schema.test.js#/SourceFile/5/Expression/Arguments/0	—
+ArrowFunction · Block	schema.test.js#/SourceFile/5/Expression/Arguments/1	—
+—	schema.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0	—
+Identifier	schema.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	schema.test.js#/SourceFile/6/Expression	—
+Identifier	schema.test.js#/SourceFile/6/Expression/Expression	—
+StringLiteral	schema.test.js#/SourceFile/6/Expression/Arguments/0	—
+ArrowFunction · Block	schema.test.js#/SourceFile/6/Expression/Arguments/1	—
+—	schema.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0	—
+Identifier	schema.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	schema.test.js#/SourceFile/7/Expression	—
+Identifier	schema.test.js#/SourceFile/7/Expression/Expression	—
+StringLiteral	schema.test.js#/SourceFile/7/Expression/Arguments/0	—
+ArrowFunction · Block	schema.test.js#/SourceFile/7/Expression/Arguments/1	—
+—	schema.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0	—
+Identifier	schema.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	schema.test.js#/SourceFile/8/Expression	—
+Identifier	schema.test.js#/SourceFile/8/Expression/Expression	—
+StringLiteral	schema.test.js#/SourceFile/8/Expression/Arguments/0	—
+ArrowFunction · Block	schema.test.js#/SourceFile/8/Expression/Arguments/1	—
+—	schema.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0	—
+Identifier	schema.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	schema.test.js#/SourceFile/9/Expression	—
+Identifier	schema.test.js#/SourceFile/9/Expression/Expression	—
+StringLiteral	schema.test.js#/SourceFile/9/Expression/Arguments/0	—
+ArrowFunction · Block	schema.test.js#/SourceFile/9/Expression/Arguments/1	—
+—	schema.test.js#/SourceFile/9/Expression/Arguments/1/Parameters/0	—
+Identifier	schema.test.js#/SourceFile/9/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	schema.test.js#/SourceFile/10/Expression	—
+Identifier	schema.test.js#/SourceFile/10/Expression/Expression	—
+StringLiteral	schema.test.js#/SourceFile/10/Expression/Arguments/0	—
+ArrowFunction · Block	schema.test.js#/SourceFile/10/Expression/Arguments/1	—
+—	schema.test.js#/SourceFile/10/Expression/Arguments/1/Parameters/0	—
+Identifier	schema.test.js#/SourceFile/10/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	schema.test.js#/SourceFile/11/Expression	—
+Identifier	schema.test.js#/SourceFile/11/Expression/Expression	—
+StringLiteral	schema.test.js#/SourceFile/11/Expression/Arguments/0	—
+ArrowFunction · Block	schema.test.js#/SourceFile/11/Expression/Arguments/1	—
+—	schema.test.js#/SourceFile/11/Expression/Arguments/1/Parameters/0	—
+Identifier	schema.test.js#/SourceFile/11/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	schema.test.js#/SourceFile/12/Expression	—
+Identifier	schema.test.js#/SourceFile/12/Expression/Expression	—
+StringLiteral	schema.test.js#/SourceFile/12/Expression/Arguments/0	—
+ArrowFunction · Block	schema.test.js#/SourceFile/12/Expression/Arguments/1	—
+—	schema.test.js#/SourceFile/12/Expression/Arguments/1/Parameters/0	—
+Identifier	schema.test.js#/SourceFile/12/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	schema.test.js#/SourceFile/13/Expression	—
+Identifier	schema.test.js#/SourceFile/13/Expression/Expression	—
+StringLiteral	schema.test.js#/SourceFile/13/Expression/Arguments/0	—
+ArrowFunction · Block	schema.test.js#/SourceFile/13/Expression/Arguments/1	—
+—	schema.test.js#/SourceFile/13/Expression/Arguments/1/Parameters/0	—
+Identifier	schema.test.js#/SourceFile/13/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	schema.test.js#/SourceFile/14/Expression	—
+Identifier	schema.test.js#/SourceFile/14/Expression/Expression	—
+StringLiteral	schema.test.js#/SourceFile/14/Expression/Arguments/0	—
+ArrowFunction · Block	schema.test.js#/SourceFile/14/Expression/Arguments/1	—
+—	schema.test.js#/SourceFile/14/Expression/Arguments/1/Parameters/0	—
+Identifier	schema.test.js#/SourceFile/14/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	schema.test.js#/SourceFile/15/Expression	—
+Identifier	schema.test.js#/SourceFile/15/Expression/Expression	—
+StringLiteral	schema.test.js#/SourceFile/15/Expression/Arguments/0	—
+ArrowFunction · Block	schema.test.js#/SourceFile/15/Expression/Arguments/1	—
+—	schema.test.js#/SourceFile/15/Expression/Arguments/1/Parameters/0	—
+Identifier	schema.test.js#/SourceFile/15/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	schema.test.js#/SourceFile/16/Expression	—
+Identifier	schema.test.js#/SourceFile/16/Expression/Expression	—
+StringLiteral	schema.test.js#/SourceFile/16/Expression/Arguments/0	—
+ArrowFunction · Block	schema.test.js#/SourceFile/16/Expression/Arguments/1	—
+—	schema.test.js#/SourceFile/16/Expression/Arguments/1/Parameters/0	—
+Identifier	schema.test.js#/SourceFile/16/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+5-texts
+kind	place	holds
+—	schema.test.js#/SourceFile/0/ImportClause/name/Text	test
+—	schema.test.js#/SourceFile/0/ModuleSpecifier/Text	'node:test'
+—	schema.test.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	relationalModel
+—	schema.test.js#/SourceFile/1/ModuleSpecifier/Text	'../../../../../src/relational-model/relational-model.js'
+—	schema.test.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	values
+—	schema.test.js#/SourceFile/2/ModuleSpecifier/Text	'../../../../../src/system-generation/values/values.js'
+—	schema.test.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	runner
+—	schema.test.js#/SourceFile/3/ModuleSpecifier/Text	'../../../../system-generation/runner/runner.js'
+—	schema.test.js#/SourceFile/4/Expression/Expression/Text	test
+—	schema.test.js#/SourceFile/4/Expression/Arguments/0/Text	'schema.1'
+—	schema.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name/Text	t
+—	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'schema.1'
+—	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	schema.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	schema.test.js#/SourceFile/5/Expression/Expression/Text	test
+—	schema.test.js#/SourceFile/5/Expression/Arguments/0/Text	'schema.11'
+—	schema.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name/Text	t
+—	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'schema.11'
+—	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	schema.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	schema.test.js#/SourceFile/6/Expression/Expression/Text	test
+—	schema.test.js#/SourceFile/6/Expression/Arguments/0/Text	'schema.13'
+—	schema.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0/name/Text	t
+—	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'schema.13'
+—	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	schema.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	schema.test.js#/SourceFile/7/Expression/Expression/Text	test
+—	schema.test.js#/SourceFile/7/Expression/Arguments/0/Text	'schema.16'
+—	schema.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0/name/Text	t
+—	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'schema.16'
+—	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	schema.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	schema.test.js#/SourceFile/8/Expression/Expression/Text	test
+—	schema.test.js#/SourceFile/8/Expression/Arguments/0/Text	'schema.17'
+—	schema.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0/name/Text	t
+—	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'schema.17'
+—	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	schema.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	schema.test.js#/SourceFile/9/Expression/Expression/Text	test
+—	schema.test.js#/SourceFile/9/Expression/Arguments/0/Text	'schema.2'
+—	schema.test.js#/SourceFile/9/Expression/Arguments/1/Parameters/0/name/Text	t
+—	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'schema.2'
+—	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	schema.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	schema.test.js#/SourceFile/10/Expression/Expression/Text	test
+—	schema.test.js#/SourceFile/10/Expression/Arguments/0/Text	'schema.3'
+—	schema.test.js#/SourceFile/10/Expression/Arguments/1/Parameters/0/name/Text	t
+—	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'schema.3'
+—	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	schema.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	schema.test.js#/SourceFile/11/Expression/Expression/Text	test
+—	schema.test.js#/SourceFile/11/Expression/Arguments/0/Text	'schema.4'
+—	schema.test.js#/SourceFile/11/Expression/Arguments/1/Parameters/0/name/Text	t
+—	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'schema.4'
+—	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	schema.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	schema.test.js#/SourceFile/12/Expression/Expression/Text	test
+—	schema.test.js#/SourceFile/12/Expression/Arguments/0/Text	'schema.5'
+—	schema.test.js#/SourceFile/12/Expression/Arguments/1/Parameters/0/name/Text	t
+—	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'schema.5'
+—	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	schema.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	schema.test.js#/SourceFile/13/Expression/Expression/Text	test
+—	schema.test.js#/SourceFile/13/Expression/Arguments/0/Text	'schema.6'
+—	schema.test.js#/SourceFile/13/Expression/Arguments/1/Parameters/0/name/Text	t
+—	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'schema.6'
+—	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	schema.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	schema.test.js#/SourceFile/14/Expression/Expression/Text	test
+—	schema.test.js#/SourceFile/14/Expression/Arguments/0/Text	'schema.7'
+—	schema.test.js#/SourceFile/14/Expression/Arguments/1/Parameters/0/name/Text	t
+—	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'schema.7'
+—	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	schema.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	schema.test.js#/SourceFile/15/Expression/Expression/Text	test
+—	schema.test.js#/SourceFile/15/Expression/Arguments/0/Text	'schema.8'
+—	schema.test.js#/SourceFile/15/Expression/Arguments/1/Parameters/0/name/Text	t
+—	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'schema.8'
+—	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	schema.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	schema.test.js#/SourceFile/16/Expression/Expression/Text	test
+—	schema.test.js#/SourceFile/16/Expression/Arguments/0/Text	'schema.9'
+—	schema.test.js#/SourceFile/16/Expression/Arguments/1/Parameters/0/name/Text	t
+—	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'schema.9'
+—	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../../conformance'
+—	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	schema.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values

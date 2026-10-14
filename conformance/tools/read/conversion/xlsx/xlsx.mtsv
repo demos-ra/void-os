@@ -1,0 +1,39 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+xlsx.1	1	conversion	sheets					each worksheet is one sheet named as the worksheet, each cell's value its text, each type left behind named by its cell's reference and t
+xlsx.2	1	conversion	sheets	failed	cannot be represented			a cell's text MTSV cannot hold ends the load as cannot be represented, the conversion failed
+xlsx.3	1	conversion	sheets	failed	failed			a workbook whose part a relationship it reads names is not among its nodes ends the load as failed, the conversion failed
+arguments
+requirement	case	position	item	value
+xlsx.1	1	1	0	$PWD/d/w.xlsx
+xlsx.2	1	1	0	$PWD/d/w.xlsx
+xlsx.3	1	1	0	$PWD/d/w.xlsx
+fixtures
+fixture	sheet	record	field	value
+worksheet W	1	0	1	W
+worksheet W	1	1	1	x
+worksheet W	1	1	2	y
+worksheet W	1	2	1	v
+worksheet W	1	2	2	2
+placed
+requirement	case	when	pathname	fixture
+xlsx.1	1	after	result 1	worksheet W
+zip entries
+requirement	case	pathname	entry	name	method	text
+xlsx.1	1	$PWD/d/w.xlsx	1	[Content_Types].xml	8	<?xml version="1.0" encoding="UTF-8" standalone="yes"?><LF><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/><Override PartName="/xl/worksheets/sheet1.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/></Types>
+xlsx.1	1	$PWD/d/w.xlsx	2	_rels/.rels	8	<?xml version="1.0" encoding="UTF-8" standalone="yes"?><LF><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/></Relationships>
+xlsx.1	1	$PWD/d/w.xlsx	3	xl/workbook.xml	8	<?xml version="1.0" encoding="UTF-8" standalone="yes"?><LF><workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><sheets><sheet name="W" sheetId="1" r:id="rId1"/></sheets></workbook>
+xlsx.1	1	$PWD/d/w.xlsx	4	xl/_rels/workbook.xml.rels	8	<?xml version="1.0" encoding="UTF-8" standalone="yes"?><LF><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet1.xml"/></Relationships>
+xlsx.1	1	$PWD/d/w.xlsx	5	xl/worksheets/sheet1.xml	8	<?xml version="1.0" encoding="UTF-8" standalone="yes"?><LF><worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><sheetData><row r="1"><c r="A1" t="inlineStr"><is><t>x</t></is></c><c r="B1" t="inlineStr"><is><t>y</t></is></c></row><row r="2"><c r="A2" t="inlineStr"><is><t>v</t></is></c><c r="B2"><v>2</v></c></row></sheetData></worksheet>
+xlsx.2	1	$PWD/d/w.xlsx	1	[Content_Types].xml	8	<?xml version="1.0" encoding="UTF-8" standalone="yes"?><LF><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/><Override PartName="/xl/worksheets/sheet1.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/></Types>
+xlsx.2	1	$PWD/d/w.xlsx	2	_rels/.rels	8	<?xml version="1.0" encoding="UTF-8" standalone="yes"?><LF><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/></Relationships>
+xlsx.2	1	$PWD/d/w.xlsx	3	xl/workbook.xml	8	<?xml version="1.0" encoding="UTF-8" standalone="yes"?><LF><workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><sheets><sheet name="W" sheetId="1" r:id="rId1"/></sheets></workbook>
+xlsx.2	1	$PWD/d/w.xlsx	4	xl/_rels/workbook.xml.rels	8	<?xml version="1.0" encoding="UTF-8" standalone="yes"?><LF><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet1.xml"/></Relationships>
+xlsx.2	1	$PWD/d/w.xlsx	5	xl/worksheets/sheet1.xml	8	<?xml version="1.0" encoding="UTF-8" standalone="yes"?><LF><worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><sheetData><row r="1"><c r="A1" t="inlineStr"><is><t>x</t></is></c><c r="B1" t="inlineStr"><is><t>y</t></is></c></row><row r="2"><c r="A2" t="inlineStr"><is><t>a&#10;b</t></is></c><c r="B2"><v>2</v></c></row></sheetData></worksheet>
+xlsx.3	1	$PWD/d/w.xlsx	1	[Content_Types].xml	8	<?xml version="1.0" encoding="UTF-8" standalone="yes"?><LF><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/></Types>
+xlsx.3	1	$PWD/d/w.xlsx	2	_rels/.rels	8	<?xml version="1.0" encoding="UTF-8" standalone="yes"?><LF><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/></Relationships>
+results
+requirement	case	position	item	value
+xlsx.1	1	2	1	A1 t
+xlsx.1	1	2	2	B1 t
+xlsx.1	1	2	3	A2 t

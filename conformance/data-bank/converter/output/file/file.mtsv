@@ -1,0 +1,26 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+file.1	1	file	file					the whole input is given as the sheets of one MTSV file
+file.2	1	file	file					a file holds every sheet that holds a record, in its place in the order of the schema's tree
+file.3	1	file	file					a file holds no sheet that holds no record
+fixtures
+fixture	sheet	record	field	value
+t and empty t.b	1	0	1	t
+t and empty t.b	1	1	1	_input value
+t and empty t.b	1	1	2	a
+t and empty t.b	1	2	1	0
+t and empty t.b	1	2	2	x
+t and empty t.b	2	0	1	t.b
+t and empty t.b	2	1	1	_input value
+t and empty t.b	2	1	2	_instance
+t and empty t.b	2	1	3	_parent
+t and empty t.b	2	1	4	_pointer
+t and empty t.b	2	1	5	_value
+placed
+requirement	case	when	pathname	fixture
+file.1	1	before	argument 1	t a x y
+file.1	1	after	result 1	t a x y
+file.2	1	before	argument 1	t and t.b
+file.2	1	after	result 1	t and t.b
+file.3	1	before	argument 1	t and empty t.b
+file.3	1	after	result 1	t a x

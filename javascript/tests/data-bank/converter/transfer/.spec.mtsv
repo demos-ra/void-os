@@ -1,0 +1,127 @@
+1-folders
+kind	place	holds
+—	relation	—
+—	key	—
+—	order	—
+2-modules
+kind	place	holds
+{{name}} · .js	transfer.test	—
+3-statements
+kind	place	holds
+ImportDeclaration	transfer.test.js#/SourceFile/0	—
+ImportDeclaration	transfer.test.js#/SourceFile/1	—
+ImportDeclaration	transfer.test.js#/SourceFile/2	—
+ImportDeclaration	transfer.test.js#/SourceFile/3	—
+ExpressionStatement	transfer.test.js#/SourceFile/4	—
+ExpressionStatement	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0	—
+ExpressionStatement	transfer.test.js#/SourceFile/5	—
+ExpressionStatement	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0	—
+4-expressions
+kind	place	holds
+ImportClause · name	transfer.test.js#/SourceFile/0/ImportClause	—
+StringLiteral	transfer.test.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	transfer.test.js#/SourceFile/1/ImportClause	—
+NamespaceImport	transfer.test.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	transfer.test.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	transfer.test.js#/SourceFile/2/ImportClause	—
+NamespaceImport	transfer.test.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	transfer.test.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	transfer.test.js#/SourceFile/3/ImportClause	—
+NamespaceImport	transfer.test.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	transfer.test.js#/SourceFile/3/ModuleSpecifier	—
+CallExpression	transfer.test.js#/SourceFile/4/Expression	—
+Identifier	transfer.test.js#/SourceFile/4/Expression/Expression	—
+StringLiteral	transfer.test.js#/SourceFile/4/Expression/Arguments/0	—
+ArrowFunction · Block	transfer.test.js#/SourceFile/4/Expression/Arguments/1	—
+—	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0	—
+Identifier	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	transfer.test.js#/SourceFile/5/Expression	—
+Identifier	transfer.test.js#/SourceFile/5/Expression/Expression	—
+StringLiteral	transfer.test.js#/SourceFile/5/Expression/Arguments/0	—
+ArrowFunction · Block	transfer.test.js#/SourceFile/5/Expression/Arguments/1	—
+—	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0	—
+Identifier	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+5-texts
+kind	place	holds
+—	transfer.test.js#/SourceFile/0/ImportClause/name/Text	test
+—	transfer.test.js#/SourceFile/0/ModuleSpecifier/Text	'node:test'
+—	transfer.test.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	relationalModel
+—	transfer.test.js#/SourceFile/1/ModuleSpecifier/Text	'../../../../src/relational-model/relational-model.js'
+—	transfer.test.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	values
+—	transfer.test.js#/SourceFile/2/ModuleSpecifier/Text	'../../../../src/system-generation/values/values.js'
+—	transfer.test.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	runner
+—	transfer.test.js#/SourceFile/3/ModuleSpecifier/Text	'../../../system-generation/runner/runner.js'
+—	transfer.test.js#/SourceFile/4/Expression/Expression/Text	test
+—	transfer.test.js#/SourceFile/4/Expression/Arguments/0/Text	'transfer.1'
+—	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name/Text	t
+—	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'transfer.1'
+—	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../conformance'
+—	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	transfer.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	transfer.test.js#/SourceFile/5/Expression/Expression/Text	test
+—	transfer.test.js#/SourceFile/5/Expression/Arguments/0/Text	'transfer.2'
+—	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name/Text	t
+—	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'transfer.2'
+—	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../../conformance'
+—	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	transfer.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values

@@ -1,0 +1,65 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+system-generation.1	1	system generation	values					values gives the Values as values reads them
+fixtures
+fixture	sheet	record	field	value
+values sheet	1	0	1	Values
+values sheet	1	1	1	Value
+values sheet	1	1	2	Given
+values sheet	1	2	1	void-os command
+values sheet	1	2	2	void-os
+values sheet	1	3	1	view operand
+values sheet	1	3	2	view
+values sheet	1	4	1	version
+values sheet	1	4	2	0.1.0
+values sheet	1	5	1	usage message
+values sheet	1	5	2	usage: void-os [view [--filter filter] [input [day [position]]] | hook-event]
+values sheet	1	6	1	data bank folder
+values sheet	1	6	2	void-os
+values sheet	1	7	1	data bank variable
+values sheet	1	7	2	VOID_OS_DATA_BANK
+values sheet	1	8	1	lock timeout
+values sheet	1	8	2	60
+values sheet	1	9	1	lock wait
+values sheet	1	9	2	0.05
+values sheet	1	10	1	replace suffix
+values sheet	1	10	2	.tmp
+values sheet	1	11	1	server name
+values sheet	1	11	2	void-os
+values sheet	1	12	1	server instructions
+values sheet	1	12	2	void-os keeps your memory in its data bank at {data bank folder}. Read it, or any file or directory, with read.
+values sheet	1	13	1	tool name
+values sheet	1	13	2	read
+values sheet	1	14	1	tool description
+values sheet	1	14	2	Read a file, a directory of files, or the data bank, as MTSV text: a tab between fields, a line break between records, a form feed before each sheet's name. Every reply begins with the report; then the field names of each sheet, or, with a selection, its values.
+values sheet	1	15	1	hook input schema
+values sheet	1	15	2	{"title": "hook input", "type": "object"}
+values sheet	1	16	1	context limit
+values sheet	1	16	2	10000
+values sheet	1	17	1	pager variable
+values sheet	1	17	2	PAGER
+values sheet	1	18	1	column gap
+values sheet	1	18	2	 
+values sheet	1	19	1	copyright holders
+values sheet	1	19	2	2026 Demos Ra
+values sheet	1	20	1	requires-python
+values sheet	1	20	2	>=3.11
+values sheet	1	21	1	node engine
+values sheet	1	21	2	>=22.13
+values sheet	1	22	1	build requires
+values sheet	1	22	2	setuptools>=77
+values sheet	1	23	1	build backend
+values sheet	1	23	2	setuptools.build_meta
+values sheet	1	24	1	python dependency mcp
+values sheet	1	24	2	mcp>=2.2.0
+values sheet	1	25	1	javascript dependency server
+values sheet	1	25	2	@modelcontextprotocol/server@>=2.3.1
+values sheet	1	26	1	javascript dependency zod
+values sheet	1	26	2	zod@^4.2.0
+values sheet	1	27	1	registry name
+values sheet	1	27	2	io.github.demos-ra/void-os
+values sheet	1	28	1	server description
+values sheet	1	28	2	Memory for AI agents: a data bank of MTSV relations, read through one tool.
+placed
+requirement	case	when	pathname	fixture
+system-generation.1	1	after	result 1	values sheet

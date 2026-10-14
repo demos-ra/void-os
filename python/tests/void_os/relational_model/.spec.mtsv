@@ -1,0 +1,92 @@
+1-folders
+kind	place	holds
+—	format	—
+—	query	—
+2-modules
+kind	place	holds
+{{name}} · .py	__init__	—
+{{name}} · .py	test_relational_model	—
+3-statements
+kind	place	holds
+Import	test_relational_model.py#/Module/0	—
+Import	test_relational_model.py#/Module/1	—
+ImportFrom	test_relational_model.py#/Module/2	—
+ImportFrom	test_relational_model.py#/Module/3	—
+ImportFrom	test_relational_model.py#/Module/4	—
+ClassDef	test_relational_model.py#/Module/5	—
+FunctionDef	test_relational_model.py#/Module/5/body/0	—
+Expr	test_relational_model.py#/Module/5/body/0/body/0	—
+With	test_relational_model.py#/Module/5/body/0/body/1	—
+Expr	test_relational_model.py#/Module/5/body/0/body/1/body/0	—
+4-expressions
+kind	place	holds
+—	test_relational_model.py#/Module/0/names/0	—
+—	test_relational_model.py#/Module/1/names/0	—
+—	test_relational_model.py#/Module/2/module	—
+—	test_relational_model.py#/Module/2/names/0	—
+—	test_relational_model.py#/Module/3/module	—
+—	test_relational_model.py#/Module/3/names/0	—
+—	test_relational_model.py#/Module/4/module	—
+—	test_relational_model.py#/Module/4/names/0	—
+Attribute	test_relational_model.py#/Module/5/arguments/0	—
+Name	test_relational_model.py#/Module/5/arguments/0/value	—
+arg	test_relational_model.py#/Module/5/body/0/args/0	—
+Constant	test_relational_model.py#/Module/5/body/0/body/0/value	—
+—	test_relational_model.py#/Module/5/body/0/body/1/items/0	—
+Call	test_relational_model.py#/Module/5/body/0/body/1/items/0/context_expr	—
+Attribute	test_relational_model.py#/Module/5/body/0/body/1/items/0/context_expr/func	—
+Name	test_relational_model.py#/Module/5/body/0/body/1/items/0/context_expr/func/value	—
+keyword	test_relational_model.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0	—
+Constant	test_relational_model.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0/value	—
+Call	test_relational_model.py#/Module/5/body/0/body/1/body/0/value	—
+Attribute	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/func	—
+Name	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/func/value	—
+Call	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0	—
+Attribute	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func	—
+Name	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func/value	—
+Constant	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/0	—
+Constant	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/1	—
+BinOp	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2	—
+Call	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left	—
+Attribute	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func	—
+Attribute	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value	—
+Name	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value	—
+Name	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0	—
+Add	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/op	—
+Constant	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/right	—
+Name	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/3	—
+Name	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/4	—
+List	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/1	—
+5-texts
+kind	place	holds
+—	test_relational_model.py#/Module/0/names/0/name	unittest
+—	test_relational_model.py#/Module/1/names/0/name	os
+—	test_relational_model.py#/Module/2/module/value	tests.void_os.system_generation.runner
+—	test_relational_model.py#/Module/2/names/0/name	_runner
+—	test_relational_model.py#/Module/3/module/value	void_os.relational_model
+—	test_relational_model.py#/Module/3/names/0/name	_relational_model
+—	test_relational_model.py#/Module/4/module/value	void_os.system_generation.values
+—	test_relational_model.py#/Module/4/names/0/name	_values
+—	test_relational_model.py#/Module/5/name/value	TestRelationalModel
+—	test_relational_model.py#/Module/5/arguments/0/value/id	unittest
+—	test_relational_model.py#/Module/5/arguments/0/attr	TestCase
+—	test_relational_model.py#/Module/5/body/0/name/value	test_relational_model_1
+—	test_relational_model.py#/Module/5/body/0/args/0/arg	self
+—	test_relational_model.py#/Module/5/body/0/body/0/value/value	"""The relational model MUST give the access programs of format and query as its own: loads and load, dumps and dump, instances and named, chosen and kept."""
+—	test_relational_model.py#/Module/5/body/0/body/1/items/0/context_expr/func/value/id	self
+—	test_relational_model.py#/Module/5/body/0/body/1/items/0/context_expr/func/attr	subTest
+—	test_relational_model.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0/arg	case
+—	test_relational_model.py#/Module/5/body/0/body/1/items/0/context_expr/arguments/0/value/value	1
+—	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/func/value/id	self
+—	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/func/attr	assertEqual
+—	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func/value/id	_runner
+—	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/func/attr	run
+—	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/0/value	'relational-model.1'
+—	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/1/value	1
+—	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value/value/id	os
+—	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/value/attr	path
+—	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/func/attr	dirname
+—	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/left/arguments/0/id	__file__
+—	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/2/right/value	'/../../../../conformance'
+—	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/3/id	_relational_model
+—	test_relational_model.py#/Module/5/body/0/body/1/body/0/value/arguments/0/arguments/4/id	_values

@@ -1,0 +1,525 @@
+1-folders
+kind	place	holds
+—	package	—
+—	csv	—
+—	json	—
+—	xlsx	—
+—	ods	—
+—	sqlite	—
+2-modules
+kind	place	holds
+{{name}} · .js	conversion	—
+3-statements
+kind	place	holds
+ImportDeclaration	conversion.js#/SourceFile/0	—
+ImportDeclaration	conversion.js#/SourceFile/1	—
+ImportDeclaration	conversion.js#/SourceFile/2	—
+ImportDeclaration	conversion.js#/SourceFile/3	—
+ImportDeclaration	conversion.js#/SourceFile/4	—
+ImportDeclaration	conversion.js#/SourceFile/5	—
+ImportDeclaration	conversion.js#/SourceFile/6	—
+FunctionDeclaration · Body	conversion.js#/SourceFile/7	—
+VariableStatement	conversion.js#/SourceFile/7/Body/0	—
+VariableStatement	conversion.js#/SourceFile/7/Body/1	—
+IfStatement	conversion.js#/SourceFile/7/Body/2	—
+ThrowStatement	conversion.js#/SourceFile/7/Body/2/ThenStatement/0	—
+TryStatement	conversion.js#/SourceFile/7/Body/3	—
+IfStatement	conversion.js#/SourceFile/7/Body/3/TryBlock/0	—
+ReturnStatement	conversion.js#/SourceFile/7/Body/3/TryBlock/0/ThenStatement/0	—
+IfStatement	conversion.js#/SourceFile/7/Body/3/TryBlock/1	—
+ReturnStatement	conversion.js#/SourceFile/7/Body/3/TryBlock/1/ThenStatement/0	—
+IfStatement	conversion.js#/SourceFile/7/Body/3/TryBlock/2	—
+ReturnStatement	conversion.js#/SourceFile/7/Body/3/TryBlock/2/ThenStatement/0	—
+VariableStatement	conversion.js#/SourceFile/7/Body/3/TryBlock/3	—
+TryStatement	conversion.js#/SourceFile/7/Body/3/TryBlock/4	—
+VariableStatement	conversion.js#/SourceFile/7/Body/3/TryBlock/4/TryBlock/0	—
+ExpressionStatement	conversion.js#/SourceFile/7/Body/3/TryBlock/4/TryBlock/1	—
+ThrowStatement	conversion.js#/SourceFile/7/Body/3/TryBlock/4/CatchClause/Block/0	—
+IfStatement	conversion.js#/SourceFile/7/Body/3/TryBlock/5	—
+ReturnStatement	conversion.js#/SourceFile/7/Body/3/TryBlock/5/ThenStatement/0	—
+IfStatement	conversion.js#/SourceFile/7/Body/3/TryBlock/6	—
+ReturnStatement	conversion.js#/SourceFile/7/Body/3/TryBlock/6/ThenStatement/0	—
+ReturnStatement	conversion.js#/SourceFile/7/Body/3/TryBlock/7	—
+IfStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/0	—
+ThrowStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/0/ThenStatement/0	—
+IfStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/1	—
+ThrowStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/1/ThenStatement/0	—
+IfStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/2	—
+ThrowStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/2/ThenStatement/0	—
+IfStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/3	—
+ThrowStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/3/ThenStatement/0	—
+IfStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/4	—
+ThrowStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/4/ThenStatement/0	—
+IfStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/5	—
+ThrowStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/5/ThenStatement/0	—
+IfStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/6	—
+ThrowStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/6/ThenStatement/0	—
+IfStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/7	—
+ThrowStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/7/ThenStatement/0	—
+IfStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/8	—
+ThrowStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/8/ThenStatement/0	—
+IfStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/9	—
+ThrowStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/9/ThenStatement/0	—
+IfStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/10	—
+ThrowStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/10/ThenStatement/0	—
+IfStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/11	—
+ThrowStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/11/ThenStatement/0	—
+IfStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/12	—
+ThrowStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/12/ThenStatement/0	—
+ThrowStatement	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/13	—
+ClassDeclaration	conversion.js#/SourceFile/8	—
+ClassDeclaration	conversion.js#/SourceFile/9	—
+4-expressions
+kind	place	holds
+ImportClause · NamedBindings	conversion.js#/SourceFile/0/ImportClause	—
+NamespaceImport	conversion.js#/SourceFile/0/ImportClause/NamedBindings	—
+StringLiteral	conversion.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	conversion.js#/SourceFile/1/ImportClause	—
+NamespaceImport	conversion.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	conversion.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	conversion.js#/SourceFile/2/ImportClause	—
+NamespaceImport	conversion.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	conversion.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	conversion.js#/SourceFile/3/ImportClause	—
+NamespaceImport	conversion.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	conversion.js#/SourceFile/3/ModuleSpecifier	—
+ImportClause · NamedBindings	conversion.js#/SourceFile/4/ImportClause	—
+NamespaceImport	conversion.js#/SourceFile/4/ImportClause/NamedBindings	—
+StringLiteral	conversion.js#/SourceFile/4/ModuleSpecifier	—
+ImportClause · NamedBindings	conversion.js#/SourceFile/5/ImportClause	—
+NamespaceImport	conversion.js#/SourceFile/5/ImportClause/NamedBindings	—
+StringLiteral	conversion.js#/SourceFile/5/ModuleSpecifier	—
+ImportClause · NamedBindings	conversion.js#/SourceFile/6/ImportClause	—
+NamespaceImport	conversion.js#/SourceFile/6/ImportClause/NamedBindings	—
+StringLiteral	conversion.js#/SourceFile/6/ModuleSpecifier	—
+ExportKeyword	conversion.js#/SourceFile/7/modifiers/0	—
+—	conversion.js#/SourceFile/7/name	—
+—	conversion.js#/SourceFile/7/Parameters/0	—
+Identifier	conversion.js#/SourceFile/7/Parameters/0/name	—
+—	conversion.js#/SourceFile/7/Parameters/1	—
+Identifier	conversion.js#/SourceFile/7/Parameters/1/name	—
+ConstKeyword	conversion.js#/SourceFile/7/Body/0/DeclarationList/Flags/0	—
+—	conversion.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0	—
+Identifier	conversion.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/name	—
+CallExpression	conversion.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Expression/name	—
+BinaryExpression	conversion.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+CallExpression	conversion.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/Expression/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/Expression/name	—
+StringLiteral	conversion.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/Arguments/0	—
+PlusToken	conversion.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/OperatorToken	—
+NumericLiteral	conversion.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Right	—
+ConstKeyword	conversion.js#/SourceFile/7/Body/1/DeclarationList/Flags/0	—
+—	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0	—
+Identifier	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/name	—
+ConditionalExpression	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer	—
+CallExpression	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/Condition	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/Condition/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/Condition/Expression/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/Condition/Expression/name	—
+StringLiteral	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/Condition/Arguments/0	—
+CallExpression	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/WhenTrue	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/name	—
+BinaryExpression	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0	—
+CallExpression	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Left	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Left/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Left/Expression/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Left/Expression/name	—
+StringLiteral	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Left/Arguments/0	—
+PlusToken	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/OperatorToken	—
+NumericLiteral	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Right	—
+StringLiteral	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/WhenFalse	—
+PrefixUnaryExpression	conversion.js#/SourceFile/7/Body/2/Expression	—
+ExclamationToken	conversion.js#/SourceFile/7/Body/2/Expression/Operator	—
+CallExpression	conversion.js#/SourceFile/7/Body/2/Expression/Operand	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/2/Expression/Operand/Expression	—
+ArrayLiteralExpression	conversion.js#/SourceFile/7/Body/2/Expression/Operand/Expression/Expression	—
+StringLiteral	conversion.js#/SourceFile/7/Body/2/Expression/Operand/Expression/Expression/Elements/0	—
+StringLiteral	conversion.js#/SourceFile/7/Body/2/Expression/Operand/Expression/Expression/Elements/1	—
+StringLiteral	conversion.js#/SourceFile/7/Body/2/Expression/Operand/Expression/Expression/Elements/2	—
+StringLiteral	conversion.js#/SourceFile/7/Body/2/Expression/Operand/Expression/Expression/Elements/3	—
+StringLiteral	conversion.js#/SourceFile/7/Body/2/Expression/Operand/Expression/Expression/Elements/4	—
+StringLiteral	conversion.js#/SourceFile/7/Body/2/Expression/Operand/Expression/Expression/Elements/5	—
+Identifier	conversion.js#/SourceFile/7/Body/2/Expression/Operand/Expression/name	—
+Identifier	conversion.js#/SourceFile/7/Body/2/Expression/Operand/Arguments/0	—
+NewExpression	conversion.js#/SourceFile/7/Body/2/ThenStatement/0/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/2/ThenStatement/0/Expression/Expression	—
+StringLiteral	conversion.js#/SourceFile/7/Body/2/ThenStatement/0/Expression/Arguments/0	—
+BinaryExpression	conversion.js#/SourceFile/7/Body/3/TryBlock/0/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/0/Expression/Left	—
+EqualsEqualsEqualsToken	conversion.js#/SourceFile/7/Body/3/TryBlock/0/Expression/OperatorToken	—
+StringLiteral	conversion.js#/SourceFile/7/Body/3/TryBlock/0/Expression/Right	—
+CallExpression	conversion.js#/SourceFile/7/Body/3/TryBlock/0/ThenStatement/0/Expression	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/3/TryBlock/0/ThenStatement/0/Expression/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/0/ThenStatement/0/Expression/Expression/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/0/ThenStatement/0/Expression/Expression/name	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/0/ThenStatement/0/Expression/Arguments/0	—
+BinaryExpression	conversion.js#/SourceFile/7/Body/3/TryBlock/1/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/1/Expression/Left	—
+EqualsEqualsEqualsToken	conversion.js#/SourceFile/7/Body/3/TryBlock/1/Expression/OperatorToken	—
+StringLiteral	conversion.js#/SourceFile/7/Body/3/TryBlock/1/Expression/Right	—
+CallExpression	conversion.js#/SourceFile/7/Body/3/TryBlock/1/ThenStatement/0/Expression	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/3/TryBlock/1/ThenStatement/0/Expression/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/1/ThenStatement/0/Expression/Expression/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/1/ThenStatement/0/Expression/Expression/name	—
+CallExpression	conversion.js#/SourceFile/7/Body/3/TryBlock/1/ThenStatement/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/3/TryBlock/1/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/1/ThenStatement/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/1/ThenStatement/0/Expression/Arguments/0/Expression/name	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/1/ThenStatement/0/Expression/Arguments/0/Arguments/0	—
+BinaryExpression	conversion.js#/SourceFile/7/Body/3/TryBlock/2/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/2/Expression/Left	—
+EqualsEqualsEqualsToken	conversion.js#/SourceFile/7/Body/3/TryBlock/2/Expression/OperatorToken	—
+StringLiteral	conversion.js#/SourceFile/7/Body/3/TryBlock/2/Expression/Right	—
+CallExpression	conversion.js#/SourceFile/7/Body/3/TryBlock/2/ThenStatement/0/Expression	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/3/TryBlock/2/ThenStatement/0/Expression/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/2/ThenStatement/0/Expression/Expression/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/2/ThenStatement/0/Expression/Expression/name	—
+CallExpression	conversion.js#/SourceFile/7/Body/3/TryBlock/2/ThenStatement/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/3/TryBlock/2/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/2/ThenStatement/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/2/ThenStatement/0/Expression/Arguments/0/Expression/name	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/2/ThenStatement/0/Expression/Arguments/0/Arguments/0	—
+LetKeyword	conversion.js#/SourceFile/7/Body/3/TryBlock/3/DeclarationList/Flags/0	—
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/3/DeclarationList/Declarations/0	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/3/DeclarationList/Declarations/0/name	—
+ConstKeyword	conversion.js#/SourceFile/7/Body/3/TryBlock/4/TryBlock/0/DeclarationList/Flags/0	—
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/4/TryBlock/0/DeclarationList/Declarations/0	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/4/TryBlock/0/DeclarationList/Declarations/0/name	—
+CallExpression	conversion.js#/SourceFile/7/Body/3/TryBlock/4/TryBlock/0/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/3/TryBlock/4/TryBlock/0/DeclarationList/Declarations/0/Initializer/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/4/TryBlock/0/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/4/TryBlock/0/DeclarationList/Declarations/0/Initializer/Expression/name	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/4/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+BinaryExpression	conversion.js#/SourceFile/7/Body/3/TryBlock/4/TryBlock/1/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/4/TryBlock/1/Expression/Left	—
+EqualsToken	conversion.js#/SourceFile/7/Body/3/TryBlock/4/TryBlock/1/Expression/OperatorToken	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/4/TryBlock/1/Expression/Right	—
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/4/CatchClause/VariableDeclaration	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/4/CatchClause/VariableDeclaration/name	—
+NewExpression	conversion.js#/SourceFile/7/Body/3/TryBlock/4/CatchClause/Block/0/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/4/CatchClause/Block/0/Expression/Expression	—
+StringLiteral	conversion.js#/SourceFile/7/Body/3/TryBlock/4/CatchClause/Block/0/Expression/Arguments/0	—
+BinaryExpression	conversion.js#/SourceFile/7/Body/3/TryBlock/5/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/5/Expression/Left	—
+EqualsEqualsEqualsToken	conversion.js#/SourceFile/7/Body/3/TryBlock/5/Expression/OperatorToken	—
+StringLiteral	conversion.js#/SourceFile/7/Body/3/TryBlock/5/Expression/Right	—
+ArrayLiteralExpression	conversion.js#/SourceFile/7/Body/3/TryBlock/5/ThenStatement/0/Expression	—
+CallExpression	conversion.js#/SourceFile/7/Body/3/TryBlock/5/ThenStatement/0/Expression/Elements/0	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/3/TryBlock/5/ThenStatement/0/Expression/Elements/0/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/5/ThenStatement/0/Expression/Elements/0/Expression/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/5/ThenStatement/0/Expression/Elements/0/Expression/name	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/5/ThenStatement/0/Expression/Elements/0/Arguments/0	—
+ArrayLiteralExpression	conversion.js#/SourceFile/7/Body/3/TryBlock/5/ThenStatement/0/Expression/Elements/1	—
+BinaryExpression	conversion.js#/SourceFile/7/Body/3/TryBlock/6/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/6/Expression/Left	—
+EqualsEqualsEqualsToken	conversion.js#/SourceFile/7/Body/3/TryBlock/6/Expression/OperatorToken	—
+StringLiteral	conversion.js#/SourceFile/7/Body/3/TryBlock/6/Expression/Right	—
+CallExpression	conversion.js#/SourceFile/7/Body/3/TryBlock/6/ThenStatement/0/Expression	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/3/TryBlock/6/ThenStatement/0/Expression/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/6/ThenStatement/0/Expression/Expression/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/6/ThenStatement/0/Expression/Expression/name	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/6/ThenStatement/0/Expression/Arguments/0	—
+CallExpression	conversion.js#/SourceFile/7/Body/3/TryBlock/7/Expression	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/3/TryBlock/7/Expression/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/7/Expression/Expression/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/7/Expression/Expression/name	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/7/Expression/Arguments/0	—
+Identifier	conversion.js#/SourceFile/7/Body/3/TryBlock/7/Expression/Arguments/1	—
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/VariableDeclaration	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/VariableDeclaration/name	—
+BinaryExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/0/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/0/Expression/Right	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/0/Expression/Right/name	—
+NewExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/0/ThenStatement/0/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/0/ThenStatement/0/Expression/Expression	—
+StringLiteral	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0	—
+BinaryExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/1/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/1/Expression/Left	—
+InstanceOfKeyword	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/1/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/1/Expression/Right	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/1/Expression/Right/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/1/Expression/Right/name	—
+NewExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/1/ThenStatement/0/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/1/ThenStatement/0/Expression/Expression	—
+StringLiteral	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/1/ThenStatement/0/Expression/Arguments/0	—
+BinaryExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/2/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/2/Expression/Left	—
+InstanceOfKeyword	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/2/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/2/Expression/Right	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/2/Expression/Right/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/2/Expression/Right/name	—
+NewExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/2/ThenStatement/0/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/2/ThenStatement/0/Expression/Expression	—
+StringLiteral	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/2/ThenStatement/0/Expression/Arguments/0	—
+BinaryExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/3/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/3/Expression/Left	—
+InstanceOfKeyword	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/3/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/3/Expression/Right	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/3/Expression/Right/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/3/Expression/Right/name	—
+NewExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/3/ThenStatement/0/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/3/ThenStatement/0/Expression/Expression	—
+StringLiteral	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/3/ThenStatement/0/Expression/Arguments/0	—
+BinaryExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/4/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/4/Expression/Left	—
+InstanceOfKeyword	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/4/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/4/Expression/Right	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/4/Expression/Right/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/4/Expression/Right/name	—
+NewExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/4/ThenStatement/0/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/4/ThenStatement/0/Expression/Expression	—
+StringLiteral	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/4/ThenStatement/0/Expression/Arguments/0	—
+BinaryExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/5/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/5/Expression/Left	—
+InstanceOfKeyword	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/5/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/5/Expression/Right	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/5/Expression/Right/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/5/Expression/Right/name	—
+NewExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/5/ThenStatement/0/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/5/ThenStatement/0/Expression/Expression	—
+StringLiteral	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/5/ThenStatement/0/Expression/Arguments/0	—
+BinaryExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/6/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/6/Expression/Left	—
+InstanceOfKeyword	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/6/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/6/Expression/Right	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/6/Expression/Right/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/6/Expression/Right/name	—
+NewExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/6/ThenStatement/0/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/6/ThenStatement/0/Expression/Expression	—
+StringLiteral	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/6/ThenStatement/0/Expression/Arguments/0	—
+BinaryExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/7/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/7/Expression/Left	—
+InstanceOfKeyword	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/7/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/7/Expression/Right	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/7/Expression/Right/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/7/Expression/Right/name	—
+NewExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/7/ThenStatement/0/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/7/ThenStatement/0/Expression/Expression	—
+StringLiteral	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/7/ThenStatement/0/Expression/Arguments/0	—
+BinaryExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/8/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/8/Expression/Left	—
+InstanceOfKeyword	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/8/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/8/Expression/Right	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/8/Expression/Right/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/8/Expression/Right/name	—
+NewExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/8/ThenStatement/0/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/8/ThenStatement/0/Expression/Expression	—
+StringLiteral	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/8/ThenStatement/0/Expression/Arguments/0	—
+BinaryExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/9/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/9/Expression/Left	—
+InstanceOfKeyword	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/9/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/9/Expression/Right	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/9/Expression/Right/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/9/Expression/Right/name	—
+NewExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/9/ThenStatement/0/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/9/ThenStatement/0/Expression/Expression	—
+StringLiteral	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/9/ThenStatement/0/Expression/Arguments/0	—
+BinaryExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/10/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/10/Expression/Left	—
+InstanceOfKeyword	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/10/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/10/Expression/Right	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/10/Expression/Right/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/10/Expression/Right/name	—
+NewExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/10/ThenStatement/0/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/10/ThenStatement/0/Expression/Expression	—
+StringLiteral	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/10/ThenStatement/0/Expression/Arguments/0	—
+BinaryExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/11/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/11/Expression/Left	—
+InstanceOfKeyword	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/11/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/11/Expression/Right	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/11/Expression/Right/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/11/Expression/Right/name	—
+NewExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/11/ThenStatement/0/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/11/ThenStatement/0/Expression/Expression	—
+StringLiteral	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/11/ThenStatement/0/Expression/Arguments/0	—
+BinaryExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/12/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/12/Expression/Left	—
+InstanceOfKeyword	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/12/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/12/Expression/Right	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/12/Expression/Right/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/12/Expression/Right/name	—
+NewExpression	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/12/ThenStatement/0/Expression	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/12/ThenStatement/0/Expression/Expression	—
+StringLiteral	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/12/ThenStatement/0/Expression/Arguments/0	—
+Identifier	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/13/Expression	—
+ExportKeyword	conversion.js#/SourceFile/8/modifiers/0	—
+—	conversion.js#/SourceFile/8/name	—
+—	conversion.js#/SourceFile/8/HeritageClauses/0	—
+ExtendsKeyword	conversion.js#/SourceFile/8/HeritageClauses/0/Token	—
+Identifier	conversion.js#/SourceFile/8/HeritageClauses/0/Types/0	—
+ExportKeyword	conversion.js#/SourceFile/9/modifiers/0	—
+—	conversion.js#/SourceFile/9/name	—
+—	conversion.js#/SourceFile/9/HeritageClauses/0	—
+ExtendsKeyword	conversion.js#/SourceFile/9/HeritageClauses/0/Token	—
+Identifier	conversion.js#/SourceFile/9/HeritageClauses/0/Types/0	—
+5-texts
+kind	place	holds
+—	conversion.js#/SourceFile/0/ImportClause/NamedBindings/name/Text	fs
+—	conversion.js#/SourceFile/0/ModuleSpecifier/Text	'node:fs'
+—	conversion.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	csv
+—	conversion.js#/SourceFile/1/ModuleSpecifier/Text	'./csv/csv.js'
+—	conversion.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	json
+—	conversion.js#/SourceFile/2/ModuleSpecifier/Text	'./json/json.js'
+—	conversion.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	ods
+—	conversion.js#/SourceFile/3/ModuleSpecifier/Text	'./ods/ods.js'
+—	conversion.js#/SourceFile/4/ImportClause/NamedBindings/name/Text	package_
+—	conversion.js#/SourceFile/4/ModuleSpecifier/Text	'./package/package.js'
+—	conversion.js#/SourceFile/5/ImportClause/NamedBindings/name/Text	sqlite
+—	conversion.js#/SourceFile/5/ModuleSpecifier/Text	'./sqlite/sqlite.js'
+—	conversion.js#/SourceFile/6/ImportClause/NamedBindings/name/Text	xlsx
+—	conversion.js#/SourceFile/6/ModuleSpecifier/Text	'./xlsx/xlsx.js'
+—	conversion.js#/SourceFile/7/name/Text	sheets
+—	conversion.js#/SourceFile/7/Parameters/0/name/Text	source
+—	conversion.js#/SourceFile/7/Parameters/1/name/Text	relationalModel
+—	conversion.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/name/Text	name
+—	conversion.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Text	source
+—	conversion.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Expression/name/Text	slice
+—	conversion.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/Expression/Expression/Text	source
+—	conversion.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/Expression/name/Text	lastIndexOf
+—	conversion.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Left/Arguments/0/Text	'/'
+—	conversion.js#/SourceFile/7/Body/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Right/Text	1
+—	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/name/Text	extension
+—	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/Condition/Expression/Expression/Text	name
+—	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/Condition/Expression/name/Text	includes
+—	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/Condition/Arguments/0/Text	'.'
+—	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Text	name
+—	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/name/Text	slice
+—	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Left/Expression/Expression/Text	name
+—	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Left/Expression/name/Text	lastIndexOf
+—	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Left/Arguments/0/Text	'.'
+—	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Right/Text	1
+—	conversion.js#/SourceFile/7/Body/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Text	''
+—	conversion.js#/SourceFile/7/Body/2/Expression/Operand/Expression/Expression/Elements/0/Text	'mtsv'
+—	conversion.js#/SourceFile/7/Body/2/Expression/Operand/Expression/Expression/Elements/1/Text	'csv'
+—	conversion.js#/SourceFile/7/Body/2/Expression/Operand/Expression/Expression/Elements/2/Text	'json'
+—	conversion.js#/SourceFile/7/Body/2/Expression/Operand/Expression/Expression/Elements/3/Text	'xlsx'
+—	conversion.js#/SourceFile/7/Body/2/Expression/Operand/Expression/Expression/Elements/4/Text	'ods'
+—	conversion.js#/SourceFile/7/Body/2/Expression/Operand/Expression/Expression/Elements/5/Text	'sqlite'
+—	conversion.js#/SourceFile/7/Body/2/Expression/Operand/Expression/name/Text	includes
+—	conversion.js#/SourceFile/7/Body/2/Expression/Operand/Arguments/0/Text	extension
+—	conversion.js#/SourceFile/7/Body/2/ThenStatement/0/Expression/Expression/Text	NoFormatError
+—	conversion.js#/SourceFile/7/Body/2/ThenStatement/0/Expression/Arguments/0/Text	'no format'
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/0/Expression/Left/Text	extension
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/0/Expression/Right/Text	'sqlite'
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/0/ThenStatement/0/Expression/Expression/Expression/Text	sqlite
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/0/ThenStatement/0/Expression/Expression/name/Text	load
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/0/ThenStatement/0/Expression/Arguments/0/Text	source
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/1/Expression/Left/Text	extension
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/1/Expression/Right/Text	'xlsx'
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/1/ThenStatement/0/Expression/Expression/Expression/Text	xlsx
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/1/ThenStatement/0/Expression/Expression/name/Text	load
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/1/ThenStatement/0/Expression/Arguments/0/Expression/Expression/Text	package_
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/1/ThenStatement/0/Expression/Arguments/0/Expression/name/Text	nodes
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/1/ThenStatement/0/Expression/Arguments/0/Arguments/0/Text	source
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/2/Expression/Left/Text	extension
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/2/Expression/Right/Text	'ods'
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/2/ThenStatement/0/Expression/Expression/Expression/Text	ods
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/2/ThenStatement/0/Expression/Expression/name/Text	load
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/2/ThenStatement/0/Expression/Arguments/0/Expression/Expression/Text	package_
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/2/ThenStatement/0/Expression/Arguments/0/Expression/name/Text	nodes
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/2/ThenStatement/0/Expression/Arguments/0/Arguments/0/Text	source
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/3/DeclarationList/Declarations/0/name/Text	octets
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/4/TryBlock/0/DeclarationList/Declarations/0/name/Text	conversion1ReadAFile
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/4/TryBlock/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Text	fs
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/4/TryBlock/0/DeclarationList/Declarations/0/Initializer/Expression/name/Text	readFileSync
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/4/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Text	source
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/4/TryBlock/1/Expression/Left/Text	octets
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/4/TryBlock/1/Expression/Right/Text	conversion1ReadAFile
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/4/CatchClause/VariableDeclaration/name/Text	error
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/4/CatchClause/Block/0/Expression/Expression/Text	FailedError
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/4/CatchClause/Block/0/Expression/Arguments/0/Text	'cannot be read'
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/5/Expression/Left/Text	extension
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/5/Expression/Right/Text	'mtsv'
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/5/ThenStatement/0/Expression/Elements/0/Expression/Expression/Text	relationalModel
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/5/ThenStatement/0/Expression/Elements/0/Expression/name/Text	load
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/5/ThenStatement/0/Expression/Elements/0/Arguments/0/Text	octets
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/6/Expression/Left/Text	extension
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/6/Expression/Right/Text	'csv'
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/6/ThenStatement/0/Expression/Expression/Expression/Text	csv
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/6/ThenStatement/0/Expression/Expression/name/Text	load
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/6/ThenStatement/0/Expression/Arguments/0/Text	octets
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/7/Expression/Expression/Expression/Text	json
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/7/Expression/Expression/name/Text	load
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/7/Expression/Arguments/0/Text	octets
+—	conversion.js#/SourceFile/7/Body/3/TryBlock/7/Expression/Arguments/1/Text	relationalModel
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/VariableDeclaration/name/Text	error
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/0/Expression/Left/Text	error
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/0/Expression/Right/Expression/Text	sqlite
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/0/Expression/Right/name/Text	CannotBeRepresentedError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/0/ThenStatement/0/Expression/Expression/Text	FailedError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Text	'cannot be represented'
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/1/Expression/Left/Text	error
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/1/Expression/Right/Expression/Text	sqlite
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/1/Expression/Right/name/Text	FailedError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/1/ThenStatement/0/Expression/Expression/Text	FailedError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/1/ThenStatement/0/Expression/Arguments/0/Text	'failed'
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/2/Expression/Left/Text	error
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/2/Expression/Right/Expression/Text	package_
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/2/Expression/Right/name/Text	FailedError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/2/ThenStatement/0/Expression/Expression/Text	FailedError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/2/ThenStatement/0/Expression/Arguments/0/Text	'failed'
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/3/Expression/Left/Text	error
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/3/Expression/Right/Expression/Text	package_
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/3/Expression/Right/name/Text	CompressionMethodNotAllowedError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/3/ThenStatement/0/Expression/Expression/Text	FailedError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/3/ThenStatement/0/Expression/Arguments/0/Text	'compression method not allowed'
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/4/Expression/Left/Text	error
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/4/Expression/Right/Expression/Text	xlsx
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/4/Expression/Right/name/Text	CannotBeRepresentedError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/4/ThenStatement/0/Expression/Expression/Text	FailedError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/4/ThenStatement/0/Expression/Arguments/0/Text	'cannot be represented'
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/5/Expression/Left/Text	error
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/5/Expression/Right/Expression/Text	xlsx
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/5/Expression/Right/name/Text	FailedError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/5/ThenStatement/0/Expression/Expression/Text	FailedError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/5/ThenStatement/0/Expression/Arguments/0/Text	'failed'
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/6/Expression/Left/Text	error
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/6/Expression/Right/Expression/Text	ods
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/6/Expression/Right/name/Text	CannotBeRepresentedError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/6/ThenStatement/0/Expression/Expression/Text	FailedError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/6/ThenStatement/0/Expression/Arguments/0/Text	'cannot be represented'
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/7/Expression/Left/Text	error
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/7/Expression/Right/Expression/Text	ods
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/7/Expression/Right/name/Text	FailedError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/7/ThenStatement/0/Expression/Expression/Text	FailedError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/7/ThenStatement/0/Expression/Arguments/0/Text	'failed'
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/8/Expression/Left/Text	error
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/8/Expression/Right/Expression/Text	relationalModel
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/8/Expression/Right/name/Text	NotMTSVError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/8/ThenStatement/0/Expression/Expression/Text	FailedError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/8/ThenStatement/0/Expression/Arguments/0/Text	'not MTSV'
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/9/Expression/Left/Text	error
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/9/Expression/Right/Expression/Text	csv
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/9/Expression/Right/name/Text	CannotBeRepresentedError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/9/ThenStatement/0/Expression/Expression/Text	FailedError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/9/ThenStatement/0/Expression/Arguments/0/Text	'cannot be represented'
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/10/Expression/Left/Text	error
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/10/Expression/Right/Expression/Text	json
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/10/Expression/Right/name/Text	CannotBeRepresentedError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/10/ThenStatement/0/Expression/Expression/Text	FailedError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/10/ThenStatement/0/Expression/Arguments/0/Text	'cannot be represented'
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/11/Expression/Left/Text	error
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/11/Expression/Right/Expression/Text	json
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/11/Expression/Right/name/Text	NotAJSONTextError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/11/ThenStatement/0/Expression/Expression/Text	FailedError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/11/ThenStatement/0/Expression/Arguments/0/Text	'not a JSON text'
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/12/Expression/Left/Text	error
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/12/Expression/Right/Expression/Text	json
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/12/Expression/Right/name/Text	NamesNotUniqueError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/12/ThenStatement/0/Expression/Expression/Text	FailedError
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/12/ThenStatement/0/Expression/Arguments/0/Text	'names not unique'
+—	conversion.js#/SourceFile/7/Body/3/CatchClause/Block/13/Expression/Text	error
+—	conversion.js#/SourceFile/8/name/Text	FailedError
+—	conversion.js#/SourceFile/8/HeritageClauses/0/Types/0/Text	Error
+—	conversion.js#/SourceFile/9/name/Text	NoFormatError
+—	conversion.js#/SourceFile/9/HeritageClauses/0/Types/0/Text	Error

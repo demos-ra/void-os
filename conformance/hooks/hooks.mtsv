@@ -1,0 +1,155 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+hooks.1	1	void-os	void-os			true		a hook event, as a harness names it, runs that hook: SubagentStart answered with its event's name
+hooks.2	1	void-os	void-os			false		the input's name is the resolved pathname of the place the environment variable harness variables names holds, where it is set
+hooks.3	1	void-os	void-os			true		the context is composed before the hook input is inserted, so a hook never gives back its own input
+hooks.5	1	void-os	void-os		0 #<LF>	false	true	a hook input the converter rejects ends the hook as non-conforming, nothing on standard output
+hooks.6	1	void-os	void-os		keeping failed<LF>	false	true	a data bank that cannot keep ends the hook as keeping failed, nothing on standard output
+hooks.7	1	void-os	void-os			false		the hook input is read whole from standard input as one JSON text
+hooks.8	1	void-os	void-os			true		the answer is written on standard output in UTF-8: a context holding café
+arguments
+requirement	case	position	item	value
+hooks.1	1	1	0	SubagentStart
+hooks.2	1	1	0	Stop
+hooks.3	1	1	0	UserPromptSubmit
+hooks.5	1	1	0	SessionStart
+hooks.6	1	1	0	SessionStart
+hooks.7	1	1	0	Stop
+hooks.8	1	1	0	UserPromptSubmit
+environment
+requirement	case	name	value
+hooks.1	1	VOID_OS_DATA_BANK	$PWD/bank
+hooks.2	1	VOID_OS_DATA_BANK	$PWD/bank
+hooks.2	1	CLAUDE_PROJECT_DIR	$PWD/p
+hooks.3	1	VOID_OS_DATA_BANK	$PWD/bank
+hooks.5	1	VOID_OS_DATA_BANK	$PWD/bank
+hooks.6	1	VOID_OS_DATA_BANK	$PWD/bank
+hooks.7	1	VOID_OS_DATA_BANK	$PWD/bank
+hooks.8	1	VOID_OS_DATA_BANK	$PWD/bank
+stdin
+requirement	case	line	text
+hooks.1	1	1	{"hook_event_name": "SubagentStart"}
+hooks.2	1	1	{"hook_event_name": "Stop"}
+hooks.3	1	1	{"hook_event_name": "UserPromptSubmit", "prompt": "hello"}
+hooks.5	1	1	[1]
+hooks.6	1	1	{"hook_event_name": "SessionStart"}
+hooks.7	1	1	{
+hooks.7	1	2	  "a": 1,
+hooks.7	1	3	  "b": "c"
+hooks.7	1	4	}
+hooks.8	1	1	{"hook_event_name": "UserPromptSubmit", "session_id": "s2", "prompt": "again"}
+fixtures
+fixture	sheet	record	field	value
+prompt kept	1	0	1	hook input
+prompt kept	1	1	1	_input value
+prompt kept	1	2	1	0
+prompt kept	2	0	1	_instances
+prompt kept	2	1	1	_input value
+prompt kept	2	1	2	_instance
+prompt kept	2	1	3	_parent
+prompt kept	2	1	4	_pointer
+prompt kept	2	1	5	_type
+prompt kept	2	1	6	_value
+prompt kept	2	2	1	0
+prompt kept	2	2	2	1
+prompt kept	2	2	3	0
+prompt kept	2	2	4	/hook_event_name
+prompt kept	2	2	5	string
+prompt kept	2	2	6	UserPromptSubmit
+prompt kept	2	3	1	0
+prompt kept	2	3	2	2
+prompt kept	2	3	3	0
+prompt kept	2	3	4	/prompt
+prompt kept	2	3	5	string
+prompt kept	2	3	6	hello
+a b kept	1	0	1	hook input
+a b kept	1	1	1	_input value
+a b kept	1	2	1	0
+a b kept	2	0	1	_instances
+a b kept	2	1	1	_input value
+a b kept	2	1	2	_instance
+a b kept	2	1	3	_parent
+a b kept	2	1	4	_pointer
+a b kept	2	1	5	_type
+a b kept	2	1	6	_value
+a b kept	2	2	1	0
+a b kept	2	2	2	1
+a b kept	2	2	3	0
+a b kept	2	2	4	/a
+a b kept	2	2	5	number
+a b kept	2	2	6	1
+a b kept	2	3	1	0
+a b kept	2	3	2	2
+a b kept	2	3	3	0
+a b kept	2	3	4	/b
+a b kept	2	3	5	string
+a b kept	2	3	6	c
+café input	1	0	1	hook input
+café input	1	1	1	_input value
+café input	1	2	1	0
+café input	2	0	1	_instances
+café input	2	1	1	_input value
+café input	2	1	2	_instance
+café input	2	1	3	_parent
+café input	2	1	4	_pointer
+café input	2	1	5	_type
+café input	2	1	6	_value
+café input	2	2	1	0
+café input	2	2	2	1
+café input	2	2	3	0
+café input	2	2	4	/hook_event_name
+café input	2	2	5	string
+café input	2	2	6	UserPromptSubmit
+café input	2	3	1	0
+café input	2	3	2	2
+café input	2	3	3	0
+café input	2	3	4	/session_id
+café input	2	3	5	string
+café input	2	3	6	s1
+café input	2	4	1	0
+café input	2	4	2	3
+café input	2	4	3	0
+café input	2	4	4	/prompt
+café input	2	4	5	string
+café input	2	4	6	café
+café _stored	1	0	1	_stored
+café _stored	1	1	1	_input
+café _stored	1	1	2	_input value
+café _stored	1	1	3	_time
+café _stored	1	1	4	_event
+café _stored	1	2	1	$PWD
+café _stored	1	2	2	0
+café _stored	1	2	3	2026-10-10T09:00:00Z
+café _stored	1	2	4	UserPromptSubmit
+placed
+requirement	case	when	pathname	fixture
+hooks.2	1	before	$PWD/p/a.mtsv	a sheet s
+hooks.2	1	after	$PWD/bank/$INPUT/p.mtsv	stop kept
+hooks.3	1	after	$PWD/bank/$INPUT.mtsv	prompt kept
+hooks.7	1	after	$PWD/bank/$INPUT.mtsv	a b kept
+hooks.8	1	before	$PWD/bank/$INPUT.mtsv	café input
+hooks.8	1	before	$PWD/bank/_stored.mtsv	café _stored
+hooks.8	1	before	$PWD/bank/_sheets.mtsv	hook input _sheets
+hooks.8	1	before	$PWD/bank/_fields.mtsv	hook input _fields
+octets
+requirement	case	pathname	file	modified
+hooks.6	1	$PWD/bank	not-a-folder	
+absent
+requirement	case	pathname
+hooks.5	1	$PWD/bank/$INPUT.mtsv
+results
+requirement	case	position	item	value
+hooks.1	1	1	0	0
+hooks.2	1	1	0	0
+hooks.3	1	1	0	0
+hooks.5	1	1	0	1
+hooks.6	1	1	0	1
+hooks.7	1	1	0	0
+hooks.8	1	1	0	0
+stdout lines
+requirement	case	line	pointer	type	value
+hooks.1	1	1	/hookSpecificOutput/hookEventName	string	SubagentStart
+hooks.3	1	1	/hookSpecificOutput/hookEventName	string	UserPromptSubmit
+hooks.3	1	1	/hookSpecificOutput/additionalContext	string	
+hooks.8	1	1	/hookSpecificOutput/hookEventName	string	UserPromptSubmit
+hooks.8	1	1	/hookSpecificOutput/additionalContext	string	<FF>hook input<LF>_input value<LF>0<LF><FF>_instances<LF>_input value<TAB>_instance<TAB>_parent<TAB>_pointer<TAB>_type<TAB>_value<LF>0<TAB>1<TAB>0<TAB>/hook_event_name<TAB>string<TAB>UserPromptSubmit<LF>0<TAB>2<TAB>0<TAB>/session_id<TAB>string<TAB>s1<LF>0<TAB>3<TAB>0<TAB>/prompt<TAB>string<TAB>café<LF><FF>_stored<LF>_input<TAB>_input value<TAB>_time<TAB>_event<LF>$PWD<TAB>0<TAB>2026-10-10T09:00:00Z<TAB>UserPromptSubmit<LF>

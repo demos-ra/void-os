@@ -1,0 +1,34 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+field.1	1	converter	convert					a field holds its instance's text: a number as written, null as an empty field
+field.2	1	converter	convert					in the sheet of instances the fields after the keys are _type and _value
+field.3	1	converter	convert					a string that holds a line break is an empty field, its text written as runs
+arguments
+requirement	case	position	item	value
+field.1	1	1	1	{"n": 1.50, "z": null}
+field.1	1	2	0	{"title": "t", "type": "object", "properties": {"n": {"type": "number"}, "z": {"type": "null"}}, "required": ["n", "z"]}
+field.1	1	3	0	0
+field.2	1	1	1	[1]
+field.2	1	2	0	{"title": "t"}
+field.2	1	3	0	0
+field.3	1	1	1	{"a": "x\ny"}
+field.3	1	2	0	{"title": "t", "type": "object", "properties": {"a": {"type": "string"}}, "required": ["a"]}
+field.3	1	3	0	0
+fixtures
+fixture	sheet	record	field	value
+t n 1.50 z empty	1	0	1	t
+t n 1.50 z empty	1	1	1	_input value
+t n 1.50 z empty	1	1	2	n
+t n 1.50 z empty	1	1	3	z
+t n 1.50 z empty	1	2	1	0
+t n 1.50 z empty	1	2	2	1.50
+placed
+requirement	case	when	pathname	fixture
+field.1	1	after	result 1	t n 1.50 z empty
+field.2	1	after	result 1	molten array
+field.3	1	after	result 1	runs of a
+results
+requirement	case	position	item	value
+field.1	1	2	0	
+field.2	1	2	0	
+field.3	1	2	0	

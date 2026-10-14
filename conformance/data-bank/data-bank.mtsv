@@ -1,0 +1,70 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+data-bank.1	1	data bank	insert					the data bank stores the file the converter writes for its input
+data-bank.3	1	data bank	new					the data bank gives communication's new as its own
+arguments
+requirement	case	position	item	value
+data-bank.1	1	2	0	$PWD
+data-bank.1	1	3	1	{"hook_event_name": "Stop"}
+data-bank.1	1	4	0	{"title": "hook input", "type": "object"}
+data-bank.1	1	5	0	Stop
+data-bank.3	1	2	0	$PWD
+data-bank.3	1	3	0	s2
+data-bank.3	1	4	0	
+data-bank.3	1	5	0	
+environment
+requirement	case	name	value
+data-bank.1	1	VOID_OS_DATA_BANK	$PWD/bank
+data-bank.3	1	VOID_OS_DATA_BANK	$PWD/bank
+fixtures
+fixture	sheet	record	field	value
+new value 1	1	0	1	hook input
+new value 1	1	1	1	_input value
+new value 1	1	2	1	1
+new value 1	2	0	1	_instances
+new value 1	2	1	1	_input value
+new value 1	2	1	2	_instance
+new value 1	2	1	3	_parent
+new value 1	2	1	4	_pointer
+new value 1	2	1	5	_type
+new value 1	2	1	6	_value
+new value 1	2	2	1	1
+new value 1	2	2	2	1
+new value 1	2	2	3	0
+new value 1	2	2	4	/hook_event_name
+new value 1	2	2	5	string
+new value 1	2	2	6	UserPromptSubmit
+new value 1	2	3	1	1
+new value 1	2	3	2	2
+new value 1	2	3	3	0
+new value 1	2	3	4	/session_id
+new value 1	2	3	5	string
+new value 1	2	3	6	s1
+new value 1	2	4	1	1
+new value 1	2	4	2	3
+new value 1	2	4	3	0
+new value 1	2	4	4	/prompt
+new value 1	2	4	5	string
+new value 1	2	4	6	hello
+new value 1	3	0	1	_stored
+new value 1	3	1	1	_input
+new value 1	3	1	2	_input value
+new value 1	3	1	3	_time
+new value 1	3	1	4	_event
+new value 1	3	2	1	$PWD
+new value 1	3	2	2	1
+new value 1	3	2	3	2026-10-11T10:30:00Z
+new value 1	3	2	4	UserPromptSubmit
+placed
+requirement	case	when	pathname	fixture
+data-bank.1	1	after	$PWD/bank/$INPUT.mtsv	stop kept
+data-bank.3	1	before	$PWD/bank/$INPUT.mtsv	two values input
+data-bank.3	1	before	$PWD/bank/_stored.mtsv	two values _stored
+data-bank.3	1	before	$PWD/bank/_sheets.mtsv	hook input _sheets
+data-bank.3	1	before	$PWD/bank/_fields.mtsv	hook input _fields
+data-bank.3	1	before	$PWD/bank/_communicated.mtsv	communicated s2 1
+data-bank.3	1	after	result 1	new value 1
+data-bank.3	1	after	$PWD/bank/_communicated.mtsv	communicated s2 2
+results
+requirement	case	position	item	value
+data-bank.1	1	1	0	1

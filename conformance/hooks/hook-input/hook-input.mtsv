@@ -1,0 +1,45 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+hook-input.2	1	hook input	insert					the hook input is inserted as one value of the input, its module specification the Value hook input schema, on the event handed
+arguments
+requirement	case	position	item	value
+hook-input.2	1	2	0	$PWD
+hook-input.2	1	3	0	SubagentStop
+hook-input.2	1	4	0	{"hook_event_name": "SubagentStop"}
+environment
+requirement	case	name	value
+hook-input.2	1	VOID_OS_DATA_BANK	$PWD/bank
+fixtures
+fixture	sheet	record	field	value
+subagent stop kept	1	0	1	hook input
+subagent stop kept	1	1	1	_input value
+subagent stop kept	1	2	1	0
+subagent stop kept	2	0	1	_instances
+subagent stop kept	2	1	1	_input value
+subagent stop kept	2	1	2	_instance
+subagent stop kept	2	1	3	_parent
+subagent stop kept	2	1	4	_pointer
+subagent stop kept	2	1	5	_type
+subagent stop kept	2	1	6	_value
+subagent stop kept	2	2	1	0
+subagent stop kept	2	2	2	1
+subagent stop kept	2	2	3	0
+subagent stop kept	2	2	4	/hook_event_name
+subagent stop kept	2	2	5	string
+subagent stop kept	2	2	6	SubagentStop
+stored subagent stop	1	0	1	_stored
+stored subagent stop	1	1	1	_input
+stored subagent stop	1	1	2	_input value
+stored subagent stop	1	1	3	_time
+stored subagent stop	1	1	4	_event
+stored subagent stop	1	2	1	$PWD
+stored subagent stop	1	2	2	0
+stored subagent stop	1	2	3	2026-01-01T00:00:00Z
+stored subagent stop	1	2	4	SubagentStop
+placed
+requirement	case	when	pathname	fixture
+hook-input.2	1	after	$PWD/bank/$INPUT.mtsv	subagent stop kept
+hook-input.2	1	after	$PWD/bank/_stored.mtsv	stored subagent stop
+results
+requirement	case	position	item	value
+hook-input.2	1	1	0	1

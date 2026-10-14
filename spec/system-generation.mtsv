@@ -1,0 +1,479 @@
+References
+Tag	Kind
+MCP-REGISTRY	normative
+MIT	normative
+NODE-ESM	normative
+NODE-PACKAGES	normative
+NODE-URL	normative
+NPM-INSTALL	normative
+NPR-7150-2D	normative
+PEP517	normative
+PEP668	normative
+POSIX-XSH-FUTIMENS	normative
+PY-IMPORT	normative
+PY-IO	normative
+PYPA-ENTRY-POINTS	normative
+PYPA-LICENSE	normative
+PYPA-SRC-LAYOUT	normative
+SETUPTOOLS-MANIFEST	normative
+Values
+Value	Module	Type	Bound	Given	Status
+copyright holders	distribution package	text	<year> <copyright holders> of the MIT License	2026 Demos Ra	placeholder
+requires-python	distribution package	text	the oldest Python with every feature used	>=3.11	placeholder
+node engine	distribution package	text	the oldest Node with every feature used	>=22.13	placeholder
+build requires	distribution package	text	the [build-system] requires	setuptools>=77	placeholder
+build backend	distribution package	text	the [build-system] build-backend	setuptools.build_meta	placeholder
+python dependency mcp	distribution package	text	the MCP Python SDK, a library the Python implementation uses, with its floor, as pyproject.toml dependencies writes a requirement	mcp>=2.2.0	placeholder
+javascript dependency server	distribution package	text	the MCP TypeScript SDK server package, a library the JavaScript implementation uses, with its floor, as npm install writes a name and a version range	@modelcontextprotocol/server@>=2.3.1	placeholder
+javascript dependency zod	distribution package	text	zod, a library the JavaScript implementation uses, on which the server package is written, its floor as the server package's dependencies give it, as npm install writes a name and a version range	zod@^4.2.0	placeholder
+registry name	distribution package	text	the server's name in the MCP Registry, in a namespace the publisher is authenticated for	io.github.demos-ra/void-os	placeholder
+server description	distribution package	text	what the MCP Registry says the server does	Memory for AI agents: a data bank of MTSV relations, read through one tool.	placeholder
+Value citations
+Value	Tag	Section	First block	Last block
+copyright holders	MIT	(preamble)		
+requires-python	PYPA-PYPROJECT	requires-python		
+node engine	NODE-SQLITE	SQLite		
+build requires	PEP517	Source trees	3	3
+build backend	PEP517	Source trees	4	4
+python dependency mcp	PYPA-PYPROJECT	dependencies		
+javascript dependency server	NPM-PACKAGE-JSON	dependencies		
+javascript dependency server	NPM-INSTALL	How npm install uses package-lock.json	70	70
+javascript dependency server	MCP-TS-SDK	README › Install		
+javascript dependency zod	NPM-PACKAGE-JSON	dependencies		
+javascript dependency zod	NPM-INSTALL	How npm install uses package-lock.json	70	70
+javascript dependency zod	MCP-TS-SDK	package.json		
+registry name	MCP-REGISTRY	docs/reference/server-json/official-registry-requirements › Namespace Authentication		
+server description	MCP-REGISTRY	docs/reference/server-json/draft/server.schema.json	1	1
+Files
+Path	Module	Held from	Held path	Output of
+python/src/void_os/system_generation/_system_generation.py	system generation			
+python/src/void_os/system_generation/values/_values.py	values			
+python/src/void_os/system_generation/values/values.mtsv	values			spec/
+python/pyproject.toml	distribution package			
+python/README	distribution package			
+python/LICENSE	distribution package	MIT	MIT.txt	
+python/tests/void_os/system_generation/runner/_runner.py	runner			
+javascript/src/system-generation/system-generation.js	system generation			
+javascript/src/system-generation/values/values.js	values			
+javascript/src/system-generation/values/values.mtsv	values			spec/
+javascript/package.json	distribution package			
+javascript/README	distribution package			
+javascript/LICENSE	distribution package	MIT	MIT.txt	
+javascript/tests/system-generation/runner/runner.js	runner			
+server.json	distribution package			
+Relations
+Relation	Module	Parent	Description
+cases	runner		each conformance case of a requirement: the access program it calls, and what it asserts; held in the file of the requirement's module, one MTSV file in the folder conformance at the module's place in the tree, the folder and the file named as the module, lowercase, each space a hyphen, a part named with › in the folder of its parent
+arguments	runner	cases	each argument a case calls with
+environment	runner	cases	each variable a case sets for the call
+stdin	runner	cases	each line of a case's standard input
+fixtures	runner		the sheets of each fixture, one MTSV text, held once, in the file of the lowest module whose cases place it, reached by the cases of that module and of the modules below it
+placed	runner	cases	each fixture a case places before the call or expects after it
+octets	runner	cases	each file a case places by its octets before the call, nothing in it expanded
+zip entries	runner	cases	each entry of a zip package a case places before the call: its name, its compression method and its text
+database statements	runner	cases	each SQL statement, in order, that builds a database a case places before the call
+absent	runner	cases	each pathname where nothing exists after a case's call
+results	runner	cases	each result a case expects
+result instances	runner	cases	each instance a result of type JSON text a case expects holds
+stdout lines	runner	cases	each instance a line of a case's standard output, a JSON text, holds
+expected files	runner	cases	each file that is not MTSV text a case expects after the call
+file texts	runner	cases	each text a file a case names holds within one of its lines
+file instances	runner	cases	each instance the JSON text at a pathname a case names holds
+Domains
+Relation	Column	Domain	Key	References	Type	Description
+cases	requirement	Requirement	primary	Requirements	text	the requirement the case checks
+cases	case		primary		number	the case's number within its requirement, from 1
+cases	module	Module		Modules	text	the module of the access program called, empty for a case of a requirement Requirement files names
+cases	access program	Access program		Access programs	text	the lowest access program, from the requirement's module up to its group's node, none of whose parameters or results carries a relation the Relations sheet places below a group's node, by its Relation, its Parameter relations or its Result relations: at the requirement's module, the one its Access program names, or any where that is empty; above it, any that reaches that access program through Access program uses rows; but, where that access program or one it reaches carries a requirement whose Operation uses name read standard input, write standard output, write standard error or MCP serve, the access program that starts the component, the standard streams being the process's; empty for a case of a requirement Requirement files names
+cases	error	Error		Errors	text	the error the call ends with, empty for none
+cases	reason				text	the reason the call's error gives, or, for a case of the access program that starts a component, the text written on standard error; empty where it is not compared
+cases	output				boolean	true where something is written on standard output, false where nothing is, empty where it is not compared
+cases	diagnostic				boolean	true where a diagnostic is written on standard error, false where none is, empty where it is not compared
+cases	assertion				text	what the case asserts
+arguments	requirement		primary	cases	text	the case's requirement
+arguments	case		primary	cases	number	the case
+arguments	position		primary		number	the parameter's position; for the command, the operand's
+arguments	item		primary		number	0 for one value, from 1 for each item of an array, as the Written column of the parameter's type writes it
+arguments	value				text	the argument, as the Written column of the parameter's type writes it
+environment	requirement		primary	cases	text	the case's requirement
+environment	case		primary	cases	number	the case
+environment	name		primary		text	the variable's name
+environment	value				text	the variable's value
+stdin	requirement		primary	cases	text	the case's requirement
+stdin	case		primary	cases	number	the case
+stdin	line		primary		number	the line's position, from 1
+stdin	text				text	the line, a line break after it
+fixtures	fixture		primary		text	the fixture's name
+fixtures	sheet		primary		number	the sheet's position in its text, from 1
+fixtures	record		primary		number	0 for the sheet's name, 1 for its header, its records from 2
+fixtures	field		primary		number	the field's position, from 1
+fixtures	value				text	the field, empty where no record is held
+placed	requirement		primary	cases	text	the case's requirement
+placed	case		primary	cases	number	the case
+placed	when		primary		text	before, placed before the call, or after, expected after it
+placed	pathname		primary		text	where it is placed: a pathname, - for standard output, argument and a position, or result and a position
+placed	fixture			fixtures	text	the fixture placed
+octets	requirement		primary	cases	text	the case's requirement
+octets	case		primary	cases	number	the case
+octets	pathname		primary		text	where the file is placed
+octets	file				text	the file that holds its octets, held once, beside the file of the lowest module whose cases name it, reached by the cases of that module and of the modules below it
+octets	modified				number	how many seconds before the call it was last modified, empty for when it is placed
+zip entries	requirement		primary	cases	text	the case's requirement
+zip entries	case		primary	cases	number	the case
+zip entries	pathname		primary		text	where the zip package is placed
+zip entries	entry		primary		number	the entry's place in the package, from 1
+zip entries	name				text	the entry's name
+zip entries	method				number	its compression method, as ZIP-APPNOTE numbers it
+zip entries	text				text	its uncompressed data, as text is written, in UTF-8
+database statements	requirement		primary	cases	text	the case's requirement
+database statements	case		primary	cases	number	the case
+database statements	pathname		primary		text	where the database is placed
+database statements	statement		primary		number	the statement's place, from 1
+database statements	text				text	the SQL statement
+absent	requirement		primary	cases	text	the case's requirement
+absent	case		primary	cases	number	the case
+absent	pathname		primary		text	where nothing exists after the call
+results	requirement		primary	cases	text	the case's requirement
+results	case		primary	cases	number	the case
+results	position		primary		number	the result's position; for the command, 1 for the exit status
+results	item		primary		number	0 for one value, from 1 for each item of an array, as the Written column of the result's type writes it
+results	value				text	the result, as the Written column of the result's type writes it, compared as its text
+result instances	requirement		primary	cases	text	the case's requirement
+result instances	case		primary	cases	number	the case
+result instances	position		primary		number	the result's position
+result instances	pointer		primary		text	the instance's JSON Pointer from the result's value
+result instances	type				JSON type	the instance's primitive type, as JSON text gives it
+result instances	value				text	the instance's value, as JSON text gives it
+stdout lines	requirement		primary	cases	text	the case's requirement
+stdout lines	case		primary	cases	number	the case
+stdout lines	line		primary		number	the line's position, from 1
+stdout lines	pointer		primary		text	the instance's JSON Pointer within the line
+stdout lines	type				JSON type	the instance's primitive type, as JSON text gives it
+stdout lines	value				text	the instance's value, as JSON text gives it
+expected files	requirement		primary	cases	text	the case's requirement
+expected files	case		primary	cases	number	the case
+expected files	pathname		primary		text	where the file is expected, - for standard output
+expected files	file				text	the file that holds its octets, held once, beside the file of the lowest module whose cases name it, reached by the cases of that module and of the modules below it
+file texts	requirement		primary	cases	text	the case's requirement
+file texts	case		primary	cases	number	the case
+file texts	pathname		primary		text	the file
+file texts	position		primary		number	the text's position, from 1
+file texts	text				text	a text the file holds within one of its lines
+file instances	requirement		primary	cases	text	the case's requirement
+file instances	case		primary	cases	number	the case
+file instances	pathname		primary		text	the file, a JSON text
+file instances	pointer		primary		text	the instance's JSON Pointer from the text's value
+file instances	type				JSON type	the instance's primitive type, as JSON text gives it
+file instances	value				text	the instance's value, as JSON text gives it
+Signatures
+Callable	Direction	Position	Type	Relation
+Access programs
+Module	Access program	Starts
+system generation	values	
+values	values	
+runner	run	
+Parameters
+Module	Access program	Position	Parameter	Type	Relation	Default	Description
+values	values	1	folder	absolute path			the folder that holds values.mtsv
+runner	run	1	requirement	text			the requirement the case checks
+runner	run	2	case	number			the case's number within its requirement
+runner	run	3	folder	absolute path			the folder of conformance cases the case is found in: the repository's folder conformance, as the test hands it
+Parameter relations
+Module	Access program	Position	Relation
+Results
+Module	Access program	Position	Type	Relation	Description
+system generation	values	1	relation	Values	the Values the package carries
+values	values	1	relation	Values	the Values the package carries
+runner	run	1	texts		each comparison that does not hold, none where the case passes
+Result relations
+Module	Access program	Position	Relation
+Compositions
+Module	Part	Handed
+system generation	values	relational model
+system generation	runner	relational model
+system generation	runner	values
+Connectors
+Module	Peer	Connector	Protocol	Data
+Requirements
+Requirement	Module	Access program	Statement
+system-generation.1	system generation	values	The access program values MUST give the Values as values reads them, handing it the folder of values' own file, as module folder gives it.
+values.1	values	values	The access program values MUST read the Values from values.mtsv in the folder it is handed, the Values sheet of this specification as each package carries it, by the header Value and Given, giving relation Values of the domains Value and Given.
+values.2	values		values.mtsv MUST be written from the Values sheet of this specification, its Value and Given columns, as the generator writes a sheet.
+values.3	values	values	A values.mtsv that cannot be read, or that the parser rejects, MUST end values as not MTSV.
+distribution-package.1	distribution package		python/pyproject.toml MUST declare the build system the Values build requires and build backend name, and the project: name void-os, the version, requires-python, the dependency the Value python dependency mcp gives, license MIT, the [project.scripts] entry of the void-os command, and values.mtsv as package data, and no other table or field.
+distribution-package.2	distribution package		javascript/package.json MUST declare the name void-os, the version, the type module, the bin entry of the void-os command naming src/void-os.js, the engines the Value node engine gives, the dependencies the Values javascript dependency server and javascript dependency zod give, the license MIT, its files the folder src alone, which holds values.mtsv, and the mcpName the Value registry name gives, and no other field.
+distribution-package.3	distribution package		server.json MUST name the server by the Value registry name, describe it by the Value server description, and list two packages, the npm package and the PyPI package, each named void-os, at the version, each run with no argument over stdio.
+distribution-package.4	distribution package		Each README MUST say what void-os is, as scope.1 says it, and how it is installed: pipx install void-os for the PyPI package and npm install --global void-os for the npm package; lay out the modules as the Modules sheet's tree, each by its secret on one line; and, for the PyPI package, hold the Value registry name as the registry's ownership verification names it.
+distribution-package.5	distribution package		Each LICENSE MUST be the MIT License's text, its copyright line the Value copyright holders.
+runner.1	runner	run	The access program run MUST find the case by its requirement and case among the cases of the file, in the folder conformance it is handed, of the requirement's module, and never by its place on disk, and read the books from the folder spec of the repository, the folder that holds the runner's own file at the path the Files sheet gives it, as module folder gives that file's folder.
+runner.2	runner	run	A case MUST be run in an empty directory made for it, its resolved pathname $PWD, $PWD/home the user's home folder by the variable the platform reads it from, TZ set to UTC0 and each variable of environment, and no other variable set but PATH and those the platform needs to start a program.
+runner.3	runner	run	Each fixture placed before, of the file of the case's module or of a node above, MUST be placed at its pathname before the call, the directories its pathname needs made.
+runner.4	runner	run	The case's access program, where it starts no component, MUST be called on the case's module, loaded from its files as the Files sheet places them in the repository, with the Values as values gives them, or the fixture the case places at its values argument, the case's arguments and the fixtures placed at an argument, by the positions of the Parameters sheet, then each module Compositions hands that module, loaded the same way.
+runner.5	runner	run	Each result of type JSON text MUST be compared by its instances, every instance result instances names and no other, each line of standard output by the instances stdout lines names, and each file of file instances by the instances it names, run giving each comparison that does not hold.
+runner.6	runner	run	$PWD, $HOME, $INPUT and $REPOSITORY MUST be expanded in every value, and nothing else: $HOME/Documents the user's documents folder as PLATFORMDIRS gives it for the platform the case runs on, each / of a pathname the platform's separator, $INPUT $PWD as name within a folder writes it, and $REPOSITORY the repository runner.1 reads the books from.
+runner.7	runner	run	A value MUST be read as the Written column of its type writes it.
+runner.20	runner	run	A field compared, whose column the Domains rows of the relation its sheet is named by give the type time, MUST match any date-time RFC 3339 writes with the offset Z.
+runner.21	runner	run	A text read as a JSON text that JSON text rejects MUST be read as holding no instance.
+runner.8	runner	run	A case whose module and access program are empty MUST call nothing, each pathname it names being a file of the repository, relative to it.
+runner.9	runner	run	A requirement and case that name no case MUST end run as no case.
+runner.10	runner	run	A file of conformance the parser rejects MUST end run as not MTSV.
+runner.11	runner	run	The case's access program, where it starts a component, MUST be run as the component's command starts it: a child process in $PWD with the environment of runner.2 alone, its program the command line of the Given of the Value the component's Command names, from the repository runner.1 reads the books from, its operands then the case's arguments; its standard input the case's stdin, each line then LF, in UTF-8, written when it starts, and closed once the lines of standard output read hold a response for each request among the lines written, or standard output ends, a request being a line that holds a JSON object with the members method and id, and a response a line that holds a JSON object with the member id and the member result or error; its standard output the lines read, then the rest.
+runner.22	runner	run	A started component's exit status MUST be the result 1, its standard output what output, stdout lines and the fixture placed at - compare, and its standard error what diagnostic and reason compare.
+runner.12	runner	run	Each file of octets MUST be placed at its pathname before the call, its octets those of the file it names, beside the file of the case's module or of a node above, nothing in it expanded, the directories its pathname needs made, and its modification time, where modified gives one, set that many seconds before the call.
+runner.13	runner	run	Each zip package of zip entries MUST be placed at its pathname before the call, the directories its pathname needs made, written as ZIP-APPNOTE writes a ZIP file, its entries in order, each with its name, its method and the CRC-32 of its text in UTF-8, its data that text compressed by DEFLATE where its method is 8 and held as it is otherwise.
+runner.14	runner	run	Each database of database statements MUST be placed at its pathname before the call, the directories its pathname needs made, built by running its statements in order on a new database there.
+runner.15	runner	run	The error the call ends with, with its reason where the case gives one, whether standard output holds anything and whether standard error holds a diagnostic, where the case gives them, and each result of results, as its text, MUST be compared, run giving each comparison that does not hold.
+runner.16	runner	run	Each fixture placed after MUST be compared as its sheets with what is at its pathname: a file, standard output, or a result, run giving each comparison that does not hold.
+runner.17	runner	run	Each pathname of absent MUST hold nothing after the call, run giving each that does.
+runner.18	runner	run	Each expected file MUST hold, after the call, the octets of the file it names, beside the file of the case's module or of a node above, run giving each that does not.
+runner.19	runner	run	Each text of file texts MUST be held within one of the lines, or the incomplete line, of the file it names, run giving each that is not.
+Errors
+Module	Access program	Error	Requirement
+system generation	values	not MTSV	
+values	values	not MTSV	values.3
+runner	run	no case	runner.9
+runner	run	not MTSV	
+runner	run	not MTSV	runner.10
+runner	run	cannot be represented	
+Ended errors
+Module	Access program	Called module	Called access program	Error	Disposition	Requirement
+runner	run	relational model	instances	not a JSON text	ended	runner.21
+runner	run	relational model	instances	names not unique	ended	runner.21
+Operations
+Operation	Module	Kind	Tag	Section	First block	Last block
+module folder	system generation	primitive	PYPA-SRC-LAYOUT	Running a command-line interface from source with src-layout	2	2
+command line	runner	primitive	POSIX-XCU1	1.4 Utility Description Defaults		
+load module	runner	primitive	PY-IMPORT	The import system		
+start process	runner	primitive	POSIX-XCU1	1.4 Utility Description Defaults		
+write standard input	runner	primitive	POSIX-XCU1	1.4 Utility Description Defaults		
+read a line	runner	primitive	POSIX-XBD3	3.206 Line	1	1
+end process	runner	primitive	MCP	basic/transports/stdio › Shutdown	1	3
+set environment variable	runner	primitive	POSIX-XBD8	8.1 Environment Variable Definition		
+remove environment variable	runner	primitive	POSIX-XBD8	8.1 Environment Variable Definition		
+environment variable names	runner	primitive	POSIX-XBD8	8.1 Environment Variable Definition		
+exists	runner	primitive	POSIX-XSH-STAT	DESCRIPTION		
+set modification time	runner	primitive	POSIX-XSH-FUTIMENS	DESCRIPTION	1	2
+date-time	runner	grammar	RFC3339	5.6. Internet Date/Time Format		
+zip write	runner	composite	ZIP-APPNOTE	(preamble)	86	135
+CRC-32	runner	primitive	ZIP-APPNOTE	(preamble)	183	184
+DEFLATE write	runner	primitive	RFC1951	3. Detailed specification		
+database write	runner	primitive	SQLITE-FORMAT	2.6. Storage Of The SQL Database Schema		
+Operation inputs
+Operation	Position	Input	Type
+command line	1	command	text
+command line	2	repository	absolute path
+load module	1	repository	absolute path
+load module	2	paths	texts
+start process	1	arguments	arguments
+start process	2	folder	absolute path
+start process	3	environment	mapping
+write standard input	1	process	handle
+write standard input	2	data	bytes
+read a line	1	process	handle
+end process	1	process	handle
+set environment variable	1	name	text
+set environment variable	2	value	text
+remove environment variable	1	name	text
+exists	1	path	absolute path
+set modification time	1	path	absolute path
+set modification time	2	seconds	number
+CRC-32	1	data	bytes
+DEFLATE write	1	data	bytes
+database write	1	path	absolute path
+database write	2	script	text
+Bindings
+Operation	Notation	Code	Tag	Section	First block	Last block
+module folder	python	{{result}} = os.path.dirname(__file__)	PY-OS-PATH	os.path --- Common pathname manipulations	28	28
+module folder	javascript	const {{result}} = import.meta.dirname;	NODE-ESM	import.meta.dirname	2	2
+command line	python	with open({{repository}} + '/python/pyproject.toml', 'rb') as file: {{result}} = [sys.executable, '-c', 'import sys; sys.path.insert(0, %r); from %s import %s as start; sys.exit(start())' % ((({{repository}} + '/python/src'),) + tuple(tomllib.load(file)['project']['scripts'][{{command}}].split(':')))]	PYPA-ENTRY-POINTS	Use for scripts	2	3
+command line	javascript	const {{result}} = [process.execPath, {{repository}} + '/javascript/' + JSON.parse(fs.readFileSync({{repository}} + '/javascript/package.json')).bin[{{command}}]];	NPM-PACKAGE-JSON	bin		
+load module	python	{{result}} = __import__(next(path for path in {{paths}} if path.startswith('python/') and path.endswith('.py'))[len('python/'):-len('.py')].removeprefix('src/').replace('/', '.'), fromlist=['*'])	PY-FUNCTIONS	Built-in Functions	436	436
+load module	javascript	const {{result}} = await import(url.pathToFileURL({{repository}} + '/' + {{paths}}.find((path) => path.startsWith('javascript/') && path.endsWith('.js'))).href);	NODE-URL	url.pathToFileURL(path[, options])		
+start process	python	{{result}} = subprocess.Popen({{arguments}}, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd={{folder}}, env={{environment}})	PY-SUBPROCESS	Popen Constructor		
+start process	javascript	const {{result}} = ((child) => { const handle = { child, stdout: new Uint8Array(0), stderr: new Uint8Array(0), read: 0, status: null, closed: false, wake: () => {} }; const join = (head, tail) => { const joined = new Uint8Array(head.length + tail.length); joined.set(head); joined.set(tail, head.length); return joined; }; child.stdout.on('data', (chunk) => { handle.stdout = join(handle.stdout, chunk); handle.wake(); }); child.stderr.on('data', (chunk) => { handle.stderr = join(handle.stderr, chunk); }); child.on('close', (status) => { handle.status = status; handle.closed = true; handle.wake(); }); return handle; })(child_process.spawn({{arguments}}[0], {{arguments}}.slice(1), { cwd: {{folder}}, env: {{environment}} }));	NODE-CHILD-PROCESS	child_process.spawn(command[, args][, options])		
+write standard input	python	{{process}}.stdin.write({{data}}); {{process}}.stdin.flush()	PY-SUBPROCESS	Popen Objects		
+write standard input	javascript	{{process}}.child.stdin.write({{data}});	NODE-CHILD-PROCESS	subprocess.stdin		
+read a line	python	{{result}} = {{process}}.stdout.readline()	PY-IO	I/O Base Classes	24	24
+read a line	javascript	const {{result}} = await new Promise((resolve) => { const take = () => { const end = {{process}}.stdout.indexOf(10, {{process}}.read); if (end >= 0 || {{process}}.closed) { const stop = end >= 0 ? end + 1 : {{process}}.stdout.length; const line = {{process}}.stdout.subarray({{process}}.read, stop); {{process}}.read = stop; resolve(line); } else { {{process}}.wake = take; } }; take(); });	NODE-CHILD-PROCESS	subprocess.stdout		
+end process	python	{{result}} = (lambda rest: [{{process}}.returncode, rest[0], rest[1]])({{process}}.communicate())	PY-SUBPROCESS	Popen Objects		
+end process	javascript	const {{result}} = await new Promise((resolve) => { {{process}}.child.stdin.end(); const done = () => { if ({{process}}.closed) { resolve([{{process}}.status, {{process}}.stdout.subarray({{process}}.read), {{process}}.stderr]); } else { {{process}}.wake = done; } }; done(); });	NODE-CHILD-PROCESS	Event: 'close'		
+set environment variable	python	os.environ[{{name}}] = {{value}}	PY-OS	Process Parameters	5	5
+set environment variable	javascript	process.env[{{name}}] = {{value}};	NODE-PROCESS	process.env		
+remove environment variable	python	os.environ.pop({{name}}, None)	PY-OS	Process Parameters	5	5
+remove environment variable	javascript	delete process.env[{{name}}];	NODE-PROCESS	process.env		
+environment variable names	python	{{result}} = list(os.environ)	PY-OS	Process Parameters	5	5
+environment variable names	javascript	const {{result}} = Object.keys(process.env);	NODE-PROCESS	process.env		
+exists	python	{{result}} = os.path.lexists({{path}})	PY-OS-PATH	os.path --- Common pathname manipulations	35	35
+exists	javascript	let {{result}}; try { fs.lstatSync({{path}}); {{result}} = true; } catch { {{result}} = false; }	NODE-FS	fs.lstatSync(path[, options])		
+set modification time	python	os.utime({{path}}, (time.time() - {{seconds}},) * 2)	PY-OS	Files and Directories	450	451
+set modification time	javascript	fs.utimesSync({{path}}, Date.now() / 1000 - {{seconds}}, Date.now() / 1000 - {{seconds}});	NODE-FS	fs.utimesSync(path, atime, mtime)		
+CRC-32	python	{{result}} = zlib.crc32({{data}})	PY-ZLIB	zlib --- Compression compatible with gzip	29	29
+CRC-32	javascript	const {{result}} = zlib.crc32({{data}});	NODE-ZLIB	zlib.crc32(data[, value])		
+DEFLATE write	python	{{result}} = (lambda compressor: compressor.compress({{data}}) + compressor.flush())(zlib.compressobj(wbits=-15))	PY-ZLIB	zlib --- Compression compatible with gzip	20	20
+DEFLATE write	javascript	const {{result}} = zlib.deflateRawSync({{data}});	NODE-ZLIB	zlib.deflateRawSync(buffer[, options])		
+database write	python	(lambda connection: (connection.executescript({{script}}), connection.close()))(sqlite3.connect({{path}}))	PY-SQLITE3	Connection objects	29	29
+database write	javascript	{ const connection = new DatabaseSync({{path}}); connection.exec({{script}}); connection.close(); }	NODE-SQLITE	database.exec(sql)		
+Operation steps
+Operation	Position	Step	Tag	Section	First block	Last block
+zip write	1	local file header	ZIP-APPNOTE	(preamble)	93	95
+zip write	2	file data	ZIP-APPNOTE	(preamble)	96	98
+zip write	3	central directory structure	ZIP-APPNOTE	(preamble)	114	118
+zip write	4	end of central directory record	ZIP-APPNOTE	(preamble)	134	135
+Terms
+Term	Module	Source	Section
+distribution package	distribution package	PYPA-PYPROJECT	
+Value uses
+Requirement	Value
+distribution-package.1	version
+distribution-package.1	requires-python
+distribution-package.1	python dependency mcp
+distribution-package.1	build requires
+distribution-package.1	build backend
+distribution-package.2	version
+distribution-package.2	node engine
+distribution-package.2	javascript dependency server
+distribution-package.2	javascript dependency zod
+distribution-package.2	registry name
+distribution-package.3	registry name
+distribution-package.3	version
+distribution-package.3	server description
+distribution-package.4	registry name
+distribution-package.5	copyright holders
+Operation uses
+Requirement	Operation
+system-generation.1	module folder
+values.1	read a file
+values.1	MTSV parse
+values.3	read a file
+values.3	MTSV parse
+runner.1	read a file
+runner.1	MTSV parse
+runner.1	module folder
+runner.2	make directory
+runner.2	resolve pathname
+runner.2	environment variable names
+runner.2	set environment variable
+runner.2	remove environment variable
+runner.3	make directory
+runner.3	MTSV generate
+runner.3	write a file
+runner.4	load module
+runner.5	read a file
+runner.6	user documents folder
+runner.6	home folder
+runner.6	platform
+runner.6	name within a folder
+runner.20	date-time
+runner.11	command line
+runner.11	start process
+runner.11	write standard input
+runner.11	read a line
+runner.11	end process
+runner.11	UTF-8 encode
+runner.12	read a file
+runner.12	make directory
+runner.12	write a file
+runner.12	set modification time
+runner.13	make directory
+runner.13	zip write
+runner.13	CRC-32
+runner.13	DEFLATE write
+runner.13	UTF-8 encode
+runner.13	write a file
+runner.14	make directory
+runner.14	database write
+runner.16	read a file
+runner.16	MTSV parse
+runner.17	exists
+runner.18	read a file
+runner.19	read a file
+runner.19	UTF-8 decode
+Access program uses
+Requirement	Module	Access program
+system-generation.1	values	values
+values.1	relational model	load
+values.3	relational model	load
+runner.1	relational model	load
+runner.3	relational model	dump
+runner.4	values	values
+runner.5	relational model	instances
+runner.22	relational model	instances
+runner.22	relational model	named
+runner.16	relational model	load
+Citations
+Requirement	Tag	Section	First block	Last block
+system-generation.1	PARNAS1985	B:3.4 SYSTEM GENERATION MODULE	1	1
+values.1	PARNAS1985	B:3.4 SYSTEM GENERATION MODULE	1	1
+values.1	MTSV-DRAFT	Data Model		
+values.2	MTSV-DRAFT	Generators		
+values.3	MTSV-DRAFT	Parsers		
+values.3	RFC9413	5.1. Virtuous Intolerance		
+distribution-package.1	PYPA-PYPROJECT	name		
+distribution-package.1	PYPA-PYPROJECT	version		
+distribution-package.1	PYPA-PYPROJECT	requires-python		
+distribution-package.1	PYPA-PYPROJECT	dependencies		
+distribution-package.1	PYPA-LICENSE	Specification	1	1
+distribution-package.1	PYPA-ENTRY-POINTS	Use for scripts	1	2
+distribution-package.1	PEP517	Source trees	3	4
+distribution-package.1	SETUPTOOLS-MANIFEST	Controlling files in the distribution		
+distribution-package.2	NPM-PACKAGE-JSON	name		
+distribution-package.2	NPM-PACKAGE-JSON	bin		
+distribution-package.2	NPM-PACKAGE-JSON	files		
+distribution-package.2	NPM-PACKAGE-JSON	engines		
+distribution-package.2	NODE-PACKAGES	"type"		
+distribution-package.2	MCP-REGISTRY	docs/modelcontextprotocol-io/package-types › Ownership Verification	1	2
+distribution-package.2	PARNAS1985	B:3.4 SYSTEM GENERATION MODULE	1	1
+distribution-package.3	MCP-REGISTRY	docs/modelcontextprotocol-io/package-types › npm Packages		
+distribution-package.3	MCP-REGISTRY	docs/modelcontextprotocol-io/package-types › PyPI Packages		
+distribution-package.4	MCP-REGISTRY	docs/modelcontextprotocol-io/package-types › PyPI Packages › Ownership Verification		
+distribution-package.4	PARNAS1985	MODULE DESCRIPTION		
+distribution-package.4	PEP668	Guide users towards virtual environments	2	2
+distribution-package.4	NPM-INSTALL	How npm install uses package-lock.json	17	17
+distribution-package.5	MIT	(preamble)		
+runner.1	CODD1970	1.3. A Relational View of Data		
+runner.2	POSIX-XBD8	8.1 Environment Variable Definition		
+runner.3	MTSV-DRAFT	Data Model		
+runner.3	POSIX-XSH-MKDIR	DESCRIPTION		
+runner.4	PARNAS1985	DESIGN PRINCIPLE	1	1
+runner.4	PARNAS1979	D. Designing the “Uses” Structure		
+runner.5	RFC6901	3. Syntax		
+runner.5	RFC8259	2. JSON Grammar		
+runner.6	PLATFORMDIRS	user_documents_dir		
+runner.20	RFC3339	5.6. Internet Date/Time Format		
+runner.21	RFC8259	2. JSON Grammar		
+runner.8	NPR-7150-2D	3.12 Software Bi-Directional Traceability	8	8
+runner.9	RFC9413	5.1. Virtuous Intolerance		
+runner.10	MTSV-DRAFT	Parsers		
+runner.10	RFC9413	5.1. Virtuous Intolerance		
+runner.11	POSIX-XCU1	1.4 Utility Description Defaults		
+runner.11	MCP	basic › Requests		
+runner.11	MCP	basic › Result Responses		
+runner.11	MCP	basic › Error Responses		
+runner.11	MCP	basic › Notifications	1	1
+runner.11	MCP	basic/transports/stdio › Shutdown	1	2
+runner.22	POSIX-XCU1	1.4 Utility Description Defaults		
+runner.12	POSIX-XSH-OPEN	DESCRIPTION		
+runner.12	POSIX-XSH-FUTIMENS	DESCRIPTION	1	2
+runner.13	ZIP-APPNOTE	(preamble)	86	135
+runner.13	RFC1951	3. Detailed specification		
+runner.14	SQLITE-FORMAT	2.6. Storage Of The SQL Database Schema		
+runner.16	MTSV-DRAFT	Data Model		
+runner.17	POSIX-XSH-STAT	DESCRIPTION		
+runner.18	POSIX-XSH-OPEN	DESCRIPTION		
+runner.19	POSIX-XBD3	3.206 Line	1	1
+runner.19	POSIX-XBD3	3.195 Incomplete Line	1	1
+Spec relations
+Requirement	Target
+Axis rules
+Standard	Characteristic	Subcharacteristic	Requirement
+Requirement files
+Requirement	Path
+values.2	python/src/void_os/system_generation/values/values.mtsv
+values.2	javascript/src/system-generation/values/values.mtsv
+distribution-package.1	python/pyproject.toml
+distribution-package.2	javascript/package.json
+distribution-package.3	server.json
+distribution-package.4	python/README
+distribution-package.4	javascript/README
+distribution-package.5	python/LICENSE
+distribution-package.5	javascript/LICENSE

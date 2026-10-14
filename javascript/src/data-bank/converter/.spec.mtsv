@@ -1,0 +1,361 @@
+1-folders
+kind	place	holds
+—	input	—
+—	transfer	—
+—	output	—
+2-modules
+kind	place	holds
+{{name}} · .js	converter	—
+3-statements
+kind	place	holds
+ImportDeclaration	converter.js#/SourceFile/0	—
+ImportDeclaration	converter.js#/SourceFile/1	—
+ImportDeclaration	converter.js#/SourceFile/2	—
+FunctionDeclaration · Body	converter.js#/SourceFile/3	—
+TryStatement	converter.js#/SourceFile/3/Body/0	—
+VariableStatement	converter.js#/SourceFile/3/Body/0/TryBlock/0	—
+ReturnStatement	converter.js#/SourceFile/3/Body/0/TryBlock/1	—
+IfStatement	converter.js#/SourceFile/3/Body/0/CatchClause/Block/0	—
+ThrowStatement	converter.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0	—
+ThrowStatement	converter.js#/SourceFile/3/Body/0/CatchClause/Block/1	—
+FunctionDeclaration · Body	converter.js#/SourceFile/4	—
+TryStatement	converter.js#/SourceFile/4/Body/0	—
+VariableStatement	converter.js#/SourceFile/4/Body/0/TryBlock/0	—
+VariableStatement	converter.js#/SourceFile/4/Body/0/TryBlock/1	—
+VariableStatement	converter.js#/SourceFile/4/Body/0/TryBlock/2	—
+ReturnStatement	converter.js#/SourceFile/4/Body/0/TryBlock/3	—
+IfStatement	converter.js#/SourceFile/4/Body/0/CatchClause/Block/0	—
+ThrowStatement	converter.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0	—
+ThrowStatement	converter.js#/SourceFile/4/Body/0/CatchClause/Block/1	—
+ClassDeclaration	converter.js#/SourceFile/5	—
+4-expressions
+kind	place	holds
+ImportClause · NamedBindings	converter.js#/SourceFile/0/ImportClause	—
+NamespaceImport	converter.js#/SourceFile/0/ImportClause/NamedBindings	—
+StringLiteral	converter.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	converter.js#/SourceFile/1/ImportClause	—
+NamespaceImport	converter.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	converter.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	converter.js#/SourceFile/2/ImportClause	—
+NamespaceImport	converter.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	converter.js#/SourceFile/2/ModuleSpecifier	—
+ExportKeyword	converter.js#/SourceFile/3/modifiers/0	—
+—	converter.js#/SourceFile/3/name	—
+—	converter.js#/SourceFile/3/Parameters/0	—
+Identifier	converter.js#/SourceFile/3/Parameters/0/name	—
+—	converter.js#/SourceFile/3/Parameters/1	—
+Identifier	converter.js#/SourceFile/3/Parameters/1/name	—
+—	converter.js#/SourceFile/3/Parameters/2	—
+Identifier	converter.js#/SourceFile/3/Parameters/2/name	—
+—	converter.js#/SourceFile/3/Parameters/3	—
+Identifier	converter.js#/SourceFile/3/Parameters/3/name	—
+ConstKeyword	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Flags/0	—
+—	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0	—
+ArrayBindingPattern	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0/name	—
+—	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0/name/Elements/0	—
+Identifier	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0/name/Elements/0/name	—
+—	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0/name/Elements/1	—
+Identifier	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0/name/Elements/1/name	—
+—	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0/name/Elements/2	—
+Identifier	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0/name/Elements/2/name	—
+CallExpression	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Expression	—
+Identifier	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Expression/name	—
+Identifier	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+Identifier	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/1	—
+Identifier	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/2	—
+Identifier	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/3	—
+ArrayLiteralExpression	converter.js#/SourceFile/3/Body/0/TryBlock/1/Expression	—
+CallExpression	converter.js#/SourceFile/3/Body/0/TryBlock/1/Expression/Elements/0	—
+PropertyAccessExpression · DotToken	converter.js#/SourceFile/3/Body/0/TryBlock/1/Expression/Elements/0/Expression	—
+Identifier	converter.js#/SourceFile/3/Body/0/TryBlock/1/Expression/Elements/0/Expression/Expression	—
+Identifier	converter.js#/SourceFile/3/Body/0/TryBlock/1/Expression/Elements/0/Expression/name	—
+CallExpression	converter.js#/SourceFile/3/Body/0/TryBlock/1/Expression/Elements/0/Arguments/0	—
+PropertyAccessExpression · DotToken	converter.js#/SourceFile/3/Body/0/TryBlock/1/Expression/Elements/0/Arguments/0/Expression	—
+Identifier	converter.js#/SourceFile/3/Body/0/TryBlock/1/Expression/Elements/0/Arguments/0/Expression/Expression	—
+Identifier	converter.js#/SourceFile/3/Body/0/TryBlock/1/Expression/Elements/0/Arguments/0/Expression/name	—
+Identifier	converter.js#/SourceFile/3/Body/0/TryBlock/1/Expression/Elements/0/Arguments/0/Arguments/0	—
+Identifier	converter.js#/SourceFile/3/Body/0/TryBlock/1/Expression/Elements/0/Arguments/0/Arguments/1	—
+Identifier	converter.js#/SourceFile/3/Body/0/TryBlock/1/Expression/Elements/0/Arguments/1	—
+Identifier	converter.js#/SourceFile/3/Body/0/TryBlock/1/Expression/Elements/0/Arguments/2	—
+Identifier	converter.js#/SourceFile/3/Body/0/TryBlock/1/Expression/Elements/1	—
+—	converter.js#/SourceFile/3/Body/0/CatchClause/VariableDeclaration	—
+Identifier	converter.js#/SourceFile/3/Body/0/CatchClause/VariableDeclaration/name	—
+BinaryExpression	converter.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression	—
+Identifier	converter.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	converter.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	converter.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression/Right	—
+Identifier	converter.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	converter.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression/Right/name	—
+NewExpression	converter.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0/Expression	—
+Identifier	converter.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	converter.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0	—
+Identifier	converter.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	converter.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name	—
+Identifier	converter.js#/SourceFile/3/Body/0/CatchClause/Block/1/Expression	—
+ExportKeyword	converter.js#/SourceFile/4/modifiers/0	—
+—	converter.js#/SourceFile/4/name	—
+—	converter.js#/SourceFile/4/Parameters/0	—
+Identifier	converter.js#/SourceFile/4/Parameters/0/name	—
+—	converter.js#/SourceFile/4/Parameters/1	—
+Identifier	converter.js#/SourceFile/4/Parameters/1/name	—
+—	converter.js#/SourceFile/4/Parameters/2	—
+Identifier	converter.js#/SourceFile/4/Parameters/2/name	—
+ConstKeyword	converter.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Flags/0	—
+—	converter.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0	—
+ArrayBindingPattern	converter.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/name	—
+—	converter.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/name/Elements/0	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/name/Elements/0/name	—
+—	converter.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/name/Elements/1	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/name/Elements/1/name	—
+CallExpression	converter.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	converter.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Expression	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Expression/name	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+ArrayLiteralExpression	converter.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/1	—
+NumericLiteral	converter.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/2	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/3	—
+ConstKeyword	converter.js#/SourceFile/4/Body/0/TryBlock/1/DeclarationList/Flags/0	—
+—	converter.js#/SourceFile/4/Body/0/TryBlock/1/DeclarationList/Declarations/0	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/1/DeclarationList/Declarations/0/name	—
+CallExpression	converter.js#/SourceFile/4/Body/0/TryBlock/1/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	converter.js#/SourceFile/4/Body/0/TryBlock/1/DeclarationList/Declarations/0/Initializer/Expression	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/1/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/1/DeclarationList/Declarations/0/Initializer/Expression/name	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/1/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/1/DeclarationList/Declarations/0/Initializer/Arguments/1	—
+ConstKeyword	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Flags/0	—
+—	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/name	—
+CallExpression	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Expression	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Expression/name	—
+ArrayLiteralExpression	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+ElementAccessExpression	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/0	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/0/Expression	—
+NumericLiteral	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/0/ArgumentExpression	—
+ElementAccessExpression	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/1	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/1/Expression	—
+NumericLiteral	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/1/ArgumentExpression	—
+ElementAccessExpression	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/2	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/2/Expression	—
+NumericLiteral	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/2/ArgumentExpression	—
+ElementAccessExpression	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/3	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/3/Expression	—
+NumericLiteral	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/3/ArgumentExpression	—
+ElementAccessExpression	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/4	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/4/Expression	—
+NumericLiteral	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/4/ArgumentExpression	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/1	—
+ArrayLiteralExpression	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression	—
+ObjectLiteralExpression	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0	—
+PropertyAssignment	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/0	—
+StringLiteral	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/0/name	—
+StringLiteral	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/0/Initializer	—
+PropertyAssignment	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/1	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/1/name	—
+ArrayLiteralExpression	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/1/Initializer	—
+StringLiteral	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/1/Initializer/Elements/0	—
+StringLiteral	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/1/Initializer/Elements/1	—
+StringLiteral	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/1/Initializer/Elements/2	—
+PropertyAssignment	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/name	—
+CallExpression	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer	—
+PropertyAccessExpression · DotToken	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Expression	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Expression/Expression	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Expression/name	—
+ArrowFunction · Expression	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Arguments/0	—
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Arguments/0/Parameters/0	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Arguments/0/Parameters/0/name	—
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Arguments/0/Parameters/1	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Arguments/0/Parameters/1/name	—
+ArrayLiteralExpression	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Arguments/0/Body	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Arguments/0/Body/Elements/0	—
+CallExpression	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Arguments/0/Body/Elements/1	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Arguments/0/Body/Elements/1/Expression	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Arguments/0/Body/Elements/1/Arguments/0	—
+ElementAccessExpression	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Arguments/0/Body/Elements/2	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Arguments/0/Body/Elements/2/Expression	—
+StringLiteral	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Arguments/0/Body/Elements/2/ArgumentExpression	—
+ObjectLiteralExpression	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1	—
+PropertyAssignment	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/0	—
+StringLiteral	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/0/name	—
+StringLiteral	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/0/Initializer	—
+PropertyAssignment	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/1	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/1/name	—
+ArrayLiteralExpression	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/1/Initializer	—
+StringLiteral	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/1/Initializer/Elements/0	—
+StringLiteral	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/1/Initializer/Elements/1	—
+StringLiteral	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/1/Initializer/Elements/2	—
+StringLiteral	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/1/Initializer/Elements/3	—
+PropertyAssignment	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/name	—
+CallExpression	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer	—
+PropertyAccessExpression · DotToken	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Expression	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Expression/Expression	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Expression/name	—
+ArrowFunction · Expression	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0	—
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Parameters/0	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Parameters/0/name	—
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Parameters/1	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Parameters/1/name	—
+CallExpression	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body	—
+PropertyAccessExpression · DotToken	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Expression	—
+PropertyAccessExpression · DotToken	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Expression/Expression	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Expression	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/name	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Expression/name	—
+ArrowFunction · Expression	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Arguments/0	—
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Parameters/0	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Parameters/0/name	—
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Parameters/1	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Parameters/1/name	—
+ArrayLiteralExpression	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/0	—
+CallExpression	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/1	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/1/Expression	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/1/Arguments/0	—
+CallExpression	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/2	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/2/Expression	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/2/Arguments/0	—
+Identifier	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/3	—
+—	converter.js#/SourceFile/4/Body/0/CatchClause/VariableDeclaration	—
+Identifier	converter.js#/SourceFile/4/Body/0/CatchClause/VariableDeclaration/name	—
+BinaryExpression	converter.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression	—
+Identifier	converter.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	converter.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	converter.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Right	—
+Identifier	converter.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	converter.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Right/name	—
+NewExpression	converter.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression	—
+Identifier	converter.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	converter.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0	—
+Identifier	converter.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	converter.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name	—
+Identifier	converter.js#/SourceFile/4/Body/0/CatchClause/Block/1/Expression	—
+ExportKeyword	converter.js#/SourceFile/5/modifiers/0	—
+—	converter.js#/SourceFile/5/name	—
+—	converter.js#/SourceFile/5/HeritageClauses/0	—
+ExtendsKeyword	converter.js#/SourceFile/5/HeritageClauses/0/Token	—
+Identifier	converter.js#/SourceFile/5/HeritageClauses/0/Types/0	—
+5-texts
+kind	place	holds
+—	converter.js#/SourceFile/0/ImportClause/NamedBindings/name/Text	input
+—	converter.js#/SourceFile/0/ModuleSpecifier/Text	'./input/input.js'
+—	converter.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	output
+—	converter.js#/SourceFile/1/ModuleSpecifier/Text	'./output/output.js'
+—	converter.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	transfer
+—	converter.js#/SourceFile/2/ModuleSpecifier/Text	'./transfer/transfer.js'
+—	converter.js#/SourceFile/3/name/Text	convert
+—	converter.js#/SourceFile/3/Parameters/0/name/Text	inputValues
+—	converter.js#/SourceFile/3/Parameters/1/name/Text	moduleSpecification
+—	converter.js#/SourceFile/3/Parameters/2/name/Text	start
+—	converter.js#/SourceFile/3/Parameters/3/name/Text	relationalModel
+—	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0/name/Elements/0/name/Text	relations
+—	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0/name/Elements/1/name/Text	values
+—	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0/name/Elements/2/name/Text	notCarried
+—	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Text	input
+—	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Expression/name/Text	read
+—	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Text	moduleSpecification
+—	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/1/Text	inputValues
+—	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/2/Text	start
+—	converter.js#/SourceFile/3/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/3/Text	relationalModel
+—	converter.js#/SourceFile/3/Body/0/TryBlock/1/Expression/Elements/0/Expression/Expression/Text	output
+—	converter.js#/SourceFile/3/Body/0/TryBlock/1/Expression/Elements/0/Expression/name/Text	write
+—	converter.js#/SourceFile/3/Body/0/TryBlock/1/Expression/Elements/0/Arguments/0/Expression/Expression/Text	transfer
+—	converter.js#/SourceFile/3/Body/0/TryBlock/1/Expression/Elements/0/Arguments/0/Expression/name/Text	transfer
+—	converter.js#/SourceFile/3/Body/0/TryBlock/1/Expression/Elements/0/Arguments/0/Arguments/0/Text	relations
+—	converter.js#/SourceFile/3/Body/0/TryBlock/1/Expression/Elements/0/Arguments/0/Arguments/1/Text	values
+—	converter.js#/SourceFile/3/Body/0/TryBlock/1/Expression/Elements/0/Arguments/1/Text	values
+—	converter.js#/SourceFile/3/Body/0/TryBlock/1/Expression/Elements/0/Arguments/2/Text	relationalModel
+—	converter.js#/SourceFile/3/Body/0/TryBlock/1/Expression/Elements/1/Text	notCarried
+—	converter.js#/SourceFile/3/Body/0/CatchClause/VariableDeclaration/name/Text	error
+—	converter.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression/Left/Text	error
+—	converter.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression/Right/Expression/Text	input
+—	converter.js#/SourceFile/3/Body/0/CatchClause/Block/0/Expression/Right/name/Text	NonConformingError
+—	converter.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression/Text	NonConformingError
+—	converter.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression/Text	error
+—	converter.js#/SourceFile/3/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name/Text	message
+—	converter.js#/SourceFile/3/Body/0/CatchClause/Block/1/Expression/Text	error
+—	converter.js#/SourceFile/4/name/Text	sheets
+—	converter.js#/SourceFile/4/Parameters/0/name/Text	moduleSpecification
+—	converter.js#/SourceFile/4/Parameters/1/name/Text	inputName
+—	converter.js#/SourceFile/4/Parameters/2/name/Text	relationalModel
+—	converter.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/name/Elements/0/name/Text	relations
+—	converter.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/name/Elements/1/name/Text	values
+—	converter.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Text	input
+—	converter.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Expression/name/Text	read
+—	converter.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Text	moduleSpecification
+—	converter.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/2/Text	0
+—	converter.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/3/Text	relationalModel
+—	converter.js#/SourceFile/4/Body/0/TryBlock/1/DeclarationList/Declarations/0/name/Text	transferred
+—	converter.js#/SourceFile/4/Body/0/TryBlock/1/DeclarationList/Declarations/0/Initializer/Expression/Expression/Text	transfer
+—	converter.js#/SourceFile/4/Body/0/TryBlock/1/DeclarationList/Declarations/0/Initializer/Expression/name/Text	transfer
+—	converter.js#/SourceFile/4/Body/0/TryBlock/1/DeclarationList/Declarations/0/Initializer/Arguments/0/Text	relations
+—	converter.js#/SourceFile/4/Body/0/TryBlock/1/DeclarationList/Declarations/0/Initializer/Arguments/1/Text	values
+—	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/name/Text	named
+—	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Expression/Expression/Text	output
+—	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Expression/name/Text	sheets
+—	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/0/Expression/Text	transferred
+—	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/0/ArgumentExpression/Text	0
+—	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/1/Expression/Text	transferred
+—	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/1/ArgumentExpression/Text	1
+—	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/2/Expression/Text	transferred
+—	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/2/ArgumentExpression/Text	2
+—	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/3/Expression/Text	transferred
+—	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/3/ArgumentExpression/Text	3
+—	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/4/Expression/Text	transferred
+—	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/0/Elements/4/ArgumentExpression/Text	7
+—	converter.js#/SourceFile/4/Body/0/TryBlock/2/DeclarationList/Declarations/0/Initializer/Arguments/1/Text	relationalModel
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/0/name/Text	'sheet name'
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/0/Initializer/Text	'_sheets'
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/1/name/Text	header
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/1/Initializer/Elements/0/Text	'_input'
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/1/Initializer/Elements/1/Text	'_place'
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/1/Initializer/Elements/2/Text	'_sheet name'
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/name/Text	records
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Expression/Expression/Text	named
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Expression/name/Text	map
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Arguments/0/Parameters/0/name/Text	relation
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Arguments/0/Parameters/1/name/Text	place
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Arguments/0/Body/Elements/0/Text	inputName
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Arguments/0/Body/Elements/1/Expression/Text	String
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Arguments/0/Body/Elements/1/Arguments/0/Text	place
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Arguments/0/Body/Elements/2/Expression/Text	relation
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/0/Properties/2/Initializer/Arguments/0/Body/Elements/2/ArgumentExpression/Text	'sheet name'
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/0/name/Text	'sheet name'
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/0/Initializer/Text	'_fields'
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/1/name/Text	header
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/1/Initializer/Elements/0/Text	'_input'
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/1/Initializer/Elements/1/Text	'_place'
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/1/Initializer/Elements/2/Text	'_position'
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/1/Initializer/Elements/3/Text	'_field name'
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/name/Text	records
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Expression/Expression/Text	named
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Expression/name/Text	flatMap
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Parameters/0/name/Text	relation
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Parameters/1/name/Text	place
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Expression/Text	relation
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/name/Text	header
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Expression/name/Text	map
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Parameters/0/name/Text	name
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Parameters/1/name/Text	position
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/0/Text	inputName
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/1/Expression/Text	String
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/1/Arguments/0/Text	place
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/2/Expression/Text	String
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/2/Arguments/0/Text	position
+—	converter.js#/SourceFile/4/Body/0/TryBlock/3/Expression/Elements/1/Properties/2/Initializer/Arguments/0/Body/Arguments/0/Body/Elements/3/Text	name
+—	converter.js#/SourceFile/4/Body/0/CatchClause/VariableDeclaration/name/Text	error
+—	converter.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Left/Text	error
+—	converter.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Right/Expression/Text	input
+—	converter.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Right/name/Text	NonConformingError
+—	converter.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression/Text	NonConformingError
+—	converter.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression/Text	error
+—	converter.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name/Text	message
+—	converter.js#/SourceFile/4/Body/0/CatchClause/Block/1/Expression/Text	error
+—	converter.js#/SourceFile/5/name/Text	NonConformingError
+—	converter.js#/SourceFile/5/HeritageClauses/0/Types/0/Text	Error

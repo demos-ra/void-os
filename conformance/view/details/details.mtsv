@@ -1,0 +1,17 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+details.1	1	details	details					details gives every record of the value in every sheet it gives, then its record of _stored
+arguments
+requirement	case	position	item	value
+details.1	1	2	0	/w
+details.1	1	3	0	1
+environment
+requirement	case	name	value
+details.1	1	VOID_OS_DATA_BANK	$PWD/bank
+placed
+requirement	case	when	pathname	fixture
+details.1	1	before	$PWD/bank/w.mtsv	two values input
+details.1	1	before	$PWD/bank/_stored.mtsv	w _stored
+details.1	1	before	$PWD/bank/_sheets.mtsv	w _sheets
+details.1	1	before	$PWD/bank/_fields.mtsv	w _fields
+details.1	1	after	result 1	details w 1

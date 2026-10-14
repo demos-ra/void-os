@@ -1,0 +1,82 @@
+1-folders
+kind	place	holds
+—	values	—
+—	distribution-package	—
+—	runner	—
+2-modules
+kind	place	holds
+{{name}} · .js	system-generation.test	—
+3-statements
+kind	place	holds
+ImportDeclaration	system-generation.test.js#/SourceFile/0	—
+ImportDeclaration	system-generation.test.js#/SourceFile/1	—
+ImportDeclaration	system-generation.test.js#/SourceFile/2	—
+ImportDeclaration	system-generation.test.js#/SourceFile/3	—
+ExpressionStatement	system-generation.test.js#/SourceFile/4	—
+ExpressionStatement	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0	—
+4-expressions
+kind	place	holds
+ImportClause · name	system-generation.test.js#/SourceFile/0/ImportClause	—
+StringLiteral	system-generation.test.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	system-generation.test.js#/SourceFile/1/ImportClause	—
+NamespaceImport	system-generation.test.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	system-generation.test.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	system-generation.test.js#/SourceFile/2/ImportClause	—
+NamespaceImport	system-generation.test.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	system-generation.test.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	system-generation.test.js#/SourceFile/3/ImportClause	—
+NamespaceImport	system-generation.test.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	system-generation.test.js#/SourceFile/3/ModuleSpecifier	—
+CallExpression	system-generation.test.js#/SourceFile/4/Expression	—
+Identifier	system-generation.test.js#/SourceFile/4/Expression/Expression	—
+StringLiteral	system-generation.test.js#/SourceFile/4/Expression/Arguments/0	—
+ArrowFunction · Block	system-generation.test.js#/SourceFile/4/Expression/Arguments/1	—
+—	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0	—
+Identifier	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+5-texts
+kind	place	holds
+—	system-generation.test.js#/SourceFile/0/ImportClause/name/Text	test
+—	system-generation.test.js#/SourceFile/0/ModuleSpecifier/Text	'node:test'
+—	system-generation.test.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	relationalModel
+—	system-generation.test.js#/SourceFile/1/ModuleSpecifier/Text	'../../src/relational-model/relational-model.js'
+—	system-generation.test.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	values
+—	system-generation.test.js#/SourceFile/2/ModuleSpecifier/Text	'../../src/system-generation/values/values.js'
+—	system-generation.test.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	runner
+—	system-generation.test.js#/SourceFile/3/ModuleSpecifier/Text	'./runner/runner.js'
+—	system-generation.test.js#/SourceFile/4/Expression/Expression/Text	test
+—	system-generation.test.js#/SourceFile/4/Expression/Arguments/0/Text	'system-generation.1'
+—	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name/Text	t
+—	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'system-generation.1'
+—	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../conformance'
+—	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	system-generation.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values

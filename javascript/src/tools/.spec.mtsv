@@ -1,0 +1,53 @@
+1-folders
+kind	place	holds
+—	read	—
+—	server	—
+2-modules
+kind	place	holds
+{{name}} · .js	tools	—
+3-statements
+kind	place	holds
+ImportDeclaration	tools.js#/SourceFile/0	—
+ImportDeclaration	tools.js#/SourceFile/1	—
+FunctionDeclaration · Body	tools.js#/SourceFile/2	—
+ReturnStatement	tools.js#/SourceFile/2/Body/0	—
+4-expressions
+kind	place	holds
+ImportClause · NamedBindings	tools.js#/SourceFile/0/ImportClause	—
+NamespaceImport	tools.js#/SourceFile/0/ImportClause/NamedBindings	—
+StringLiteral	tools.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	tools.js#/SourceFile/1/ImportClause	—
+NamespaceImport	tools.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	tools.js#/SourceFile/1/ModuleSpecifier	—
+ExportKeyword	tools.js#/SourceFile/2/modifiers/0	—
+—	tools.js#/SourceFile/2/name	—
+—	tools.js#/SourceFile/2/Parameters/0	—
+Identifier	tools.js#/SourceFile/2/Parameters/0/name	—
+—	tools.js#/SourceFile/2/Parameters/1	—
+Identifier	tools.js#/SourceFile/2/Parameters/1/name	—
+—	tools.js#/SourceFile/2/Parameters/2	—
+Identifier	tools.js#/SourceFile/2/Parameters/2/name	—
+CallExpression	tools.js#/SourceFile/2/Body/0/Expression	—
+PropertyAccessExpression · DotToken	tools.js#/SourceFile/2/Body/0/Expression/Expression	—
+Identifier	tools.js#/SourceFile/2/Body/0/Expression/Expression/Expression	—
+Identifier	tools.js#/SourceFile/2/Body/0/Expression/Expression/name	—
+Identifier	tools.js#/SourceFile/2/Body/0/Expression/Arguments/0	—
+Identifier	tools.js#/SourceFile/2/Body/0/Expression/Arguments/1	—
+Identifier	tools.js#/SourceFile/2/Body/0/Expression/Arguments/2	—
+Identifier	tools.js#/SourceFile/2/Body/0/Expression/Arguments/3	—
+5-texts
+kind	place	holds
+—	tools.js#/SourceFile/0/ImportClause/NamedBindings/name/Text	read
+—	tools.js#/SourceFile/0/ModuleSpecifier/Text	'./read/read.js'
+—	tools.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	server
+—	tools.js#/SourceFile/1/ModuleSpecifier/Text	'./server/server.js'
+—	tools.js#/SourceFile/2/name/Text	serve
+—	tools.js#/SourceFile/2/Parameters/0/name/Text	values
+—	tools.js#/SourceFile/2/Parameters/1/name/Text	relationalModel
+—	tools.js#/SourceFile/2/Parameters/2/name/Text	dataBank
+—	tools.js#/SourceFile/2/Body/0/Expression/Expression/Expression/Text	server
+—	tools.js#/SourceFile/2/Body/0/Expression/Expression/name/Text	serve
+—	tools.js#/SourceFile/2/Body/0/Expression/Arguments/0/Text	values
+—	tools.js#/SourceFile/2/Body/0/Expression/Arguments/1/Text	relationalModel
+—	tools.js#/SourceFile/2/Body/0/Expression/Arguments/2/Text	dataBank
+—	tools.js#/SourceFile/2/Body/0/Expression/Arguments/3/Text	read

@@ -1,0 +1,134 @@
+1-folders
+kind	place	holds
+—	relation	—
+—	key	—
+—	order	—
+2-modules
+kind	place	holds
+{{name}} · .py	__init__	—
+{{name}} · .py	_transfer	—
+3-statements
+kind	place	holds
+Expr	_transfer.py#/Module/0	—
+Assign	_transfer.py#/Module/1	—
+ImportFrom	_transfer.py#/Module/2	—
+ImportFrom	_transfer.py#/Module/3	—
+ImportFrom	_transfer.py#/Module/4	—
+ImportFrom	_transfer.py#/Module/5	—
+FunctionDef	_transfer.py#/Module/6	—
+Assign	_transfer.py#/Module/6/body/0	—
+Return	_transfer.py#/Module/6/body/1	—
+4-expressions
+kind	place	holds
+Constant	_transfer.py#/Module/0/value	—
+Name	_transfer.py#/Module/1/targets/0	—
+List	_transfer.py#/Module/1/value	—
+Constant	_transfer.py#/Module/1/value/elts/0	—
+—	_transfer.py#/Module/2/module	—
+—	_transfer.py#/Module/2/names/0	—
+—	_transfer.py#/Module/3/module	—
+—	_transfer.py#/Module/3/names/0	—
+—	_transfer.py#/Module/4/module	—
+—	_transfer.py#/Module/4/names/0	—
+—	_transfer.py#/Module/5/module	—
+—	_transfer.py#/Module/5/names/0	—
+arg	_transfer.py#/Module/6/args/0	—
+Subscript	_transfer.py#/Module/6/args/0/annotation	—
+Name	_transfer.py#/Module/6/args/0/annotation/value	—
+Subscript	_transfer.py#/Module/6/args/0/annotation/slice	—
+Name	_transfer.py#/Module/6/args/0/annotation/slice/value	—
+Tuple	_transfer.py#/Module/6/args/0/annotation/slice/slice	—
+Name	_transfer.py#/Module/6/args/0/annotation/slice/slice/elts/0	—
+Name	_transfer.py#/Module/6/args/0/annotation/slice/slice/elts/1	—
+arg	_transfer.py#/Module/6/args/1	—
+Subscript	_transfer.py#/Module/6/args/1/annotation	—
+Name	_transfer.py#/Module/6/args/1/annotation/value	—
+Subscript	_transfer.py#/Module/6/args/1/annotation/slice	—
+Name	_transfer.py#/Module/6/args/1/annotation/slice/value	—
+Tuple	_transfer.py#/Module/6/args/1/annotation/slice/slice	—
+Name	_transfer.py#/Module/6/args/1/annotation/slice/slice/elts/0	—
+Name	_transfer.py#/Module/6/args/1/annotation/slice/slice/elts/1	—
+Subscript	_transfer.py#/Module/6/returns	—
+Name	_transfer.py#/Module/6/returns/value	—
+Subscript	_transfer.py#/Module/6/returns/slice	—
+Name	_transfer.py#/Module/6/returns/slice/value	—
+Tuple	_transfer.py#/Module/6/returns/slice/slice	—
+Name	_transfer.py#/Module/6/returns/slice/slice/elts/0	—
+Name	_transfer.py#/Module/6/returns/slice/slice/elts/1	—
+Name	_transfer.py#/Module/6/body/0/targets/0	—
+Call	_transfer.py#/Module/6/body/0/value	—
+Attribute	_transfer.py#/Module/6/body/0/value/func	—
+Name	_transfer.py#/Module/6/body/0/value/func/value	—
+Name	_transfer.py#/Module/6/body/0/value/arguments/0	—
+Name	_transfer.py#/Module/6/body/0/value/arguments/1	—
+BinOp	_transfer.py#/Module/6/body/1/value	—
+Name	_transfer.py#/Module/6/body/1/value/left	—
+Add	_transfer.py#/Module/6/body/1/value/op	—
+List	_transfer.py#/Module/6/body/1/value/right	—
+Call	_transfer.py#/Module/6/body/1/value/right/elts/0	—
+Attribute	_transfer.py#/Module/6/body/1/value/right/elts/0/func	—
+Name	_transfer.py#/Module/6/body/1/value/right/elts/0/func/value	—
+Subscript	_transfer.py#/Module/6/body/1/value/right/elts/0/arguments/0	—
+Name	_transfer.py#/Module/6/body/1/value/right/elts/0/arguments/0/value	—
+Constant	_transfer.py#/Module/6/body/1/value/right/elts/0/arguments/0/slice	—
+Subscript	_transfer.py#/Module/6/body/1/value/right/elts/0/arguments/1	—
+Name	_transfer.py#/Module/6/body/1/value/right/elts/0/arguments/1/value	—
+Constant	_transfer.py#/Module/6/body/1/value/right/elts/0/arguments/1/slice	—
+Call	_transfer.py#/Module/6/body/1/value/right/elts/1	—
+Attribute	_transfer.py#/Module/6/body/1/value/right/elts/1/func	—
+Name	_transfer.py#/Module/6/body/1/value/right/elts/1/func/value	—
+Name	_transfer.py#/Module/6/body/1/value/right/elts/1/arguments/0	—
+List	_transfer.py#/Module/6/body/1/value/right/elts/1/arguments/1	—
+Subscript	_transfer.py#/Module/6/body/1/value/right/elts/1/arguments/1/elts/0	—
+Name	_transfer.py#/Module/6/body/1/value/right/elts/1/arguments/1/elts/0/value	—
+Constant	_transfer.py#/Module/6/body/1/value/right/elts/1/arguments/1/elts/0/slice	—
+Subscript	_transfer.py#/Module/6/body/1/value/right/elts/1/arguments/1/elts/1	—
+Name	_transfer.py#/Module/6/body/1/value/right/elts/1/arguments/1/elts/1/value	—
+Constant	_transfer.py#/Module/6/body/1/value/right/elts/1/arguments/1/elts/1/slice	—
+5-texts
+kind	place	holds
+—	_transfer.py#/Module/0/value/value	"""how the input's relations become relations in normal form"""
+—	_transfer.py#/Module/1/targets/0/id	__all__
+—	_transfer.py#/Module/1/value/elts/0/value	'transfer'
+—	_transfer.py#/Module/2/module/value	typing
+—	_transfer.py#/Module/2/names/0/name	Any
+—	_transfer.py#/Module/3/module/value	void_os.data_bank.converter.transfer.key
+—	_transfer.py#/Module/3/names/0/name	_key
+—	_transfer.py#/Module/4/module/value	void_os.data_bank.converter.transfer.order
+—	_transfer.py#/Module/4/names/0/name	_order
+—	_transfer.py#/Module/5/module/value	void_os.data_bank.converter.transfer.relation
+—	_transfer.py#/Module/5/names/0/name	_relation
+—	_transfer.py#/Module/6/name/value	transfer
+—	_transfer.py#/Module/6/args/0/arg	schema
+—	_transfer.py#/Module/6/args/0/annotation/value/id	list
+—	_transfer.py#/Module/6/args/0/annotation/slice/value/id	dict
+—	_transfer.py#/Module/6/args/0/annotation/slice/slice/elts/0/id	str
+—	_transfer.py#/Module/6/args/0/annotation/slice/slice/elts/1/id	Any
+—	_transfer.py#/Module/6/args/1/arg	input
+—	_transfer.py#/Module/6/args/1/annotation/value/id	list
+—	_transfer.py#/Module/6/args/1/annotation/slice/value/id	dict
+—	_transfer.py#/Module/6/args/1/annotation/slice/slice/elts/0/id	str
+—	_transfer.py#/Module/6/args/1/annotation/slice/slice/elts/1/id	Any
+—	_transfer.py#/Module/6/returns/value/id	list
+—	_transfer.py#/Module/6/returns/slice/value/id	dict
+—	_transfer.py#/Module/6/returns/slice/slice/elts/0/id	str
+—	_transfer.py#/Module/6/returns/slice/slice/elts/1/id	Any
+—	_transfer.py#/Module/6/body/0/targets/0/id	layout
+—	_transfer.py#/Module/6/body/0/value/func/value/id	_relation
+—	_transfer.py#/Module/6/body/0/value/func/attr	relations
+—	_transfer.py#/Module/6/body/0/value/arguments/0/id	schema
+—	_transfer.py#/Module/6/body/0/value/arguments/1/id	input
+—	_transfer.py#/Module/6/body/1/value/left/id	layout
+—	_transfer.py#/Module/6/body/1/value/right/elts/0/func/value/id	_key
+—	_transfer.py#/Module/6/body/1/value/right/elts/0/func/attr	keys
+—	_transfer.py#/Module/6/body/1/value/right/elts/0/arguments/0/value/id	layout
+—	_transfer.py#/Module/6/body/1/value/right/elts/0/arguments/0/slice/value	4
+—	_transfer.py#/Module/6/body/1/value/right/elts/0/arguments/1/value/id	input
+—	_transfer.py#/Module/6/body/1/value/right/elts/0/arguments/1/slice/value	0
+—	_transfer.py#/Module/6/body/1/value/right/elts/1/func/value/id	_order
+—	_transfer.py#/Module/6/body/1/value/right/elts/1/func/attr	order
+—	_transfer.py#/Module/6/body/1/value/right/elts/1/arguments/0/id	schema
+—	_transfer.py#/Module/6/body/1/value/right/elts/1/arguments/1/elts/0/value/id	layout
+—	_transfer.py#/Module/6/body/1/value/right/elts/1/arguments/1/elts/0/slice/value	0
+—	_transfer.py#/Module/6/body/1/value/right/elts/1/arguments/1/elts/1/value/id	layout
+—	_transfer.py#/Module/6/body/1/value/right/elts/1/arguments/1/elts/1/slice/value	2

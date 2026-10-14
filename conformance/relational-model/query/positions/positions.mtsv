@@ -1,0 +1,93 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+positions.1	1	query	chosen					records written 1;3 name the first and the third record, counted from 1
+positions.4	1	query	chosen	refused				records not written as positions are refused
+positions.2	1	query	chosen					positions that do not exist are left out
+positions.3	1	query	chosen					the positions sheets gives are written as runs, 1-3;5
+arguments
+requirement	case	position	item	value
+positions.1	1	4	0	file
+positions.1	1	5	0	
+positions.1	1	6	0	1;3
+positions.1	1	7	0	
+positions.1	1	8	0	
+positions.1	1	9	0	
+positions.4	1	4	0	file
+positions.4	1	5	0	
+positions.4	1	6	0	a
+positions.4	1	7	0	
+positions.4	1	8	0	
+positions.4	1	9	0	
+positions.2	1	4	0	file
+positions.2	1	5	0	
+positions.2	1	6	0	2;9
+positions.2	1	7	0	
+positions.2	1	8	0	
+positions.2	1	9	0	
+positions.3	1	4	0	file
+positions.3	1	5	0	
+positions.3	1	6	0	1;2;3;5
+positions.3	1	7	0	
+positions.3	1	8	0	
+positions.3	1	9	0	
+fixtures
+fixture	sheet	record	field	value
+five records	1	0	1	s
+five records	1	1	1	x
+five records	1	2	1	1
+five records	1	3	1	2
+five records	1	4	1	3
+five records	1	5	1	4
+five records	1	6	1	5
+report runs	1	0	1	sheets
+report runs	1	1	1	file
+report runs	1	1	2	sheet
+report runs	1	1	3	sheet name
+report runs	1	1	4	records
+report runs	1	1	5	matches
+report runs	1	1	6	positions
+report runs	1	2	1	1
+report runs	1	2	2	1
+report runs	1	2	3	s
+report runs	1	2	4	5
+report runs	1	2	5	5
+report runs	1	2	6	1-3;5
+report 2	1	0	1	sheets
+report 2	1	1	1	file
+report 2	1	1	2	sheet
+report 2	1	1	3	sheet name
+report 2	1	1	4	records
+report 2	1	1	5	matches
+report 2	1	1	6	positions
+report 2	1	2	1	1
+report 2	1	2	2	1
+report 2	1	2	3	s
+report 2	1	2	4	3
+report 2	1	2	5	3
+report 2	1	2	6	2
+five records but 4	1	0	1	s
+five records but 4	1	1	1	x
+five records but 4	1	2	1	1
+five records but 4	1	3	1	2
+five records but 4	1	4	1	3
+five records but 4	1	5	1	5
+placed
+requirement	case	when	pathname	fixture
+positions.1	1	before	argument 1	a sheet s
+positions.1	1	before	argument 2	one origin
+positions.1	1	before	argument 3	one file
+positions.1	1	after	result 1	s records 1 and 3
+positions.1	1	after	result 2	report 1 and 3
+positions.4	1	before	argument 1	a sheet s
+positions.4	1	before	argument 2	one origin
+positions.4	1	before	argument 3	one file
+positions.2	1	before	argument 1	a sheet s
+positions.2	1	before	argument 2	one origin
+positions.2	1	before	argument 3	one file
+positions.2	1	after	result 1	s record 3 4
+positions.2	1	after	result 2	report 2
+positions.3	1	before	argument 1	five records
+positions.3	1	before	argument 2	one origin
+positions.3	1	before	argument 3	one file
+positions.3	1	after	result 1	five records but 4
+positions.3	1	after	result 2	report runs

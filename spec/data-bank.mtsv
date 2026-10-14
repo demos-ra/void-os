@@ -1,0 +1,937 @@
+References
+Tag	Kind
+POSIX-XSH-NANOSLEEP	normative
+POSIX-XSH-RENAME	normative
+POSIX-XSH-UNLINK	normative
+PY-TIME	normative
+Values
+Value	Module	Type	Bound	Given	Status
+data bank folder	storage	text	a folder's name under the user's documents folder	void-os	placeholder
+data bank variable	storage	text	an environment variable naming another data bank folder by an absolute path	VOID_OS_DATA_BANK	placeholder
+lock timeout	storage	number	seconds after which a lock left by a process that ended is taken as released	60	placeholder
+lock wait	storage	number	seconds a process waits before it tries the lock again	0.05	placeholder
+replace suffix	storage	text	what follows a file's name in the name of the file written beside it before the rename	.tmp	placeholder
+Value citations
+Value	Tag	Section	First block	Last block
+data bank folder	PLATFORMDIRS	user_documents_dir		
+lock timeout	POSIX-XSH-OPEN	DESCRIPTION	29	30
+lock wait	POSIX-XSH-NANOSLEEP	DESCRIPTION		
+replace suffix	POSIX-XSH-RENAME	DESCRIPTION	4	4
+Files
+Path	Module	Held from	Held path	Output of
+python/src/void_os/data_bank/_data_bank.py	data bank			
+python/src/void_os/data_bank/converter/_converter.py	converter			
+python/src/void_os/data_bank/converter/input/_input.py	converter › input			
+python/src/void_os/data_bank/converter/input/schema/_schema.py	schema			
+python/src/void_os/data_bank/converter/input/value/_value.py	value			
+python/src/void_os/data_bank/converter/transfer/_transfer.py	transfer			
+python/src/void_os/data_bank/converter/transfer/relation/_relation.py	relation			
+python/src/void_os/data_bank/converter/transfer/key/_key.py	key			
+python/src/void_os/data_bank/converter/transfer/order/_order.py	order			
+python/src/void_os/data_bank/converter/output/_output.py	output			
+python/src/void_os/data_bank/converter/output/file/_file.py	file			
+python/src/void_os/data_bank/converter/output/sheet/_sheet.py	sheet			
+python/src/void_os/data_bank/converter/output/record/_record.py	record			
+python/src/void_os/data_bank/converter/output/field/_field.py	field			
+python/src/void_os/data_bank/storage/_storage.py	storage			
+python/src/void_os/data_bank/communication/_communication.py	communication			
+javascript/src/data-bank/data-bank.js	data bank			
+javascript/src/data-bank/converter/converter.js	converter			
+javascript/src/data-bank/converter/input/input.js	converter › input			
+javascript/src/data-bank/converter/input/schema/schema.js	schema			
+javascript/src/data-bank/converter/input/value/value.js	value			
+javascript/src/data-bank/converter/transfer/transfer.js	transfer			
+javascript/src/data-bank/converter/transfer/relation/relation.js	relation			
+javascript/src/data-bank/converter/transfer/key/key.js	key			
+javascript/src/data-bank/converter/transfer/order/order.js	order			
+javascript/src/data-bank/converter/output/output.js	output			
+javascript/src/data-bank/converter/output/file/file.js	file			
+javascript/src/data-bank/converter/output/sheet/sheet.js	sheet			
+javascript/src/data-bank/converter/output/record/record.js	record			
+javascript/src/data-bank/converter/output/field/field.js	field			
+javascript/src/data-bank/storage/storage.js	storage			
+javascript/src/data-bank/communication/communication.js	communication			
+Relations
+Relation	Module	Parent	Description
+_inputs	data bank		each input stored, the number of its values stored, and its file
+_sheets	data bank	_inputs	each sheet an input's schema gives, by its place
+_fields	data bank	_sheets	each field of a sheet's header, by its position
+_communicated	data bank	_inputs	each session and agent an input's values were communicated to, and how many
+_stored	data bank	_inputs	each value stored whole: when it was stored, and on which event
+_instances	converter		every instance within each input value, molten: the instance that holds it, the JSON Pointer from it, its type and its text
+_runs	converter	_instances	each run of text of a string that holds FF, a line break or HT
+annotations	converter	_instances	each subschema applied to an instance, by its location in the schema, and whether the instance is valid against it
+references	converter		each $ref of the schema, by the location of the subschema that holds it, and the location of the schema it references
+relations	converter		each relation the schema gives, by the location of the subschema that gives it, the relation it is subordinate to, and its kind
+name parts	converter	relations	each part of a relation's path within its parent's instance, in order
+columns	converter	relations	each column of a relation that holds a simple domain, by the location of the subschema that gives it
+column parts	converter	columns	each part of a column's label, in order
+records	converter	relations	each instance a relation holds as a record, and the instance whose record holds it
+cells	converter	records	each field of a record that holds a simple domain, and the instance whose text it holds
+keys	converter	records	each record's _parent and _pointer
+places	converter	relations	each relation's place in the order of the schema's tree, and the place of each of its columns
+field texts	field	cells	each cell's text, as its field holds it
+Domains
+Relation	Column	Domain	Key	References	Type	Description
+_inputs	_input		primary		text	an input's name, as the data bank's insert is handed it
+_inputs	_values				number	the number of the input's values stored
+_inputs	_file				absolute path	the input's file in the data bank's folder
+_sheets	_input		primary	_inputs	text	the input
+_sheets	_place		primary		number	the zero-based place of the sheet among every sheet the schema gives
+_sheets	_sheet name				text	the sheet's name
+_fields	_input		primary	_sheets	text	the input
+_fields	_place		primary	_sheets	number	the sheet's place
+_fields	_position		primary		number	the zero-based count of HT before the field within its header
+_fields	_field name				text	the field's name, as its sheet's header gives it
+_communicated	_input		primary	_inputs	text	the input
+_communicated	_session		primary		text	the session, by its name
+_communicated	_agent		primary		text	the agent, empty for the agent the session began with
+_communicated	_values				number	the number of the input's values communicated to them
+_stored	_input		primary	_inputs	text	the input
+_stored	_input value		primary		number	the value's zero-based position in the input
+_stored	_time				time	when the value was stored, in UTC
+_stored	_event				hook event	the event the value was inserted on, empty where none
+_instances	_input value		primary		number	the zero-based position of the instance's input value in the whole input
+_instances	_instance		primary		number	the instance's zero-based position among the instances of its input value, the value itself first, in the order written
+_instances	_parent	_instance		_instances	number	the instance that holds this one, empty for the input value itself
+_instances	_pointer				text	the JSON Pointer to the instance from the instance that holds it, empty for the input value itself
+_instances	_type				JSON type	the instance's primitive type
+_instances	_value				text	the instance's text: a string's characters, a number as written, true or false; empty for null, an object, an array, and a string held as runs
+_runs	_input value		primary	_instances	number	the string's input value
+_runs	_instance		primary	_instances	number	the string
+_runs	_page		primary		number	the zero-based count of FF before the run of text
+_runs	_line		primary		number	the zero-based count of line breaks before the run within its page
+_runs	_position		primary		number	the zero-based count of HT before the run within its line
+_runs	_value				text	the run of text
+annotations	_input value		primary	_instances	number	the instance's input value
+annotations	_instance		primary	_instances	number	the instance
+annotations	location		primary		text	the JSON Pointer to the subschema within the schema, the root schema empty
+annotations	valid				boolean	whether the instance is valid against the subschema
+references	location		primary		text	the JSON Pointer to the subschema that holds the $ref, the root schema empty
+references	target				text	the JSON Pointer to the schema the $ref references, the root schema empty
+relations	location		primary		text	the JSON Pointer to the subschema that gives the relation, the root schema empty; _instances for the sheet of instances and _runs for the sheet of runs
+relations	parent	location		relations	text	the relation it is subordinate to, empty for the sheet of the input values
+relations	kind				relation kind	what gives the relation
+name parts	location		primary	relations	text	the relation
+name parts	position		primary		number	the part's zero-based position in the path
+name parts	part				text	a property's name written as the instance's own or as the relation's property, a keyword, a pattern, a title, a dependency's key, a position, or items
+columns	location		primary	relations	text	the relation
+columns	column		primary		text	the JSON Pointer to the subschema that gives the column; _type and _value for the columns the Fields fix
+column parts	location		primary	columns	text	the relation
+column parts	column		primary	columns	text	the column
+column parts	position		primary		number	the part's zero-based position in the label
+column parts	part				text	the name of a property written as the instance's own, then the column's own name
+records	location		primary	relations	text	the relation
+records	_input value		primary	_instances	number	the record's input value
+records	_instance		primary	_instances	number	the record's instance
+records	holder	_instance		_instances	number	the instance whose record holds this record's instance, empty where the record is its location's own or an input value's
+cells	location		primary	records	text	the relation
+cells	_input value		primary	records	number	the record's input value
+cells	_instance		primary	records	number	the record's instance
+cells	column		primary	columns	text	the column
+cells	value	_instance		_instances	number	the instance whose text the field holds
+keys	location		primary	records	text	the relation
+keys	_input value		primary	records	number	the record's input value
+keys	_instance		primary	records	number	the record's instance
+keys	_parent				number	the _instance of the record whose instance holds this record's, empty for a record of its location's own instance
+keys	_pointer				text	the JSON Pointer to the record's instance from its parent's, empty where _parent is
+places	location		primary	relations	text	the relation
+places	column		primary		text	the column, empty for the relation itself
+places	place				number	the relation's zero-based place among every relation the schema gives, or the column's among its relation's columns
+field texts	location		primary	cells	text	the relation
+field texts	_input value		primary	cells	number	the record's input value
+field texts	_instance		primary	cells	number	the record's instance
+field texts	column		primary	cells	text	the column
+field texts	text				text	the field's text, as field.1 to field.3 write it
+Signatures
+Callable	Direction	Position	Type	Relation
+Access programs
+Module	Access program	Starts
+data bank	folder	
+data bank	insert	
+data bank	names	
+data bank	records	
+data bank	new	
+data bank	stored	
+converter	convert	
+converter	sheets	
+converter › input	read	
+schema	schema	
+schema	validate	
+value	values	
+transfer	transfer	
+relation	relations	
+key	keys	
+order	order	
+output	write	
+output	sheets	
+file	file	
+sheet	sheets	
+record	records	
+field	fields	
+storage	folder	
+storage	insert	
+storage	inputs	
+storage	names	
+storage	relations	
+storage	stored	
+storage	communicated	
+storage	mark communicated	
+communication	names	
+communication	records	
+communication	new	
+Parameters
+Module	Access program	Position	Parameter	Type	Relation	Default	Description
+data bank	folder	1	values	relation	Values		the Values
+data bank	insert	1	values	relation	Values		the Values
+data bank	insert	2	input_name	text			the input's name, an absolute path
+data bank	insert	3	input_values	bytes array			the values to insert, each a JSON text as UTF-8 bytes, in the order their source holds them
+data bank	insert	4	module_specification	bytes			the draft-07 schema, its root title naming the sheet of the input values, as UTF-8 bytes
+data bank	insert	5	event	hook event			the event the values are inserted on
+data bank	names	1	values	relation	Values		the Values
+data bank	records	1	values	relation	Values		the Values
+data bank	records	2	input_name	text			the input's name, an absolute path
+data bank	records	3	first	number			the first value's position, counted from 0
+data bank	records	4	last	number			the last value's position, counted from 0
+data bank	records	5	places	texts			the places asked for, every place when empty
+data bank	new	1	values	relation	Values		the Values
+data bank	new	2	input_name	text			the input's name, an absolute path
+data bank	new	3	session	text			the session asking, by its name
+data bank	new	4	agent	text			the agent asking, empty for the agent the session began with
+data bank	new	5	places	texts			the places asked for, every place when empty
+data bank	stored	1	values	relation	Values		the Values
+data bank	stored	2	input_name	text			the input's name, an absolute path
+data bank	stored	3	first	number			the first value's position, counted from 0
+data bank	stored	4	last	number			the last value's position, counted from 0
+converter	convert	1	input_values	bytes array			the values to convert, each a JSON text as UTF-8 bytes, in the order their source holds them
+converter	convert	2	module_specification	bytes			the draft-07 schema, its root title naming the sheet of the input values, as UTF-8 bytes
+converter	convert	3	start	number			the position of the first value in the whole input
+converter	sheets	1	module_specification	bytes			the draft-07 schema, its root title naming the sheet of the input values, as UTF-8 bytes
+converter	sheets	2	input_name	text			the input the sheets are of
+converter › input	read	1	module_specification	bytes			the draft-07 schema, its root title naming the sheet of the input values, as UTF-8 bytes
+converter › input	read	2	input_values	bytes array			the values to convert, each a JSON text as UTF-8 bytes, in the order their source holds them
+converter › input	read	3	start	number			the position of the first value in the whole input
+schema	schema	1	module_specification	bytes			the draft-07 schema, its root title naming the sheet of the input values, as UTF-8 bytes
+schema	validate	1	schema	relations			the schema's instances, runs and references, as JSON text gives them
+schema	validate	2	values	relations			_instances and _runs of the input values
+value	values	1	input_values	bytes array			the values to convert, each a JSON text as UTF-8 bytes, in the order their source holds them
+value	values	2	start	number			the position of the first value in the whole input
+transfer	transfer	1	schema	relations			the schema's instances, runs and references
+transfer	transfer	2	input	relations			_instances, _runs and annotations
+relation	relations	1	schema	relations			the schema's instances, runs and references
+relation	relations	2	input	relations			_instances, _runs and annotations
+key	keys	1	records	relation	records		each instance every relation holds as a record
+key	keys	2	instances	relation	_instances		_instances of the input values
+order	order	1	schema	relations			the schema's instances, runs and references
+order	order	2	layout	relations			relations and columns
+output	write	1	transferred	relations			relations, name parts, columns, column parts, records, cells, keys and places
+output	write	2	input	relations			_instances and _runs
+output	sheets	1	layout	relations			relations, name parts, columns, column parts and places
+file	file	1	sheets	relations			the sheets, in the order of places
+sheet	sheets	1	layout	relations			relations, name parts, columns, column parts and places
+record	records	1	transferred	relations			relations, records, cells, keys and places
+field	fields	1	cells	relation	cells		each field of a record that holds a simple domain
+field	fields	2	input	relations			_instances and _runs
+storage	folder	1	values	relation	Values		the Values
+storage	insert	1	values	relation	Values		the Values
+storage	insert	2	input_name	text			the input's name, an absolute path
+storage	insert	3	input_values	bytes array			the values to insert, each a JSON text as UTF-8 bytes, in the order their source holds them
+storage	insert	4	module_specification	bytes			the draft-07 schema, its root title naming the sheet of the input values, as UTF-8 bytes
+storage	insert	5	event	hook event			the event the values are inserted on
+storage	inputs	1	values	relation	Values		the Values
+storage	names	1	values	relation	Values		the Values
+storage	relations	1	values	relation	Values		the Values
+storage	relations	2	input_name	text			the input's name, an absolute path
+storage	stored	1	values	relation	Values		the Values
+storage	stored	2	input_name	text			the input's name, an absolute path
+storage	stored	3	first	number			the first value's position, counted from 0
+storage	stored	4	last	number			the last value's position, counted from 0
+storage	communicated	1	values	relation	Values		the Values
+storage	communicated	2	input_name	text			the input's name, an absolute path
+storage	communicated	3	session	text			the session, by its name
+storage	communicated	4	agent	text			the agent, empty for the agent the session began with
+storage	mark communicated	1	values	relation	Values		the Values
+storage	mark communicated	2	input_name	text			the input's name, an absolute path
+storage	mark communicated	3	session	text			the session, by its name
+storage	mark communicated	4	agent	text			the agent, empty for the agent the session began with
+storage	mark communicated	5	count	number			the number of values communicated to them
+communication	names	1	values	relation	Values		the Values
+communication	records	1	values	relation	Values		the Values
+communication	records	2	input_name	text			the input's name, an absolute path
+communication	records	3	first	number			the first value's position, counted from 0
+communication	records	4	last	number			the last value's position, counted from 0
+communication	records	5	places	texts			the places asked for, every place when empty
+communication	new	1	values	relation	Values		the Values
+communication	new	2	input_name	text			the input's name, an absolute path
+communication	new	3	session	text			the session asking, by its name
+communication	new	4	agent	text			the agent asking, empty for the agent the session began with
+communication	new	5	places	texts			the places asked for, every place when empty
+Parameter relations
+Module	Access program	Position	Relation
+schema	validate	1	instances
+schema	validate	1	runs
+schema	validate	1	references
+schema	validate	2	_instances
+schema	validate	2	_runs
+transfer	transfer	1	instances
+transfer	transfer	1	runs
+transfer	transfer	1	references
+transfer	transfer	2	_instances
+transfer	transfer	2	_runs
+transfer	transfer	2	annotations
+relation	relations	1	instances
+relation	relations	1	runs
+relation	relations	1	references
+relation	relations	2	_instances
+relation	relations	2	_runs
+relation	relations	2	annotations
+order	order	1	instances
+order	order	1	runs
+order	order	1	references
+order	order	2	relations
+order	order	2	columns
+output	write	1	relations
+output	write	1	name parts
+output	write	1	columns
+output	write	1	column parts
+output	write	1	records
+output	write	1	cells
+output	write	1	keys
+output	write	1	places
+output	write	2	_instances
+output	write	2	_runs
+output	sheets	1	relations
+output	sheets	1	name parts
+output	sheets	1	columns
+output	sheets	1	column parts
+output	sheets	1	places
+sheet	sheets	1	relations
+sheet	sheets	1	name parts
+sheet	sheets	1	columns
+sheet	sheets	1	column parts
+sheet	sheets	1	places
+record	records	1	relations
+record	records	1	records
+record	records	1	cells
+record	records	1	keys
+record	records	1	places
+field	fields	2	_instances
+field	fields	2	_runs
+Results
+Module	Access program	Position	Type	Relation	Description
+data bank	folder	1	absolute path		the data bank's folder
+data bank	insert	1	number		the number of values this insert stores whole
+data bank	names	1	relations		_inputs, _sheets and _fields
+data bank	records	1	relations		the records asked for, each in its stored sheet
+data bank	new	1	relations		the records of the values not yet communicated to the session and agent, then their records of _stored
+data bank	stored	1	relation	_stored	the records of _stored of those values
+converter	convert	1	text		the MTSV file of the part
+converter	convert	2	texts		the JSON Pointers to what is not carried
+converter	sheets	1	relation	_sheets	every sheet the schema gives, by its place
+converter	sheets	2	relation	_fields	the fields of each sheet's header
+converter › input	read	1	relations		the schema's instances, runs and references
+converter › input	read	2	relations		_instances, _runs and annotations
+converter › input	read	3	texts		the JSON Pointers to what is not carried
+schema	schema	1	relations		the schema's instances and runs, and each $ref with the schema it references
+schema	validate	1	relation	annotations	each subschema applied to each instance, and whether it is valid against it
+value	values	1	relations		_instances and _runs of the input values
+value	values	2	texts		the JSON Pointers to what is not carried
+transfer	transfer	1	relations		relations, name parts, columns, column parts, records, cells, keys and places
+relation	relations	1	relations		relations, name parts, columns, column parts, records and cells
+key	keys	1	relation	keys	each record's _parent and _pointer
+order	order	1	relation	places	each relation's place, and its columns'
+output	write	1	text		the MTSV file
+output	sheets	1	relations		each relation's sheet, named and with its header, holding no record, in the order of places
+file	file	1	relations		the sheets that hold a record, in their order
+sheet	sheets	1	relations		each relation's sheet, named and with its header, holding no record, in the order of places
+record	records	1	relations		each relation's records, keyed, their fields the instances that hold them, in the order of places
+field	fields	1	relations		field texts and _runs
+storage	folder	1	absolute path		the data bank's folder
+storage	insert	1	number		the number of values this insert stores whole
+storage	inputs	1	relation	_inputs	each input stored, the number of its values stored whole, and its file
+storage	names	1	relations		_sheets and _fields of every input stored
+storage	relations	1	relations		the input's relations, of the values stored whole
+storage	stored	1	relation	_stored	the records of _stored of those values
+storage	communicated	1	number		the number of the input's values communicated to the session and agent
+storage	mark communicated	1	nothing		nothing
+communication	names	1	relations		_inputs, _sheets and _fields
+communication	records	1	relations		the records asked for, each in its stored sheet
+communication	new	1	relations		the records of the values not yet communicated to the session and agent, then their records of _stored
+Result relations
+Module	Access program	Position	Relation
+data bank	names	1	_inputs
+data bank	names	1	_sheets
+data bank	names	1	_fields
+data bank	new	1	_stored
+converter › input	read	1	instances
+converter › input	read	1	runs
+converter › input	read	1	references
+converter › input	read	2	_instances
+converter › input	read	2	_runs
+converter › input	read	2	annotations
+schema	schema	1	instances
+schema	schema	1	runs
+schema	schema	1	references
+value	values	1	_instances
+value	values	1	_runs
+transfer	transfer	1	relations
+transfer	transfer	1	name parts
+transfer	transfer	1	columns
+transfer	transfer	1	column parts
+transfer	transfer	1	records
+transfer	transfer	1	cells
+transfer	transfer	1	keys
+transfer	transfer	1	places
+relation	relations	1	relations
+relation	relations	1	name parts
+relation	relations	1	columns
+relation	relations	1	column parts
+relation	relations	1	records
+relation	relations	1	cells
+field	fields	1	field texts
+field	fields	1	_runs
+storage	names	1	_sheets
+storage	names	1	_fields
+communication	names	1	_inputs
+communication	names	1	_sheets
+communication	names	1	_fields
+communication	new	1	_stored
+Compositions
+Module	Part	Handed
+data bank	converter	relational model
+data bank	storage	relational model
+data bank	storage	converter
+data bank	communication	relational model
+data bank	communication	converter
+data bank	communication	storage
+converter	converter › input	relational model
+converter	output	relational model
+converter › input	schema	relational model
+converter › input	value	relational model
+Connectors
+Module	Peer	Connector	Protocol	Data
+storage	file system	shared representation	POSIX-XSH-OPEN	MTSV-DRAFT
+Requirements
+Requirement	Module	Access program	Statement
+data-bank.1	data bank		The data bank MUST store the files the converter writes for each of its inputs, and communicate them to another system.
+data-bank.3	data bank		The data bank MUST give the access programs of storage and communication as its own: folder, insert and stored of storage, and names, records and new of communication.
+converter.1	converter	convert	The converter MUST read an input of JSON values that a module specification describes, and write the whole input as one MTSV file.
+converter.5	converter	sheets	The access program sheets MUST give _sheets and _fields of the input named: every sheet the schema gives, by its place in the order of the schema's tree, and the name of each field of its header.
+converter-input.1	converter › input	read	The converter's input MUST be read in full, the module specification first and then each input value, before any value is transferred.
+converter-input.2	converter › input	read	The input MUST give the schema's instances and runs, the input values' _instances and _runs, each value's instances keyed by its position in the whole input, and annotations, as schema validates each input value.
+schema.1	schema	schema	A module specification MUST supply a schema of draft-07, valid against its metaschema, as a JSON text of any size, any depth of nesting and any length of string, against which every value of its input validates.
+schema.2	schema	validate	The access program validate MUST give, for each instance of each input value, each subschema applied to it and whether the instance is valid against it, and reject an input value that fails an assertion as non-conforming, its reason the value's position, a space, and the JSON Pointer to the deepest instance location where it fails, in its URI fragment representation.
+schema.3	schema	schema	The root schema MUST hold a title annotation, which names the sheet of the input values.
+schema.4	schema	schema	Every name the schema gives a sheet or a column, a title, a property's name, a key of patternProperties or dependencies, or the last reference token of a $ref, MUST be text a field can hold, holding no HT, LF, FF or CR.
+schema.5	schema	schema	A regular expression of pattern or patternProperties MUST use only the tokens schema authors should limit themselves to: individual characters, simple and complemented character classes and ranges, the quantifiers +, *, ?, {x}, {x,y} and {x,} and their lazy forms, the anchors ^ and $, and simple grouping and alternation, none taken to be anchored.
+schema.17	schema	schema	The access program schema MUST give each $ref of the schema with the location of the schema it references, its fragment percent-decoded as UTF-8 and evaluated as a JSON Pointer.
+schema.6	schema	schema	A $ref MUST reference a schema within the supplied schema, the one schema the converter is given.
+schema.7	schema	schema	A $ref's fragment MUST be a JSON Pointer in its URI fragment representation, of the characters a URI fragment holds, $id not being read.
+schema.8	schema	schema	A $ref MUST NOT reach again, at the same instance location through allOf, anyOf, oneOf, not, if, then, else or a dependency, a schema it is applied from.
+schema.9	schema	schema	A module specification that breaks schema.1 or schema.3-8 MUST be rejected as non-conforming.
+schema.11	schema	validate	A $ref MUST be applied as the schema it references, as schema gives it, its other members ignored.
+schema.13	schema	validate	Every assertion of the schema MUST be applied in validation.
+schema.16	schema	validate	A keyword that is neither a validation keyword nor $ref MUST be ignored in validation, asserting nothing: format, contentMediaType and contentEncoding among them.
+value.1	value	values	The input values, each a JSON text in UTF-8, MUST be read in the order the module supplies them, the order its source holds them.
+value.2	value	values	Each value MUST be given its zero-based position in the whole input; an input converted in parts, in order, keeps its positions, so that the sheets each part gives, appended sheet by sheet in the file's order, are the whole input's file.
+value.3	value	values	Every input value MUST be accepted, of any size, any depth of nesting and any length of string.
+value.4	value	values	An input value JSON text rejects, as not a JSON text or as names not unique, MUST be rejected as non-conforming, its reason its zero-based position in the input, a space, and the JSON Pointer to the place within it, in its URI fragment representation: the first object, in the order written, that repeats a name, or else the value itself.
+value.5	value	values	What JSON text leaves out MUST be left out of the file, and each place left out reported as not carried by the JSON Pointer to it within the input, whose first reference token is the zero-based position of its input value, as a JSON string.
+transfer.1	transfer	transfer	The transfer MUST take the input's tree to relations in normal form, each subordinate relation taking its parent's primary key as a foreign key; where a kind is referred to from several places or holds itself, a foreign key refers to the kind's one relation.
+transfer.2	transfer	transfer	A schema's subschemas MUST be taken from its keywords in the order items, additionalItems, properties, patternProperties, additionalProperties, dependencies, if, then, else, allOf, anyOf and oneOf, and within a keyword in the order the schema writes them: the order of the subschemas.
+relation.1	relation	relations	A relation is a sheet, and the input values MUST be written as one relation, the sheet of the input values; where a $ref references the root schema, the root schema is a kind, and the sheet of the input values is its kind's one sheet.
+relation.2	relation	relations	The schema a $ref references is a kind; every instance that a $ref applies to a child location, or to the same location through anyOf, oneOf, if, then, else or a dependency, MUST be written to its kind's one sheet, placed by the kind's schema alone, as a child location's instances are, wherever it is referenced.
+relation.3	relation	relations	A $ref that allOf applies MUST be read as adding to its instance's own schema, not as a kind.
+relation.4	relation	relations	The primitive types an instance location allows MUST be taken as those its type keyword lists, all six where it has none, narrowed by every subschema allOf applies there and by the union of the branches of anyOf and oneOf.
+relation.5	relation	relations	By those types, and by whether its schema requires it, each value MUST be written in one of three places: a column of the record that holds it, a simple domain (relation.6, relation.8); a sheet of its own, a nonsimple domain (relation.9-14); or the sheet of instances, molten (relation.15).
+relation.6	relation	relations	A property that its schema requires, that is not a kind, and that allows exactly one type, string, number, boolean or null, a simple domain, MUST be written as a column of its sheet, its field holding the property's value.
+relation.7	relation	relations	A subordinate sheet whose child instances allow exactly one type, string, number, boolean or null, MUST have one column, _value.
+relation.8	relation	relations	A property that its schema requires, that is not a kind, and that allows exactly one type, object, and every subschema allOf applies to a location that allows exactly one type, object, MUST be written as its instance's own: the members such a property holds, and those such a subschema names, written as members of the instance that holds them, and the subschemas the keywords of either apply taken as that instance's.
+relation.9	relation	relations	Each subschema applied to child locations that is a property that allows exactly one type, array, or items, each schema of items given as an array, additionalItems, a pattern of patternProperties, or additionalProperties, a repeating group, MUST be struck from its parent and written as a subordinate sheet of its own, whose records are its child instances.
+relation.10	relation	relations	A property that allows exactly one type, object, and that its schema does not require, MUST be written as a subordinate sheet, of one record or none.
+relation.11	relation	relations	A subschema that anyOf, oneOf, if, then, else or a dependency applies to the same location, and that allows exactly one type, object, MUST be written as a subordinate sheet of that location's sheet, where the location is not placed branch by branch (relation.12), whose records are the instances whose annotations it collects: under each branch of anyOf and oneOf an instance is valid against, under if where valid, under then or else as if decides, and under a dependency's schema where the instance holds its key.
+relation.12	relation	relations	A child location whose anyOf or oneOf gives its branches, and that allows other than exactly one type, or that relation.8 does not write as its instance's own and whose own schema, apart from its branches, gives it no column and no sheet but those the whole file shares, MUST be placed branch by branch: each instance as the location would be if its schema were the first branch, in the order of the subschemas, that the instance is valid against, a property's being taken as not required, the location having no record of its own.
+relation.13	relation	relations	A property that allows exactly one type, array, whose items is one schema, MUST be written as the sheet of its elements, and an element that is itself an array as a subordinate sheet of its own; and one whose items is an array of schemas as a sheet of one record per array, with a subordinate sheet for each schema of items and for additionalItems, each holding the elements at its positions.
+relation.14	relation	relations	A string that holds FF, a line break or HT MUST be written as its runs of text, as JSON text gives them, to the file's one sheet of runs, which the schema gives where any location can hold a string, each run one record with its page, line and position.
+relation.15	relation	relations	Every other value MUST be written molten, to the file's one sheet of instances, which the schema gives where any location is written molten: a property that allows other than exactly one type and is not placed branch by branch (relation.12), or one simple type but is not required; a child location whose subschema allows other than exactly one type and is not placed branch by branch; a member no schema covers (relation.16), and an element at a position no schema of items or additionalItems covers; and the input values themselves, where the root schema allows other than exactly one type, object or array. It holds every instance within the value, the value itself included; where the root schema allows other than exactly one type, object or array, the sheet of the input values is the sheet of instances.
+relation.16	relation	relations	Each value MUST be written once. A schema covers a member that its properties names or that a pattern of its patternProperties matches; a member is written by its location's own schema where that covers it; else by the first subschema, in the order of the subschemas, whose annotations the instance collects and that covers it; else by the first additionalProperties that applies, which takes only the members its schema does not cover; else it is written molten (relation.15).
+relation.17	relation	relations	A sheet MUST NOT be given a column from an allOf subschema for a property that its location's own schema or an earlier allOf subschema names; where a member is written by an earlier sheet, its field in a later one is empty, its value found by the same key.
+relation.19	relation	relations	A sheet MUST NOT be shaped from not, whose annotations are ignored, propertyNames, which applies to names, definitions, which applies to nothing by itself, or contains, whose elements items places.
+relation.18	relation	relations	The relation module MUST give each relation the schema gives with the parts of its path, each column with the parts of its label, and each record and cell.
+key.1	key	keys	Every record MUST begin with its primary key, its fixed variables first, as void-os.1 requires of every datum.
+key.2	key	keys	A record of the sheet of the input values MUST have one key column, _input value, the zero-based position of its input value in the input; where that sheet is the sheet of instances or a kind's sheet, its records are keyed as key.3 keys them, the record of an input value leaving _parent and _pointer empty.
+key.3	key	keys	A record of any other sheet but the sheet of runs MUST begin with _input value; then _instance, the zero-based position of its instance among the instances of its input value, the value itself first, counted in the order written; then _parent, the _instance of the record whose instance holds its own, which with _input value is a foreign key, possibly into its own relation; then _pointer, the JSON Pointer to its instance evaluated from that record's instance. A record whose instance is its location's own, a subschema applying to the same location, has the _input value and _instance of its location's record and leaves _parent and _pointer empty. No key holds the access path from the input value to its instance.
+key.4	key	keys	A record of the sheet of runs MUST begin with the _input value and _instance of its string, then _page, _line and _position, each a count of the unit FF, LF or HT moves to.
+order.1	order	order	Sheets MUST be written in the order of the schema's tree: the sheet of the input values first, each sheet directly followed by its subordinate sheets and theirs in turn, in the order of the subschemas; a property or subschema written as its instance's own gives its sheets in its own place; a kind's sheet, and its subordinate sheets, come in the place of its first reference; and the sheet of instances, where it is not the sheet of the input values, then the sheet of runs, come last.
+order.2	order	order	Records MUST be written in the order the input holds them: input values in input order, elements as their array orders them, members and instances as written, an instance before the instances within it, and runs of text in the order of their string.
+order.3	order	order	The key columns MUST be written first, then the columns of the simple domains in the order of the schema's tree: a location's own properties in the order the schema writes them, the members of a property written as its instance's own in that property's place, then those an allOf subschema names, in the order of its subschemas.
+output.1	output	write	The output MUST write the relations as one MTSV file, at its levels file, sheet, record and field.
+output.2	output	sheets	output MUST give the access program sheets of sheet as its own.
+output.3	output	write	The file MUST be written by the generator.
+file.1	file	file	The whole input MUST be given as the sheets of one MTSV file.
+file.2	file	file	A file MUST hold every sheet its schema gives that holds a record, in its place in the order of the schema's tree.
+file.3	file	file	A file MUST NOT hold a sheet that holds no record.
+sheet.1	sheet	sheets	The sheet of the input values MUST be named by the title of the root schema; where that sheet is the sheet of instances or a kind's sheet, it is named as that sheet is (sheet.2, sheet.3).
+sheet.2	sheet	sheets	A kind's sheet MUST be named by the title of its schema, else the last reference token of its $ref.
+sheet.3	sheet	sheets	Every sheet name and field name the converter fixes MUST begin with _: the sheet of instances is named _instances, and the sheet of runs _runs; a name taken or composed from the schema's names is written as void-os.4 writes a name taken from outside.
+sheet.4	sheet	sheets	Every other sheet MUST be named by its parent sheet's name and the parts of its path within the parent's instance, each after a full stop: the name of each property between them written as its instance's own, and then: for a property, the property's name; for a keyword, the keyword, then the pattern or zero-based position where the keyword holds more than one subschema, and items for the elements of an element that is itself an array; for a subschema that anyOf, oneOf, if, then, else or a dependency applies, the keyword, then the subschema's title, else a dependency's key, else its zero-based position where the keyword holds more than one subschema.
+sheet.5	sheet	sheets	Every sheet MUST have a header, its first record, which holds the name of each field, each column labelled with the name of its domain: the key columns by their names, _input value, _instance, _parent, _pointer, _page, _line and _position; a simple domain's column by its property's name; a member of a property written as its instance's own by that property's name, a full stop, and its own name, the role name qualifying the domain name; a member an allOf subschema names by its own name; and _type and _value by those names.
+record.1	record	records	Each instance, and each run of text, that a relation holds MUST be one record of its sheet.
+field.1	field	fields	Each field MUST hold its instance's text as JSON text gives its _value, null as an empty field.
+field.2	field	fields	In the sheet of instances, the fields after a record's keys MUST be _type, its instance's primitive type, and _value, its instance's text, as JSON text gives them.
+field.3	field	fields	A string value that holds FF, a line break or HT MUST be written as an empty field, its text written as runs of text to the sheet of runs.
+storage.23	storage		The data bank's folder MUST be the absolute path the environment variable the Value data bank variable names holds, where it holds one, and else the user's documents folder joined with the Value data bank folder.
+storage.24	storage		The user's documents folder MUST be as PLATFORMDIRS gives it for the platform, from the user's home folder.
+storage.25	storage		An input's name MUST be written within the data bank's folder as name within a folder writes it.
+storage.17	storage	folder	The access program folder MUST give the data bank's folder, as storage.23 decides it.
+storage.1	storage	insert	Storage MUST only insert into an input's relations.
+storage.2	storage		Each input MUST be kept as one MTSV file at its name written as storage.25 writes it within the data bank's folder, then .mtsv.
+storage.6	storage		One process at a time MUST write: before writing, a lock file named _lock is created in the data bank's folder only where it does not exist, and removed after; a process that finds it waits the Value lock wait and tries again, and takes a lock older than the Value lock timeout as released.
+storage.13	storage	insert	The access program insert MUST, holding the lock, convert the values from the position equal to the number of values the input stores, and write the part.
+storage.3	storage	insert	A part MUST be written at the end of its input's file, the file opened for appending, its sheets in the file's order, a sheet's name repeating as MTSV permits.
+storage.18	storage		A file storage replaces whole MUST be written beside it, at its name then the Value replace suffix, then renamed onto it.
+storage.4	storage	insert	Each value MUST be stored with all its records or with none: a value is stored whole once its record of _stored is written, after the part, and the records of a value at or after the number of the input's records of _stored are cut from the input's file before the next part is written.
+storage.14	storage	insert	The sheets the input's schema gives MUST be kept, at each insert, as the converter gives them, in the MTSV files _sheets.mtsv and _fields.mtsv in the data bank's folder, each replaced whole, the input's records replacing its earlier ones.
+storage.5	storage	mark communicated	The relation _communicated MUST be kept as the MTSV file _communicated.mtsv in the data bank's folder, replaced whole as storage.18 replaces a file.
+storage.7	storage	mark communicated	The number of an input's values communicated to a session and agent MUST be kept in _communicated, an input with no record for them having none communicated to them.
+storage.8	storage	insert	Each value stored whole MUST have one record in _stored, its _time the time it was stored, in UTC, written as RFC 3339 writes a date and time with the offset Z, and its _event the event handed, the relation kept as the MTSV file _stored.mtsv in the data bank's folder, written at its end, as storage.3 writes a part.
+storage.9	storage	insert	The value a source sends MUST be stored as it is sent.
+storage.26	storage	insert	A value's time and event MUST be kept only in _stored, beside it.
+storage.11	storage	inputs	The access program inputs MUST give the relation _inputs, each input in the order it was first stored, its _values the number of its records of _stored, and its _file its file as storage.2 names it.
+storage.15	storage	names	The access program names MUST give _sheets and _fields of every input stored, each input in the order it was first stored.
+storage.10	storage	stored	The access program stored MUST give, as the sheet _stored, the records of _stored of the values whose positions lie between first and last, both included.
+storage.12	storage		A file system failure, or a file of the data bank the parser rejects, MUST end the access as keeping failed, its reason those words alone, naming no path.
+storage.16	storage	insert	An input the converter rejects MUST end the insert as non-conforming, nothing being stored.
+storage.19	storage		A file of the data bank that does not exist MUST be read as holding no record, and not as a file system failure.
+storage.20	storage	mark communicated	A session or agent holding HT, LF, FF or CR MUST NOT be kept in _communicated, nothing being marked communicated to it.
+storage.21	storage	relations	The access program relations MUST give the input's relations from its file, the records of the values at positions below the number of its records of _stored, each sheet name once, its records those of every part in the order appended.
+storage.22	storage	communicated	The access program communicated MUST give the number of the input's values communicated to the session and agent, as _communicated keeps it.
+communication.1	communication		Communication MUST give what the data bank stores as MTSV, by restriction, and by aggregate only to count an input's values.
+communication.5	communication		Communication MUST NOT transform or sort what the data bank stores: values as stored, records in stored order.
+communication.2	communication	names	The access program names MUST give three sheets, each record beginning with its primary key: _inputs as storage's inputs gives it; and _sheets and _fields as storage keeps them.
+communication.3	communication	records	The access program records MUST give the records of the values whose positions lie between first and last, both included, each counted from 0, of the places asked for, or else every place, each place's sheet named as _sheets names it, in the order of the schema's tree, the records kept by the relational model's kept: those whose first field, _input value, equals one of the positions from first to last, each written as its number is.
+communication.4	communication	new	The access program new MUST give the records, as records gives them, of the values from the number communicated to the session and agent asked for to the last value stored, then their records of _stored, then mark every value stored communicated to them.
+Errors
+Module	Access program	Error	Requirement
+data bank	insert	keeping failed	
+data bank	insert	non-conforming	
+data bank	names	keeping failed	
+data bank	records	keeping failed	
+data bank	new	keeping failed	
+data bank	stored	keeping failed	
+converter	convert	non-conforming	
+converter	sheets	non-conforming	
+converter › input	read	non-conforming	
+schema	schema	non-conforming	schema.9
+schema	validate	non-conforming	schema.2
+value	values	non-conforming	value.4
+storage	insert	keeping failed	storage.12
+storage	insert	non-conforming	storage.16
+storage	inputs	keeping failed	storage.12
+storage	names	keeping failed	storage.12
+storage	relations	keeping failed	storage.12
+storage	stored	keeping failed	storage.12
+storage	communicated	keeping failed	storage.12
+storage	mark communicated	keeping failed	storage.12
+communication	names	keeping failed	
+communication	records	keeping failed	
+communication	new	keeping failed	
+Ended errors
+Module	Access program	Called module	Called access program	Error	Disposition	Requirement
+schema	schema	relational model	instances	not a JSON text	ended	schema.9
+schema	schema	relational model	instances	names not unique	ended	schema.9
+value	values	relational model	instances	not a JSON text	ended	value.4
+value	values	relational model	instances	names not unique	ended	value.4
+output	write	relational model	dumps	cannot be represented	ruled out	void-os.1
+storage	insert	relational model	load	not MTSV	ended	storage.12
+storage	insert	relational model	dump	cannot be represented	ruled out	void-os.1
+storage	inputs	relational model	load	not MTSV	ended	storage.12
+storage	names	relational model	load	not MTSV	ended	storage.12
+storage	relations	relational model	load	not MTSV	ended	storage.12
+storage	stored	relational model	load	not MTSV	ended	storage.12
+storage	communicated	relational model	load	not MTSV	ended	storage.12
+storage	mark communicated	relational model	load	not MTSV	ended	storage.12
+storage	mark communicated	relational model	dump	cannot be represented	ruled out	void-os.1
+communication	records	relational model	kept	refused	ruled out	communication.3
+communication	new	relational model	kept	refused	ruled out	communication.3
+Operations
+Operation	Module	Kind	Tag	Section	First block	Last block
+JSON Schema validate	schema	composite	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6. Validation Keywords		
+ECMAScript pattern	schema	composite	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 4.3. Regular Expressions	1	10
+modification time	storage	primitive	POSIX-XSH-STAT	DESCRIPTION		
+replace whole	storage	primitive	POSIX-XSH-RENAME	DESCRIPTION	4	4
+append	storage	primitive	POSIX-XSH-OPEN	DESCRIPTION	17	18
+create exclusively	storage	primitive	POSIX-XSH-OPEN	DESCRIPTION	29	30
+remove	storage	primitive	POSIX-XSH-UNLINK	DESCRIPTION		
+wait	storage	primitive	POSIX-XSH-NANOSLEEP	DESCRIPTION		
+time now	storage	primitive	RFC3339	5.6. Internet Date/Time Format		
+difference	communication	grammar	CODD1972	2.3.1 Traditional Set Operations	3	3
+Operation inputs
+Operation	Position	Input	Type
+modification time	1	path	absolute path
+replace whole	1	source	absolute path
+replace whole	2	target	absolute path
+append	1	path	absolute path
+append	2	data	bytes
+create exclusively	1	path	absolute path
+remove	1	path	absolute path
+wait	1	seconds	number
+Bindings
+Operation	Notation	Code	Tag	Section	First block	Last block
+modification time	python	{{result}} = os.stat({{path}}).st_mtime	PY-OS	Files and Directories	332	332
+modification time	javascript	const {{result}} = fs.statSync({{path}}).mtimeMs / 1000;	NODE-FS	Stat time values		
+replace whole	python	os.replace({{source}}, {{target}})	PY-OS	Files and Directories	229	229
+replace whole	javascript	fs.renameSync({{source}}, {{target}});	NODE-FS	fs.renameSync(oldPath, newPath)		
+append	python	with open({{path}}, 'ab') as file: file.write({{data}})	PY-FUNCTIONS	Built-in Functions	254	254
+append	javascript	fs.appendFileSync({{path}}, {{data}});	NODE-FS	fs.appendFileSync(path, data[, options])		
+create exclusively	python	with open({{path}}, 'xb'): pass	PY-FUNCTIONS	Built-in Functions	254	254
+create exclusively	javascript	fs.closeSync(fs.openSync({{path}}, 'wx'));	NODE-FS	File system flags		
+remove	python	os.unlink({{path}})	PY-OS	Files and Directories	445	445
+remove	javascript	fs.unlinkSync({{path}});	NODE-FS	fs.unlinkSync(path)		
+wait	python	time.sleep({{seconds}})	PY-TIME	Functions	81	81
+wait	javascript	Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, {{seconds}} * 1000);	ECMA-262	25.4.15 Atomics.wait ( ta, index, value, timeout )		
+time now	python	{{result}} = datetime.now(timezone.utc).isoformat(timespec='milliseconds').replace('+00:00', 'Z')	PY-DATETIME	.datetime Objects	174	174
+time now	javascript	const {{result}} = new Date().toISOString();	ECMA-262	21.4.4.36 Date.prototype.toISOString ( )		
+Operation steps
+Operation	Position	Step	Tag	Section	First block	Last block
+JSON Schema validate	1	type	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.1.1. type		
+JSON Schema validate	2	enum	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.1.2. enum		
+JSON Schema validate	3	const	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.1.3. const		
+JSON Schema validate	4	multipleOf	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.2.1. multipleOf		
+JSON Schema validate	5	maximum	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.2.2. maximum		
+JSON Schema validate	6	exclusiveMaximum	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.2.3. exclusiveMaximum		
+JSON Schema validate	7	minimum	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.2.4. minimum		
+JSON Schema validate	8	exclusiveMinimum	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.2.5. exclusiveMinimum		
+JSON Schema validate	9	maxLength	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.3.1. maxLength		
+JSON Schema validate	10	minLength	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.3.2. minLength		
+JSON Schema validate	11	pattern	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.3.3. pattern		
+JSON Schema validate	12	items	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.4.1. items		
+JSON Schema validate	13	additionalItems	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.4.2. additionalItems		
+JSON Schema validate	14	maxItems	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.4.3. maxItems		
+JSON Schema validate	15	minItems	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.4.4. minItems		
+JSON Schema validate	16	uniqueItems	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.4.5. uniqueItems		
+JSON Schema validate	17	contains	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.4.6. contains		
+JSON Schema validate	18	maxProperties	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.5.1. maxProperties		
+JSON Schema validate	19	minProperties	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.5.2. minProperties		
+JSON Schema validate	20	required	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.5.3. required		
+JSON Schema validate	21	properties	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.5.4. properties		
+JSON Schema validate	22	patternProperties	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.5.5. patternProperties		
+JSON Schema validate	23	additionalProperties	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.5.6. additionalProperties		
+JSON Schema validate	24	dependencies	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.5.7. dependencies		
+JSON Schema validate	25	propertyNames	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.5.8. propertyNames		
+JSON Schema validate	26	if	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.6.1. if		
+JSON Schema validate	27	then	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.6.2. then		
+JSON Schema validate	28	else	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.6.3. else		
+JSON Schema validate	29	allOf	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.7.1. allOf		
+JSON Schema validate	30	anyOf	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.7.2. anyOf		
+JSON Schema validate	31	oneOf	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.7.3. oneOf		
+JSON Schema validate	32	not	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6.7.4. not		
+ECMAScript pattern	1	tokens	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 4.3. Regular Expressions	2	9
+ECMAScript pattern	2	syntax	ECMA-262	22.2.1 Patterns		
+ECMAScript pattern	3	semantics	ECMA-262	22.2.2 Pattern Semantics		
+ECMAScript pattern	4	not anchored	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 4.3. Regular Expressions	10	10
+Terms
+Term	Module	Source	Section
+storage	data bank	CODD1970	1.3. A Relational View of Data
+communication	data bank	CODD1970	1.3. A Relational View of Data
+order of the schema's tree	data bank		
+sheet of the input values	data bank		
+annotation	converter	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 3.3. Annotations
+kind	converter		
+sheet of instances	converter		
+sheet of runs	converter		
+instance's own	converter		
+simple domain	converter	CODD1970	1.4. Normal Form
+JSON value	converter	RFC8259	3. Values
+validation keyword	schema	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6. Validation Keywords
+order of the subschemas	transfer		
+foreign key	transfer	CODD1970	1.3. A Relational View of Data
+nonsimple domain	relation	CODD1970	1.4. Normal Form
+repeating group	relation	CODD1970	1.4. Normal Form
+lock file	storage	POSIX-XSH-OPEN	DESCRIPTION
+Value uses
+Requirement	Value
+storage.23	data bank folder
+storage.23	data bank variable
+storage.6	lock timeout
+storage.6	lock wait
+storage.18	replace suffix
+Operation uses
+Requirement	Operation
+schema.1	JSON-text read
+schema.1	JSON Schema validate
+schema.1	JSON Pointer
+schema.2	JSON Schema validate
+schema.2	JSON Pointer
+schema.2	percent-encoding
+schema.2	UTF-8 encode
+schema.5	ECMAScript pattern
+schema.17	JSON Pointer
+schema.17	JSON Pointer evaluation
+schema.17	UTF-8 decode
+schema.17	percent-encoding
+schema.7	JSON Pointer
+schema.13	JSON Schema validate
+schema.13	ECMAScript pattern
+value.1	JSON-text read
+value.4	JSON-text read
+value.4	JSON Pointer
+value.4	percent-encoding
+value.4	UTF-8 encode
+value.5	JSON Pointer
+key.3	JSON Pointer
+output.1	MTSV generate
+output.3	MTSV generate
+storage.23	environment variable
+storage.24	user documents folder
+storage.24	home folder
+storage.24	platform
+storage.25	name within a folder
+storage.2	make directory
+storage.6	create exclusively
+storage.6	remove
+storage.6	modification time
+storage.6	wait
+storage.13	read a file
+storage.13	MTSV parse
+storage.3	append
+storage.3	MTSV generate
+storage.18	write a file
+storage.18	replace whole
+storage.4	read a file
+storage.4	MTSV parse
+storage.4	MTSV generate
+storage.14	read a file
+storage.14	MTSV parse
+storage.14	MTSV generate
+storage.5	MTSV generate
+storage.7	read a file
+storage.7	MTSV parse
+storage.8	time now
+storage.8	append
+storage.8	MTSV generate
+storage.11	read a file
+storage.11	MTSV parse
+storage.11	aggregate
+storage.11	count
+storage.15	read a file
+storage.15	MTSV parse
+storage.10	read a file
+storage.10	MTSV parse
+storage.19	read a file
+storage.21	read a file
+storage.21	MTSV parse
+storage.22	read a file
+storage.22	MTSV parse
+communication.1	aggregate
+communication.1	count
+communication.4	difference
+Access program uses
+Requirement	Module	Access program
+data-bank.3	storage	folder
+data-bank.3	storage	insert
+data-bank.3	storage	stored
+data-bank.3	communication	names
+data-bank.3	communication	records
+data-bank.3	communication	new
+converter.1	converter › input	read
+converter.1	transfer	transfer
+converter.1	output	write
+converter.5	converter › input	read
+converter.5	transfer	transfer
+converter.5	output	sheets
+converter-input.2	schema	schema
+converter-input.2	schema	validate
+converter-input.2	value	values
+schema.1	relational model	instances
+schema.17	relational model	named
+value.1	relational model	instances
+value.4	relational model	instances
+transfer.1	relation	relations
+transfer.1	key	keys
+transfer.1	order	order
+output.1	file	file
+output.1	sheet	sheets
+output.1	record	records
+output.1	field	fields
+output.1	relational model	dumps
+output.2	sheet	sheets
+output.3	relational model	dumps
+storage.13	converter	convert
+storage.13	relational model	load
+storage.3	relational model	dump
+storage.4	relational model	load
+storage.4	relational model	dump
+storage.14	converter	sheets
+storage.14	relational model	load
+storage.14	relational model	dump
+storage.5	relational model	dump
+storage.7	relational model	load
+storage.8	relational model	dump
+storage.11	relational model	load
+storage.15	relational model	load
+storage.10	relational model	load
+storage.21	relational model	load
+storage.22	relational model	load
+communication.2	storage	inputs
+communication.2	storage	names
+communication.3	storage	relations
+communication.3	relational model	kept
+communication.4	storage	communicated
+communication.4	storage	relations
+communication.4	storage	stored
+communication.4	storage	mark communicated
+communication.4	relational model	kept
+Citations
+Requirement	Tag	Section	First block	Last block
+data-bank.1	CODD1970	Abstract	1	1
+data-bank.3	PARNAS1985	RESTRICTED AND HIDDEN MODULES	1	1
+converter.1	RFC8259	2. JSON Grammar		
+converter.1	MTSV-DRAFT	Generators		
+converter.5	CODD1970	1.3. A Relational View of Data		
+converter-input.1	RFC9413	5.1. Virtuous Intolerance		
+converter-input.2	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 3.3. Annotations		
+schema.1	JSON-SCHEMA-07			
+schema.1	RFC8259	2. JSON Grammar		
+schema.2	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 3.3. Annotations		
+schema.2	RFC6901	6. URI Fragment Identifier Representation	1	1
+schema.2	RFC9413	5.1. Virtuous Intolerance		
+schema.3	JSON-SCHEMA-07			
+schema.4	MTSV-DRAFT	Data Model		
+schema.5	JSON-SCHEMA-07			
+schema.5	ECMA-262	22.2.1 Patterns		
+schema.17	JSON-SCHEMA-07			
+schema.17	RFC6901	4. Evaluation	1	7
+schema.17	RFC6901	6. URI Fragment Identifier Representation	1	1
+schema.6	JSON-SCHEMA-07			
+schema.7	RFC6901	3. Syntax		
+schema.7	RFC3986			
+schema.8	JSON-SCHEMA-07			
+schema.9	RFC9413	5.1. Virtuous Intolerance		
+schema.11	JSON-SCHEMA-07			
+schema.13	JSON-SCHEMA-07	draft-handrews-json-schema-validation-01 › 6. Validation Keywords		
+schema.16	JSON-SCHEMA-07			
+value.1	RFC8259	2. JSON Grammar		
+value.1	RFC3629	3. UTF-8 definition		
+value.2	MTSV-DRAFT	Data Model		
+value.3	RFC8259			
+value.4	RFC6901	6. URI Fragment Identifier Representation	1	1
+value.4	RFC9413	5.1. Virtuous Intolerance		
+value.5	MTSV-DRAFT	Data Model		
+value.5	RFC6901	3. Syntax		
+transfer.1	CODD1970	1.4. Normal Form	1	1
+transfer.2	JSON-SCHEMA-07			
+relation.1	CODD1970	1.3. A Relational View of Data		
+relation.1	WICKHAM2014			
+relation.2	WICKHAM2014			
+relation.2	JSON-SCHEMA-07			
+relation.3	JSON-SCHEMA-07			
+relation.4	JSON-SCHEMA-07			
+relation.5	CODD1970	1.4. Normal Form		
+relation.5	WICKHAM2014			
+relation.6	CODD1970	1.4. Normal Form		
+relation.7	WICKHAM2014			
+relation.8	JSON-SCHEMA-07			
+relation.9	CODD1970	1.4. Normal Form		
+relation.9	JSON-SCHEMA-07			
+relation.10	CODD1970	1.4. Normal Form	1	1
+relation.10	JSON-SCHEMA-07			
+relation.11	JSON-SCHEMA-07			
+relation.12	JSON-SCHEMA-07			
+relation.12	WICKHAM2014			
+relation.13	JSON-SCHEMA-07			
+relation.14	MTSV-DRAFT	Data Model		
+relation.14	RFC20	5.2 Control Characters		
+relation.15	WICKHAM2014			
+relation.16	RFC8259			
+relation.16	JSON-SCHEMA-07			
+relation.17	CODD1970	1.3. A Relational View of Data		
+relation.19	JSON-SCHEMA-07			
+relation.18	CODD1970	1.3. A Relational View of Data		
+key.1	CODD1970	1.3. A Relational View of Data		
+key.1	WICKHAM2014			
+key.2	CODD1970	1.3. A Relational View of Data		
+key.3	CODD1970	1.3. A Relational View of Data		
+key.3	RFC6901	3. Syntax		
+key.4	RFC20	5.2 Control Characters		
+order.1	MTSV-DRAFT	Data Model		
+order.1	CODD1970	1.3. A Relational View of Data		
+order.2	MTSV-DRAFT	Data Model		
+order.2	CODD1970	1.3. A Relational View of Data		
+order.3	CODD1970	1.3. A Relational View of Data		
+output.1	MTSV-DRAFT	Data Model		
+output.2	PARNAS1985	RESTRICTED AND HIDDEN MODULES	1	1
+output.3	MTSV-DRAFT	Generators		
+file.1	MTSV-DRAFT	Data Model		
+file.2	MTSV-DRAFT	Data Model		
+sheet.1	JSON-SCHEMA-07			
+sheet.2	RFC6901	3. Syntax		
+sheet.4	JSON-SCHEMA-07			
+sheet.5	MTSV-DRAFT	Conventions and Definitions		
+sheet.5	CODD1970	1.3. A Relational View of Data		
+record.1	CODD1970	1.3. A Relational View of Data		
+field.1	MTSV-DRAFT	Data Model		
+field.2	JSON-SCHEMA-07			
+field.2	WICKHAM2014			
+field.3	MTSV-DRAFT	Data Model		
+storage.23	PLATFORMDIRS	user_documents_dir		
+storage.24	PLATFORMDIRS	user_documents_dir	3	10
+storage.24	PLATFORMDIRS	Directories not covered	1	2
+storage.25	RFC8089	E.2. DOS and Windows Drive Letters	2	7
+storage.25	RFC3986	2.1. Percent-Encoding	1	3
+storage.25	RFC3986	2.3. Unreserved Characters	2	2
+storage.17	PARNAS1985	DESIGN PRINCIPLE	1	1
+storage.1	CODD1970	1.3. A Relational View of Data		
+storage.2	POSIX-XBD4	4.13 Pathname Resolution		
+storage.6	POSIX-XSH-OPEN	DESCRIPTION	29	30
+storage.6	POSIX-XSH-NANOSLEEP	DESCRIPTION		
+storage.13	POSIX-XSH-OPEN	DESCRIPTION	29	30
+storage.3	POSIX-XSH-OPEN	DESCRIPTION	17	18
+storage.3	MTSV-DRAFT	Data Model		
+storage.18	POSIX-XSH-RENAME	DESCRIPTION	4	4
+storage.4	POSIX-XSH-RENAME	DESCRIPTION	4	4
+storage.14	CODD1970	1.3. A Relational View of Data		
+storage.5	POSIX-XSH-RENAME	DESCRIPTION	4	4
+storage.8	PROV-DM	5.1.3 Generation		
+storage.8	RFC3339	5.6. Internet Date/Time Format		
+storage.26	PROV-DM	5.1.3 Generation		
+storage.15	CODD1970	1.3. A Relational View of Data	17	17
+storage.10	RFC7111	2.1. Row-Based Selection		
+storage.12	POSIX-XSH-OPEN	ERRORS		
+storage.16	RFC9413	5.1. Virtuous Intolerance		
+storage.19	POSIX-XSH-OPEN	ERRORS	22	22
+storage.20	MTSV-DRAFT	Data Model		
+storage.21	MTSV-DRAFT	Data Model		
+communication.1	WICKHAM2014	4.1. Manipulation	4	8
+communication.5	WICKHAM2014	4.1. Manipulation	4	8
+communication.2	CODD1970	1.3. A Relational View of Data		
+communication.3	RFC7111	2.1. Row-Based Selection		
+communication.3	RFC9535	2.3.5. Filter Selector		
+communication.3	CODD1972	2.3.5 Restriction	1	1
+communication.4	CODD1972	2.3.1 Traditional Set Operations	3	3
+Spec relations
+Requirement	Target
+schema.6	schema.17
+schema.8	schema.17
+schema.11	schema.17
+relation.1	schema.17
+relation.2	schema.17
+relation.3	schema.17
+key.1	void-os.1
+order.1	schema.17
+sheet.3	void-os.4
+storage.17	storage.23
+storage.13	storage.6
+storage.4	storage.18
+storage.14	storage.18
+storage.5	storage.18
+storage.7	storage.5
+storage.8	storage.3
+Axis rules
+Standard	Characteristic	Subcharacteristic	Requirement
+ISO25010	Maintainability	modularity	data-bank.3
+ISO25010	Security	integrity	storage.1
+ISO25010	Reliability	faultlessness	storage.6
+ISO25010	Reliability	recoverability	storage.4
+Requirement files
+Requirement	Path

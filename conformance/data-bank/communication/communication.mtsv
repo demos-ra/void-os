@@ -1,0 +1,162 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+communication.1	1	communication	names					communication gives what is stored as MTSV, by aggregate only to count an input's values
+communication.5	1	communication	records					what the data bank stores is given untransformed and unsorted: records in stored order
+communication.2	1	communication	names					names gives _inputs as storage's inputs gives it, then _sheets and _fields as storage keeps them
+communication.3	1	communication	records					records gives the records of the values between first and last, both included, of every place, each place's sheet named as _sheets names it
+communication.4	1	communication	new					new gives the records from the number communicated to the session and agent to the last value stored, then their records of _stored, then marks every value stored communicated to them
+arguments
+requirement	case	position	item	value
+communication.5	1	2	0	$PWD
+communication.5	1	3	0	1
+communication.5	1	4	0	1
+communication.5	1	5	0	
+communication.3	1	2	0	$PWD
+communication.3	1	3	0	1
+communication.3	1	4	0	1
+communication.3	1	5	0	
+communication.4	1	2	0	$PWD
+communication.4	1	3	0	s2
+communication.4	1	4	0	
+communication.4	1	5	0	
+environment
+requirement	case	name	value
+communication.1	1	VOID_OS_DATA_BANK	$PWD/bank
+communication.5	1	VOID_OS_DATA_BANK	$PWD/bank
+communication.2	1	VOID_OS_DATA_BANK	$PWD/bank
+communication.3	1	VOID_OS_DATA_BANK	$PWD/bank
+communication.4	1	VOID_OS_DATA_BANK	$PWD/bank
+fixtures
+fixture	sheet	record	field	value
+names of two values	1	0	1	_inputs
+names of two values	1	1	1	_input
+names of two values	1	1	2	_values
+names of two values	1	1	3	_file
+names of two values	1	2	1	$PWD
+names of two values	1	2	2	2
+names of two values	1	2	3	$PWD/bank/$INPUT.mtsv
+names of two values	2	0	1	_sheets
+names of two values	2	1	1	_input
+names of two values	2	1	2	_place
+names of two values	2	1	3	_sheet name
+names of two values	2	2	1	$PWD
+names of two values	2	2	2	0
+names of two values	2	2	3	hook input
+names of two values	2	3	1	$PWD
+names of two values	2	3	2	1
+names of two values	2	3	3	_instances
+names of two values	2	4	1	$PWD
+names of two values	2	4	2	2
+names of two values	2	4	3	_runs
+names of two values	3	0	1	_fields
+names of two values	3	1	1	_input
+names of two values	3	1	2	_place
+names of two values	3	1	3	_position
+names of two values	3	1	4	_field name
+names of two values	3	2	1	$PWD
+names of two values	3	2	2	0
+names of two values	3	2	3	0
+names of two values	3	2	4	_input value
+names of two values	3	3	1	$PWD
+names of two values	3	3	2	1
+names of two values	3	3	3	0
+names of two values	3	3	4	_input value
+names of two values	3	4	1	$PWD
+names of two values	3	4	2	1
+names of two values	3	4	3	1
+names of two values	3	4	4	_instance
+names of two values	3	5	1	$PWD
+names of two values	3	5	2	1
+names of two values	3	5	3	2
+names of two values	3	5	4	_parent
+names of two values	3	6	1	$PWD
+names of two values	3	6	2	1
+names of two values	3	6	3	3
+names of two values	3	6	4	_pointer
+names of two values	3	7	1	$PWD
+names of two values	3	7	2	1
+names of two values	3	7	3	4
+names of two values	3	7	4	_type
+names of two values	3	8	1	$PWD
+names of two values	3	8	2	1
+names of two values	3	8	3	5
+names of two values	3	8	4	_value
+names of two values	3	9	1	$PWD
+names of two values	3	9	2	2
+names of two values	3	9	3	0
+names of two values	3	9	4	_input value
+names of two values	3	10	1	$PWD
+names of two values	3	10	2	2
+names of two values	3	10	3	1
+names of two values	3	10	4	_instance
+names of two values	3	11	1	$PWD
+names of two values	3	11	2	2
+names of two values	3	11	3	2
+names of two values	3	11	4	_page
+names of two values	3	12	1	$PWD
+names of two values	3	12	2	2
+names of two values	3	12	3	3
+names of two values	3	12	4	_line
+names of two values	3	13	1	$PWD
+names of two values	3	13	2	2
+names of two values	3	13	3	4
+names of two values	3	13	4	_position
+names of two values	3	14	1	$PWD
+names of two values	3	14	2	2
+names of two values	3	14	3	5
+names of two values	3	14	4	_value
+records of value 1	1	0	1	hook input
+records of value 1	1	1	1	_input value
+records of value 1	1	2	1	1
+records of value 1	2	0	1	_instances
+records of value 1	2	1	1	_input value
+records of value 1	2	1	2	_instance
+records of value 1	2	1	3	_parent
+records of value 1	2	1	4	_pointer
+records of value 1	2	1	5	_type
+records of value 1	2	1	6	_value
+records of value 1	2	2	1	1
+records of value 1	2	2	2	1
+records of value 1	2	2	3	0
+records of value 1	2	2	4	/hook_event_name
+records of value 1	2	2	5	string
+records of value 1	2	2	6	UserPromptSubmit
+records of value 1	2	3	1	1
+records of value 1	2	3	2	2
+records of value 1	2	3	3	0
+records of value 1	2	3	4	/session_id
+records of value 1	2	3	5	string
+records of value 1	2	3	6	s1
+records of value 1	2	4	1	1
+records of value 1	2	4	2	3
+records of value 1	2	4	3	0
+records of value 1	2	4	4	/prompt
+records of value 1	2	4	5	string
+records of value 1	2	4	6	hello
+placed
+requirement	case	when	pathname	fixture
+communication.1	1	before	$PWD/bank/_stored.mtsv	two values _stored
+communication.1	1	before	$PWD/bank/_sheets.mtsv	hook input _sheets
+communication.1	1	before	$PWD/bank/_fields.mtsv	hook input _fields
+communication.1	1	after	result 1	names of two values
+communication.5	1	before	$PWD/bank/$INPUT.mtsv	two values input
+communication.5	1	before	$PWD/bank/_stored.mtsv	two values _stored
+communication.5	1	before	$PWD/bank/_sheets.mtsv	hook input _sheets
+communication.5	1	before	$PWD/bank/_fields.mtsv	hook input _fields
+communication.5	1	after	result 1	records of value 1
+communication.2	1	before	$PWD/bank/_stored.mtsv	two values _stored
+communication.2	1	before	$PWD/bank/_sheets.mtsv	hook input _sheets
+communication.2	1	before	$PWD/bank/_fields.mtsv	hook input _fields
+communication.2	1	after	result 1	names of two values
+communication.3	1	before	$PWD/bank/$INPUT.mtsv	two values input
+communication.3	1	before	$PWD/bank/_stored.mtsv	two values _stored
+communication.3	1	before	$PWD/bank/_sheets.mtsv	hook input _sheets
+communication.3	1	before	$PWD/bank/_fields.mtsv	hook input _fields
+communication.3	1	after	result 1	records of value 1
+communication.4	1	before	$PWD/bank/$INPUT.mtsv	two values input
+communication.4	1	before	$PWD/bank/_stored.mtsv	two values _stored
+communication.4	1	before	$PWD/bank/_sheets.mtsv	hook input _sheets
+communication.4	1	before	$PWD/bank/_fields.mtsv	hook input _fields
+communication.4	1	before	$PWD/bank/_communicated.mtsv	communicated s2 1
+communication.4	1	after	result 1	new value 1
+communication.4	1	after	$PWD/bank/_communicated.mtsv	communicated s2 2

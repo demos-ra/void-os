@@ -1,0 +1,1022 @@
+1-folders
+kind	place	holds
+—	positions	—
+—	filter-expression	—
+—	set-operations	—
+—	operations-on-relations	—
+2-modules
+kind	place	holds
+{{name}} · .js	query	—
+3-statements
+kind	place	holds
+ImportDeclaration	query.js#/SourceFile/0	—
+ImportDeclaration	query.js#/SourceFile/1	—
+ImportDeclaration	query.js#/SourceFile/2	—
+ImportDeclaration	query.js#/SourceFile/3	—
+FunctionDeclaration · Body	query.js#/SourceFile/4	—
+TryStatement	query.js#/SourceFile/4/Body/0	—
+VariableStatement	query.js#/SourceFile/4/Body/0/TryBlock/0	—
+VariableStatement	query.js#/SourceFile/4/Body/0/TryBlock/1	—
+ForOfStatement	query.js#/SourceFile/4/Body/0/TryBlock/2	—
+VariableStatement	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0	—
+ExpressionStatement	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1	—
+VariableStatement	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2	—
+ExpressionStatement	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3	—
+VariableStatement	query.js#/SourceFile/4/Body/0/TryBlock/3	—
+VariableStatement	query.js#/SourceFile/4/Body/0/TryBlock/4	—
+ForOfStatement	query.js#/SourceFile/4/Body/0/TryBlock/5	—
+VariableStatement	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0	—
+VariableStatement	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1	—
+ForOfStatement	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2	—
+VariableStatement	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0	—
+VariableStatement	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/1	—
+ForOfStatement	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2	—
+ExpressionStatement	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0	—
+ExpressionStatement	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/1	—
+ExpressionStatement	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3	—
+ReturnStatement	query.js#/SourceFile/4/Body/0/TryBlock/6	—
+IfStatement	query.js#/SourceFile/4/Body/0/CatchClause/Block/0	—
+ThrowStatement	query.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0	—
+IfStatement	query.js#/SourceFile/4/Body/0/CatchClause/Block/1	—
+ThrowStatement	query.js#/SourceFile/4/Body/0/CatchClause/Block/1/ThenStatement/0	—
+ThrowStatement	query.js#/SourceFile/4/Body/0/CatchClause/Block/2	—
+FunctionDeclaration · Body	query.js#/SourceFile/5	—
+TryStatement	query.js#/SourceFile/5/Body/0	—
+ReturnStatement	query.js#/SourceFile/5/Body/0/TryBlock/0	—
+IfStatement	query.js#/SourceFile/5/Body/0/CatchClause/Block/0	—
+ThrowStatement	query.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0	—
+ThrowStatement	query.js#/SourceFile/5/Body/0/CatchClause/Block/1	—
+ClassDeclaration	query.js#/SourceFile/6	—
+FunctionDeclaration · Body	query.js#/SourceFile/7	—
+ReturnStatement	query.js#/SourceFile/7/Body/0	—
+4-expressions
+kind	place	holds
+ImportClause · NamedBindings	query.js#/SourceFile/0/ImportClause	—
+NamespaceImport	query.js#/SourceFile/0/ImportClause/NamedBindings	—
+StringLiteral	query.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	query.js#/SourceFile/1/ImportClause	—
+NamespaceImport	query.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	query.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	query.js#/SourceFile/2/ImportClause	—
+NamespaceImport	query.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	query.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	query.js#/SourceFile/3/ImportClause	—
+NamespaceImport	query.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	query.js#/SourceFile/3/ModuleSpecifier	—
+ExportKeyword	query.js#/SourceFile/4/modifiers/0	—
+—	query.js#/SourceFile/4/name	—
+—	query.js#/SourceFile/4/Parameters/0	—
+Identifier	query.js#/SourceFile/4/Parameters/0/name	—
+—	query.js#/SourceFile/4/Parameters/1	—
+Identifier	query.js#/SourceFile/4/Parameters/1/name	—
+—	query.js#/SourceFile/4/Parameters/2	—
+Identifier	query.js#/SourceFile/4/Parameters/2/name	—
+—	query.js#/SourceFile/4/Parameters/3	—
+Identifier	query.js#/SourceFile/4/Parameters/3/name	—
+—	query.js#/SourceFile/4/Parameters/4	—
+Identifier	query.js#/SourceFile/4/Parameters/4/name	—
+—	query.js#/SourceFile/4/Parameters/5	—
+Identifier	query.js#/SourceFile/4/Parameters/5/name	—
+—	query.js#/SourceFile/4/Parameters/6	—
+Identifier	query.js#/SourceFile/4/Parameters/6/name	—
+—	query.js#/SourceFile/4/Parameters/7	—
+Identifier	query.js#/SourceFile/4/Parameters/7/name	—
+—	query.js#/SourceFile/4/Parameters/8	—
+Identifier	query.js#/SourceFile/4/Parameters/8/name	—
+ConstKeyword	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Flags/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/name	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Expression/name	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/name	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/name	—
+ArrowFunction · Expression	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Parameters/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Parameters/0/name	—
+ArrayLiteralExpression	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Expression	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/ArgumentExpression	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/Expression	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/ArgumentExpression	—
+ConstKeyword	query.js#/SourceFile/4/Body/0/TryBlock/1/DeclarationList/Flags/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/1/DeclarationList/Declarations/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/1/DeclarationList/Declarations/0/name	—
+ArrayLiteralExpression	query.js#/SourceFile/4/Body/0/TryBlock/1/DeclarationList/Declarations/0/Initializer	—
+VariableDeclarationList	query.js#/SourceFile/4/Body/0/TryBlock/2/Initializer	—
+ConstKeyword	query.js#/SourceFile/4/Body/0/TryBlock/2/Initializer/Flags/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Initializer/Declarations/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Initializer/Declarations/0/name	—
+NewExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Expression	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0/Expression/name	—
+ArrowFunction · Expression	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0/Arguments/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0/Arguments/0/Parameters/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0/Arguments/0/Parameters/0/name	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0/Arguments/0/Parameters/1	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0/Arguments/0/Parameters/1/name	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0/Arguments/0/Body	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0/Arguments/0/Body/Expression	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0/Arguments/0/Body/ArgumentExpression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0/Arguments/0/Body/ArgumentExpression/Expression	—
+BinaryExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0/Arguments/0/Body/ArgumentExpression/Arguments/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0/Arguments/0/Body/ArgumentExpression/Arguments/0/Left	—
+PlusToken	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0/Arguments/0/Body/ArgumentExpression/Arguments/0/OperatorToken	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0/Arguments/0/Body/ArgumentExpression/Arguments/0/Right	—
+LetKeyword	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Flags/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/name	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/name	—
+ArrowFunction · Expression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0/name	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/1	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/1/name	—
+BinaryExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/Expression	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/ArgumentExpression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/ArgumentExpression/Expression	—
+BinaryExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/ArgumentExpression/Arguments/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/ArgumentExpression/Arguments/0/Left	—
+PlusToken	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/ArgumentExpression/Arguments/0/OperatorToken	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/ArgumentExpression/Arguments/0/Right	—
+EqualsEqualsEqualsToken	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/OperatorToken	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right	—
+BinaryExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Left	—
+EqualsToken	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/OperatorToken	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Expression/name	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Arguments/0	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Arguments/1	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Arguments/1/Expression	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Arguments/1/Arguments/0	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Arguments/1/Arguments/0/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Arguments/1/Arguments/0/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Arguments/1/Arguments/0/Expression/name	—
+ArrowFunction · Expression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Arguments/1/Arguments/0/Arguments/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Arguments/1/Arguments/0/Arguments/0/Body	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Arguments/2	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Arguments/3	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Arguments/4	—
+ConstKeyword	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Flags/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/name	—
+ConditionalExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/Condition	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Expression/name	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/1	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/1/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/1/name	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/name	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/name	—
+ArrowFunction · Expression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Parameters/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Parameters/0/name	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body/Expression	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body/Arguments/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body/Arguments/0/Expression	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body/Arguments/0/ArgumentExpression	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenFalse	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/name	—
+ArrowFunction · Expression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Parameters/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Parameters/0/name	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Parameters/1	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Parameters/1/name	—
+BinaryExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Left	—
+PlusToken	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/OperatorToken	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Right	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Expression/name	—
+SpreadElement	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Expression/name	—
+ArrowFunction · Expression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Parameters/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Parameters/0/name	—
+ArrayLiteralExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/1	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/2	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/2/Expression	—
+BinaryExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/2/ArgumentExpression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/2/ArgumentExpression/Left	—
+MinusToken	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/2/ArgumentExpression/OperatorToken	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/2/ArgumentExpression/Right	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/Expression	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/Expression/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/Expression/Expression/name	—
+ArrayLiteralExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/Expression/Arguments/0	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/Expression/Arguments/0/Elements/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/Expression/Arguments/0/Elements/0/Expression	—
+BinaryExpression	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/Expression/Arguments/0/Elements/0/ArgumentExpression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/Expression/Arguments/0/Elements/0/ArgumentExpression/Left	—
+MinusToken	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/Expression/Arguments/0/Elements/0/ArgumentExpression/OperatorToken	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/Expression/Arguments/0/Elements/0/ArgumentExpression/Right	—
+StringLiteral	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/Expression/Arguments/1	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/Expression/Arguments/2	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/Expression/Arguments/3	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/Expression/Arguments/4	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/ArgumentExpression	—
+ConstKeyword	query.js#/SourceFile/4/Body/0/TryBlock/3/DeclarationList/Flags/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/3/DeclarationList/Declarations/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/3/DeclarationList/Declarations/0/name	—
+ArrayLiteralExpression	query.js#/SourceFile/4/Body/0/TryBlock/3/DeclarationList/Declarations/0/Initializer	—
+ConstKeyword	query.js#/SourceFile/4/Body/0/TryBlock/4/DeclarationList/Flags/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/4/DeclarationList/Declarations/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/4/DeclarationList/Declarations/0/name	—
+ArrayLiteralExpression	query.js#/SourceFile/4/Body/0/TryBlock/4/DeclarationList/Declarations/0/Initializer	—
+VariableDeclarationList	query.js#/SourceFile/4/Body/0/TryBlock/5/Initializer	—
+ConstKeyword	query.js#/SourceFile/4/Body/0/TryBlock/5/Initializer/Flags/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Initializer/Declarations/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Initializer/Declarations/0/name	—
+NewExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Expression/Expression	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Expression/Arguments/0/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Expression/Arguments/0/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Expression/Arguments/0/Expression/name	—
+ArrowFunction · Expression	query.js#/SourceFile/4/Body/0/TryBlock/5/Expression/Arguments/0/Arguments/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Expression/Arguments/0/Arguments/0/Parameters/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Expression/Arguments/0/Arguments/0/Parameters/0/name	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Expression/Arguments/0/Arguments/0/Body	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Expression/Arguments/0/Arguments/0/Body/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Expression/Arguments/0/Arguments/0/Body/Expression/Expression	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Expression/Arguments/0/Arguments/0/Body/Expression/ArgumentExpression	—
+StringLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Expression/Arguments/0/Arguments/0/Body/ArgumentExpression	—
+ConstKeyword	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Flags/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0/name	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0/Initializer	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0/Initializer/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/name	—
+ArrowFunction · Expression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0/name	—
+BinaryExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/Expression/Expression	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/Expression/ArgumentExpression	—
+StringLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/ArgumentExpression	—
+EqualsEqualsEqualsToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/OperatorToken	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right	—
+ConstKeyword	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Flags/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/name	—
+ConditionalExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer	—
+BinaryExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left	—
+NewExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression/Expression	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression/Arguments/0/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression/Arguments/0/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression/Arguments/0/Expression/name	—
+ArrowFunction · Expression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression/Arguments/0/Arguments/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression/Arguments/0/Arguments/0/Parameters/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression/Arguments/0/Arguments/0/Parameters/0/name	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression/Arguments/0/Arguments/0/Body	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression/Arguments/0/Arguments/0/Body/Expression	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression/Arguments/0/Arguments/0/Body/ArgumentExpression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left/name	—
+EqualsEqualsEqualsToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/OperatorToken	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Right	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenTrue	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/name	—
+ArrowFunction · Expression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Parameters/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Parameters/0/name	—
+ArrayLiteralExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body/Elements/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body/Elements/0/Expression	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body/Elements/0/ArgumentExpression	—
+ArrayLiteralExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body/Elements/1	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body/Elements/1/Elements/0	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Expression/name	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/0/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/0/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/0/Expression/name	—
+ArrowFunction · Expression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/0/Arguments/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/0/Arguments/0/Parameters/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/0/Arguments/0/Parameters/0/name	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/0/Arguments/0/Body	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/0/Arguments/0/Body/Expression	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/0/Arguments/0/Body/ArgumentExpression	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/1	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/1/Expression	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/1/Arguments/0	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/1/Arguments/0/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/1/Arguments/0/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/1/Arguments/0/Expression/name	—
+ArrowFunction · Expression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/1/Arguments/0/Arguments/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/1/Arguments/0/Arguments/0/Parameters/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/1/Arguments/0/Arguments/0/Parameters/0/name	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/1/Arguments/0/Arguments/0/Body	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/1/Arguments/0/Arguments/0/Body/Expression	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/1/Arguments/0/Arguments/0/Body/ArgumentExpression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/2	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/3	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/name	—
+ArrowFunction · Expression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Parameters/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Parameters/0/name	—
+ArrayLiteralExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/0	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Expression/name	—
+ArrowFunction · Expression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Parameters/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Parameters/0/name	—
+BinaryExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Expression/name	—
+ConditionalExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0	—
+BinaryExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0/Condition	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0/Condition/Left	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0/Condition/Left/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0/Condition/Left/Expression/Expression	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0/Condition/Left/Expression/ArgumentExpression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0/Condition/Left/name	—
+EqualsEqualsEqualsToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0/Condition/OperatorToken	—
+NullLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0/Condition/Right	—
+NullLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0/WhenTrue	—
+ArrayLiteralExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0/WhenFalse	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0/WhenFalse/Elements/0	—
+SpreadElement	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0/WhenFalse/Elements/1	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0/WhenFalse/Elements/1/Expression	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0/WhenFalse/Elements/1/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0/WhenFalse/Elements/1/Expression/Expression/Expression	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0/WhenFalse/Elements/1/Expression/Expression/ArgumentExpression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0/WhenFalse/Elements/1/Expression/name	—
+EqualsEqualsEqualsToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/OperatorToken	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Right	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Right/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Right/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Right/Expression/name	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Right/Arguments/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Right/Arguments/0/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Right/Arguments/0/name	—
+VariableDeclarationList	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Initializer	—
+ConstKeyword	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Initializer/Flags/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Initializer/Declarations/0	—
+ArrayBindingPattern	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Initializer/Declarations/0/name	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Initializer/Declarations/0/name/Elements/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Initializer/Declarations/0/name/Elements/0/name	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Initializer/Declarations/0/name/Elements/1	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Initializer/Declarations/0/name/Elements/1/name	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Expression	—
+ConstKeyword	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Flags/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/name	—
+ConditionalExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/Condition	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Expression/name	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/1	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/1/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/1/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/1/Expression/name	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/1/name	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/name	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/name	—
+ArrowFunction · Expression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Parameters/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Parameters/0/name	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body/Expression	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body/Arguments/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body/Arguments/0/Expression	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body/Arguments/0/ArgumentExpression	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/name	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/name	—
+ArrowFunction · Expression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Parameters/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Parameters/0/name	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Parameters/1	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Parameters/1/name	—
+BinaryExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Left	—
+PlusToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/OperatorToken	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Right	—
+LetKeyword	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/1/DeclarationList/Flags/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/1/DeclarationList/Declarations/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/1/DeclarationList/Declarations/0/name	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/1/DeclarationList/Declarations/0/Initializer	—
+VariableDeclarationList	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Initializer	—
+ConstKeyword	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Initializer/Flags/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Initializer/Declarations/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Initializer/Declarations/0/name	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Expression	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Expression/name	—
+ArrayLiteralExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/0/Expression	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/0/ArgumentExpression	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/1	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/1/Expression	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/1/Arguments/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/1/Arguments/0/Expression	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/1/Arguments/0/ArgumentExpression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/2	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/3	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/3/Expression	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/3/Arguments/0	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/3/Arguments/0/Expression	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/3/Arguments/0/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/3/Arguments/0/Expression/Expression/Expression	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/3/Arguments/0/Expression/Expression/ArgumentExpression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/3/Arguments/0/Expression/name	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/3/Arguments/0/name	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/4	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/4/Expression	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/4/Arguments/0	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/4/Arguments/0/Expression	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/4/Arguments/0/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/4/Arguments/0/Expression/Expression/Expression	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/4/Arguments/0/Expression/Expression/ArgumentExpression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/4/Arguments/0/Expression/name	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/4/Arguments/0/name	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Expression/name	—
+ObjectLiteralExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0	—
+PropertyAssignment	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/0	—
+StringLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/0/name	—
+StringLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/0/Initializer	—
+PropertyAssignment	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/1	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/1/name	—
+ArrayLiteralExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/1/Initializer	—
+StringLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/1/Initializer/Elements/0	—
+PropertyAssignment	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/name	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Expression/name	—
+ArrowFunction · Expression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Parameters/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Parameters/0/name	—
+BinaryExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body	—
+BinaryExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Left	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Left/Left	—
+LessThanToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Left/OperatorToken	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Left/Right	—
+AmpersandAmpersandToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/OperatorToken	—
+BinaryExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Right	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Right/Left	—
+LessThanEqualsToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Right/OperatorToken	—
+BinaryExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Right/Right	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Right/Right/Left	—
+PlusToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Right/Right/OperatorToken	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Right/Right/Right	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Right/Right/Right/Expression	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Right/Right/Right/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Right/Right/Right/Expression/Expression/Expression	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Right/Right/Right/Expression/Expression/ArgumentExpression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Right/Right/Right/Expression/name	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Right/Right/Right/name	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/name	—
+ArrowFunction · Expression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Arguments/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Arguments/0/Parameters/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Arguments/0/Parameters/0/name	—
+ArrayLiteralExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Arguments/0/Body	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Arguments/0/Body/Elements/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Arguments/0/Body/Elements/0/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Arguments/0/Body/Elements/0/Arguments/0	—
+BinaryExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/1/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/1/Expression/Left	—
+PlusEqualsToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/1/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/1/Expression/Right	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/1/Expression/Right/Expression	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/1/Expression/Right/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/1/Expression/Right/Expression/Expression/Expression	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/1/Expression/Right/Expression/Expression/ArgumentExpression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/1/Expression/Right/Expression/name	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/1/Expression/Right/name	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Expression/name	—
+ObjectLiteralExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0	—
+PropertyAssignment	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/0	—
+StringLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/0/name	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/0/Initializer	—
+PropertyAssignment	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/1	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/1/name	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/1/Initializer	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/1/Initializer/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/1/Initializer/name	—
+PropertyAssignment	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2/name	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2/Initializer	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2/Initializer/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2/Initializer/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2/Initializer/Expression/name	—
+ArrowFunction · Expression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2/Initializer/Arguments/0	—
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2/Initializer/Arguments/0/Parameters/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2/Initializer/Arguments/0/Parameters/0/name	—
+ElementAccessExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2/Initializer/Arguments/0/Body	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2/Initializer/Arguments/0/Body/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2/Initializer/Arguments/0/Body/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2/Initializer/Arguments/0/Body/Expression/name	—
+BinaryExpression	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2/Initializer/Arguments/0/Body/ArgumentExpression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2/Initializer/Arguments/0/Body/ArgumentExpression/Left	—
+MinusToken	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2/Initializer/Arguments/0/Body/ArgumentExpression/OperatorToken	—
+NumericLiteral	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2/Initializer/Arguments/0/Body/ArgumentExpression/Right	—
+ArrayLiteralExpression	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression	—
+CallExpression	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/0	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/0/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/0/Expression/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/0/Expression/name	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/0/Arguments/0	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/0/Arguments/1	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/0/Arguments/2	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/0/Arguments/3	—
+ObjectLiteralExpression	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1	—
+PropertyAssignment	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/0	—
+StringLiteral	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/0/name	—
+StringLiteral	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/0/Initializer	—
+PropertyAssignment	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/1	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/1/name	—
+ArrayLiteralExpression	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/1/Initializer	—
+StringLiteral	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/1/Initializer/Elements/0	—
+StringLiteral	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/1/Initializer/Elements/1	—
+StringLiteral	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/1/Initializer/Elements/2	—
+StringLiteral	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/1/Initializer/Elements/3	—
+StringLiteral	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/1/Initializer/Elements/4	—
+StringLiteral	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/1/Initializer/Elements/5	—
+PropertyAssignment	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/2	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/2/name	—
+Identifier	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/2/Initializer	—
+—	query.js#/SourceFile/4/Body/0/CatchClause/VariableDeclaration	—
+Identifier	query.js#/SourceFile/4/Body/0/CatchClause/VariableDeclaration/name	—
+BinaryExpression	query.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	query.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Right	—
+Identifier	query.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Right/name	—
+NewExpression	query.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0	—
+Identifier	query.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name	—
+BinaryExpression	query.js#/SourceFile/4/Body/0/CatchClause/Block/1/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/CatchClause/Block/1/Expression/Left	—
+InstanceOfKeyword	query.js#/SourceFile/4/Body/0/CatchClause/Block/1/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/CatchClause/Block/1/Expression/Right	—
+Identifier	query.js#/SourceFile/4/Body/0/CatchClause/Block/1/Expression/Right/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/CatchClause/Block/1/Expression/Right/name	—
+NewExpression	query.js#/SourceFile/4/Body/0/CatchClause/Block/1/ThenStatement/0/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/4/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Arguments/0	—
+Identifier	query.js#/SourceFile/4/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	query.js#/SourceFile/4/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Arguments/0/name	—
+Identifier	query.js#/SourceFile/4/Body/0/CatchClause/Block/2/Expression	—
+ExportKeyword	query.js#/SourceFile/5/modifiers/0	—
+—	query.js#/SourceFile/5/name	—
+—	query.js#/SourceFile/5/Parameters/0	—
+Identifier	query.js#/SourceFile/5/Parameters/0/name	—
+—	query.js#/SourceFile/5/Parameters/1	—
+Identifier	query.js#/SourceFile/5/Parameters/1/name	—
+CallExpression	query.js#/SourceFile/5/Body/0/TryBlock/0/Expression	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/5/Body/0/TryBlock/0/Expression/Expression	—
+Identifier	query.js#/SourceFile/5/Body/0/TryBlock/0/Expression/Expression/Expression	—
+Identifier	query.js#/SourceFile/5/Body/0/TryBlock/0/Expression/Expression/name	—
+Identifier	query.js#/SourceFile/5/Body/0/TryBlock/0/Expression/Arguments/0	—
+Identifier	query.js#/SourceFile/5/Body/0/TryBlock/0/Expression/Arguments/1	—
+—	query.js#/SourceFile/5/Body/0/CatchClause/VariableDeclaration	—
+Identifier	query.js#/SourceFile/5/Body/0/CatchClause/VariableDeclaration/name	—
+BinaryExpression	query.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression	—
+Identifier	query.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression/Left	—
+InstanceOfKeyword	query.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression/OperatorToken	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression/Right	—
+Identifier	query.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression/Right/Expression	—
+Identifier	query.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression/Right/name	—
+NewExpression	query.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0/Expression	—
+Identifier	query.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0	—
+Identifier	query.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression	—
+Identifier	query.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name	—
+Identifier	query.js#/SourceFile/5/Body/0/CatchClause/Block/1/Expression	—
+ExportKeyword	query.js#/SourceFile/6/modifiers/0	—
+—	query.js#/SourceFile/6/name	—
+—	query.js#/SourceFile/6/HeritageClauses/0	—
+ExtendsKeyword	query.js#/SourceFile/6/HeritageClauses/0/Token	—
+Identifier	query.js#/SourceFile/6/HeritageClauses/0/Types/0	—
+—	query.js#/SourceFile/7/name	—
+—	query.js#/SourceFile/7/Parameters/0	—
+Identifier	query.js#/SourceFile/7/Parameters/0/name	—
+ObjectLiteralExpression	query.js#/SourceFile/7/Body/0/Expression	—
+PropertyAssignment	query.js#/SourceFile/7/Body/0/Expression/Properties/0	—
+StringLiteral	query.js#/SourceFile/7/Body/0/Expression/Properties/0/name	—
+StringLiteral	query.js#/SourceFile/7/Body/0/Expression/Properties/0/Initializer	—
+PropertyAssignment	query.js#/SourceFile/7/Body/0/Expression/Properties/1	—
+Identifier	query.js#/SourceFile/7/Body/0/Expression/Properties/1/name	—
+ArrayLiteralExpression	query.js#/SourceFile/7/Body/0/Expression/Properties/1/Initializer	—
+StringLiteral	query.js#/SourceFile/7/Body/0/Expression/Properties/1/Initializer/Elements/0	—
+StringLiteral	query.js#/SourceFile/7/Body/0/Expression/Properties/1/Initializer/Elements/1	—
+PropertyAssignment	query.js#/SourceFile/7/Body/0/Expression/Properties/2	—
+Identifier	query.js#/SourceFile/7/Body/0/Expression/Properties/2/name	—
+CallExpression	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer	—
+PropertyAccessExpression · DotToken	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer/Expression	—
+Identifier	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer/Expression/Expression	—
+Identifier	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer/Expression/name	—
+ArrowFunction · Expression	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer/Arguments/0	—
+—	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer/Arguments/0/Parameters/0	—
+Identifier	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer/Arguments/0/Parameters/0/name	—
+—	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer/Arguments/0/Parameters/1	—
+Identifier	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer/Arguments/0/Parameters/1/name	—
+ArrayLiteralExpression	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer/Arguments/0/Body	—
+CallExpression	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer/Arguments/0/Body/Elements/0	—
+Identifier	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer/Arguments/0/Body/Elements/0/Expression	—
+BinaryExpression	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer/Arguments/0/Body/Elements/0/Arguments/0	—
+Identifier	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer/Arguments/0/Body/Elements/0/Arguments/0/Left	—
+PlusToken	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer/Arguments/0/Body/Elements/0/Arguments/0/OperatorToken	—
+NumericLiteral	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer/Arguments/0/Body/Elements/0/Arguments/0/Right	—
+Identifier	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer/Arguments/0/Body/Elements/1	—
+5-texts
+kind	place	holds
+—	query.js#/SourceFile/0/ImportClause/NamedBindings/name/Text	filterExpression
+—	query.js#/SourceFile/0/ModuleSpecifier/Text	'./filter-expression/filter-expression.js'
+—	query.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	operationsOnRelations
+—	query.js#/SourceFile/1/ModuleSpecifier/Text	'./operations-on-relations/operations-on-relations.js'
+—	query.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	positions
+—	query.js#/SourceFile/2/ModuleSpecifier/Text	'./positions/positions.js'
+—	query.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	setOperations
+—	query.js#/SourceFile/3/ModuleSpecifier/Text	'./set-operations/set-operations.js'
+—	query.js#/SourceFile/4/name/Text	chosen
+—	query.js#/SourceFile/4/Parameters/0/name/Text	sheets
+—	query.js#/SourceFile/4/Parameters/1/name/Text	origins
+—	query.js#/SourceFile/4/Parameters/2/name/Text	file
+—	query.js#/SourceFile/4/Parameters/3/name/Text	lead
+—	query.js#/SourceFile/4/Parameters/4/name/Text	sheet
+—	query.js#/SourceFile/4/Parameters/5/name/Text	records
+—	query.js#/SourceFile/4/Parameters/6/name/Text	fields
+—	query.js#/SourceFile/4/Parameters/7/name/Text	filter
+—	query.js#/SourceFile/4/Parameters/8/name/Text	join
+—	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/name/Text	of
+—	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Text	Object
+—	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Expression/name/Text	fromEntries
+—	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/Expression/Text	origins
+—	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/Expression/name/Text	records
+—	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Expression/name/Text	map
+—	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Parameters/0/name/Text	record
+—	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/Expression/Text	record
+—	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/0/ArgumentExpression/Text	0
+—	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/Expression/Text	record
+—	query.js#/SourceFile/4/Body/0/TryBlock/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Arguments/0/Body/Elements/1/ArgumentExpression/Text	1
+—	query.js#/SourceFile/4/Body/0/TryBlock/1/DeclarationList/Declarations/0/name/Text	members
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Initializer/Declarations/0/name/Text	each
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Expression/Text	Set
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0/Expression/Expression/Text	sheets
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0/Expression/name/Text	map
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0/Arguments/0/Parameters/0/name/Text	found
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0/Arguments/0/Parameters/1/name/Text	index
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0/Arguments/0/Body/Expression/Text	of
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0/Arguments/0/Body/ArgumentExpression/Expression/Text	String
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0/Arguments/0/Body/ArgumentExpression/Arguments/0/Left/Text	index
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Expression/Arguments/0/Arguments/0/Body/ArgumentExpression/Arguments/0/Right/Text	1
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/name/Text	given
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Text	sheets
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/name/Text	filter
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0/name/Text	found
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/1/name/Text	index
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/Expression/Text	of
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/ArgumentExpression/Expression/Text	String
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/ArgumentExpression/Arguments/0/Left/Text	index
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/ArgumentExpression/Arguments/0/Right/Text	1
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Text	each
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Left/Text	given
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Expression/Expression/Text	operationsOnRelations
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Expression/name/Text	join
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Arguments/0/Text	given
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Arguments/1/Expression/Text	originsOf
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Arguments/1/Arguments/0/Expression/Expression/Text	given
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Arguments/1/Arguments/0/Expression/name/Text	map
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Arguments/1/Arguments/0/Arguments/0/Body/Text	each
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Arguments/2/Text	join
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Arguments/3/Text	positions
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/1/Expression/Right/Arguments/4/Text	filterExpression
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/name/Text	numbers
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/Condition/Text	sheet
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Expression/Expression/Text	positions
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Expression/name/Text	named
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/0/Text	sheet
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/1/Expression/Text	given
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/1/name/Text	length
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/name/Text	records
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/name/Text	map
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Parameters/0/name/Text	found
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body/Expression/Text	Number
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body/Arguments/0/Expression/Text	found
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body/Arguments/0/ArgumentExpression/Text	0
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Text	given
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/name/Text	map
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Parameters/0/name/Text	found
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Parameters/1/name/Text	index
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Left/Text	index
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/2/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Right/Text	1
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Expression/Expression/Text	members
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Expression/name/Text	push
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Expression/Expression/Text	numbers
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Expression/name/Text	map
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Parameters/0/name/Text	number
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/0/Text	each
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/1/Text	number
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/2/Expression/Text	given
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/2/ArgumentExpression/Left/Text	number
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/2/ArgumentExpression/Right/Text	1
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/Expression/Expression/Expression/Text	operationsOnRelations
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/Expression/Expression/name/Text	restrict
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/Expression/Arguments/0/Elements/0/Expression/Text	given
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/Expression/Arguments/0/Elements/0/ArgumentExpression/Left/Text	number
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/Expression/Arguments/0/Elements/0/ArgumentExpression/Right/Text	1
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/Expression/Arguments/1/Text	''
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/Expression/Arguments/2/Text	filter
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/Expression/Arguments/3/Text	positions
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/Expression/Arguments/4/Text	filterExpression
+—	query.js#/SourceFile/4/Body/0/TryBlock/2/Statement/3/Expression/Arguments/0/Expression/Arguments/0/Body/Elements/3/ArgumentExpression/Text	0
+—	query.js#/SourceFile/4/Body/0/TryBlock/3/DeclarationList/Declarations/0/name/Text	restricted
+—	query.js#/SourceFile/4/Body/0/TryBlock/4/DeclarationList/Declarations/0/name/Text	report
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Initializer/Declarations/0/name/Text	name
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Expression/Expression/Text	Set
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Expression/Arguments/0/Expression/Expression/Text	members
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Expression/Arguments/0/Expression/name/Text	map
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Expression/Arguments/0/Arguments/0/Parameters/0/name/Text	member
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Expression/Arguments/0/Arguments/0/Body/Expression/Expression/Text	member
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Expression/Arguments/0/Arguments/0/Body/Expression/ArgumentExpression/Text	2
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Expression/Arguments/0/Arguments/0/Body/ArgumentExpression/Text	'sheet name'
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0/name/Text	group
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/Expression/Text	members
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0/Initializer/Expression/name/Text	filter
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Parameters/0/name/Text	member
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/Expression/Expression/Text	member
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/Expression/ArgumentExpression/Text	2
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Left/ArgumentExpression/Text	'sheet name'
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/0/DeclarationList/Declarations/0/Initializer/Arguments/0/Body/Right/Text	name
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/name/Text	outputs
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression/Expression/Text	Set
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression/Arguments/0/Expression/Expression/Text	group
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression/Arguments/0/Expression/name/Text	map
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression/Arguments/0/Arguments/0/Parameters/0/name/Text	member
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression/Arguments/0/Arguments/0/Body/Expression/Text	member
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left/Expression/Arguments/0/Arguments/0/Body/ArgumentExpression/Text	0
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Left/name/Text	size
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/Condition/Right/Text	1
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Text	group
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/name/Text	map
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Parameters/0/name/Text	member
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body/Elements/0/Expression/Text	member
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body/Elements/0/ArgumentExpression/Text	3
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body/Elements/1/Elements/0/Text	member
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Expression/Expression/Text	setOperations
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Expression/name/Text	union
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/0/Expression/Expression/Text	group
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/0/Expression/name/Text	map
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/0/Arguments/0/Parameters/0/name/Text	member
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/0/Arguments/0/Body/Expression/Text	member
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/0/Arguments/0/Body/ArgumentExpression/Text	3
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/1/Expression/Text	originsOf
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/1/Arguments/0/Expression/Expression/Text	group
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/1/Arguments/0/Expression/name/Text	map
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/1/Arguments/0/Arguments/0/Parameters/0/name/Text	member
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/1/Arguments/0/Arguments/0/Body/Expression/Text	member
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/1/Arguments/0/Arguments/0/Body/ArgumentExpression/Text	0
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/2/Text	file
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Arguments/3/Text	lead
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/name/Text	map
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Parameters/0/name/Text	united
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/0/Text	united
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Expression/Expression/Text	group
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Expression/name/Text	filter
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Parameters/0/name/Text	member
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Expression/Expression/Text	JSON
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Expression/name/Text	stringify
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0/Condition/Left/Expression/Expression/Text	member
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0/Condition/Left/Expression/ArgumentExpression/Text	3
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0/Condition/Left/name/Text	header
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0/WhenFalse/Elements/0/Text	lead
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0/WhenFalse/Elements/1/Expression/Expression/Expression/Text	member
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0/WhenFalse/Elements/1/Expression/Expression/ArgumentExpression/Text	3
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Left/Arguments/0/WhenFalse/Elements/1/Expression/name/Text	header
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Right/Expression/Expression/Text	JSON
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Right/Expression/name/Text	stringify
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Right/Arguments/0/Expression/Text	united
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/1/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Elements/1/Arguments/0/Body/Right/Arguments/0/name/Text	header
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Initializer/Declarations/0/name/Elements/0/name/Text	given
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Initializer/Declarations/0/name/Elements/1/name/Text	parts
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Expression/Text	outputs
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/name/Text	numbers
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/Condition/Text	records
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Expression/Expression/Text	positions
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Expression/name/Text	named
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/0/Text	records
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/1/Expression/Expression/Text	given
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/1/Expression/name/Text	records
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/Expression/Arguments/1/name/Text	length
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/Expression/name/Text	records
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Expression/name/Text	map
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Parameters/0/name/Text	found
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body/Expression/Text	Number
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body/Arguments/0/Expression/Text	found
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenTrue/Arguments/0/Body/Arguments/0/ArgumentExpression/Text	0
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/Expression/Text	given
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/Expression/name/Text	records
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Expression/name/Text	map
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Parameters/0/name/Text	found
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Parameters/1/name/Text	index
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Left/Text	index
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/0/DeclarationList/Declarations/0/Initializer/WhenFalse/Arguments/0/Body/Right/Text	1
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/1/DeclarationList/Declarations/0/name/Text	offset
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/1/DeclarationList/Declarations/0/Initializer/Text	0
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Initializer/Declarations/0/name/Text	part
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Expression/Text	parts
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Expression/Expression/Text	report
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Expression/name/Text	push
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/0/Expression/Text	part
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/0/ArgumentExpression/Text	0
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/1/Expression/Text	String
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/1/Arguments/0/Expression/Text	part
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/1/Arguments/0/ArgumentExpression/Text	1
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/2/Text	name
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/3/Expression/Text	String
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/3/Arguments/0/Expression/Expression/Expression/Text	part
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/3/Arguments/0/Expression/Expression/ArgumentExpression/Text	2
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/3/Arguments/0/Expression/name/Text	records
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/3/Arguments/0/name/Text	length
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/4/Expression/Text	String
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/4/Arguments/0/Expression/Expression/Expression/Text	part
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/4/Arguments/0/Expression/Expression/ArgumentExpression/Text	3
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/4/Arguments/0/Expression/name/Text	records
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/4/Arguments/0/name/Text	length
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Expression/Expression/Text	positions
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Expression/name/Text	written
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/0/name/Text	'sheet name'
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/0/Initializer/Text	'positions'
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/1/name/Text	header
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/1/Initializer/Elements/0/Text	'position'
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/name/Text	records
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Expression/Expression/Text	numbers
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Expression/name/Text	filter
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Parameters/0/name/Text	number
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Left/Left/Text	offset
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Left/Right/Text	number
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Right/Left/Text	number
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Right/Right/Left/Text	offset
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Right/Right/Right/Expression/Expression/Expression/Text	part
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Right/Right/Right/Expression/Expression/ArgumentExpression/Text	3
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Right/Right/Right/Expression/name/Text	records
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/Expression/Arguments/0/Body/Right/Right/Right/name/Text	length
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Expression/name/Text	map
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Arguments/0/Parameters/0/name/Text	number
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Arguments/0/Body/Elements/0/Expression/Text	String
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/0/Expression/Arguments/0/Elements/5/Arguments/0/Properties/2/Initializer/Arguments/0/Body/Elements/0/Arguments/0/Text	number
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/1/Expression/Left/Text	offset
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/1/Expression/Right/Expression/Expression/Expression/Text	part
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/1/Expression/Right/Expression/Expression/ArgumentExpression/Text	3
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/1/Expression/Right/Expression/name/Text	records
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/2/Statement/1/Expression/Right/name/Text	length
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Expression/Expression/Text	restricted
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Expression/name/Text	push
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/0/name/Text	'sheet name'
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/0/Initializer/Text	name
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/1/name/Text	header
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/1/Initializer/Expression/Text	given
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/1/Initializer/name/Text	header
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2/name/Text	records
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2/Initializer/Expression/Expression/Text	numbers
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2/Initializer/Expression/name/Text	map
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2/Initializer/Arguments/0/Parameters/0/name/Text	number
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2/Initializer/Arguments/0/Body/Expression/Expression/Text	given
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2/Initializer/Arguments/0/Body/Expression/name/Text	records
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2/Initializer/Arguments/0/Body/ArgumentExpression/Left/Text	number
+—	query.js#/SourceFile/4/Body/0/TryBlock/5/Statement/2/Statement/3/Expression/Arguments/0/Properties/2/Initializer/Arguments/0/Body/ArgumentExpression/Right/Text	1
+—	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/0/Expression/Expression/Text	operationsOnRelations
+—	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/0/Expression/name/Text	project
+—	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/0/Arguments/0/Text	restricted
+—	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/0/Arguments/1/Text	fields
+—	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/0/Arguments/2/Text	positions
+—	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/0/Arguments/3/Text	filterExpression
+—	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/0/name/Text	'sheet name'
+—	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/0/Initializer/Text	'sheets'
+—	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/1/name/Text	header
+—	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/1/Initializer/Elements/0/Text	'file'
+—	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/1/Initializer/Elements/1/Text	'sheet'
+—	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/1/Initializer/Elements/2/Text	'sheet name'
+—	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/1/Initializer/Elements/3/Text	'records'
+—	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/1/Initializer/Elements/4/Text	'matches'
+—	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/1/Initializer/Elements/5/Text	'positions'
+—	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/2/name/Text	records
+—	query.js#/SourceFile/4/Body/0/TryBlock/6/Expression/Elements/1/Properties/2/Initializer/Text	report
+—	query.js#/SourceFile/4/Body/0/CatchClause/VariableDeclaration/name/Text	error
+—	query.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Left/Text	error
+—	query.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Right/Expression/Text	operationsOnRelations
+—	query.js#/SourceFile/4/Body/0/CatchClause/Block/0/Expression/Right/name/Text	RefusedError
+—	query.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression/Text	RefusedError
+—	query.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression/Text	error
+—	query.js#/SourceFile/4/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name/Text	message
+—	query.js#/SourceFile/4/Body/0/CatchClause/Block/1/Expression/Left/Text	error
+—	query.js#/SourceFile/4/Body/0/CatchClause/Block/1/Expression/Right/Expression/Text	positions
+—	query.js#/SourceFile/4/Body/0/CatchClause/Block/1/Expression/Right/name/Text	RefusedError
+—	query.js#/SourceFile/4/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Expression/Text	RefusedError
+—	query.js#/SourceFile/4/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Arguments/0/Expression/Text	error
+—	query.js#/SourceFile/4/Body/0/CatchClause/Block/1/ThenStatement/0/Expression/Arguments/0/name/Text	message
+—	query.js#/SourceFile/4/Body/0/CatchClause/Block/2/Expression/Text	error
+—	query.js#/SourceFile/5/name/Text	kept
+—	query.js#/SourceFile/5/Parameters/0/name/Text	sheets
+—	query.js#/SourceFile/5/Parameters/1/name/Text	filter
+—	query.js#/SourceFile/5/Body/0/TryBlock/0/Expression/Expression/Expression/Text	filterExpression
+—	query.js#/SourceFile/5/Body/0/TryBlock/0/Expression/Expression/name/Text	kept
+—	query.js#/SourceFile/5/Body/0/TryBlock/0/Expression/Arguments/0/Text	sheets
+—	query.js#/SourceFile/5/Body/0/TryBlock/0/Expression/Arguments/1/Text	filter
+—	query.js#/SourceFile/5/Body/0/CatchClause/VariableDeclaration/name/Text	error
+—	query.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression/Left/Text	error
+—	query.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression/Right/Expression/Text	filterExpression
+—	query.js#/SourceFile/5/Body/0/CatchClause/Block/0/Expression/Right/name/Text	RefusedError
+—	query.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Expression/Text	RefusedError
+—	query.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/Expression/Text	error
+—	query.js#/SourceFile/5/Body/0/CatchClause/Block/0/ThenStatement/0/Expression/Arguments/0/name/Text	message
+—	query.js#/SourceFile/5/Body/0/CatchClause/Block/1/Expression/Text	error
+—	query.js#/SourceFile/6/name/Text	RefusedError
+—	query.js#/SourceFile/6/HeritageClauses/0/Types/0/Text	Error
+—	query.js#/SourceFile/7/name/Text	originsOf
+—	query.js#/SourceFile/7/Parameters/0/name/Text	files
+—	query.js#/SourceFile/7/Body/0/Expression/Properties/0/name/Text	'sheet name'
+—	query.js#/SourceFile/7/Body/0/Expression/Properties/0/Initializer/Text	'origins'
+—	query.js#/SourceFile/7/Body/0/Expression/Properties/1/name/Text	header
+—	query.js#/SourceFile/7/Body/0/Expression/Properties/1/Initializer/Elements/0/Text	'sheet'
+—	query.js#/SourceFile/7/Body/0/Expression/Properties/1/Initializer/Elements/1/Text	'file'
+—	query.js#/SourceFile/7/Body/0/Expression/Properties/2/name/Text	records
+—	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer/Expression/Expression/Text	files
+—	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer/Expression/name/Text	map
+—	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer/Arguments/0/Parameters/0/name/Text	each
+—	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer/Arguments/0/Parameters/1/name/Text	index
+—	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer/Arguments/0/Body/Elements/0/Expression/Text	String
+—	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer/Arguments/0/Body/Elements/0/Arguments/0/Left/Text	index
+—	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer/Arguments/0/Body/Elements/0/Arguments/0/Right/Text	1
+—	query.js#/SourceFile/7/Body/0/Expression/Properties/2/Initializer/Arguments/0/Body/Elements/1/Text	each

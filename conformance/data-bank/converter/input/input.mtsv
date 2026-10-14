@@ -1,0 +1,26 @@
+cases
+requirement	case	module	access program	error	reason	output	diagnostic	assertion
+converter-input.1	1	converter	convert	non-conforming	1 #/a			the input is read in full before any value is transferred: a later value rejected gives nothing
+converter-input.2	1	converter	convert					the input gives each value's instances keyed by its position in the whole input, as the file shows
+arguments
+requirement	case	position	item	value
+converter-input.1	1	1	1	{"a": "x"}
+converter-input.1	1	1	2	{"a": 1}
+converter-input.1	1	2	0	{"title": "t", "type": "object", "properties": {"a": {"type": "string"}}, "required": ["a"]}
+converter-input.1	1	3	0	0
+converter-input.2	1	1	1	{"a": "x"}
+converter-input.2	1	2	0	{"title": "t", "type": "object", "properties": {"a": {"type": "string"}}, "required": ["a"]}
+converter-input.2	1	3	0	2
+fixtures
+fixture	sheet	record	field	value
+t a x at 2	1	0	1	t
+t a x at 2	1	1	1	_input value
+t a x at 2	1	1	2	a
+t a x at 2	1	2	1	2
+t a x at 2	1	2	2	x
+placed
+requirement	case	when	pathname	fixture
+converter-input.2	1	after	result 1	t a x at 2
+results
+requirement	case	position	item	value
+converter-input.2	1	2	0	

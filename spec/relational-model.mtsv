@@ -1,0 +1,446 @@
+References
+Tag	Kind
+GNU	normative
+PY-UNICODEDATA	normative
+RFC9485	normative
+XSD-2	normative
+Values
+Value	Module	Type	Bound	Given	Status
+Value citations
+Value	Tag	Section	First block	Last block
+Files
+Path	Module	Held from	Held path	Output of
+python/src/void_os/relational_model/_relational_model.py	relational model			
+python/src/void_os/relational_model/format/_format.py	format			
+python/src/void_os/relational_model/format/parser/_parser.py	parser			
+python/src/void_os/relational_model/format/generator/_generator.py	generator			
+python/src/void_os/relational_model/format/json_text/_json_text.py	JSON text			
+python/src/void_os/relational_model/query/_query.py	query			
+python/src/void_os/relational_model/query/positions/_positions.py	positions			
+python/src/void_os/relational_model/query/filter_expression/_filter_expression.py	filter expression			
+python/src/void_os/relational_model/query/set_operations/_set_operations.py	set operations			
+python/src/void_os/relational_model/query/operations_on_relations/_operations_on_relations.py	operations on relations			
+javascript/src/relational-model/relational-model.js	relational model			
+javascript/src/relational-model/format/format.js	format			
+javascript/src/relational-model/format/parser/parser.js	parser			
+javascript/src/relational-model/format/generator/generator.js	generator			
+javascript/src/relational-model/format/json-text/json-text.js	JSON text			
+javascript/src/relational-model/query/query.js	query			
+javascript/src/relational-model/query/positions/positions.js	positions			
+javascript/src/relational-model/query/filter-expression/filter-expression.js	filter expression			
+javascript/src/relational-model/query/set-operations/set-operations.js	set operations			
+javascript/src/relational-model/query/operations-on-relations/operations-on-relations.js	operations on relations			
+Relations
+Relation	Module	Parent	Description
+instances	relational model		each instance of a JSON text, molten: the instance that holds it, the JSON Pointer from it, its type and its text
+runs	relational model	instances	each run of text of a string that holds FF, a line break or HT: its page, line and position, and its text
+file	relational model		each file a call reads, by its position, and its pathname
+sheets	relational model	file	each sheet chosen: its records, the records a filter keeps, and the positions of those named
+origins	relational model	file	each sheet given to a selection, by its position, and the file it is of
+positions	positions		each position a selection names, in the order named
+Domains
+Relation	Column	Domain	Key	References	Type	Description
+instances	_instance		primary		number	the instance's zero-based position among the instances of its text, the value itself first, in the order written
+instances	_parent	_instance		instances	number	the instance that holds this one, empty for the value itself
+instances	_pointer				text	the JSON Pointer to the instance from the instance that holds it, empty for the value itself
+instances	_type				JSON type	the instance's primitive type
+instances	_value				text	the instance's text: a string's characters, a number as written, true or false; empty for null, an object, an array, and a string held as runs
+runs	_instance		primary	instances	number	the string
+runs	_page		primary		number	the zero-based count of FF before the run of text
+runs	_line		primary		number	the zero-based count of line breaks before the run within its page
+runs	_position		primary		number	the zero-based count of HT before the run within its line
+runs	_value				text	the run of text
+file	file		primary		number	the file's position in the call, from 1
+file	source				absolute path	the file's resolved pathname, or the name of the data bank's input it is
+sheets	file		primary	file	number	the file
+sheets	sheet		primary		number	the sheet's position in its file, from 1
+sheets	sheet name				text	the sheet's name
+sheets	records				number	the records the sheet holds
+sheets	matches				number	the records the filter keeps
+sheets	positions				text	the positions of the records named, as a selection writes them
+origins	sheet		primary		number	the sheet's position among the sheets given, from 1
+origins	file			file	number	the file the sheet is of
+positions	position		primary		number	a position, counted from 1
+Signatures
+Callable	Direction	Position	Type	Relation
+Access programs
+Module	Access program	Starts
+relational model	loads	
+relational model	load	
+relational model	dumps	
+relational model	dump	
+relational model	instances	
+relational model	named	
+relational model	chosen	
+relational model	kept	
+format	loads	
+format	load	
+format	dumps	
+format	dump	
+format	instances	
+format	named	
+parser	loads	
+parser	load	
+generator	dumps	
+generator	dump	
+JSON text	instances	
+JSON text	named	
+query	chosen	
+query	kept	
+positions	named	
+positions	written	
+filter expression	kept	
+set operations	union	
+operations on relations	restrict	
+operations on relations	project	
+operations on relations	join	
+Parameters
+Module	Access program	Position	Parameter	Type	Relation	Default	Description
+relational model	loads	1	text	text			MTSV text
+relational model	load	1	octets	bytes			an MTSV file's octets, in UTF-8
+relational model	dumps	1	sheets	relations			the sheets to write
+relational model	dump	1	sheets	relations			the sheets to write
+relational model	instances	1	octets	bytes			a JSON text's octets
+relational model	named	1	instances	relation	instances		the instances of a text
+relational model	named	2	pointer	text			a JSON Pointer, from the text's value
+relational model	chosen	1	sheets	relations			the sheets of every file read, in the order of origins
+relational model	chosen	2	origins	relation	origins		the file each sheet is of
+relational model	chosen	3	file	relation	file		the files read
+relational model	chosen	4	lead	text			the column that leads each record of a union: file, or _input for the data bank's inputs
+relational model	chosen	5	sheet	text			the sheets chosen, as positions writes them
+relational model	chosen	6	records	text			the records chosen, as positions writes them
+relational model	chosen	7	fields	text			the fields chosen, as positions writes them
+relational model	chosen	8	filter	text			a filter expression
+relational model	chosen	9	join	text			the sheets joined, as positions writes them
+relational model	kept	1	sheets	relations			a level's sheets
+relational model	kept	2	filter	text			a filter expression
+format	loads	1	text	text			MTSV text
+format	load	1	octets	bytes			an MTSV file's octets, in UTF-8
+format	dumps	1	sheets	relations			the sheets to write
+format	dump	1	sheets	relations			the sheets to write
+format	instances	1	octets	bytes			a JSON text's octets
+format	named	1	instances	relation	instances		the instances of a text
+format	named	2	pointer	text			a JSON Pointer, from the text's value
+parser	loads	1	text	text			MTSV text
+parser	load	1	octets	bytes			an MTSV file's octets, in UTF-8
+generator	dumps	1	sheets	relations			the sheets to write
+generator	dump	1	sheets	relations			the sheets to write
+JSON text	instances	1	octets	bytes			a JSON text's octets
+JSON text	named	1	instances	relation	instances		the instances of a text
+JSON text	named	2	pointer	text			a JSON Pointer, from the text's value
+query	chosen	1	sheets	relations			the sheets of every file read, in the order of origins
+query	chosen	2	origins	relation	origins		the file each sheet is of
+query	chosen	3	file	relation	file		the files read
+query	chosen	4	lead	text			the column that leads each record of a union: file, or _input for the data bank's inputs
+query	chosen	5	sheet	text			the sheets chosen, as positions writes them
+query	chosen	6	records	text			the records chosen, as positions writes them
+query	chosen	7	fields	text			the fields chosen, as positions writes them
+query	chosen	8	filter	text			a filter expression
+query	chosen	9	join	text			the sheets joined, as positions writes them
+query	kept	1	sheets	relations			a level's sheets
+query	kept	2	filter	text			a filter expression
+positions	named	1	written	text			a selection's sheet, records or fields
+positions	named	2	count	number			how many positions there are, counted from 1
+positions	written	1	positions	relation	positions		positions, in order
+filter expression	kept	1	sheets	relations			a level's sheets
+filter expression	kept	2	filter	text			a filter expression
+set operations	union	1	sheets	relations			sheets from several files or inputs
+set operations	union	2	origins	relation	origins		the file each sheet is of
+set operations	union	3	file	relation	file		the files read
+set operations	union	4	lead	text			the column that leads each record of a union: file, or _input for the data bank's inputs
+operations on relations	restrict	1	sheets	relations			the sheets to restrict
+operations on relations	restrict	2	records	text			the records chosen, as positions writes them
+operations on relations	restrict	3	filter	text			a filter expression
+operations on relations	project	1	sheets	relations			the sheets to project
+operations on relations	project	2	fields	text			the fields chosen, as positions writes them
+operations on relations	join	1	sheets	relations			the sheets of every file read
+operations on relations	join	2	origins	relation	origins		the file each sheet is of
+operations on relations	join	3	join	text			the sheets joined, as positions writes them
+Parameter relations
+Module	Access program	Position	Relation
+Results
+Module	Access program	Position	Type	Relation	Description
+relational model	loads	1	relations		the sheets the text holds
+relational model	load	1	relations		the sheets the octets hold
+relational model	dumps	1	text		the MTSV text
+relational model	dump	1	bytes		the MTSV text as UTF-8 octets
+relational model	instances	1	relation	instances	the instances of the text
+relational model	instances	2	relation	runs	the runs of text of its strings that hold FF, a line break or HT
+relational model	instances	3	texts		the JSON Pointers to what is not carried
+relational model	named	1	relation	instances	the instance the pointer names, or none
+relational model	chosen	1	relations		the sheets, records and fields chosen
+relational model	chosen	2	relation	sheets	the report of each sheet chosen
+relational model	kept	1	relations		the records for which the filter holds
+format	loads	1	relations		the sheets the text holds
+format	load	1	relations		the sheets the octets hold
+format	dumps	1	text		the MTSV text
+format	dump	1	bytes		the MTSV text as UTF-8 octets
+format	instances	1	relation	instances	the instances of the text
+format	instances	2	relation	runs	the runs of text of its strings that hold FF, a line break or HT
+format	instances	3	texts		the JSON Pointers to what is not carried
+format	named	1	relation	instances	the instance the pointer names, or none
+parser	loads	1	relations		the sheets the text holds
+parser	load	1	relations		the sheets the octets hold
+generator	dumps	1	text		the MTSV text
+generator	dump	1	bytes		the MTSV text as UTF-8 octets
+JSON text	instances	1	relation	instances	the instances of the text
+JSON text	instances	2	relation	runs	the runs of text of its strings that hold FF, a line break or HT
+JSON text	instances	3	texts		the JSON Pointers to what is not carried
+JSON text	named	1	relation	instances	the instance the pointer names, or none
+query	chosen	1	relations		the sheets, records and fields chosen
+query	chosen	2	relation	sheets	the report of each sheet chosen
+query	kept	1	relations		the records for which the filter holds
+positions	named	1	relation	positions	the positions named that exist, in the order named
+positions	written	1	text		the positions written as runs
+filter expression	kept	1	relations		the records for which the filter holds
+set operations	union	1	relations		each sheet name once, its records those of every sheet of that name, each led by where it came from
+operations on relations	restrict	1	relations		the records kept
+operations on relations	project	1	relations		the fields kept
+operations on relations	join	1	relations		the natural join of each file's sheets named, then the other sheets
+Result relations
+Module	Access program	Position	Relation
+Compositions
+Module	Part	Handed
+query	operations on relations	positions
+query	operations on relations	filter expression
+Connectors
+Module	Peer	Connector	Protocol	Data
+Requirements
+Requirement	Module	Access program	Statement
+relational-model.1	relational model		The relational model MUST give the access programs of format and query as its own: loads and load, dumps and dump, instances and named, chosen and kept.
+format.1	format		format MUST give the access programs of the parser, the generator and JSON text as its own: loads and load, dumps and dump, instances and named.
+parser.1	parser		The parser MUST accept every MTSV file that conforms, as MTSV-DRAFT decides for parsers.
+parser.2	parser		The parser MUST treat a U+FEFF at the start of the text as an encoding signature, and not as part of the first field.
+parser.3	parser		The parser MUST raise not MTSV for text that does not conform, its reason the number of the line where it stops conforming, counted from 1.
+parser.4	parser	load	load MUST decode its octets as UTF-8, the character set of an MTSV file whose media type names none, before parsing them.
+generator.1	generator		The generator MUST write only MTSV files that conform, as MTSV-DRAFT decides for generators: an FF line before every sheet, the first included, a line break after every record, in UTF-8.
+generator.2	generator		The generator MUST raise cannot be represented for a field or sheet name that holds HT, LF, FF or CR, its reason the sheet's position, the record's position and the field's position, joined by a space, the sheet and the field counted from 1, the record 0 for the sheet name, 1 for the header and from 2 for the records.
+generator.3	generator	dump	dump MUST encode the MTSV text in UTF-8.
+json-text.1	JSON text	instances	JSON text MUST read a JSON text in UTF-8 as RFC 8259 defines it, a byte order mark at its start not ignored.
+json-text.8	JSON text	instances	JSON text MUST reject what is not a JSON text as not a JSON text.
+json-text.2	JSON text	instances	JSON text MUST give each instance of the text one record of instances, the value itself first and every instance before the instances within it, in the order written, its _parent the instance that holds it and its _pointer the JSON Pointer to it from that instance, ~ in a member name written ~0 and / written ~1.
+json-text.3	JSON text	instances	_type MUST be the instance's primitive type, an integer a number, and _value its text: a string's characters, a number as written, true or false, and empty for null, an object and an array.
+json-text.4	JSON text	instances	A string that holds FF, a line break or HT MUST have an empty _value, its text written to runs: split at each FF into pages, each page at each LF or CRLF into lines, each line at each HT into runs, a CRLF read as LF.
+json-text.5	JSON text	instances	A CR not followed by LF, a character that is not a Unicode character, and HT, LF, FF or CR in a member name within a pointer MUST be left out, each place one is left out given as not carried by its JSON Pointer within the text.
+json-text.6	JSON text	instances	An object whose names are not all unique MUST end the read as names not unique, its reason the JSON Pointer to the first object, in the order written, that repeats one, in its URI fragment representation.
+json-text.7	JSON text	named	named MUST give the instance a JSON Pointer names among a text's instances, evaluated from the text's value as RFC 6901 evaluates it, each reference token the _pointer of an instance within the one before it, and no instance where the pointer names none.
+query.1	query	kept	query MUST give the access program kept of filter expression as its own.
+query.2	query	chosen	Selection MUST give restriction by records and filter, projection by fields, join by join, and union by the sheets of one name from several origins.
+query.3	query	chosen	chosen MUST take the file each sheet is of from origins, so that sheet and join count and name the sheets of each file, and lead each record of a union by lead, file its file's position and _input its file's source.
+query.4	query	chosen	sheets MUST give each sheet chosen of each file: its records, the records of it the filter keeps, and the positions of those named in the sheet it is given in.
+query.5	query		A selection, filter or join refused MUST end chosen and kept as refused, with its reason.
+positions.1	positions	named	sheet, records and fields MUST each be written as 2, 1;3, 1-3 or 2-*, counting from 1 within what holds it.
+positions.4	positions	named	A selection not written as positions.1 writes it MUST be refused.
+positions.2	positions	named	Positions that do not exist MUST be left out.
+positions.3	positions	written	positions MUST write each run of consecutive positions, a run of one as its position and a longer run as its first and last joined by -, the runs joined by ;, and no position as the empty text.
+filter-expression.1	filter expression	kept	filter MUST be a filter expression in which @[0] is a record's first field, and keep the records for which it holds.
+filter-expression.2	filter expression	kept	A filter not written as filter-expression.1 writes it MUST be refused.
+set-operations.1	set operations	union	The union MUST give each sheet name once, its records those of every sheet of that name in the files or inputs read, in their order, each record led by the file or the _input it came from.
+set-operations.2	set operations	union	Sheets of one name whose headers differ MUST be given apart by the union.
+operations-on-relations.1	operations on relations	restrict	Restriction MUST keep the records whose positions records names and for which filter holds.
+operations-on-relations.3	operations on relations	project	Projection MUST keep the fields whose positions fields names.
+operations-on-relations.4	operations on relations	restrict	With a filter, records MUST count the records the filter keeps.
+operations-on-relations.2	operations on relations	project	A sheet left with no field MUST come back empty.
+operations-on-relations.5	operations on relations	join	join MUST name sheets of each file as sheet does, and give their natural join on every column whose name they share, before records, filter and fields are applied, the sheet it gives named by the names of the sheets joined, in order, joined by *, as a natural join is written.
+operations-on-relations.6	operations on relations	join	A join of sheets that share no column MUST be refused.
+Errors
+Module	Access program	Error	Requirement
+relational model	loads	not MTSV	
+relational model	load	not MTSV	
+relational model	dumps	cannot be represented	
+relational model	dump	cannot be represented	
+relational model	instances	not a JSON text	
+relational model	instances	names not unique	
+relational model	chosen	refused	
+relational model	kept	refused	
+format	loads	not MTSV	
+format	load	not MTSV	
+format	dumps	cannot be represented	
+format	dump	cannot be represented	
+format	instances	not a JSON text	
+format	instances	names not unique	
+parser	loads	not MTSV	parser.3
+parser	load	not MTSV	parser.3
+generator	dumps	cannot be represented	generator.2
+generator	dump	cannot be represented	generator.2
+JSON text	instances	not a JSON text	json-text.8
+JSON text	instances	names not unique	json-text.6
+query	chosen	refused	query.5
+query	kept	refused	query.5
+positions	named	refused	positions.4
+filter expression	kept	refused	filter-expression.2
+operations on relations	restrict	refused	
+operations on relations	project	refused	
+operations on relations	join	refused	operations-on-relations.6
+Ended errors
+Module	Access program	Called module	Called access program	Error	Disposition	Requirement
+Operations
+Operation	Module	Kind	Tag	Section	First block	Last block
+MTSV parse	parser	grammar	MTSV-DRAFT	Grammar		
+MTSV generate	generator	grammar	MTSV-DRAFT	Generators		
+JSON-text read	JSON text	grammar	RFC8259	2. JSON Grammar		
+JSON Pointer evaluation	JSON text	grammar	RFC6901	4. Evaluation	1	7
+position selection	positions	grammar	RFC7111	2.1. Row-Based Selection		
+filter	filter expression	grammar	RFC9535	2.3.5. Filter Selector		
+general category	filter expression	primitive	XSD-2	F.1.1 Character Class Escapes	25	78
+I-Regexp	filter expression	composite	RFC9485	4. I-Regexp Semantics	1	1
+union	set operations	grammar	CODD1972	2.3.1 Traditional Set Operations	3	3
+restriction	operations on relations	grammar	CODD1972	2.3.5 Restriction	1	4
+projection	operations on relations	grammar	CODD1972	2.3.2 Projection	1	5
+join	operations on relations	grammar	CODD1972	2.3.3 Join	1	3
+Operation inputs
+Operation	Position	Input	Type
+general category	1	character	text
+Bindings
+Operation	Notation	Code	Tag	Section	First block	Last block
+general category	python	{{result}} = unicodedata.category({{character}})	PY-UNICODEDATA	unicodedata --- Unicode Database	15	15
+general category	javascript	const {{result}} = ['Lu', 'Ll', 'Lt', 'Lm', 'Lo', 'Mn', 'Mc', 'Me', 'Nd', 'Nl', 'No', 'Pc', 'Pd', 'Ps', 'Pe', 'Pi', 'Pf', 'Po', 'Sm', 'Sc', 'Sk', 'So', 'Zs', 'Zl', 'Zp', 'Cc', 'Cf', 'Cs', 'Co'].find((name) => new RegExp('^\\p{' + name + '}$', 'u').test({{character}})) ?? 'Cn';	ECMA-262	22.2.2.9.8 UnicodeMatchPropertyValue ( p, v )		
+Operation steps
+Operation	Position	Step	Tag	Section	First block	Last block
+I-Regexp	1	syntax	RFC9485	3. I-Regexp Syntax		
+I-Regexp	2	regular expressions	XSD-2	F Regular Expressions	1	54
+I-Regexp	3	character classes	XSD-2	F.1 Character Classes	1	46
+I-Regexp	4	character class escapes	XSD-2	F.1.1 Character Class Escapes	1	146
+I-Regexp	5	general category	XSD-2	F.1.1 Character Class Escapes	25	78
+Terms
+Term	Module	Source	Section
+origin	relational model	CODD1972	2.3.1 Traditional Set Operations
+filter expression	relational model	RFC9535	2.3.5. Filter Selector
+Value uses
+Requirement	Value
+Operation uses
+Requirement	Operation
+parser.1	MTSV parse
+parser.2	MTSV parse
+parser.3	MTSV parse
+parser.4	UTF-8 decode
+generator.1	MTSV generate
+generator.2	MTSV generate
+generator.3	UTF-8 encode
+json-text.1	JSON-text read
+json-text.1	UTF-8 decode
+json-text.8	JSON-text read
+json-text.2	JSON Pointer
+json-text.5	JSON Pointer
+json-text.6	JSON Pointer
+json-text.6	percent-encoding
+json-text.6	UTF-8 encode
+json-text.7	JSON Pointer
+json-text.7	JSON Pointer evaluation
+query.2	restriction
+query.2	projection
+query.2	join
+query.2	union
+query.3	union
+query.4	position selection
+positions.1	position selection
+positions.4	position selection
+positions.2	position selection
+positions.3	position selection
+filter-expression.1	filter
+filter-expression.1	I-Regexp
+filter-expression.2	filter
+set-operations.1	union
+set-operations.2	union
+operations-on-relations.1	restriction
+operations-on-relations.1	position selection
+operations-on-relations.1	filter
+operations-on-relations.3	projection
+operations-on-relations.3	position selection
+operations-on-relations.4	filter
+operations-on-relations.2	projection
+operations-on-relations.5	join
+operations-on-relations.6	join
+Access program uses
+Requirement	Module	Access program
+relational-model.1	format	loads
+relational-model.1	format	load
+relational-model.1	format	dumps
+relational-model.1	format	dump
+relational-model.1	format	instances
+relational-model.1	format	named
+relational-model.1	query	chosen
+relational-model.1	query	kept
+format.1	parser	loads
+format.1	parser	load
+format.1	generator	dumps
+format.1	generator	dump
+format.1	JSON text	instances
+format.1	JSON text	named
+query.1	filter expression	kept
+query.2	operations on relations	restrict
+query.2	operations on relations	project
+query.2	operations on relations	join
+query.2	set operations	union
+query.3	set operations	union
+query.4	positions	named
+query.4	positions	written
+operations-on-relations.1	positions	named
+operations-on-relations.1	filter expression	kept
+operations-on-relations.3	positions	named
+operations-on-relations.4	filter expression	kept
+Citations
+Requirement	Tag	Section	First block	Last block
+relational-model.1	PARNAS1985	RESTRICTED AND HIDDEN MODULES	1	1
+relational-model.1	CODD1970	1.3. A Relational View of Data		
+format.1	PARNAS1985	RESTRICTED AND HIDDEN MODULES	1	1
+parser.1	MTSV-DRAFT	Parsers		
+parser.2	MTSV-DRAFT	Parsers		
+parser.3	MTSV-DRAFT	Parsers		
+parser.3	GNU	4.4 Formatting Error Messages	5	5
+parser.4	MTSV-DRAFT	Character Encoding	1	1
+parser.4	RFC3629	3. UTF-8 definition		
+generator.1	MTSV-DRAFT	Generators		
+generator.1	MTSV-DRAFT	Grammar		
+generator.2	MTSV-DRAFT	Generators		
+generator.3	MTSV-DRAFT	Generators	2	2
+generator.3	RFC3629	3. UTF-8 definition		
+json-text.1	RFC8259	2. JSON Grammar		
+json-text.1	RFC8259	8.1. Character Encoding		
+json-text.1	RFC3629	3. UTF-8 definition		
+json-text.2	RFC6901	3. Syntax		
+json-text.3	RFC8259	6. Numbers		
+json-text.4	MTSV-DRAFT	Data Model		
+json-text.5	MTSV-DRAFT	Data Model		
+json-text.6	RFC9413	5.1. Virtuous Intolerance		
+json-text.6	RFC6901	6. URI Fragment Identifier Representation	1	1
+json-text.7	RFC6901	4. Evaluation	1	7
+json-text.7	RFC6901	3. Syntax		
+query.1	PARNAS1985	RESTRICTED AND HIDDEN MODULES	1	1
+query.2	CODD1972	2.3 Definitions of the Operations	1	1
+query.2	CODD1972	4. Reduction	1	1
+query.3	CODD1972	2.3.1 Traditional Set Operations	3	3
+query.4	RFC7111	2.1. Row-Based Selection		
+query.5	RFC9413	5.1. Virtuous Intolerance		
+positions.1	RFC7111	2.1. Row-Based Selection		
+positions.1	RFC7111	2.2. Column-Based Selection		
+positions.1	RFC7111	2.4. Multi-Selections		
+positions.2	RFC7111	4.2. Semantics of Fragment Identifiers		
+positions.3	RFC7111	3. Fragment Identification Syntax		
+filter-expression.1	RFC9535	2.3.5. Filter Selector		
+filter-expression.1	RFC9535	2.4.6. match() Function Extension		
+filter-expression.1	RFC9535	2.4.7. search() Function Extension		
+filter-expression.1	RFC9485	3. I-Regexp Syntax		
+filter-expression.1	RFC9485	4. I-Regexp Semantics	1	1
+filter-expression.1	XSD-2	F Regular Expressions	1	54
+set-operations.1	CODD1972	2.3.1 Traditional Set Operations	3	3
+set-operations.2	CODD1972	2.3.1 Traditional Set Operations	3	3
+operations-on-relations.1	CODD1972	2.3.5 Restriction	1	4
+operations-on-relations.1	RFC7111	2.1. Row-Based Selection		
+operations-on-relations.1	RFC9535	2.3.5. Filter Selector		
+operations-on-relations.3	CODD1972	2.3.2 Projection	1	5
+operations-on-relations.3	RFC7111	2.2. Column-Based Selection		
+operations-on-relations.4	RFC9535	2.3.5. Filter Selector		
+operations-on-relations.2	RFC7111	4.2. Semantics of Fragment Identifiers		
+operations-on-relations.5	CODD1972	2.3.3 Join	1	3
+operations-on-relations.5	CODD1972	2.3.3 Join	8	8
+operations-on-relations.5	CODD1970	2.1.3. Join	4	4
+Spec relations
+Requirement	Target
+query.2	void-os.2
+Axis rules
+Standard	Characteristic	Subcharacteristic	Requirement
+ISO25010	Maintainability	modularity	query.3
+ISO25010	Interaction capability	user error protection	positions.4
+Requirement files
+Requirement	Path

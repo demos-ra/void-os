@@ -1,0 +1,1204 @@
+1-folders
+kind	place	holds
+2-modules
+kind	place	holds
+{{name}} · .js	storage.test	—
+3-statements
+kind	place	holds
+ImportDeclaration	storage.test.js#/SourceFile/0	—
+ImportDeclaration	storage.test.js#/SourceFile/1	—
+ImportDeclaration	storage.test.js#/SourceFile/2	—
+ImportDeclaration	storage.test.js#/SourceFile/3	—
+ExpressionStatement	storage.test.js#/SourceFile/4	—
+ExpressionStatement	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/5	—
+ExpressionStatement	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/6	—
+ExpressionStatement	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/7	—
+ExpressionStatement	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/8	—
+ExpressionStatement	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/9	—
+ExpressionStatement	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/10	—
+ExpressionStatement	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/11	—
+ExpressionStatement	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/12	—
+ExpressionStatement	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/13	—
+ExpressionStatement	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/14	—
+ExpressionStatement	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/15	—
+ExpressionStatement	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/16	—
+ExpressionStatement	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/17	—
+ExpressionStatement	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/18	—
+ExpressionStatement	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/19	—
+ExpressionStatement	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/20	—
+ExpressionStatement	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/21	—
+ExpressionStatement	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/22	—
+ExpressionStatement	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/23	—
+ExpressionStatement	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/24	—
+ExpressionStatement	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/25	—
+ExpressionStatement	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/26	—
+ExpressionStatement	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/27	—
+ExpressionStatement	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/28	—
+ExpressionStatement	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0	—
+ExpressionStatement	storage.test.js#/SourceFile/29	—
+ExpressionStatement	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0	—
+4-expressions
+kind	place	holds
+ImportClause · name	storage.test.js#/SourceFile/0/ImportClause	—
+StringLiteral	storage.test.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	storage.test.js#/SourceFile/1/ImportClause	—
+NamespaceImport	storage.test.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	storage.test.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	storage.test.js#/SourceFile/2/ImportClause	—
+NamespaceImport	storage.test.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	storage.test.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	storage.test.js#/SourceFile/3/ImportClause	—
+NamespaceImport	storage.test.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	storage.test.js#/SourceFile/3/ModuleSpecifier	—
+CallExpression	storage.test.js#/SourceFile/4/Expression	—
+Identifier	storage.test.js#/SourceFile/4/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/4/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/4/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/5/Expression	—
+Identifier	storage.test.js#/SourceFile/5/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/5/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/5/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/6/Expression	—
+Identifier	storage.test.js#/SourceFile/6/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/6/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/6/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/7/Expression	—
+Identifier	storage.test.js#/SourceFile/7/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/7/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/7/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/8/Expression	—
+Identifier	storage.test.js#/SourceFile/8/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/8/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/8/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/9/Expression	—
+Identifier	storage.test.js#/SourceFile/9/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/9/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/9/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/9/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/9/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/10/Expression	—
+Identifier	storage.test.js#/SourceFile/10/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/10/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/10/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/10/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/10/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/11/Expression	—
+Identifier	storage.test.js#/SourceFile/11/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/11/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/11/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/11/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/11/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/12/Expression	—
+Identifier	storage.test.js#/SourceFile/12/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/12/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/12/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/12/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/12/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/13/Expression	—
+Identifier	storage.test.js#/SourceFile/13/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/13/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/13/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/13/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/13/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/14/Expression	—
+Identifier	storage.test.js#/SourceFile/14/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/14/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/14/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/14/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/14/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/15/Expression	—
+Identifier	storage.test.js#/SourceFile/15/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/15/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/15/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/15/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/15/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/16/Expression	—
+Identifier	storage.test.js#/SourceFile/16/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/16/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/16/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/16/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/16/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/17/Expression	—
+Identifier	storage.test.js#/SourceFile/17/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/17/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/17/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/17/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/17/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/18/Expression	—
+Identifier	storage.test.js#/SourceFile/18/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/18/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/18/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/18/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/18/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/19/Expression	—
+Identifier	storage.test.js#/SourceFile/19/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/19/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/19/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/19/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/19/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/20/Expression	—
+Identifier	storage.test.js#/SourceFile/20/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/20/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/20/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/20/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/20/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/21/Expression	—
+Identifier	storage.test.js#/SourceFile/21/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/21/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/21/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/21/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/21/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/22/Expression	—
+Identifier	storage.test.js#/SourceFile/22/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/22/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/22/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/22/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/22/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/23/Expression	—
+Identifier	storage.test.js#/SourceFile/23/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/23/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/23/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/23/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/23/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/24/Expression	—
+Identifier	storage.test.js#/SourceFile/24/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/24/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/24/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/24/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/24/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/25/Expression	—
+Identifier	storage.test.js#/SourceFile/25/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/25/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/25/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/25/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/25/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/26/Expression	—
+Identifier	storage.test.js#/SourceFile/26/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/26/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/26/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/26/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/26/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/27/Expression	—
+Identifier	storage.test.js#/SourceFile/27/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/27/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/27/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/27/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/27/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/28/Expression	—
+Identifier	storage.test.js#/SourceFile/28/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/28/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/28/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/28/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/28/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+CallExpression	storage.test.js#/SourceFile/29/Expression	—
+Identifier	storage.test.js#/SourceFile/29/Expression/Expression	—
+StringLiteral	storage.test.js#/SourceFile/29/Expression/Arguments/0	—
+ArrowFunction · Block	storage.test.js#/SourceFile/29/Expression/Arguments/1	—
+—	storage.test.js#/SourceFile/29/Expression/Arguments/1/Parameters/0	—
+Identifier	storage.test.js#/SourceFile/29/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+5-texts
+kind	place	holds
+—	storage.test.js#/SourceFile/0/ImportClause/name/Text	test
+—	storage.test.js#/SourceFile/0/ModuleSpecifier/Text	'node:test'
+—	storage.test.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	relationalModel
+—	storage.test.js#/SourceFile/1/ModuleSpecifier/Text	'../../../src/relational-model/relational-model.js'
+—	storage.test.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	values
+—	storage.test.js#/SourceFile/2/ModuleSpecifier/Text	'../../../src/system-generation/values/values.js'
+—	storage.test.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	runner
+—	storage.test.js#/SourceFile/3/ModuleSpecifier/Text	'../../system-generation/runner/runner.js'
+—	storage.test.js#/SourceFile/4/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/4/Expression/Arguments/0/Text	'storage.1'
+—	storage.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.1'
+—	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/5/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/5/Expression/Arguments/0/Text	'storage.10'
+—	storage.test.js#/SourceFile/5/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.10'
+—	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/5/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/6/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/6/Expression/Arguments/0/Text	'storage.11'
+—	storage.test.js#/SourceFile/6/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.11'
+—	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/6/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/7/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/7/Expression/Arguments/0/Text	'storage.12'
+—	storage.test.js#/SourceFile/7/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.12'
+—	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/7/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/8/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/8/Expression/Arguments/0/Text	'storage.13'
+—	storage.test.js#/SourceFile/8/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.13'
+—	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/8/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/9/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/9/Expression/Arguments/0/Text	'storage.14'
+—	storage.test.js#/SourceFile/9/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.14'
+—	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/9/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/10/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/10/Expression/Arguments/0/Text	'storage.15'
+—	storage.test.js#/SourceFile/10/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.15'
+—	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/10/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/11/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/11/Expression/Arguments/0/Text	'storage.16'
+—	storage.test.js#/SourceFile/11/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.16'
+—	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/11/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/12/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/12/Expression/Arguments/0/Text	'storage.17'
+—	storage.test.js#/SourceFile/12/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.17'
+—	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/12/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/13/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/13/Expression/Arguments/0/Text	'storage.18'
+—	storage.test.js#/SourceFile/13/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.18'
+—	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/13/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/14/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/14/Expression/Arguments/0/Text	'storage.19'
+—	storage.test.js#/SourceFile/14/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.19'
+—	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/14/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/15/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/15/Expression/Arguments/0/Text	'storage.2'
+—	storage.test.js#/SourceFile/15/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.2'
+—	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/15/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/16/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/16/Expression/Arguments/0/Text	'storage.20'
+—	storage.test.js#/SourceFile/16/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.20'
+—	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/16/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/17/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/17/Expression/Arguments/0/Text	'storage.21'
+—	storage.test.js#/SourceFile/17/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.21'
+—	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/17/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/18/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/18/Expression/Arguments/0/Text	'storage.22'
+—	storage.test.js#/SourceFile/18/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.22'
+—	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/18/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/19/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/19/Expression/Arguments/0/Text	'storage.23'
+—	storage.test.js#/SourceFile/19/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.23'
+—	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/19/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/20/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/20/Expression/Arguments/0/Text	'storage.24'
+—	storage.test.js#/SourceFile/20/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.24'
+—	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/20/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/21/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/21/Expression/Arguments/0/Text	'storage.25'
+—	storage.test.js#/SourceFile/21/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.25'
+—	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/21/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/22/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/22/Expression/Arguments/0/Text	'storage.26'
+—	storage.test.js#/SourceFile/22/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.26'
+—	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/22/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/23/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/23/Expression/Arguments/0/Text	'storage.3'
+—	storage.test.js#/SourceFile/23/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.3'
+—	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/23/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/24/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/24/Expression/Arguments/0/Text	'storage.4'
+—	storage.test.js#/SourceFile/24/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.4'
+—	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/24/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/25/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/25/Expression/Arguments/0/Text	'storage.5'
+—	storage.test.js#/SourceFile/25/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.5'
+—	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/25/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/26/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/26/Expression/Arguments/0/Text	'storage.6'
+—	storage.test.js#/SourceFile/26/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.6'
+—	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/26/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/27/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/27/Expression/Arguments/0/Text	'storage.7'
+—	storage.test.js#/SourceFile/27/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.7'
+—	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/27/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/28/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/28/Expression/Arguments/0/Text	'storage.8'
+—	storage.test.js#/SourceFile/28/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.8'
+—	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/28/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values
+—	storage.test.js#/SourceFile/29/Expression/Expression/Text	test
+—	storage.test.js#/SourceFile/29/Expression/Arguments/0/Text	'storage.9'
+—	storage.test.js#/SourceFile/29/Expression/Arguments/1/Parameters/0/name/Text	t
+—	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'storage.9'
+—	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../../conformance'
+—	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	storage.test.js#/SourceFile/29/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values

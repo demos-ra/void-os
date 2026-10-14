@@ -1,0 +1,81 @@
+1-folders
+kind	place	holds
+—	read	—
+—	server	—
+2-modules
+kind	place	holds
+{{name}} · .js	tools.test	—
+3-statements
+kind	place	holds
+ImportDeclaration	tools.test.js#/SourceFile/0	—
+ImportDeclaration	tools.test.js#/SourceFile/1	—
+ImportDeclaration	tools.test.js#/SourceFile/2	—
+ImportDeclaration	tools.test.js#/SourceFile/3	—
+ExpressionStatement	tools.test.js#/SourceFile/4	—
+ExpressionStatement	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0	—
+4-expressions
+kind	place	holds
+ImportClause · name	tools.test.js#/SourceFile/0/ImportClause	—
+StringLiteral	tools.test.js#/SourceFile/0/ModuleSpecifier	—
+ImportClause · NamedBindings	tools.test.js#/SourceFile/1/ImportClause	—
+NamespaceImport	tools.test.js#/SourceFile/1/ImportClause/NamedBindings	—
+StringLiteral	tools.test.js#/SourceFile/1/ModuleSpecifier	—
+ImportClause · NamedBindings	tools.test.js#/SourceFile/2/ImportClause	—
+NamespaceImport	tools.test.js#/SourceFile/2/ImportClause/NamedBindings	—
+StringLiteral	tools.test.js#/SourceFile/2/ModuleSpecifier	—
+ImportClause · NamedBindings	tools.test.js#/SourceFile/3/ImportClause	—
+NamespaceImport	tools.test.js#/SourceFile/3/ImportClause/NamedBindings	—
+StringLiteral	tools.test.js#/SourceFile/3/ModuleSpecifier	—
+CallExpression	tools.test.js#/SourceFile/4/Expression	—
+Identifier	tools.test.js#/SourceFile/4/Expression/Expression	—
+StringLiteral	tools.test.js#/SourceFile/4/Expression/Arguments/0	—
+ArrowFunction · Block	tools.test.js#/SourceFile/4/Expression/Arguments/1	—
+—	tools.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0	—
+Identifier	tools.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name	—
+CallExpression	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression	—
+PropertyAccessExpression · DotToken	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression	—
+PropertyAccessExpression · DotToken	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression	—
+Identifier	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression	—
+Identifier	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name	—
+Identifier	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name	—
+CallExpression	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0	—
+PropertyAccessExpression · DotToken	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression	—
+Identifier	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression	—
+Identifier	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name	—
+StringLiteral	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0	—
+NumericLiteral	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1	—
+BinaryExpression	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2	—
+PropertyAccessExpression · DotToken	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left	—
+MetaProperty	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression	—
+ImportKeyword	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/KeywordToken	—
+Identifier	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name	—
+PlusToken	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/OperatorToken	—
+StringLiteral	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right	—
+Identifier	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3	—
+Identifier	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4	—
+ArrayLiteralExpression	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/1	—
+5-texts
+kind	place	holds
+—	tools.test.js#/SourceFile/0/ImportClause/name/Text	test
+—	tools.test.js#/SourceFile/0/ModuleSpecifier/Text	'node:test'
+—	tools.test.js#/SourceFile/1/ImportClause/NamedBindings/name/Text	relationalModel
+—	tools.test.js#/SourceFile/1/ModuleSpecifier/Text	'../../src/relational-model/relational-model.js'
+—	tools.test.js#/SourceFile/2/ImportClause/NamedBindings/name/Text	values
+—	tools.test.js#/SourceFile/2/ModuleSpecifier/Text	'../../src/system-generation/values/values.js'
+—	tools.test.js#/SourceFile/3/ImportClause/NamedBindings/name/Text	runner
+—	tools.test.js#/SourceFile/3/ModuleSpecifier/Text	'../system-generation/runner/runner.js'
+—	tools.test.js#/SourceFile/4/Expression/Expression/Text	test
+—	tools.test.js#/SourceFile/4/Expression/Arguments/0/Text	'tools.1'
+—	tools.test.js#/SourceFile/4/Expression/Arguments/1/Parameters/0/name/Text	t
+—	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/Expression/Text	t
+—	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/Expression/name/Text	assert
+—	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Expression/name/Text	deepStrictEqual
+—	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/Expression/Text	runner
+—	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Expression/name/Text	run
+—	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/0/Text	'tools.1'
+—	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/1/Text	1
+—	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/Expression/name/Text	meta
+—	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Left/name/Text	dirname
+—	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/2/Right/Text	'/../../../conformance'
+—	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/3/Text	relationalModel
+—	tools.test.js#/SourceFile/4/Expression/Arguments/1/Body/0/Expression/Arguments/0/Arguments/4/Text	values

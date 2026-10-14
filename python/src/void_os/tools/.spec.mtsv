@@ -1,0 +1,81 @@
+1-folders
+kind	place	holds
+—	read	—
+—	server	—
+2-modules
+kind	place	holds
+{{name}} · .py	__init__	—
+{{name}} · .py	_tools	—
+3-statements
+kind	place	holds
+Expr	_tools.py#/Module/0	—
+Assign	_tools.py#/Module/1	—
+Import	_tools.py#/Module/2	—
+ImportFrom	_tools.py#/Module/3	—
+ImportFrom	_tools.py#/Module/4	—
+ImportFrom	_tools.py#/Module/5	—
+FunctionDef	_tools.py#/Module/6	—
+Return	_tools.py#/Module/6/body/0	—
+4-expressions
+kind	place	holds
+Constant	_tools.py#/Module/0/value	—
+Name	_tools.py#/Module/1/targets/0	—
+List	_tools.py#/Module/1/value	—
+Constant	_tools.py#/Module/1/value/elts/0	—
+—	_tools.py#/Module/2/names/0	—
+—	_tools.py#/Module/3/module	—
+—	_tools.py#/Module/3/names/0	—
+—	_tools.py#/Module/4/module	—
+—	_tools.py#/Module/4/names/0	—
+—	_tools.py#/Module/5/module	—
+—	_tools.py#/Module/5/names/0	—
+arg	_tools.py#/Module/6/args/0	—
+Subscript	_tools.py#/Module/6/args/0/annotation	—
+Name	_tools.py#/Module/6/args/0/annotation/value	—
+Tuple	_tools.py#/Module/6/args/0/annotation/slice	—
+Name	_tools.py#/Module/6/args/0/annotation/slice/elts/0	—
+Name	_tools.py#/Module/6/args/0/annotation/slice/elts/1	—
+arg	_tools.py#/Module/6/args/1	—
+Attribute	_tools.py#/Module/6/args/1/annotation	—
+Name	_tools.py#/Module/6/args/1/annotation/value	—
+arg	_tools.py#/Module/6/args/2	—
+Attribute	_tools.py#/Module/6/args/2/annotation	—
+Name	_tools.py#/Module/6/args/2/annotation/value	—
+Constant	_tools.py#/Module/6/returns	—
+Call	_tools.py#/Module/6/body/0/value	—
+Attribute	_tools.py#/Module/6/body/0/value/func	—
+Name	_tools.py#/Module/6/body/0/value/func/value	—
+Name	_tools.py#/Module/6/body/0/value/arguments/0	—
+Name	_tools.py#/Module/6/body/0/value/arguments/1	—
+Name	_tools.py#/Module/6/body/0/value/arguments/2	—
+Name	_tools.py#/Module/6/body/0/value/arguments/3	—
+5-texts
+kind	place	holds
+—	_tools.py#/Module/0/value/value	"""the MCP server and the one tool it offers"""
+—	_tools.py#/Module/1/targets/0/id	__all__
+—	_tools.py#/Module/1/value/elts/0/value	'serve'
+—	_tools.py#/Module/2/names/0/name	types
+—	_tools.py#/Module/3/module/value	typing
+—	_tools.py#/Module/3/names/0/name	Any
+—	_tools.py#/Module/4/module/value	void_os.tools.read
+—	_tools.py#/Module/4/names/0/name	_read
+—	_tools.py#/Module/5/module/value	void_os.tools.server
+—	_tools.py#/Module/5/names/0/name	_server
+—	_tools.py#/Module/6/name/value	serve
+—	_tools.py#/Module/6/args/0/arg	values
+—	_tools.py#/Module/6/args/0/annotation/value/id	dict
+—	_tools.py#/Module/6/args/0/annotation/slice/elts/0/id	str
+—	_tools.py#/Module/6/args/0/annotation/slice/elts/1/id	Any
+—	_tools.py#/Module/6/args/1/arg	relational_model
+—	_tools.py#/Module/6/args/1/annotation/value/id	types
+—	_tools.py#/Module/6/args/1/annotation/attr	ModuleType
+—	_tools.py#/Module/6/args/2/arg	data_bank
+—	_tools.py#/Module/6/args/2/annotation/value/id	types
+—	_tools.py#/Module/6/args/2/annotation/attr	ModuleType
+—	_tools.py#/Module/6/returns/value	None
+—	_tools.py#/Module/6/body/0/value/func/value/id	_server
+—	_tools.py#/Module/6/body/0/value/func/attr	serve
+—	_tools.py#/Module/6/body/0/value/arguments/0/id	values
+—	_tools.py#/Module/6/body/0/value/arguments/1/id	relational_model
+—	_tools.py#/Module/6/body/0/value/arguments/2/id	data_bank
+—	_tools.py#/Module/6/body/0/value/arguments/3/id	_read
