@@ -1,0 +1,62 @@
+void-os
+
+void-os is an operating system for language models and agents in which every datum is a relation in normal form held as MTSV text: a data bank that keeps what a harness sends, tools through which a model reads it and any other file, hooks through which a harness reaches both, and a view through which a person sees the whole of it.
+
+Install
+
+    npm install --global void-os
+
+Modules
+
+void-os: the command: the relational model, data bank, tools, hooks, view and system generation wired into the void-os command, each handed what it needs
+  relational model: what a datum is: a relation, written as text and read back, and operated on by the relational algebra
+    format: how a relation is written as text and read back: MTSV, and JSON at void-os's edges
+      parser: how MTSV text becomes sheets
+      generator: how sheets become MTSV text
+      JSON text: how a JSON text becomes the relations of its instances
+    query: which sheets, records and fields a reader names, as the relational algebra's operations, written by position and by filter
+      positions: how positions are written, 2, 1;3, 1-3 or 2-*, counted from 1, and which positions a selection names
+      filter expression: what a filter expression is, and which records it keeps
+      set operations: the traditional set operations: the union of a sheet across files or inputs
+      operations on relations: the less traditional operations on relations: restriction by position or filter, projection by fields, and join on shared columns
+  data bank: how relations are kept and given back: converted in from JSON, inserted, and communicated
+    converter: how the JSON values a schema describes become relations, written as one MTSV file
+      converter › input: what the converter is given: the module specification and the input values, read through JSON text into relations
+        schema: what a module specification supplies, and how its schema is read and applied
+        value: how each input value is read as a JSON text, and when it is rejected
+      transfer: how the input's relations become relations in normal form
+        relation: which relation and column each value is written to
+        key: how each record is identified, and how a place within a value is named
+        order: the order of sheets, records and columns
+      output: how the relations are written as MTSV, at its levels
+        file: which sheets the whole input's one MTSV file holds, and in which order
+        sheet: the name and the header of each sheet
+        record: each instance as one record of its sheet
+        field: how a value is written as a field's text
+    storage: where and how each input is kept: its folder and file, inserted only, each value whole
+    communication: what the data bank gives: names, records by their keys, and what is new
+  tools: the MCP server and the one tool it offers
+    read: how a pathname is read as MTSV: a file, a directory of files, or the data bank
+      read › input: what a pathname names: a file, a directory of files, or the data bank
+      conversion: how a file of another format becomes sheets, and what it leaves behind
+        package: how a package's zip entries and XML parts are read as nodes
+        csv: how a CSV file becomes a sheet
+        json: how a JSON file becomes sheets
+        xlsx: how a workbook becomes sheets
+        ods: how a spreadsheet document becomes sheets
+        sqlite: how a database becomes sheets
+      reply: what every reply states: the report, then the map or the values
+    server: how the tool is offered and called over MCP
+  hooks: how a harness's hook events reach the data bank, and what they give back
+    hook input: how a hook's input is inserted into the data bank
+    hook output: what a hook gives the harness as context, and in which form
+  view: how a person sees the whole data bank: overview first, zoom and filter, then details on demand
+    overview: what the whole data bank holds: each input, its values, and its days
+    zoom: what one input holds: its days, then the turns of a day
+    filter: which records a level keeps, by the filter query gives
+    details: one value in full: every record of every sheet it gives
+    terminal: how a level is laid out on a terminal, and when it is written as MTSV instead
+  system generation: the decisions postponed to release, and how void-os is built, described and installed
+    values: where the Values are read from, and how values.mtsv is written
+    distribution package: how void-os is built, described and installed: a package on PyPI and on npm, and a server in the MCP Registry
+    runner: how a conformance case is run: found by its key, its fixtures placed, its access program called, and what it asserts compared
