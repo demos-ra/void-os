@@ -1,3 +1,5 @@
+![VOID OS](banner.svg)
+
 # void-os
 
 **Memory is space. Time is CPU cycles.**
